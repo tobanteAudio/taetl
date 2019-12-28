@@ -239,6 +239,18 @@ Functions</h2></td></tr>
 <tr class="memitem:aae859ab8d18ab708d842c0da08a26656"><td class="memTemplParams" colspan="2">template&lt;class Type , class Compare &gt; </td></tr>
 <tr class="memitem:aae859ab8d18ab708d842c0da08a26656"><td class="memTemplItemLeft" align="right" valign="top">constexpr const Type &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#aae859ab8d18ab708d842c0da08a26656">clamp</a> (const Type &amp;v, const Type &amp;lo, const Type &amp;hi, Compare comp)</td></tr>
 <tr class="separator:aae859ab8d18ab708d842c0da08a26656"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae31fe5ab6c75ad12c48edef270fe6452"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class UnaryPredicate &gt; </td></tr>
+<tr class="memitem:ae31fe5ab6c75ad12c48edef270fe6452"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ae31fe5ab6c75ad12c48edef270fe6452">all_of</a> (InputIt first, InputIt last, UnaryPredicate p)</td></tr>
+<tr class="memdesc:ae31fe5ab6c75ad12c48edef270fe6452"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if unary predicate p returns true for all elements in the range [first, last).  <a href="#ae31fe5ab6c75ad12c48edef270fe6452">More...</a><br /></td></tr>
+<tr class="separator:ae31fe5ab6c75ad12c48edef270fe6452"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05fb3ba20eb6787cfbc3a393b1b5f548"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class UnaryPredicate &gt; </td></tr>
+<tr class="memitem:a05fb3ba20eb6787cfbc3a393b1b5f548"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a05fb3ba20eb6787cfbc3a393b1b5f548">any_of</a> (InputIt first, InputIt last, UnaryPredicate p)</td></tr>
+<tr class="memdesc:a05fb3ba20eb6787cfbc3a393b1b5f548"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if unary predicate p returns true for at least one element in the range [first, last).  <a href="#a05fb3ba20eb6787cfbc3a393b1b5f548">More...</a><br /></td></tr>
+<tr class="separator:a05fb3ba20eb6787cfbc3a393b1b5f548"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9cab4075d371e21333b58706ef6c2cc"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class UnaryPredicate &gt; </td></tr>
+<tr class="memitem:af9cab4075d371e21333b58706ef6c2cc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#af9cab4075d371e21333b58706ef6c2cc">none_of</a> (InputIt first, InputIt last, UnaryPredicate p)</td></tr>
+<tr class="memdesc:af9cab4075d371e21333b58706ef6c2cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if unary predicate p returns true for no elements in the range [first, last).  <a href="#af9cab4075d371e21333b58706ef6c2cc">More...</a><br /></td></tr>
+<tr class="separator:af9cab4075d371e21333b58706ef6c2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type &gt; </td></tr>
 <tr class="memitem:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a9a95c2aaf083721a0a5dc9135ec7b933">accumulate</a> (InputIt first, InputIt last, Type init) noexcept</td></tr>
 <tr class="memdesc:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements.  <a href="#a9a95c2aaf083721a0a5dc9135ec7b933">More...</a><br /></td></tr>
@@ -624,6 +636,82 @@ template&lt;class InputIt , class Type , class BinaryOperation &gt; </div>
 </div><div class="memdoc">
 
 <p>Computes the sum of the given value init and the elements in the range [first, last). Uses the BinaryOperation to sum up the elements. </p>
+
+</div>
+</div>
+<a id="ae31fe5ab6c75ad12c48edef270fe6452"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae31fe5ab6c75ad12c48edef270fe6452">&#9670;&nbsp;</a></span>all_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt , class UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::all_of </td>
+          <td>(</td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if unary predicate p returns true for all elements in the range [first, last). </p>
+
+</div>
+</div>
+<a id="a05fb3ba20eb6787cfbc3a393b1b5f548"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05fb3ba20eb6787cfbc3a393b1b5f548">&#9670;&nbsp;</a></span>any_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt , class UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::any_of </td>
+          <td>(</td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if unary predicate p returns true for at least one element in the range [first, last). </p>
 
 </div>
 </div>
@@ -1291,6 +1379,44 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 </div><div class="memdoc">
 
 <p>Finds the smallest element in the range [first, last). Elements are compared using the given binary comparison function comp. </p>
+
+</div>
+</div>
+<a id="af9cab4075d371e21333b58706ef6c2cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9cab4075d371e21333b58706ef6c2cc">&#9670;&nbsp;</a></span>none_of()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt , class UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::none_of </td>
+          <td>(</td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if unary predicate p returns true for no elements in the range [first, last). </p>
 
 </div>
 </div>

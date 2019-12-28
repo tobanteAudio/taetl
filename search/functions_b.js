@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['size',['size',['../classtaetl_1_1Array.html#abdb280fec527919a28f959be965aaca9',1,'taetl::Array::size()'],['../classtaetl_1_1String.html#a4e35e03703a9de5be33323ca0a82a250',1,'taetl::String::size()']]],
-  ['string',['String',['../classtaetl_1_1String.html#a82a65a09a226fc3f3da6414f1d01ac21',1,'taetl::String']]]
+  ['pin',['Pin',['../classtaetl_1_1hardware_1_1Pin.html#afa232c42b6452d72a77692dc2e88ab5c',1,'taetl::hardware::Pin']]],
+  ['pop_5fback',['pop_back',['../classtaetl_1_1Array.html#a73005d8a828ef23c10a279cd6552c3d5',1,'taetl::Array']]],
+  ['push_5fback',['push_back',['../classtaetl_1_1Array.html#a532b2a176212c24b68c7007a2e534f45',1,'taetl::Array']]]
 ];
