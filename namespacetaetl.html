@@ -263,6 +263,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a515313e6bf69a98ef2f86dfc3ce5a9a4">abs</a> (Type input) noexcept</td></tr>
 <tr class="memdesc:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute value.  <a href="#a515313e6bf69a98ef2f86dfc3ce5a9a4">More...</a><br /></td></tr>
 <tr class="separator:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af268ab31c7b18ec7dff24ab944677fcb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#af268ab31c7b18ec7dff24ab944677fcb">strlen</a> (const char *str) -&gt; <a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a></td></tr>
+<tr class="memdesc:af268ab31c7b18ec7dff24ab944677fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#af268ab31c7b18ec7dff24ab944677fcb">More...</a><br /></td></tr>
+<tr class="separator:af268ab31c7b18ec7dff24ab944677fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adff7770abd71ad0ec36e272c8c72f90f"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
 <tr class="memitem:adff7770abd71ad0ec36e272c8c72f90f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#adff7770abd71ad0ec36e272c8c72f90f">get</a> (const <a class="el" href="structtaetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structtaetl_1_1GetImpl.html">GetImpl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
 <tr class="separator:adff7770abd71ad0ec36e272c8c72f90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1417,6 +1420,35 @@ template&lt;class InputIt , class UnaryPredicate &gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if unary predicate p returns true for no elements in the range [first, last). </p>
+
+</div>
+</div>
+<a id="af268ab31c7b18ec7dff24ab944677fcb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af268ab31c7b18ec7dff24ab944677fcb">&#9670;&nbsp;</a></span>strlen()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto taetl::strlen </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the length of the C string str. </p>
 
 </div>
 </div>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
-  ['reference',['reference',['../classtaetl_1_1Array.html#a16a37bc5ad38d7d6b4b53f4d69d5c933',1,'taetl::Array::reference()'],['../classtaetl_1_1String.html#a3898f0804ce420ea6c80ee85bbcf1e35',1,'taetl::String::reference()']]],
+  ['reference',['reference',['../classtaetl_1_1Array.html#a16a37bc5ad38d7d6b4b53f4d69d5c933',1,'taetl::Array::reference()'],['../classtaetl_1_1String.html#a2225251c0d3e6f54c6e5af2757a1ccd1',1,'taetl::String::reference()']]],
   ['remove_5fconst',['remove_const',['../structtaetl_1_1remove__const.html',1,'taetl']]],
   ['remove_5fconst_3c_20type_20const_20_3e',['remove_const&lt; Type const &gt;',['../structtaetl_1_1remove__const_3_01Type_01const_01_4.html',1,'taetl']]],
   ['remove_5fconst_5ft',['remove_const_t',['../namespacetaetl.html#a2ab096f557775ec6c067704e0c567069',1,'taetl']]],
