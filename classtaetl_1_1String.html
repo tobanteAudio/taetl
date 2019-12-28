@@ -99,7 +99,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a82a65a09a226fc3f3da6414f1d01ac21"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1String.html#a82a65a09a226fc3f3da6414f1d01ac21">String</a> ()=default</td></tr>
 <tr class="memdesc:a82a65a09a226fc3f3da6414f1d01ac21"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor.  <a href="#a82a65a09a226fc3f3da6414f1d01ac21">More...</a><br /></td></tr>
 <tr class="separator:a82a65a09a226fc3f3da6414f1d01ac21"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a55fa6fd71c982c5249d90e3577c5f2e6"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1String.html#a55fa6fd71c982c5249d90e3577c5f2e6">String</a> (const char *c_string, <a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> <a class="el" href="classtaetl_1_1String.html#ac5e172b346cd6454d9ab607358cd857b">length</a>) noexcept</td></tr>
+<tr class="memdesc:a55fa6fd71c982c5249d90e3577c5f2e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charater Pointer constant constructor. Fails silently if input length is greater then capacity.  <a href="#a55fa6fd71c982c5249d90e3577c5f2e6">More...</a><br /></td></tr>
+<tr class="separator:a55fa6fd71c982c5249d90e3577c5f2e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6bc206d151aacdcafa91547d4882366f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1String.html#a6bc206d151aacdcafa91547d4882366f">String</a> (const char *c_string) noexcept</td></tr>
+<tr class="memdesc:a6bc206d151aacdcafa91547d4882366f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Charater Pointer constant constructor. Calls <a class="el" href="namespacetaetl.html#af268ab31c7b18ec7dff24ab944677fcb" title="Returns the length of the C string str. ">taetl::strlen</a>. Fails silently if input length is greater then capacity.  <a href="#a6bc206d151aacdcafa91547d4882366f">More...</a><br /></td></tr>
 <tr class="separator:a6bc206d151aacdcafa91547d4882366f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a765e3e5ed9b6d97afbf70cf782409566"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="classtaetl_1_1String.html#a2225251c0d3e6f54c6e5af2757a1ccd1">reference</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1String.html#a765e3e5ed9b6d97afbf70cf782409566">at</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> index) noexcept</td></tr>
 <tr class="memdesc:a765e3e5ed9b6d97afbf70cf782409566"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the specified character with bounds checking.  <a href="#a765e3e5ed9b6d97afbf70cf782409566">More...</a><br /></td></tr>
@@ -286,7 +290,7 @@ template&lt;typename CharType  = char, taetl::size_t Size = 16&gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a82a65a09a226fc3f3da6414f1d01ac21"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a82a65a09a226fc3f3da6414f1d01ac21">&#9670;&nbsp;</a></span>String() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a82a65a09a226fc3f3da6414f1d01ac21">&#9670;&nbsp;</a></span>String() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -314,8 +318,48 @@ template&lt;typename CharType  = char, taetl::size_t Size = 16&gt; </div>
 
 </div>
 </div>
+<a id="a55fa6fd71c982c5249d90e3577c5f2e6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a55fa6fd71c982c5249d90e3577c5f2e6">&#9670;&nbsp;</a></span>String() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType  = char, taetl::size_t Size = 16&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classtaetl_1_1String.html">taetl::String</a>&lt; CharType, Size &gt;::<a class="el" href="classtaetl_1_1String.html">String</a> </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>c_string</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>&#160;</td>
+          <td class="paramname"><em>length</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Charater Pointer constant constructor. Fails silently if input length is greater then capacity. </p>
+
+</div>
+</div>
 <a id="a6bc206d151aacdcafa91547d4882366f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bc206d151aacdcafa91547d4882366f">&#9670;&nbsp;</a></span>String() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bc206d151aacdcafa91547d4882366f">&#9670;&nbsp;</a></span>String() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -339,6 +383,8 @@ template&lt;typename CharType  = char, taetl::size_t Size = 16&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Charater Pointer constant constructor. Calls <a class="el" href="namespacetaetl.html#af268ab31c7b18ec7dff24ab944677fcb" title="Returns the length of the C string str. ">taetl::strlen</a>. Fails silently if input length is greater then capacity. </p>
 
 </div>
 </div>
