@@ -1,4 +1,7 @@
 var searchData=
 [
-  ['value_5ftype',['value_type',['../classtaetl_1_1Array.html#a042b8e59dceecd2696fd5e65ba432a9b',1,'taetl::Array::value_type()'],['../classtaetl_1_1String.html#a0d28449a3a73340f74ab9a6eadbef452',1,'taetl::String::value_type()'],['../structtaetl_1_1integral__constant.html#a9929d5ac87427db7071c7ec2211b2c7b',1,'taetl::integral_constant::value_type()']]]
+  ['uint16_5ft',['uint16_t',['../namespacetaetl.html#aa93a4e040f5385b687879d6a1800ab7d',1,'taetl']]],
+  ['uint32_5ft',['uint32_t',['../namespacetaetl.html#a8209daf6113537c7e4ebf29ace73979b',1,'taetl']]],
+  ['uint64_5ft',['uint64_t',['../namespacetaetl.html#a302af7df0d7935a6bcdf106eb724514e',1,'taetl']]],
+  ['uint8_5ft',['uint8_t',['../namespacetaetl.html#adc1299ab92880db730f5a07df47e59fd',1,'taetl']]]
 ];
