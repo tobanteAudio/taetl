@@ -130,6 +130,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__union.html">taetl::is_union&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1conditional.html">taetl::conditional&lt; B, T, F &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides member typedef type, which is defined as T if B is true at compile time, or as F if B is false.  <a href="structtaetl_1_1conditional.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1conditional_3_01false_00_01T_00_01F_01_4.html">taetl::conditional&lt; false, T, F &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1enable__if.html">taetl::enable_if&lt; bool, Type &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structtaetl_1_1enable__if.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +162,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33">taetl::remove_cv_t</a> = typename remove_cv&lt; T &gt;::type</td></tr>
 <tr class="separator:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplParams" colspan="2">template&lt;bool B, class T , class F &gt; </td></tr>
+<tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a4ff6c5f0f412f99b26bf1f57cd665049">taetl::conditional_t</a> = typename conditional&lt; B, T, F &gt;::type</td></tr>
+<tr class="separator:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
