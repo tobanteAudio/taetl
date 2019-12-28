@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['reference',['reference',['../classtaetl_1_1Array.html#a16a37bc5ad38d7d6b4b53f4d69d5c933',1,'taetl::Array::reference()'],['../classtaetl_1_1String.html#a3898f0804ce420ea6c80ee85bbcf1e35',1,'taetl::String::reference()']]]
+  ['pointer',['pointer',['../classtaetl_1_1Array.html#a08ca076cb8e77aea4e8f321218bc2d9d',1,'taetl::Array::pointer()'],['../classtaetl_1_1String.html#ad700d4df0de2cc99400b1a293bd5e99b',1,'taetl::String::pointer()']]]
 ];

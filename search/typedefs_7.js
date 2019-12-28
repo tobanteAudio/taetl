@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['uint16_5ft',['uint16_t',['../namespacetaetl.html#aa93a4e040f5385b687879d6a1800ab7d',1,'taetl']]],
-  ['uint32_5ft',['uint32_t',['../namespacetaetl.html#a8209daf6113537c7e4ebf29ace73979b',1,'taetl']]],
-  ['uint64_5ft',['uint64_t',['../namespacetaetl.html#a302af7df0d7935a6bcdf106eb724514e',1,'taetl']]],
-  ['uint8_5ft',['uint8_t',['../namespacetaetl.html#adc1299ab92880db730f5a07df47e59fd',1,'taetl']]]
+  ['true_5ftype',['true_type',['../namespacetaetl.html#acfccc27cd3e519d196c628c8f9a4a1f4',1,'taetl']]],
+  ['type',['type',['../structtaetl_1_1integral__constant.html#af479c3a7b6ea59243c80d9c3e418d766',1,'taetl::integral_constant::type()'],['../structtaetl_1_1remove__const.html#aca61a012ce0f29158a989a8bb8e9d269',1,'taetl::remove_const::type()'],['../structtaetl_1_1remove__const_3_01Type_01const_01_4.html#affb12dde42221acda41309a66f51e468',1,'taetl::remove_const&lt; Type const &gt;::type()'],['../structtaetl_1_1remove__volatile.html#a7deb805c7f7a098e2583997715db4b08',1,'taetl::remove_volatile::type()'],['../structtaetl_1_1remove__volatile_3_01Type_01volatile_01_4.html#a2c8f5d2f2994f56729520d6cc9be4b1d',1,'taetl::remove_volatile&lt; Type volatile &gt;::type()'],['../structtaetl_1_1remove__cv.html#ae0bde74efd3fa66d935d5efbea0646d8',1,'taetl::remove_cv::type()'],['../structtaetl_1_1enable__if_3_01true_00_01Type_01_4.html#a045e7a404c1fa85e243a53d153345ecd',1,'taetl::enable_if&lt; true, Type &gt;::type()']]]
 ];

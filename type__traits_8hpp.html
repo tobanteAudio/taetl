@@ -107,6 +107,22 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__integral.html">taetl::is_integral&lt; Type &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__floating__point.html">taetl::is_floating_point&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__null__pointer.html">taetl::is_null_pointer&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__array.html">taetl::is_array&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__array_3_01T[]_4.html">taetl::is_array&lt; T[]&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__array_3_01T[N]_4.html">taetl::is_array&lt; T[N]&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__pointer__helper.html">taetl::is_pointer_helper&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__pointer__helper_3_01T_01_5_01_4.html">taetl::is_pointer_helper&lt; T * &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__pointer.html">taetl::is_pointer&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1enable__if.html">taetl::enable_if&lt; bool, Type &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structtaetl_1_1enable__if.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -125,6 +141,15 @@ Typedefs</h2></td></tr>
 <tr class="separator:acfccc27cd3e519d196c628c8f9a4a1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a776be9f8ecb8bc9c6d9d912d4eba2a46"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a776be9f8ecb8bc9c6d9d912d4eba2a46">taetl::false_type</a> = integral_constant&lt; bool, false &gt;</td></tr>
 <tr class="separator:a776be9f8ecb8bc9c6d9d912d4eba2a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2ab096f557775ec6c067704e0c567069"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a2ab096f557775ec6c067704e0c567069"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a2ab096f557775ec6c067704e0c567069">taetl::remove_const_t</a> = typename remove_const&lt; T &gt;::type</td></tr>
+<tr class="separator:a2ab096f557775ec6c067704e0c567069"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0b7a0bd54e84305e616ce34bf1ab1c4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ad0b7a0bd54e84305e616ce34bf1ab1c4"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ad0b7a0bd54e84305e616ce34bf1ab1c4">taetl::remove_volatile_t</a> = typename remove_volatile&lt; T &gt;::type</td></tr>
+<tr class="separator:ad0b7a0bd54e84305e616ce34bf1ab1c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33">taetl::remove_cv_t</a> = typename remove_cv&lt; T &gt;::type</td></tr>
+<tr class="separator:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -137,6 +162,18 @@ Variables</h2></td></tr>
 <tr class="memitem:a4b7b396559f603c1aada741158138e06"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a4b7b396559f603c1aada741158138e06"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a4b7b396559f603c1aada741158138e06">taetl::is_integral_v</a> = is_integral&lt;T&gt;::value</td></tr>
 <tr class="separator:a4b7b396559f603c1aada741158138e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8c66850e5bd17940311cdb146708ec9b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a8c66850e5bd17940311cdb146708ec9b"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a8c66850e5bd17940311cdb146708ec9b">taetl::is_floating_point_v</a> = is_floating_point&lt;T&gt;::value</td></tr>
+<tr class="separator:a8c66850e5bd17940311cdb146708ec9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae979684c0c41cbe4b58b83b364accd63"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae979684c0c41cbe4b58b83b364accd63"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ae979684c0c41cbe4b58b83b364accd63">taetl::is_null_pointer_v</a> = is_null_pointer&lt;T&gt;::value</td></tr>
+<tr class="separator:ae979684c0c41cbe4b58b83b364accd63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a065a45c9cb208bfff1d04f2d7f22486a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a065a45c9cb208bfff1d04f2d7f22486a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a065a45c9cb208bfff1d04f2d7f22486a">taetl::is_array_v</a> = is_array&lt;T&gt;::value</td></tr>
+<tr class="separator:a065a45c9cb208bfff1d04f2d7f22486a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a207e3cfba69a7220ffd4e88f8cf6189b"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a207e3cfba69a7220ffd4e88f8cf6189b"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a207e3cfba69a7220ffd4e88f8cf6189b">taetl::is_pointer_v</a> = is_pointer&lt;T&gt;::value</td></tr>
+<tr class="separator:a207e3cfba69a7220ffd4e88f8cf6189b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

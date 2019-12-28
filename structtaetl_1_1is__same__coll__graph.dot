@@ -5,4 +5,6 @@ digraph "taetl::is_same&lt; T, U &gt;"
   Node2 [label="taetl::is_same\< T, U \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node3 [label="false_type",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtaetl_1_1integral__constant.html"];
+  Node4 -> Node3 [dir="back",color="darkorchid3",fontsize="10",style="dashed",label=" value" ,fontname="Helvetica"];
+  Node4 [label="Type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }
