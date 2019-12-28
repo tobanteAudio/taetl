@@ -66,7 +66,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">type_traits.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -96,10 +97,18 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__cv.html">taetl::remove_cv&lt; Type &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__same.html">taetl::is_same&lt; T, U &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T and U name the same type (taking into account const/volatile qualifications), provides the member constant value equal to true. Otherwise value is false.  <a href="structtaetl_1_1is__same.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__same_3_01T_00_01T_01_4.html">taetl::is_same&lt; T, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__void.html">taetl::is_void&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structtaetl_1_1is__void.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__integral.html">taetl::is_integral&lt; Type &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1enable__if.html">taetl::enable_if&lt; bool, Type &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef <code>type</code> only if a boolean constant is true.  <a href="structtaetl_1_1enable__if.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structtaetl_1_1enable__if.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1enable__if_3_01true_00_01Type_01_4.html">taetl::enable_if&lt; true, Type &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,10 +121,22 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
-<tr class="memitem:ac0dc5ef5a192fea8d1f32b41a400e89e"><td class="memItemLeft" align="right" valign="top">typedef integral_constant&lt; bool, true &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ac0dc5ef5a192fea8d1f32b41a400e89e">taetl::true_type</a></td></tr>
-<tr class="separator:ac0dc5ef5a192fea8d1f32b41a400e89e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3333bcf0aca4aaf71bec9d42a3703626"><td class="memItemLeft" align="right" valign="top">typedef integral_constant&lt; bool, false &gt;&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a3333bcf0aca4aaf71bec9d42a3703626">taetl::false_type</a></td></tr>
-<tr class="separator:a3333bcf0aca4aaf71bec9d42a3703626"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfccc27cd3e519d196c628c8f9a4a1f4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#acfccc27cd3e519d196c628c8f9a4a1f4">taetl::true_type</a> = integral_constant&lt; bool, true &gt;</td></tr>
+<tr class="separator:acfccc27cd3e519d196c628c8f9a4a1f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a776be9f8ecb8bc9c6d9d912d4eba2a46"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a776be9f8ecb8bc9c6d9d912d4eba2a46">taetl::false_type</a> = integral_constant&lt; bool, false &gt;</td></tr>
+<tr class="separator:a776be9f8ecb8bc9c6d9d912d4eba2a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a9bf9a3bde398663de7399abe8454822c"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a9bf9a3bde398663de7399abe8454822c"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a9bf9a3bde398663de7399abe8454822c">taetl::is_same_v</a> = is_same&lt;T, U&gt;::value</td></tr>
+<tr class="separator:a9bf9a3bde398663de7399abe8454822c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a907685ffa9cfcd92c62717924722dddf"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a907685ffa9cfcd92c62717924722dddf"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a907685ffa9cfcd92c62717924722dddf">taetl::is_void_v</a> = is_void&lt;T&gt;::value</td></tr>
+<tr class="separator:a907685ffa9cfcd92c62717924722dddf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4b7b396559f603c1aada741158138e06"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a4b7b396559f603c1aada741158138e06"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a4b7b396559f603c1aada741158138e06">taetl::is_integral_v</a> = is_integral&lt;T&gt;::value</td></tr>
+<tr class="separator:a4b7b396559f603c1aada741158138e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
