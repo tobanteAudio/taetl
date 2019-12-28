@@ -88,6 +88,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1enable__if_3_01true_00_01Type_01_4.html">enable_if&lt; true, Type &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1GetImpl.html">GetImpl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1GetImpl_3_010_00_01First_00_01Rest_8_8_8_01_4.html">GetImpl&lt; 0, First, Rest... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1integral__constant.html">integral_constant</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__integral.html">is_integral</a></td></tr>
@@ -106,6 +110,11 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1String.html">String</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtaetl_1_1String.html" title="String class with fixed size capacity. ">String</a> class with fixed size capacity.  <a href="classtaetl_1_1String.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1tuple.html">tuple</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for the taetl library.  <a href="structtaetl_1_1tuple.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1tuple_3_01First_01_4.html">tuple&lt; First &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -190,6 +199,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a515313e6bf69a98ef2f86dfc3ce5a9a4">abs</a> (Type input) noexcept</td></tr>
 <tr class="memdesc:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute value.  <a href="#a515313e6bf69a98ef2f86dfc3ce5a9a4">More...</a><br /></td></tr>
 <tr class="separator:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adff7770abd71ad0ec36e272c8c72f90f"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
+<tr class="memitem:adff7770abd71ad0ec36e272c8c72f90f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#adff7770abd71ad0ec36e272c8c72f90f">get</a> (const <a class="el" href="structtaetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structtaetl_1_1GetImpl.html">GetImpl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
+<tr class="separator:adff7770abd71ad0ec36e272c8c72f90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for the taetl library. </p>
@@ -680,6 +692,27 @@ template&lt;class InputIt , class Size , class UnaryFunction &gt; </div>
 </div><div class="memdoc">
 
 <p>Applies the given function object f to the result of dereferencing every iterator in the range [first, first+n] in order. </p>
+
+</div>
+</div>
+<a id="adff7770abd71ad0ec36e272c8c72f90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adff7770abd71ad0ec36e272c8c72f90f">&#9670;&nbsp;</a></span>get()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;int index, typename First , typename... Rest&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto taetl::get </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="structtaetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> -&gt; decltype(<a class="el" href="structtaetl_1_1GetImpl.html">GetImpl</a>&lt;index, First, Rest...&gt;::value(&amp;t))
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
