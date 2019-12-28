@@ -103,6 +103,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__class.html">is_class</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__enum.html">is_enum</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__floating__point.html">is_floating_point</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__integral.html">is_integral</a></td></tr>
@@ -119,6 +121,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T and U name the same type (taking into account const/volatile qualifications), provides the member constant value equal to true. Otherwise value is false.  <a href="structtaetl_1_1is__same.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__same_3_01T_00_01T_01_4.html">is_same&lt; T, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__union.html">is_union</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__void.html">is_void</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structtaetl_1_1is__void.html#details">More...</a><br /></td></tr>
@@ -298,6 +302,12 @@ Variables</h2></td></tr>
 <tr class="memitem:a7e576e3366734ef0897ee7914f063929"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a7e576e3366734ef0897ee7914f063929"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a7e576e3366734ef0897ee7914f063929">is_class_v</a> = <a class="el" href="structtaetl_1_1is__class.html">is_class</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a7e576e3366734ef0897ee7914f063929"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d239347c64adf7d1652a0f797207f17"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a1d239347c64adf7d1652a0f797207f17"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a1d239347c64adf7d1652a0f797207f17">is_enum_v</a> = <a class="el" href="structtaetl_1_1is__enum.html">is_enum</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a1d239347c64adf7d1652a0f797207f17"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9520ee3ca2de999b948a680644d39832"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9520ee3ca2de999b948a680644d39832"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a9520ee3ca2de999b948a680644d39832">is_union_v</a> = <a class="el" href="structtaetl_1_1is__union.html">is_union</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a9520ee3ca2de999b948a680644d39832"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for the taetl library. </p>
@@ -1506,6 +1516,30 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a1d239347c64adf7d1652a0f797207f17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d239347c64adf7d1652a0f797207f17">&#9670;&nbsp;</a></span>is_enum_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::is_enum_v = <a class="el" href="structtaetl_1_1is__enum.html">is_enum</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a8c66850e5bd17940311cdb146708ec9b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8c66850e5bd17940311cdb146708ec9b">&#9670;&nbsp;</a></span>is_floating_point_v</h2>
 
@@ -1615,6 +1649,30 @@ template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool taetl::is_same_v = <a class="el" href="structtaetl_1_1is__same.html">is_same</a>&lt;T, U&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9520ee3ca2de999b948a680644d39832"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9520ee3ca2de999b948a680644d39832">&#9670;&nbsp;</a></span>is_union_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::is_union_v = <a class="el" href="structtaetl_1_1is__union.html">is_union</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
