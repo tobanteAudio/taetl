@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['reference',['reference',['../classtaetl_1_1Array.html#a16a37bc5ad38d7d6b4b53f4d69d5c933',1,'taetl::Array::reference()'],['../classtaetl_1_1String.html#a2225251c0d3e6f54c6e5af2757a1ccd1',1,'taetl::String::reference()']]],
-  ['remove_5fconst_5ft',['remove_const_t',['../namespacetaetl.html#a2ab096f557775ec6c067704e0c567069',1,'taetl']]],
-  ['remove_5fcv_5ft',['remove_cv_t',['../namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33',1,'taetl']]],
-  ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespacetaetl.html#ad0b7a0bd54e84305e616ce34bf1ab1c4',1,'taetl']]]
+  ['pointer',['pointer',['../classtaetl_1_1Array.html#a08ca076cb8e77aea4e8f321218bc2d9d',1,'taetl::Array::pointer()'],['../classtaetl_1_1String.html#ac03c00a4e8aa76bd42916417fc777d09',1,'taetl::String::pointer()'],['../classtaetl_1_1vector.html#a9500e806e910570b83dffa6069910c50',1,'taetl::vector::pointer()']]],
+  ['ptrdiff_5ft',['ptrdiff_t',['../namespacetaetl.html#a981afd6bb2043e4391ad1f2f13016a04',1,'taetl']]]
 ];

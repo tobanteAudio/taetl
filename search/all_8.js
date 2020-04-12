@@ -38,5 +38,5 @@ var searchData=
   ['is_5funion_5fv',['is_union_v',['../namespacetaetl.html#a9520ee3ca2de999b948a680644d39832',1,'taetl']]],
   ['is_5fvoid',['is_void',['../structtaetl_1_1is__void.html',1,'taetl']]],
   ['is_5fvoid_5fv',['is_void_v',['../namespacetaetl.html#a907685ffa9cfcd92c62717924722dddf',1,'taetl']]],
-  ['iterator',['iterator',['../classtaetl_1_1Array.html#a5e7666a2e9637d12a3b0fbb9cfb0712d',1,'taetl::Array::iterator()'],['../classtaetl_1_1String.html#a63f5062be1e0e01034f9487111e30080',1,'taetl::String::iterator()']]]
+  ['iterator',['iterator',['../classtaetl_1_1Array.html#a5e7666a2e9637d12a3b0fbb9cfb0712d',1,'taetl::Array::iterator()'],['../classtaetl_1_1String.html#a63f5062be1e0e01034f9487111e30080',1,'taetl::String::iterator()'],['../classtaetl_1_1vector.html#a0d19ec2c489661b92c78465869723b63',1,'taetl::vector::iterator()']]]
 ];
