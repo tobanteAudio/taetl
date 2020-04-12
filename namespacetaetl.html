@@ -142,6 +142,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__cv.html">remove_cv</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__reference.html">remove_reference</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__reference_3_01T_01_6_01_4.html">remove_reference&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__reference_3_01T_01_6_6_01_4.html">remove_reference&lt; T &amp;&amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__volatile.html">remove_volatile</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__volatile_3_01Type_01volatile_01_4.html">remove_volatile&lt; Type volatile &gt;</a></td></tr>
@@ -194,6 +200,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33">remove_cv_t</a> = typename <a class="el" href="structtaetl_1_1remove__cv.html">remove_cv</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8f82b79a55abec242ddc3d0e2a6e0c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:abb8f82b79a55abec242ddc3d0e2a6e0c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">remove_reference_t</a> = typename <a class="el" href="structtaetl_1_1remove__reference.html">remove_reference</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:abb8f82b79a55abec242ddc3d0e2a6e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplParams" colspan="2">template&lt;bool B, class T , class F &gt; </td></tr>
 <tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a4ff6c5f0f412f99b26bf1f57cd665049">conditional_t</a> = typename <a class="el" href="structtaetl_1_1conditional.html">conditional</a>&lt; B, T, F &gt;::type</td></tr>
 <tr class="separator:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,6 +298,12 @@ Functions</h2></td></tr>
 <tr class="memitem:adff7770abd71ad0ec36e272c8c72f90f"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
 <tr class="memitem:adff7770abd71ad0ec36e272c8c72f90f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#adff7770abd71ad0ec36e272c8c72f90f">get</a> (const <a class="el" href="structtaetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structtaetl_1_1GetImpl.html">GetImpl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
 <tr class="separator:adff7770abd71ad0ec36e272c8c72f90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b36acf282f498f3f4668d730f293a49"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a5b36acf282f498f3f4668d730f293a49"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a5b36acf282f498f3f4668d730f293a49">forward</a> (<a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">taetl::remove_reference_t</a>&lt; T &gt; &amp;param) noexcept -&gt; T &amp;&amp;</td></tr>
+<tr class="separator:a5b36acf282f498f3f4668d730f293a49"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac253209981b365342b66cac0cd619b4e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac253209981b365342b66cac0cd619b4e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ac253209981b365342b66cac0cd619b4e">forward</a> (<a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">taetl::remove_reference_t</a>&lt; T &gt; &amp;&amp;param) noexcept -&gt; T &amp;&amp;</td></tr>
+<tr class="separator:ac253209981b365342b66cac0cd619b4e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -466,6 +481,22 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33">taetl::remove_cv_t</a> = typedef typename <a class="el" href="structtaetl_1_1remove__cv.html">remove_cv</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abb8f82b79a55abec242ddc3d0e2a6e0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb8f82b79a55abec242ddc3d0e2a6e0c">&#9670;&nbsp;</a></span>remove_reference_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">taetl::remove_reference_t</a> = typedef typename <a class="el" href="structtaetl_1_1remove__reference.html">remove_reference</a>&lt;T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1092,6 +1123,64 @@ template&lt;class InputIt , class Size , class UnaryFunction &gt; </div>
 </div><div class="memdoc">
 
 <p>Applies the given function object f to the result of dereferencing every iterator in the range [first, first+n] in order. </p>
+
+</div>
+</div>
+<a id="a5b36acf282f498f3f4668d730f293a49"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b36acf282f498f3f4668d730f293a49">&#9670;&nbsp;</a></span>forward() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto taetl::forward </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">taetl::remove_reference_t</a>&lt; T &gt; &amp;&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td> -&gt; T&amp;&amp;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac253209981b365342b66cac0cd619b4e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac253209981b365342b66cac0cd619b4e">&#9670;&nbsp;</a></span>forward() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto taetl::forward </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">taetl::remove_reference_t</a>&lt; T &gt; &amp;&amp;&#160;</td>
+          <td class="paramname"><em>param</em></td><td>)</td>
+          <td> -&gt; T&amp;&amp;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

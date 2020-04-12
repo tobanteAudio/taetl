@@ -141,9 +141,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a6405c7752a03a44b92992788e6640e08"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1vector.html#a6405c7752a03a44b92992788e6640e08">pop_back</a> () noexcept</td></tr>
 <tr class="memdesc:a6405c7752a03a44b92992788e6640e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Decrements the size by 1.  <a href="#a6405c7752a03a44b92992788e6640e08">More...</a><br /></td></tr>
 <tr class="separator:a6405c7752a03a44b92992788e6640e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a245b66540757012f92a0113b3f948b73"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a245b66540757012f92a0113b3f948b73"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classtaetl_1_1vector.html#a245b66540757012f92a0113b3f948b73">emplace_back</a> (Args &amp;&amp;... args) noexcept -&gt; <a class="el" href="classtaetl_1_1vector.html#a26408e03ed8f6891b0625b30483847ef">reference</a></td></tr>
+<tr class="memdesc:a245b66540757012f92a0113b3f948b73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct element inplace at the end of the vector. The behavior is undefined if the size == capacity.  <a href="#a245b66540757012f92a0113b3f948b73">More...</a><br /></td></tr>
+<tr class="separator:a245b66540757012f92a0113b3f948b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6fc73507072f22ecc178a63e2a824e28"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1vector.html#a6fc73507072f22ecc178a63e2a824e28">reserve</a> (<a class="el" href="classtaetl_1_1vector.html#a144c13f63ddde089b3276ab76a086050">size_type</a> new_cap) -&gt; void=delete</td></tr>
+<tr class="memdesc:a6fc73507072f22ecc178a63e2a824e28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleted, since the buffer size is constant.  <a href="#a6fc73507072f22ecc178a63e2a824e28">More...</a><br /></td></tr>
 <tr class="separator:a6fc73507072f22ecc178a63e2a824e28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2e4ad9950c733f23879578499a83dd97"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1vector.html#a2e4ad9950c733f23879578499a83dd97">shrink_to_fit</a> () -&gt; void=delete</td></tr>
+<tr class="memdesc:a2e4ad9950c733f23879578499a83dd97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deleted, since the buffer size is constant.  <a href="#a2e4ad9950c733f23879578499a83dd97">More...</a><br /></td></tr>
 <tr class="separator:a2e4ad9950c733f23879578499a83dd97"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -541,6 +547,40 @@ template&lt;typename ValueType &gt; </div>
 
 </div>
 </div>
+<a id="a245b66540757012f92a0113b3f948b73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a245b66540757012f92a0113b3f948b73">&#9670;&nbsp;</a></span>emplace_back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType &gt; </div>
+<div class="memtemplate">
+template&lt;class... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classtaetl_1_1vector.html">taetl::vector</a>&lt; ValueType &gt;::emplace_back </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classtaetl_1_1vector.html#a26408e03ed8f6891b0625b30483847ef">reference</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Construct element inplace at the end of the vector. The behavior is undefined if the size == capacity. </p>
+<dl class="section return"><dt>Returns</dt><dd>Reference to constructed element. </dd></dl>
+
+</div>
+</div>
 <a id="a1c4ea177acd02a740277cb735345e49d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1c4ea177acd02a740277cb735345e49d">&#9670;&nbsp;</a></span>empty()</h2>
 
@@ -741,6 +781,8 @@ template&lt;typename ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Deleted, since the buffer size is constant. </p>
+
 </div>
 </div>
 <a id="a2e4ad9950c733f23879578499a83dd97"></a>
@@ -767,6 +809,8 @@ template&lt;typename ValueType &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Deleted, since the buffer size is constant. </p>
 
 </div>
 </div>

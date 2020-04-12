@@ -81,6 +81,13 @@ Include dependency graph for type_traits.hpp:</div>
 <map name="_2home_2travis_2build_2tobanteAudio_2taetl_2src_2taetl_2type__traits_8hpp" id="_2home_2travis_2build_2tobanteAudio_2taetl_2src_2taetl_2type__traits_8hpp">
 </map>
 </div>
+</div><div class="textblock"><div class="dynheader">
+This graph shows which files directly or indirectly include this file:</div>
+<div class="dyncontent">
+<div class="center"><img src="type__traits_8hpp__dep__incl.png" border="0" usemap="#_2home_2travis_2build_2tobanteAudio_2taetl_2src_2taetl_2type__traits_8hppdep" alt=""/></div>
+<map name="_2home_2travis_2build_2tobanteAudio_2taetl_2src_2taetl_2type__traits_8hppdep" id="_2home_2travis_2build_2tobanteAudio_2taetl_2src_2taetl_2type__traits_8hppdep">
+</map>
+</div>
 </div>
 <p><a href="type__traits_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
@@ -97,6 +104,12 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__volatile_3_01Type_01volatile_01_4.html">taetl::remove_volatile&lt; Type volatile &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__cv.html">taetl::remove_cv&lt; Type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__reference.html">taetl::remove_reference&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__reference_3_01T_01_6_01_4.html">taetl::remove_reference&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1remove__reference_3_01T_01_6_6_01_4.html">taetl::remove_reference&lt; T &amp;&amp; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__same.html">taetl::is_same&lt; T, U &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T and U name the same type (taking into account const/volatile qualifications), provides the member constant value equal to true. Otherwise value is false.  <a href="structtaetl_1_1is__same.html#details">More...</a><br /></td></tr>
@@ -162,6 +175,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33">taetl::remove_cv_t</a> = typename remove_cv&lt; T &gt;::type</td></tr>
 <tr class="separator:ae00999f192c01b1a28f1cb3c89a66d33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abb8f82b79a55abec242ddc3d0e2a6e0c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:abb8f82b79a55abec242ddc3d0e2a6e0c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c">taetl::remove_reference_t</a> = typename remove_reference&lt; T &gt;::type</td></tr>
+<tr class="separator:abb8f82b79a55abec242ddc3d0e2a6e0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplParams" colspan="2">template&lt;bool B, class T , class F &gt; </td></tr>
 <tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a4ff6c5f0f412f99b26bf1f57cd665049">taetl::conditional_t</a> = typename conditional&lt; B, T, F &gt;::type</td></tr>
 <tr class="separator:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memSeparator" colspan="2">&#160;</td></tr>

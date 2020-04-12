@@ -5,4 +5,8 @@ digraph "/home/travis/build/tobanteAudio/taetl/src/taetl/intrinsics.hpp"
   Node1 [label="/home/travis/build\l/tobanteAudio/taetl\l/src/taetl/intrinsics.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node1 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="/home/travis/build\l/tobanteAudio/taetl\l/src/taetl/type_traits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type__traits_8hpp.html"];
+  Node2 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="/home/travis/build\l/tobanteAudio/taetl\l/src/taetl/utility.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utility_8hpp.html"];
+  Node3 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="/home/travis/build\l/tobanteAudio/taetl\l/src/taetl/vector.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$vector_8hpp.html"];
 }
