@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['length',['length',['../classtaetl_1_1String.html#ac5e172b346cd6454d9ab607358cd857b',1,'taetl::String']]],
-  ['less',['less',['../structtaetl_1_1less.html',1,'taetl']]]
+  ['key_5fcompare',['key_compare',['../classtaetl_1_1map.html#a3497e8e03ef173380275c1131322929c',1,'taetl::map']]],
+  ['key_5ftype',['key_type',['../classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0',1,'taetl::map']]]
 ];

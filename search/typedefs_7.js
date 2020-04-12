@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['size_5ft',['size_t',['../namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f',1,'taetl']]],
-  ['size_5ftype',['size_type',['../classtaetl_1_1vector.html#a144c13f63ddde089b3276ab76a086050',1,'taetl::vector']]]
+  ['pointer',['pointer',['../classtaetl_1_1Array.html#a08ca076cb8e77aea4e8f321218bc2d9d',1,'taetl::Array::pointer()'],['../classtaetl_1_1map.html#aa6118ec70a89e2dc4a5701f69111d773',1,'taetl::map::pointer()'],['../classtaetl_1_1String.html#ac03c00a4e8aa76bd42916417fc777d09',1,'taetl::String::pointer()'],['../classtaetl_1_1vector.html#a9500e806e910570b83dffa6069910c50',1,'taetl::vector::pointer()']]],
+  ['ptrdiff_5ft',['ptrdiff_t',['../namespacetaetl.html#a981afd6bb2043e4391ad1f2f13016a04',1,'taetl']]]
 ];

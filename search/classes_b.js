@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['vector',['vector',['../classtaetl_1_1vector.html',1,'taetl::vector&lt; ValueType &gt;'],['../classtaetl_1_1make_1_1vector.html',1,'taetl::make::vector&lt; ValueType, Size &gt;']]]
+  ['tuple',['tuple',['../structtaetl_1_1tuple.html',1,'taetl']]],
+  ['tuple_3c_20first_20_3e',['tuple&lt; First &gt;',['../structtaetl_1_1tuple_3_01First_01_4.html',1,'taetl']]]
 ];
