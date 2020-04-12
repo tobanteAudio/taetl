@@ -83,8 +83,8 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1Array.html">Array</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtaetl_1_1Array.html" title="Array class with fixed size capacity. ">Array</a> class with fixed size capacity.  <a href="classtaetl_1_1Array.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1array.html">array</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">array class with fixed size capacity.  <a href="classtaetl_1_1array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1conditional.html">conditional</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides member typedef type, which is defined as T if B is true at compile time, or as F if B is false.  <a href="structtaetl_1_1conditional.html#details">More...</a><br /></td></tr>
@@ -160,7 +160,6 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classtaetl_1_1String.html" title="String class with fixed size capacity. ">String</a> class with fixed size capacity.  <a href="classtaetl_1_1String.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1tuple.html">tuple</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for the taetl library.  <a href="structtaetl_1_1tuple.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1tuple_3_01First_01_4.html">tuple&lt; First &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -249,14 +248,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a3906b1b38da24e0b1eb2aecdc8d27ade"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a3906b1b38da24e0b1eb2aecdc8d27ade">max_element</a> (ForwardIterator first, ForwardIterator last, Compare comp) -&gt; ForwardIterator</td></tr>
 <tr class="memdesc:a3906b1b38da24e0b1eb2aecdc8d27ade"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the greatest element in the range [first, last). Elements are compared using the given binary comparison function comp.  <a href="#a3906b1b38da24e0b1eb2aecdc8d27ade">More...</a><br /></td></tr>
 <tr class="separator:a3906b1b38da24e0b1eb2aecdc8d27ade"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a887f56f940d99959394fea233bc68dfa"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
-<tr class="memitem:a887f56f940d99959394fea233bc68dfa"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type const  &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a887f56f940d99959394fea233bc68dfa">min</a> (Type const &amp;a, Type const &amp;b) noexcept</td></tr>
-<tr class="memdesc:a887f56f940d99959394fea233bc68dfa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smaller of a and b.  <a href="#a887f56f940d99959394fea233bc68dfa">More...</a><br /></td></tr>
-<tr class="separator:a887f56f940d99959394fea233bc68dfa"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aff06fc9fb833a2f07c83d06b5d6d5775"><td class="memTemplParams" colspan="2">template&lt;class Type , class Compare &gt; </td></tr>
-<tr class="memitem:aff06fc9fb833a2f07c83d06b5d6d5775"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type const  &amp;&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#aff06fc9fb833a2f07c83d06b5d6d5775">min</a> (Type const &amp;a, Type const &amp;b, Compare comp) noexcept</td></tr>
-<tr class="memdesc:aff06fc9fb833a2f07c83d06b5d6d5775"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smaller of a and b, using a compare function.  <a href="#aff06fc9fb833a2f07c83d06b5d6d5775">More...</a><br /></td></tr>
-<tr class="separator:aff06fc9fb833a2f07c83d06b5d6d5775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a70f1cd5b281e4d5f1db66a9ed16b826a"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
+<tr class="memitem:a70f1cd5b281e4d5f1db66a9ed16b826a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a70f1cd5b281e4d5f1db66a9ed16b826a">min</a> (Type const &amp;a, Type const &amp;b) noexcept -&gt; Type const &amp;</td></tr>
+<tr class="memdesc:a70f1cd5b281e4d5f1db66a9ed16b826a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smaller of a and b.  <a href="#a70f1cd5b281e4d5f1db66a9ed16b826a">More...</a><br /></td></tr>
+<tr class="separator:a70f1cd5b281e4d5f1db66a9ed16b826a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace07f7acd3e90556a8e4de2ebb1aed3b"><td class="memTemplParams" colspan="2">template&lt;class Type , class Compare &gt; </td></tr>
+<tr class="memitem:ace07f7acd3e90556a8e4de2ebb1aed3b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ace07f7acd3e90556a8e4de2ebb1aed3b">min</a> (Type const &amp;a, Type const &amp;b, Compare comp) noexcept -&gt; Type const &amp;</td></tr>
+<tr class="memdesc:ace07f7acd3e90556a8e4de2ebb1aed3b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the smaller of a and b, using a compare function.  <a href="#ace07f7acd3e90556a8e4de2ebb1aed3b">More...</a><br /></td></tr>
+<tr class="separator:ace07f7acd3e90556a8e4de2ebb1aed3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a51699a1435532a345093cbd5c8168115"><td class="memTemplParams" colspan="2">template&lt;class ForwardIterator &gt; </td></tr>
 <tr class="memitem:a51699a1435532a345093cbd5c8168115"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a51699a1435532a345093cbd5c8168115">min_element</a> (ForwardIterator first, ForwardIterator last) noexcept -&gt; ForwardIterator</td></tr>
 <tr class="memdesc:a51699a1435532a345093cbd5c8168115"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the smallest element in the range [first, last). Elements are compared using operator&lt;.  <a href="#a51699a1435532a345093cbd5c8168115">More...</a><br /></td></tr>
@@ -284,18 +283,21 @@ Functions</h2></td></tr>
 <tr class="memitem:adb9ae0a7d91511322c92618f2a73bbc3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#adb9ae0a7d91511322c92618f2a73bbc3">none_of</a> (InputIt first, InputIt last, UnaryPredicate p) -&gt; bool</td></tr>
 <tr class="memdesc:adb9ae0a7d91511322c92618f2a73bbc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if unary predicate p returns true for no elements in the range [first, last).  <a href="#adb9ae0a7d91511322c92618f2a73bbc3">More...</a><br /></td></tr>
 <tr class="separator:adb9ae0a7d91511322c92618f2a73bbc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type &gt; </td></tr>
-<tr class="memitem:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a9a95c2aaf083721a0a5dc9135ec7b933">accumulate</a> (InputIt first, InputIt last, Type init) noexcept</td></tr>
-<tr class="memdesc:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements.  <a href="#a9a95c2aaf083721a0a5dc9135ec7b933">More...</a><br /></td></tr>
-<tr class="separator:a9a95c2aaf083721a0a5dc9135ec7b933"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abb221263ce91f093fa72c31450ba2a64"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type , class BinaryOperation &gt; </td></tr>
-<tr class="memitem:abb221263ce91f093fa72c31450ba2a64"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#abb221263ce91f093fa72c31450ba2a64">accumulate</a> (InputIt first, InputIt last, Type init, BinaryOperation op) noexcept</td></tr>
-<tr class="memdesc:abb221263ce91f093fa72c31450ba2a64"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses the BinaryOperation to sum up the elements.  <a href="#abb221263ce91f093fa72c31450ba2a64">More...</a><br /></td></tr>
-<tr class="separator:abb221263ce91f093fa72c31450ba2a64"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
-<tr class="memitem:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memTemplItemLeft" align="right" valign="top">constexpr Type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a515313e6bf69a98ef2f86dfc3ce5a9a4">abs</a> (Type input) noexcept</td></tr>
-<tr class="memdesc:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute value.  <a href="#a515313e6bf69a98ef2f86dfc3ce5a9a4">More...</a><br /></td></tr>
-<tr class="separator:a515313e6bf69a98ef2f86dfc3ce5a9a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace0c671408efc6d1a186ad4feabe6af1"><td class="memTemplParams" colspan="2">template&lt;class T , class... U&gt; </td></tr>
+<tr class="memitem:ace0c671408efc6d1a186ad4feabe6af1"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ace0c671408efc6d1a186ad4feabe6af1">array</a> (T, U...) -&gt; <a class="el" href="classtaetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td></tr>
+<tr class="separator:ace0c671408efc6d1a186ad4feabe6af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type &gt; </td></tr>
+<tr class="memitem:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#acacccd4f1dd6858a3fb1ddfbdc52e5d9">accumulate</a> (InputIt first, InputIt last, Type init) noexcept -&gt; Type</td></tr>
+<tr class="memdesc:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements.  <a href="#acacccd4f1dd6858a3fb1ddfbdc52e5d9">More...</a><br /></td></tr>
+<tr class="separator:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad442d9a9cedc2d02bc7aad53948ba79e"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type , class BinaryOperation &gt; </td></tr>
+<tr class="memitem:ad442d9a9cedc2d02bc7aad53948ba79e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ad442d9a9cedc2d02bc7aad53948ba79e">accumulate</a> (InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type</td></tr>
+<tr class="memdesc:ad442d9a9cedc2d02bc7aad53948ba79e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses the BinaryOperation to sum up the elements.  <a href="#ad442d9a9cedc2d02bc7aad53948ba79e">More...</a><br /></td></tr>
+<tr class="separator:ad442d9a9cedc2d02bc7aad53948ba79e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7d2135bf9f6917f3dfdc2bdaa44552e7"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
+<tr class="memitem:a7d2135bf9f6917f3dfdc2bdaa44552e7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a7d2135bf9f6917f3dfdc2bdaa44552e7">abs</a> (Type input) noexcept -&gt; Type</td></tr>
+<tr class="memdesc:a7d2135bf9f6917f3dfdc2bdaa44552e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute value.  <a href="#a7d2135bf9f6917f3dfdc2bdaa44552e7">More...</a><br /></td></tr>
+<tr class="separator:a7d2135bf9f6917f3dfdc2bdaa44552e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af268ab31c7b18ec7dff24ab944677fcb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#af268ab31c7b18ec7dff24ab944677fcb">strlen</a> (const char *str) -&gt; <a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a></td></tr>
 <tr class="memdesc:af268ab31c7b18ec7dff24ab944677fcb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#af268ab31c7b18ec7dff24ab944677fcb">More...</a><br /></td></tr>
 <tr class="separator:af268ab31c7b18ec7dff24ab944677fcb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -612,8 +614,8 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a515313e6bf69a98ef2f86dfc3ce5a9a4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a515313e6bf69a98ef2f86dfc3ce5a9a4">&#9670;&nbsp;</a></span>abs()</h2>
+<a id="a7d2135bf9f6917f3dfdc2bdaa44552e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7d2135bf9f6917f3dfdc2bdaa44552e7">&#9670;&nbsp;</a></span>abs()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -624,11 +626,12 @@ template&lt;typename Type &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Type taetl::abs </td>
+          <td class="memname">constexpr auto taetl::abs </td>
           <td>(</td>
           <td class="paramtype">Type&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
-          <td></td>
+          <td> -&gt; Type
+</td>
         </tr>
       </table>
   </td>
@@ -642,8 +645,8 @@ template&lt;typename Type &gt; </div>
 
 </div>
 </div>
-<a id="a9a95c2aaf083721a0a5dc9135ec7b933"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a95c2aaf083721a0a5dc9135ec7b933">&#9670;&nbsp;</a></span>accumulate() <span class="overload">[1/2]</span></h2>
+<a id="acacccd4f1dd6858a3fb1ddfbdc52e5d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acacccd4f1dd6858a3fb1ddfbdc52e5d9">&#9670;&nbsp;</a></span>accumulate() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -654,7 +657,7 @@ template&lt;class InputIt , class Type &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Type taetl::accumulate </td>
+          <td class="memname">constexpr auto taetl::accumulate </td>
           <td>(</td>
           <td class="paramtype">InputIt&#160;</td>
           <td class="paramname"><em>first</em>, </td>
@@ -674,7 +677,8 @@ template&lt;class InputIt , class Type &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; Type
+</td>
         </tr>
       </table>
   </td>
@@ -688,8 +692,8 @@ template&lt;class InputIt , class Type &gt; </div>
 
 </div>
 </div>
-<a id="abb221263ce91f093fa72c31450ba2a64"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abb221263ce91f093fa72c31450ba2a64">&#9670;&nbsp;</a></span>accumulate() <span class="overload">[2/2]</span></h2>
+<a id="ad442d9a9cedc2d02bc7aad53948ba79e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad442d9a9cedc2d02bc7aad53948ba79e">&#9670;&nbsp;</a></span>accumulate() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -700,7 +704,7 @@ template&lt;class InputIt , class Type , class BinaryOperation &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Type taetl::accumulate </td>
+          <td class="memname">constexpr auto taetl::accumulate </td>
           <td>(</td>
           <td class="paramtype">InputIt&#160;</td>
           <td class="paramname"><em>first</em>, </td>
@@ -726,7 +730,8 @@ template&lt;class InputIt , class Type , class BinaryOperation &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; Type
+</td>
         </tr>
       </table>
   </td>
@@ -815,6 +820,36 @@ template&lt;class InputIt , class UnaryPredicate &gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if unary predicate p returns true for at least one element in the range [first, last). </p>
+
+</div>
+</div>
+<a id="ace0c671408efc6d1a186ad4feabe6af1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace0c671408efc6d1a186ad4feabe6af1">&#9670;&nbsp;</a></span>array()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... U&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classtaetl_1_1array.html">taetl::array</a> </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U...&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt;  <a class="el" href="classtaetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -1390,8 +1425,8 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 
 </div>
 </div>
-<a id="a887f56f940d99959394fea233bc68dfa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a887f56f940d99959394fea233bc68dfa">&#9670;&nbsp;</a></span>min() <span class="overload">[1/2]</span></h2>
+<a id="a70f1cd5b281e4d5f1db66a9ed16b826a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a70f1cd5b281e4d5f1db66a9ed16b826a">&#9670;&nbsp;</a></span>min() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1402,7 +1437,7 @@ template&lt;class Type &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Type const&amp; taetl::min </td>
+          <td class="memname">constexpr auto taetl::min </td>
           <td>(</td>
           <td class="paramtype">Type const &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -1416,7 +1451,8 @@ template&lt;class Type &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; Type const&amp;
+</td>
         </tr>
       </table>
   </td>
@@ -1430,8 +1466,8 @@ template&lt;class Type &gt; </div>
 
 </div>
 </div>
-<a id="aff06fc9fb833a2f07c83d06b5d6d5775"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aff06fc9fb833a2f07c83d06b5d6d5775">&#9670;&nbsp;</a></span>min() <span class="overload">[2/2]</span></h2>
+<a id="ace07f7acd3e90556a8e4de2ebb1aed3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace07f7acd3e90556a8e4de2ebb1aed3b">&#9670;&nbsp;</a></span>min() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1442,7 +1478,7 @@ template&lt;class Type , class Compare &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr Type const&amp; taetl::min </td>
+          <td class="memname">constexpr auto taetl::min </td>
           <td>(</td>
           <td class="paramtype">Type const &amp;&#160;</td>
           <td class="paramname"><em>a</em>, </td>
@@ -1462,7 +1498,8 @@ template&lt;class Type , class Compare &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; Type const&amp;
+</td>
         </tr>
       </table>
   </td>

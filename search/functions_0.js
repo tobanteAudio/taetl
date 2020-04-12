@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['abs',['abs',['../namespacetaetl.html#a515313e6bf69a98ef2f86dfc3ce5a9a4',1,'taetl']]],
-  ['accumulate',['accumulate',['../namespacetaetl.html#a9a95c2aaf083721a0a5dc9135ec7b933',1,'taetl::accumulate(InputIt first, InputIt last, Type init) noexcept'],['../namespacetaetl.html#abb221263ce91f093fa72c31450ba2a64',1,'taetl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept']]],
+  ['abs',['abs',['../namespacetaetl.html#a7d2135bf9f6917f3dfdc2bdaa44552e7',1,'taetl']]],
+  ['accumulate',['accumulate',['../namespacetaetl.html#acacccd4f1dd6858a3fb1ddfbdc52e5d9',1,'taetl::accumulate(InputIt first, InputIt last, Type init) noexcept -&gt; Type'],['../namespacetaetl.html#ad442d9a9cedc2d02bc7aad53948ba79e',1,'taetl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type']]],
   ['all_5fof',['all_of',['../namespacetaetl.html#a6bd62d98428188301cfb6ca6454ccb0c',1,'taetl']]],
   ['analogpin',['AnalogPin',['../classtaetl_1_1hardware_1_1AnalogPin.html#a6854d191364bfb2b6efc354dbf2f42b6',1,'taetl::hardware::AnalogPin']]],
   ['any_5fof',['any_of',['../namespacetaetl.html#aefbb250cd57d5dcbc96932301765164b',1,'taetl']]],
-  ['append',['append',['../classtaetl_1_1String.html#a56213d50b2e95dced3c76bb5b5120dc3',1,'taetl::String::append(taetl::size_t count, CharType s) noexcept'],['../classtaetl_1_1String.html#ac063a35ab5b790e95ddf99ae2eea9ce2',1,'taetl::String::append(const CharType *s) noexcept'],['../classtaetl_1_1String.html#adc53a6513bd04a567083bd4a7e994e92',1,'taetl::String::append(const CharType *s, taetl::size_t count) noexcept']]],
-  ['array',['Array',['../classtaetl_1_1Array.html#a7bc38cdca2f35d4fc84215181343710c',1,'taetl::Array']]],
-  ['at',['at',['../classtaetl_1_1String.html#a765e3e5ed9b6d97afbf70cf782409566',1,'taetl::String::at(taetl::size_t index) noexcept'],['../classtaetl_1_1String.html#a58ad38f013fd85a0d8ba96688d6c2da8',1,'taetl::String::at(taetl::size_t index) const noexcept']]]
+  ['append',['append',['../classtaetl_1_1String.html#a7a81f505f68b81006ad2bfed5b24d087',1,'taetl::String::append(taetl::size_t count, CharType s) noexcept -&gt; String &amp;'],['../classtaetl_1_1String.html#aebae8c6a011bee5fa042f7abf11f3c42',1,'taetl::String::append(const CharType *s) noexcept -&gt; String &amp;'],['../classtaetl_1_1String.html#a601307d931dff7fc1a98f52490264874',1,'taetl::String::append(const CharType *s, taetl::size_t count) noexcept -&gt; String &amp;']]],
+  ['array',['array',['../classtaetl_1_1array.html#a54176884c4cd56a2f50fb023df8b0f6b',1,'taetl::array::array()'],['../namespacetaetl.html#ace0c671408efc6d1a186ad4feabe6af1',1,'taetl::array()']]],
+  ['at',['at',['../classtaetl_1_1array.html#ab16e08b4760989cee49fb1b5811bb268',1,'taetl::array::at(size_type pos) noexcept -&gt; reference'],['../classtaetl_1_1array.html#a89f57ccc2e56a43d5aafbc04ad90d088',1,'taetl::array::at(size_type pos) const noexcept -&gt; const_reference'],['../classtaetl_1_1String.html#ade915f44e4991e49175f93bc5ff216c7',1,'taetl::String::at(taetl::size_t index) noexcept -&gt; reference'],['../classtaetl_1_1String.html#a5d0a488be800250e7bc1dbe931fcdb3e',1,'taetl::String::at(taetl::size_t index) const noexcept -&gt; const_reference']]]
 ];

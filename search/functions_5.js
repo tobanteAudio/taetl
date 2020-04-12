@@ -6,5 +6,5 @@ var searchData=
   ['for_5feach',['for_each',['../namespacetaetl.html#a403ae29bd75f41d44babfa4eac5962ed',1,'taetl']]],
   ['for_5feach_5fn',['for_each_n',['../namespacetaetl.html#ae855bd613bb556bc3d2d374f0bf17afe',1,'taetl']]],
   ['forward',['forward',['../namespacetaetl.html#a5b36acf282f498f3f4668d730f293a49',1,'taetl::forward(taetl::remove_reference_t&lt; T &gt; &amp;param) noexcept -&gt; T &amp;&amp;'],['../namespacetaetl.html#ac253209981b365342b66cac0cd619b4e',1,'taetl::forward(taetl::remove_reference_t&lt; T &gt; &amp;&amp;param) noexcept -&gt; T &amp;&amp;']]],
-  ['front',['front',['../classtaetl_1_1Array.html#a7798a734ed747670b9b01b73291d8a9d',1,'taetl::Array::front()'],['../classtaetl_1_1String.html#ad9bc89317a6a00a656cf3b75faff3c52',1,'taetl::String::front()'],['../classtaetl_1_1vector.html#a2e2a9ced76178ac6325f0041411ec576',1,'taetl::vector::front()']]]
+  ['front',['front',['../classtaetl_1_1array.html#a548ac7c84953252bbcce7765bedd0dab',1,'taetl::array::front() noexcept -&gt; reference'],['../classtaetl_1_1array.html#a75195c9f81286475ce275ca13bf243d0',1,'taetl::array::front() const noexcept -&gt; const_reference'],['../classtaetl_1_1String.html#a8ff7bf33b167a8f21be39b027b1cbf64',1,'taetl::String::front()'],['../classtaetl_1_1vector.html#a2e2a9ced76178ac6325f0041411ec576',1,'taetl::vector::front()']]]
 ];
