@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['length',['length',['../classtaetl_1_1String.html#ac5e172b346cd6454d9ab607358cd857b',1,'taetl::String']]]
+  ['insert',['insert',['../classtaetl_1_1map.html#aef318fa6ac7d4ccfb08978d6617a560a',1,'taetl::map']]]
 ];
