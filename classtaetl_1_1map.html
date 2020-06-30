@@ -111,6 +111,15 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
+<tr class="memitem:a6e49b27e8a0c0920d110f1c0e113e794"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a6e49b27e8a0c0920d110f1c0e113e794">at</a> (<a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;key) -&gt; <a class="el" href="classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9">mapped_type</a> &amp;</td></tr>
+<tr class="memdesc:a6e49b27e8a0c0920d110f1c0e113e794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the mapped value of the element with key equivalent to key. If no such element exists, you are in UB land.  <a href="#a6e49b27e8a0c0920d110f1c0e113e794">More...</a><br /></td></tr>
+<tr class="separator:a6e49b27e8a0c0920d110f1c0e113e794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6604d0487a51734c8cb4476c86b20e29"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a6604d0487a51734c8cb4476c86b20e29">at</a> (<a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;key) const -&gt; <a class="el" href="classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9">mapped_type</a> const &amp;</td></tr>
+<tr class="memdesc:a6604d0487a51734c8cb4476c86b20e29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the mapped value of the element with key equivalent to key. If no such element exists, you are in UB land.  <a href="#a6604d0487a51734c8cb4476c86b20e29">More...</a><br /></td></tr>
+<tr class="separator:a6604d0487a51734c8cb4476c86b20e29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a46c805b59348085fc657c3ab4446ceba"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a46c805b59348085fc657c3ab4446ceba">operator[]</a> (<a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;key) -&gt; <a class="el" href="classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9">mapped_type</a> &amp;</td></tr>
+<tr class="memdesc:a46c805b59348085fc657c3ab4446ceba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the value that is mapped to a key equivalent to key, performing an insertion if such key does not already exist.  <a href="#a46c805b59348085fc657c3ab4446ceba">More...</a><br /></td></tr>
+<tr class="separator:a46c805b59348085fc657c3ab4446ceba"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7e62c60fac7b5f7d291c66d713650386"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a7e62c60fac7b5f7d291c66d713650386">begin</a> () noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a></td></tr>
 <tr class="memdesc:a7e62c60fac7b5f7d291c66d713650386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning.  <a href="#a7e62c60fac7b5f7d291c66d713650386">More...</a><br /></td></tr>
 <tr class="separator:a7e62c60fac7b5f7d291c66d713650386"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -398,6 +407,68 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a6e49b27e8a0c0920d110f1c0e113e794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6e49b27e8a0c0920d110f1c0e113e794">&#9670;&nbsp;</a></span>at() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::less&lt;KeyType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::at </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9">mapped_type</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the mapped value of the element with key equivalent to key. If no such element exists, you are in UB land. </p>
+
+</div>
+</div>
+<a id="a6604d0487a51734c8cb4476c86b20e29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6604d0487a51734c8cb4476c86b20e29">&#9670;&nbsp;</a></span>at() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::less&lt;KeyType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::at </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9">mapped_type</a> const&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the mapped value of the element with key equivalent to key. If no such element exists, you are in UB land. </p>
+
+</div>
+</div>
 <a id="a7e62c60fac7b5f7d291c66d713650386"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e62c60fac7b5f7d291c66d713650386">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/2]</span></h2>
 
@@ -850,6 +921,37 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 </div><div class="memdoc">
 
 <p>Returns the capacity. </p>
+
+</div>
+</div>
+<a id="a46c805b59348085fc657c3ab4446ceba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a46c805b59348085fc657c3ab4446ceba">&#9670;&nbsp;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::less&lt;KeyType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9">mapped_type</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the value that is mapped to a key equivalent to key, performing an insertion if such key does not already exist. </p>
 
 </div>
 </div>
