@@ -141,6 +141,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac1d0792a4c056b259b52059cfb2c02d9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ac1d0792a4c056b259b52059cfb2c02d9">count</a> (KeyType const &amp;key) const noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#a0b88d8be1b770a0d62f5e64faf8ff14a">size_type</a></td></tr>
 <tr class="memdesc:ac1d0792a4c056b259b52059cfb2c02d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1 if the key is present, otherwise 0.  <a href="#ac1d0792a4c056b259b52059cfb2c02d9">More...</a><br /></td></tr>
 <tr class="separator:ac1d0792a4c056b259b52059cfb2c02d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5b3e985c1f8559d844311e23bcea3bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ac5b3e985c1f8559d844311e23bcea3bd">clear</a> () noexcept -&gt; void</td></tr>
+<tr class="memdesc:ac5b3e985c1f8559d844311e23bcea3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements from the container. After this call, <a class="el" href="classtaetl_1_1map.html#af9a632cc5194b1bd0a92932169421fbc" title="Returns the current element count. ">size()</a> returns zero.  <a href="#ac5b3e985c1f8559d844311e23bcea3bd">More...</a><br /></td></tr>
+<tr class="separator:ac5b3e985c1f8559d844311e23bcea3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aef318fa6ac7d4ccfb08978d6617a560a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#aef318fa6ac7d4ccfb08978d6617a560a">insert</a> (<a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> const &amp;value) noexcept -&gt; <a class="el" href="structtaetl_1_1pair.html">taetl::pair</a>&lt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a>, bool &gt;</td></tr>
 <tr class="memdesc:aef318fa6ac7d4ccfb08978d6617a560a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#aef318fa6ac7d4ccfb08978d6617a560a">More...</a><br /></td></tr>
 <tr class="separator:aef318fa6ac7d4ccfb08978d6617a560a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -508,6 +511,36 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 </div><div class="memdoc">
 
 <p>Returns an const iterator to the end. </p>
+
+</div>
+</div>
+<a id="ac5b3e985c1f8559d844311e23bcea3bd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5b3e985c1f8559d844311e23bcea3bd">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::less&lt;KeyType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; void
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erases all elements from the container. After this call, <a class="el" href="classtaetl_1_1map.html#af9a632cc5194b1bd0a92932169421fbc" title="Returns the current element count. ">size()</a> returns zero. </p>
 
 </div>
 </div>
