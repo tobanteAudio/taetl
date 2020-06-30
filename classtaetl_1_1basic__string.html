@@ -173,6 +173,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae185eca0629ca89d352562326197dee6"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1basic__string.html#ae185eca0629ca89d352562326197dee6">insert</a> (<a class="el" href="classtaetl_1_1basic__string.html#a0c04de10c8f79c06d2493b07f9319e82">size_type</a> index, <a class="el" href="classtaetl_1_1basic__string.html#ad4aca9b092cf53f5e290aacfdca022c1">const_pointer</a> s) noexcept -&gt; <a class="el" href="classtaetl_1_1basic__string.html">basic_string</a> &amp;</td></tr>
 <tr class="memdesc:ae185eca0629ca89d352562326197dee6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts null-terminated character string pointed to by s at the position index.  <a href="#ae185eca0629ca89d352562326197dee6">More...</a><br /></td></tr>
 <tr class="separator:ae185eca0629ca89d352562326197dee6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4c0bf89cfb94d2ed66c6c97cc36ec7bb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1basic__string.html#a4c0bf89cfb94d2ed66c6c97cc36ec7bb">insert</a> (<a class="el" href="classtaetl_1_1basic__string.html#a0c04de10c8f79c06d2493b07f9319e82">size_type</a> const index, <a class="el" href="classtaetl_1_1basic__string.html#ad4aca9b092cf53f5e290aacfdca022c1">const_pointer</a> s, <a class="el" href="classtaetl_1_1basic__string.html#a0c04de10c8f79c06d2493b07f9319e82">size_type</a> const count) noexcept -&gt; <a class="el" href="classtaetl_1_1basic__string.html">basic_string</a> &amp;</td></tr>
+<tr class="memdesc:a4c0bf89cfb94d2ed66c6c97cc36ec7bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the characters in the range [s, s+count) at the position index. The range can contain null characters.  <a href="#a4c0bf89cfb94d2ed66c6c97cc36ec7bb">More...</a><br /></td></tr>
+<tr class="separator:a4c0bf89cfb94d2ed66c6c97cc36ec7bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename CharType, taetl::size_t Capacity&gt;<br />
@@ -887,7 +890,7 @@ template&lt;typename CharType , taetl::size_t Capacity&gt; </div>
 </div>
 </div>
 <a id="a2719d270886d7e9841060ed8798b539f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2719d270886d7e9841060ed8798b539f">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2719d270886d7e9841060ed8798b539f">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -934,7 +937,7 @@ template&lt;typename CharType , taetl::size_t Capacity&gt; </div>
 </div>
 </div>
 <a id="ae185eca0629ca89d352562326197dee6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae185eca0629ca89d352562326197dee6">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae185eca0629ca89d352562326197dee6">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -971,6 +974,53 @@ template&lt;typename CharType , taetl::size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Inserts null-terminated character string pointed to by s at the position index. </p>
+
+</div>
+</div>
+<a id="a4c0bf89cfb94d2ed66c6c97cc36ec7bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4c0bf89cfb94d2ed66c6c97cc36ec7bb">&#9670;&nbsp;</a></span>insert() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType , taetl::size_t Capacity&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1basic__string.html">taetl::basic_string</a>&lt; CharType, Capacity &gt;::insert </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1basic__string.html#a0c04de10c8f79c06d2493b07f9319e82">size_type</a> const&#160;</td>
+          <td class="paramname"><em>index</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1basic__string.html#ad4aca9b092cf53f5e290aacfdca022c1">const_pointer</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1basic__string.html#a0c04de10c8f79c06d2493b07f9319e82">size_type</a> const&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="classtaetl_1_1basic__string.html">basic_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts the characters in the range [s, s+count) at the position index. The range can contain null characters. </p>
 
 </div>
 </div>
