@@ -138,29 +138,32 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7c936c4a36efe760261ab62c8958e846"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a7c936c4a36efe760261ab62c8958e846">empty</a> () const noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a7c936c4a36efe760261ab62c8958e846"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the size == 0.  <a href="#a7c936c4a36efe760261ab62c8958e846">More...</a><br /></td></tr>
 <tr class="separator:a7c936c4a36efe760261ab62c8958e846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac1d0792a4c056b259b52059cfb2c02d9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ac1d0792a4c056b259b52059cfb2c02d9">count</a> (KeyType const &amp;key) const noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#a0b88d8be1b770a0d62f5e64faf8ff14a">size_type</a></td></tr>
-<tr class="memdesc:ac1d0792a4c056b259b52059cfb2c02d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1 if the key is present, otherwise 0.  <a href="#ac1d0792a4c056b259b52059cfb2c02d9">More...</a><br /></td></tr>
-<tr class="separator:ac1d0792a4c056b259b52059cfb2c02d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac5b3e985c1f8559d844311e23bcea3bd"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ac5b3e985c1f8559d844311e23bcea3bd">clear</a> () noexcept -&gt; void</td></tr>
-<tr class="memdesc:ac5b3e985c1f8559d844311e23bcea3bd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements from the container. After this call, <a class="el" href="classtaetl_1_1map.html#af9a632cc5194b1bd0a92932169421fbc" title="Returns the current element count. ">size()</a> returns zero.  <a href="#ac5b3e985c1f8559d844311e23bcea3bd">More...</a><br /></td></tr>
-<tr class="separator:ac5b3e985c1f8559d844311e23bcea3bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aef318fa6ac7d4ccfb08978d6617a560a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#aef318fa6ac7d4ccfb08978d6617a560a">insert</a> (<a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> const &amp;value) noexcept -&gt; <a class="el" href="structtaetl_1_1pair.html">taetl::pair</a>&lt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a>, bool &gt;</td></tr>
-<tr class="memdesc:aef318fa6ac7d4ccfb08978d6617a560a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#aef318fa6ac7d4ccfb08978d6617a560a">More...</a><br /></td></tr>
-<tr class="separator:aef318fa6ac7d4ccfb08978d6617a560a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aac03b9b682b03dfd640ac30fb4f842ec"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#aac03b9b682b03dfd640ac30fb4f842ec">insert</a> (<a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> &amp;&amp;value) -&gt; <a class="el" href="structtaetl_1_1pair.html">taetl::pair</a>&lt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a>, bool &gt;</td></tr>
-<tr class="memdesc:aac03b9b682b03dfd640ac30fb4f842ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#aac03b9b682b03dfd640ac30fb4f842ec">More...</a><br /></td></tr>
-<tr class="separator:aac03b9b682b03dfd640ac30fb4f842ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0ab5b8734e227e903cea0896bd347172"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a0ab5b8734e227e903cea0896bd347172">find</a> (KeyType const &amp;key) noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a></td></tr>
-<tr class="memdesc:a0ab5b8734e227e903cea0896bd347172"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key.  <a href="#a0ab5b8734e227e903cea0896bd347172">More...</a><br /></td></tr>
-<tr class="separator:a0ab5b8734e227e903cea0896bd347172"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0f2edcc650a94976d5d7a45eaa1a2b90"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a0f2edcc650a94976d5d7a45eaa1a2b90">find</a> (KeyType const &amp;key) const noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#af0e3b513ccd30abcd2638a43b1bb1435">const_iterator</a></td></tr>
-<tr class="memdesc:a0f2edcc650a94976d5d7a45eaa1a2b90"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key.  <a href="#a0f2edcc650a94976d5d7a45eaa1a2b90">More...</a><br /></td></tr>
-<tr class="separator:a0f2edcc650a94976d5d7a45eaa1a2b90"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a26e4ed98de3cde4612375fd37f486f52"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a26e4ed98de3cde4612375fd37f486f52">count</a> (<a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;key) const noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#a0b88d8be1b770a0d62f5e64faf8ff14a">size_type</a></td></tr>
+<tr class="memdesc:a26e4ed98de3cde4612375fd37f486f52"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns 1 if the key is present, otherwise 0.  <a href="#a26e4ed98de3cde4612375fd37f486f52">More...</a><br /></td></tr>
+<tr class="separator:a26e4ed98de3cde4612375fd37f486f52"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae96a9b7c63e6141971010696f6ff9cfb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ae96a9b7c63e6141971010696f6ff9cfb">contains</a> (<a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;key) const -&gt; bool</td></tr>
+<tr class="memdesc:ae96a9b7c63e6141971010696f6ff9cfb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is an element with key equivalent to key in the container.  <a href="#ae96a9b7c63e6141971010696f6ff9cfb">More...</a><br /></td></tr>
+<tr class="separator:ae96a9b7c63e6141971010696f6ff9cfb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc818ff7399e5d7fa6eab22dbfcc739c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#abc818ff7399e5d7fa6eab22dbfcc739c">clear</a> () noexcept -&gt; void</td></tr>
+<tr class="memdesc:abc818ff7399e5d7fa6eab22dbfcc739c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements from the container. After this call, <a class="el" href="classtaetl_1_1map.html#af9a632cc5194b1bd0a92932169421fbc" title="Returns the current element count. ">size()</a> returns zero.  <a href="#abc818ff7399e5d7fa6eab22dbfcc739c">More...</a><br /></td></tr>
+<tr class="separator:abc818ff7399e5d7fa6eab22dbfcc739c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac59ba541603d97d2f74a20213daa3168"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ac59ba541603d97d2f74a20213daa3168">insert</a> (<a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> const &amp;value) noexcept -&gt; <a class="el" href="structtaetl_1_1pair.html">taetl::pair</a>&lt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a>, bool &gt;</td></tr>
+<tr class="memdesc:ac59ba541603d97d2f74a20213daa3168"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#ac59ba541603d97d2f74a20213daa3168">More...</a><br /></td></tr>
+<tr class="separator:ac59ba541603d97d2f74a20213daa3168"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb459a0f42dfe48195f75bcb6d8a09a1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#aeb459a0f42dfe48195f75bcb6d8a09a1">insert</a> (<a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> &amp;&amp;value) -&gt; <a class="el" href="structtaetl_1_1pair.html">taetl::pair</a>&lt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a>, bool &gt;</td></tr>
+<tr class="memdesc:aeb459a0f42dfe48195f75bcb6d8a09a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#aeb459a0f42dfe48195f75bcb6d8a09a1">More...</a><br /></td></tr>
+<tr class="separator:aeb459a0f42dfe48195f75bcb6d8a09a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab901482837166827abdcc5625ba8a9ef"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#ab901482837166827abdcc5625ba8a9ef">find</a> (KeyType const &amp;key) noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#aa1bcd993283f16bfe3dabe4ff9942491">iterator</a></td></tr>
+<tr class="memdesc:ab901482837166827abdcc5625ba8a9ef"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key.  <a href="#ab901482837166827abdcc5625ba8a9ef">More...</a><br /></td></tr>
+<tr class="separator:ab901482837166827abdcc5625ba8a9ef"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff59a1054227207811e8a883b39abd17"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#aff59a1054227207811e8a883b39abd17">find</a> (KeyType const &amp;key) const noexcept -&gt; <a class="el" href="classtaetl_1_1map.html#af0e3b513ccd30abcd2638a43b1bb1435">const_iterator</a></td></tr>
+<tr class="memdesc:aff59a1054227207811e8a883b39abd17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key.  <a href="#aff59a1054227207811e8a883b39abd17">More...</a><br /></td></tr>
+<tr class="separator:aff59a1054227207811e8a883b39abd17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
 Protected Member Functions</h2></td></tr>
-<tr class="memitem:a75d2f7ece9ae4d587fee5c19444bc4b8"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a75d2f7ece9ae4d587fee5c19444bc4b8">map</a> (<a class="el" href="classtaetl_1_1map.html#aa6118ec70a89e2dc4a5701f69111d773">pointer</a> data, <a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> capacity)</td></tr>
-<tr class="separator:a75d2f7ece9ae4d587fee5c19444bc4b8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a424088fc1dfece05efe13da62e7d996a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1map.html#a424088fc1dfece05efe13da62e7d996a">map</a> (<a class="el" href="classtaetl_1_1map.html#aa6118ec70a89e2dc4a5701f69111d773">pointer</a> data, <a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> capacity)</td></tr>
+<tr class="separator:a424088fc1dfece05efe13da62e7d996a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="af0e3b513ccd30abcd2638a43b1bb1435"></a>
@@ -356,8 +359,8 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a75d2f7ece9ae4d587fee5c19444bc4b8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a75d2f7ece9ae4d587fee5c19444bc4b8">&#9670;&nbsp;</a></span>map()</h2>
+<a id="a424088fc1dfece05efe13da62e7d996a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a424088fc1dfece05efe13da62e7d996a">&#9670;&nbsp;</a></span>map()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -368,7 +371,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname"><a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::<a class="el" href="classtaetl_1_1map.html">map</a> </td>
+          <td class="memname">constexpr <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::<a class="el" href="classtaetl_1_1map.html">map</a> </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#aa6118ec70a89e2dc4a5701f69111d773">pointer</a>&#160;</td>
           <td class="paramname"><em>data</em>, </td>
@@ -514,8 +517,8 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 
 </div>
 </div>
-<a id="ac5b3e985c1f8559d844311e23bcea3bd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac5b3e985c1f8559d844311e23bcea3bd">&#9670;&nbsp;</a></span>clear()</h2>
+<a id="abc818ff7399e5d7fa6eab22dbfcc739c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc818ff7399e5d7fa6eab22dbfcc739c">&#9670;&nbsp;</a></span>clear()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -526,7 +529,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::clear </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::clear </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; void
@@ -544,8 +547,39 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 
 </div>
 </div>
-<a id="ac1d0792a4c056b259b52059cfb2c02d9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1d0792a4c056b259b52059cfb2c02d9">&#9670;&nbsp;</a></span>count()</h2>
+<a id="ae96a9b7c63e6141971010696f6ff9cfb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae96a9b7c63e6141971010696f6ff9cfb">&#9670;&nbsp;</a></span>contains()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::less&lt;KeyType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if there is an element with key equivalent to key in the container. </p>
+
+</div>
+</div>
+<a id="a26e4ed98de3cde4612375fd37f486f52"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a26e4ed98de3cde4612375fd37f486f52">&#9670;&nbsp;</a></span>count()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -558,7 +592,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::count </td>
           <td>(</td>
-          <td class="paramtype">KeyType const &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0">key_type</a> const &amp;&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
           <td> const -&gt; <a class="el" href="classtaetl_1_1map.html#a0b88d8be1b770a0d62f5e64faf8ff14a">size_type</a>
     </td>
@@ -665,8 +699,8 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 
 </div>
 </div>
-<a id="a0ab5b8734e227e903cea0896bd347172"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0ab5b8734e227e903cea0896bd347172">&#9670;&nbsp;</a></span>find() <span class="overload">[1/2]</span></h2>
+<a id="ab901482837166827abdcc5625ba8a9ef"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab901482837166827abdcc5625ba8a9ef">&#9670;&nbsp;</a></span>find() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -677,7 +711,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::find </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::find </td>
           <td>(</td>
           <td class="paramtype">KeyType const &amp;&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
@@ -696,8 +730,8 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 
 </div>
 </div>
-<a id="a0f2edcc650a94976d5d7a45eaa1a2b90"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f2edcc650a94976d5d7a45eaa1a2b90">&#9670;&nbsp;</a></span>find() <span class="overload">[2/2]</span></h2>
+<a id="aff59a1054227207811e8a883b39abd17"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff59a1054227207811e8a883b39abd17">&#9670;&nbsp;</a></span>find() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -708,7 +742,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::find </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::find </td>
           <td>(</td>
           <td class="paramtype">KeyType const &amp;&#160;</td>
           <td class="paramname"><em>key</em></td><td>)</td>
@@ -727,8 +761,8 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 
 </div>
 </div>
-<a id="aef318fa6ac7d4ccfb08978d6617a560a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef318fa6ac7d4ccfb08978d6617a560a">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/2]</span></h2>
+<a id="ac59ba541603d97d2f74a20213daa3168"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac59ba541603d97d2f74a20213daa3168">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -739,7 +773,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::insert </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::insert </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> const &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
@@ -758,8 +792,8 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
 
 </div>
 </div>
-<a id="aac03b9b682b03dfd640ac30fb4f842ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aac03b9b682b03dfd640ac30fb4f842ec">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/2]</span></h2>
+<a id="aeb459a0f42dfe48195f75bcb6d8a09a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb459a0f42dfe48195f75bcb6d8a09a1">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -770,7 +804,7 @@ template&lt;typename KeyType , typename ValueType , typename Compare  = taetl::l
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::insert </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1map.html">taetl::map</a>&lt; KeyType, ValueType, Compare &gt;::insert </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classtaetl_1_1map.html#af11a6b8b84d67246f473a5fe15551b04">value_type</a> &amp;&amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>

@@ -1,7 +1,7 @@
 var searchData=
 [
   ['make_5fbuffer',['make_buffer',['../namespacetaetl_1_1net.html#a0160e69411dbef4835256b3d168bd5f2',1,'taetl::net::make_buffer(void *data, size_t size) noexcept -&gt; mutable_buffer'],['../namespacetaetl_1_1net.html#a74d4854c2275af7d9bc06b147592971d',1,'taetl::net::make_buffer(void const *data, size_t size) noexcept -&gt; const_buffer']]],
-  ['map',['map',['../classtaetl_1_1make_1_1map.html',1,'taetl::make::map&lt; KeyType, ValueType, Capacity, Compare &gt;'],['../classtaetl_1_1map.html',1,'taetl::map&lt; KeyType, ValueType, Compare &gt;'],['../classtaetl_1_1map.html#a75d2f7ece9ae4d587fee5c19444bc4b8',1,'taetl::map::map()'],['../classtaetl_1_1make_1_1map.html#a9f5f428caf6682b424e4ca5b35d49f4c',1,'taetl::make::map::map()']]],
+  ['map',['map',['../classtaetl_1_1make_1_1map.html',1,'taetl::make::map&lt; KeyType, ValueType, Capacity, Compare &gt;'],['../classtaetl_1_1map.html',1,'taetl::map&lt; KeyType, ValueType, Compare &gt;'],['../classtaetl_1_1map.html#a424088fc1dfece05efe13da62e7d996a',1,'taetl::map::map()'],['../classtaetl_1_1make_1_1map.html#a9f5f428caf6682b424e4ca5b35d49f4c',1,'taetl::make::map::map()']]],
   ['map_2ehpp',['map.hpp',['../map_8hpp.html',1,'']]],
   ['mapped_5ftype',['mapped_type',['../classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9',1,'taetl::map']]],
   ['max',['max',['../namespacetaetl.html#a62988a104cc259d2e54908ef529501a8',1,'taetl::max(Type const &amp;a, Type const &amp;b) noexcept -&gt; Type const &amp;'],['../namespacetaetl.html#aba7986e247e69d6f0534738f605dff67',1,'taetl::max(Type const &amp;a, Type const &amp;b, Compare comp) noexcept -&gt; Type const &amp;']]],
