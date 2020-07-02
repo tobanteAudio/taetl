@@ -34,7 +34,6 @@ digraph "/home/travis/build/tobanteAudio/taetl/taetl/definitions.hpp"
   Node6 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 -> Node19 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node19 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/new.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$new_8hpp.html"];
-  Node19 -> Node14 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 -> Node20 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node20 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/numeric.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$numeric_8hpp.html"];
   Node6 -> Node21 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
