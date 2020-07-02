@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['task_2ehpp',['task.hpp',['../task_8hpp.html',1,'']]],
-  ['tuple_2ehpp',['tuple.hpp',['../tuple_8hpp.html',1,'']]],
-  ['type_5ftraits_2ehpp',['type_traits.hpp',['../type__traits_8hpp.html',1,'']]]
+  ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
+  ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]]
 ];
