@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['detail',['detail',['../namespacetaetl_1_1detail.html',1,'taetl']]],
   ['hardware',['hardware',['../namespacetaetl_1_1hardware.html',1,'taetl']]],
   ['make',['make',['../namespacetaetl_1_1make.html',1,'taetl']]],
   ['mcp23017',['mcp23017',['../namespacetaetl_1_1hardware_1_1mcp23017.html',1,'taetl::hardware']]],

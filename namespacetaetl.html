@@ -76,6 +76,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespacetaetl_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1detail.html">detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacetaetl_1_1hardware"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1hardware.html">hardware</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacetaetl_1_1make"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1make.html">make</a></td></tr>
@@ -109,6 +111,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1integral__constant.html">integral_constant</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__arithmetic.html">is_arithmetic</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an arithmetic type (that is, an integral type or a floating-point type) or a cv-qualified version thereof, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structtaetl_1_1is__arithmetic.html" title="If T is an arithmetic type (that is, an integral type or a floating-point type) or a cv-qualified ver...">is_arithmetic</a> or is_arithmetic_v (since C++17) is undefined.  <a href="structtaetl_1_1is__arithmetic.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__array.html">is_array</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__array_3_01T[]_4.html">is_array&lt; T[]&gt;</a></td></tr>
@@ -137,6 +142,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__same_3_01T_00_01T_01_4.html">is_same&lt; T, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__union.html">is_union</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__unsigned.html">is_unsigned</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an arithmetic type, provides the member constant value equal to true if T(0) &lt; T(-1): this results in true for the unsigned integer types and the type bool and in false for the signed integer types and the floating-point types. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structtaetl_1_1is__unsigned.html" title="If T is an arithmetic type, provides the member constant value equal to true if T(0) &lt; T(-1): this re...">is_unsigned</a> or is_unsigned_v (since C++17) is undefined.  <a href="structtaetl_1_1is__unsigned.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1is__void.html">is_void</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structtaetl_1_1is__void.html#details">More...</a><br /></td></tr>
@@ -372,6 +380,12 @@ Variables</h2></td></tr>
 <tr class="memitem:a9520ee3ca2de999b948a680644d39832"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a9520ee3ca2de999b948a680644d39832"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a9520ee3ca2de999b948a680644d39832">is_union_v</a> = <a class="el" href="structtaetl_1_1is__union.html">is_union</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a9520ee3ca2de999b948a680644d39832"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98a5202e04a55dd840362e837685b827"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a98a5202e04a55dd840362e837685b827"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a98a5202e04a55dd840362e837685b827">is_arithmetic_v</a> = <a class="el" href="structtaetl_1_1is__arithmetic.html">is_arithmetic</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a98a5202e04a55dd840362e837685b827"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adba8af893ad5bb40bf9f73239bbcf3ae"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:adba8af893ad5bb40bf9f73239bbcf3ae"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#adba8af893ad5bb40bf9f73239bbcf3ae">is_unsigned_v</a> = <a class="el" href="structtaetl_1_1is__unsigned.html">is_unsigned</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:adba8af893ad5bb40bf9f73239bbcf3ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for the taetl library. </p>
@@ -1740,7 +1754,7 @@ template&lt;class T &gt; </div>
   </table>
   </dd>
 </dl>
-<dl class="section return"><dt>Returns</dt><dd>static_cast&lt;typename <a class="el" href="structtaetl_1_1remove__reference.html#aa9b2857cc5c9026eca3185acf2f64146">taetl::remove_reference&lt;T&gt;::type</a>&amp;&amp;&gt;(t) </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>static_cast&lt;typename <a class="el" href="structtaetl_1_1remove__reference.html#a3afed528a038157ad6348cf929fd6cae">taetl::remove_reference&lt;T&gt;::type</a>&amp;&amp;&gt;(t) </dd></dl>
 
 </div>
 </div>
@@ -1845,6 +1859,30 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a98a5202e04a55dd840362e837685b827"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98a5202e04a55dd840362e837685b827">&#9670;&nbsp;</a></span>is_arithmetic_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::is_arithmetic_v = <a class="el" href="structtaetl_1_1is__arithmetic.html">is_arithmetic</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a065a45c9cb208bfff1d04f2d7f22486a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a065a45c9cb208bfff1d04f2d7f22486a">&#9670;&nbsp;</a></span>is_array_v</h2>
 
@@ -2050,6 +2088,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool taetl::is_union_v = <a class="el" href="structtaetl_1_1is__union.html">is_union</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adba8af893ad5bb40bf9f73239bbcf3ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adba8af893ad5bb40bf9f73239bbcf3ae">&#9670;&nbsp;</a></span>is_unsigned_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool taetl::is_unsigned_v = <a class="el" href="structtaetl_1_1is__unsigned.html">is_unsigned</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
