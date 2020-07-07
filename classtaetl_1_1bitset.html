@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>taetl: taetl::bitset&lt; N &gt; Class Template Reference</title>
+<title>taetl: taetl::bitset&lt; NumberOfBits &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -67,7 +67,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classtaetl_1_1bitset-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">taetl::bitset&lt; N &gt; Class Template Reference</div>  </div>
+<div class="title">taetl::bitset&lt; NumberOfBits &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -78,142 +78,133 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:af11fa956e8f4297f073812178165194e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#af11fa956e8f4297f073812178165194e">bitset</a> ()</td></tr>
-<tr class="separator:af11fa956e8f4297f073812178165194e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9336f5e2d87f7f942950f83c65e9a846"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a9336f5e2d87f7f942950f83c65e9a846">operator[]</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> bit) const -&gt; bool</td></tr>
-<tr class="separator:a9336f5e2d87f7f942950f83c65e9a846"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5325174706508c311fc0bb4fc05cf5fd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a5325174706508c311fc0bb4fc05cf5fd">test</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> bit) const -&gt; bool</td></tr>
-<tr class="separator:a5325174706508c311fc0bb4fc05cf5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a31acecaf14a0200c99a5741494d55e41"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a31acecaf14a0200c99a5741494d55e41">set</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> bit) -&gt; void</td></tr>
-<tr class="separator:a31acecaf14a0200c99a5741494d55e41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae2a5c21d95cf7fade6367f1a55435655"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#ae2a5c21d95cf7fade6367f1a55435655">reset</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> bit) -&gt; void</td></tr>
-<tr class="separator:ae2a5c21d95cf7fade6367f1a55435655"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3776df5c0f595ff4d7a364244dfdcb16"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a3776df5c0f595ff4d7a364244dfdcb16">flip</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a> bit) -&gt; void</td></tr>
-<tr class="separator:a3776df5c0f595ff4d7a364244dfdcb16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ac36b5884a58f559065a767c42e22a5"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a4ac36b5884a58f559065a767c42e22a5">bitset</a> () noexcept=default</td></tr>
+<tr class="separator:a4ac36b5884a58f559065a767c42e22a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae5a0a21069dd6989cfb14dd9ff6d5846"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#ae5a0a21069dd6989cfb14dd9ff6d5846">set</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> const pos) -&gt; void</td></tr>
+<tr class="separator:ae5a0a21069dd6989cfb14dd9ff6d5846"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a515c589c5279205b3c34cda4527ac978"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a515c589c5279205b3c34cda4527ac978">test</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> const pos) const -&gt; bool</td></tr>
+<tr class="separator:a515c589c5279205b3c34cda4527ac978"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d3fc4641b05d9147a8b381299455ae7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classtaetl_1_1bitset.html#a8d3fc4641b05d9147a8b381299455ae7">operator[]</a> (<a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> const pos) const -&gt; bool</td></tr>
+<tr class="separator:a8d3fc4641b05d9147a8b381299455ae7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;taetl::size_t N&gt;<br />
-class taetl::bitset&lt; N &gt;</h3>
+<div class="textblock"><h3>template&lt;size_t NumberOfBits&gt;<br />
+class taetl::bitset&lt; NumberOfBits &gt;</h3>
 
 <p>The class template bitset represents a fixed-size sequence of N bits. Bitsets can be manipulated by standard logic operators. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Converted to and from strings and integers. Add operators &amp; more docs. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="af11fa956e8f4297f073812178165194e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af11fa956e8f4297f073812178165194e">&#9670;&nbsp;</a></span>bitset()</h2>
+<a id="a4ac36b5884a58f559065a767c42e22a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ac36b5884a58f559065a767c42e22a5">&#9670;&nbsp;</a></span>bitset()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;taetl::size_t N&gt; </div>
+template&lt;size_t NumberOfBits&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; N &gt;::<a class="el" href="classtaetl_1_1bitset.html">bitset</a> </td>
+          <td class="memname">constexpr <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; NumberOfBits &gt;::<a class="el" href="classtaetl_1_1bitset.html">bitset</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a3776df5c0f595ff4d7a364244dfdcb16"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3776df5c0f595ff4d7a364244dfdcb16">&#9670;&nbsp;</a></span>flip()</h2>
+<a id="a8d3fc4641b05d9147a8b381299455ae7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8d3fc4641b05d9147a8b381299455ae7">&#9670;&nbsp;</a></span>operator[]()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;taetl::size_t N&gt; </div>
+template&lt;size_t NumberOfBits&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; N &gt;::flip </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; NumberOfBits &gt;::operator[] </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>&#160;</td>
-          <td class="paramname"><em>bit</em></td><td>)</td>
-          <td> -&gt; void</td>
+          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> const&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a9336f5e2d87f7f942950f83c65e9a846"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9336f5e2d87f7f942950f83c65e9a846">&#9670;&nbsp;</a></span>operator[]()</h2>
+<a id="ae5a0a21069dd6989cfb14dd9ff6d5846"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae5a0a21069dd6989cfb14dd9ff6d5846">&#9670;&nbsp;</a></span>set()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;taetl::size_t N&gt; </div>
+template&lt;size_t NumberOfBits&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; N &gt;::operator[] </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; NumberOfBits &gt;::set </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>&#160;</td>
-          <td class="paramname"><em>bit</em></td><td>)</td>
-          <td> const -&gt; bool</td>
+          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> const&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> -&gt; void
+    </td>
         </tr>
       </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ae2a5c21d95cf7fade6367f1a55435655"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a5c21d95cf7fade6367f1a55435655">&#9670;&nbsp;</a></span>reset()</h2>
+<a id="a515c589c5279205b3c34cda4527ac978"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a515c589c5279205b3c34cda4527ac978">&#9670;&nbsp;</a></span>test()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;taetl::size_t N&gt; </div>
+template&lt;size_t NumberOfBits&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; N &gt;::reset </td>
+          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; NumberOfBits &gt;::test </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>&#160;</td>
-          <td class="paramname"><em>bit</em></td><td>)</td>
-          <td> -&gt; void</td>
+          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">size_t</a> const&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
         </tr>
       </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a31acecaf14a0200c99a5741494d55e41"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a31acecaf14a0200c99a5741494d55e41">&#9670;&nbsp;</a></span>set()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;taetl::size_t N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; N &gt;::set </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>&#160;</td>
-          <td class="paramname"><em>bit</em></td><td>)</td>
-          <td> -&gt; void</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="a5325174706508c311fc0bb4fc05cf5fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5325174706508c311fc0bb4fc05cf5fd">&#9670;&nbsp;</a></span>test()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;taetl::size_t N&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classtaetl_1_1bitset.html">taetl::bitset</a>&lt; N &gt;::test </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="namespacetaetl.html#a89c10255ab824cbf6d7e4fef58b1e36f">taetl::size_t</a>&#160;</td>
-          <td class="paramname"><em>bit</em></td><td>)</td>
-          <td> const -&gt; bool</td>
-        </tr>
-      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
 </div><div class="memdoc">
 
 </div>

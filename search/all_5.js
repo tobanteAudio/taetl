@@ -6,7 +6,6 @@ var searchData=
   ['find_5fif_5fnot',['find_if_not',['../namespacetaetl.html#a70cc843e80ddb0eba09a6f3b83b0e8d4',1,'taetl']]],
   ['first',['first',['../structtaetl_1_1tuple.html#a92f587db67074d2b8f1be3858be1624b',1,'taetl::tuple::first()'],['../structtaetl_1_1tuple_3_01First_01_4.html#ac430c645d5df8ae6d880c43583abc088',1,'taetl::tuple&lt; First &gt;::first()'],['../structtaetl_1_1pair.html#aab7450946c078b2df7f1d27297fbd9eb',1,'taetl::pair::first()']]],
   ['first_5ftype',['first_type',['../structtaetl_1_1pair.html#a4458b9a65c060c9427ce318fca09737d',1,'taetl::pair']]],
-  ['flip',['flip',['../classtaetl_1_1bitset.html#a3776df5c0f595ff4d7a364244dfdcb16',1,'taetl::bitset']]],
   ['for_5feach',['for_each',['../namespacetaetl.html#a403ae29bd75f41d44babfa4eac5962ed',1,'taetl']]],
   ['for_5feach_5fn',['for_each_n',['../namespacetaetl.html#ae855bd613bb556bc3d2d374f0bf17afe',1,'taetl']]],
   ['forever',['forever',['../structtaetl_1_1rtos_1_1forever.html',1,'taetl::rtos']]],

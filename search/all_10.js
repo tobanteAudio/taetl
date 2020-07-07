@@ -18,7 +18,7 @@ var searchData=
   ['remove_5fvolatile_3c_20type_20volatile_20_3e',['remove_volatile&lt; Type volatile &gt;',['../structtaetl_1_1remove__volatile_3_01Type_01volatile_01_4.html',1,'taetl']]],
   ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespacetaetl.html#ad0b7a0bd54e84305e616ce34bf1ab1c4',1,'taetl']]],
   ['reserve',['reserve',['../classtaetl_1_1vector.html#a6fc73507072f22ecc178a63e2a824e28',1,'taetl::vector']]],
-  ['reset',['reset',['../classtaetl_1_1bitset.html#ae2a5c21d95cf7fade6367f1a55435655',1,'taetl::bitset::reset()'],['../classtaetl_1_1rtos_1_1queue.html#aeda331ac20d1a773ce6e4cd9ebfa1960',1,'taetl::rtos::queue::reset()'],['../namespacetaetl_1_1hardware_1_1stm32.html#a437fe406eef7a7914caa5a9d81eff715a86266ee937d97f812a8e57d22b62ee29',1,'taetl::hardware::stm32::reset()']]],
+  ['reset',['reset',['../classtaetl_1_1rtos_1_1queue.html#aeda331ac20d1a773ce6e4cd9ebfa1960',1,'taetl::rtos::queue::reset()'],['../namespacetaetl_1_1hardware_1_1stm32.html#a437fe406eef7a7914caa5a9d81eff715a86266ee937d97f812a8e57d22b62ee29',1,'taetl::hardware::stm32::reset()']]],
   ['rtos_5ftask',['rtos_task',['../namespacetaetl_1_1rtos.html#acc9bd9a0ff7420efedc33f11e6743c83',1,'taetl::rtos']]],
   ['run_5fcount',['run_count',['../structtaetl_1_1rtos_1_1times.html#a9ce3547032fa924b439cf7cb7d551092',1,'taetl::rtos::times']]]
 ];

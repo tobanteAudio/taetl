@@ -9,7 +9,7 @@ var searchData=
   ['bit_2ehpp',['bit.hpp',['../bit_8hpp.html',1,'']]],
   ['bit_5fset',['bit_set',['../structtaetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a59cbf152947b334732cb844e4bfb517e',1,'taetl::hardware::stm32::gpio_memory_layout']]],
   ['bit_5fset_5freset',['bit_set_reset',['../structtaetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a729135ca16399e7e33313344d4389150',1,'taetl::hardware::stm32::gpio_memory_layout']]],
-  ['bitset',['bitset',['../classtaetl_1_1bitset.html',1,'taetl::bitset&lt; N &gt;'],['../classtaetl_1_1bitset.html#af11fa956e8f4297f073812178165194e',1,'taetl::bitset::bitset()']]],
+  ['bitset',['bitset',['../classtaetl_1_1bitset.html',1,'taetl::bitset&lt; NumberOfBits &gt;'],['../classtaetl_1_1bitset.html#a4ac36b5884a58f559065a767c42e22a5',1,'taetl::bitset::bitset()']]],
   ['bitset_2ehpp',['bitset.hpp',['../bitset_8hpp.html',1,'']]],
   ['buffer_2ehpp',['buffer.hpp',['../buffer_8hpp.html',1,'']]],
   ['buffer_5fconst_2ehpp',['buffer_const.hpp',['../buffer__const_8hpp.html',1,'']]],
