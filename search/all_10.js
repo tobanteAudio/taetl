@@ -4,6 +4,7 @@ var searchData=
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
   ['receive',['receive',['../classtaetl_1_1rtos_1_1queue.html#af3313e89ac63847325f0890258da2b29',1,'taetl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classtaetl_1_1rtos_1_1queue.html#a71ceafd6bedd59c601f0a19396f961d9',1,'taetl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
   ['reference',['reference',['../classtaetl_1_1array.html#af827ff61cb3c04291925b69d59bccfed',1,'taetl::array::reference()'],['../classtaetl_1_1map.html#a85e45d91cf235b0a5162e236c288c4ea',1,'taetl::map::reference()'],['../classtaetl_1_1basic__string.html#a61ec5830cd73f5a72f968ea26bc72ce5',1,'taetl::basic_string::reference()'],['../classtaetl_1_1vector.html#a26408e03ed8f6891b0625b30483847ef',1,'taetl::vector::reference()']]],
+  ['registers',['registers',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59',1,'taetl::hardware::mcp23017']]],
   ['remove_5fconst',['remove_const',['../structtaetl_1_1remove__const.html',1,'taetl']]],
   ['remove_5fconst_3c_20type_20const_20_3e',['remove_const&lt; Type const &gt;',['../structtaetl_1_1remove__const_3_01Type_01const_01_4.html',1,'taetl']]],
   ['remove_5fconst_5ft',['remove_const_t',['../namespacetaetl.html#a2ab096f557775ec6c067704e0c567069',1,'taetl']]],

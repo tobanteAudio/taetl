@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['b',['b',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a654d2d150714ac2125904bea4d7daf6ca92eb5ffee6ae2fec3ad71c777531578f',1,'taetl::hardware::mcp23017']]],
   ['back',['back',['../classtaetl_1_1array.html#af29ca01a5339000d05575ac8adfded4a',1,'taetl::array::back() noexcept -&gt; reference'],['../classtaetl_1_1array.html#a2a8a28b7c4e46feffc53b81df57db577',1,'taetl::array::back() const noexcept -&gt; const_reference'],['../classtaetl_1_1basic__string.html#a077aca2a29e9d48b08af356d97aa6950',1,'taetl::basic_string::back()'],['../classtaetl_1_1vector.html#a0de929db67d68a2e3a56142f5fe8c472',1,'taetl::vector::back()']]],
   ['basetype_5ft',['BaseType_t',['../stubs_8hpp.html#a2d7fc630e89911cbf80c510f0b1a3e9c',1,'stubs.hpp']]],
   ['basic_5fstring',['basic_string',['../classtaetl_1_1basic__string.html',1,'taetl::basic_string&lt; CharType, Capacity &gt;'],['../classtaetl_1_1basic__string.html#a2bbeb067a09e5472eb7eea31f136af26',1,'taetl::basic_string::basic_string()=default'],['../classtaetl_1_1basic__string.html#a23169f015642293fabeda08b3899cdf4',1,'taetl::basic_string::basic_string(const char *str, taetl::size_t const len) noexcept'],['../classtaetl_1_1basic__string.html#aa56ffc999c60cd5d9c6390c4890802a0',1,'taetl::basic_string::basic_string(const char *c_string) noexcept']]],

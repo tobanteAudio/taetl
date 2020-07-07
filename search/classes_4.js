@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['forever',['forever',['../structtaetl_1_1rtos_1_1forever.html',1,'taetl::rtos']]]
+  ['enable_5fif',['enable_if',['../structtaetl_1_1enable__if.html',1,'taetl']]],
+  ['enable_5fif_3c_20true_2c_20type_20_3e',['enable_if&lt; true, Type &gt;',['../structtaetl_1_1enable__if_3_01true_00_01Type_01_4.html',1,'taetl']]]
 ];

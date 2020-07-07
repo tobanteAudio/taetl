@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['set',['set',['../namespacetaetl_1_1hardware_1_1stm32.html#a437fe406eef7a7914caa5a9d81eff715acdaeeeba9b4a4c5ebf042c0215a7bb0e',1,'taetl::hardware::stm32']]]
+  ['defvala',['DEFVALA',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59a9cb811587b96ad554f7e970f5c8a691c',1,'taetl::hardware::mcp23017']]],
+  ['defvalb',['DEFVALB',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59a5989dad3c64dc4825dffadc2cac49779',1,'taetl::hardware::mcp23017']]]
 ];
