@@ -3,6 +3,7 @@ var searchData=
   ['find',['find',['../classtaetl_1_1map.html#ab901482837166827abdcc5625ba8a9ef',1,'taetl::map::find(KeyType const &amp;key) noexcept -&gt; iterator'],['../classtaetl_1_1map.html#aff59a1054227207811e8a883b39abd17',1,'taetl::map::find(KeyType const &amp;key) const noexcept -&gt; const_iterator'],['../namespacetaetl.html#a3aad24163766d9cb58879fe35182e22b',1,'taetl::find()']]],
   ['find_5fif',['find_if',['../namespacetaetl.html#a8ecd9f22b1b46f527decb3e1abb6bb3f',1,'taetl']]],
   ['find_5fif_5fnot',['find_if_not',['../namespacetaetl.html#a70cc843e80ddb0eba09a6f3b83b0e8d4',1,'taetl']]],
+  ['flip',['flip',['../classtaetl_1_1bitset.html#a3776df5c0f595ff4d7a364244dfdcb16',1,'taetl::bitset']]],
   ['for_5feach',['for_each',['../namespacetaetl.html#a403ae29bd75f41d44babfa4eac5962ed',1,'taetl']]],
   ['for_5feach_5fn',['for_each_n',['../namespacetaetl.html#ae855bd613bb556bc3d2d374f0bf17afe',1,'taetl']]],
   ['forward',['forward',['../namespacetaetl.html#a5b36acf282f498f3f4668d730f293a49',1,'taetl::forward(taetl::remove_reference_t&lt; T &gt; &amp;param) noexcept -&gt; T &amp;&amp;'],['../namespacetaetl.html#ac253209981b365342b66cac0cd619b4e',1,'taetl::forward(taetl::remove_reference_t&lt; T &gt; &amp;&amp;param) noexcept -&gt; T &amp;&amp;']]],
