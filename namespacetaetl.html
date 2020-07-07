@@ -63,6 +63,7 @@ $(function() {
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#enum-members">Enumerations</a> &#124;
 <a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
@@ -218,6 +219,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a4ff6c5f0f412f99b26bf1f57cd665049">conditional_t</a> = typename <a class="el" href="structtaetl_1_1conditional.html">conditional</a>&lt; B, T, F &gt;::type</td></tr>
 <tr class="separator:a4ff6c5f0f412f99b26bf1f57cd665049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
+Enumerations</h2></td></tr>
+<tr class="memitem:abc8149dfafa49d836097b734f8f6bf73"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73">endian</a> { <a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73aaae6635e044ac56046b2893a529b5114">endian::little</a> = __ORDER_LITTLE_ENDIAN__, 
+<a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73ad861877da56b8b4ceb35c8cbfdf65bb4">endian::big</a> = __ORDER_BIG_ENDIAN__, 
+<a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73a8e5f3adee38c8fccc13c1f3be0143796">endian::native</a> = __BYTE_ORDER__
+ }<tr class="memdesc:abc8149dfafa49d836097b734f8f6bf73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the endianness of all scalar types.  <a href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73">More...</a><br /></td></tr>
+</td></tr>
+<tr class="separator:abc8149dfafa49d836097b734f8f6bf73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a403ae29bd75f41d44babfa4eac5962ed"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class UnaryFunction &gt; </td></tr>
@@ -294,6 +304,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ace0c671408efc6d1a186ad4feabe6af1"><td class="memTemplParams" colspan="2">template&lt;class T , class... U&gt; </td></tr>
 <tr class="memitem:ace0c671408efc6d1a186ad4feabe6af1"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ace0c671408efc6d1a186ad4feabe6af1">array</a> (T, U...) -&gt; <a class="el" href="classtaetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td></tr>
 <tr class="separator:ace0c671408efc6d1a186ad4feabe6af1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a457324aea492870a7eb916e029cdc47c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a457324aea492870a7eb916e029cdc47c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a457324aea492870a7eb916e029cdc47c">popcount</a> (T input) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a457324aea492870a7eb916e029cdc47c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a457324aea492870a7eb916e029cdc47c">More...</a><br /></td></tr>
+<tr class="separator:a457324aea492870a7eb916e029cdc47c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type &gt; </td></tr>
 <tr class="memitem:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#acacccd4f1dd6858a3fb1ddfbdc52e5d9">accumulate</a> (InputIt first, InputIt last, Type init) noexcept -&gt; Type</td></tr>
 <tr class="memdesc:acacccd4f1dd6858a3fb1ddfbdc52e5d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements.  <a href="#acacccd4f1dd6858a3fb1ddfbdc52e5d9">More...</a><br /></td></tr>
@@ -651,6 +665,37 @@ template&lt;taetl::size_t Capacity&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="abc8149dfafa49d836097b734f8f6bf73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc8149dfafa49d836097b734f8f6bf73">&#9670;&nbsp;</a></span>endian</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73">taetl::endian</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Indicates the endianness of all scalar types. </p>
+<p>If all scalar types are little-endian, <a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73a8e5f3adee38c8fccc13c1f3be0143796">taetl::endian::native</a> equals <a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73aaae6635e044ac56046b2893a529b5114">taetl::endian::little</a>. If all scalar types are big-endian, <a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73a8e5f3adee38c8fccc13c1f3be0143796">taetl::endian::native</a> equals <a class="el" href="namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73ad861877da56b8b4ceb35c8cbfdf65bb4">taetl::endian::big</a> </p>
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="abc8149dfafa49d836097b734f8f6bf73aaae6635e044ac56046b2893a529b5114"></a>little&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc8149dfafa49d836097b734f8f6bf73ad861877da56b8b4ceb35c8cbfdf65bb4"></a>big&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="abc8149dfafa49d836097b734f8f6bf73a8e5f3adee38c8fccc13c1f3be0143796"></a>native&#160;</td><td class="fielddoc"></td></tr>
+</table>
 
 </div>
 </div>
@@ -1735,6 +1780,38 @@ template&lt;class InputIt , class UnaryPredicate &gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if unary predicate p returns true for no elements in the range [first, last). </p>
+
+</div>
+</div>
+<a id="a457324aea492870a7eb916e029cdc47c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a457324aea492870a7eb916e029cdc47c">&#9670;&nbsp;</a></span>popcount()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto taetl::popcount </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>input</em></td><td>)</td>
+          <td> -&gt; int
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of 1 bits in the value of x. </p>
+<p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type). </p>
 
 </div>
 </div>

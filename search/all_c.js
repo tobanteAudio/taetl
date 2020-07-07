@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['native',['native',['../namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73a8e5f3adee38c8fccc13c1f3be0143796',1,'taetl']]],
   ['never',['never',['../structtaetl_1_1rtos_1_1never.html',1,'taetl::rtos']]],
   ['new_2ehpp',['new.hpp',['../new_8hpp.html',1,'']]],
   ['none_5fof',['none_of',['../namespacetaetl.html#adb9ae0a7d91511322c92618f2a73bbc3',1,'taetl']]],
