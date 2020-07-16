@@ -1,8 +1,10 @@
 var searchData=
 [
+  ['gcd',['gcd',['../namespacetaetl.html#a940068c752249e51480da088d3924d0a',1,'taetl']]],
   ['get',['get',['../namespacetaetl.html#adff7770abd71ad0ec36e272c8c72f90f',1,'taetl']]],
   ['getimpl',['GetImpl',['../structtaetl_1_1GetImpl.html',1,'taetl']]],
   ['getimpl_3c_200_2c_20first_2c_20rest_2e_2e_2e_20_3e',['GetImpl&lt; 0, First, Rest... &gt;',['../structtaetl_1_1GetImpl_3_010_00_01First_00_01Rest_8_8_8_01_4.html',1,'taetl']]],
+  ['giga',['giga',['../namespacetaetl.html#a482dd03ff3e755a70cd057298e1d9f62',1,'taetl']]],
   ['gpintena',['GPINTENA',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59a03993b5654f15a8140aa212a0a0166d5',1,'taetl::hardware::mcp23017']]],
   ['gpintenb',['GPINTENB',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59ae374660a6659b9e5bffe1e1e802d87be',1,'taetl::hardware::mcp23017']]],
   ['gpio_2ehpp',['gpio.hpp',['../gpio_8hpp.html',1,'']]],

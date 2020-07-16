@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="taetl::rtos::times\l\< Count \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtaetl_1_1rtos_1_1times.html",tooltip="Runs the task loop Count times. "];
+  Node0 [label="taetl::rtos::queue\l\< ValueType, Size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtaetl_1_1rtos_1_1queue.html"];
 }

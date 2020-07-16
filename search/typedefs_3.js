@@ -1,5 +1,6 @@
 var searchData=
 [
-  ['false_5ftype',['false_type',['../namespacetaetl.html#a776be9f8ecb8bc9c6d9d912d4eba2a46',1,'taetl']]],
-  ['first_5ftype',['first_type',['../structtaetl_1_1pair.html#a4458b9a65c060c9427ce318fca09737d',1,'taetl::pair']]]
+  ['deca',['deca',['../namespacetaetl.html#a84b68e7fb385addd8433ab28c0427d43',1,'taetl']]],
+  ['deci',['deci',['../namespacetaetl.html#a1e04b155eba661f37224709c07989b72',1,'taetl']]],
+  ['difference_5ftype',['difference_type',['../classtaetl_1_1array.html#a0b54d1ae995c82b80380c0e22997e29f',1,'taetl::array::difference_type()'],['../classtaetl_1_1map.html#a4ad8ea4bdc1a66714601aba4cb958f7d',1,'taetl::map::difference_type()'],['../classtaetl_1_1vector.html#a421497969df4b9d933e45d213521bb57',1,'taetl::vector::difference_type()']]]
 ];

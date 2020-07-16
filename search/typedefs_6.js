@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['mapped_5ftype',['mapped_type',['../classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9',1,'taetl::map']]]
+  ['giga',['giga',['../namespacetaetl.html#a482dd03ff3e755a70cd057298e1d9f62',1,'taetl']]]
 ];

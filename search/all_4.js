@@ -15,5 +15,6 @@ var searchData=
   ['end',['end',['../classtaetl_1_1array.html#a070cd0bb95b0aa73f24f6d71142d79c8',1,'taetl::array::end() noexcept -&gt; iterator'],['../classtaetl_1_1array.html#ad2073b6baa2d4b6df69f9fcd556f3325',1,'taetl::array::end() const noexcept -&gt; const_iterator'],['../classtaetl_1_1map.html#a20c905db0b97c2c03e420ba685e1bb9b',1,'taetl::map::end() noexcept -&gt; iterator'],['../classtaetl_1_1map.html#ac36cc49ea76cee9a0aeac597e771a3e4',1,'taetl::map::end() const noexcept -&gt; const_iterator'],['../classtaetl_1_1basic__string.html#a0daf5fd4c9344d70ba0e02434098b372',1,'taetl::basic_string::end()'],['../classtaetl_1_1vector.html#ac9d636b897e8be232b61e2bf491d590d',1,'taetl::vector::end()']]],
   ['endian',['endian',['../namespacetaetl.html#abc8149dfafa49d836097b734f8f6bf73',1,'taetl']]],
   ['errqueue_5fempty',['errQUEUE_EMPTY',['../stubs_8hpp.html#a4d79b09954b1efa73ad8d87a36b4a575',1,'stubs.hpp']]],
-  ['errqueue_5ffull',['errQUEUE_FULL',['../stubs_8hpp.html#ae40de11e4044a83a97d2cb5d00ce608b',1,'stubs.hpp']]]
+  ['errqueue_5ffull',['errQUEUE_FULL',['../stubs_8hpp.html#ae40de11e4044a83a97d2cb5d00ce608b',1,'stubs.hpp']]],
+  ['exa',['exa',['../namespacetaetl.html#a768f6546be797e7f2608e587d852fa71',1,'taetl']]]
 ];

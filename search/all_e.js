@@ -5,6 +5,8 @@ var searchData=
   ['pdfalse',['pdFALSE',['../stubs_8hpp.html#aa56260e937e7e203026707e5ba944273',1,'stubs.hpp']]],
   ['pdpass',['pdPASS',['../stubs_8hpp.html#a07848d3078849bd32353c69d30a479b3',1,'stubs.hpp']]],
   ['pdtrue',['pdTRUE',['../stubs_8hpp.html#af268cf937960eb029256bd9c4d949fbe',1,'stubs.hpp']]],
+  ['peta',['peta',['../namespacetaetl.html#a49696301936e0307c6177bbb28484954',1,'taetl']]],
+  ['pico',['pico',['../namespacetaetl.html#a69f463c3a12de5b45713118231877e87',1,'taetl']]],
   ['pin_5f0',['pin_0',['../namespacetaetl_1_1hardware_1_1stm32.html#a1ed049ebf2a28bae9062f4fca435ae36a83f8fea7ae39847bcef9a17417f82530',1,'taetl::hardware::stm32']]],
   ['pin_5f1',['pin_1',['../namespacetaetl_1_1hardware_1_1stm32.html#a1ed049ebf2a28bae9062f4fca435ae36a47ccc9e3ee3a60c30dacaee70c24f5e6',1,'taetl::hardware::stm32']]],
   ['pin_5f10',['pin_10',['../namespacetaetl_1_1hardware_1_1stm32.html#a1ed049ebf2a28bae9062f4fca435ae36a4770533c183b19baceacc33e0901fdb7',1,'taetl::hardware::stm32']]],

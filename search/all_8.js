@@ -29,6 +29,7 @@ var searchData=
   ['integral_5fconstant_3c_20bool_2c_20taetl_5fis_5funion_28t_29_3e',['integral_constant&lt; bool, TAETL_IS_UNION(T)&gt;',['../structtaetl_1_1integral__constant.html',1,'taetl']]],
   ['intfa',['INTFA',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59abccd7f7d0e7558172ffd8910c41c8e3e',1,'taetl::hardware::mcp23017']]],
   ['intfb',['INTFB',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a24973271709835057b98d3133e838a59a0e273e572ea29472a3e71eeb19eda140',1,'taetl::hardware::mcp23017']]],
+  ['intmax_5ft',['intmax_t',['../namespacetaetl.html#ac16db7fe162b95776a6ca360d4732e03',1,'taetl']]],
   ['intrinsics_2ehpp',['intrinsics.hpp',['../intrinsics_8hpp.html',1,'']]],
   ['inverted_5fo0',['inverted_O0',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a504c8b399fed267698a6977843af369aa8006580efd5405cda1902a50522cf6cc',1,'taetl::hardware::mcp23017']]],
   ['inverted_5fo1',['inverted_O1',['../namespacetaetl_1_1hardware_1_1mcp23017.html#a504c8b399fed267698a6977843af369aafee0d089103b831007735cd41537556d',1,'taetl::hardware::mcp23017']]],
