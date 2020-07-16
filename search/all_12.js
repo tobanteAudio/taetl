@@ -2,6 +2,7 @@ var searchData=
 [
   ['detail',['detail',['../namespacetaetl_1_1detail.html',1,'taetl']]],
   ['dsp',['dsp',['../namespacetaetl_1_1dsp.html',1,'taetl']]],
+  ['experimental',['experimental',['../namespacetaetl_1_1experimental.html',1,'taetl']]],
   ['hardware',['hardware',['../namespacetaetl_1_1hardware.html',1,'taetl']]],
   ['taetl',['TAETL',['../index.html',1,'']]],
   ['internal',['internal',['../namespacetaetl_1_1dsp_1_1internal.html',1,'taetl::dsp::internal'],['../namespacetaetl_1_1internal.html',1,'taetl::internal']]],
@@ -26,6 +27,7 @@ var searchData=
   ['tera',['tera',['../namespacetaetl.html#aad9bc82317e7ada5b2dcb41c714091b4',1,'taetl']]],
   ['test',['test',['../classtaetl_1_1bitset.html#a515c589c5279205b3c34cda4527ac978',1,'taetl::bitset']]],
   ['ticktype_5ft',['TickType_t',['../stubs_8hpp.html#af5484fc4c9c5ce77314d8589b5a3bab6',1,'stubs.hpp']]],
+  ['time',['time',['../structtaetl_1_1experimental_1_1units_1_1time.html',1,'taetl::experimental::units']]],
   ['times',['times',['../structtaetl_1_1rtos_1_1times.html',1,'taetl::rtos']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
   ['toggle_5fpin',['toggle_pin',['../structtaetl_1_1hardware_1_1stm32_1_1port.html#aef5f18f97dbf29bd5ce1ed49808a4403',1,'taetl::hardware::stm32::port']]],
@@ -36,5 +38,6 @@ var searchData=
   ['tuple_3c_20t_2e_2e_2e_20_3e',['tuple&lt; T... &gt;',['../structtaetl_1_1tuple.html',1,'taetl']]],
   ['twice',['twice',['../namespacetaetl_1_1rtos.html#a33ecaedc62afe01eff3c026abcd59204',1,'taetl::rtos']]],
   ['type',['type',['../structtaetl_1_1ratio.html#ae601883ce8c857b0ce292ab4cb09dacf',1,'taetl::ratio::type()'],['../structtaetl_1_1integral__constant.html#ac86005e48d03b28d21fa60195c2c0438',1,'taetl::integral_constant::type()'],['../structtaetl_1_1remove__const.html#a943f7f6afe97db6c7116740a4a9fe389',1,'taetl::remove_const::type()'],['../structtaetl_1_1remove__const_3_01Type_01const_01_4.html#ae237bfe0b6eb2cdc2e68e7b45a71fd8b',1,'taetl::remove_const&lt; Type const &gt;::type()'],['../structtaetl_1_1remove__volatile.html#a1813e4fc5331deb3b00b958416789ecd',1,'taetl::remove_volatile::type()'],['../structtaetl_1_1remove__volatile_3_01Type_01volatile_01_4.html#ab759640c2aae5d0310c7f661e0eb7211',1,'taetl::remove_volatile&lt; Type volatile &gt;::type()'],['../structtaetl_1_1remove__cv.html#ae0bde74efd3fa66d935d5efbea0646d8',1,'taetl::remove_cv::type()'],['../structtaetl_1_1remove__reference.html#a3afed528a038157ad6348cf929fd6cae',1,'taetl::remove_reference::type()'],['../structtaetl_1_1remove__reference_3_01T_01_6_01_4.html#abc2f732ab533a1bb102c78d08dd4bfd8',1,'taetl::remove_reference&lt; T &amp; &gt;::type()'],['../structtaetl_1_1remove__reference_3_01T_01_6_6_01_4.html#a606e24bf3f1cc2261d58ba4703f45edf',1,'taetl::remove_reference&lt; T &amp;&amp; &gt;::type()'],['../structtaetl_1_1conditional.html#a11170cc42144dcfcec8d3c585ec72417',1,'taetl::conditional::type()'],['../structtaetl_1_1conditional_3_01false_00_01T_00_01F_01_4.html#a7bb9ec72862295c7732847784395b699',1,'taetl::conditional&lt; false, T, F &gt;::type()'],['../structtaetl_1_1enable__if_3_01true_00_01Type_01_4.html#ac864fa5e9ecfed57cdc3aab22010e541',1,'taetl::enable_if&lt; true, Type &gt;::type()']]],
-  ['type_5ftraits_2ehpp',['type_traits.hpp',['../type__traits_8hpp.html',1,'']]]
+  ['type_5ftraits_2ehpp',['type_traits.hpp',['../type__traits_8hpp.html',1,'']]],
+  ['units',['units',['../namespacetaetl_1_1experimental_1_1units.html',1,'taetl::experimental']]]
 ];

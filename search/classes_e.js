@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['time',['time',['../structtaetl_1_1experimental_1_1units_1_1time.html',1,'taetl::experimental::units']]],
   ['times',['times',['../structtaetl_1_1rtos_1_1times.html',1,'taetl::rtos']]],
   ['tuple',['tuple',['../structtaetl_1_1tuple.html',1,'taetl']]],
   ['tuple_3c_20first_20_3e',['tuple&lt; First &gt;',['../structtaetl_1_1tuple_3_01First_01_4.html',1,'taetl']]],

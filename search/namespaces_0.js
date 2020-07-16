@@ -2,6 +2,7 @@ var searchData=
 [
   ['detail',['detail',['../namespacetaetl_1_1detail.html',1,'taetl']]],
   ['dsp',['dsp',['../namespacetaetl_1_1dsp.html',1,'taetl']]],
+  ['experimental',['experimental',['../namespacetaetl_1_1experimental.html',1,'taetl']]],
   ['hardware',['hardware',['../namespacetaetl_1_1hardware.html',1,'taetl']]],
   ['internal',['internal',['../namespacetaetl_1_1dsp_1_1internal.html',1,'taetl::dsp::internal'],['../namespacetaetl_1_1internal.html',1,'taetl::internal']]],
   ['literals',['literals',['../namespacetaetl_1_1dsp_1_1literals.html',1,'taetl::dsp']]],
@@ -10,5 +11,6 @@ var searchData=
   ['net',['net',['../namespacetaetl_1_1net.html',1,'taetl']]],
   ['rtos',['rtos',['../namespacetaetl_1_1rtos.html',1,'taetl']]],
   ['stm32',['stm32',['../namespacetaetl_1_1hardware_1_1stm32.html',1,'taetl::hardware']]],
-  ['taetl',['taetl',['../namespacetaetl.html',1,'']]]
+  ['taetl',['taetl',['../namespacetaetl.html',1,'']]],
+  ['units',['units',['../namespacetaetl_1_1experimental_1_1units.html',1,'taetl::experimental']]]
 ];
