@@ -2,6 +2,7 @@ var searchData=
 [
   ['ratio',['ratio',['../structtaetl_1_1ratio.html',1,'taetl']]],
   ['ratio_2ehpp',['ratio.hpp',['../ratio_8hpp.html',1,'']]],
+  ['ratio_5fadd',['ratio_add',['../namespacetaetl.html#ab580cb01b5cc4e717060087a75be18c1',1,'taetl']]],
   ['read',['read',['../structtaetl_1_1hardware_1_1stm32_1_1port.html#a9392ab9c5c1f6c858486065efb7ee5bd',1,'taetl::hardware::stm32::port']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
   ['receive',['receive',['../classtaetl_1_1rtos_1_1queue.html#af3313e89ac63847325f0890258da2b29',1,'taetl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classtaetl_1_1rtos_1_1queue.html#a71ceafd6bedd59c601f0a19396f961d9',1,'taetl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
