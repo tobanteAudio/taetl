@@ -7,6 +7,7 @@ digraph "/home/travis/build/tobanteAudio/taetl/taetl/experimental" {
   subgraph clusterdir_eaa2feafe1d43c0ec518e4b789497441 {
     graph [ bgcolor="#eeeeff", pencolor="black", label="" URL="dir_eaa2feafe1d43c0ec518e4b789497441.html"];
     dir_eaa2feafe1d43c0ec518e4b789497441 [shape=plaintext label="experimental"];
+    dir_6ecb9db0f43dfa41a774dce6c964ff19 [shape=box label="dsp" color="black" fillcolor="white" style="filled" URL="dir_6ecb9db0f43dfa41a774dce6c964ff19.html"];
     dir_67625e5243136b0e3d1b68569a9f16e4 [shape=box label="hardware" color="red" fillcolor="white" style="filled" URL="dir_67625e5243136b0e3d1b68569a9f16e4.html"];
     dir_bee0b064f5e8bd6f9f2098443e012b80 [shape=box label="net" color="black" fillcolor="white" style="filled" URL="dir_bee0b064f5e8bd6f9f2098443e012b80.html"];
     dir_3accd0794a8d904fa7f88258baac3e47 [shape=box label="rtos" color="black" fillcolor="white" style="filled" URL="dir_3accd0794a8d904fa7f88258baac3e47.html"];

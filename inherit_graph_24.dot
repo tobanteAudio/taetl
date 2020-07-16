@@ -3,5 +3,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="taetl::net::mutable\l_buffer",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtaetl_1_1net_1_1mutable__buffer.html"];
+  Node4 [label="type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node4 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="taetl::is_integral\l\< Type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtaetl_1_1is__integral.html"];
 }

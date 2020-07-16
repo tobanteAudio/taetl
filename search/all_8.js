@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['identity',['identity',['../structtaetl_1_1dsp_1_1identity.html',1,'taetl::dsp::identity'],['../structtaetl_1_1dsp_1_1identity.html#ace880507a36f3b32d5283a40123e5801',1,'taetl::dsp::identity::identity()']]],
   ['ignore_5funused',['ignore_unused',['../namespacetaetl.html#abac7debb9a3e20ea25d4684289f72e28',1,'taetl']]],
   ['init',['init',['../classtaetl_1_1hardware_1_1mcp23017_1_1device.html#aa49ce28505ca6ea499415f2a4b5d417e',1,'taetl::hardware::mcp23017::device']]],
   ['input_5fdata',['input_data',['../structtaetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a5e6890ef8048fec0dc2ae76d0ed37e17',1,'taetl::hardware::stm32::gpio_memory_layout']]],

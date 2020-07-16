@@ -7,6 +7,7 @@ var searchData=
   ['clamp',['clamp',['../namespacetaetl.html#a23e060013bb2a6ce8b3ca22214b9bdee',1,'taetl::clamp(Type const &amp;v, Type const &amp;lo, Type const &amp;hi) noexcept -&gt; Type const &amp;'],['../namespacetaetl.html#a1bf81637f630ca15e836c76f81cd7d8c',1,'taetl::clamp(Type const &amp;v, Type const &amp;lo, Type const &amp;hi, Compare comp) -&gt; Type const &amp;']]],
   ['clear',['clear',['../classtaetl_1_1map.html#abc818ff7399e5d7fa6eab22dbfcc739c',1,'taetl::map::clear()'],['../classtaetl_1_1basic__string.html#af0b5fedb21a123d1330cb597e8bd0e8b',1,'taetl::basic_string::clear()']]],
   ['const_5fbuffer',['const_buffer',['../classtaetl_1_1net_1_1const__buffer.html#a36b6db863b351aa826465262853af930',1,'taetl::net::const_buffer::const_buffer() noexcept=default'],['../classtaetl_1_1net_1_1const__buffer.html#a3354d758e617edab5c37c1638a49a10d',1,'taetl::net::const_buffer::const_buffer(void const *data, taetl::size_t size)']]],
+  ['constant',['constant',['../structtaetl_1_1dsp_1_1constant.html#ad539361f07523e47e9343ce133e8d9f6',1,'taetl::dsp::constant']]],
   ['contains',['contains',['../classtaetl_1_1map.html#ae96a9b7c63e6141971010696f6ff9cfb',1,'taetl::map']]],
   ['count',['count',['../classtaetl_1_1map.html#a26e4ed98de3cde4612375fd37f486f52',1,'taetl::map']]],
   ['create_5ftask',['create_task',['../namespacetaetl_1_1rtos.html#a41697aaa4d56f40744667cf49730da3e',1,'taetl::rtos']]]

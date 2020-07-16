@@ -6,10 +6,12 @@ digraph "/home/travis/build/tobanteAudio/taetl/taetl/array.hpp"
   Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/bitset.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$bitset_8hpp.html"];
   Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node10 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/net\l/buffer_const.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer__const_8hpp.html"];
-  Node10 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node11 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/net\l/buffer.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer_8hpp.html"];
-  Node8 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node12 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/net\l/buffer_mutable.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer__mutable_8hpp.html"];
-  Node12 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/dsp\l/dsp.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$dsp_8hpp.html"];
+  Node8 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node11 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/net\l/buffer_const.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer__const_8hpp.html"];
+  Node11 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/net\l/buffer.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer_8hpp.html"];
+  Node8 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/experimental/net\l/buffer_mutable.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$buffer__mutable_8hpp.html"];
+  Node13 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }
