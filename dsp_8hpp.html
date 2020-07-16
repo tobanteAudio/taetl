@@ -73,6 +73,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="array_8hpp_source.html">taetl/array.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="definitions_8hpp_source.html">taetl/definitions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tuple_8hpp_source.html">taetl/tuple.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utility_8hpp_source.html">taetl/utility.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for dsp.hpp:</div>
@@ -94,6 +95,8 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1dsp_1_1delay.html">taetl::dsp::delay&lt; T, Z &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1dsp_1_1internal_1_1fork__impl.html">taetl::dsp::internal::fork_impl&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -103,6 +106,8 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespacetaetl_1_1dsp"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1dsp.html">taetl::dsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespacetaetl_1_1dsp_1_1literals"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1dsp_1_1literals.html">taetl::dsp::literals</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespacetaetl_1_1dsp_1_1internal"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1dsp_1_1internal.html">taetl::dsp::internal</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -117,6 +122,12 @@ Functions</h2></td></tr>
 <tr class="memitem:af356a1de1f94f580b7e0262e33d58565"><td class="memTemplParams" colspan="2">template&lt;int I, typename T  = float&gt; </td></tr>
 <tr class="memitem:af356a1de1f94f580b7e0262e33d58565"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1dsp.html#af356a1de1f94f580b7e0262e33d58565">taetl::dsp::Z</a> (T val=T {})</td></tr>
 <tr class="separator:af356a1de1f94f580b7e0262e33d58565"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35dd30a8832c23a3973fb722876bb22a"><td class="memTemplParams" colspan="2">template&lt;typename Tuple , typename... Tn&gt; </td></tr>
+<tr class="memitem:a35dd30a8832c23a3973fb722876bb22a"><td class="memTemplItemLeft" align="right" valign="top">void&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1dsp_1_1internal.html#a35dd30a8832c23a3973fb722876bb22a">taetl::dsp::internal::for_each_fork</a> (Tuple &amp;&amp;tuple, Tn... val)</td></tr>
+<tr class="separator:a35dd30a8832c23a3973fb722876bb22a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28e3527e393002eba1b22b4d76699194"><td class="memTemplParams" colspan="2">template&lt;typename... T&gt; </td></tr>
+<tr class="memitem:a28e3527e393002eba1b22b4d76699194"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl_1_1dsp.html#a28e3527e393002eba1b22b4d76699194">taetl::dsp::fork</a> (T &amp;&amp;... val)</td></tr>
+<tr class="separator:a28e3527e393002eba1b22b4d76699194"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
