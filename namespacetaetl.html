@@ -252,6 +252,10 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ab580cb01b5cc4e717060087a75be18c1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ab580cb01b5cc4e717060087a75be18c1">ratio_add</a> = <a class="el" href="structtaetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den+R2::num *R1::den, R1::den *R2::den &gt;</td></tr>
 <tr class="memdesc:ab580cb01b5cc4e717060087a75be18c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespacetaetl.html#ab580cb01b5cc4e717060087a75be18c1" title="The alias template taetl::ratio_add denotes the result of adding two exact rational fractions represe...">taetl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a> specialization taetl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den.  <a href="#ab580cb01b5cc4e717060087a75be18c1">More...</a><br /></td></tr>
 <tr class="separator:ab580cb01b5cc4e717060087a75be18c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac240d10fef4bf370e6ad1f93c1e3813f"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:ac240d10fef4bf370e6ad1f93c1e3813f"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#ac240d10fef4bf370e6ad1f93c1e3813f">ratio_subtract</a> = <a class="el" href="structtaetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den - R2::num *R1::den, R1::den *R2::den &gt;</td></tr>
+<tr class="memdesc:ac240d10fef4bf370e6ad1f93c1e3813f"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespacetaetl.html#ac240d10fef4bf370e6ad1f93c1e3813f" title="The alias template taetl::ratio_subtract denotes the result of subtracting two exact rational fractio...">taetl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a> specialization taetl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structtaetl_1_1ratio.html#a0f62f2bc64c7b8ecad8270aef3aab5cd">taetl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a>&lt;Num, Denom&gt;::den.  <a href="#ac240d10fef4bf370e6ad1f93c1e3813f">More...</a><br /></td></tr>
+<tr class="separator:ac240d10fef4bf370e6ad1f93c1e3813f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06a0a27ffc5b72925d77d3d99f36526b"><td class="memTemplParams" colspan="2">template&lt;taetl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:a06a0a27ffc5b72925d77d3d99f36526b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespacetaetl.html#a06a0a27ffc5b72925d77d3d99f36526b">string</a> = <a class="el" href="classtaetl_1_1basic__string.html">basic_string</a>&lt; char, Capacity &gt;</td></tr>
 <tr class="separator:a06a0a27ffc5b72925d77d3d99f36526b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -800,6 +804,24 @@ template&lt;class R1 , class R2 &gt; </div>
 <ul>
 <li>R2::den (computed without arithmetic overflow), U is <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a>&lt;Num, Denom&gt;::num and V is <a class="el" href="structtaetl_1_1ratio.html#a2e3f3c1fc719f0ccb71870fb6ee6090e">taetl::ratio&lt;Num, Denom&gt;::den</a>. </li>
 </ul>
+
+</div>
+</div>
+<a id="ac240d10fef4bf370e6ad1f93c1e3813f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac240d10fef4bf370e6ad1f93c1e3813f">&#9670;&nbsp;</a></span>ratio_subtract</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespacetaetl.html#ac240d10fef4bf370e6ad1f93c1e3813f">taetl::ratio_subtract</a> = typedef <a class="el" href="structtaetl_1_1ratio.html">ratio</a>&lt;R1::num * R2::den - R2::num * R1::den, R1::den * R2::den&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The alias template <a class="el" href="namespacetaetl.html#ac240d10fef4bf370e6ad1f93c1e3813f" title="The alias template taetl::ratio_subtract denotes the result of subtracting two exact rational fractio...">taetl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a> specialization taetl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structtaetl_1_1ratio.html#a0f62f2bc64c7b8ecad8270aef3aab5cd">taetl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structtaetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">taetl::ratio</a>&lt;Num, Denom&gt;::den. </p>
 
 </div>
 </div>
