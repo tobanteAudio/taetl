@@ -17,4 +17,10 @@ digraph "/home/travis/build/tobanteAudio/taetl/taetl/experimental/units/units.hp
   Node6 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="taetl/ratio.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ratio_8hpp.html"];
+  Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 [label="numeric.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$numeric_8hpp.html"];
+  Node9 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
 }

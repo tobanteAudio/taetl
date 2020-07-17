@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>taetl: taetl::experimental::units::quantity&lt; T, Dimensions &gt; Struct Template Reference</title>
+<title>taetl: taetl::experimental::units::quantity&lt; T, Dimensions, Ratio &gt; Struct Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -64,36 +64,59 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structtaetl_1_1experimental_1_1units_1_1quantity-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">taetl::experimental::units::quantity&lt; T, Dimensions &gt; Struct Template Reference</div>  </div>
+<div class="title">taetl::experimental::units::quantity&lt; T, Dimensions, Ratio &gt; Struct Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
 <p><code>#include &lt;<a class="el" href="units_8hpp_source.html">units.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a30e78a28dced775b58c271afdf3414b7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html#a30e78a28dced775b58c271afdf3414b7">ratio_type</a> = Ratio</td></tr>
+<tr class="separator:a30e78a28dced775b58c271afdf3414b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a2a54b8b63e2f57c44105079549ee4b73"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html#a2a54b8b63e2f57c44105079549ee4b73">quantity</a> (T v)</td></tr>
-<tr class="separator:a2a54b8b63e2f57c44105079549ee4b73"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89bf89fd28c03df3e8def7140f383fee"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html#a89bf89fd28c03df3e8def7140f383fee">value</a> () const</td></tr>
-<tr class="separator:a89bf89fd28c03df3e8def7140f383fee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeab8e2eae0e8854e05520f3ff7c4c43f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html#aeab8e2eae0e8854e05520f3ff7c4c43f">quantity</a> (T v)</td></tr>
+<tr class="separator:aeab8e2eae0e8854e05520f3ff7c4c43f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ced804318722b5da437bdcd470d5ac0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html#a4ced804318722b5da437bdcd470d5ac0">value</a> () const</td></tr>
+<tr class="separator:a4ced804318722b5da437bdcd470d5ac0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a2a54b8b63e2f57c44105079549ee4b73"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2a54b8b63e2f57c44105079549ee4b73">&#9670;&nbsp;</a></span>quantity()</h2>
+<h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a30e78a28dced775b58c271afdf3414b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30e78a28dced775b58c271afdf3414b7">&#9670;&nbsp;</a></span>ratio_type</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename Dimensions&gt; </div>
+template&lt;typename T, typename Dimensions, typename Ratio = ratio&lt;1, 1&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">taetl::experimental::units::quantity</a>&lt; T, Dimensions, Ratio &gt;::<a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html#a30e78a28dced775b58c271afdf3414b7">ratio_type</a> =  Ratio</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a id="aeab8e2eae0e8854e05520f3ff7c4c43f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeab8e2eae0e8854e05520f3ff7c4c43f">&#9670;&nbsp;</a></span>quantity()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, typename Dimensions, typename Ratio = ratio&lt;1, 1&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">taetl::experimental::units::quantity</a>&lt; T, Dimensions &gt;::<a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">quantity</a> </td>
+          <td class="memname">constexpr <a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">taetl::experimental::units::quantity</a>&lt; T, Dimensions, Ratio &gt;::<a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">quantity</a> </td>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>v</em></td><td>)</td>
@@ -110,19 +133,19 @@ template&lt;typename T, typename Dimensions&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a89bf89fd28c03df3e8def7140f383fee"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89bf89fd28c03df3e8def7140f383fee">&#9670;&nbsp;</a></span>value()</h2>
+<a id="a4ced804318722b5da437bdcd470d5ac0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ced804318722b5da437bdcd470d5ac0">&#9670;&nbsp;</a></span>value()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T, typename Dimensions&gt; </div>
+template&lt;typename T, typename Dimensions, typename Ratio = ratio&lt;1, 1&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">taetl::experimental::units::quantity</a>&lt; T, Dimensions &gt;::value </td>
+          <td class="memname">constexpr auto <a class="el" href="structtaetl_1_1experimental_1_1units_1_1quantity.html">taetl::experimental::units::quantity</a>&lt; T, Dimensions, Ratio &gt;::value </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const</td>

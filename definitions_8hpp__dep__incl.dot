@@ -50,6 +50,7 @@ digraph "/home/travis/build/tobanteAudio/taetl/taetl/definitions.hpp"
   Node26 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/numeric.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$numeric_8hpp.html"];
   Node26 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node27 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/ratio.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ratio_8hpp.html"];
+  Node27 -> Node24 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 -> Node27 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 -> Node28 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node28 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/string.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$string_8hpp.html"];
