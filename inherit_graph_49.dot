@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="taetl::scoped_lock\l\< MutexType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtaetl_1_1scoped__lock.html",tooltip="RAII based lock. "];
+  Node0 [label="etl::rtos::queue\< ValueType,\l Size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1rtos_1_1queue.html"];
 }

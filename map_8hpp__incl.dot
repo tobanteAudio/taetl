@@ -1,10 +1,10 @@
-digraph "/home/travis/build/tobanteAudio/taetl/taetl/map.hpp"
+digraph "/home/travis/build/tobanteAudio/taetl/etl/map.hpp"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node0 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/map.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node0 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/map.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node0 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node1 [label="taetl/definitions.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$definitions_8hpp.html"];
+  Node1 [label="etl/definitions.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$definitions_8hpp.html"];
   Node1 -> Node2 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node2 [label="version.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$version_8hpp.html"];
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
@@ -18,12 +18,12 @@ digraph "/home/travis/build/tobanteAudio/taetl/taetl/map.hpp"
   Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="taetl/functional.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$functional_8hpp.html"];
+  Node8 [label="etl/functional.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$functional_8hpp.html"];
   Node8 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="taetl/utility.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utility_8hpp.html"];
+  Node9 [label="etl/utility.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$utility_8hpp.html"];
   Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node10 [label="taetl/type_traits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type__traits_8hpp.html"];
+  Node10 [label="etl/type_traits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type__traits_8hpp.html"];
   Node10 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node11 [label="intrinsics.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$intrinsics_8hpp.html"];

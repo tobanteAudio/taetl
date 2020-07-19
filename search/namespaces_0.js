@@ -1,16 +1,16 @@
 var searchData=
 [
-  ['detail',['detail',['../namespacetaetl_1_1detail.html',1,'taetl']]],
-  ['dsp',['dsp',['../namespacetaetl_1_1dsp.html',1,'taetl']]],
-  ['experimental',['experimental',['../namespacetaetl_1_1experimental.html',1,'taetl']]],
-  ['hardware',['hardware',['../namespacetaetl_1_1hardware.html',1,'taetl']]],
-  ['internal',['internal',['../namespacetaetl_1_1dsp_1_1internal.html',1,'taetl::dsp::internal'],['../namespacetaetl_1_1internal.html',1,'taetl::internal']]],
-  ['literals',['literals',['../namespacetaetl_1_1dsp_1_1literals.html',1,'taetl::dsp']]],
-  ['make',['make',['../namespacetaetl_1_1make.html',1,'taetl']]],
-  ['mcp23017',['mcp23017',['../namespacetaetl_1_1hardware_1_1mcp23017.html',1,'taetl::hardware']]],
-  ['net',['net',['../namespacetaetl_1_1net.html',1,'taetl']]],
-  ['rtos',['rtos',['../namespacetaetl_1_1rtos.html',1,'taetl']]],
-  ['stm32',['stm32',['../namespacetaetl_1_1hardware_1_1stm32.html',1,'taetl::hardware']]],
-  ['taetl',['taetl',['../namespacetaetl.html',1,'']]],
-  ['units',['units',['../namespacetaetl_1_1experimental_1_1units.html',1,'taetl::experimental']]]
+  ['detail',['detail',['../namespaceetl_1_1detail.html',1,'etl']]],
+  ['dsp',['dsp',['../namespaceetl_1_1dsp.html',1,'etl']]],
+  ['etl',['etl',['../namespaceetl.html',1,'']]],
+  ['experimental',['experimental',['../namespaceetl_1_1experimental.html',1,'etl']]],
+  ['hardware',['hardware',['../namespaceetl_1_1hardware.html',1,'etl']]],
+  ['internal',['internal',['../namespaceetl_1_1dsp_1_1internal.html',1,'etl::dsp::internal'],['../namespaceetl_1_1internal.html',1,'etl::internal']]],
+  ['literals',['literals',['../namespaceetl_1_1dsp_1_1literals.html',1,'etl::dsp']]],
+  ['make',['make',['../namespaceetl_1_1make.html',1,'etl']]],
+  ['mcp23017',['mcp23017',['../namespaceetl_1_1hardware_1_1mcp23017.html',1,'etl::hardware']]],
+  ['net',['net',['../namespaceetl_1_1net.html',1,'etl']]],
+  ['rtos',['rtos',['../namespaceetl_1_1rtos.html',1,'etl']]],
+  ['stm32',['stm32',['../namespaceetl_1_1hardware_1_1stm32.html',1,'etl::hardware']]],
+  ['units',['units',['../namespaceetl_1_1experimental_1_1units.html',1,'etl::experimental']]]
 ];

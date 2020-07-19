@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['quantity',['quantity',['../structtaetl_1_1experimental_1_1units_1_1quantity.html',1,'taetl::experimental::units::quantity&lt; T, Dimensions, Ratio &gt;'],['../structtaetl_1_1experimental_1_1units_1_1quantity.html#aeab8e2eae0e8854e05520f3ff7c4c43f',1,'taetl::experimental::units::quantity::quantity()']]],
-  ['queue',['queue',['../classtaetl_1_1rtos_1_1queue.html',1,'taetl::rtos::queue&lt; ValueType, Size &gt;'],['../classtaetl_1_1rtos_1_1queue.html#a354aafa2e2ae99c64bacc465d196a274',1,'taetl::rtos::queue::queue()'],['../classtaetl_1_1rtos_1_1queue.html#ae8727e2f669e4791f03d75f2419c4c7a',1,'taetl::rtos::queue::queue(queue &amp;&amp;)=delete'],['../classtaetl_1_1rtos_1_1queue.html#a3b97427304171120d587c22bc98a492e',1,'taetl::rtos::queue::queue(queue const &amp;)=delete']]],
+  ['quantity',['quantity',['../structetl_1_1experimental_1_1units_1_1quantity.html',1,'etl::experimental::units::quantity&lt; T, Dimensions, Ratio &gt;'],['../structetl_1_1experimental_1_1units_1_1quantity.html#a5f932223e456a71c502b78e8f4236fbe',1,'etl::experimental::units::quantity::quantity()']]],
+  ['queue',['queue',['../classetl_1_1rtos_1_1queue.html',1,'etl::rtos::queue&lt; ValueType, Size &gt;'],['../classetl_1_1rtos_1_1queue.html#a085df5dc465d06d3c279de572f1453ff',1,'etl::rtos::queue::queue()'],['../classetl_1_1rtos_1_1queue.html#ab035d707707b9f9c7e6c826e78243731',1,'etl::rtos::queue::queue(queue &amp;&amp;)=delete'],['../classetl_1_1rtos_1_1queue.html#aeb324881c4fb9981cec1068561a8a634',1,'etl::rtos::queue::queue(queue const &amp;)=delete']]],
   ['queue_2ehpp',['queue.hpp',['../queue_8hpp.html',1,'']]],
   ['queuehandle_5ft',['QueueHandle_t',['../stubs_8hpp.html#a7ea12d2ebf3440986c9718aee2f84449',1,'stubs.hpp']]]
 ];

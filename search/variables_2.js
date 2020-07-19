@@ -1,4 +1,4 @@
 var searchData=
 [
-  ['den',['den',['../structtaetl_1_1ratio.html#a2e3f3c1fc719f0ccb71870fb6ee6090e',1,'taetl::ratio']]]
+  ['den',['den',['../structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044',1,'etl::ratio']]]
 ];

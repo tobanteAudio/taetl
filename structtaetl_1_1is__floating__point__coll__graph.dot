@@ -1,9 +1,0 @@
-digraph "taetl::is_floating_point&lt; T &gt;"
-{
-  edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
-  node [fontname="Helvetica",fontsize="10",shape=record];
-  rankdir="LR";
-  Node2 [label="taetl::is_floating\l_point\< T \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
-  Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="taetl::integral_constant\l\< bool, taetl::is_same\l\< float, taetl::remove_cv\l\< T \>::type \>::value\|\|taetl\l::is_same\< double, taetl::remove\l_cv\< T \>::type \>::value\|\|taetl\l::is_same\< long double, taetl::remove\l_cv\< T \>::type \>::value \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtaetl_1_1integral__constant.html"];
-}

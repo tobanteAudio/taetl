@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="taetl::tuple\< T... \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structtaetl_1_1tuple.html"];
+  Node0 [label="etl::tuple\< First \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1tuple_3_01First_01_4.html"];
 }

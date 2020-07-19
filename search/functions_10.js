@@ -1,12 +1,12 @@
 var searchData=
 [
-  ['scoped_5flock',['scoped_lock',['../classtaetl_1_1scoped__lock.html#ad3c6d88fc566a182ac4efa57d717054e',1,'taetl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classtaetl_1_1scoped__lock.html#a6a8b71b7c864a12e304b028c90d00d8a',1,'taetl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classtaetl_1_1scoped__lock.html#ad1ee0a4cc19703f7b3bbf96b916f65f4',1,'taetl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
-  ['send',['send',['../classtaetl_1_1rtos_1_1queue.html#a821dc462c9448e609b8b7d7337fcc365',1,'taetl::rtos::queue']]],
-  ['set',['set',['../classtaetl_1_1bitset.html#ae5a0a21069dd6989cfb14dd9ff6d5846',1,'taetl::bitset']]],
-  ['set_5fio_5fdirection',['set_io_direction',['../classtaetl_1_1hardware_1_1mcp23017_1_1device.html#ab4c3f0e043a4c26573922aa7dabfea76',1,'taetl::hardware::mcp23017::device']]],
-  ['shrink_5fto_5ffit',['shrink_to_fit',['../classtaetl_1_1vector.html#a2e4ad9950c733f23879578499a83dd97',1,'taetl::vector']]],
-  ['sign',['sign',['../namespacetaetl_1_1internal.html#aa1f2c0d0289be5d2ea555f462d399c2f',1,'taetl::internal']]],
-  ['size',['size',['../classtaetl_1_1array.html#a39c52d37c236a96e2b68298e07d284e7',1,'taetl::array::size()'],['../classtaetl_1_1net_1_1const__buffer.html#a953dc27ba27a77df272b00292068d379',1,'taetl::net::const_buffer::size()'],['../classtaetl_1_1net_1_1mutable__buffer.html#a5bf877b2da1dd1f1c891744cb9fdfc7a',1,'taetl::net::mutable_buffer::size()'],['../classtaetl_1_1map.html#af9a632cc5194b1bd0a92932169421fbc',1,'taetl::map::size()'],['../classtaetl_1_1basic__string.html#a47274da28b8b319c7a018c7706ab3c37',1,'taetl::basic_string::size()'],['../classtaetl_1_1vector.html#a383c3f196fa4f7ac0ea2bf9d72cf8b78',1,'taetl::vector::size()']]],
-  ['start_5fscheduler',['start_scheduler',['../namespacetaetl_1_1rtos.html#a00a1e4244a467514289435d5c12119b8',1,'taetl::rtos']]],
-  ['strlen',['strlen',['../namespacetaetl.html#af268ab31c7b18ec7dff24ab944677fcb',1,'taetl']]]
+  ['scoped_5flock',['scoped_lock',['../classetl_1_1scoped__lock.html#a57df1e19dd5ae56ea29d3c6c46aab9be',1,'etl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classetl_1_1scoped__lock.html#ae8f87072467341d0f882bdbf5d87a467',1,'etl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classetl_1_1scoped__lock.html#ac4fa28b7c84a6e578b765eaa62153cc0',1,'etl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
+  ['send',['send',['../classetl_1_1rtos_1_1queue.html#aeb7d654e0a1bb691dcf3f8663cd6400e',1,'etl::rtos::queue']]],
+  ['set',['set',['../classetl_1_1bitset.html#a0f02eb62c23ef48e5627cf764c55801d',1,'etl::bitset']]],
+  ['set_5fio_5fdirection',['set_io_direction',['../classetl_1_1hardware_1_1mcp23017_1_1device.html#aa2bdc8d83b8b0bc219681119a8de2ef1',1,'etl::hardware::mcp23017::device']]],
+  ['shrink_5fto_5ffit',['shrink_to_fit',['../classetl_1_1vector.html#a62c28e49e6e3e765d442583775ede946',1,'etl::vector']]],
+  ['sign',['sign',['../namespaceetl_1_1internal.html#a8297cbca81b12799a1d29e9075c4101b',1,'etl::internal']]],
+  ['size',['size',['../classetl_1_1array.html#a8fc08ca1e9c6f08dec0522e8ddd6b9c0',1,'etl::array::size()'],['../classetl_1_1net_1_1const__buffer.html#a61c7833072f58e74dfadee8e20b7b55d',1,'etl::net::const_buffer::size()'],['../classetl_1_1net_1_1mutable__buffer.html#ae958a72cfed104a6accc83c9d2de48ac',1,'etl::net::mutable_buffer::size()'],['../classetl_1_1map.html#aa7d573d31b3d35331d68a44e82ead5e6',1,'etl::map::size()'],['../classetl_1_1basic__string.html#aa8a36292bc46e7c7141fa1eeb247e8af',1,'etl::basic_string::size()'],['../classetl_1_1vector.html#ad8ffc219f2239a619c2e057e0aff0252',1,'etl::vector::size()']]],
+  ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
+  ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['key_5fcompare',['key_compare',['../classtaetl_1_1map.html#a3497e8e03ef173380275c1131322929c',1,'taetl::map']]],
-  ['key_5ftype',['key_type',['../classtaetl_1_1map.html#a168de29da7b4348391cb1606783bd9b0',1,'taetl::map']]],
-  ['kilo',['kilo',['../namespacetaetl.html#a0e7adae7c8af89859d0981ae471a1d6c',1,'taetl']]]
+  ['key_5fcompare',['key_compare',['../classetl_1_1map.html#a476642aa829e9891527d89c0552b5469',1,'etl::map']]],
+  ['key_5ftype',['key_type',['../classetl_1_1map.html#aec0124e7d5d809062b2d97c25d387a85',1,'etl::map']]],
+  ['kilo',['kilo',['../namespaceetl.html#a28e306410036af95bf5ea4fc02bed266',1,'etl']]]
 ];

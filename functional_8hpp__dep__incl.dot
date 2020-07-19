@@ -1,10 +1,10 @@
-digraph "/home/travis/build/tobanteAudio/taetl/taetl/functional.hpp"
+digraph "/home/travis/build/tobanteAudio/taetl/etl/functional.hpp"
 {
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
-  Node8 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/functional.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
+  Node8 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/functional.hpp",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node8 -> Node9 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/algorithm.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$algorithm_8hpp.html"];
+  Node9 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/algorithm.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$algorithm_8hpp.html"];
   Node8 -> Node10 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node10 [label="/home/travis/build\l/tobanteAudio/taetl\l/taetl/map.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$map_8hpp.html"];
+  Node10 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/map.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$map_8hpp.html"];
 }

@@ -1,11 +1,11 @@
 var searchData=
 [
-  ['ratio_5fadd',['ratio_add',['../namespacetaetl.html#ab580cb01b5cc4e717060087a75be18c1',1,'taetl']]],
-  ['ratio_5fsubtract',['ratio_subtract',['../namespacetaetl.html#ac240d10fef4bf370e6ad1f93c1e3813f',1,'taetl']]],
-  ['ratio_5ftype',['ratio_type',['../structtaetl_1_1experimental_1_1units_1_1quantity.html#a30e78a28dced775b58c271afdf3414b7',1,'taetl::experimental::units::quantity']]],
-  ['reference',['reference',['../classtaetl_1_1array.html#af827ff61cb3c04291925b69d59bccfed',1,'taetl::array::reference()'],['../classtaetl_1_1map.html#a85e45d91cf235b0a5162e236c288c4ea',1,'taetl::map::reference()'],['../classtaetl_1_1basic__string.html#a61ec5830cd73f5a72f968ea26bc72ce5',1,'taetl::basic_string::reference()'],['../classtaetl_1_1vector.html#a26408e03ed8f6891b0625b30483847ef',1,'taetl::vector::reference()']]],
-  ['remove_5fconst_5ft',['remove_const_t',['../namespacetaetl.html#a2ab096f557775ec6c067704e0c567069',1,'taetl']]],
-  ['remove_5fcv_5ft',['remove_cv_t',['../namespacetaetl.html#ae00999f192c01b1a28f1cb3c89a66d33',1,'taetl']]],
-  ['remove_5freference_5ft',['remove_reference_t',['../namespacetaetl.html#abb8f82b79a55abec242ddc3d0e2a6e0c',1,'taetl']]],
-  ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespacetaetl.html#ad0b7a0bd54e84305e616ce34bf1ab1c4',1,'taetl']]]
+  ['ratio_5fadd',['ratio_add',['../namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00',1,'etl']]],
+  ['ratio_5fsubtract',['ratio_subtract',['../namespaceetl.html#a234acc6c1438740afe4f7766f1208784',1,'etl']]],
+  ['ratio_5ftype',['ratio_type',['../structetl_1_1experimental_1_1units_1_1quantity.html#a22845903955e9621c7852db948b1df7d',1,'etl::experimental::units::quantity']]],
+  ['reference',['reference',['../classetl_1_1array.html#a00032e42be228b44773af3bf6059b97d',1,'etl::array::reference()'],['../classetl_1_1map.html#a710b3edd639e00551f80fa1183be4806',1,'etl::map::reference()'],['../classetl_1_1basic__string.html#a40e50919095c75298db9be4ef11dc93a',1,'etl::basic_string::reference()'],['../classetl_1_1vector.html#a808ec11bb852fb1d7a009f478383bfb3',1,'etl::vector::reference()']]],
+  ['remove_5fconst_5ft',['remove_const_t',['../namespaceetl.html#a87e058aba499e52cc4ed554dd7d65332',1,'etl']]],
+  ['remove_5fcv_5ft',['remove_cv_t',['../namespaceetl.html#a70fb46b3c4c98f5f23b76cb25f343373',1,'etl']]],
+  ['remove_5freference_5ft',['remove_reference_t',['../namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6',1,'etl']]],
+  ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]]
 ];

@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="taetl::array\< Type,\l Size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classtaetl_1_1array.html",tooltip="array class with fixed size capacity. "];
+  Node0 [label="etl::array\< Type, Size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1array.html",tooltip="array class with fixed size capacity. "];
 }

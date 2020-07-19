@@ -1,7 +1,7 @@
 var searchData=
 [
-  ['mapped_5ftype',['mapped_type',['../classtaetl_1_1map.html#a09d2a3fc9dafc236f178500fec9dfcd9',1,'taetl::map']]],
-  ['mega',['mega',['../namespacetaetl.html#a82c3e21c0fd171a58d181656d53e0e2e',1,'taetl']]],
-  ['micro',['micro',['../namespacetaetl.html#a3f36660250942aa8f37caf6a24133d54',1,'taetl']]],
-  ['milli',['milli',['../namespacetaetl.html#afc422bcb9d2f027fbcbca80dcf44a5d6',1,'taetl']]]
+  ['mapped_5ftype',['mapped_type',['../classetl_1_1map.html#aa3edb05a0a49678b136e3de8bad05bfa',1,'etl::map']]],
+  ['mega',['mega',['../namespaceetl.html#a918391ebf4a95eeb6fa0ad99c936252d',1,'etl']]],
+  ['micro',['micro',['../namespaceetl.html#a79c9c1103e0bf6709642f55f9a31cb8e',1,'etl']]],
+  ['milli',['milli',['../namespaceetl.html#a8a92d262bf043c1ef824a60d171019e8',1,'etl']]]
 ];

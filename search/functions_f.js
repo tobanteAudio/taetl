@@ -1,8 +1,8 @@
 var searchData=
 [
-  ['read',['read',['../structtaetl_1_1hardware_1_1stm32_1_1port.html#a9392ab9c5c1f6c858486065efb7ee5bd',1,'taetl::hardware::stm32::port']]],
-  ['receive',['receive',['../classtaetl_1_1rtos_1_1queue.html#af3313e89ac63847325f0890258da2b29',1,'taetl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classtaetl_1_1rtos_1_1queue.html#a71ceafd6bedd59c601f0a19396f961d9',1,'taetl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
-  ['reserve',['reserve',['../classtaetl_1_1vector.html#a6fc73507072f22ecc178a63e2a824e28',1,'taetl::vector']]],
-  ['reset',['reset',['../classtaetl_1_1rtos_1_1queue.html#aeda331ac20d1a773ce6e4cd9ebfa1960',1,'taetl::rtos::queue']]],
-  ['rtos_5ftask',['rtos_task',['../namespacetaetl_1_1rtos.html#acc9bd9a0ff7420efedc33f11e6743c83',1,'taetl::rtos']]]
+  ['read',['read',['../structetl_1_1hardware_1_1stm32_1_1port.html#aecb207936718101894aacd7d4a5e02ea',1,'etl::hardware::stm32::port']]],
+  ['receive',['receive',['../classetl_1_1rtos_1_1queue.html#ac56edbc4dfe661bd31e8f5d43ef4e5a3',1,'etl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classetl_1_1rtos_1_1queue.html#ad94ed5f9e0a2dedea279e32e44faa56a',1,'etl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
+  ['reserve',['reserve',['../classetl_1_1vector.html#abfb60135d673b37d6e2a3029c41562f6',1,'etl::vector']]],
+  ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue']]],
+  ['rtos_5ftask',['rtos_task',['../namespaceetl_1_1rtos.html#a60ee408f1f6182adf295a6a9aeefac04',1,'etl::rtos']]]
 ];
