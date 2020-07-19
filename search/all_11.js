@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['scoped_5flock',['scoped_lock',['../classtaetl_1_1scoped__lock.html',1,'taetl::scoped_lock&lt; MutexType &gt;'],['../classtaetl_1_1scoped__lock.html#ad3c6d88fc566a182ac4efa57d717054e',1,'taetl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classtaetl_1_1scoped__lock.html#a6a8b71b7c864a12e304b028c90d00d8a',1,'taetl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classtaetl_1_1scoped__lock.html#ad1ee0a4cc19703f7b3bbf96b916f65f4',1,'taetl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
   ['second',['second',['../structtaetl_1_1pair.html#a297c16154c6054679b4831d463911d64',1,'taetl::pair']]],
   ['second_5ftype',['second_type',['../structtaetl_1_1pair.html#a21ebeec75c1e1e459255edc2e7549330',1,'taetl::pair']]],
   ['send',['send',['../classtaetl_1_1rtos_1_1queue.html#a821dc462c9448e609b8b7d7337fcc365',1,'taetl::rtos::queue']]],
