@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::enable_if\< bool,\l Type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1enable__if.html",tooltip="Define a member typedef only if a boolean constant is true. "];
+  Node0 [label="etl::dsp::internal\l::fork_impl\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1dsp_1_1internal_1_1fork__impl.html"];
 }

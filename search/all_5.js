@@ -1,6 +1,8 @@
 var searchData=
 [
   ['false_5ftype',['false_type',['../namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973',1,'etl']]],
+  ['feedback_5fdrain',['feedback_drain',['../structetl_1_1dsp_1_1feedback__drain.html',1,'etl::dsp::feedback_drain&lt; T &gt;'],['../structetl_1_1dsp_1_1feedback__drain.html#a8cc5528d8edc7732bf1eaad73af38ecc',1,'etl::dsp::feedback_drain::feedback_drain()']]],
+  ['feedback_5ftap',['feedback_tap',['../structetl_1_1dsp_1_1feedback__tap.html',1,'etl::dsp::feedback_tap&lt; T &gt;'],['../structetl_1_1dsp_1_1feedback__tap.html#aaec800a65d4babed1adff2b5081b9915',1,'etl::dsp::feedback_tap::feedback_tap()']]],
   ['femto',['femto',['../namespaceetl.html#a24c3ad429659821374780e0448855ef8',1,'etl']]],
   ['find',['find',['../classetl_1_1map.html#a52c8006d7515c86b8d5898da64ce5f76',1,'etl::map::find(KeyType const &amp;key) noexcept -&gt; iterator'],['../classetl_1_1map.html#ab77e2daaf1b095b8ef5e75706d9d886a',1,'etl::map::find(KeyType const &amp;key) const noexcept -&gt; const_iterator'],['../namespaceetl.html#af33857e090fba6747166a167e1018400',1,'etl::find()']]],
   ['find_5fif',['find_if',['../namespaceetl.html#a6fa4355c6aa8d1f3fbd2019acfee332f',1,'etl']]],
