@@ -96,7 +96,7 @@ Macros</h2></td></tr>
 <tr class="separator:a4d79b09954b1efa73ad8d87a36b4a575"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae40de11e4044a83a97d2cb5d00ce608b"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#ae40de11e4044a83a97d2cb5d00ce608b">errQUEUE_FULL</a>&#160;&#160;&#160;(static_cast&lt;<a class="el" href="stubs_8hpp.html#a2d7fc630e89911cbf80c510f0b1a3e9c">BaseType_t</a>&gt;(0))</td></tr>
 <tr class="separator:ae40de11e4044a83a97d2cb5d00ce608b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae1ff06193615f5130b5a97dc9e708fc7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#ae1ff06193615f5130b5a97dc9e708fc7">portYIELD</a>()&#160;&#160;&#160;<a class="el" href="stubs_8hpp.html#a076f06098d5bd8bb6bffea91c3f1d00d">vPortYield</a>()</td></tr>
+<tr class="memitem:ae1ff06193615f5130b5a97dc9e708fc7"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#ae1ff06193615f5130b5a97dc9e708fc7">portYIELD</a>()&#160;&#160;&#160;<a class="el" href="stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42">vPortYield</a>()</td></tr>
 <tr class="separator:ae1ff06193615f5130b5a97dc9e708fc7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a767e474430db1e60056e9678763f9202"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#a767e474430db1e60056e9678763f9202">taskYIELD</a>()&#160;&#160;&#160;<a class="el" href="stubs_8hpp.html#ae1ff06193615f5130b5a97dc9e708fc7">portYIELD</a>()</td></tr>
 <tr class="separator:a767e474430db1e60056e9678763f9202"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -120,8 +120,8 @@ Typedefs</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a076f06098d5bd8bb6bffea91c3f1d00d"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#a076f06098d5bd8bb6bffea91c3f1d00d">vPortYield</a> (void) -&gt; void</td></tr>
-<tr class="separator:a076f06098d5bd8bb6bffea91c3f1d00d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c16eb2af816c607da9badb56e9b8d42"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42">vPortYield</a> () -&gt; void</td></tr>
+<tr class="separator:a7c16eb2af816c607da9badb56e9b8d42"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a396c73f947eea224fe18bce9c87d8258"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#a396c73f947eea224fe18bce9c87d8258">xTaskCreate</a> (<a class="el" href="stubs_8hpp.html#abf7949d886bad89599ec5fc29306604e">TaskFunction_t</a> pvTaskCode, const char *const pcName, <a class="el" href="stubs_8hpp.html#aabec32c46dbd674bee0bdd6e57cb8888">configSTACK_DEPTH_TYPE</a> usStackDepth, void *const pvParameters, <a class="el" href="stubs_8hpp.html#a563abef10e129fcb74fefbbb40b88c5a">UBaseType_t</a> uxPriority, <a class="el" href="stubs_8hpp.html#a0bd11fd4faa2de671efa056b93bb18b2">TaskHandle_t</a> *const pxCreatedTask) -&gt; <a class="el" href="stubs_8hpp.html#a2d7fc630e89911cbf80c510f0b1a3e9c">BaseType_t</a></td></tr>
 <tr class="separator:a396c73f947eea224fe18bce9c87d8258"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6715f3fae8c8b0148ca051a454a20a85"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="stubs_8hpp.html#a6715f3fae8c8b0148ca051a454a20a85">vTaskDelete</a> (<a class="el" href="stubs_8hpp.html#a0bd11fd4faa2de671efa056b93bb18b2">TaskHandle_t</a> xTask) -&gt; void</td></tr>
@@ -240,7 +240,7 @@ Functions</h2></td></tr>
           <td class="memname">#define portYIELD</td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="stubs_8hpp.html#a076f06098d5bd8bb6bffea91c3f1d00d">vPortYield</a>()</td>
+          <td>&#160;&#160;&#160;<a class="el" href="stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42">vPortYield</a>()</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -391,8 +391,8 @@ Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a076f06098d5bd8bb6bffea91c3f1d00d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a076f06098d5bd8bb6bffea91c3f1d00d">&#9670;&nbsp;</a></span>vPortYield()</h2>
+<a id="a7c16eb2af816c607da9badb56e9b8d42"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c16eb2af816c607da9badb56e9b8d42">&#9670;&nbsp;</a></span>vPortYield()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -403,7 +403,6 @@ Functions</h2></td></tr>
         <tr>
           <td class="memname">auto vPortYield </td>
           <td>(</td>
-          <td class="paramtype">void&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; void </td>
         </tr>

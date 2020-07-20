@@ -6,7 +6,7 @@ var searchData=
   ['vector',['vector',['../classetl_1_1make_1_1vector.html',1,'etl::make::vector&lt; ValueType, Size &gt;'],['../classetl_1_1vector.html',1,'etl::vector&lt; ValueType &gt;'],['../classetl_1_1vector.html#a6e332e2973edc768d5d71071969fd505',1,'etl::vector::vector()'],['../classetl_1_1make_1_1vector.html#a874e612c2889156aae32ec57b8e6b12b',1,'etl::make::vector::vector()']]],
   ['vector_2ehpp',['vector.hpp',['../vector_8hpp.html',1,'']]],
   ['version_2ehpp',['version.hpp',['../version_8hpp.html',1,'']]],
-  ['vportyield',['vPortYield',['../stubs_8hpp.html#a076f06098d5bd8bb6bffea91c3f1d00d',1,'stubs.hpp']]],
+  ['vportyield',['vPortYield',['../stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42',1,'stubs.hpp']]],
   ['vqueuedelete',['vQueueDelete',['../stubs_8hpp.html#a153422cc5143e3f5715349d0092146bb',1,'stubs.hpp']]],
   ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#aab45dfd5e56c051cd4cef90b16848b30',1,'stubs.hpp']]],
   ['vtaskdelayuntil',['vTaskDelayUntil',['../stubs_8hpp.html#a332eabc61d372c584442a16b2a437886',1,'stubs.hpp']]],

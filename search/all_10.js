@@ -9,7 +9,7 @@ var searchData=
   ['ratio_5fadd',['ratio_add',['../namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00',1,'etl']]],
   ['ratio_5fsubtract',['ratio_subtract',['../namespaceetl.html#a234acc6c1438740afe4f7766f1208784',1,'etl']]],
   ['ratio_5ftype',['ratio_type',['../structetl_1_1experimental_1_1units_1_1quantity.html#a22845903955e9621c7852db948b1df7d',1,'etl::experimental::units::quantity']]],
-  ['read',['read',['../structetl_1_1hardware_1_1stm32_1_1port.html#aecb207936718101894aacd7d4a5e02ea',1,'etl::hardware::stm32::port']]],
+  ['read',['read',['../structetl_1_1hardware_1_1stm32_1_1port.html#aa80f75b5594d04b917e6df244999883c',1,'etl::hardware::stm32::port']]],
   ['readme_2emd',['README.md',['../README_8md.html',1,'']]],
   ['receive',['receive',['../classetl_1_1rtos_1_1queue.html#ac56edbc4dfe661bd31e8f5d43ef4e5a3',1,'etl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classetl_1_1rtos_1_1queue.html#ad94ed5f9e0a2dedea279e32e44faa56a',1,'etl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
   ['reference',['reference',['../classetl_1_1array.html#a00032e42be228b44773af3bf6059b97d',1,'etl::array::reference()'],['../classetl_1_1map.html#a710b3edd639e00551f80fa1183be4806',1,'etl::map::reference()'],['../classetl_1_1basic__string.html#a40e50919095c75298db9be4ef11dc93a',1,'etl::basic_string::reference()'],['../classetl_1_1vector.html#a808ec11bb852fb1d7a009f478383bfb3',1,'etl::vector::reference()']]],
