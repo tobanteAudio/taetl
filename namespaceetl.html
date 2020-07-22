@@ -185,6 +185,14 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map.html">map</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits.html">numeric_limits</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01bool_01_4.html">numeric_limits&lt; bool &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01double_01_4.html">numeric_limits&lt; double &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01float_01_4.html">numeric_limits&lt; float &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html">pair</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1rank.html">rank</a></td></tr>
@@ -330,6 +338,21 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:aadba129a7dc760f449b09b7fafeb63a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the endianness of all scalar types.  <a href="namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:aadba129a7dc760f449b09b7fafeb63a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0cdec522db16c755ade7c7222bf8af92"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92">float_round_style</a> { <br />
+&#160;&#160;<a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92afd0fa1de009f9a47f51a0ec9c23aa10b">round_indeterminate</a> = -1, 
+<a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a00004115cf199c1cd29d07f78679a63d">round_toward_zero</a> = 0, 
+<a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a1fc678348a02cf4262fb59153d5b73c3">round_to_nearest</a> = 1, 
+<a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a274b79e7a1a164b8b9eea17dda4751c0">round_toward_infinity</a> = 2, 
+<br />
+&#160;&#160;<a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92ac6babddc09b7dbf6e3daf12455e3417f">round_toward_neg_infinity</a> = 3
+<br />
+ }</td></tr>
+<tr class="separator:a0cdec522db16c755ade7c7222bf8af92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4892bd9af0bd3ad759fb95ab241247c"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247c">float_denorm_style</a> { <a class="el" href="namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247cadc095ee49d9e6884cd67bc20a4c73287">denorm_indeterminate</a> = -1, 
+<a class="el" href="namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247caf254439f29ec6166a1a6fb7b09efd141">denorm_absent</a> = 0, 
+<a class="el" href="namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247ca5a085126714d6734d58691edaa278aa5">denorm_present</a> = 1
+ }</td></tr>
+<tr class="separator:ad4892bd9af0bd3ad759fb95ab241247c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -431,6 +454,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a9900f32867800d2a9ffa2c660090cc83"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9900f32867800d2a9ffa2c660090cc83">midpoint</a> (Integer a, Integer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, Integer &gt;</td></tr>
 <tr class="memdesc:a9900f32867800d2a9ffa2c660090cc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  T is arithmentic type other than bool.  <a href="#a9900f32867800d2a9ffa2c660090cc83">More...</a><br /></td></tr>
 <tr class="separator:a9900f32867800d2a9ffa2c660090cc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memTemplParams" colspan="2">template&lt;typename Float &gt; </td></tr>
+<tr class="memitem:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd6eb417ecc3a7b1c7e71baab1c2c522">midpoint</a> (Float a, Float b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a5cf273d19443134cffcd66310d027ae4">etl::is_floating_point_v</a>&lt; Float &gt;, Float &gt;</td></tr>
+<tr class="separator:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplParams" colspan="2">template&lt;typename Pointer &gt; </td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt; Pointer &gt;, Pointer &gt;</td></tr>
 <tr class="separator:ad2f4c423421fddd2a2f941d805c05300"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1141,6 +1167,46 @@ template&lt;etl::size_t Capacity&gt; </div>
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="aadba129a7dc760f449b09b7fafeb63a8aaae6635e044ac56046b2893a529b5114"></a>little&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aadba129a7dc760f449b09b7fafeb63a8ad861877da56b8b4ceb35c8cbfdf65bb4"></a>big&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="aadba129a7dc760f449b09b7fafeb63a8a8e5f3adee38c8fccc13c1f3be0143796"></a>native&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="ad4892bd9af0bd3ad759fb95ab241247c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4892bd9af0bd3ad759fb95ab241247c">&#9670;&nbsp;</a></span>float_denorm_style</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247c">etl::float_denorm_style</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="ad4892bd9af0bd3ad759fb95ab241247cadc095ee49d9e6884cd67bc20a4c73287"></a>denorm_indeterminate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4892bd9af0bd3ad759fb95ab241247caf254439f29ec6166a1a6fb7b09efd141"></a>denorm_absent&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="ad4892bd9af0bd3ad759fb95ab241247ca5a085126714d6734d58691edaa278aa5"></a>denorm_present&#160;</td><td class="fielddoc"></td></tr>
+</table>
+
+</div>
+</div>
+<a id="a0cdec522db16c755ade7c7222bf8af92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0cdec522db16c755ade7c7222bf8af92">&#9670;&nbsp;</a></span>float_round_style</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92">etl::float_round_style</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<table class="fieldtable">
+<tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a0cdec522db16c755ade7c7222bf8af92afd0fa1de009f9a47f51a0ec9c23aa10b"></a>round_indeterminate&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cdec522db16c755ade7c7222bf8af92a00004115cf199c1cd29d07f78679a63d"></a>round_toward_zero&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cdec522db16c755ade7c7222bf8af92a1fc678348a02cf4262fb59153d5b73c3"></a>round_to_nearest&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cdec522db16c755ade7c7222bf8af92a274b79e7a1a164b8b9eea17dda4751c0"></a>round_toward_infinity&#160;</td><td class="fielddoc"></td></tr>
+<tr><td class="fieldname"><a id="a0cdec522db16c755ade7c7222bf8af92ac6babddc09b7dbf6e3daf12455e3417f"></a>round_toward_neg_infinity&#160;</td><td class="fielddoc"></td></tr>
 </table>
 
 </div>
@@ -2020,7 +2086,7 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 </div>
 </div>
 <a id="a9900f32867800d2a9ffa2c660090cc83"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9900f32867800d2a9ffa2c660090cc83">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9900f32867800d2a9ffa2c660090cc83">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2060,8 +2126,47 @@ template&lt;typename Integer &gt; </div>
 
 </div>
 </div>
+<a id="acd6eb417ecc3a7b1c7e71baab1c2c522"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd6eb417ecc3a7b1c7e71baab1c2c522">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Float &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::midpoint </td>
+          <td>(</td>
+          <td class="paramtype">Float&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Float&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a5cf273d19443134cffcd66310d027ae4">etl::is_floating_point_v</a>&lt;Float&gt;, Float&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ad2f4c423421fddd2a2f941d805c05300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2f4c423421fddd2a2f941d805c05300">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2f4c423421fddd2a2f941d805c05300">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

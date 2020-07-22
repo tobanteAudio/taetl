@@ -24,8 +24,15 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/experimental/units/units.hpp"
   Node9 [label="numeric.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$numeric_8hpp.html"];
   Node9 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 -> Node10 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node10 [label="type_traits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type__traits_8hpp.html"];
-  Node10 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node10 [label="limits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$limits_8hpp.html"];
   Node10 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node11 [label="intrinsics.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$intrinsics_8hpp.html"];
+  Node11 [label="float.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="math.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node9 -> Node13 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="type_traits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type__traits_8hpp.html"];
+  Node13 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 -> Node14 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node14 [label="intrinsics.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$intrinsics_8hpp.html"];
 }

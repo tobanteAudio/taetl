@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['radix',['radix',['../classetl_1_1numeric__limits.html#ac1b31e6d3a8446055e79c38944718991',1,'etl::numeric_limits::radix()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a0e5d6662230c6f5c8821bc541638e64f',1,'etl::numeric_limits&lt; bool &gt;::radix()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#a0f2ee6d0e5f0e49191456f8ab525b2d4',1,'etl::numeric_limits&lt; float &gt;::radix()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#afa8fd84e9dc4aa36b25cfd6d8c48c421',1,'etl::numeric_limits&lt; double &gt;::radix()']]],
   ['rank',['rank',['../structetl_1_1rank.html',1,'etl']]],
   ['rank_3c_20t_5b_5d_3e',['rank&lt; T[]&gt;',['../structetl_1_1rank_3_01T[]_4.html',1,'etl']]],
   ['rank_3c_20t_5bn_5d_3e',['rank&lt; T[N]&gt;',['../structetl_1_1rank_3_01T[N]_4.html',1,'etl']]],
@@ -28,6 +29,13 @@ var searchData=
   ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]],
   ['reserve',['reserve',['../classetl_1_1vector.html#abfb60135d673b37d6e2a3029c41562f6',1,'etl::vector']]],
   ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue::reset()'],['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003ca86266ee937d97f812a8e57d22b62ee29',1,'etl::hardware::stm32::reset()']]],
+  ['round_5ferror',['round_error',['../classetl_1_1numeric__limits.html#a02d8a65c29fdc39d35adead482200af8',1,'etl::numeric_limits::round_error()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a4aa6c900b4dccbb29e2d5a187f02d42f',1,'etl::numeric_limits&lt; bool &gt;::round_error()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#a51f5b0a98454e806a4e3866646c4192e',1,'etl::numeric_limits&lt; float &gt;::round_error()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a1ec44aa171233f5ec633e926d3cb6c97',1,'etl::numeric_limits&lt; double &gt;::round_error()']]],
+  ['round_5findeterminate',['round_indeterminate',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92afd0fa1de009f9a47f51a0ec9c23aa10b',1,'etl']]],
+  ['round_5fstyle',['round_style',['../classetl_1_1numeric__limits.html#aca13285fc954b04d400c75939d6ae6d5',1,'etl::numeric_limits::round_style()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a4e0bc52ce9e3bea06b60a5601417fb91',1,'etl::numeric_limits&lt; bool &gt;::round_style()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#a269e7456da03563399b829999f09b91e',1,'etl::numeric_limits&lt; float &gt;::round_style()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a4f90e0f0d466c750fef7ba1120f0b168',1,'etl::numeric_limits&lt; double &gt;::round_style()']]],
+  ['round_5fto_5fnearest',['round_to_nearest',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a1fc678348a02cf4262fb59153d5b73c3',1,'etl']]],
+  ['round_5ftoward_5finfinity',['round_toward_infinity',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a274b79e7a1a164b8b9eea17dda4751c0',1,'etl']]],
+  ['round_5ftoward_5fneg_5finfinity',['round_toward_neg_infinity',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92ac6babddc09b7dbf6e3daf12455e3417f',1,'etl']]],
+  ['round_5ftoward_5fzero',['round_toward_zero',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a00004115cf199c1cd29d07f78679a63d',1,'etl']]],
   ['rtos_5ftask',['rtos_task',['../namespaceetl_1_1rtos.html#a60ee408f1f6182adf295a6a9aeefac04',1,'etl::rtos']]],
   ['run_5fcount',['run_count',['../structetl_1_1rtos_1_1times.html#a0f6d343e86f2f8fa8dc56c309e63b24e',1,'etl::rtos::times']]]
 ];
