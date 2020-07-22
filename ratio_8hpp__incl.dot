@@ -26,6 +26,7 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/ratio.hpp"
   Node10 [label="float.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node9 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node11 [label="math.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node9 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node9 -> Node1 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node8 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node12 [label="type_traits.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$type__traits_8hpp.html"];
