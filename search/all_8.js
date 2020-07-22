@@ -2,7 +2,7 @@ var searchData=
 [
   ['identity',['identity',['../structetl_1_1dsp_1_1identity.html',1,'etl::dsp::identity'],['../structetl_1_1dsp_1_1identity.html#a8f57f28087841e290c83619245d874bf',1,'etl::dsp::identity::identity()']]],
   ['ignore_5funused',['ignore_unused',['../namespaceetl.html#ada1849ec064e37fdc587449c92492d25',1,'etl']]],
-  ['infinity',['infinity',['../classetl_1_1numeric__limits.html#aa9b7a5c9c069a259835763d30b615551',1,'etl::numeric_limits::infinity()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a45476f433da3e2d5375765930e8dea26',1,'etl::numeric_limits&lt; bool &gt;::infinity()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#ade8ee25ae937c38b7b098ab718efd357',1,'etl::numeric_limits&lt; float &gt;::infinity()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#ae8563c155fe610360198e3c0a2718c4d',1,'etl::numeric_limits&lt; double &gt;::infinity()']]],
+  ['infinity',['infinity',['../classetl_1_1numeric__limits.html#aa9b7a5c9c069a259835763d30b615551',1,'etl::numeric_limits::infinity()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a45476f433da3e2d5375765930e8dea26',1,'etl::numeric_limits&lt; bool &gt;::infinity()']]],
   ['init',['init',['../classetl_1_1hardware_1_1mcp23017_1_1device.html#a838c81fbd4e4942ee6ae5ede388ab33e',1,'etl::hardware::mcp23017::device']]],
   ['input_5fdata',['input_data',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a767d0b897dbbb737ebfa52efea784c94',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['input_5fo0',['input_O0',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786a2cf8b6a3c3d16a0010202c653bcb9bdb',1,'etl::hardware::mcp23017']]],
