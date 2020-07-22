@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::remove_const\<\l Type \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1remove__const.html"];
+  Node0 [label="etl::make_unsigned\l\< typename \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1make__unsigned.html",tooltip="If T is an integral (except bool) or enumeration type, provides the member typedef type which is the ..."];
 }

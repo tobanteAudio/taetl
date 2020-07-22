@@ -160,6 +160,29 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1less.html">less</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an integral (except bool) or enumeration type, provides the member typedef type which is the unsigned integer type corresponding to T, with the same cv-qualifiers. If T is signed or unsigned char, short, int, long, long long; the unsigned type from this list corresponding to T is provided. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1make__unsigned.html" title="If T is an integral (except bool) or enumeration type, provides the member typedef type which is the ...">make_unsigned</a> is undefined.  <a href="structetl_1_1make__unsigned.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01char_01_4.html">make_unsigned&lt; signed char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01int_01_4.html">make_unsigned&lt; signed int &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01long_01_4.html">make_unsigned&lt; signed long &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01long_01long_01_4.html">make_unsigned&lt; signed long long &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01short_01_4.html">make_unsigned&lt; signed short &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01char_01_4.html">make_unsigned&lt; unsigned char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01int_01_4.html">make_unsigned&lt; unsigned int &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01long_01_4.html">make_unsigned&lt; unsigned long &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01long_01long_01_4.html">make_unsigned&lt; unsigned long long &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01short_01_4.html">make_unsigned&lt; unsigned short &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map.html">map</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html">pair</a></td></tr>
@@ -289,9 +312,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a26ceb8de4fe37ef6a14f78dd10d95bb6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a26ceb8de4fe37ef6a14f78dd10d95bb6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6">remove_reference_t</a> = typename <a class="el" href="structetl_1_1remove__reference.html">remove_reference</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:a26ceb8de4fe37ef6a14f78dd10d95bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acb2df53f4e399975501cf8300d451814">make_unsigned_t</a> = typename <a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:acb2df53f4e399975501cf8300d451814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa508ba172c61957cf6c18357210f08f6"><td class="memTemplParams" colspan="2">template&lt;bool B, class T , class F &gt; </td></tr>
 <tr class="memitem:aa508ba172c61957cf6c18357210f08f6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa508ba172c61957cf6c18357210f08f6">conditional_t</a> = typename <a class="el" href="structetl_1_1conditional.html">conditional</a>&lt; B, T, F &gt;::type</td></tr>
 <tr class="separator:aa508ba172c61957cf6c18357210f08f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a2df4ab89284c8c5866afea3100f290"><td class="memTemplParams" colspan="2">template&lt;bool B, class T  = void&gt; </td></tr>
+<tr class="memitem:a2a2df4ab89284c8c5866afea3100f290"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a> = typename <a class="el" href="structetl_1_1enable__if.html">enable_if</a>&lt; B, T &gt;::type</td></tr>
+<tr class="separator:a2a2df4ab89284c8c5866afea3100f290"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -398,6 +427,13 @@ Functions</h2></td></tr>
 <tr class="memitem:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac0c15d45f1e3cd0c35fa9c638e90fb4b">gcd</a> (M m, N n) noexcept</td></tr>
 <tr class="memdesc:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the greatest common divisor of the integers m and n.  <a href="#ac0c15d45f1e3cd0c35fa9c638e90fb4b">More...</a><br /></td></tr>
 <tr class="separator:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9900f32867800d2a9ffa2c660090cc83"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
+<tr class="memitem:a9900f32867800d2a9ffa2c660090cc83"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9900f32867800d2a9ffa2c660090cc83">midpoint</a> (Integer a, Integer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, Integer &gt;</td></tr>
+<tr class="memdesc:a9900f32867800d2a9ffa2c660090cc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  T is arithmentic type other than bool.  <a href="#a9900f32867800d2a9ffa2c660090cc83">More...</a><br /></td></tr>
+<tr class="separator:a9900f32867800d2a9ffa2c660090cc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplParams" colspan="2">template&lt;typename Pointer &gt; </td></tr>
+<tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt; Pointer &gt;, Pointer &gt;</td></tr>
+<tr class="separator:ad2f4c423421fddd2a2f941d805c05300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add013e52c2672440c53a8d2c82d4c63a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a">strlen</a> (const char *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
 <tr class="memdesc:add013e52c2672440c53a8d2c82d4c63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#add013e52c2672440c53a8d2c82d4c63a">More...</a><br /></td></tr>
 <tr class="separator:add013e52c2672440c53a8d2c82d4c63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -529,6 +565,22 @@ template&lt;bool B, class T , class F &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#a59f2e2c10ab4b06ed261d1e4a8358895">etl::deci</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 10&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a2a2df4ab89284c8c5866afea3100f290"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a2df4ab89284c8c5866afea3100f290">&#9670;&nbsp;</a></span>enable_if_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;bool B, class T  = void&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a> = typedef typename <a class="el" href="structetl_1_1enable__if.html">enable_if</a>&lt;B, T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -683,6 +735,22 @@ template&lt;bool B, class T , class F &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#a28e306410036af95bf5ea4fc02bed266">etl::kilo</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000, 1&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="acb2df53f4e399975501cf8300d451814"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acb2df53f4e399975501cf8300d451814">&#9670;&nbsp;</a></span>make_unsigned_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#acb2df53f4e399975501cf8300d451814">etl::make_unsigned_t</a> = typedef typename <a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a>&lt;T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1948,6 +2016,86 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 </div><div class="memdoc">
 
 <p>Finds the greatest element in the range [first, last). Elements are compared using the given binary comparison function comp. </p>
+
+</div>
+</div>
+<a id="a9900f32867800d2a9ffa2c660090cc83"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9900f32867800d2a9ffa2c660090cc83">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Integer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::midpoint </td>
+          <td>(</td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, Integer&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  T is arithmentic type other than bool. </p>
+
+</div>
+</div>
+<a id="ad2f4c423421fddd2a2f941d805c05300"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2f4c423421fddd2a2f941d805c05300">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Pointer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::midpoint </td>
+          <td>(</td>
+          <td class="paramtype">Pointer&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Pointer&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt;Pointer&gt;, Pointer&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
