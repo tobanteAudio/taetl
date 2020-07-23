@@ -158,9 +158,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a15784b3ae40403cc6858f1b86b496890"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html#a15784b3ae40403cc6858f1b86b496890">clear</a> () noexcept -&gt; void</td></tr>
 <tr class="memdesc:a15784b3ae40403cc6858f1b86b496890"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all characters from the string.  <a href="#a15784b3ae40403cc6858f1b86b496890">More...</a><br /></td></tr>
 <tr class="separator:a15784b3ae40403cc6858f1b86b496890"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad491ead6c2fa381edda833f6fca4b757"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html#ad491ead6c2fa381edda833f6fca4b757">append</a> (<a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> count, CharType s) noexcept -&gt; <a class="el" href="classetl_1_1basic__string.html">basic_string</a> &amp;</td></tr>
-<tr class="memdesc:ad491ead6c2fa381edda833f6fca4b757"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends count copies of character s.  <a href="#ad491ead6c2fa381edda833f6fca4b757">More...</a><br /></td></tr>
-<tr class="separator:ad491ead6c2fa381edda833f6fca4b757"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48a418d3ec193f0775f05b273141b7a2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html#a48a418d3ec193f0775f05b273141b7a2">append</a> (<a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const count, CharType const s) noexcept -&gt; <a class="el" href="classetl_1_1basic__string.html">basic_string</a> &amp;</td></tr>
+<tr class="memdesc:a48a418d3ec193f0775f05b273141b7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends count copies of character s.  <a href="#a48a418d3ec193f0775f05b273141b7a2">More...</a><br /></td></tr>
+<tr class="separator:a48a418d3ec193f0775f05b273141b7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa81825d3dd9938cf47cede1949fcbc8a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html#aa81825d3dd9938cf47cede1949fcbc8a">append</a> (<a class="el" href="classetl_1_1basic__string.html#acd4843dc27f5b9e429edbf91fa28b92a">const_pointer</a> s) noexcept -&gt; <a class="el" href="classetl_1_1basic__string.html">basic_string</a> &amp;</td></tr>
 <tr class="memdesc:aa81825d3dd9938cf47cede1949fcbc8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the null-terminated character string pointed to by s. The length of the string is determined by the first null character using.  <a href="#aa81825d3dd9938cf47cede1949fcbc8a">More...</a><br /></td></tr>
 <tr class="separator:aa81825d3dd9938cf47cede1949fcbc8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -419,8 +419,8 @@ template&lt;typename CharType , etl::size_t Capacity&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad491ead6c2fa381edda833f6fca4b757"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad491ead6c2fa381edda833f6fca4b757">&#9670;&nbsp;</a></span>append() <span class="overload">[1/3]</span></h2>
+<a id="a48a418d3ec193f0775f05b273141b7a2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48a418d3ec193f0775f05b273141b7a2">&#9670;&nbsp;</a></span>append() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -433,13 +433,13 @@ template&lt;typename CharType , etl::size_t Capacity&gt; </div>
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string.html">etl::basic_string</a>&lt; CharType, Capacity &gt;::append </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const&#160;</td>
           <td class="paramname"><em>count</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">CharType&#160;</td>
+          <td class="paramtype">CharType const&#160;</td>
           <td class="paramname"><em>s</em>&#160;</td>
         </tr>
         <tr>
