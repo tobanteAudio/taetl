@@ -3,6 +3,8 @@ var searchData=
   ['olata',['OLATA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca2961530b6a5251790abea73e433f837a',1,'etl::hardware::mcp23017']]],
   ['olatb',['OLATB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77cabefbc283964efb7eda0caee089605442',1,'etl::hardware::mcp23017']]],
   ['once',['once',['../namespaceetl_1_1rtos.html#a1bf9ee3a51fb941767f849f8bf8ae792',1,'etl::rtos']]],
+  ['operator_20_26',['operator &amp;',['../namespaceetl.html#a300d68a0b017d8b6f41d000a8800cd77',1,'etl']]],
+  ['operator_20_26_3d',['operator &amp;=',['../namespaceetl.html#a30243ddf0699dede912521c57cb92a25',1,'etl']]],
   ['operator_20new',['operator new',['../new_8hpp.html#a08c04e1f9fc926902fd64b9f6569121f',1,'new.hpp']]],
   ['operator_20value_5ftype',['operator value_type',['../structetl_1_1integral__constant.html#ae7841460433cd4453195b266bbc18a01',1,'etl::integral_constant']]],
   ['operator_22_22_5fk',['operator&quot;&quot;_K',['../namespaceetl_1_1dsp_1_1literals.html#addf55a7d78b3e6be237e89178fe3ee90',1,'etl::dsp::literals::operator&quot;&quot;_K(long double val) -&gt; constant&lt; long double &gt;'],['../namespaceetl_1_1dsp_1_1literals.html#aabc744784454800719715be6f629cca7',1,'etl::dsp::literals::operator&quot;&quot;_K(unsigned long long val) -&gt; constant&lt; unsigned long long &gt;']]],
@@ -16,6 +18,10 @@ var searchData=
   ['operator_3e_3e',['operator&gt;&gt;',['../namespaceetl.html#ac45fcae26cfb190fcc8ea6ab10da01f0',1,'etl']]],
   ['operator_3e_3e_3d',['operator&gt;&gt;=',['../namespaceetl.html#a12556a00fd4d36c275c51643b2c6168a',1,'etl']]],
   ['operator_5b_5d',['operator[]',['../classetl_1_1array.html#a6bc42b55602ea9c9a3ddc08619788819',1,'etl::array::operator[](size_type const pos) noexcept -&gt; reference'],['../classetl_1_1array.html#a6ac316953f9fe490ffd5fc9e9b92edb3',1,'etl::array::operator[](size_type const pos) const noexcept -&gt; const_reference'],['../classetl_1_1bitset.html#acc5325fed40585f65aa8332bbdaa970d',1,'etl::bitset::operator[]()'],['../classetl_1_1map.html#aa436a3bc3a97a3b39ba145230d86208f',1,'etl::map::operator[]()'],['../classetl_1_1basic__string.html#aa3a1cdccdbbab8f0aedc222f85c0c051',1,'etl::basic_string::operator[](etl::size_t index) noexcept -&gt; reference'],['../classetl_1_1basic__string.html#a34d2364d9a3c8559c06d5b9c3bddc082',1,'etl::basic_string::operator[](etl::size_t index) const noexcept -&gt; const_reference']]],
-  ['operator_7c',['operator|',['../namespaceetl_1_1dsp.html#a71a0c5a7539c6faea235ba8413c8767d',1,'etl::dsp']]],
+  ['operator_5e',['operator^',['../namespaceetl.html#a6ca2f44bc05dd8dbd6f9ea8beadef229',1,'etl']]],
+  ['operator_5e_3d',['operator^=',['../namespaceetl.html#a0145ea9af63899833b6bf5f9f18fb7c1',1,'etl']]],
+  ['operator_7c',['operator|',['../namespaceetl.html#a8fe220615749beb7a953b281e623e529',1,'etl::operator|()'],['../namespaceetl_1_1dsp.html#a71a0c5a7539c6faea235ba8413c8767d',1,'etl::dsp::operator|()']]],
+  ['operator_7c_3d',['operator|=',['../namespaceetl.html#a73f53c7f64802ca7093607b55cb86bc6',1,'etl']]],
+  ['operator_7e',['operator~',['../namespaceetl.html#a6cb428553f8379a8f3920c202cd85993',1,'etl']]],
   ['output_5fdata',['output_data',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a3d8d1a535bf34326388d0bb301b31b50',1,'etl::hardware::stm32::gpio_memory_layout']]]
 ];
