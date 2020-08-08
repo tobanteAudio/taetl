@@ -338,6 +338,8 @@ Enumerations</h2></td></tr>
  }<tr class="memdesc:aadba129a7dc760f449b09b7fafeb63a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Indicates the endianness of all scalar types.  <a href="namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8">More...</a><br /></td></tr>
 </td></tr>
 <tr class="separator:aadba129a7dc760f449b09b7fafeb63a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3fe360a11ae9b0c5886f80ce2ff28a9d"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">byte</a> : uint8_t </td></tr>
+<tr class="separator:a3fe360a11ae9b0c5886f80ce2ff28a9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0cdec522db16c755ade7c7222bf8af92"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92">float_round_style</a> { <br />
 &#160;&#160;<a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92afd0fa1de009f9a47f51a0ec9c23aa10b">round_indeterminate</a> = -1, 
 <a class="el" href="namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a00004115cf199c1cd29d07f78679a63d">round_toward_zero</a> = 0, 
@@ -434,6 +436,26 @@ Functions</h2></td></tr>
 <tr class="memitem:a0d02c4c388de0067ab15cb5febdebea7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0d02c4c388de0067ab15cb5febdebea7">popcount</a> (T input) noexcept -&gt; int</td></tr>
 <tr class="memdesc:a0d02c4c388de0067ab15cb5febdebea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a0d02c4c388de0067ab15cb5febdebea7">More...</a><br /></td></tr>
 <tr class="separator:a0d02c4c388de0067ab15cb5febdebea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
+<tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aaa84e096751094f12fc96460addc2483">to_integer</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, Integer &gt;</td></tr>
+<tr class="memdesc:aaa84e096751094f12fc96460addc2483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return Integer(b); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#aaa84e096751094f12fc96460addc2483">More...</a><br /></td></tr>
+<tr class="separator:aaa84e096751094f12fc96460addc2483"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4d724ccacf75835ddc7e208bf977df9e"><td class="memTemplParams" colspan="2">template&lt;class Integer &gt; </td></tr>
+<tr class="memitem:a4d724ccacf75835ddc7e208bf977df9e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4d724ccacf75835ddc7e208bf977df9e">operator&lt;&lt;=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;&gt;</td></tr>
+<tr class="memdesc:a4d724ccacf75835ddc7e208bf977df9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return b = b &lt;&lt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a4d724ccacf75835ddc7e208bf977df9e">More...</a><br /></td></tr>
+<tr class="separator:a4d724ccacf75835ddc7e208bf977df9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12556a00fd4d36c275c51643b2c6168a"><td class="memTemplParams" colspan="2">template&lt;class Integer &gt; </td></tr>
+<tr class="memitem:a12556a00fd4d36c275c51643b2c6168a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a12556a00fd4d36c275c51643b2c6168a">operator&gt;&gt;=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;&gt;</td></tr>
+<tr class="memdesc:a12556a00fd4d36c275c51643b2c6168a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return b = b &gt;&gt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a12556a00fd4d36c275c51643b2c6168a">More...</a><br /></td></tr>
+<tr class="separator:a12556a00fd4d36c275c51643b2c6168a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0480e65e737703d71651dbf0ec77f6be"><td class="memTemplParams" colspan="2">template&lt;class Integer &gt; </td></tr>
+<tr class="memitem:a0480e65e737703d71651dbf0ec77f6be"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0480e65e737703d71651dbf0ec77f6be">operator&lt;&lt;</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &gt;</td></tr>
+<tr class="memdesc:a0480e65e737703d71651dbf0ec77f6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &lt;&lt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a0480e65e737703d71651dbf0ec77f6be">More...</a><br /></td></tr>
+<tr class="separator:a0480e65e737703d71651dbf0ec77f6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="memTemplParams" colspan="2">template&lt;class Integer &gt; </td></tr>
+<tr class="memitem:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac45fcae26cfb190fcc8ea6ab10da01f0">operator&gt;&gt;</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &gt;</td></tr>
+<tr class="memdesc:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &gt;&gt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#ac45fcae26cfb190fcc8ea6ab10da01f0">More...</a><br /></td></tr>
+<tr class="separator:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe443a26a34b79fc921c4583df576333"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type &gt; </td></tr>
 <tr class="memitem:afe443a26a34b79fc921c4583df576333"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333">accumulate</a> (InputIt first, InputIt last, Type init) noexcept -&gt; Type</td></tr>
 <tr class="memdesc:afe443a26a34b79fc921c4583df576333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements.  <a href="#afe443a26a34b79fc921c4583df576333">More...</a><br /></td></tr>
@@ -1141,6 +1163,28 @@ template&lt;etl::size_t Capacity&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Enumeration Type Documentation</h2>
+<a id="a3fe360a11ae9b0c5886f80ce2ff28a9d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3fe360a11ae9b0c5886f80ce2ff28a9d">&#9670;&nbsp;</a></span>byte</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">enum <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> : <a class="el" href="namespaceetl.html#a001f884b28f990ecdc3543a19440befb">uint8_t</a></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">strong</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aadba129a7dc760f449b09b7fafeb63a8"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aadba129a7dc760f449b09b7fafeb63a8">&#9670;&nbsp;</a></span>endian</h2>
 
@@ -2455,6 +2499,171 @@ template&lt;class InputIt , class UnaryPredicate &gt; </div>
 
 </div>
 </div>
+<a id="a0480e65e737703d71651dbf0ec77f6be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0480e65e737703d71651dbf0ec77f6be">&#9670;&nbsp;</a></span>operator<<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Integer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&lt;&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>shift</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &lt;&lt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true. </p>
+
+</div>
+</div>
+<a id="a4d724ccacf75835ddc7e208bf977df9e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4d724ccacf75835ddc7e208bf977df9e">&#9670;&nbsp;</a></span>operator<<=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Integer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&lt;&lt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>shift</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&amp;&gt;
+
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equivalent to: return b = b &lt;&lt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true. </p>
+
+</div>
+</div>
+<a id="ac45fcae26cfb190fcc8ea6ab10da01f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac45fcae26cfb190fcc8ea6ab10da01f0">&#9670;&nbsp;</a></span>operator>>()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Integer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&gt;&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>shift</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &gt;&gt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true. </p>
+
+</div>
+</div>
+<a id="a12556a00fd4d36c275c51643b2c6168a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12556a00fd4d36c275c51643b2c6168a">&#9670;&nbsp;</a></span>operator>>=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Integer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&gt;&gt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;&#160;</td>
+          <td class="paramname"><em>b</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Integer&#160;</td>
+          <td class="paramname"><em>shift</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&amp;&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equivalent to: return b = b &gt;&gt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true. </p>
+
+</div>
+</div>
 <a id="a0d02c4c388de0067ab15cb5febdebea7"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0d02c4c388de0067ab15cb5febdebea7">&#9670;&nbsp;</a></span>popcount()</h2>
 
@@ -2513,6 +2722,37 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the length of the C string str. </p>
+
+</div>
+</div>
+<a id="aaa84e096751094f12fc96460addc2483"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa84e096751094f12fc96460addc2483">&#9670;&nbsp;</a></span>to_integer()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Integer &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::to_integer </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&#160;</td>
+          <td class="paramname"><em>b</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, Integer&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Equivalent to: return Integer(b); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true. </p>
 
 </div>
 </div>

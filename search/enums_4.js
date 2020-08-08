@@ -1,7 +1,5 @@
 var searchData=
 [
-  ['pin_5fnumber',['pin_number',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249',1,'etl::hardware::stm32']]],
-  ['pin_5fstate',['pin_state',['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003c',1,'etl::hardware::stm32']]],
-  ['port',['port',['../namespaceetl_1_1hardware_1_1mcp23017.html#a37d49137ec85c2e4912eed582826b33c',1,'etl::hardware::mcp23017']]],
-  ['pull_5fup_5fresistor',['pull_up_resistor',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1e',1,'etl::hardware::mcp23017']]]
+  ['io_5fdirection',['io_direction',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786',1,'etl::hardware::mcp23017']]],
+  ['io_5fpolarity',['io_polarity',['../namespaceetl_1_1hardware_1_1mcp23017.html#a5a7c8be1bbef2b28cd6cdcdf71ffe1e1',1,'etl::hardware::mcp23017']]]
 ];
