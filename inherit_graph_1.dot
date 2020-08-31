@@ -3,5 +3,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::array\< T, static\l_cast\< size_t \>(Z)+1 \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1array.html"];
+  Node10 [label="try_add_rvalue_reference",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="etl::add_rvalue_reference\< T \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1add__rvalue__reference.html"];
 }

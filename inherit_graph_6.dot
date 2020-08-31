@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::conditional\< B,\l T, F \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1conditional.html",tooltip="Provides member typedef type, which is defined as T if B is true at compile time, or as F if B is fal..."];
+  Node0 [label="etl::basic_string\<\l CharType, Capacity \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1basic__string.html",tooltip="basic_string class with fixed size capacity. "];
 }
