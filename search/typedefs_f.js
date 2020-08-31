@@ -7,5 +7,6 @@ var searchData=
   ['remove_5fconst_5ft',['remove_const_t',['../namespaceetl.html#a87e058aba499e52cc4ed554dd7d65332',1,'etl']]],
   ['remove_5fcv_5ft',['remove_cv_t',['../namespaceetl.html#a70fb46b3c4c98f5f23b76cb25f343373',1,'etl']]],
   ['remove_5freference_5ft',['remove_reference_t',['../namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6',1,'etl']]],
-  ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]]
+  ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]],
+  ['result_5ftype',['result_type',['../classetl_1_1function_3_01Result_07Arguments_8_8_8_08_4.html#ab87cc1663e3544a98d056508e4dcf19a',1,'etl::function&lt; Result(Arguments...)&gt;']]]
 ];

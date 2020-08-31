@@ -17,5 +17,6 @@ var searchData=
   ['string',['string',['../namespaceetl.html#af2769dde06d41131748597077535e2cc',1,'etl']]],
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
   ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]],
-  ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]]
+  ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]],
+  ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]]
 ];

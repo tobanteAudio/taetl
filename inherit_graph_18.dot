@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::experimental::\lunits::quantity\< T,\l Dimensions, Ratio \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1units_1_1quantity.html"];
+  Node0 [label="etl::experimental::\lunits::mass",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1units_1_1mass.html"];
 }
