@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['taetl',['TAETL',['../index.html',1,'']]],
+  ['taetl_20_2d_20embedded_20template_20library',['TAETL - Embedded Template Library',['../index.html',1,'']]],
   ['taetl_5fis_5fclass',['TAETL_IS_CLASS',['../intrinsics_8hpp.html#a5e5322628b3857868ee48f4baa81d7e0',1,'intrinsics.hpp']]],
   ['taetl_5fis_5fenum',['TAETL_IS_ENUM',['../intrinsics_8hpp.html#ab9bcd9311214c4c96d23ecd719499f25',1,'intrinsics.hpp']]],
   ['taetl_5fis_5funion',['TAETL_IS_UNION',['../intrinsics_8hpp.html#ae0d1f9cf9b90fa012b8ec4ec5c7c6fb3',1,'intrinsics.hpp']]],
