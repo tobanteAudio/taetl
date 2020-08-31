@@ -11,7 +11,7 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/experimental" {
     dir_a8cf1f17d7129ce179ef3761c8a177c4 [shape=box label="hardware" color="red" fillcolor="white" style="filled" URL="dir_a8cf1f17d7129ce179ef3761c8a177c4.html"];
     dir_398280f5c0adf6015fcc5e44c44977d7 [shape=box label="net" color="black" fillcolor="white" style="filled" URL="dir_398280f5c0adf6015fcc5e44c44977d7.html"];
     dir_03745a24ac2f70bf7445f82c4befbdf5 [shape=box label="rtos" color="black" fillcolor="white" style="filled" URL="dir_03745a24ac2f70bf7445f82c4befbdf5.html"];
-    dir_983178ed2aeab3fc20e6aaeed68c877b [shape=box label="units" color="black" fillcolor="white" style="filled" URL="dir_983178ed2aeab3fc20e6aaeed68c877b.html"];
+    dir_dcce456d1e55d2b9ee1738b195d7e15e [shape=box label="strong_type" color="black" fillcolor="white" style="filled" URL="dir_dcce456d1e55d2b9ee1738b195d7e15e.html"];
   }
   }
 }

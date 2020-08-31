@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['tag_5ftype',['tag_type',['../structetl_1_1experimental_1_1strong__type.html#a4aca48941c939aa037068a3c71419c45',1,'etl::experimental::strong_type']]],
   ['taskfunction_5ft',['TaskFunction_t',['../stubs_8hpp.html#abf7949d886bad89599ec5fc29306604e',1,'stubs.hpp']]],
   ['taskhandle_5ft',['TaskHandle_t',['../stubs_8hpp.html#a0bd11fd4faa2de671efa056b93bb18b2',1,'stubs.hpp']]],
   ['tera',['tera',['../namespaceetl.html#a2c4d429035abc6729b30e3406a1703a1',1,'etl']]],

@@ -65,6 +65,9 @@ $(function() {
 <li>operator value_type()
 : <a class="el" href="structetl_1_1integral__constant.html#ae7841460433cd4453195b266bbc18a01">etl::integral_constant&lt; Type, val &gt;</a>
 </li>
+<li>operator!=
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#a5d5e803e037be547b747ad9a718feae7">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
+</li>
 <li>operator()()
 : <a class="el" href="structetl_1_1dsp_1_1constant.html#a0437b02341689a23d80c785da2cf9f5a">etl::dsp::constant&lt; T &gt;</a>
 , <a class="el" href="structetl_1_1dsp_1_1delay.html#abd96fd93dee4822d7aa7d9429b0e95c5">etl::dsp::delay&lt; T, Z &gt;</a>
@@ -80,21 +83,46 @@ $(function() {
 , <a class="el" href="structetl_1_1rtos_1_1never.html#a22309c68f02ef31dad8c672393274593">etl::rtos::never</a>
 , <a class="el" href="structetl_1_1rtos_1_1times.html#a7c310727f0063a8503d8b117a7534827">etl::rtos::times&lt; Count &gt;</a>
 </li>
+<li>operator*()
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1multipliable.html#a967262fa855baf365f0b4d774e8c423d">etl::experimental::skill::multipliable&lt; StrongType &gt;</a>
+</li>
 <li>operator+()
-: <a class="el" href="classetl_1_1net_1_1const__buffer.html#a439fd85408fb8060b6d1c2eed4320bcc">etl::net::const_buffer</a>
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1addable.html#a517a3c85ebacb04b870134e4e60a0b71">etl::experimental::skill::addable&lt; StrongType &gt;</a>
+, <a class="el" href="classetl_1_1net_1_1const__buffer.html#a176839abc5458ca6b2456e4a06b19f1a">etl::net::const_buffer</a>
 , <a class="el" href="classetl_1_1net_1_1mutable__buffer.html#aad301fed174785013344437a0570ed9e">etl::net::mutable_buffer</a>
 </li>
 <li>operator+=()
 : <a class="el" href="classetl_1_1net_1_1const__buffer.html#a0309522e7b1dc2c61fbdcabe2ee44d72">etl::net::const_buffer</a>
 , <a class="el" href="classetl_1_1net_1_1mutable__buffer.html#ac8b5ae0374179b281913db8c1509e95b">etl::net::mutable_buffer</a>
 </li>
+<li>operator-()
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1subtractable.html#a47753ece6bf9281868e8f29049ea4437">etl::experimental::skill::subtractable&lt; StrongType &gt;</a>
+</li>
+<li>operator/()
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1divisible.html#ad98e6c813e07af786a718f48ee77864c">etl::experimental::skill::divisible&lt; StrongType &gt;</a>
+</li>
+<li>operator&lt;
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#a9098cebbe27c89400e91d398652563c4">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
+</li>
+<li>operator&lt;=
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#af29a45eb1cc732cae6ab61a0290e4db5">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
+</li>
 <li>operator=()
 : <a class="el" href="classetl_1_1function_3_01Result_07Arguments_8_8_8_08_4.html#a5a536be72c9a3f2f6e898f44fb662055">etl::function&lt; Result(Arguments...)&gt;</a>
 , <a class="el" href="classetl_1_1hardware_1_1mcp23017_1_1device.html#a1442c20a00f1d4652a6656c388505291">etl::hardware::mcp23017::device&lt; Driver &gt;</a>
-, <a class="el" href="structetl_1_1hardware_1_1stm32_1_1port.html#aa728fc591904ee0dd8de533c637dec01">etl::hardware::stm32::port</a>
-, <a class="el" href="structetl_1_1pair.html#a12ba8d689ce290a4b2dfbba16692d157">etl::pair&lt; T1, T2 &gt;</a>
-, <a class="el" href="classetl_1_1rtos_1_1queue.html#af0a27f5a983baef444925bbaa0fb9d2a">etl::rtos::queue&lt; ValueType, Size &gt;</a>
+, <a class="el" href="structetl_1_1hardware_1_1stm32_1_1port.html#ab0dbf6ee8812d50e6ab1d1c004891663">etl::hardware::stm32::port</a>
+, <a class="el" href="structetl_1_1pair.html#a09821fa1ff58472e1d179779522cf85e">etl::pair&lt; T1, T2 &gt;</a>
+, <a class="el" href="classetl_1_1rtos_1_1queue.html#ae494917fd2297d8a760e777815de9535">etl::rtos::queue&lt; ValueType, Size &gt;</a>
 , <a class="el" href="classetl_1_1scoped__lock.html#ab2949fa61d4d3e076c02592d4a06fac6">etl::scoped_lock&lt; MutexType &gt;</a>
+</li>
+<li>operator==
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#aa1148bd9c6895887a9158e48b2e1bfa5">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
+</li>
+<li>operator&gt;
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#a848c9991b58334fcc7107eca42aae365">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
+</li>
+<li>operator&gt;=
+: <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#a2a42d7d019b4c934d65dd4ed91871b51">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
 </li>
 <li>operator[]()
 : <a class="el" href="classetl_1_1array.html#a6ac316953f9fe490ffd5fc9e9b92edb3">etl::array&lt; Type, Size &gt;</a>

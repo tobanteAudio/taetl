@@ -11,7 +11,7 @@ var searchData=
   ['make_5funsigned_3c_20unsigned_20long_20_3e',['make_unsigned&lt; unsigned long &gt;',['../structetl_1_1make__unsigned_3_01unsigned_01long_01_4.html',1,'etl']]],
   ['make_5funsigned_3c_20unsigned_20long_20long_20_3e',['make_unsigned&lt; unsigned long long &gt;',['../structetl_1_1make__unsigned_3_01unsigned_01long_01long_01_4.html',1,'etl']]],
   ['make_5funsigned_3c_20unsigned_20short_20_3e',['make_unsigned&lt; unsigned short &gt;',['../structetl_1_1make__unsigned_3_01unsigned_01short_01_4.html',1,'etl']]],
-  ['map',['map',['../classetl_1_1make_1_1map.html',1,'etl::make::map&lt; KeyType, ValueType, Capacity, Compare &gt;'],['../classetl_1_1map.html',1,'etl::map&lt; KeyType, ValueType, Compare &gt;']]],
-  ['mass',['mass',['../structetl_1_1experimental_1_1units_1_1mass.html',1,'etl::experimental::units']]],
+  ['map',['map',['../classetl_1_1map.html',1,'etl::map&lt; KeyType, ValueType, Compare &gt;'],['../classetl_1_1make_1_1map.html',1,'etl::make::map&lt; KeyType, ValueType, Capacity, Compare &gt;']]],
+  ['multipliable',['multipliable',['../structetl_1_1experimental_1_1skill_1_1multipliable.html',1,'etl::experimental::skill']]],
   ['mutable_5fbuffer',['mutable_buffer',['../classetl_1_1net_1_1mutable__buffer.html',1,'etl::net']]]
 ];

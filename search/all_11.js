@@ -12,11 +12,15 @@ var searchData=
   ['size',['size',['../classetl_1_1array.html#a8fc08ca1e9c6f08dec0522e8ddd6b9c0',1,'etl::array::size()'],['../classetl_1_1net_1_1const__buffer.html#a61c7833072f58e74dfadee8e20b7b55d',1,'etl::net::const_buffer::size()'],['../classetl_1_1net_1_1mutable__buffer.html#ae958a72cfed104a6accc83c9d2de48ac',1,'etl::net::mutable_buffer::size()'],['../classetl_1_1map.html#aa7d573d31b3d35331d68a44e82ead5e6',1,'etl::map::size()'],['../classetl_1_1basic__string.html#aa8a36292bc46e7c7141fa1eeb247e8af',1,'etl::basic_string::size()'],['../classetl_1_1vector.html#ad8ffc219f2239a619c2e057e0aff0252',1,'etl::vector::size()']]],
   ['size_5ft',['size_t',['../namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd',1,'etl']]],
   ['size_5ftype',['size_type',['../classetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5',1,'etl::array::size_type()'],['../classetl_1_1rtos_1_1queue.html#a43bb828d58ad56e35ab7ec748dc68b2c',1,'etl::rtos::queue::size_type()'],['../classetl_1_1map.html#a91da3f740b3c40357fae2fde8e785483',1,'etl::map::size_type()'],['../classetl_1_1basic__string.html#ae3bb0fe5ece1ec386ccff927621ac471',1,'etl::basic_string::size_type()'],['../classetl_1_1vector.html#ae890fac9b041a35dcf0a0ded918c12c3',1,'etl::vector::size_type()']]],
+  ['skill',['skill',['../structetl_1_1experimental_1_1skill.html',1,'etl::experimental']]],
   ['small_5fstring',['small_string',['../namespaceetl.html#a9bffa043c410459eda373247f384b9e2',1,'etl']]],
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
   ['string',['string',['../namespaceetl.html#af2769dde06d41131748597077535e2cc',1,'etl']]],
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
   ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]],
+  ['strong_5ftype',['strong_type',['../structetl_1_1experimental_1_1strong__type.html',1,'etl::experimental::strong_type&lt; ValueType, Tag, Skills &gt;'],['../structetl_1_1experimental_1_1strong__type.html#afdbf8f810eaa8b7fa16590122c85913b',1,'etl::experimental::strong_type::strong_type() noexcept=default'],['../structetl_1_1experimental_1_1strong__type.html#a54c51a9a3949f70cb6d066d75042c7c3',1,'etl::experimental::strong_type::strong_type(ValueType data) noexcept']]],
+  ['strong_5ftype_2ehpp',['strong_type.hpp',['../strong__type_8hpp.html',1,'']]],
   ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]],
+  ['subtractable',['subtractable',['../structetl_1_1experimental_1_1skill_1_1subtractable.html',1,'etl::experimental::skill']]],
   ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]]
 ];

@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['length',['length',['../structetl_1_1experimental_1_1units_1_1length.html',1,'etl::experimental::units::length'],['../classetl_1_1basic__string.html#afc92ea5165b480b959c446ccc77239cf',1,'etl::basic_string::length()']]],
+  ['length',['length',['../classetl_1_1basic__string.html#afc92ea5165b480b959c446ccc77239cf',1,'etl::basic_string']]],
   ['less',['less',['../structetl_1_1less.html',1,'etl']]],
   ['limits_2ehpp',['limits.hpp',['../limits_8hpp.html',1,'']]],
   ['little',['little',['../namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8aaae6635e044ac56046b2893a529b5114',1,'etl']]],

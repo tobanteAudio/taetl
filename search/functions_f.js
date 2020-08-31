@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['raw_5fvalue',['raw_value',['../structetl_1_1experimental_1_1strong__type.html#a72af07133fc28ed7b8b04e7e1959bc72',1,'etl::experimental::strong_type']]],
   ['read',['read',['../structetl_1_1hardware_1_1stm32_1_1port.html#aa80f75b5594d04b917e6df244999883c',1,'etl::hardware::stm32::port']]],
   ['receive',['receive',['../classetl_1_1rtos_1_1queue.html#ac56edbc4dfe661bd31e8f5d43ef4e5a3',1,'etl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classetl_1_1rtos_1_1queue.html#ad94ed5f9e0a2dedea279e32e44faa56a',1,'etl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
   ['reserve',['reserve',['../classetl_1_1vector.html#abfb60135d673b37d6e2a3029c41562f6',1,'etl::vector']]],

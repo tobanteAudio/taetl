@@ -3,5 +3,7 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::experimental::\lunits::time",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1units_1_1time.html"];
+  Node10 [label="Skills",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node10 -> Node0 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node0 [label="etl::experimental::\lstrong_type\< ValueType,\l Tag, Skills \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1strong__type.html",tooltip="Wraps a built-in type. "];
 }

@@ -1,9 +1,9 @@
-digraph "/home/travis/build/tobanteAudio/taetl/etl/experimental/units" {
+digraph "/home/travis/build/tobanteAudio/taetl/etl/experimental/strong_type" {
   compound=true
   node [ fontsize="10", fontname="Helvetica"];
   edge [ labelfontsize="10", labelfontname="Helvetica"];
   subgraph clusterdir_73b97fca5b9ab7da5e69d28caee4b05d {
     graph [ bgcolor="#ddddee", pencolor="black", label="experimental" fontname="Helvetica", fontsize="10", URL="dir_73b97fca5b9ab7da5e69d28caee4b05d.html"]
-  dir_983178ed2aeab3fc20e6aaeed68c877b [shape=box, label="units", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_983178ed2aeab3fc20e6aaeed68c877b.html"];
+  dir_dcce456d1e55d2b9ee1738b195d7e15e [shape=box, label="strong_type", style="filled", fillcolor="#eeeeff", pencolor="black", URL="dir_dcce456d1e55d2b9ee1738b195d7e15e.html"];
   }
 }

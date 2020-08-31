@@ -30,6 +30,5 @@ var searchData=
   ['mcp23017',['mcp23017',['../namespaceetl_1_1hardware_1_1mcp23017.html',1,'etl::hardware']]],
   ['net',['net',['../namespaceetl_1_1net.html',1,'etl']]],
   ['rtos',['rtos',['../namespaceetl_1_1rtos.html',1,'etl']]],
-  ['stm32',['stm32',['../namespaceetl_1_1hardware_1_1stm32.html',1,'etl::hardware']]],
-  ['units',['units',['../namespaceetl_1_1experimental_1_1units.html',1,'etl::experimental']]]
+  ['stm32',['stm32',['../namespaceetl_1_1hardware_1_1stm32.html',1,'etl::hardware']]]
 ];
