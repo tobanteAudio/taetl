@@ -1,9 +1,6 @@
 var searchData=
 [
-  ['feedback_5fdrain',['feedback_drain',['../structetl_1_1dsp_1_1feedback__drain.html',1,'etl::dsp']]],
-  ['feedback_5ftap',['feedback_tap',['../structetl_1_1dsp_1_1feedback__tap.html',1,'etl::dsp']]],
-  ['forever',['forever',['../structetl_1_1rtos_1_1forever.html',1,'etl::rtos']]],
-  ['fork_5fimpl',['fork_impl',['../structetl_1_1dsp_1_1internal_1_1fork__impl.html',1,'etl::dsp::internal']]],
-  ['function',['function',['../classetl_1_1function.html',1,'etl']]],
-  ['function_3c_20result_28arguments_2e_2e_2e_29_3e',['function&lt; Result(Arguments...)&gt;',['../classetl_1_1function_3_01Result_07Arguments_8_8_8_08_4.html',1,'etl']]]
+  ['getimpl',['GetImpl',['../structetl_1_1GetImpl.html',1,'etl']]],
+  ['getimpl_3c_200_2c_20first_2c_20rest_2e_2e_2e_20_3e',['GetImpl&lt; 0, First, Rest... &gt;',['../structetl_1_1GetImpl_3_010_00_01First_00_01Rest_8_8_8_01_4.html',1,'etl']]],
+  ['gpio_5fmemory_5flayout',['gpio_memory_layout',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html',1,'etl::hardware::stm32']]]
 ];

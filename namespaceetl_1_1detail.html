@@ -73,27 +73,56 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__constructible__helper.html">is_constructible_helper</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__constructible__helper_3_01void__t_3_01decltype_07T_07declval_3_01Argsa80037a39bb9e756040a068d64e78d77.html">is_constructible_helper&lt; void_t&lt; decltype(T(declval&lt; Args &gt;()...))&gt;, T, Args... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__pointer__helper.html">is_pointer_helper</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__pointer__helper_3_01T_01_5_01_4.html">is_pointer_helper&lt; T * &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:aa25dba01a94bd78221873eb2668edef4"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:aa25dba01a94bd78221873eb2668edef4"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#aa25dba01a94bd78221873eb2668edef4">try_add_lvalue_reference</a> (int) -&gt; <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &amp;&gt;</td></tr>
-<tr class="separator:aa25dba01a94bd78221873eb2668edef4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a99d9e9bed35016112867867bca18c7c7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a99d9e9bed35016112867867bca18c7c7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a99d9e9bed35016112867867bca18c7c7">try_add_lvalue_reference</a> (...) -&gt; <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &gt;</td></tr>
-<tr class="separator:a99d9e9bed35016112867867bca18c7c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad8c04e5e1e847f574795a9bbce014fa5"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ad8c04e5e1e847f574795a9bbce014fa5"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#ad8c04e5e1e847f574795a9bbce014fa5">try_add_rvalue_reference</a> (int) -&gt; <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &amp;&amp;&gt;</td></tr>
-<tr class="separator:ad8c04e5e1e847f574795a9bbce014fa5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af088bb24f80444be4bf5bf49f14c7756"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:af088bb24f80444be4bf5bf49f14c7756"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#af088bb24f80444be4bf5bf49f14c7756">try_add_rvalue_reference</a> (...) -&gt; <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &gt;</td></tr>
-<tr class="separator:af088bb24f80444be4bf5bf49f14c7756"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61569dcf541d72a35bb405317d7dfa0e"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a61569dcf541d72a35bb405317d7dfa0e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a61569dcf541d72a35bb405317d7dfa0e">sign</a> (T val)</td></tr>
+<tr class="separator:a61569dcf541d72a35bb405317d7dfa0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20925760992400af1add7c4aefcc1594"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a20925760992400af1add7c4aefcc1594"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a20925760992400af1add7c4aefcc1594">try_add_lvalue_reference</a> (int) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &amp;&gt;</td></tr>
+<tr class="separator:a20925760992400af1add7c4aefcc1594"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a91478ab6afd6aff813026f685090e1bc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a91478ab6afd6aff813026f685090e1bc"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a91478ab6afd6aff813026f685090e1bc">try_add_lvalue_reference</a> (...) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td></tr>
+<tr class="separator:a91478ab6afd6aff813026f685090e1bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a398d1018579d999240bd8b9c196825bb"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a398d1018579d999240bd8b9c196825bb"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a398d1018579d999240bd8b9c196825bb">try_add_rvalue_reference</a> (int) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &amp;&amp;&gt;</td></tr>
+<tr class="separator:a398d1018579d999240bd8b9c196825bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad68d8b46d3730e92536507812d6ab6f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aad68d8b46d3730e92536507812d6ab6f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#aad68d8b46d3730e92536507812d6ab6f">try_add_rvalue_reference</a> (...) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td></tr>
+<tr class="separator:aad68d8b46d3730e92536507812d6ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="aa25dba01a94bd78221873eb2668edef4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa25dba01a94bd78221873eb2668edef4">&#9670;&nbsp;</a></span>try_add_lvalue_reference() <span class="overload">[1/2]</span></h2>
+<a id="a61569dcf541d72a35bb405317d7dfa0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61569dcf541d72a35bb405317d7dfa0e">&#9670;&nbsp;</a></span>sign()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::detail::sign </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>val</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a20925760992400af1add7c4aefcc1594"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20925760992400af1add7c4aefcc1594">&#9670;&nbsp;</a></span>try_add_lvalue_reference() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -105,15 +134,15 @@ template&lt;class T &gt; </div>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &amp;&gt;</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &amp;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a99d9e9bed35016112867867bca18c7c7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a99d9e9bed35016112867867bca18c7c7">&#9670;&nbsp;</a></span>try_add_lvalue_reference() <span class="overload">[2/2]</span></h2>
+<a id="a91478ab6afd6aff813026f685090e1bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a91478ab6afd6aff813026f685090e1bc">&#9670;&nbsp;</a></span>try_add_lvalue_reference() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -125,15 +154,15 @@ template&lt;class T &gt; </div>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &gt;</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="ad8c04e5e1e847f574795a9bbce014fa5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad8c04e5e1e847f574795a9bbce014fa5">&#9670;&nbsp;</a></span>try_add_rvalue_reference() <span class="overload">[1/2]</span></h2>
+<a id="a398d1018579d999240bd8b9c196825bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a398d1018579d999240bd8b9c196825bb">&#9670;&nbsp;</a></span>try_add_rvalue_reference() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -145,15 +174,15 @@ template&lt;class T &gt; </div>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &amp;&amp;&gt;</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &amp;&amp;&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="af088bb24f80444be4bf5bf49f14c7756"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af088bb24f80444be4bf5bf49f14c7756">&#9670;&nbsp;</a></span>try_add_rvalue_reference() <span class="overload">[2/2]</span></h2>
+<a id="aad68d8b46d3730e92536507812d6ab6f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad68d8b46d3730e92536507812d6ab6f">&#9670;&nbsp;</a></span>try_add_rvalue_reference() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -165,7 +194,7 @@ template&lt;class T &gt; </div>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1detail_1_1type__identity.html">type_identity</a>&lt; T &gt;</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

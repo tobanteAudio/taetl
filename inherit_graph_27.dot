@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::GetImpl\< index,\l First, Rest \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1GetImpl.html"];
+  Node0 [label="etl::hardware::mcp23017\l::device\< Driver \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1hardware_1_1mcp23017_1_1device.html"];
 }

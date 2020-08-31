@@ -4,5 +4,5 @@ digraph "etl::is_integral&lt; Type &gt;"
   node [fontname="Helvetica",fontsize="10",shape=record];
   Node2 [label="etl::is_integral\< Type \>",height=0.2,width=0.4,color="black", fillcolor="grey75", style="filled", fontcolor="black"];
   Node3 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node3 [label="_is_integral_helper\l\< remove_cv\< Type \>\l::type \>::type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
+  Node3 [label="detail::is_integral\l_helper\< remove_cv\<\l Type \>::type \>::type",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

@@ -1,11 +1,10 @@
 var searchData=
 [
-  ['detail',['detail',['../namespaceetl_1_1detail.html',1,'etl']]],
+  ['detail',['detail',['../namespaceetl_1_1detail.html',1,'etl::detail'],['../namespaceetl_1_1dsp_1_1detail.html',1,'etl::dsp::detail']]],
   ['dsp',['dsp',['../namespaceetl_1_1dsp.html',1,'etl']]],
   ['etl',['etl',['../namespaceetl.html',1,'']]],
   ['experimental',['experimental',['../namespaceetl_1_1experimental.html',1,'etl']]],
   ['hardware',['hardware',['../namespaceetl_1_1hardware.html',1,'etl']]],
-  ['internal',['internal',['../namespaceetl_1_1dsp_1_1internal.html',1,'etl::dsp::internal'],['../namespaceetl_1_1internal.html',1,'etl::internal']]],
   ['literals',['literals',['../namespaceetl_1_1dsp_1_1literals.html',1,'etl::dsp']]],
   ['make',['make',['../namespaceetl_1_1make.html',1,'etl']]],
   ['mcp23017',['mcp23017',['../namespaceetl_1_1hardware_1_1mcp23017.html',1,'etl::hardware']]],
