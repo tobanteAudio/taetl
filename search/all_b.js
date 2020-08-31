@@ -25,6 +25,8 @@ var searchData=
   ['max_5fsize',['max_size',['../classetl_1_1array.html#af462cd846d1e153ea507bd6e5ac598ec',1,'etl::array::max_size()'],['../classetl_1_1map.html#ada3379bce478e9dc4b40c907e0a160d3',1,'etl::map::max_size()'],['../classetl_1_1basic__string.html#a87b43f96372a34d9f30f697bdf6ce85e',1,'etl::basic_string::max_size()'],['../classetl_1_1vector.html#a512d5ac7e444ae7ad739ee4c9b039de7',1,'etl::vector::max_size()']]],
   ['mcp23017_2ehpp',['mcp23017.hpp',['../mcp23017_8hpp.html',1,'']]],
   ['mega',['mega',['../namespaceetl.html#a918391ebf4a95eeb6fa0ad99c936252d',1,'etl']]],
+  ['memcpy',['memcpy',['../namespaceetl.html#a99a28bb04c335112b2c13d676c422e66',1,'etl']]],
+  ['memset',['memset',['../namespaceetl.html#a055dc327ea35a394f661ca98bf2b08ad',1,'etl']]],
   ['messages_5fwaiting',['messages_waiting',['../classetl_1_1rtos_1_1queue.html#a2dcb26a2e3de594179cc4d400224189c',1,'etl::rtos::queue']]],
   ['micro',['micro',['../namespaceetl.html#a79c9c1103e0bf6709642f55f9a31cb8e',1,'etl']]],
   ['midpoint',['midpoint',['../namespaceetl.html#a9900f32867800d2a9ffa2c660090cc83',1,'etl::midpoint(Integer a, Integer b) noexcept -&gt; etl::enable_if_t&lt; etl::is_integral_v&lt; Integer &gt;, Integer &gt;'],['../namespaceetl.html#acd6eb417ecc3a7b1c7e71baab1c2c522',1,'etl::midpoint(Float a, Float b) noexcept -&gt; etl::enable_if_t&lt; etl::is_floating_point_v&lt; Float &gt;, Float &gt;'],['../namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300',1,'etl::midpoint(Pointer a, Pointer b) noexcept -&gt; enable_if_t&lt; is_pointer_v&lt; Pointer &gt;, Pointer &gt;']]],

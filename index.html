@@ -77,7 +77,7 @@ $(function() {
 <h2>Design Goals</h2>
 <ul>
 <li>100% portable<ul>
-<li>C++ core language + libc (e.g. newlib)</li>
+<li>C++ freestanding</li>
 </ul>
 </li>
 <li>Header only</li>
@@ -103,13 +103,13 @@ $(function() {
 <div class="fragment"><div class="line">firefox build/doc-build/html/index.html       # Open in Firefox</div></div><!-- fragment --><p>You can build the documentation with <code>doxygen</code>:</p>
 <div class="fragment"><div class="line">cd $PROJECTROOT</div><div class="line">doxygen docs/Doxyfile.in</div><div class="line">firefox docs/doc-build/html/index.html       # Open in Firefox</div></div><!-- fragment --><h2>Project Integration</h2>
 <p>The following steps explain how to add <code>etl</code> to your project. Embedded or desktop.</p>
-<h3>CMake</h3>
+<h3>Required Headers</h3>
+<p>The following headers are required for building the library:</p>
+<div class="fragment"><div class="line"><span class="preprocessor">#include &lt;assert.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;limits.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;stddef.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;stdint.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;float.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;math.h&gt;</span></div></div><!-- fragment --><h3>CMake</h3>
 <p>Add <code>taetl</code> as a git submodule, then add these lines to your <code>CMakeLists.txt</code>:</p>
 <div class="fragment"><div class="line">cd $YOUR_CMAKE_PROJECT</div><div class="line">mkdir 3rd_party</div><div class="line">git submodule add https://github.com/tobanteAudio/taetl.git 3rd_party/taetl</div></div><!-- fragment --><div class="fragment"><div class="line">add_subdirectory(3rd_party/taetl)</div><div class="line">target_link_libraries(${YOUR_TARGET} tobanteAudio::etl)</div></div><!-- fragment --><h3>PlatformIO</h3>
 <p>Add <code>taetl</code> as a git submodule, then add these lines to your <code>platformio.ini</code>:</p>
-<div class="fragment"><div class="line">cd $YOUR_CMAKE_PROJECT</div><div class="line">mkdir 3rd_party</div><div class="line">git submodule add https://github.com/tobanteAudio/taetl.git 3rd_party/taetl</div></div><!-- fragment --><div class="fragment"><div class="line">[env:yourenv]</div><div class="line">; ...</div><div class="line">build_unflags = -std=gnu++11</div><div class="line">build_flags = -std=gnu++17 -Wno-register -I 3rd_party/taetl</div></div><!-- fragment --><h3>Avr-gcc</h3>
-<p>An example on how to build the <code>algorithm.cpp</code> file with <code>avr-gcc</code>. C++17 is required.</p>
-<div class="fragment"><div class="line">cd $PROJECT_ROOT</div><div class="line">mkdir 3rd_party</div><div class="line">git submodule add https://github.com/tobanteAudio/taetl.git 3rd_party/taetl</div><div class="line">avr-gcc --std=c++17 -O3 -Wall -Wextra -o example_algorithm -I3rd_party/taetl examples/algorithm.cpp</div></div><!-- fragment --><h2>Examples</h2>
+<div class="fragment"><div class="line">cd $YOUR_PLATFORMIO_PROJECT</div><div class="line">mkdir 3rd_party</div><div class="line">git submodule add https://github.com/tobanteAudio/taetl.git 3rd_party/taetl</div></div><!-- fragment --><div class="fragment"><div class="line">[env:yourenv]</div><div class="line">; ...</div><div class="line">build_unflags = -std=gnu++11</div><div class="line">build_flags = -std=gnu++17 -Wno-register -I 3rd_party/taetl</div></div><!-- fragment --><h2>Examples</h2>
 <p>Examples can be found in the <code>examples</code> directory.</p>
 <h3>Build on Desktop</h3>
 <div class="fragment"><div class="line">cd $PROJECT_ROOT</div><div class="line">mkdir build &amp;&amp; cd build</div><div class="line">cmake ..</div><div class="line">cmake --build  .</div></div><!-- fragment --><h2>Usage</h2>

@@ -15,8 +15,6 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/experimental/hardware/stm32/g
   Node5 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node0 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="etl/warning.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$warning_8hpp.html"];
+  Node0 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node7 [label="etl/warning.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$warning_8hpp.html"];
 }

@@ -27,5 +27,6 @@ var searchData=
   ['create_5ftask',['create_task',['../namespaceetl_1_1rtos.html#a154ecb5e22e1f058d2f22fe8c6de9253',1,'etl::rtos']]],
   ['crtp',['crtp',['../structetl_1_1crtp.html',1,'etl']]],
   ['crtp_2ehpp',['crtp.hpp',['../crtp_8hpp.html',1,'']]],
-  ['crtp_3c_20strongtype_2c_20addable_20_3e',['crtp&lt; StrongType, addable &gt;',['../structetl_1_1crtp.html',1,'etl']]]
+  ['crtp_3c_20strongtype_2c_20addable_20_3e',['crtp&lt; StrongType, addable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['cstring_2ehpp',['cstring.hpp',['../cstring_8hpp.html',1,'']]]
 ];

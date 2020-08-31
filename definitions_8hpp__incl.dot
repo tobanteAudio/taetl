@@ -13,6 +13,4 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/definitions.hpp"
   Node4 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node0 -> Node5 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node5 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node0 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node6 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

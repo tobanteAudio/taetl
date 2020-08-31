@@ -15,6 +15,4 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/experimental/net/byte_order.h
   Node5 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node1 -> Node6 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node6 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node1 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node7 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
 }

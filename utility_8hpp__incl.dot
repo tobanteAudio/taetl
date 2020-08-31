@@ -17,8 +17,6 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/utility.hpp"
   Node6 [label="stddef.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
   Node2 -> Node7 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node7 [label="stdint.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node2 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node8 [label="string.h",height=0.2,width=0.4,color="grey75", fillcolor="white", style="filled"];
-  Node1 -> Node9 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node9 [label="intrinsics.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$intrinsics_8hpp.html"];
+  Node1 -> Node8 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node8 [label="intrinsics.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$intrinsics_8hpp.html"];
 }
