@@ -1,9 +1,19 @@
 var searchData=
 [
-  ['reset',['reset',['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003ca86266ee937d97f812a8e57d22b62ee29',1,'etl::hardware::stm32']]],
-  ['round_5findeterminate',['round_indeterminate',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92afd0fa1de009f9a47f51a0ec9c23aa10b',1,'etl']]],
-  ['round_5fto_5fnearest',['round_to_nearest',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a1fc678348a02cf4262fb59153d5b73c3',1,'etl']]],
-  ['round_5ftoward_5finfinity',['round_toward_infinity',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a274b79e7a1a164b8b9eea17dda4751c0',1,'etl']]],
-  ['round_5ftoward_5fneg_5finfinity',['round_toward_neg_infinity',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92ac6babddc09b7dbf6e3daf12455e3417f',1,'etl']]],
-  ['round_5ftoward_5fzero',['round_toward_zero',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92a00004115cf199c1cd29d07f78679a63d',1,'etl']]]
+  ['pin_5f0',['pin_0',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a83f8fea7ae39847bcef9a17417f82530',1,'etl::hardware::stm32']]],
+  ['pin_5f1',['pin_1',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a47ccc9e3ee3a60c30dacaee70c24f5e6',1,'etl::hardware::stm32']]],
+  ['pin_5f10',['pin_10',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a4770533c183b19baceacc33e0901fdb7',1,'etl::hardware::stm32']]],
+  ['pin_5f11',['pin_11',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249aaf16f12de00a5a4b56a3471d1f740b49',1,'etl::hardware::stm32']]],
+  ['pin_5f12',['pin_12',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a7e42c0863dbd707fcb8cb3cc7dd772c3',1,'etl::hardware::stm32']]],
+  ['pin_5f13',['pin_13',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a2229e163c85ebd92abaae04a5d0f1599',1,'etl::hardware::stm32']]],
+  ['pin_5f14',['pin_14',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a0b0d2d13780c9e2cd8f6f1a03dfc77cd',1,'etl::hardware::stm32']]],
+  ['pin_5f15',['pin_15',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a6b52b4b395f4aaf8c00385ab2937c38a',1,'etl::hardware::stm32']]],
+  ['pin_5f2',['pin_2',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a45ca9597d2e85bc47910139597552d6e',1,'etl::hardware::stm32']]],
+  ['pin_5f3',['pin_3',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a498f4de8e1ab5621d375ae1c2075f960',1,'etl::hardware::stm32']]],
+  ['pin_5f4',['pin_4',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a51a86150ae48586ae39e99e65be4da6d',1,'etl::hardware::stm32']]],
+  ['pin_5f5',['pin_5',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249ad232b487d6b4218dedfb1e9b372086e0',1,'etl::hardware::stm32']]],
+  ['pin_5f6',['pin_6',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249abcd1c14a10d32697c5589d561e880c70',1,'etl::hardware::stm32']]],
+  ['pin_5f7',['pin_7',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249af6825843dab0976bea4c1fa6fe25ba99',1,'etl::hardware::stm32']]],
+  ['pin_5f8',['pin_8',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249abe3b09f53c24a47b1af755041a214b99',1,'etl::hardware::stm32']]],
+  ['pin_5f9',['pin_9',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a775cef7005836b2bb42db2c8cd98ebac',1,'etl::hardware::stm32']]]
 ];

@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['lanugagestandard',['LanugageStandard',['../namespaceetl.html#a61699c12c85e75e44c5f38fcd4d5aaac',1,'etl']]],
   ['length',['length',['../classetl_1_1basic__string.html#afc92ea5165b480b959c446ccc77239cf',1,'etl::basic_string']]],
   ['less',['less',['../structetl_1_1less.html',1,'etl']]],
   ['limits_2ehpp',['limits.hpp',['../limits_8hpp.html',1,'']]],
