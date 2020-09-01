@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['native',['native',['../namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8a8e5f3adee38c8fccc13c1f3be0143796',1,'etl']]],
-  ['nmi',['nmi',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7abcc0f53fbd0c273d18435941509f4eda',1,'etl::hardware::stm32']]]
+  ['max_5fid',['max_id',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a00b1bd67aa943f8f1599feb9f9367061',1,'etl::hardware::stm32']]],
+  ['message_5fsize',['message_size',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ade5f4bc2f8a4690176e22e83196b9fd3',1,'etl']]]
 ];

@@ -16,6 +16,8 @@ var searchData=
   ['small_5fptr',['small_ptr',['../classetl_1_1small__ptr.html',1,'etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;'],['../classetl_1_1small__ptr.html#af757bdd9a17f1eab1336204a96cbe96b',1,'etl::small_ptr::small_ptr()=default'],['../classetl_1_1small__ptr.html#a3922d770042f494567ce3f30f58d2203',1,'etl::small_ptr::small_ptr(nullptr_t null)'],['../classetl_1_1small__ptr.html#ac31c5747a70cae88f54d98b4665f4fc6',1,'etl::small_ptr::small_ptr(Type *ptr)']]],
   ['small_5fstring',['small_string',['../namespaceetl.html#a9bffa043c410459eda373247f384b9e2',1,'etl']]],
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
+  ['state_5fnot_5frecoverable',['state_not_recoverable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a6805059549401365b824b54573a6f46e',1,'etl']]],
+  ['stream_5ftimeout',['stream_timeout',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ac1a620a30954dc9402a811453c2c3e3f',1,'etl']]],
   ['string',['string',['../namespaceetl.html#af2769dde06d41131748597077535e2cc',1,'etl']]],
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
   ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]],
@@ -23,5 +25,6 @@ var searchData=
   ['strong_5ftype_2ehpp',['strong_type.hpp',['../strong__type_8hpp.html',1,'']]],
   ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]],
   ['subtractable',['subtractable',['../structetl_1_1experimental_1_1skill_1_1subtractable.html',1,'etl::experimental::skill']]],
-  ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]]
+  ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]],
+  ['system_5ferror_2ehpp',['system_error.hpp',['../system__error_8hpp.html',1,'']]]
 ];

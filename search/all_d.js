@@ -3,6 +3,11 @@ var searchData=
   ['olata',['OLATA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca2961530b6a5251790abea73e433f837a',1,'etl::hardware::mcp23017']]],
   ['olatb',['OLATB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77cabefbc283964efb7eda0caee089605442',1,'etl::hardware::mcp23017']]],
   ['once',['once',['../namespaceetl_1_1rtos.html#a1bf9ee3a51fb941767f849f8bf8ae792',1,'etl::rtos']]],
+  ['operation_5fcanceled',['operation_canceled',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170afd3d0bdcc9eb9e68534b7d055c5fe586',1,'etl']]],
+  ['operation_5fin_5fprogress',['operation_in_progress',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a4c7eb50b6d86ac8a130ebebc18dbe263',1,'etl']]],
+  ['operation_5fnot_5fpermitted',['operation_not_permitted',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8344b3d509942f035d5e303022f9b986',1,'etl']]],
+  ['operation_5fnot_5fsupported',['operation_not_supported',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a69bf074bf052ee4c9047b62fe7c24569',1,'etl']]],
+  ['operation_5fwould_5fblock',['operation_would_block',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a738abdaead9cd7b2e2ea19a34764b385',1,'etl']]],
   ['operator_20_26',['operator &amp;',['../namespaceetl.html#a300d68a0b017d8b6f41d000a8800cd77',1,'etl']]],
   ['operator_20_26_3d',['operator &amp;=',['../namespaceetl.html#a30243ddf0699dede912521c57cb92a25',1,'etl']]],
   ['operator_20new',['operator new',['../new_8hpp.html#a8693f3f16b822e943f7efa9aa103f754',1,'new.hpp']]],
@@ -32,5 +37,6 @@ var searchData=
   ['operator_7c',['operator|',['../namespaceetl.html#a8fe220615749beb7a953b281e623e529',1,'etl::operator|()'],['../namespaceetl_1_1dsp.html#a71a0c5a7539c6faea235ba8413c8767d',1,'etl::dsp::operator|()']]],
   ['operator_7c_3d',['operator|=',['../namespaceetl.html#a73f53c7f64802ca7093607b55cb86bc6',1,'etl']]],
   ['operator_7e',['operator~',['../namespaceetl.html#a6cb428553f8379a8f3920c202cd85993',1,'etl']]],
-  ['output_5fdata',['output_data',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a3d8d1a535bf34326388d0bb301b31b50',1,'etl::hardware::stm32::gpio_memory_layout']]]
+  ['output_5fdata',['output_data',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a3d8d1a535bf34326388d0bb301b31b50',1,'etl::hardware::stm32::gpio_memory_layout']]],
+  ['owner_5fdead',['owner_dead',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a2abac2fa6722c56b2ea17ac6c4097f68',1,'etl']]]
 ];

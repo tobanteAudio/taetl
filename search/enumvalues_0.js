@@ -9,10 +9,16 @@ var searchData=
   ['a25',['a25',['../namespaceetl_1_1hardware_1_1mcp23017.html#a2bd389dd9be11184f4988e244e8a556ea7850737a42d9d21cac6fee3958d95f5f',1,'etl::hardware::mcp23017']]],
   ['a26',['a26',['../namespaceetl_1_1hardware_1_1mcp23017.html#a2bd389dd9be11184f4988e244e8a556eabbf2466e744a50035030927d7283f2b3',1,'etl::hardware::mcp23017']]],
   ['a27',['a27',['../namespaceetl_1_1hardware_1_1mcp23017.html#a2bd389dd9be11184f4988e244e8a556ea07ae153a4f9e087201edbdd5a4c12d5e',1,'etl::hardware::mcp23017']]],
+  ['address_5ffamily_5fnot_5fsupported',['address_family_not_supported',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8ab69162f060cc46b805b3265ad1cdf1',1,'etl']]],
+  ['address_5fin_5fuse',['address_in_use',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8e2bc80599069d337b43dff6edfb6891',1,'etl']]],
+  ['address_5fnot_5favailable',['address_not_available',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a20abf2ffbf6e82e36405843f269d6438',1,'etl']]],
   ['all_5fdisabled',['all_disabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea5599fd353b54b2e5a40d8bf084756795',1,'etl::hardware::mcp23017']]],
   ['all_5fenabled',['all_enabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea45af82beb33aee3f358b7c761876f795',1,'etl::hardware::mcp23017']]],
   ['all_5finput',['all_input',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786ad4d9151bc3a3742ee2f44d6dceb6b20e',1,'etl::hardware::mcp23017']]],
   ['all_5finverted',['all_inverted',['../namespaceetl_1_1hardware_1_1mcp23017.html#a5a7c8be1bbef2b28cd6cdcdf71ffe1e1a755e59619c2e79ee40b809ee1db7aa01',1,'etl::hardware::mcp23017']]],
   ['all_5fnormal',['all_normal',['../namespaceetl_1_1hardware_1_1mcp23017.html#a5a7c8be1bbef2b28cd6cdcdf71ffe1e1a0f007ecc3fb154ec222b3675a9f9ae4a',1,'etl::hardware::mcp23017']]],
-  ['all_5foutput',['all_output',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786ad8a096f30e1fe532049440ec34a217e2',1,'etl::hardware::mcp23017']]]
+  ['all_5foutput',['all_output',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786ad8a096f30e1fe532049440ec34a217e2',1,'etl::hardware::mcp23017']]],
+  ['already_5fconnected',['already_connected',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ab5580b198f691ab2df12f5e2ab974373',1,'etl']]],
+  ['argument_5flist_5ftoo_5flong',['argument_list_too_long',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a1b245b26b5ea3428c050d7f1503d7715',1,'etl']]],
+  ['argument_5fout_5fof_5fdomain',['argument_out_of_domain',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a4b82222a0895b538d0597092b3ceab3e',1,'etl']]]
 ];
