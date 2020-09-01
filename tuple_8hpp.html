@@ -95,9 +95,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple_3_01First_01_4.html">etl::tuple&lt; First &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1GetImpl.html">etl::GetImpl&lt; index, First, Rest &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1get__impl.html">etl::detail::get_impl&lt; index, First, Rest &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1GetImpl_3_010_00_01First_00_01Rest_8_8_8_01_4.html">etl::GetImpl&lt; 0, First, Rest... &gt;</a></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1get__impl_3_010_00_01First_00_01Rest_8_8_8_01_4.html">etl::detail::get_impl&lt; 0, First, Rest... &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -105,12 +105,14 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceetl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html">etl</a></td></tr>
 <tr class="memdesc:namespaceetl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for the etl library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:namespaceetl_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html">etl::detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a96bc4a846d045d1aece8b74de57ee865"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
-<tr class="memitem:a96bc4a846d045d1aece8b74de57ee865"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a96bc4a846d045d1aece8b74de57ee865">etl::get</a> (const tuple&lt; First, Rest... &gt; &amp;t) -&gt; decltype(GetImpl&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
-<tr class="separator:a96bc4a846d045d1aece8b74de57ee865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
+<tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479">etl::get</a> (const tuple&lt; First, Rest... &gt; &amp;t) -&gt; decltype(detail::get_impl&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
+<tr class="separator:a15f4fd4efe3204f43756b83be3ae1479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

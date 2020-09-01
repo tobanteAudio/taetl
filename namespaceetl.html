@@ -122,10 +122,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1function_3_01Result_07Arguments_8_8_8_08_4.html">function&lt; Result(Arguments...)&gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1GetImpl.html">GetImpl</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1GetImpl_3_010_00_01First_00_01Rest_8_8_8_01_4.html">GetImpl&lt; 0, First, Rest... &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1integral__constant.html">integral_constant</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__arithmetic.html">is_arithmetic</a></td></tr>
@@ -496,11 +492,14 @@ Functions</h2></td></tr>
 <tr class="memdesc:a0145ea9af63899833b6bf5f9f18fb7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return l = l ^ r;.  <a href="#a0145ea9af63899833b6bf5f9f18fb7c1">More...</a><br /></td></tr>
 <tr class="separator:a0145ea9af63899833b6bf5f9f18fb7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a28bb04c335112b2c13d676c422e66"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a99a28bb04c335112b2c13d676c422e66">memcpy</a> (void *dest, const void *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
-<tr class="memdesc:a99a28bb04c335112b2c13d676c422e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="namespaceetl.html#a99a28bb04c335112b2c13d676c422e66" title="The memcpy() function shall copy the first n bytes pointed to by src to the buffer pointed to by dest...">memcpy()</a> function shall copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, memmove() must be used instead.  <a href="#a99a28bb04c335112b2c13d676c422e66">More...</a><br /></td></tr>
+<tr class="memdesc:a99a28bb04c335112b2c13d676c422e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, <a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9" title="Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may...">memmove()</a> must be used instead.  <a href="#a99a28bb04c335112b2c13d676c422e66">More...</a><br /></td></tr>
 <tr class="separator:a99a28bb04c335112b2c13d676c422e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a055dc327ea35a394f661ca98bf2b08ad"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a055dc327ea35a394f661ca98bf2b08ad">memset</a> (void *s, int c, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
-<tr class="memdesc:a055dc327ea35a394f661ca98bf2b08ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">The memset function copies the value of c (converted to an unsigned char) into each of the ﬁrst n characters of the object pointed to by s.  <a href="#a055dc327ea35a394f661ca98bf2b08ad">More...</a><br /></td></tr>
+<tr class="memdesc:a055dc327ea35a394f661ca98bf2b08ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the value of c (converted to an unsigned char) into each of the ﬁrst n characters of the object pointed to by s.  <a href="#a055dc327ea35a394f661ca98bf2b08ad">More...</a><br /></td></tr>
 <tr class="separator:a055dc327ea35a394f661ca98bf2b08ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4604077670e2126de4d05e9d4dab2df9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9">memmove</a> (void *dest, const void *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
+<tr class="memdesc:a4604077670e2126de4d05e9d4dab2df9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap.  <a href="#a4604077670e2126de4d05e9d4dab2df9">More...</a><br /></td></tr>
+<tr class="separator:a4604077670e2126de4d05e9d4dab2df9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add013e52c2672440c53a8d2c82d4c63a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a">strlen</a> (const char *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
 <tr class="memdesc:add013e52c2672440c53a8d2c82d4c63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#add013e52c2672440c53a8d2c82d4c63a">More...</a><br /></td></tr>
 <tr class="separator:add013e52c2672440c53a8d2c82d4c63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -530,9 +529,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplParams" colspan="2">template&lt;typename Pointer &gt; </td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt; Pointer &gt;, Pointer &gt;</td></tr>
 <tr class="separator:ad2f4c423421fddd2a2f941d805c05300"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a96bc4a846d045d1aece8b74de57ee865"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
-<tr class="memitem:a96bc4a846d045d1aece8b74de57ee865"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a96bc4a846d045d1aece8b74de57ee865">get</a> (const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structetl_1_1GetImpl.html">GetImpl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
-<tr class="separator:a96bc4a846d045d1aece8b74de57ee865"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
+<tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479">get</a> (const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structetl_1_1detail_1_1get__impl.html">detail::get_impl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
+<tr class="separator:a15f4fd4efe3204f43756b83be3ae1479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">declval</a> () noexcept -&gt; typename <a class="el" href="structetl_1_1add__rvalue__reference.html">etl::add_rvalue_reference</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2087,12 +2086,12 @@ template&lt;typename M , typename N &gt; </div>
 </div><div class="memdoc">
 
 <p>Computes the greatest common divisor of the integers m and n. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Actual return type is etl::common_type. Needs to be implemented. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Actual return type is etl::common_type. Needs to be implemented. </dd></dl>
 
 </div>
 </div>
-<a id="a96bc4a846d045d1aece8b74de57ee865"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a96bc4a846d045d1aece8b74de57ee865">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a15f4fd4efe3204f43756b83be3ae1479"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15f4fd4efe3204f43756b83be3ae1479">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2104,7 +2103,7 @@ template&lt;int index, typename First , typename... Rest&gt; </div>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt; decltype(<a class="el" href="structetl_1_1GetImpl.html">GetImpl</a>&lt;index, First, Rest...&gt;::value(&amp;t))
+          <td> -&gt; decltype(<a class="el" href="structetl_1_1detail_1_1get__impl.html">detail::get_impl</a>&lt;index, First, Rest...&gt;::value(&amp;t))
 </td>
         </tr>
       </table>
@@ -2334,7 +2333,45 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The <a class="el" href="namespaceetl.html#a99a28bb04c335112b2c13d676c422e66" title="The memcpy() function shall copy the first n bytes pointed to by src to the buffer pointed to by dest...">memcpy()</a> function shall copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, memmove() must be used instead. </p>
+<p>Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, <a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9" title="Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may...">memmove()</a> must be used instead. </p>
+
+</div>
+</div>
+<a id="a4604077670e2126de4d05e9d4dab2df9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4604077670e2126de4d05e9d4dab2df9">&#9670;&nbsp;</a></span>memmove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::memmove </td>
+          <td>(</td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const void *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
 
 </div>
 </div>
@@ -2371,7 +2408,7 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The memset function copies the value of c (converted to an unsigned char) into each of the ﬁrst n characters of the object pointed to by s. </p>
+<p>Copies the value of c (converted to an unsigned char) into each of the ﬁrst n characters of the object pointed to by s. </p>
 
 </div>
 </div>
@@ -3201,7 +3238,8 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the number of 1 bits in the value of x. </p>
-<p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type). </p>
+<p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type).</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Limit (SFINAE) to unsigned types. Fix conversion warnings. </dd></dl>
 
 </div>
 </div>
