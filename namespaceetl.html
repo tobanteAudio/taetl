@@ -377,7 +377,8 @@ Enumerations</h2></td></tr>
 <br />
 &#160;&#160;<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbda4c7aabdc3eb0d845c62edfb822b0fe5a">language_standard::cpp_20</a> = 2020
 <br />
- }</td></tr>
+ }<tr class="memdesc:a3d70da9977ec456339973b30e372fcbd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Enumeration for the currently selected C++ standard version.  <a href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">More...</a><br /></td></tr>
+</td></tr>
 <tr class="separator:a3d70da9977ec456339973b30e372fcbd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
@@ -559,6 +560,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a1d24fcc85fa49fd49cdb1c2a808c4723"><td class="memTemplItemLeft" align="right" valign="top"><a class="el" href="structetl_1_1add__rvalue__reference.html">etl::add_rvalue_reference</a>&lt; T &gt;::type&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1d24fcc85fa49fd49cdb1c2a808c4723">declval</a> () noexcept</td></tr>
 <tr class="separator:a1d24fcc85fa49fd49cdb1c2a808c4723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b">is_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
+<tr class="memdesc:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the given standard and the currently configurated in the compiler match.  <a href="#ad763c7f65a817a0ba3f58cf0d5672d1b">More...</a><br /></td></tr>
 <tr class="separator:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe8a84a5c6ba35f67fbc2ca6092eedde"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abe8a84a5c6ba35f67fbc2ca6092eedde">is_greater_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
 <tr class="separator:abe8a84a5c6ba35f67fbc2ca6092eedde"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1405,6 +1407,9 @@ template&lt;class... &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Enumeration for the currently selected C++ standard version. </p>
+<p>Unlike the official macro __cplusplus, these values only include the published year. This is to make the actual values smaller and therfore fit on smaller word sized chips. </p>
 <table class="fieldtable">
 <tr><th colspan="2">Enumerator</th></tr><tr><td class="fieldname"><a id="a3d70da9977ec456339973b30e372fcbda807ac7fd9764fb3e810d9f1048cd63ca"></a>cpp_98&#160;</td><td class="fielddoc"></td></tr>
 <tr><td class="fieldname"><a id="a3d70da9977ec456339973b30e372fcbdabbe07f980d9fa36187463846b2811aed"></a>cpp_11&#160;</td><td class="fielddoc"></td></tr>
@@ -2210,6 +2215,8 @@ template&lt;typename... Types&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+<p>Returns true, if the given standard and the currently configurated in the compiler match. </p>
 
 </div>
 </div>
