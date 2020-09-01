@@ -24,5 +24,7 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/warning.hpp"
   Node1 -> Node11 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node11 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/experimental/rtos\l/task.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$task_8hpp.html"];
   Node1 -> Node12 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node12 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/string.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$string_8hpp.html"];
+  Node12 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/memory.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$memory_8hpp.html"];
+  Node1 -> Node13 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node13 [label="/home/travis/build\l/tobanteAudio/taetl\l/etl/string.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$string_8hpp.html"];
 }

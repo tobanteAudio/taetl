@@ -1,7 +1,7 @@
 var searchData=
 [
   ['gcd',['gcd',['../namespaceetl.html#ac0c15d45f1e3cd0c35fa9c638e90fb4b',1,'etl']]],
-  ['get',['get',['../namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479',1,'etl']]],
+  ['get',['get',['../classetl_1_1small__ptr.html#a28efd0f5428d1f456196d7608789a8de',1,'etl::small_ptr::get() -&gt; Type *'],['../classetl_1_1small__ptr.html#aec79ed88f327dce7c6ef4ca02e6e9623',1,'etl::small_ptr::get() const -&gt; Type const *'],['../namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479',1,'etl::get()']]],
   ['get_5fimpl',['get_impl',['../structetl_1_1detail_1_1get__impl.html',1,'etl::detail']]],
   ['get_5fimpl_3c_200_2c_20first_2c_20rest_2e_2e_2e_20_3e',['get_impl&lt; 0, First, Rest... &gt;',['../structetl_1_1detail_1_1get__impl_3_010_00_01First_00_01Rest_8_8_8_01_4.html',1,'etl::detail']]],
   ['giga',['giga',['../namespaceetl.html#a1b0c06d80bc66be0b8807cee66b576f0',1,'etl']]],

@@ -13,6 +13,7 @@ var searchData=
   ['size_5ft',['size_t',['../namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd',1,'etl']]],
   ['size_5ftype',['size_type',['../classetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5',1,'etl::array::size_type()'],['../classetl_1_1rtos_1_1queue.html#a43bb828d58ad56e35ab7ec748dc68b2c',1,'etl::rtos::queue::size_type()'],['../classetl_1_1map.html#a91da3f740b3c40357fae2fde8e785483',1,'etl::map::size_type()'],['../classetl_1_1basic__string.html#ae3bb0fe5ece1ec386ccff927621ac471',1,'etl::basic_string::size_type()'],['../classetl_1_1vector.html#ae890fac9b041a35dcf0a0ded918c12c3',1,'etl::vector::size_type()']]],
   ['skill',['skill',['../structetl_1_1experimental_1_1skill.html',1,'etl::experimental']]],
+  ['small_5fptr',['small_ptr',['../classetl_1_1small__ptr.html',1,'etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;'],['../classetl_1_1small__ptr.html#af757bdd9a17f1eab1336204a96cbe96b',1,'etl::small_ptr::small_ptr()=default'],['../classetl_1_1small__ptr.html#a3922d770042f494567ce3f30f58d2203',1,'etl::small_ptr::small_ptr(nullptr_t null)'],['../classetl_1_1small__ptr.html#ac31c5747a70cae88f54d98b4665f4fc6',1,'etl::small_ptr::small_ptr(Type *ptr)']]],
   ['small_5fstring',['small_string',['../namespaceetl.html#a9bffa043c410459eda373247f384b9e2',1,'etl']]],
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
   ['string',['string',['../namespaceetl.html#af2769dde06d41131748597077535e2cc',1,'etl']]],
