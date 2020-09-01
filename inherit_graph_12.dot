@@ -3,5 +3,15 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::detail::get_impl\l\< 0, First, Rest... \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1detail_1_1get__impl_3_010_00_01First_00_01Rest_8_8_8_01_4.html"];
+  Node0 [label="etl::crtp\< StrongType,\l addable \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1crtp.html"];
+  Node0 -> Node1 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node1 [label="etl::experimental::\lskill::addable\< StrongType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1skill_1_1addable.html"];
+  Node0 -> Node2 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node2 [label="etl::experimental::\lskill::comparable\< StrongType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1skill_1_1comparable.html"];
+  Node0 -> Node3 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node3 [label="etl::experimental::\lskill::divisible\< StrongType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1skill_1_1divisible.html"];
+  Node0 -> Node4 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node4 [label="etl::experimental::\lskill::multipliable\l\< StrongType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1skill_1_1multipliable.html"];
+  Node0 -> Node5 [dir="back",color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node5 [label="etl::experimental::\lskill::subtractable\l\< StrongType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1experimental_1_1skill_1_1subtractable.html"];
 }

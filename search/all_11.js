@@ -18,6 +18,7 @@ var searchData=
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
   ['state_5fnot_5frecoverable',['state_not_recoverable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a6805059549401365b824b54573a6f46e',1,'etl']]],
   ['stream_5ftimeout',['stream_timeout',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ac1a620a30954dc9402a811453c2c3e3f',1,'etl']]],
+  ['streamoff',['streamoff',['../namespaceetl.html#a38946ce496aa3f045c07f32b2e4ca374',1,'etl']]],
   ['string',['string',['../namespaceetl.html#af2769dde06d41131748597077535e2cc',1,'etl']]],
   ['string_2ehpp',['string.hpp',['../string_8hpp.html',1,'']]],
   ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]],

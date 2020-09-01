@@ -2,7 +2,7 @@ var searchData=
 [
   ['feedback_5fdrain',['feedback_drain',['../structetl_1_1dsp_1_1feedback__drain.html#a8cc5528d8edc7732bf1eaad73af38ecc',1,'etl::dsp::feedback_drain']]],
   ['feedback_5ftap',['feedback_tap',['../structetl_1_1dsp_1_1feedback__tap.html#aaec800a65d4babed1adff2b5081b9915',1,'etl::dsp::feedback_tap']]],
-  ['find',['find',['../classetl_1_1map.html#a52c8006d7515c86b8d5898da64ce5f76',1,'etl::map::find(KeyType const &amp;key) noexcept -&gt; iterator'],['../classetl_1_1map.html#ab77e2daaf1b095b8ef5e75706d9d886a',1,'etl::map::find(KeyType const &amp;key) const noexcept -&gt; const_iterator'],['../namespaceetl.html#af33857e090fba6747166a167e1018400',1,'etl::find()']]],
+  ['find',['find',['../classetl_1_1map.html#a52c8006d7515c86b8d5898da64ce5f76',1,'etl::map::find(KeyType const &amp;key) noexcept -&gt; iterator'],['../classetl_1_1map.html#ab77e2daaf1b095b8ef5e75706d9d886a',1,'etl::map::find(KeyType const &amp;key) const noexcept -&gt; const_iterator'],['../structetl_1_1char__traits_3_01char_01_4.html#a63ee8c86549d889cb3e6fe01d2c9d7ab',1,'etl::char_traits&lt; char &gt;::find()'],['../namespaceetl.html#af33857e090fba6747166a167e1018400',1,'etl::find()']]],
   ['find_5fif',['find_if',['../namespaceetl.html#a6fa4355c6aa8d1f3fbd2019acfee332f',1,'etl']]],
   ['find_5fif_5fnot',['find_if_not',['../namespaceetl.html#afc8040ddc904e657cfe6c640d775b47a',1,'etl']]],
   ['for_5feach',['for_each',['../namespaceetl.html#a013f931a99670b660a20f65b845013a3',1,'etl']]],

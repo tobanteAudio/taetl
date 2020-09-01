@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::rtos::queue\< ValueType,\l Size \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1rtos_1_1queue.html"];
+  Node0 [label="etl::remove_volatile\l\< Type volatile \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1remove__volatile_3_01Type_01volatile_01_4.html"];
 }

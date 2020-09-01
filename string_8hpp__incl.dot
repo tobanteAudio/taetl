@@ -27,5 +27,7 @@ digraph "/home/travis/build/tobanteAudio/taetl/etl/string.hpp"
   Node1 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node3 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
   Node0 -> Node11 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
-  Node11 [label="etl/warning.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$warning_8hpp.html"];
+  Node11 [label="etl/ios.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$ios_8hpp.html"];
+  Node0 -> Node12 [color="midnightblue",fontsize="10",style="solid",fontname="Helvetica"];
+  Node12 [label="etl/warning.hpp",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$warning_8hpp.html"];
 }

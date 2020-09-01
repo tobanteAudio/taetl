@@ -106,6 +106,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html">bitset</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template bitset represents a fixed-size sequence of N bits. Bitsets can be manipulated by standard logic operators.  <a href="classetl_1_1bitset.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits.html">char_traits</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html">char_traits&lt; char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1conditional.html">conditional</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides member typedef type, which is defined as T if B is true at compile time, or as F if B is false.  <a href="structetl_1_1conditional.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -117,6 +121,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structetl_1_1enable__if.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1enable__if_3_01true_00_01Type_01_4.html">enable_if&lt; true, Type &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1fpos.html">fpos</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1function.html">function</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -273,6 +279,8 @@ Typedefs</h2></td></tr>
 <tr class="separator:a56e0abf50b318376b511f461e8baca33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf4272f3f16bf2234ac8248db615f133"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adf4272f3f16bf2234ac8248db615f133">nullptr_t</a> = decltype(nullptr)</td></tr>
 <tr class="separator:adf4272f3f16bf2234ac8248db615f133"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a38946ce496aa3f045c07f32b2e4ca374"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a38946ce496aa3f045c07f32b2e4ca374">streamoff</a> = int</td></tr>
+<tr class="separator:a38946ce496aa3f045c07f32b2e4ca374"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abf333951ccdff3b01dc321ac566bfecd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abf333951ccdff3b01dc321ac566bfecd">atto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000000000000000 &gt;</td></tr>
 <tr class="separator:abf333951ccdff3b01dc321ac566bfecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a24c3ad429659821374780e0448855ef8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a24c3ad429659821374780e0448855ef8">femto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000000000000 &gt;</td></tr>
@@ -1270,6 +1278,20 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#a9bffa043c410459eda373247f384b9e2">etl::small_string</a> = typedef <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt;char, 32&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a38946ce496aa3f045c07f32b2e4ca374"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a38946ce496aa3f045c07f32b2e4ca374">&#9670;&nbsp;</a></span>streamoff</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a38946ce496aa3f045c07f32b2e4ca374">etl::streamoff</a> = typedef int</td>
         </tr>
       </table>
 </div><div class="memdoc">

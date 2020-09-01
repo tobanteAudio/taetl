@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['off_5ftype',['off_type',['../structetl_1_1char__traits_3_01char_01_4.html#aa3789287df9c2cbf14f3eb139e96369e',1,'etl::char_traits&lt; char &gt;']]],
   ['olata',['OLATA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca2961530b6a5251790abea73e433f837a',1,'etl::hardware::mcp23017']]],
   ['olatb',['OLATB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77cabefbc283964efb7eda0caee089605442',1,'etl::hardware::mcp23017']]],
   ['once',['once',['../namespaceetl_1_1rtos.html#a1bf9ee3a51fb941767f849f8bf8ae792',1,'etl::rtos']]],

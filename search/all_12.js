@@ -20,6 +20,8 @@ var searchData=
   ['timed_5fout',['timed_out',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a56c27b1ab1a5a5a0eae853cabb4dc0c1',1,'etl']]],
   ['times',['times',['../structetl_1_1rtos_1_1times.html',1,'etl::rtos']]],
   ['tinyness_5fbefore',['tinyness_before',['../classetl_1_1numeric__limits.html#a44cc3fd663031ca11ec4e32e9293c10c',1,'etl::numeric_limits::tinyness_before()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#aff87f035b824045abe3f89b9484530d8',1,'etl::numeric_limits&lt; bool &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#afdcb2b28eadd6a0a51da4f127aebd413',1,'etl::numeric_limits&lt; float &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a568a26b1f4cc56081540728fe8cf3738',1,'etl::numeric_limits&lt; double &gt;::tinyness_before()']]],
+  ['to_5fchar_5ftype',['to_char_type',['../structetl_1_1char__traits_3_01char_01_4.html#aa018f7cc938b211975ec578ef3d4aeda',1,'etl::char_traits&lt; char &gt;']]],
+  ['to_5fint_5ftype',['to_int_type',['../structetl_1_1char__traits_3_01char_01_4.html#a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf',1,'etl::char_traits&lt; char &gt;']]],
   ['to_5finteger',['to_integer',['../namespaceetl.html#aaa84e096751094f12fc96460addc2483',1,'etl']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
   ['toggle_5fpin',['toggle_pin',['../structetl_1_1hardware_1_1stm32_1_1port.html#a48edbfa988f026e2216b6617681e4ca9',1,'etl::hardware::stm32::port']]],
