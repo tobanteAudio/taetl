@@ -2,7 +2,6 @@ var searchData=
 [
   ['nano',['nano',['../namespaceetl.html#a49eea6db84c720b602fbe4ec3ad44c79',1,'etl']]],
   ['native',['native',['../namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8a8e5f3adee38c8fccc13c1f3be0143796',1,'etl']]],
-  ['near_5fptr',['near_ptr',['../classetl_1_1near__ptr.html',1,'etl::near_ptr&lt; Type, StorageType &gt;'],['../classetl_1_1near__ptr.html#a483edaa5edfb947e82d27bf626ab3d29',1,'etl::near_ptr::near_ptr()=default'],['../classetl_1_1near__ptr.html#a05618f9f1cab0ed335c1055b17a6b12b',1,'etl::near_ptr::near_ptr(nullptr_t null)'],['../classetl_1_1near__ptr.html#ae80e260def1e51674ad43440e0f81d07',1,'etl::near_ptr::near_ptr(Type *p)'],['../classetl_1_1near__ptr.html#abc395c0fed0ac2fbce8929d60823a979',1,'etl::near_ptr::near_ptr(const near_ptr&lt; Other &gt; &amp;rhs)']]],
   ['network_5fdown',['network_down',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a93b16d34b1689f66f0cfed60e99c0009',1,'etl']]],
   ['network_5freset',['network_reset',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a0e1d200ae35ede416bf85f84093ce37a',1,'etl']]],
   ['network_5funreachable',['network_unreachable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a608a68344b4eb1fe0690861a83828816',1,'etl']]],
