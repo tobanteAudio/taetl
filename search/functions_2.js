@@ -9,6 +9,7 @@ var searchData=
   ['clamp',['clamp',['../namespaceetl.html#af90379160c94dc0396b5f32204c790bf',1,'etl::clamp(Type const &amp;v, Type const &amp;lo, Type const &amp;hi) noexcept -&gt; Type const &amp;'],['../namespaceetl.html#abfa416a307b0bb33666d34845c42ba2b',1,'etl::clamp(Type const &amp;v, Type const &amp;lo, Type const &amp;hi, Compare comp) -&gt; Type const &amp;']]],
   ['clear',['clear',['../classetl_1_1map.html#a0f1765eebe134ecf9f3a4f5674a9a43b',1,'etl::map::clear()'],['../classetl_1_1basic__string.html#a15784b3ae40403cc6858f1b86b496890',1,'etl::basic_string::clear()']]],
   ['compare',['compare',['../structetl_1_1char__traits_3_01char_01_4.html#a6d7be30969dd56e6084b467d0d7b14c8',1,'etl::char_traits&lt; char &gt;']]],
+  ['compressed_5fvalue',['compressed_value',['../classetl_1_1small__ptr.html#ae49178d85998d97b592a1bd8d1288691',1,'etl::small_ptr']]],
   ['const_5fbuffer',['const_buffer',['../classetl_1_1net_1_1const__buffer.html#a5160cdb23cf54ba6b9295068bf521798',1,'etl::net::const_buffer::const_buffer() noexcept=default'],['../classetl_1_1net_1_1const__buffer.html#a89137f58f423cb864c1626795883f81e',1,'etl::net::const_buffer::const_buffer(void const *data, etl::size_t size)']]],
   ['constant',['constant',['../structetl_1_1dsp_1_1constant.html#afa97a738e1e904bfa69dfb257c498b31',1,'etl::dsp::constant']]],
   ['contains',['contains',['../classetl_1_1map.html#a795cab6f9ecd620e9d48b8033b160184',1,'etl::map']]],

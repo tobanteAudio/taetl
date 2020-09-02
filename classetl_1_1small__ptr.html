@@ -87,19 +87,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac31c5747a70cae88f54d98b4665f4fc6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#ac31c5747a70cae88f54d98b4665f4fc6">small_ptr</a> (Type *ptr)</td></tr>
 <tr class="memdesc:ac31c5747a70cae88f54d98b4665f4fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Construct from raw pointer.  <a href="#ac31c5747a70cae88f54d98b4665f4fc6">More...</a><br /></td></tr>
 <tr class="separator:ac31c5747a70cae88f54d98b4665f4fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9529b9d16e1463c02614b94e26ab2d5b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a9529b9d16e1463c02614b94e26ab2d5b">data</a> () const -&gt; StorageType</td></tr>
-<tr class="memdesc:a9529b9d16e1463c02614b94e26ab2d5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the underlying integer address.  <a href="#a9529b9d16e1463c02614b94e26ab2d5b">More...</a><br /></td></tr>
-<tr class="separator:a9529b9d16e1463c02614b94e26ab2d5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72b5b4add52fd479b5fdfb54fbd2864f"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a72b5b4add52fd479b5fdfb54fbd2864f">get</a> () noexcept -&gt; Type *</td></tr>
+<tr class="memdesc:a72b5b4add52fd479b5fdfb54fbd2864f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a raw pointer to Type.  <a href="#a72b5b4add52fd479b5fdfb54fbd2864f">More...</a><br /></td></tr>
+<tr class="separator:a72b5b4add52fd479b5fdfb54fbd2864f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a260cc982f6e7feb2f6c7bca1fa5604a4"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a260cc982f6e7feb2f6c7bca1fa5604a4">get</a> () const noexcept -&gt; Type const *</td></tr>
+<tr class="memdesc:a260cc982f6e7feb2f6c7bca1fa5604a4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a raw pointer to const Type.  <a href="#a260cc982f6e7feb2f6c7bca1fa5604a4">More...</a><br /></td></tr>
+<tr class="separator:a260cc982f6e7feb2f6c7bca1fa5604a4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae49178d85998d97b592a1bd8d1288691"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#ae49178d85998d97b592a1bd8d1288691">compressed_value</a> () const noexcept -&gt; StorageType</td></tr>
+<tr class="memdesc:ae49178d85998d97b592a1bd8d1288691"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the compressed underlying integer address.  <a href="#ae49178d85998d97b592a1bd8d1288691">More...</a><br /></td></tr>
+<tr class="separator:ae49178d85998d97b592a1bd8d1288691"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:abe6fee4f261a34254946d7217c5928ca"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#abe6fee4f261a34254946d7217c5928ca">operator-&gt;</a> () const -&gt; Type *</td></tr>
+<tr class="memdesc:abe6fee4f261a34254946d7217c5928ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a raw pointer to Type.  <a href="#abe6fee4f261a34254946d7217c5928ca">More...</a><br /></td></tr>
 <tr class="separator:abe6fee4f261a34254946d7217c5928ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8ce5160cda61ce2a88ac5e6a73b41ee1"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a8ce5160cda61ce2a88ac5e6a73b41ee1">operator*</a> () -&gt; Type &amp;</td></tr>
+<tr class="memdesc:a8ce5160cda61ce2a88ac5e6a73b41ee1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dereference pointer to Type&amp;.  <a href="#a8ce5160cda61ce2a88ac5e6a73b41ee1">More...</a><br /></td></tr>
 <tr class="separator:a8ce5160cda61ce2a88ac5e6a73b41ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a691a91117ab5fc6731bd058589761fba"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a691a91117ab5fc6731bd058589761fba">operator*</a> () const -&gt; Type const &amp;</td></tr>
+<tr class="memdesc:a691a91117ab5fc6731bd058589761fba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dereference pointer to Type const&amp;.  <a href="#a691a91117ab5fc6731bd058589761fba">More...</a><br /></td></tr>
 <tr class="separator:a691a91117ab5fc6731bd058589761fba"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28efd0f5428d1f456196d7608789a8de"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a28efd0f5428d1f456196d7608789a8de">get</a> () -&gt; Type *</td></tr>
-<tr class="separator:a28efd0f5428d1f456196d7608789a8de"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aec79ed88f327dce7c6ef4ca02e6e9623"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#aec79ed88f327dce7c6ef4ca02e6e9623">get</a> () const -&gt; Type const *</td></tr>
-<tr class="separator:aec79ed88f327dce7c6ef4ca02e6e9623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae92fd2d22a1442ce20c2f80271452bc9"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#ae92fd2d22a1442ce20c2f80271452bc9">operator++</a> (int) noexcept -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a></td></tr>
+<tr class="memdesc:ae92fd2d22a1442ce20c2f80271452bc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre increment of pointer.  <a href="#ae92fd2d22a1442ce20c2f80271452bc9">More...</a><br /></td></tr>
+<tr class="separator:ae92fd2d22a1442ce20c2f80271452bc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a492aab5e106c708b74ddb9d66923071b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a492aab5e106c708b74ddb9d66923071b">operator++</a> () noexcept -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a> &amp;</td></tr>
+<tr class="memdesc:a492aab5e106c708b74ddb9d66923071b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post increment of pointer.  <a href="#a492aab5e106c708b74ddb9d66923071b">More...</a><br /></td></tr>
+<tr class="separator:a492aab5e106c708b74ddb9d66923071b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a001f5e2495a47f8508abc49e60961a43"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a001f5e2495a47f8508abc49e60961a43">operator--</a> (int) noexcept -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a></td></tr>
+<tr class="memdesc:a001f5e2495a47f8508abc49e60961a43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Pre increment of pointer.  <a href="#a001f5e2495a47f8508abc49e60961a43">More...</a><br /></td></tr>
+<tr class="separator:a001f5e2495a47f8508abc49e60961a43"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1c60f9b485b3923cbe83cadbd515c5b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#ac1c60f9b485b3923cbe83cadbd515c5b">operator--</a> () noexcept -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a> &amp;</td></tr>
+<tr class="memdesc:ac1c60f9b485b3923cbe83cadbd515c5b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Post increment of pointer.  <a href="#ac1c60f9b485b3923cbe83cadbd515c5b">More...</a><br /></td></tr>
+<tr class="separator:ac1c60f9b485b3923cbe83cadbd515c5b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5aa6ce2ffae8bf5f31af0665bff84a1c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#a5aa6ce2ffae8bf5f31af0665bff84a1c">operator-</a> (<a class="el" href="classetl_1_1small__ptr.html">small_ptr</a> other) const noexcept -&gt; <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">ptrdiff_t</a></td></tr>
+<tr class="memdesc:a5aa6ce2ffae8bf5f31af0665bff84a1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns distance from this to other.  <a href="#a5aa6ce2ffae8bf5f31af0665bff84a1c">More...</a><br /></td></tr>
+<tr class="separator:a5aa6ce2ffae8bf5f31af0665bff84a1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2c5299c7cbcf43da043ddb1b2bf8409"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1small__ptr.html#af2c5299c7cbcf43da043ddb1b2bf8409">operator Type *</a> ()</td></tr>
+<tr class="memdesc:af2c5299c7cbcf43da043ddb1b2bf8409"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicit conversion to raw pointer.  <a href="#af2c5299c7cbcf43da043ddb1b2bf8409">More...</a><br /></td></tr>
+<tr class="separator:af2c5299c7cbcf43da043ddb1b2bf8409"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename Type, intptr_t BaseAddress = 0, typename StorageType = uint16_t&gt;<br />
@@ -188,7 +211,7 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -198,8 +221,8 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a9529b9d16e1463c02614b94e26ab2d5b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9529b9d16e1463c02614b94e26ab2d5b">&#9670;&nbsp;</a></span>data()</h2>
+<a id="ae49178d85998d97b592a1bd8d1288691"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae49178d85998d97b592a1bd8d1288691">&#9670;&nbsp;</a></span>compressed_value()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -210,25 +233,26 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::data </td>
+          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::compressed_value </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; StorageType </td>
+          <td> const -&gt; StorageType
+    </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
-<p>Returns the underlying integer address. </p>
+<p>Returns the compressed underlying integer address. </p>
 
 </div>
 </div>
-<a id="a28efd0f5428d1f456196d7608789a8de"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28efd0f5428d1f456196d7608789a8de">&#9670;&nbsp;</a></span>get() <span class="overload">[1/2]</span></h2>
+<a id="a72b5b4add52fd479b5fdfb54fbd2864f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72b5b4add52fd479b5fdfb54fbd2864f">&#9670;&nbsp;</a></span>get() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -242,20 +266,23 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
           <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::get </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; Type* </td>
+          <td> -&gt; Type*
+    </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
 
+<p>Returns a raw pointer to Type. </p>
+
 </div>
 </div>
-<a id="aec79ed88f327dce7c6ef4ca02e6e9623"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aec79ed88f327dce7c6ef4ca02e6e9623">&#9670;&nbsp;</a></span>get() <span class="overload">[2/2]</span></h2>
+<a id="a260cc982f6e7feb2f6c7bca1fa5604a4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a260cc982f6e7feb2f6c7bca1fa5604a4">&#9670;&nbsp;</a></span>get() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -275,10 +302,41 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
       </table>
   </td>
   <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a raw pointer to const Type. </p>
+
+</div>
+</div>
+<a id="af2c5299c7cbcf43da043ddb1b2bf8409"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2c5299c7cbcf43da043ddb1b2bf8409">&#9670;&nbsp;</a></span>operator Type *()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = uint16_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::operator Type * </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Implicit conversion to raw pointer. </p>
 
 </div>
 </div>
@@ -307,6 +365,8 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
 </table>
 </div><div class="memdoc">
 
+<p>Dereference pointer to Type&amp;. </p>
+
 </div>
 </div>
 <a id="a691a91117ab5fc6731bd058589761fba"></a>
@@ -334,6 +394,161 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
 </table>
 </div><div class="memdoc">
 
+<p>Dereference pointer to Type const&amp;. </p>
+
+</div>
+</div>
+<a id="ae92fd2d22a1442ce20c2f80271452bc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae92fd2d22a1442ce20c2f80271452bc9">&#9670;&nbsp;</a></span>operator++() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = uint16_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pre increment of pointer. </p>
+
+</div>
+</div>
+<a id="a492aab5e106c708b74ddb9d66923071b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a492aab5e106c708b74ddb9d66923071b">&#9670;&nbsp;</a></span>operator++() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = uint16_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::operator++ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Post increment of pointer. </p>
+
+</div>
+</div>
+<a id="a5aa6ce2ffae8bf5f31af0665bff84a1c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5aa6ce2ffae8bf5f31af0665bff84a1c">&#9670;&nbsp;</a></span>operator-()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = uint16_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::operator- </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1small__ptr.html">small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">ptrdiff_t</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns distance from this to other. </p>
+
+</div>
+</div>
+<a id="a001f5e2495a47f8508abc49e60961a43"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a001f5e2495a47f8508abc49e60961a43">&#9670;&nbsp;</a></span>operator--() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = uint16_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Pre increment of pointer. </p>
+
+</div>
+</div>
+<a id="ac1c60f9b485b3923cbe83cadbd515c5b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c60f9b485b3923cbe83cadbd515c5b">&#9670;&nbsp;</a></span>operator--() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = uint16_t&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classetl_1_1small__ptr.html">etl::small_ptr</a>&lt; Type, BaseAddress, StorageType &gt;::operator-- </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1small__ptr.html">small_ptr</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Post increment of pointer. </p>
+
 </div>
 </div>
 <a id="abe6fee4f261a34254946d7217c5928ca"></a>
@@ -360,6 +575,8 @@ template&lt;typename Type , intptr_t BaseAddress = 0, typename StorageType  = ui
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a raw pointer to Type. </p>
 
 </div>
 </div>

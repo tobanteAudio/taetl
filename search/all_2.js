@@ -16,6 +16,7 @@ var searchData=
   ['clear',['clear',['../classetl_1_1map.html#a0f1765eebe134ecf9f3a4f5674a9a43b',1,'etl::map::clear()'],['../classetl_1_1basic__string.html#a15784b3ae40403cc6858f1b86b496890',1,'etl::basic_string::clear()']]],
   ['comparable',['comparable',['../structetl_1_1experimental_1_1skill_1_1comparable.html',1,'etl::experimental::skill']]],
   ['compare',['compare',['../structetl_1_1char__traits_3_01char_01_4.html#a6d7be30969dd56e6084b467d0d7b14c8',1,'etl::char_traits&lt; char &gt;']]],
+  ['compressed_5fvalue',['compressed_value',['../classetl_1_1small__ptr.html#ae49178d85998d97b592a1bd8d1288691',1,'etl::small_ptr']]],
   ['concepts_2ehpp',['concepts.hpp',['../concepts_8hpp.html',1,'']]],
   ['conditional',['conditional',['../structetl_1_1conditional.html',1,'etl']]],
   ['conditional_3c_20false_2c_20t_2c_20f_20_3e',['conditional&lt; false, T, F &gt;',['../structetl_1_1conditional_3_01false_00_01T_00_01F_01_4.html',1,'etl']]],
