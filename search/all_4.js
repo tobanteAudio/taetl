@@ -20,7 +20,7 @@ var searchData=
   ['eof',['eof',['../structetl_1_1char__traits_3_01char_01_4.html#aa86eda99364036341c5992fcdbadaeae',1,'etl::char_traits&lt; char &gt;']]],
   ['epsilon',['epsilon',['../classetl_1_1numeric__limits.html#aa567a8aaf0d9dd0b922102412b1a6557',1,'etl::numeric_limits::epsilon()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a25c92176866da1857d0536ebb170d680',1,'etl::numeric_limits&lt; bool &gt;::epsilon()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#a236e41495af103840f45efd1756cd595',1,'etl::numeric_limits&lt; float &gt;::epsilon()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a9733fe37b257b88c34305e572ddcc49f',1,'etl::numeric_limits&lt; double &gt;::epsilon()']]],
   ['eq',['eq',['../structetl_1_1char__traits_3_01char_01_4.html#a6db65997c7eb8713b57f4d1f4591f4cc',1,'etl::char_traits&lt; char &gt;']]],
-  ['eq_5fint_5ftype',['eq_int_type',['../structetl_1_1char__traits_3_01char_01_4.html#a50ec5c161f41da2e7d75fe5d1762bed7',1,'etl::char_traits&lt; char &gt;']]],
+  ['eq_5fint_5ftype',['eq_int_type',['../structetl_1_1char__traits_3_01char_01_4.html#aeb6943e340e51a943cb51d42cd08eab5',1,'etl::char_traits&lt; char &gt;']]],
   ['errc',['errc',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170',1,'etl']]],
   ['errqueue_5fempty',['errQUEUE_EMPTY',['../stubs_8hpp.html#a4d79b09954b1efa73ad8d87a36b4a575',1,'stubs.hpp']]],
   ['errqueue_5ffull',['errQUEUE_FULL',['../stubs_8hpp.html#ae40de11e4044a83a97d2cb5d00ce608b',1,'stubs.hpp']]],

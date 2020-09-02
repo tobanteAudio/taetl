@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::char_traits\< charT \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1char__traits.html"];
+  Node0 [label="etl::char_traits\< charT \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1char__traits.html",tooltip="The char_traits class is a traits class template that abstracts basic character and string operations..."];
 }

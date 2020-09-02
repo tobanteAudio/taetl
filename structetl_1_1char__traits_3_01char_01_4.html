@@ -72,6 +72,9 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Specializations of <a class="el" href="structetl_1_1char__traits.html" title="The char_traits class is a traits class template that abstracts basic character and string operations...">char_traits</a> for type char.  
+ <a href="structetl_1_1char__traits_3_01char_01_4.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="string_8hpp_source.html">string.hpp</a>&gt;</code></p>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
@@ -112,18 +115,28 @@ Static Public Member Functions</h2></td></tr>
 <tr class="memitem:a7970b003d44734d2816961ebce54ca6d"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a7970b003d44734d2816961ebce54ca6d">assign</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60">char_type</a> *str, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">size_t</a> count, <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60">char_type</a> token) -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60">char_type</a> *</td></tr>
 <tr class="memdesc:a7970b003d44734d2816961ebce54ca6d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns character a to each character in count characters in the character sequence pointed to by p.  <a href="#a7970b003d44734d2816961ebce54ca6d">More...</a><br /></td></tr>
 <tr class="separator:a7970b003d44734d2816961ebce54ca6d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac94114d1441ed1dfa598bbc4ccb08ba7"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#ac94114d1441ed1dfa598bbc4ccb08ba7">not_eof</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> c) noexcept -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td></tr>
-<tr class="separator:ac94114d1441ed1dfa598bbc4ccb08ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa018f7cc938b211975ec578ef3d4aeda"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#aa018f7cc938b211975ec578ef3d4aeda">to_char_type</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> c) noexcept -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60">char_type</a></td></tr>
+<tr class="memdesc:aa018f7cc938b211975ec578ef3d4aeda"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a value of int_type to char_type. If there are no equivalent value (such as when c is a copy of the <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#aa86eda99364036341c5992fcdbadaeae" title="Returns a value not equivalent to any valid value of type char_type. Formally, returns a value e such...">eof()</a> value), the result is unspecified. Formally, returns the value x such that char_type&lt;char&gt;::eq_int_type(c, char_type&lt;char&gt;::to_int_type(x)) is true, and an unspecified value if no such x exists.  <a href="#aa018f7cc938b211975ec578ef3d4aeda">More...</a><br /></td></tr>
 <tr class="separator:aa018f7cc938b211975ec578ef3d4aeda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf">to_int_type</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60">char_type</a> c) noexcept -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td></tr>
+<tr class="memdesc:a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a value of char_type to int_type.  <a href="#a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf">More...</a><br /></td></tr>
 <tr class="separator:a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50ec5c161f41da2e7d75fe5d1762bed7"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a50ec5c161f41da2e7d75fe5d1762bed7">eq_int_type</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> c1, <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> c2) noexcept -&gt; bool</td></tr>
-<tr class="separator:a50ec5c161f41da2e7d75fe5d1762bed7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeb6943e340e51a943cb51d42cd08eab5"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#aeb6943e340e51a943cb51d42cd08eab5">eq_int_type</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> lhs, <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:aeb6943e340e51a943cb51d42cd08eab5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether two values of type int_type are equal.  <a href="#aeb6943e340e51a943cb51d42cd08eab5">More...</a><br /></td></tr>
+<tr class="separator:aeb6943e340e51a943cb51d42cd08eab5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa86eda99364036341c5992fcdbadaeae"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#aa86eda99364036341c5992fcdbadaeae">eof</a> () noexcept -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td></tr>
+<tr class="memdesc:aa86eda99364036341c5992fcdbadaeae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a value not equivalent to any valid value of type char_type. Formally, returns a value e such that char_type&lt;char&gt;::eq_int_type(e, char_type&lt;char&gt;::to_int_type(c)) is false for all values c.  <a href="#aa86eda99364036341c5992fcdbadaeae">More...</a><br /></td></tr>
 <tr class="separator:aa86eda99364036341c5992fcdbadaeae"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac94114d1441ed1dfa598bbc4ccb08ba7"><td class="memItemLeft" align="right" valign="top">static constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#ac94114d1441ed1dfa598bbc4ccb08ba7">not_eof</a> (<a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> c) noexcept -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td></tr>
+<tr class="memdesc:ac94114d1441ed1dfa598bbc4ccb08ba7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether e is not equivalent to eof value.  <a href="#ac94114d1441ed1dfa598bbc4ccb08ba7">More...</a><br /></td></tr>
+<tr class="separator:ac94114d1441ed1dfa598bbc4ccb08ba7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Typedef Documentation</h2>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;&gt;<br />
+struct etl::char_traits&lt; char &gt;</h3>
+
+<p>Specializations of <a class="el" href="structetl_1_1char__traits.html" title="The char_traits class is a traits class template that abstracts basic character and string operations...">char_traits</a> for type char. </p>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a03dfad65d012abdd4a79dd2f53802c60"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a03dfad65d012abdd4a79dd2f53802c60">&#9670;&nbsp;</a></span>char_type</h2>
 
@@ -354,15 +367,17 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static constexpr auto <a class="el" href="structetl_1_1char__traits.html">etl::char_traits</a>&lt; char &gt;::eof </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td>
+          <td> -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a> </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Returns a value not equivalent to any valid value of type char_type. Formally, returns a value e such that char_type&lt;char&gt;::eq_int_type(e, char_type&lt;char&gt;::to_int_type(c)) is false for all values c. </p>
 
 </div>
 </div>
@@ -405,8 +420,8 @@ Static Public Member Functions</h2></td></tr>
 
 </div>
 </div>
-<a id="a50ec5c161f41da2e7d75fe5d1762bed7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a50ec5c161f41da2e7d75fe5d1762bed7">&#9670;&nbsp;</a></span>eq_int_type()</h2>
+<a id="aeb6943e340e51a943cb51d42cd08eab5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeb6943e340e51a943cb51d42cd08eab5">&#9670;&nbsp;</a></span>eq_int_type()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -418,26 +433,30 @@ Static Public Member Functions</h2></td></tr>
           <td class="memname">static constexpr auto <a class="el" href="structetl_1_1char__traits.html">etl::char_traits</a>&lt; char &gt;::eq_int_type </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a>&#160;</td>
-          <td class="paramname"><em>c1</em>, </td>
+          <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a>&#160;</td>
-          <td class="paramname"><em>c2</em>&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt;  bool</td>
+          <td></td><td> -&gt; bool
+    </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Checks whether two values of type int_type are equal. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/char_traits/eq_int_type">https://en.cppreference.com/w/cpp/string/char_traits/eq_int_type</a> </p>
 
 </div>
 </div>
@@ -617,15 +636,19 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a>&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td>
+          <td> -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a>
+    </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Checks whether e is not equivalent to eof value. </p>
+<p>Formally if char_type&lt;char&gt;::eq_int_type(e, char_type&lt;char&gt;::eof()) is false, returns e otherwise, returns a value f such that char_type&lt;char&gt;::eq_int_type(f, char_type&lt;char&gt;::eof()) is false </p>
 
 </div>
 </div>
@@ -653,6 +676,8 @@ Static Public Member Functions</h2></td></tr>
 </table>
 </div><div class="memdoc">
 
+<p>Converts a value of int_type to char_type. If there are no equivalent value (such as when c is a copy of the <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#aa86eda99364036341c5992fcdbadaeae" title="Returns a value not equivalent to any valid value of type char_type. Formally, returns a value e such...">eof()</a> value), the result is unspecified. Formally, returns the value x such that char_type&lt;char&gt;::eq_int_type(c, char_type&lt;char&gt;::to_int_type(x)) is true, and an unspecified value if no such x exists. </p>
+
 </div>
 </div>
 <a id="a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf"></a>
@@ -669,15 +694,18 @@ Static Public Member Functions</h2></td></tr>
           <td>(</td>
           <td class="paramtype"><a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60">char_type</a>&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
-          <td> -&gt;  <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a></td>
+          <td> -&gt; <a class="el" href="structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9">int_type</a>
+    </td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">static</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Converts a value of char_type to int_type. </p>
 
 </div>
 </div>
