@@ -1,3 +1,8 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1conditional_3_01false_00_01T_00_01F_01_4.html" title="etl::conditional\&lt; false,\l T, F \&gt;" alt="" coords="5,5,176,47"/>
+<area shape="rect" id="node1" href="$structetl_1_1crtp.html" title="etl::crtp\&lt; StrongType,\l addable \&gt;" alt="" coords="5,136,168,177"/>
+<area shape="rect" id="node2" href="$structetl_1_1experimental_1_1skill_1_1addable.html" title="etl::experimental::\lskill::addable\&lt; StrongType \&gt;" alt="" coords="229,5,439,47"/>
+<area shape="rect" id="node3" href="$structetl_1_1experimental_1_1skill_1_1comparable.html" title="etl::experimental::\lskill::comparable\&lt; StrongType \&gt;" alt="" coords="216,71,452,112"/>
+<area shape="rect" id="node4" href="$structetl_1_1experimental_1_1skill_1_1divisible.html" title="etl::experimental::\lskill::divisible\&lt; StrongType \&gt;" alt="" coords="227,136,441,177"/>
+<area shape="rect" id="node5" href="$structetl_1_1experimental_1_1skill_1_1multipliable.html" title="etl::experimental::\lskill::multipliable\l\&lt; StrongType \&gt;" alt="" coords="263,202,405,258"/>
+<area shape="rect" id="node6" href="$structetl_1_1experimental_1_1skill_1_1subtractable.html" title="etl::experimental::\lskill::subtractable\l\&lt; StrongType \&gt;" alt="" coords="263,282,405,338"/>
 </map>

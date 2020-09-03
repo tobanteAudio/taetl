@@ -36,7 +36,6 @@ var searchData=
   ['argument_5fout_5fof_5fdomain',['argument_out_of_domain',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a4b82222a0895b538d0597092b3ceab3e',1,'etl']]],
   ['array',['array',['../classetl_1_1array.html',1,'etl::array&lt; Type, Size &gt;'],['../classetl_1_1array.html#acdc97b5e0d70e37047676075f90efcb4',1,'etl::array::array()'],['../namespaceetl.html#ae5a13233ebf471c62f35f40b21128884',1,'etl::array()']]],
   ['array_2ehpp',['array.hpp',['../array_8hpp.html',1,'']]],
-  ['array_3c_20etl_3a_3abyte_2c_20capacity_20_3e',['array&lt; etl::byte, Capacity &gt;',['../classetl_1_1array.html',1,'etl']]],
   ['array_3c_20t_2c_20static_5fcast_3c_20size_5ft_20_3e_28z_29_2b1_20_3e',['array&lt; T, static_cast&lt; size_t &gt;(Z)+1 &gt;',['../classetl_1_1array.html',1,'etl']]],
   ['array_3c_20unsigned_20char_2c_20allocated_5f_20_3e',['array&lt; unsigned char, allocated_ &gt;',['../classetl_1_1array.html',1,'etl']]],
   ['assign',['assign',['../structetl_1_1char__traits_3_01char_01_4.html#aa4255c745f78d8d6bb370e1540985873',1,'etl::char_traits&lt; char &gt;::assign(char_type &amp;a, char_type const &amp;b) noexcept -&gt; void'],['../structetl_1_1char__traits_3_01char_01_4.html#a7970b003d44734d2816961ebce54ca6d',1,'etl::char_traits&lt; char &gt;::assign(char_type *str, size_t count, char_type token) -&gt; char_type *']]],
