@@ -3,5 +3,5 @@ digraph "Graphical Class Hierarchy"
   edge [fontname="Helvetica",fontsize="10",labelfontname="Helvetica",labelfontsize="10"];
   node [fontname="Helvetica",fontsize="10",shape=record];
   rankdir="LR";
-  Node0 [label="etl::small_ptr\< Type,\l BaseAddress, StorageType \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$classetl_1_1small__ptr.html",tooltip="Compressed pointer to specified size. Intended to be used as a drop in replacement for native pointer..."];
+  Node0 [label="etl::rtos::times\< Count \>",height=0.2,width=0.4,color="black", fillcolor="white", style="filled",URL="$structetl_1_1rtos_1_1times.html",tooltip="Runs the task loop Count times. "];
 }

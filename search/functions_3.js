@@ -6,5 +6,8 @@ var searchData=
   ['delay_5funtil',['delay_until',['../namespaceetl_1_1rtos.html#a322c04754f5d54030d55624a7fdfb6ca',1,'etl::rtos']]],
   ['delete_5ftask',['delete_task',['../namespaceetl_1_1rtos.html#aa9b6b6f7bfb03e59f7b4bd82668a52c3',1,'etl::rtos']]],
   ['denorm_5fmin',['denorm_min',['../classetl_1_1numeric__limits.html#a3c0f39b88d496ee3f7d947cbdd26a77d',1,'etl::numeric_limits::denorm_min()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#a6ec2a44515876ef5273cb5f558dc876e',1,'etl::numeric_limits&lt; bool &gt;::denorm_min()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#af0657745be168d01970d58b93bc647cc',1,'etl::numeric_limits&lt; float &gt;::denorm_min()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a3b9d6081551921498f5266af5dcfae8d',1,'etl::numeric_limits&lt; double &gt;::denorm_min()']]],
+  ['destroy',['destroy',['../namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66',1,'etl']]],
+  ['destroy_5fat',['destroy_at',['../namespaceetl.html#a1709580f4bcc18d6efb2b7e4d5c1b728',1,'etl']]],
+  ['destroy_5fn',['destroy_n',['../namespaceetl.html#a440d38af8f9b00df3d5c1369450ba44a',1,'etl']]],
   ['device',['device',['../classetl_1_1hardware_1_1mcp23017_1_1device.html#a8d89921a9950fa0453b0394a3d5fdd64',1,'etl::hardware::mcp23017::device::device()=default'],['../classetl_1_1hardware_1_1mcp23017_1_1device.html#a0d0d3be3052c2962ee3cde2e87b92562',1,'etl::hardware::mcp23017::device::device(device &amp;&amp;)=delete'],['../classetl_1_1hardware_1_1mcp23017_1_1device.html#afd09469729395158dbfd244a74c98fbf',1,'etl::hardware::mcp23017::device::device(device const &amp;)=delete']]]
 ];

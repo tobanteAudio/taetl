@@ -155,7 +155,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__integral.html">is_integral</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__member__pointer.html">is_member_pointer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__member__pointer.html" title="If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for is_member_pointer or is_member_pointer_v (since C++17) is undefined. ">is_member_pointer</a> or is_member_pointer_v (since C++17) is undefined.  <a href="structetl_1_1is__member__pointer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__null__pointer.html">is_null_pointer</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__object.html">is_object</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__pointer.html">is_pointer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -163,6 +168,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T and U name the same type (taking into account const/volatile qualifications), provides the member constant value equal to true. Otherwise value is false.  <a href="structetl_1_1is__same.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__same_3_01T_00_01T_01_4.html">is_same&lt; T, T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__scalar.html">is_scalar</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__union.html">is_union</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -635,6 +642,26 @@ Functions</h2></td></tr>
 <tr class="memitem:add013e52c2672440c53a8d2c82d4c63a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a">strlen</a> (const char *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
 <tr class="memdesc:add013e52c2672440c53a8d2c82d4c63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#add013e52c2672440c53a8d2c82d4c63a">More...</a><br /></td></tr>
 <tr class="separator:add013e52c2672440c53a8d2c82d4c63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbedfa50bab7817a29802cce148c7def">addressof</a> (T &amp;arg) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt; T &gt;, T *&gt;</td></tr>
+<tr class="memdesc:adbedfa50bab7817a29802cce148c7def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;.  <a href="#adbedfa50bab7817a29802cce148c7def">More...</a><br /></td></tr>
+<tr class="separator:adbedfa50bab7817a29802cce148c7def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13856fe74510e89b04a2310cbc9bde59"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a13856fe74510e89b04a2310cbc9bde59"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59">addressof</a> (T const &amp;&amp;)=delete</td></tr>
+<tr class="memdesc:a13856fe74510e89b04a2310cbc9bde59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rvalue overload is deleted to prevent taking the address of const rvalues.  <a href="#a13856fe74510e89b04a2310cbc9bde59">More...</a><br /></td></tr>
+<tr class="separator:a13856fe74510e89b04a2310cbc9bde59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1709580f4bcc18d6efb2b7e4d5c1b728">destroy_at</a> (T *p) -&gt; void</td></tr>
+<tr class="memdesc:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not an array type, calls the destructor of the object pointed to by p, as if by p-&gt;~T(). If T is an array type, recursively destroys elements of *p in order, as if by calling <a class="el" href="namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66" title="Destroys the objects in the range [first, last). ">etl::destroy</a>(etl::begin(*p), etl::end(*p)).  <a href="#a1709580f4bcc18d6efb2b7e4d5c1b728">More...</a><br /></td></tr>
+<tr class="separator:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt &gt; </td></tr>
+<tr class="memitem:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66">destroy</a> (ForwardIt first, ForwardIt last) -&gt; void</td></tr>
+<tr class="memdesc:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the objects in the range [first, last).  <a href="#ab44bc4884adc1e9dc20ddf2363f3da66">More...</a><br /></td></tr>
+<tr class="separator:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440d38af8f9b00df3d5c1369450ba44a"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt , class Size &gt; </td></tr>
+<tr class="memitem:a440d38af8f9b00df3d5c1369450ba44a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a440d38af8f9b00df3d5c1369450ba44a">destroy_n</a> (ForwardIt first, Size n) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:a440d38af8f9b00df3d5c1369450ba44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the n objects in the range starting at first.  <a href="#a440d38af8f9b00df3d5c1369450ba44a">More...</a><br /></td></tr>
+<tr class="separator:a440d38af8f9b00df3d5c1369450ba44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe443a26a34b79fc921c4583df576333"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class Type &gt; </td></tr>
 <tr class="memitem:afe443a26a34b79fc921c4583df576333"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333">accumulate</a> (InputIt first, InputIt last, Type init) noexcept -&gt; Type</td></tr>
 <tr class="memdesc:afe443a26a34b79fc921c4583df576333"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements.  <a href="#afe443a26a34b79fc921c4583df576333">More...</a><br /></td></tr>
@@ -718,9 +745,18 @@ Variables</h2></td></tr>
 <tr class="memitem:a51d4c31d288adf2cb4c5d7fd14c32f00"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a51d4c31d288adf2cb4c5d7fd14c32f00"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a51d4c31d288adf2cb4c5d7fd14c32f00">is_union_v</a> = <a class="el" href="structetl_1_1is__union.html">is_union</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a51d4c31d288adf2cb4c5d7fd14c32f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbaaa5057d498812ee848f491a20649a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:adbaaa5057d498812ee848f491a20649a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbaaa5057d498812ee848f491a20649a">is_member_pointer_v</a> = <a class="el" href="structetl_1_1is__member__pointer.html">is_member_pointer</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:adbaaa5057d498812ee848f491a20649a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a105e2a5ac8fc634dcc71675e27e3f95e">is_arithmetic_v</a> = <a class="el" href="structetl_1_1is__arithmetic.html">is_arithmetic</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43d223a689de0810df63d7c223d4228"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ab43d223a689de0810df63d7c223d4228"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab43d223a689de0810df63d7c223d4228">is_scalar_v</a> = <a class="el" href="structetl_1_1is__scalar.html">is_scalar</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ab43d223a689de0810df63d7c223d4228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63efd09c0ee7195824be65423adadedc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a63efd09c0ee7195824be65423adadedc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">is_object_v</a> = <a class="el" href="structetl_1_1is__object.html">is_object</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a63efd09c0ee7195824be65423adadedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">is_constructible_v</a> = <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">is_constructible</a>&lt;T, Args...&gt;::value</td></tr>
 <tr class="separator:a1ab616d6855ca5fc60968a153587b2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1788,6 +1824,67 @@ template&lt;class InputIt , class Type , class BinaryOperation &gt; </div>
 
 </div>
 </div>
+<a id="adbedfa50bab7817a29802cce148c7def"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbedfa50bab7817a29802cce148c7def">&#9670;&nbsp;</a></span>addressof() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::addressof </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>arg</em></td><td>)</td>
+          <td> -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt;T&gt;, T*&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;. </p>
+
+</div>
+</div>
+<a id="a13856fe74510e89b04a2310cbc9bde59"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13856fe74510e89b04a2310cbc9bde59">&#9670;&nbsp;</a></span>addressof() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::addressof </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&amp;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">delete</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Rvalue overload is deleted to prevent taking the address of const rvalues. </p>
+
+</div>
+</div>
 <a id="ad9b7eed2eaa0b58da478a2d559164bb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad9b7eed2eaa0b58da478a2d559164bb4">&#9670;&nbsp;</a></span>all_of()</h2>
 
@@ -2010,6 +2107,95 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab44bc4884adc1e9dc20ddf2363f3da66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab44bc4884adc1e9dc20ddf2363f3da66">&#9670;&nbsp;</a></span>destroy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ForwardIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::destroy </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys the objects in the range [first, last). </p>
+
+</div>
+</div>
+<a id="a1709580f4bcc18d6efb2b7e4d5c1b728"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1709580f4bcc18d6efb2b7e4d5c1b728">&#9670;&nbsp;</a></span>destroy_at()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::destroy_at </td>
+          <td>(</td>
+          <td class="paramtype">T *&#160;</td>
+          <td class="paramname"><em>p</em></td><td>)</td>
+          <td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>If T is not an array type, calls the destructor of the object pointed to by p, as if by p-&gt;~T(). If T is an array type, recursively destroys elements of *p in order, as if by calling <a class="el" href="namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66" title="Destroys the objects in the range [first, last). ">etl::destroy</a>(etl::begin(*p), etl::end(*p)). </p>
+
+</div>
+</div>
+<a id="a440d38af8f9b00df3d5c1369450ba44a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a440d38af8f9b00df3d5c1369450ba44a">&#9670;&nbsp;</a></span>destroy_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ForwardIt , class Size &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::destroy_n </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname"><em>n</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Destroys the n objects in the range starting at first. </p>
 
 </div>
 </div>
@@ -3761,6 +3947,30 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="adbaaa5057d498812ee848f491a20649a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbaaa5057d498812ee848f491a20649a">&#9670;&nbsp;</a></span>is_member_pointer_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_member_pointer_v = <a class="el" href="structetl_1_1is__member__pointer.html">is_member_pointer</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a016c8419365e8e3697a56040d335bca4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a016c8419365e8e3697a56040d335bca4">&#9670;&nbsp;</a></span>is_null_pointer_v</h2>
 
@@ -3774,6 +3984,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_null_pointer_v = <a class="el" href="structetl_1_1is__null__pointer.html">is_null_pointer</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a63efd09c0ee7195824be65423adadedc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a63efd09c0ee7195824be65423adadedc">&#9670;&nbsp;</a></span>is_object_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_object_v = <a class="el" href="structetl_1_1is__object.html">is_object</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -3822,6 +4056,30 @@ template&lt;class T , class U &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_same_v = <a class="el" href="structetl_1_1is__same.html">is_same</a>&lt;T, U&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab43d223a689de0810df63d7c223d4228"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab43d223a689de0810df63d7c223d4228">&#9670;&nbsp;</a></span>is_scalar_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_scalar_v = <a class="el" href="structetl_1_1is__scalar.html">is_scalar</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>

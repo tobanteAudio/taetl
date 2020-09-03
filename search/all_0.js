@@ -20,6 +20,7 @@ var searchData=
   ['address_5ffamily_5fnot_5fsupported',['address_family_not_supported',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8ab69162f060cc46b805b3265ad1cdf1',1,'etl']]],
   ['address_5fin_5fuse',['address_in_use',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8e2bc80599069d337b43dff6edfb6891',1,'etl']]],
   ['address_5fnot_5favailable',['address_not_available',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a20abf2ffbf6e82e36405843f269d6438',1,'etl']]],
+  ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
   ['all_5fdisabled',['all_disabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea5599fd353b54b2e5a40d8bf084756795',1,'etl::hardware::mcp23017']]],
   ['all_5fenabled',['all_enabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea45af82beb33aee3f358b7c761876f795',1,'etl::hardware::mcp23017']]],

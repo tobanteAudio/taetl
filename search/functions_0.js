@@ -2,6 +2,7 @@ var searchData=
 [
   ['abs',['abs',['../namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3',1,'etl']]],
   ['accumulate',['accumulate',['../namespaceetl.html#afe443a26a34b79fc921c4583df576333',1,'etl::accumulate(InputIt first, InputIt last, Type init) noexcept -&gt; Type'],['../namespaceetl.html#a9413959b7ee39d393e7c35ad2cd78294',1,'etl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type']]],
+  ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
   ['all_5fof',['all_of',['../namespaceetl.html#ad9b7eed2eaa0b58da478a2d559164bb4',1,'etl']]],
   ['any_5fof',['any_of',['../namespaceetl.html#a74cda9bdcb48dfe219176e8fbe4f3aa6',1,'etl']]],
   ['append',['append',['../classetl_1_1basic__string.html#a48a418d3ec193f0775f05b273141b7a2',1,'etl::basic_string::append(etl::size_t const count, CharType const s) noexcept -&gt; basic_string &amp;'],['../classetl_1_1basic__string.html#aa81825d3dd9938cf47cede1949fcbc8a',1,'etl::basic_string::append(const_pointer s) noexcept -&gt; basic_string &amp;'],['../classetl_1_1basic__string.html#a9b41ea2b05726890110dfadb30a6de14',1,'etl::basic_string::append(const_pointer s, etl::size_t count) noexcept -&gt; basic_string &amp;']]],

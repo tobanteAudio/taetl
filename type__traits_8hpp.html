@@ -173,8 +173,19 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__union.html">etl::is_union&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__member__pointer__helper.html">etl::detail::is_member_pointer_helper&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__member__pointer__helper_3_01T_01U_1_1_5_01_4.html">etl::detail::is_member_pointer_helper&lt; T U::* &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__member__pointer.html">etl::is_member_pointer&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__member__pointer.html" title="If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for is_member_pointer or is_member_pointer_v (since C++17) is undefined. ">is_member_pointer</a> or is_member_pointer_v (since C++17) is undefined.  <a href="structetl_1_1is__member__pointer.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__arithmetic.html">etl::is_arithmetic&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an arithmetic type (that is, an integral type or a floating-point type) or a cv-qualified version thereof, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__arithmetic.html" title="If T is an arithmetic type (that is, an integral type or a floating-point type) or a cv-qualified ver...">is_arithmetic</a> or is_arithmetic_v (since C++17) is undefined.  <a href="structetl_1_1is__arithmetic.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__scalar.html">etl::is_scalar&lt; T &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__object.html">etl::is_object&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__constructible__helper.html">etl::detail::is_constructible_helper&lt; class, T, Args &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -299,9 +310,18 @@ Variables</h2></td></tr>
 <tr class="memitem:a51d4c31d288adf2cb4c5d7fd14c32f00"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a51d4c31d288adf2cb4c5d7fd14c32f00"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a51d4c31d288adf2cb4c5d7fd14c32f00">etl::is_union_v</a> = is_union&lt;T&gt;::value</td></tr>
 <tr class="separator:a51d4c31d288adf2cb4c5d7fd14c32f00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbaaa5057d498812ee848f491a20649a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:adbaaa5057d498812ee848f491a20649a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbaaa5057d498812ee848f491a20649a">etl::is_member_pointer_v</a> = is_member_pointer&lt;T&gt;::value</td></tr>
+<tr class="separator:adbaaa5057d498812ee848f491a20649a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a105e2a5ac8fc634dcc71675e27e3f95e">etl::is_arithmetic_v</a> = is_arithmetic&lt;T&gt;::value</td></tr>
 <tr class="separator:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab43d223a689de0810df63d7c223d4228"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ab43d223a689de0810df63d7c223d4228"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab43d223a689de0810df63d7c223d4228">etl::is_scalar_v</a> = is_scalar&lt;T&gt;::value</td></tr>
+<tr class="separator:ab43d223a689de0810df63d7c223d4228"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a63efd09c0ee7195824be65423adadedc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a63efd09c0ee7195824be65423adadedc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a> = is_object&lt;T&gt;::value</td></tr>
+<tr class="separator:a63efd09c0ee7195824be65423adadedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">etl::is_constructible_v</a> = is_constructible&lt;T, Args...&gt;::value</td></tr>
 <tr class="separator:a1ab616d6855ca5fc60968a153587b2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>

@@ -65,7 +65,8 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#namespaces">Namespaces</a>  </div>
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">memory.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -95,6 +96,29 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceetl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html">etl</a></td></tr>
 <tr class="memdesc:namespaceetl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for the etl library. <br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbedfa50bab7817a29802cce148c7def">etl::addressof</a> (T &amp;arg) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt; T &gt;, T *&gt;</td></tr>
+<tr class="memdesc:adbedfa50bab7817a29802cce148c7def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;.  <a href="namespaceetl.html#adbedfa50bab7817a29802cce148c7def">More...</a><br /></td></tr>
+<tr class="separator:adbedfa50bab7817a29802cce148c7def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13856fe74510e89b04a2310cbc9bde59"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a13856fe74510e89b04a2310cbc9bde59"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59">etl::addressof</a> (T const &amp;&amp;)=delete</td></tr>
+<tr class="memdesc:a13856fe74510e89b04a2310cbc9bde59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rvalue overload is deleted to prevent taking the address of const rvalues.  <a href="namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59">More...</a><br /></td></tr>
+<tr class="separator:a13856fe74510e89b04a2310cbc9bde59"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1709580f4bcc18d6efb2b7e4d5c1b728">etl::destroy_at</a> (T *p) -&gt; void</td></tr>
+<tr class="memdesc:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not an array type, calls the destructor of the object pointed to by p, as if by p-&gt;~T(). If T is an array type, recursively destroys elements of *p in order, as if by calling <a class="el" href="namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66" title="Destroys the objects in the range [first, last). ">etl::destroy</a>(etl::begin(*p), etl::end(*p)).  <a href="namespaceetl.html#a1709580f4bcc18d6efb2b7e4d5c1b728">More...</a><br /></td></tr>
+<tr class="separator:a1709580f4bcc18d6efb2b7e4d5c1b728"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt &gt; </td></tr>
+<tr class="memitem:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66">etl::destroy</a> (ForwardIt first, ForwardIt last) -&gt; void</td></tr>
+<tr class="memdesc:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the objects in the range [first, last).  <a href="namespaceetl.html#ab44bc4884adc1e9dc20ddf2363f3da66">More...</a><br /></td></tr>
+<tr class="separator:ab44bc4884adc1e9dc20ddf2363f3da66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a440d38af8f9b00df3d5c1369450ba44a"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt , class Size &gt; </td></tr>
+<tr class="memitem:a440d38af8f9b00df3d5c1369450ba44a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a440d38af8f9b00df3d5c1369450ba44a">etl::destroy_n</a> (ForwardIt first, Size n) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:a440d38af8f9b00df3d5c1369450ba44a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Destroys the n objects in the range starting at first.  <a href="namespaceetl.html#a440d38af8f9b00df3d5c1369450ba44a">More...</a><br /></td></tr>
+<tr class="separator:a440d38af8f9b00df3d5c1369450ba44a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
