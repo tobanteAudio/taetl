@@ -1,14 +1,15 @@
 <map id="etl/warning.hpp" name="etl/warning.hpp">
-<area shape="rect" id="node2" href="$new_8hpp.html" title="etl/new.hpp" alt="" coords="95,87,192,114"/>
-<area shape="rect" id="node6" href="$mcp23017_8hpp.html" title="etl/experimental/hardware\l/mcp23017/mcp23017.hpp" alt="" coords="217,80,411,121"/>
-<area shape="rect" id="node7" href="$gpio_8hpp.html" title="etl/experimental/hardware\l/stm32/gpio.hpp" alt="" coords="435,80,630,121"/>
-<area shape="rect" id="node8" href="$delay_8hpp.html" title="etl/experimental/rtos\l/delay.hpp" alt="" coords="655,80,813,121"/>
-<area shape="rect" id="node9" href="$queue_8hpp.html" title="etl/experimental/rtos\l/queue.hpp" alt="" coords="837,80,996,121"/>
-<area shape="rect" id="node10" href="$stubs_8hpp.html" title="etl/experimental/rtos\l/stubs.hpp" alt="" coords="1020,80,1179,121"/>
-<area shape="rect" id="node11" href="$task_8hpp.html" title="etl/experimental/rtos\l/task.hpp" alt="" coords="1203,80,1361,121"/>
-<area shape="rect" id="node12" href="$memory_8hpp.html" title="etl/memory.hpp" alt="" coords="1385,87,1509,114"/>
-<area shape="rect" id="node13" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="1533,87,1641,114"/>
+<area shape="rect" id="node2" href="$new_8hpp.html" title="etl/new.hpp" alt="" coords="168,87,265,114"/>
+<area shape="rect" id="node7" href="$mcp23017_8hpp.html" title="etl/experimental/hardware\l/mcp23017/mcp23017.hpp" alt="" coords="290,80,485,121"/>
+<area shape="rect" id="node8" href="$gpio_8hpp.html" title="etl/experimental/hardware\l/stm32/gpio.hpp" alt="" coords="509,80,703,121"/>
+<area shape="rect" id="node9" href="$delay_8hpp.html" title="etl/experimental/rtos\l/delay.hpp" alt="" coords="728,80,887,121"/>
+<area shape="rect" id="node10" href="$queue_8hpp.html" title="etl/experimental/rtos\l/queue.hpp" alt="" coords="911,80,1069,121"/>
+<area shape="rect" id="node11" href="$stubs_8hpp.html" title="etl/experimental/rtos\l/stubs.hpp" alt="" coords="1093,80,1252,121"/>
+<area shape="rect" id="node12" href="$task_8hpp.html" title="etl/experimental/rtos\l/task.hpp" alt="" coords="1276,80,1435,121"/>
+<area shape="rect" id="node13" href="$memory_8hpp.html" title="etl/memory.hpp" alt="" coords="1459,87,1583,114"/>
+<area shape="rect" id="node14" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="1607,87,1715,114"/>
 <area shape="rect" id="node3" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="75,169,211,196"/>
+<area shape="rect" id="node6" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="236,169,347,196"/>
 <area shape="rect" id="node4" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="5,244,140,271"/>
 <area shape="rect" id="node5" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="164,244,264,271"/>
 </map>
