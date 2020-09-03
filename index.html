@@ -64,7 +64,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><p>The tobanteAudio embedded template library is intended for micro controller where the <code>STL</code> is not available. Designed to have a similar API. This library supports <code>AVR/Arduino</code> micro controllers.</p>
-<div class="fragment"><div class="line">git clone https://github.com/tobanteAudio/taetl.git</div></div><!-- fragment --><h2>Status</h2>
+<h2>Status</h2>
 <table class="doxtable">
 <tr>
 <th align="center">LICENSE </th><th align="center">Linux / macOS </th><th align="center">Windows </th><th align="center">AVR </th><th align="center">Issues </th><th align="center">Code Coverage </th><th align="center">Codacy  </th></tr>
@@ -74,12 +74,16 @@ $(function() {
 </div>
  </td><td align="center"><a href="https://codecov.io/gh/tobanteAudio/taetl"></a> </td><td align="center"><a href="https://app.codacy.com/app/tobanteAudio/taetl?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tobanteAudio/taetl&amp;utm_campaign=Badge_Grade_Dashboard"></a> </td></tr>
 </table>
+<h2>Quick Start</h2>
+<div class="fragment"><div class="line">git clone https://github.com/tobanteAudio/taetl.git</div></div><!-- fragment --><ul>
+<li><a class="el" href="md_docs_project_integration.html">Project Integration</a></li>
+<li><a class="el" href="md_docs_building.html">Building Tests &amp; Documentation</a></li>
+<li><a href="https://tobanteaudio.github.io/taetl/index.html">API Reference</a></li>
+<li><a href="https://github.com/tobanteAudio/taetl/tree/master/examples">Examples</a></li>
+</ul>
 <h2>Design Goals</h2>
 <ul>
-<li>100% portable<ul>
-<li>C++ freestanding</li>
-</ul>
-</li>
+<li>100% portable (no STL headers required, minimum of C headers)</li>
 <li>Header only</li>
 <li>C++17</li>
 <li>Similar api to the STL</li>
@@ -97,12 +101,6 @@ $(function() {
 <li>DSP DSL via Template Meta Programming</li>
 </ul>
 </li>
-</ul>
-<h2>Quick Start</h2>
-<ul>
-<li><a class="el" href="md_docs_project_integration.html">Project Integration</a></li>
-<li><a class="el" href="md_docs_building.html">Building Tests &amp; Documentation</a></li>
-<li><a href="https://tobanteaudio.github.io/taetl/index.html">API Reference</a></li>
 </ul>
 <h2>Usage</h2>
 <p>For detailed examples look at the <code>examples</code> subdirectory or the test files in <code>tests</code>. </p>
