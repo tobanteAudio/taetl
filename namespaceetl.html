@@ -103,6 +103,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html">basic_string</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1basic__string.html" title="basic_string class with fixed size capacity. ">basic_string</a> class with fixed size capacity.  <a href="classetl_1_1basic__string.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> describes an object that can refer to a constant contiguous sequence of char-like objects with the first element of the sequence at position zero. A typical implementation holds only two members: a pointer to constant CharType and a size.  <a href="classetl_1_1basic__string__view.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html">bitset</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template bitset represents a fixed-size sequence of N bits. Bitsets can be manipulated by standard logic operators.  <a href="classetl_1_1bitset.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -336,6 +339,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:af2769dde06d41131748597077535e2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9bffa043c410459eda373247f384b9e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9bffa043c410459eda373247f384b9e2">small_string</a> = <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt; char, 32 &gt;</td></tr>
 <tr class="separator:a9bffa043c410459eda373247f384b9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a41ec92a1e825e31fc024b95f85aed1da"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">string_view</a> = <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; char, <a class="el" href="structetl_1_1char__traits.html">etl::char_traits</a>&lt; char &gt; &gt;</td></tr>
+<tr class="memdesc:a41ec92a1e825e31fc024b95f85aed1da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedefs for common character type.  <a href="#a41ec92a1e825e31fc024b95f85aed1da">More...</a><br /></td></tr>
+<tr class="separator:a41ec92a1e825e31fc024b95f85aed1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac5b54646ef5937839803117924c49d01"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac5b54646ef5937839803117924c49d01">true_type</a> = <a class="el" href="structetl_1_1integral__constant.html">integral_constant</a>&lt; bool, true &gt;</td></tr>
 <tr class="separator:ac5b54646ef5937839803117924c49d01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0917d3f5e85877c283c4f04e327fd973"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">false_type</a> = <a class="el" href="structetl_1_1integral__constant.html">integral_constant</a>&lt; bool, false &gt;</td></tr>
@@ -1350,6 +1356,22 @@ template&lt;etl::size_t Capacity&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a41ec92a1e825e31fc024b95f85aed1da"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a41ec92a1e825e31fc024b95f85aed1da">&#9670;&nbsp;</a></span>string_view</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> = typedef <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt;char, <a class="el" href="structetl_1_1char__traits.html">etl::char_traits</a>&lt;char&gt; &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Typedefs for common character type. </p>
 
 </div>
 </div>

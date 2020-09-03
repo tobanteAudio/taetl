@@ -120,5 +120,5 @@ var searchData=
   ['is_5fvoid_5fv',['is_void_v',['../namespaceetl.html#a149f8ba4063995f2c8ed7248d93a4d9e',1,'etl']]],
   ['isr',['isr',['../structetl_1_1hardware_1_1stm32_1_1isr.html',1,'etl::hardware::stm32']]],
   ['isr_5fids',['isr_ids',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7',1,'etl::hardware::stm32']]],
-  ['iterator',['iterator',['../classetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33',1,'etl::array::iterator()'],['../classetl_1_1map.html#a2ea3f60bc149d97e854dd31b8834163f',1,'etl::map::iterator()'],['../classetl_1_1basic__string.html#ae885d5685200fc1cd6f27315aefe48b9',1,'etl::basic_string::iterator()'],['../classetl_1_1vector.html#a0f01897cc83181636d8f70faae0a9750',1,'etl::vector::iterator()']]]
+  ['iterator',['iterator',['../classetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33',1,'etl::array::iterator()'],['../classetl_1_1map.html#a2ea3f60bc149d97e854dd31b8834163f',1,'etl::map::iterator()'],['../classetl_1_1basic__string.html#ae885d5685200fc1cd6f27315aefe48b9',1,'etl::basic_string::iterator()'],['../classetl_1_1basic__string__view.html#ad4542ea77cc6043fee1cd51b93c81d8d',1,'etl::basic_string_view::iterator()'],['../classetl_1_1vector.html#a0f01897cc83181636d8f70faae0a9750',1,'etl::vector::iterator()']]]
 ];
