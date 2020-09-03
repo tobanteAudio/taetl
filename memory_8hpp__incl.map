@@ -1,8 +1,8 @@
 <map id="etl/memory.hpp" name="etl/memory.hpp">
-<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="193,155,332,181"/>
-<area shape="rect" id="node8" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="98,80,206,107"/>
-<area shape="rect" id="node11" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="291,80,432,107"/>
-<area shape="rect" id="node13" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="456,80,579,107"/>
-<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="5,229,104,256"/>
-<area shape="rect" id="node12" href="$intrinsics_8hpp.html" title="intrinsics.hpp" alt="" coords="356,155,465,181"/>
+<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="279,155,418,181"/>
+<area shape="rect" id="node6" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="167,80,275,107"/>
+<area shape="rect" id="node10" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="367,80,509,107"/>
+<area shape="rect" id="node12" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="533,80,655,107"/>
+<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="189,229,287,256"/>
+<area shape="rect" id="node11" href="$intrinsics_8hpp.html" title="intrinsics.hpp" alt="" coords="442,155,551,181"/>
 </map>

@@ -1,8 +1,8 @@
 <map id="etl/experimental/rtos/queue.hpp" name="etl/experimental/rtos/queue.hpp">
-<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="193,244,332,271"/>
-<area shape="rect" id="node8" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="308,95,415,121"/>
-<area shape="rect" id="node11" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="439,95,561,121"/>
+<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="96,244,235,271"/>
+<area shape="rect" id="node6" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="211,95,317,121"/>
+<area shape="rect" id="node9" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="341,95,464,121"/>
 <area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="5,319,104,345"/>
-<area shape="rect" id="node9" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="300,169,441,196"/>
-<area shape="rect" id="node10" href="$intrinsics_8hpp.html" title="intrinsics.hpp" alt="" coords="356,244,465,271"/>
+<area shape="rect" id="node7" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="203,169,344,196"/>
+<area shape="rect" id="node8" href="$intrinsics_8hpp.html" title="intrinsics.hpp" alt="" coords="259,244,368,271"/>
 </map>
