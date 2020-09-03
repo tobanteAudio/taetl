@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['project_20integration',['Project Integration',['../md_docs_project_integration.html',1,'']]],
   ['pair',['pair',['../structetl_1_1pair.html',1,'etl::pair&lt; T1, T2 &gt;'],['../structetl_1_1pair.html#a6f19fd0e10017b26b2a69deeffef2cf2',1,'etl::pair::pair()=default'],['../structetl_1_1pair.html#a394cfba9d9e22e5d6fcd001483ebdb9c',1,'etl::pair::pair(T1 const &amp;t1, T2 const &amp;t2)'],['../structetl_1_1pair.html#a494567ad741ca0acd16f6055d57e8c43',1,'etl::pair::pair(pair&lt; U1, U2 &gt; const &amp;p)'],['../structetl_1_1pair.html#a412f27ee91061e65397498f2acd7053f',1,'etl::pair::pair(pair const &amp;p)=default'],['../structetl_1_1pair.html#aef097a505da5321ad5bd666070b32207',1,'etl::pair::pair(pair &amp;&amp;p) noexcept=default']]],
   ['pdfail',['pdFAIL',['../stubs_8hpp.html#a99e2866c8cf4fe86db87dab62e7d6aa6',1,'stubs.hpp']]],
   ['pdfalse',['pdFALSE',['../stubs_8hpp.html#aa56260e937e7e203026707e5ba944273',1,'stubs.hpp']]],
@@ -33,6 +34,7 @@ var searchData=
   ['popcount',['popcount',['../namespaceetl.html#a0d02c4c388de0067ab15cb5febdebea7',1,'etl']]],
   ['port',['port',['../structetl_1_1hardware_1_1stm32_1_1port.html',1,'etl::hardware::stm32::port'],['../structetl_1_1hardware_1_1stm32_1_1port.html#a677732b13f423652aa19d4ca48e9391f',1,'etl::hardware::stm32::port::port()=default'],['../structetl_1_1hardware_1_1stm32_1_1port.html#a4adc2081670d855debe985c644f06737',1,'etl::hardware::stm32::port::port(port &amp;&amp;)=delete'],['../structetl_1_1hardware_1_1stm32_1_1port.html#ae3e4c4bba529db11a8680c8f5b58386a',1,'etl::hardware::stm32::port::port(port const &amp;)=delete'],['../namespaceetl_1_1hardware_1_1mcp23017.html#a37d49137ec85c2e4912eed582826b33c',1,'etl::hardware::mcp23017::port()']]],
   ['portyield',['portYIELD',['../stubs_8hpp.html#ae1ff06193615f5130b5a97dc9e708fc7',1,'stubs.hpp']]],
+  ['project_5fintegration_2emd',['project_integration.md',['../project__integration_8md.html',1,'']]],
   ['protocol_5ferror',['protocol_error',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a9665c745d0a9132d8da6ed55e89a0564',1,'etl']]],
   ['protocol_5fnot_5fsupported',['protocol_not_supported',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170aa2635acef8b9a3e1c40923829722d472',1,'etl']]],
   ['ptrdiff_5ft',['ptrdiff_t',['../namespaceetl.html#a56e0abf50b318376b511f461e8baca33',1,'etl']]],
