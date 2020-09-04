@@ -66,6 +66,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classetl_1_1basic__string__view-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">etl::basic_string_view&lt; CharType, Traits &gt; Class Template Reference</div>  </div>
@@ -114,15 +115,66 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5acf3f09659da157899ca91d5f1e147"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ad5acf3f09659da157899ca91d5f1e147">basic_string_view</a> (CharType const *str)</td></tr>
 <tr class="memdesc:ad5acf3f09659da157899ca91d5f1e147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a view of the null-terminated character string pointed to by s, not including the terminating null character. The length of the view is determined as if by Traits::length(s). The behavior is undefined if [s, s+Traits::length(s)) is not a valid range. After construction, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> is equal to s, and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> is equal to Traits::length(s).  <a href="#ad5acf3f09659da157899ca91d5f1e147">More...</a><br /></td></tr>
 <tr class="separator:ad5acf3f09659da157899ca91d5f1e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a924871fc9429d312d3274cec6a306db9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a924871fc9429d312d3274cec6a306db9">operator=</a> (const <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;view) noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td></tr>
+<tr class="memdesc:a924871fc9429d312d3274cec6a306db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the view with that of view.  <a href="#a924871fc9429d312d3274cec6a306db9">More...</a><br /></td></tr>
+<tr class="separator:a924871fc9429d312d3274cec6a306db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a727971fbd511ce4b60a0ada7c94cddf2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a727971fbd511ce4b60a0ada7c94cddf2">begin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a></td></tr>
+<tr class="memdesc:a727971fbd511ce4b60a0ada7c94cddf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first character of the view.  <a href="#a727971fbd511ce4b60a0ada7c94cddf2">More...</a><br /></td></tr>
+<tr class="separator:a727971fbd511ce4b60a0ada7c94cddf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ceae0faaaa38d46c418bdecaa5c47cc"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a1ceae0faaaa38d46c418bdecaa5c47cc">cbegin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a></td></tr>
+<tr class="memdesc:a1ceae0faaaa38d46c418bdecaa5c47cc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first character of the view.  <a href="#a1ceae0faaaa38d46c418bdecaa5c47cc">More...</a><br /></td></tr>
+<tr class="separator:a1ceae0faaaa38d46c418bdecaa5c47cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a894fd58e4ecf82055726bc5799c85e1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a894fd58e4ecf82055726bc5799c85e1b">end</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a></td></tr>
+<tr class="memdesc:a894fd58e4ecf82055726bc5799c85e1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the character following the last character of the view. This character acts as a placeholder, attempting to access it results in undefined behavior.  <a href="#a894fd58e4ecf82055726bc5799c85e1b">More...</a><br /></td></tr>
+<tr class="separator:a894fd58e4ecf82055726bc5799c85e1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad74f25a091fe2a0220fb1f1670f5721"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aad74f25a091fe2a0220fb1f1670f5721">cend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a></td></tr>
+<tr class="memdesc:aad74f25a091fe2a0220fb1f1670f5721"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the character following the last character of the view. This character acts as a placeholder, attempting to access it results in undefined behavior.  <a href="#aad74f25a091fe2a0220fb1f1670f5721">More...</a><br /></td></tr>
+<tr class="separator:aad74f25a091fe2a0220fb1f1670f5721"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea5e1037fef33220efc37be33579daf9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aea5e1037fef33220efc37be33579daf9">at</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a></td></tr>
+<tr class="memdesc:aea5e1037fef33220efc37be33579daf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>.  <a href="#aea5e1037fef33220efc37be33579daf9">More...</a><br /></td></tr>
+<tr class="separator:aea5e1037fef33220efc37be33579daf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af3bf07e552947ed6ad28ab37c77331df"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#af3bf07e552947ed6ad28ab37c77331df">operator[]</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a></td></tr>
+<tr class="memdesc:af3bf07e552947ed6ad28ab37c77331df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>.  <a href="#af3bf07e552947ed6ad28ab37c77331df">More...</a><br /></td></tr>
+<tr class="separator:af3bf07e552947ed6ad28ab37c77331df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00f2b190137910500f9f2daeac97b30f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a00f2b190137910500f9f2daeac97b30f">front</a> () const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a></td></tr>
+<tr class="memdesc:a00f2b190137910500f9f2daeac97b30f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to the first character in the view. The behavior is undefined if <a class="el" href="classetl_1_1basic__string__view.html#a3e81279af8f68faec94759d96b317ce7" title="Checks if the view has no characters, i.e. whether size() == 0. ">empty()</a> == true.  <a href="#a00f2b190137910500f9f2daeac97b30f">More...</a><br /></td></tr>
+<tr class="separator:a00f2b190137910500f9f2daeac97b30f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7e2410d1795d7f6f3ddaaf02589e4a01"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a7e2410d1795d7f6f3ddaaf02589e4a01">back</a> () const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a></td></tr>
+<tr class="memdesc:a7e2410d1795d7f6f3ddaaf02589e4a01"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns reference to the last character in the view. The behavior is undefined if <a class="el" href="classetl_1_1basic__string__view.html#a3e81279af8f68faec94759d96b317ce7" title="Checks if the view has no characters, i.e. whether size() == 0. ">empty()</a> == true.  <a href="#a7e2410d1795d7f6f3ddaaf02589e4a01">More...</a><br /></td></tr>
+<tr class="separator:a7e2410d1795d7f6f3ddaaf02589e4a01"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a00df22cc45974625beb170b0a39705a0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0">data</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a72f4f2d1c481d41f47b6ac6c3f12ca97">const_pointer</a></td></tr>
 <tr class="memdesc:a00df22cc45974625beb170b0a39705a0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the underlying character array. The pointer is such that the range [<a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a>; <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> + <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>) is valid and the values in it correspond to the values of the view.  <a href="#a00df22cc45974625beb170b0a39705a0">More...</a><br /></td></tr>
 <tr class="separator:a00df22cc45974625beb170b0a39705a0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6424e2c2157de30fbdadd4079868f38a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a">size</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
-<tr class="memdesc:a6424e2c2157de30fbdadd4079868f38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()).  <a href="#a6424e2c2157de30fbdadd4079868f38a">More...</a><br /></td></tr>
+<tr class="memdesc:a6424e2c2157de30fbdadd4079868f38a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CharT elements in the view, i.e. etl::distance(<a class="el" href="classetl_1_1basic__string__view.html#a727971fbd511ce4b60a0ada7c94cddf2" title="Returns an iterator to the first character of the view. ">begin()</a>, <a class="el" href="classetl_1_1basic__string__view.html#a894fd58e4ecf82055726bc5799c85e1b" title="Returns an iterator to the character following the last character of the view. This character acts as...">end()</a>).  <a href="#a6424e2c2157de30fbdadd4079868f38a">More...</a><br /></td></tr>
 <tr class="separator:a6424e2c2157de30fbdadd4079868f38a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a43bc851d32e3a0ebb9ec4b8be2c95de5"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a43bc851d32e3a0ebb9ec4b8be2c95de5">length</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
-<tr class="memdesc:a43bc851d32e3a0ebb9ec4b8be2c95de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()).  <a href="#a43bc851d32e3a0ebb9ec4b8be2c95de5">More...</a><br /></td></tr>
+<tr class="memdesc:a43bc851d32e3a0ebb9ec4b8be2c95de5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of CharT elements in the view, i.e. etl::distance(<a class="el" href="classetl_1_1basic__string__view.html#a727971fbd511ce4b60a0ada7c94cddf2" title="Returns an iterator to the first character of the view. ">begin()</a>, <a class="el" href="classetl_1_1basic__string__view.html#a894fd58e4ecf82055726bc5799c85e1b" title="Returns an iterator to the character following the last character of the view. This character acts as...">end()</a>).  <a href="#a43bc851d32e3a0ebb9ec4b8be2c95de5">More...</a><br /></td></tr>
 <tr class="separator:a43bc851d32e3a0ebb9ec4b8be2c95de5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc4b291e44eed587ffa48e4c91b0ab66"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#abc4b291e44eed587ffa48e4c91b0ab66">max_size</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:abc4b291e44eed587ffa48e4c91b0ab66"><td class="mdescLeft">&#160;</td><td class="mdescRight">The largest possible number of char-like objects that can be referred to by a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a>.  <a href="#abc4b291e44eed587ffa48e4c91b0ab66">More...</a><br /></td></tr>
+<tr class="separator:abc4b291e44eed587ffa48e4c91b0ab66"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e81279af8f68faec94759d96b317ce7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a3e81279af8f68faec94759d96b317ce7">empty</a> () const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a3e81279af8f68faec94759d96b317ce7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the view has no characters, i.e. whether <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> == 0.  <a href="#a3e81279af8f68faec94759d96b317ce7">More...</a><br /></td></tr>
+<tr class="separator:a3e81279af8f68faec94759d96b317ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9be1e8f658453c4fd8a5beb9079500ca"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a9be1e8f658453c4fd8a5beb9079500ca">remove_prefix</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> n) -&gt; void</td></tr>
+<tr class="memdesc:a9be1e8f658453c4fd8a5beb9079500ca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the start of the view forward by n characters. The behavior is undefined if n &gt; <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>.  <a href="#a9be1e8f658453c4fd8a5beb9079500ca">More...</a><br /></td></tr>
+<tr class="separator:a9be1e8f658453c4fd8a5beb9079500ca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4441138ee2ac5fe3c8c18a637682f48"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ac4441138ee2ac5fe3c8c18a637682f48">remove_suffix</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> n) -&gt; void</td></tr>
+<tr class="memdesc:ac4441138ee2ac5fe3c8c18a637682f48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the end of the view back by n characters. The behavior is undefined if n &gt; <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>.  <a href="#ac4441138ee2ac5fe3c8c18a637682f48">More...</a><br /></td></tr>
+<tr class="separator:ac4441138ee2ac5fe3c8c18a637682f48"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb2fca88ca3efcdce12f2fa0975d0dd0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#adb2fca88ca3efcdce12f2fa0975d0dd0">copy</a> (CharType *dest, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> count, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=0) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:adb2fca88ca3efcdce12f2fa0975d0dd0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the substring [pos, pos + rcount) to the character array pointed to by dest, where rcount is the smaller of count and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> - pos. Equivalent to Traits::copy(dest, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> + pos, rcount).  <a href="#adb2fca88ca3efcdce12f2fa0975d0dd0">More...</a><br /></td></tr>
+<tr class="separator:adb2fca88ca3efcdce12f2fa0975d0dd0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2d285b1cf3fae703b3cddda25d6fd2f1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a2d285b1cf3fae703b3cddda25d6fd2f1">substr</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=0, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> count=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a></td></tr>
+<tr class="memdesc:a2d285b1cf3fae703b3cddda25d6fd2f1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a view of the substring [pos, pos + rcount), where rcount is the smaller of count and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> - pos.  <a href="#a2d285b1cf3fae703b3cddda25d6fd2f1">More...</a><br /></td></tr>
+<tr class="separator:a2d285b1cf3fae703b3cddda25d6fd2f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a973435d2216ba5bc63663c5c4eee7405"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a> = <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>(-1)</td></tr>
+<tr class="memdesc:a973435d2216ba5bc63663c5c4eee7405"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a special value equal to the maximum value representable by the type size_type.  <a href="#a973435d2216ba5bc63663c5c4eee7405">More...</a><br /></td></tr>
+<tr class="separator:a973435d2216ba5bc63663c5c4eee7405"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt;<br />
@@ -421,6 +473,204 @@ template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aea5e1037fef33220efc37be33579daf9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aea5e1037fef33220efc37be33579daf9">&#9670;&nbsp;</a></span>at()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::at </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>. </p>
+
+</div>
+</div>
+<a id="a7e2410d1795d7f6f3ddaaf02589e4a01"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7e2410d1795d7f6f3ddaaf02589e4a01">&#9670;&nbsp;</a></span>back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns reference to the last character in the view. The behavior is undefined if <a class="el" href="classetl_1_1basic__string__view.html#a3e81279af8f68faec94759d96b317ce7" title="Checks if the view has no characters, i.e. whether size() == 0. ">empty()</a> == true. </p>
+
+</div>
+</div>
+<a id="a727971fbd511ce4b60a0ada7c94cddf2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a727971fbd511ce4b60a0ada7c94cddf2">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the first character of the view. </p>
+
+</div>
+</div>
+<a id="a1ceae0faaaa38d46c418bdecaa5c47cc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ceae0faaaa38d46c418bdecaa5c47cc">&#9670;&nbsp;</a></span>cbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::cbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the first character of the view. </p>
+
+</div>
+</div>
+<a id="aad74f25a091fe2a0220fb1f1670f5721"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad74f25a091fe2a0220fb1f1670f5721">&#9670;&nbsp;</a></span>cend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::cend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the character following the last character of the view. This character acts as a placeholder, attempting to access it results in undefined behavior. </p>
+
+</div>
+</div>
+<a id="adb2fca88ca3efcdce12f2fa0975d0dd0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb2fca88ca3efcdce12f2fa0975d0dd0">&#9670;&nbsp;</a></span>copy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::copy </td>
+          <td>(</td>
+          <td class="paramtype">CharType *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copies the substring [pos, pos + rcount) to the character array pointed to by dest, where rcount is the smaller of count and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> - pos. Equivalent to Traits::copy(dest, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> + pos, rcount). </p>
+
+</div>
+</div>
 <a id="a00df22cc45974625beb170b0a39705a0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a00df22cc45974625beb170b0a39705a0">&#9670;&nbsp;</a></span>data()</h2>
 
@@ -451,6 +701,96 @@ template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt
 
 </div>
 </div>
+<a id="a3e81279af8f68faec94759d96b317ce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e81279af8f68faec94759d96b317ce7">&#9670;&nbsp;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the view has no characters, i.e. whether <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> == 0. </p>
+
+</div>
+</div>
+<a id="a894fd58e4ecf82055726bc5799c85e1b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a894fd58e4ecf82055726bc5799c85e1b">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the character following the last character of the view. This character acts as a placeholder, attempting to access it results in undefined behavior. </p>
+
+</div>
+</div>
+<a id="a00f2b190137910500f9f2daeac97b30f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a00f2b190137910500f9f2daeac97b30f">&#9670;&nbsp;</a></span>front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns reference to the first character in the view. The behavior is undefined if <a class="el" href="classetl_1_1basic__string__view.html#a3e81279af8f68faec94759d96b317ce7" title="Checks if the view has no characters, i.e. whether size() == 0. ">empty()</a> == true. </p>
+
+</div>
+</div>
 <a id="a43bc851d32e3a0ebb9ec4b8be2c95de5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a43bc851d32e3a0ebb9ec4b8be2c95de5">&#9670;&nbsp;</a></span>length()</h2>
 
@@ -477,7 +817,159 @@ template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt
 </table>
 </div><div class="memdoc">
 
-<p>Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). </p>
+<p>Returns the number of CharT elements in the view, i.e. etl::distance(<a class="el" href="classetl_1_1basic__string__view.html#a727971fbd511ce4b60a0ada7c94cddf2" title="Returns an iterator to the first character of the view. ">begin()</a>, <a class="el" href="classetl_1_1basic__string__view.html#a894fd58e4ecf82055726bc5799c85e1b" title="Returns an iterator to the character following the last character of the view. This character acts as...">end()</a>). </p>
+
+</div>
+</div>
+<a id="abc4b291e44eed587ffa48e4c91b0ab66"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc4b291e44eed587ffa48e4c91b0ab66">&#9670;&nbsp;</a></span>max_size()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::max_size </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>The largest possible number of char-like objects that can be referred to by a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a>. </p>
+
+</div>
+</div>
+<a id="a924871fc9429d312d3274cec6a306db9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a924871fc9429d312d3274cec6a306db9">&#9670;&nbsp;</a></span>operator=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::operator= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharType, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>view</em></td><td>)</td>
+          <td> -&gt;  <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Replaces the view with that of view. </p>
+
+</div>
+</div>
+<a id="af3bf07e552947ed6ad28ab37c77331df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af3bf07e552947ed6ad28ab37c77331df">&#9670;&nbsp;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>. </p>
+
+</div>
+</div>
+<a id="a9be1e8f658453c4fd8a5beb9079500ca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9be1e8f658453c4fd8a5beb9079500ca">&#9670;&nbsp;</a></span>remove_prefix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::remove_prefix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> -&gt; void
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moves the start of the view forward by n characters. The behavior is undefined if n &gt; <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>. </p>
+
+</div>
+</div>
+<a id="ac4441138ee2ac5fe3c8c18a637682f48"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4441138ee2ac5fe3c8c18a637682f48">&#9670;&nbsp;</a></span>remove_suffix()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::remove_suffix </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>n</em></td><td>)</td>
+          <td> -&gt; void </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Moves the end of the view back by n characters. The behavior is undefined if n &gt; <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>. </p>
 
 </div>
 </div>
@@ -507,7 +999,76 @@ template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt
 </table>
 </div><div class="memdoc">
 
-<p>Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). </p>
+<p>Returns the number of CharT elements in the view, i.e. etl::distance(<a class="el" href="classetl_1_1basic__string__view.html#a727971fbd511ce4b60a0ada7c94cddf2" title="Returns an iterator to the first character of the view. ">begin()</a>, <a class="el" href="classetl_1_1basic__string__view.html#a894fd58e4ecf82055726bc5799c85e1b" title="Returns an iterator to the character following the last character of the view. This character acts as...">end()</a>). </p>
+
+</div>
+</div>
+<a id="a2d285b1cf3fae703b3cddda25d6fd2f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2d285b1cf3fae703b3cddda25d6fd2f1">&#9670;&nbsp;</a></span>substr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::substr </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a view of the substring [pos, pos + rcount), where rcount is the smaller of count and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> - pos. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a973435d2216ba5bc63663c5c4eee7405"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a973435d2216ba5bc63663c5c4eee7405">&#9670;&nbsp;</a></span>npos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::npos = <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>(-1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a special value equal to the maximum value representable by the type size_type. </p>
+<p>The exact meaning depends on context, but it is generally used either as end of view indicator by the functions that expect a view index or as the error indicator by the functions that return a view index. </p>
 
 </div>
 </div>

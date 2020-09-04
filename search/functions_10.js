@@ -11,5 +11,6 @@ var searchData=
   ['small_5fptr',['small_ptr',['../classetl_1_1small__ptr.html#af757bdd9a17f1eab1336204a96cbe96b',1,'etl::small_ptr::small_ptr()=default'],['../classetl_1_1small__ptr.html#a3922d770042f494567ce3f30f58d2203',1,'etl::small_ptr::small_ptr(nullptr_t null)'],['../classetl_1_1small__ptr.html#ac31c5747a70cae88f54d98b4665f4fc6',1,'etl::small_ptr::small_ptr(Type *ptr)']]],
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
   ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]],
-  ['strong_5ftype',['strong_type',['../structetl_1_1experimental_1_1strong__type.html#afdbf8f810eaa8b7fa16590122c85913b',1,'etl::experimental::strong_type::strong_type() noexcept=default'],['../structetl_1_1experimental_1_1strong__type.html#a54c51a9a3949f70cb6d066d75042c7c3',1,'etl::experimental::strong_type::strong_type(ValueType data) noexcept']]]
+  ['strong_5ftype',['strong_type',['../structetl_1_1experimental_1_1strong__type.html#afdbf8f810eaa8b7fa16590122c85913b',1,'etl::experimental::strong_type::strong_type() noexcept=default'],['../structetl_1_1experimental_1_1strong__type.html#a54c51a9a3949f70cb6d066d75042c7c3',1,'etl::experimental::strong_type::strong_type(ValueType data) noexcept']]],
+  ['substr',['substr',['../classetl_1_1basic__string__view.html#a2d285b1cf3fae703b3cddda25d6fd2f1',1,'etl::basic_string_view']]]
 ];

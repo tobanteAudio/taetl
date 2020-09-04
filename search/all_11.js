@@ -27,6 +27,7 @@ var searchData=
   ['strong_5ftype',['strong_type',['../structetl_1_1experimental_1_1strong__type.html',1,'etl::experimental::strong_type&lt; ValueType, Tag, Skills &gt;'],['../structetl_1_1experimental_1_1strong__type.html#afdbf8f810eaa8b7fa16590122c85913b',1,'etl::experimental::strong_type::strong_type() noexcept=default'],['../structetl_1_1experimental_1_1strong__type.html#a54c51a9a3949f70cb6d066d75042c7c3',1,'etl::experimental::strong_type::strong_type(ValueType data) noexcept']]],
   ['strong_5ftype_2ehpp',['strong_type.hpp',['../strong__type_8hpp.html',1,'']]],
   ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]],
+  ['substr',['substr',['../classetl_1_1basic__string__view.html#a2d285b1cf3fae703b3cddda25d6fd2f1',1,'etl::basic_string_view']]],
   ['subtractable',['subtractable',['../structetl_1_1experimental_1_1skill_1_1subtractable.html',1,'etl::experimental::skill']]],
   ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]],
   ['system_5ferror_2ehpp',['system_error.hpp',['../system__error_8hpp.html',1,'']]]

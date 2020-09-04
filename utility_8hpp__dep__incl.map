@@ -1,9 +1,10 @@
 <map id="etl/utility.hpp" name="etl/utility.hpp">
-<area shape="rect" id="node2" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="41,87,177,114"/>
-<area shape="rect" id="node4" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="164,169,264,196"/>
-<area shape="rect" id="node5" href="$dsp_8hpp.html" title="etl/experimental/dsp\l/dsp.hpp" alt="" coords="251,80,409,121"/>
-<area shape="rect" id="node6" href="$queue_8hpp.html" title="etl/experimental/rtos\l/queue.hpp" alt="" coords="433,80,592,121"/>
-<area shape="rect" id="node7" href="$strong__type_8hpp.html" title="etl/experimental/strong\l_type/strong_type.hpp" alt="" coords="616,80,791,121"/>
-<area shape="rect" id="node8" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="815,87,925,114"/>
-<area shape="rect" id="node3" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="5,169,140,196"/>
+<area shape="rect" id="node2" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="46,87,182,114"/>
+<area shape="rect" id="node5" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="169,169,269,196"/>
+<area shape="rect" id="node6" href="$dsp_8hpp.html" title="etl/experimental/dsp\l/dsp.hpp" alt="" coords="257,80,414,121"/>
+<area shape="rect" id="node7" href="$queue_8hpp.html" title="etl/experimental/rtos\l/queue.hpp" alt="" coords="439,80,597,121"/>
+<area shape="rect" id="node8" href="$strong__type_8hpp.html" title="etl/experimental/strong\l_type/strong_type.hpp" alt="" coords="621,80,796,121"/>
+<area shape="rect" id="node9" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="820,87,931,114"/>
+<area shape="rect" id="node3" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="11,169,145,196"/>
+<area shape="rect" id="node4" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="5,244,151,271"/>
 </map>
