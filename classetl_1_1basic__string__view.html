@@ -217,6 +217,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a62b4c47e7cb5d00779e4272136d82ed9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a62b4c47e7cb5d00779e4272136d82ed9">find</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=0) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
 <tr class="memdesc:a62b4c47e7cb5d00779e4272136d82ed9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first substring equal to the given character sequence. Equivalent to find(basic_string_view(s), pos)  <a href="#a62b4c47e7cb5d00779e4272136d82ed9">More...</a><br /></td></tr>
 <tr class="separator:a62b4c47e7cb5d00779e4272136d82ed9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d379ebfa23f5e41ac3b1157dc97b13f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a6d379ebfa23f5e41ac3b1157dc97b13f">rfind</a> (<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> v, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a6d379ebfa23f5e41ac3b1157dc97b13f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last substring equal to the given character sequence. Finds the last occurence of v in this view, starting at position pos.  <a href="#a6d379ebfa23f5e41ac3b1157dc97b13f">More...</a><br /></td></tr>
+<tr class="separator:a6d379ebfa23f5e41ac3b1157dc97b13f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bb3e05fe78ee3fa37cd71455c4bfdba"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a9bb3e05fe78ee3fa37cd71455c4bfdba">rfind</a> (CharType c, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a9bb3e05fe78ee3fa37cd71455c4bfdba"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last substring equal to the given character sequence. Equivalent to rfind(basic_string_view(etl::addressof(c), 1), pos).  <a href="#a9bb3e05fe78ee3fa37cd71455c4bfdba">More...</a><br /></td></tr>
+<tr class="separator:a9bb3e05fe78ee3fa37cd71455c4bfdba"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a8afad0574e97dc199ea3d509928b92"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a0a8afad0574e97dc199ea3d509928b92">rfind</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> count) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a0a8afad0574e97dc199ea3d509928b92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last substring equal to the given character sequence. Equivalent to rfind(basic_string_view(s, count), pos).  <a href="#a0a8afad0574e97dc199ea3d509928b92">More...</a><br /></td></tr>
+<tr class="separator:a0a8afad0574e97dc199ea3d509928b92"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa60d5d1c0ef62d40773583028f6c973d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aa60d5d1c0ef62d40773583028f6c973d">rfind</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:aa60d5d1c0ef62d40773583028f6c973d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last substring equal to the given character sequence. Equivalent to rfind(basic_string_view(s), pos).  <a href="#aa60d5d1c0ef62d40773583028f6c973d">More...</a><br /></td></tr>
+<tr class="separator:aa60d5d1c0ef62d40773583028f6c973d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -1557,6 +1569,181 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 </div><div class="memdoc">
 
 <p>Moves the end of the view back by n characters. The behavior is undefined if n &gt; <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>. </p>
+
+</div>
+</div>
+<a id="a6d379ebfa23f5e41ac3b1157dc97b13f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d379ebfa23f5e41ac3b1157dc97b13f">&#9670;&nbsp;</a></span>rfind() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::rfind </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last substring equal to the given character sequence. Finds the last occurence of v in this view, starting at position pos. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="a9bb3e05fe78ee3fa37cd71455c4bfdba"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bb3e05fe78ee3fa37cd71455c4bfdba">&#9670;&nbsp;</a></span>rfind() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::rfind </td>
+          <td>(</td>
+          <td class="paramtype">CharType&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last substring equal to the given character sequence. Equivalent to rfind(basic_string_view(etl::addressof(c), 1), pos). </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="a0a8afad0574e97dc199ea3d509928b92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a8afad0574e97dc199ea3d509928b92">&#9670;&nbsp;</a></span>rfind() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::rfind </td>
+          <td>(</td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last substring equal to the given character sequence. Equivalent to rfind(basic_string_view(s, count), pos). </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="aa60d5d1c0ef62d40773583028f6c973d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa60d5d1c0ef62d40773583028f6c973d">&#9670;&nbsp;</a></span>rfind() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::rfind </td>
+          <td>(</td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last substring equal to the given character sequence. Equivalent to rfind(basic_string_view(s), pos). </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
 
 </div>
 </div>
