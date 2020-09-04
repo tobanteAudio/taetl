@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['value',['value',['../structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55',1,'etl::integral_constant']]]
+  ['tinyness_5fbefore',['tinyness_before',['../classetl_1_1numeric__limits.html#a44cc3fd663031ca11ec4e32e9293c10c',1,'etl::numeric_limits::tinyness_before()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#aff87f035b824045abe3f89b9484530d8',1,'etl::numeric_limits&lt; bool &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#afdcb2b28eadd6a0a51da4f127aebd413',1,'etl::numeric_limits&lt; float &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a568a26b1f4cc56081540728fe8cf3738',1,'etl::numeric_limits&lt; double &gt;::tinyness_before()']]],
+  ['traps',['traps',['../classetl_1_1numeric__limits.html#ab1a97831490e718d5acd0699dda3284f',1,'etl::numeric_limits::traps()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#aa749307dd5b40ea52d05508b17372099',1,'etl::numeric_limits&lt; bool &gt;::traps()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#aa4dfee0ff6e9f1dd4d9f85f1af4a6669',1,'etl::numeric_limits&lt; float &gt;::traps()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a9f878504ce82faad03dc865fe75bac3e',1,'etl::numeric_limits&lt; double &gt;::traps()']]]
 ];

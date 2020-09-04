@@ -4,7 +4,8 @@
 <area shape="rect" id="node14" href="$concepts_8hpp.html" title="etl/concepts.hpp" alt="" coords="901,80,1030,107"/>
 <area shape="rect" id="node15" href="$memory_8hpp.html" title="etl/memory.hpp" alt="" coords="741,244,865,271"/>
 <area shape="rect" id="node16" href="$numeric_8hpp.html" title="etl/numeric.hpp" alt="" coords="1106,80,1230,107"/>
-<area shape="rect" id="node18" href="$system__error_8hpp.html" title="etl/system_error.hpp" alt="" coords="1254,80,1410,107"/>
+<area shape="rect" id="node18" href="$span_8hpp.html" title="etl/span.hpp" alt="" coords="1254,80,1357,107"/>
+<area shape="rect" id="node19" href="$system__error_8hpp.html" title="etl/system_error.hpp" alt="" coords="1381,80,1537,107"/>
 <area shape="rect" id="node3" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="144,162,280,189"/>
 <area shape="rect" id="node7" href="$cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="5,162,120,189"/>
 <area shape="rect" id="node4" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="145,244,279,271"/>
