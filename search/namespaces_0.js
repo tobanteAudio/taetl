@@ -1,6 +1,7 @@
 var searchData=
 [
   ['chrono',['chrono',['../namespaceetl_1_1chrono.html',1,'etl']]],
+  ['chrono_5fliterals',['chrono_literals',['../namespaceetl_1_1literals_1_1chrono__literals.html',1,'etl::literals']]],
   ['detail',['detail',['../namespaceetl_1_1detail.html',1,'etl::detail'],['../namespaceetl_1_1dsp_1_1detail.html',1,'etl::dsp::detail']]],
   ['dsp',['dsp',['../namespaceetl_1_1dsp.html',1,'etl']]],
   ['etl',['etl',['../namespaceetl.html',1,'']]],

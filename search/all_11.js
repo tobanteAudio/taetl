@@ -3,7 +3,7 @@ var searchData=
   ['scoped_5flock',['scoped_lock',['../classetl_1_1scoped__lock.html',1,'etl::scoped_lock&lt; MutexType &gt;'],['../classetl_1_1scoped__lock.html#a57df1e19dd5ae56ea29d3c6c46aab9be',1,'etl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classetl_1_1scoped__lock.html#ae8f87072467341d0f882bdbf5d87a467',1,'etl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classetl_1_1scoped__lock.html#ac4fa28b7c84a6e578b765eaa62153cc0',1,'etl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
   ['second',['second',['../structetl_1_1pair.html#af651c7d1235d0edb50a26be719e61f14',1,'etl::pair']]],
   ['second_5ftype',['second_type',['../structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c',1,'etl::pair']]],
-  ['seconds',['seconds',['../namespaceetl_1_1chrono.html#a1b6e34aab13f1a732ff940a02a2de700',1,'etl::chrono']]],
+  ['seconds',['seconds',['../namespaceetl_1_1chrono.html#abb3b04d423c65e8d446dbf50bd3b7bcd',1,'etl::chrono']]],
   ['send',['send',['../classetl_1_1rtos_1_1queue.html#aeb7d654e0a1bb691dcf3f8663cd6400e',1,'etl::rtos::queue']]],
   ['set',['set',['../classetl_1_1bitset.html#a0f02eb62c23ef48e5627cf764c55801d',1,'etl::bitset::set()'],['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003cacdaeeeba9b4a4c5ebf042c0215a7bb0e',1,'etl::hardware::stm32::set()']]],
   ['set_5fio_5fdirection',['set_io_direction',['../classetl_1_1hardware_1_1mcp23017_1_1device.html#aa2bdc8d83b8b0bc219681119a8de2ef1',1,'etl::hardware::mcp23017::device']]],
