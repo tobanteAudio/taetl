@@ -1,6 +1,7 @@
 var searchData=
 [
   ['data',['data',['../classetl_1_1array.html#a786d0c001f213ea3c3434114add4e43b',1,'etl::array::data() noexcept -&gt; pointer'],['../classetl_1_1array.html#a92f9a01db60f5c519385b9b09e740a65',1,'etl::array::data() const noexcept -&gt; const_pointer'],['../classetl_1_1net_1_1const__buffer.html#aaf585bc44461a3c0e6af98b5061fc0ee',1,'etl::net::const_buffer::data()'],['../classetl_1_1net_1_1mutable__buffer.html#a9f01c6a4db8ed81a50cfe8049bb37f1b',1,'etl::net::mutable_buffer::data()'],['../classetl_1_1span.html#a0c14bb1210ce53227665fde907544321',1,'etl::span::data()'],['../classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0',1,'etl::basic_string_view::data()'],['../classetl_1_1vector.html#af1ced6dfb705c98b80abee8decd1b550',1,'etl::vector::data() noexcept -&gt; pointer'],['../classetl_1_1vector.html#af214b188b13ed676dfd7b805abf077f7',1,'etl::vector::data() const noexcept -&gt; const_pointer'],['../namespaceetl.html#a259846a061a975e4b40bc6f370701ac6',1,'etl::data(C &amp;c) noexcept(noexcept(c.data())) -&gt; decltype(c.data())'],['../namespaceetl.html#a1fe1659c6a0ad781385c8c81fbd5ce2d',1,'etl::data(const C &amp;c) noexcept(noexcept(c.data())) -&gt; decltype(c.data())'],['../namespaceetl.html#ad94411a453e2a44d4e6b6bf3160b4cf0',1,'etl::data(T(&amp;array)[N]) noexcept -&gt; T *']]],
+  ['days',['days',['../namespaceetl_1_1chrono.html#a716f216d9a0938c1a46f892481c7b172',1,'etl::chrono']]],
   ['deca',['deca',['../namespaceetl.html#acae5b099e4ead54343e6304a6371985b',1,'etl']]],
   ['deci',['deci',['../namespaceetl.html#a59f2e2c10ab4b06ed261d1e4a8358895',1,'etl']]],
   ['declval',['declval',['../namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292',1,'etl']]],
@@ -28,5 +29,7 @@ var searchData=
   ['directory_5fnot_5fempty',['directory_not_empty',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a6a336135d33e62f49edc55f29354e12e',1,'etl']]],
   ['divisible',['divisible',['../structetl_1_1experimental_1_1skill_1_1divisible.html',1,'etl::experimental::skill']]],
   ['dsp_2ehpp',['dsp.hpp',['../dsp_8hpp.html',1,'']]],
+  ['duration',['duration',['../classetl_1_1chrono_1_1duration.html',1,'etl::chrono::duration&lt; Rep, Period &gt;'],['../classetl_1_1chrono_1_1duration.html#a55faccaa1e6aa6e60142af07bd8234d0',1,'etl::chrono::duration::duration()=default'],['../classetl_1_1chrono_1_1duration.html#a43db039d7c5e79dc085e6bb4fa751609',1,'etl::chrono::duration::duration(const duration &amp;)=default'],['../classetl_1_1chrono_1_1duration.html#a61e6149cb6356db7e78f9db85ce92d3b',1,'etl::chrono::duration::duration(const Rep2 &amp;r)']]],
+  ['duration_5fvalues',['duration_values',['../structetl_1_1chrono_1_1duration__values.html',1,'etl::chrono']]],
   ['dynamic_5fextent',['dynamic_extent',['../namespaceetl.html#ae174223df490e6263d4648a86326c902',1,'etl']]]
 ];

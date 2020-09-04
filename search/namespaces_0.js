@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['chrono',['chrono',['../namespaceetl_1_1chrono.html',1,'etl']]],
   ['detail',['detail',['../namespaceetl_1_1detail.html',1,'etl::detail'],['../namespaceetl_1_1dsp_1_1detail.html',1,'etl::dsp::detail']]],
   ['dsp',['dsp',['../namespaceetl_1_1dsp.html',1,'etl']]],
   ['etl',['etl',['../namespaceetl.html',1,'']]],

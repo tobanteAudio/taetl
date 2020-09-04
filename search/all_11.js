@@ -3,6 +3,7 @@ var searchData=
   ['scoped_5flock',['scoped_lock',['../classetl_1_1scoped__lock.html',1,'etl::scoped_lock&lt; MutexType &gt;'],['../classetl_1_1scoped__lock.html#a57df1e19dd5ae56ea29d3c6c46aab9be',1,'etl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classetl_1_1scoped__lock.html#ae8f87072467341d0f882bdbf5d87a467',1,'etl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classetl_1_1scoped__lock.html#ac4fa28b7c84a6e578b765eaa62153cc0',1,'etl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
   ['second',['second',['../structetl_1_1pair.html#af651c7d1235d0edb50a26be719e61f14',1,'etl::pair']]],
   ['second_5ftype',['second_type',['../structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c',1,'etl::pair']]],
+  ['seconds',['seconds',['../namespaceetl_1_1chrono.html#a92080a38bebb92b5b7bb11221d470090',1,'etl::chrono']]],
   ['send',['send',['../classetl_1_1rtos_1_1queue.html#aeb7d654e0a1bb691dcf3f8663cd6400e',1,'etl::rtos::queue']]],
   ['set',['set',['../classetl_1_1bitset.html#a0f02eb62c23ef48e5627cf764c55801d',1,'etl::bitset::set()'],['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003cacdaeeeba9b4a4c5ebf042c0215a7bb0e',1,'etl::hardware::stm32::set()']]],
   ['set_5fio_5fdirection',['set_io_direction',['../classetl_1_1hardware_1_1mcp23017_1_1device.html#aa2bdc8d83b8b0bc219681119a8de2ef1',1,'etl::hardware::mcp23017::device']]],
@@ -17,6 +18,7 @@ var searchData=
   ['small_5fstring',['small_string',['../namespaceetl.html#a9bffa043c410459eda373247f384b9e2',1,'etl']]],
   ['span',['span',['../classetl_1_1span.html',1,'etl::span&lt; ElementType, Extent &gt;'],['../classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9',1,'etl::span::span() noexcept=default'],['../classetl_1_1span.html#a0fc37f46dbc0c737b49ec0730622ced7',1,'etl::span::span(const span &amp;other) noexcept=default']]],
   ['span_2ehpp',['span.hpp',['../span_8hpp.html',1,'']]],
+  ['stable_5fpartition',['stable_partition',['../namespaceetl.html#a120f5d964cae523ab637a2ec068011e4',1,'etl']]],
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
   ['starts_5fwith',['starts_with',['../classetl_1_1basic__string__view.html#aee339b645338a8331480eca9a62ff3ab',1,'etl::basic_string_view::starts_with(basic_string_view sv) const noexcept -&gt; bool'],['../classetl_1_1basic__string__view.html#ab2e496158cbe9a6228fa5793996b8511',1,'etl::basic_string_view::starts_with(CharType c) const noexcept -&gt; bool'],['../classetl_1_1basic__string__view.html#abc8aefcad4dac5c842b56522ad508a37',1,'etl::basic_string_view::starts_with(CharType const *str) const -&gt; bool']]],
   ['state_5fnot_5frecoverable',['state_not_recoverable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a6805059549401365b824b54573a6f46e',1,'etl']]],
@@ -32,6 +34,7 @@ var searchData=
   ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]],
   ['substr',['substr',['../classetl_1_1basic__string__view.html#a2d285b1cf3fae703b3cddda25d6fd2f1',1,'etl::basic_string_view']]],
   ['subtractable',['subtractable',['../structetl_1_1experimental_1_1skill_1_1subtractable.html',1,'etl::experimental::skill']]],
+  ['swap',['swap',['../namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a',1,'etl']]],
   ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]],
   ['system_5ferror_2ehpp',['system_error.hpp',['../system__error_8hpp.html',1,'']]]
 ];

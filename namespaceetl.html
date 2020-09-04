@@ -76,6 +76,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
+<tr class="memitem:namespaceetl_1_1chrono"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html">chrono</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html">detail</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1dsp"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1dsp.html">dsp</a></td></tr>
@@ -526,6 +528,14 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">swap</a> (T &amp;a, T &amp;b) noexcept -&gt; void</td></tr>
+<tr class="memdesc:a0a1c3baeebc248b3f787a308af595c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless etl::is_move_constructible_v&lt;T&gt; &amp;&amp; etl::is_move_assignable_v&lt;T&gt; is true.  <a href="#a0a1c3baeebc248b3f787a308af595c6a">More...</a><br /></td></tr>
+<tr class="separator:a0a1c3baeebc248b3f787a308af595c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa18b878794474881fce640e7a163abf3"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt1 , class ForwardIt2 &gt; </td></tr>
+<tr class="memitem:aa18b878794474881fce640e7a163abf3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa18b878794474881fce640e7a163abf3">iter_swap</a> (ForwardIt1 a, ForwardIt2 b) -&gt; void</td></tr>
+<tr class="memdesc:aa18b878794474881fce640e7a163abf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the values of the elements the given iterators are pointing to.  <a href="#aa18b878794474881fce640e7a163abf3">More...</a><br /></td></tr>
+<tr class="separator:aa18b878794474881fce640e7a163abf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a013f931a99670b660a20f65b845013a3"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class UnaryFunction &gt; </td></tr>
 <tr class="memitem:a013f931a99670b660a20f65b845013a3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a013f931a99670b660a20f65b845013a3">for_each</a> (InputIt first, InputIt last, UnaryFunction f) noexcept -&gt; UnaryFunction</td></tr>
 <tr class="memdesc:a013f931a99670b660a20f65b845013a3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function object f to the result of dereferencing every iterator in the range [first, last] in order.  <a href="#a013f931a99670b660a20f65b845013a3">More...</a><br /></td></tr>
@@ -597,6 +607,14 @@ Functions</h2></td></tr>
 <tr class="memitem:add22a48a49c792039e0d0ec1eef5528b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add22a48a49c792039e0d0ec1eef5528b">none_of</a> (InputIt first, InputIt last, UnaryPredicate p) -&gt; bool</td></tr>
 <tr class="memdesc:add22a48a49c792039e0d0ec1eef5528b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if unary predicate p returns true for no elements in the range [first, last).  <a href="#add22a48a49c792039e0d0ec1eef5528b">More...</a><br /></td></tr>
 <tr class="separator:add22a48a49c792039e0d0ec1eef5528b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt &gt; </td></tr>
+<tr class="memitem:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5">rotate</a> (ForwardIt first, ForwardIt n_first, ForwardIt last) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a left rotation on a range of elements.  <a href="#a6c225b4298d1c3ad6d3d17d92fd865b5">More...</a><br /></td></tr>
+<tr class="separator:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a120f5d964cae523ab637a2ec068011e4"><td class="memTemplParams" colspan="2">template&lt;class BidirIt , class UnaryPredicate &gt; </td></tr>
+<tr class="memitem:a120f5d964cae523ab637a2ec068011e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a120f5d964cae523ab637a2ec068011e4">stable_partition</a> (BidirIt f, BidirIt l, UnaryPredicate p) -&gt; BidirIt</td></tr>
+<tr class="memdesc:a120f5d964cae523ab637a2ec068011e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is preserved.  <a href="#a120f5d964cae523ab637a2ec068011e4">More...</a><br /></td></tr>
+<tr class="separator:a120f5d964cae523ab637a2ec068011e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe5ebb5d35320f153506765261d81a03"><td class="memTemplParams" colspan="2">template&lt;class InputIt1 , class InputIt2 , class Compare &gt; </td></tr>
 <tr class="memitem:afe5ebb5d35320f153506765261d81a03"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03">lexicographical_compare</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, Compare comp) -&gt; bool</td></tr>
 <tr class="memdesc:afe5ebb5d35320f153506765261d81a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using the given binary comparison function comp.  <a href="#afe5ebb5d35320f153506765261d81a03">More...</a><br /></td></tr>
@@ -2782,7 +2800,7 @@ template&lt;typename M , typename N &gt; </div>
 </div><div class="memdoc">
 
 <p>Computes the greatest common divisor of the integers m and n. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Actual return type is etl::common_type. Needs to be implemented. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Actual return type is etl::common_type. Needs to be implemented. </dd></dl>
 
 </div>
 </div>
@@ -2865,6 +2883,40 @@ template&lt;typename... Types&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true, if the given standard and the currently configurated in the compiler match. </p>
+
+</div>
+</div>
+<a id="aa18b878794474881fce640e7a163abf3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa18b878794474881fce640e7a163abf3">&#9670;&nbsp;</a></span>iter_swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ForwardIt1 , class ForwardIt2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::iter_swap </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt1&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt2&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Swaps the values of the elements the given iterators are pointing to. </p>
+<p>https://en.cppreference.com/w/cpp/algorithm/iter_swap </p>
 
 </div>
 </div>
@@ -3205,7 +3257,7 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
 
 </div>
 </div>
@@ -4325,7 +4377,47 @@ template&lt;class T &gt; </div>
 
 <p>Returns the number of 1 bits in the value of x. </p>
 <p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type).</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Limit (SFINAE) to unsigned types. Fix conversion warnings. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Limit (SFINAE) to unsigned types. Fix conversion warnings. </dd></dl>
+
+</div>
+</div>
+<a id="a6c225b4298d1c3ad6d3d17d92fd865b5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c225b4298d1c3ad6d3d17d92fd865b5">&#9670;&nbsp;</a></span>rotate()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ForwardIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::rotate </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>n_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Performs a left rotation on a range of elements. </p>
+<p>Specifically, <a class="el" href="namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5" title="Performs a left rotation on a range of elements. ">etl::rotate</a> swaps the elements in the range [first, last) in such a way that the element n_first becomes the first element of the new range and n_first - 1 becomes the last element. A precondition of this function is that [first, n_first) and [n_first, last) are valid ranges. </p>
 
 </div>
 </div>
@@ -4391,6 +4483,45 @@ template&lt;class T , etl::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a120f5d964cae523ab637a2ec068011e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a120f5d964cae523ab637a2ec068011e4">&#9670;&nbsp;</a></span>stable_partition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class BidirIt , class UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::stable_partition </td>
+          <td>(</td>
+          <td class="paramtype">BidirIt&#160;</td>
+          <td class="paramname"><em>f</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BidirIt&#160;</td>
+          <td class="paramname"><em>l</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; BidirIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is preserved. </p>
+
+</div>
+</div>
 <a id="add013e52c2672440c53a8d2c82d4c63a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add013e52c2672440c53a8d2c82d4c63a">&#9670;&nbsp;</a></span>strlen()</h2>
 
@@ -4409,6 +4540,48 @@ template&lt;class T , etl::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the length of the C string str. </p>
+
+</div>
+</div>
+<a id="a0a1c3baeebc248b3f787a308af595c6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1c3baeebc248b3f787a308af595c6a">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::swap </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>a</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>b</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless etl::is_move_constructible_v&lt;T&gt; &amp;&amp; etl::is_move_assignable_v&lt;T&gt; is true. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Fix noexcept specifier. https://en.cppreference.com/w/cpp/algorithm/swap </dd></dl>
 
 </div>
 </div>

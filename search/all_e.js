@@ -6,6 +6,7 @@ var searchData=
   ['pdfalse',['pdFALSE',['../stubs_8hpp.html#aa56260e937e7e203026707e5ba944273',1,'stubs.hpp']]],
   ['pdpass',['pdPASS',['../stubs_8hpp.html#a07848d3078849bd32353c69d30a479b3',1,'stubs.hpp']]],
   ['pdtrue',['pdTRUE',['../stubs_8hpp.html#af268cf937960eb029256bd9c4d949fbe',1,'stubs.hpp']]],
+  ['period',['period',['../classetl_1_1chrono_1_1duration.html#a20b28b10b276e74eac566d0a6bf062a1',1,'etl::chrono::duration']]],
   ['permission_5fdenied',['permission_denied',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ae8ee838822072f02738dbd7d97ea03fc',1,'etl']]],
   ['peta',['peta',['../namespaceetl.html#aa37756654b5a747b646eb948d539193c',1,'etl']]],
   ['pico',['pico',['../namespaceetl.html#acf951c7004991770fcef76d2959007b0',1,'etl']]],
