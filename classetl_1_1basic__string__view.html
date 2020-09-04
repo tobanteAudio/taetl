@@ -253,6 +253,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aacd57b92c478d688e472e0a0548d0134"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aacd57b92c478d688e472e0a0548d0134">find_last_of</a> (CharType const *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
 <tr class="memdesc:aacd57b92c478d688e472e0a0548d0134"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character equal to one of characters in the given character sequence. Exact search algorithm is not specified. The search considers only the interval [0; pos]. If the character is not present in the interval, npos will be returned. Equivalent to find_last_of(basic_string_view(s), pos).  <a href="#aacd57b92c478d688e472e0a0548d0134">More...</a><br /></td></tr>
 <tr class="separator:aacd57b92c478d688e472e0a0548d0134"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5382563c21c4c702187ab3edc54f09e1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a5382563c21c4c702187ab3edc54f09e1">find_last_not_of</a> (<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> v, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a5382563c21c4c702187ab3edc54f09e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters of v in this view, starting at position pos.  <a href="#a5382563c21c4c702187ab3edc54f09e1">More...</a><br /></td></tr>
+<tr class="separator:a5382563c21c4c702187ab3edc54f09e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a401c9c544188c527494ef76909547db3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a401c9c544188c527494ef76909547db3">find_last_not_of</a> (CharType c, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a401c9c544188c527494ef76909547db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(etl::addressof(c), 1), pos).  <a href="#a401c9c544188c527494ef76909547db3">More...</a><br /></td></tr>
+<tr class="separator:a401c9c544188c527494ef76909547db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac0f77c7c41b331351a2945f41d93d0a9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ac0f77c7c41b331351a2945f41d93d0a9">find_last_not_of</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> count) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:ac0f77c7c41b331351a2945f41d93d0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s, count), pos).  <a href="#ac0f77c7c41b331351a2945f41d93d0a9">More...</a><br /></td></tr>
+<tr class="separator:ac0f77c7c41b331351a2945f41d93d0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9a88778a4830f776be4faba591ee0ff9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a9a88778a4830f776be4faba591ee0ff9">find_last_not_of</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a9a88778a4830f776be4faba591ee0ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s), pos)  <a href="#a9a88778a4830f776be4faba591ee0ff9">More...</a><br /></td></tr>
+<tr class="separator:a9a88778a4830f776be4faba591ee0ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -1555,6 +1567,180 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 
 <p>Finds the first character equal to any of the characters in the given character sequence. Equivalent to find_first_of(basic_string_view(s), pos) </p>
 <dl class="section return"><dt>Returns</dt><dd>Position of the first occurrence of any character of the substring, or npos if no such character is found. </dd></dl>
+
+</div>
+</div>
+<a id="a5382563c21c4c702187ab3edc54f09e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5382563c21c4c702187ab3edc54f09e1">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>v</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last character not equal to any of the characters of v in this view, starting at position pos. </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the last character not equal to any of the characters in the given string, or npos if no such character is found. </dd></dl>
+
+</div>
+</div>
+<a id="a401c9c544188c527494ef76909547db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a401c9c544188c527494ef76909547db3">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype">CharType&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(etl::addressof(c), 1), pos). </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the last character not equal to any of the characters in the given string, or npos if no such character is found. </dd></dl>
+
+</div>
+</div>
+<a id="ac0f77c7c41b331351a2945f41d93d0a9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac0f77c7c41b331351a2945f41d93d0a9">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s, count), pos). </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the last character not equal to any of the characters in the given string, or npos if no such character is found. </dd></dl>
+
+</div>
+</div>
+<a id="a9a88778a4830f776be4faba591ee0ff9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9a88778a4830f776be4faba591ee0ff9">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::find_last_not_of </td>
+          <td>(</td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code><a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s), pos) </p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the last character not equal to any of the characters in the given string, or npos if no such character is found. </dd></dl>
 
 </div>
 </div>

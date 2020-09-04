@@ -592,6 +592,14 @@ Functions</h2></td></tr>
 <tr class="memitem:add22a48a49c792039e0d0ec1eef5528b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add22a48a49c792039e0d0ec1eef5528b">none_of</a> (InputIt first, InputIt last, UnaryPredicate p) -&gt; bool</td></tr>
 <tr class="memdesc:add22a48a49c792039e0d0ec1eef5528b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if unary predicate p returns true for no elements in the range [first, last).  <a href="#add22a48a49c792039e0d0ec1eef5528b">More...</a><br /></td></tr>
 <tr class="separator:add22a48a49c792039e0d0ec1eef5528b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe5ebb5d35320f153506765261d81a03"><td class="memTemplParams" colspan="2">template&lt;class InputIt1 , class InputIt2 , class Compare &gt; </td></tr>
+<tr class="memitem:afe5ebb5d35320f153506765261d81a03"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03">lexicographical_compare</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, Compare comp) -&gt; bool</td></tr>
+<tr class="memdesc:afe5ebb5d35320f153506765261d81a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using the given binary comparison function comp.  <a href="#afe5ebb5d35320f153506765261d81a03">More...</a><br /></td></tr>
+<tr class="separator:afe5ebb5d35320f153506765261d81a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae627d43cafd94be503c4082795951f33"><td class="memTemplParams" colspan="2">template&lt;class InputIt1 , class InputIt2 &gt; </td></tr>
+<tr class="memitem:ae627d43cafd94be503c4082795951f33"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae627d43cafd94be503c4082795951f33">lexicographical_compare</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2) -&gt; bool</td></tr>
+<tr class="memdesc:ae627d43cafd94be503c4082795951f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using operator&lt;.  <a href="#ae627d43cafd94be503c4082795951f33">More...</a><br /></td></tr>
+<tr class="separator:ae627d43cafd94be503c4082795951f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplParams" colspan="2">template&lt;class T , class... U&gt; </td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884">array</a> (T, U...) -&gt; <a class="el" href="classetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td></tr>
 <tr class="separator:ae5a13233ebf471c62f35f40b21128884"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -706,6 +714,22 @@ Functions</h2></td></tr>
 <tr class="memitem:aaad8ec05de177a5a989ca89fb1568698"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aaad8ec05de177a5a989ca89fb1568698">operator!=</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:aaad8ec05de177a5a989ca89fb1568698"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#aaad8ec05de177a5a989ca89fb1568698">More...</a><br /></td></tr>
 <tr class="separator:aaad8ec05de177a5a989ca89fb1568698"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67cf06af339b11fe81d54b7f93c1334e"><td class="memTemplParams" colspan="2">template&lt;class CharType , class Traits &gt; </td></tr>
+<tr class="memitem:a67cf06af339b11fe81d54b7f93c1334e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a67cf06af339b11fe81d54b7f93c1334e">operator&lt;</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a67cf06af339b11fe81d54b7f93c1334e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#a67cf06af339b11fe81d54b7f93c1334e">More...</a><br /></td></tr>
+<tr class="separator:a67cf06af339b11fe81d54b7f93c1334e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0de7f91cc35b7999972eb423539d892"><td class="memTemplParams" colspan="2">template&lt;class CharType , class Traits &gt; </td></tr>
+<tr class="memitem:ad0de7f91cc35b7999972eb423539d892"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad0de7f91cc35b7999972eb423539d892">operator&lt;=</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ad0de7f91cc35b7999972eb423539d892"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#ad0de7f91cc35b7999972eb423539d892">More...</a><br /></td></tr>
+<tr class="separator:ad0de7f91cc35b7999972eb423539d892"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a610759a20e2af85ebdd5bdf54a5418a5"><td class="memTemplParams" colspan="2">template&lt;class CharType , class Traits &gt; </td></tr>
+<tr class="memitem:a610759a20e2af85ebdd5bdf54a5418a5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a610759a20e2af85ebdd5bdf54a5418a5">operator&gt;</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a610759a20e2af85ebdd5bdf54a5418a5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#a610759a20e2af85ebdd5bdf54a5418a5">More...</a><br /></td></tr>
+<tr class="separator:a610759a20e2af85ebdd5bdf54a5418a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4151e119ab2900682096503b5592cdd1"><td class="memTemplParams" colspan="2">template&lt;class CharType , class Traits &gt; </td></tr>
+<tr class="memitem:a4151e119ab2900682096503b5592cdd1"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4151e119ab2900682096503b5592cdd1">operator&gt;=</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a4151e119ab2900682096503b5592cdd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#a4151e119ab2900682096503b5592cdd1">More...</a><br /></td></tr>
+<tr class="separator:a4151e119ab2900682096503b5592cdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
 <tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479">get</a> (const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structetl_1_1detail_1_1get__impl.html">detail::get_impl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
 <tr class="separator:a15f4fd4efe3204f43756b83be3ae1479"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2653,6 +2677,104 @@ template&lt;typename... Types&gt; </div>
 
 </div>
 </div>
+<a id="afe5ebb5d35320f153506765261d81a03"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe5ebb5d35320f153506765261d81a03">&#9670;&nbsp;</a></span>lexicographical_compare() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt1 , class InputIt2 , class Compare &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::lexicographical_compare </td>
+          <td>(</td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>first1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>last1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>first2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>last2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>comp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using the given binary comparison function comp. </p>
+<p>https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare </p>
+
+</div>
+</div>
+<a id="ae627d43cafd94be503c4082795951f33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae627d43cafd94be503c4082795951f33">&#9670;&nbsp;</a></span>lexicographical_compare() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt1 , class InputIt2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::lexicographical_compare </td>
+          <td>(</td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>first1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>last1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>first2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>last2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using operator&lt;. </p>
+<p>https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare </p>
+
+</div>
+</div>
 <a id="a7fdd0cf88f36f44f8fe8ec8327cfac74"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7fdd0cf88f36f44f8fe8ec8327cfac74">&#9670;&nbsp;</a></span>max() <span class="overload">[1/2]</span></h2>
 
@@ -3423,6 +3545,48 @@ template&lt;class CharType , class Traits &gt; </div>
 
 </div>
 </div>
+<a id="a67cf06af339b11fe81d54b7f93c1334e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67cf06af339b11fe81d54b7f93c1334e">&#9670;&nbsp;</a></span>operator<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()): </p>
+<p>The ordering comparisons are done lexicographically &ndash; the comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
+
+</div>
+</div>
 <a id="a0480e65e737703d71651dbf0ec77f6be"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0480e65e737703d71651dbf0ec77f6be">&#9670;&nbsp;</a></span>operator<<()</h2>
 
@@ -3506,6 +3670,48 @@ template&lt;class Integer &gt; </div>
 
 </div>
 </div>
+<a id="ad0de7f91cc35b7999972eb423539d892"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0de7f91cc35b7999972eb423539d892">&#9670;&nbsp;</a></span>operator<=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()): </p>
+<p>The ordering comparisons are done lexicographically &ndash; the comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
+
+</div>
+</div>
 <a id="a32f6e7555448a64b1558e3f5b9771718"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a32f6e7555448a64b1558e3f5b9771718">&#9670;&nbsp;</a></span>operator==()</h2>
 
@@ -3545,6 +3751,90 @@ template&lt;class CharType , class Traits &gt; </div>
 
 <p>Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()): </p>
 <p>Two views are equal if both the size of lhs and rhs are equal and each character in lhs has an equivalent character in rhs at the same position. </p>
+
+</div>
+</div>
+<a id="a610759a20e2af85ebdd5bdf54a5418a5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a610759a20e2af85ebdd5bdf54a5418a5">&#9670;&nbsp;</a></span>operator>()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()): </p>
+<p>The ordering comparisons are done lexicographically &ndash; the comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
+
+</div>
+</div>
+<a id="a4151e119ab2900682096503b5592cdd1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4151e119ab2900682096503b5592cdd1">&#9670;&nbsp;</a></span>operator>=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType , class Traits &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()): </p>
+<p>The ordering comparisons are done lexicographically &ndash; the comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
 
 </div>
 </div>
