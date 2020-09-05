@@ -8,5 +8,9 @@ var searchData=
   ['const_5fbuffer',['const_buffer',['../classetl_1_1net_1_1const__buffer.html',1,'etl::net']]],
   ['constant',['constant',['../structetl_1_1dsp_1_1constant.html',1,'etl::dsp']]],
   ['crtp',['crtp',['../structetl_1_1crtp.html',1,'etl']]],
-  ['crtp_3c_20strongtype_2c_20addable_20_3e',['crtp&lt; StrongType, addable &gt;',['../structetl_1_1crtp.html',1,'etl']]]
+  ['crtp_3c_20strongtype_2c_20addable_20_3e',['crtp&lt; StrongType, addable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20comparable_20_3e',['crtp&lt; StrongType, comparable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20divisible_20_3e',['crtp&lt; StrongType, divisible &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20multipliable_20_3e',['crtp&lt; StrongType, multipliable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20subtractable_20_3e',['crtp&lt; StrongType, subtractable &gt;',['../structetl_1_1crtp.html',1,'etl']]]
 ];

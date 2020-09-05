@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1crtp.html" title="etl::crtp\&lt; Type, CrtpTag \&gt;" alt="" coords="5,5,195,32"/>
+<area shape="rect" id="node1" href="$structetl_1_1crtp.html" title="etl::crtp\&lt; StrongType,\l comparable \&gt;" alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1experimental_1_1skill_1_1comparable.html" title="etl::experimental::\lskill::comparable\&lt; StrongType \&gt;" alt="" coords="216,5,452,47"/>
 </map>

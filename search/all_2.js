@@ -47,5 +47,9 @@ var searchData=
   ['crtp',['crtp',['../structetl_1_1crtp.html',1,'etl']]],
   ['crtp_2ehpp',['crtp.hpp',['../crtp_8hpp.html',1,'']]],
   ['crtp_3c_20strongtype_2c_20addable_20_3e',['crtp&lt; StrongType, addable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20comparable_20_3e',['crtp&lt; StrongType, comparable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20divisible_20_3e',['crtp&lt; StrongType, divisible &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20multipliable_20_3e',['crtp&lt; StrongType, multipliable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
+  ['crtp_3c_20strongtype_2c_20subtractable_20_3e',['crtp&lt; StrongType, subtractable &gt;',['../structetl_1_1crtp.html',1,'etl']]],
   ['cstring_2ehpp',['cstring.hpp',['../cstring_8hpp.html',1,'']]]
 ];
