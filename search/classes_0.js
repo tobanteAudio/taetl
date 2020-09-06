@@ -1,6 +1,7 @@
 var searchData=
 [
   ['add_5flvalue_5freference',['add_lvalue_reference',['../structetl_1_1add__lvalue__reference.html',1,'etl']]],
+  ['add_5fpointer',['add_pointer',['../structetl_1_1add__pointer.html',1,'etl']]],
   ['add_5frvalue_5freference',['add_rvalue_reference',['../structetl_1_1add__rvalue__reference.html',1,'etl']]],
   ['addable',['addable',['../structetl_1_1experimental_1_1skill_1_1addable.html',1,'etl::experimental::skill']]],
   ['array',['array',['../classetl_1_1array.html',1,'etl']]],

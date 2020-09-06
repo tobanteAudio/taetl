@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1is__lvalue__reference.html" title="etl::is_lvalue_reference\&lt; T \&gt;" alt="" coords="5,5,217,32"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_scalar\l\&lt; T \&gt;::value\|\|etl::is_array\l\&lt; T \&gt;::value\|\|etl::is_union\l\&lt; T \&gt;::value\|\|etl::is_class\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,196,105"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__object.html" title="etl::is_object\&lt; T \&gt;" alt="" coords="244,42,387,69"/>
 </map>

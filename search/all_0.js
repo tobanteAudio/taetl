@@ -13,6 +13,8 @@ var searchData=
   ['accumulate',['accumulate',['../namespaceetl.html#afe443a26a34b79fc921c4583df576333',1,'etl::accumulate(InputIt first, InputIt last, Type init) noexcept -&gt; Type'],['../namespaceetl.html#a9413959b7ee39d393e7c35ad2cd78294',1,'etl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type']]],
   ['add_5flvalue_5freference',['add_lvalue_reference',['../structetl_1_1add__lvalue__reference.html',1,'etl']]],
   ['add_5flvalue_5freference_5ft',['add_lvalue_reference_t',['../namespaceetl.html#a662329de2bc2a83d5e45d1ccad797f17',1,'etl']]],
+  ['add_5fpointer',['add_pointer',['../structetl_1_1add__pointer.html',1,'etl']]],
+  ['add_5fpointer_5ft',['add_pointer_t',['../namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25',1,'etl']]],
   ['add_5frvalue_5freference',['add_rvalue_reference',['../structetl_1_1add__rvalue__reference.html',1,'etl']]],
   ['add_5frvalue_5freference_5ft',['add_rvalue_reference_t',['../namespaceetl.html#a17c37a443b0cb66dc9b3c4374967b68f',1,'etl']]],
   ['addable',['addable',['../structetl_1_1experimental_1_1skill_1_1addable.html',1,'etl::experimental::skill']]],

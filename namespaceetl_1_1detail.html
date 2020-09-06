@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">etl::detail Namespace Reference</div>  </div>
@@ -73,6 +74,14 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1common__type__2__impl.html">common_type_2_impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1common__type__2__impl_3_01T1_00_01T2_00_01void__t_3_01cond__t_3_01T1_00_01T2_01_4_01_4_01_4.html">common_type_2_impl&lt; T1, T2, void_t&lt; cond_t&lt; T1, T2 &gt; &gt; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1common__type__multi__impl.html">common_type_multi_impl</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1common__type__multi__impl_3_01void__t_3_01typename_01common__type_3_01T1_c112970aa4406b128acca994532075af.html">common_type_multi_impl&lt; void_t&lt; typename common_type&lt; T1, T2 &gt;::type &gt;, T1, T2, R... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1get__impl.html">get_impl</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1get__impl_3_010_00_01First_00_01Rest_8_8_8_01_4.html">get_impl&lt; 0, First, Rest... &gt;</a></td></tr>
@@ -89,6 +98,12 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1detail_1_1is__pointer__helper_3_01T_01_5_01_4.html">is_pointer_helper&lt; T * &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a3f5fb714218ae063870f7447fa845775"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
+<tr class="memitem:a3f5fb714218ae063870f7447fa845775"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a3f5fb714218ae063870f7447fa845775">cond_t</a> = decltype(false ? <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; T1 &gt;() :<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; T2 &gt;())</td></tr>
+<tr class="separator:a3f5fb714218ae063870f7447fa845775"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -107,7 +122,30 @@ Functions</h2></td></tr>
 <tr class="memitem:aad68d8b46d3730e92536507812d6ab6f"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:aad68d8b46d3730e92536507812d6ab6f"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#aad68d8b46d3730e92536507812d6ab6f">try_add_rvalue_reference</a> (...) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td></tr>
 <tr class="separator:aad68d8b46d3730e92536507812d6ab6f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf50ac295ca995606cb5bf055f2c267c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aaf50ac295ca995606cb5bf055f2c267c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#aaf50ac295ca995606cb5bf055f2c267c">try_add_pointer</a> (int) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; typename <a class="el" href="structetl_1_1remove__reference.html">etl::remove_reference</a>&lt; T &gt;::type *&gt;</td></tr>
+<tr class="separator:aaf50ac295ca995606cb5bf055f2c267c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a62e8d828da790a56eaa4e9d62e347835"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a62e8d828da790a56eaa4e9d62e347835"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a62e8d828da790a56eaa4e9d62e347835">try_add_pointer</a> (...) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td></tr>
+<tr class="separator:a62e8d828da790a56eaa4e9d62e347835"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a3f5fb714218ae063870f7447fa845775"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f5fb714218ae063870f7447fa845775">&#9670;&nbsp;</a></span>cond_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1detail.html#a3f5fb714218ae063870f7447fa845775">etl::detail::cond_t</a> = typedef decltype(false ? <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt;T1&gt;() : <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt;T2&gt;())</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a61569dcf541d72a35bb405317d7dfa0e"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a61569dcf541d72a35bb405317d7dfa0e">&#9670;&nbsp;</a></span>sign()</h2>
@@ -159,6 +197,46 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">auto etl::detail::try_add_lvalue_reference </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aaf50ac295ca995606cb5bf055f2c267c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf50ac295ca995606cb5bf055f2c267c">&#9670;&nbsp;</a></span>try_add_pointer() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::detail::try_add_pointer </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; typename <a class="el" href="structetl_1_1remove__reference.html">etl::remove_reference</a>&lt; T &gt;::type *&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a62e8d828da790a56eaa4e9d62e347835"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a62e8d828da790a56eaa4e9d62e347835">&#9670;&nbsp;</a></span>try_add_pointer() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::detail::try_add_pointer </td>
           <td>(</td>
           <td class="paramtype">&#160;</td>
           <td class="paramname"><em>...</em></td><td>)</td>
