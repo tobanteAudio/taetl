@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_integral\l\&lt; T \&gt;::value\|\|etl::is_floating\l_point\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,209,76"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__arithmetic.html" title="If T is an arithmetic type (that is, an integral type or a floating&#45;point type) or a cv&#45;qualified ver..." alt="" coords="257,27,428,54"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_arithmetic\l\&lt; T \&gt;::value\|\|etl::is_enum\l\&lt; T \&gt;::value\|\|etl::is_pointer\l\&lt; T \&gt;::value\|\|etl::is_member\l_pointer\&lt; T \&gt;::value\|\|etl::is\l_null_pointer\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,216,120"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__scalar.html" title="etl::is_scalar\&lt; T \&gt;" alt="" coords="264,49,407,76"/>
 </map>

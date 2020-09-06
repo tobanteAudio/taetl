@@ -17,6 +17,7 @@ var searchData=
   ['clear',['clear',['../classetl_1_1map.html#a0f1765eebe134ecf9f3a4f5674a9a43b',1,'etl::map::clear()'],['../classetl_1_1basic__string.html#a15784b3ae40403cc6858f1b86b496890',1,'etl::basic_string::clear()']]],
   ['common_5ftype',['common_type',['../structetl_1_1common__type.html',1,'etl']]],
   ['common_5ftype_3c_20common_5ftype_3c_20t1_2c_20t2_20_3e_3a_3atype_2c_20r_2e_2e_2e_20_3e',['common_type&lt; common_type&lt; T1, T2 &gt;::type, R... &gt;',['../structetl_1_1common__type.html',1,'etl']]],
+  ['common_5ftype_3c_20etl_3a_3achrono_3a_3aduration_3c_20rep1_2c_20period1_20_3e_2c_20etl_3a_3achrono_3a_3aduration_3c_20rep2_2c_20period2_20_3e_20_3e',['common_type&lt; etl::chrono::duration&lt; Rep1, Period1 &gt;, etl::chrono::duration&lt; Rep2, Period2 &gt; &gt;',['../structetl_1_1common__type_3_01etl_1_1chrono_1_1duration_3_01Rep1_00_01Period1_01_4_00_01etl_1_1cb97b81fdc5f26d47dec1bbf9c7339b38.html',1,'etl']]],
   ['common_5ftype_3c_20t_20_3e',['common_type&lt; T &gt;',['../structetl_1_1common__type_3_01T_01_4.html',1,'etl']]],
   ['common_5ftype_3c_20t_2c_20t_20_3e',['common_type&lt; T, T &gt;',['../structetl_1_1common__type.html',1,'etl']]],
   ['common_5ftype_3c_20t1_2c_20t2_20_3e',['common_type&lt; T1, T2 &gt;',['../structetl_1_1common__type_3_01T1_00_01T2_01_4.html',1,'etl']]],
