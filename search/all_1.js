@@ -15,6 +15,7 @@ var searchData=
   ['bit_5fset_5freset',['bit_set_reset',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a9789d55b1da9365859d0e36f8e4c64bf',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['bitset',['bitset',['../classetl_1_1bitset.html',1,'etl::bitset&lt; NumberOfBits &gt;'],['../classetl_1_1bitset.html#aca15e7866be23897a6ebbb7e99641351',1,'etl::bitset::bitset()']]],
   ['bitset_2ehpp',['bitset.hpp',['../bitset_8hpp.html',1,'']]],
+  ['bool_5fconstant',['bool_constant',['../namespaceetl.html#aa19ff9e7939158584698cee4260e4471',1,'etl']]],
   ['broken_5fpipe',['broken_pipe',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a2f0338eed54503152be1d31c93c9c2f1',1,'etl']]],
   ['buffer_2ehpp',['buffer.hpp',['../buffer_8hpp.html',1,'']]],
   ['buffer_5fconst_2ehpp',['buffer_const.hpp',['../buffer__const_8hpp.html',1,'']]],

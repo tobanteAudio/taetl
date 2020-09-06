@@ -1,8 +1,9 @@
 <map id="etl/experimental/strong_type/strong_type.hpp" name="etl/experimental/strong_type/strong_type.hpp">
-<area shape="rect" id="node2" href="$crtp_8hpp.html" title="etl/crtp.hpp" alt="" coords="48,169,144,196"/>
-<area shape="rect" id="node3" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="106,244,225,271"/>
-<area shape="rect" id="node7" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="227,95,333,121"/>
-<area shape="rect" id="node4" href="$version_8hpp.html" title="version.hpp" alt="" coords="5,319,104,345"/>
-<area shape="rect" id="node8" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="219,169,360,196"/>
-<area shape="rect" id="node9" href="$intrinsics_8hpp.html" title="intrinsics.hpp" alt="" coords="249,244,359,271"/>
+<area shape="rect" id="node2" href="$crtp_8hpp.html" title="etl/crtp.hpp" alt="" coords="75,169,171,196"/>
+<area shape="rect" id="node3" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="106,333,225,360"/>
+<area shape="rect" id="node7" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="253,95,360,121"/>
+<area shape="rect" id="node4" href="$version_8hpp.html" title="version.hpp" alt="" coords="5,408,104,435"/>
+<area shape="rect" id="node8" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="245,169,387,196"/>
+<area shape="rect" id="node9" href="$type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="249,244,383,285"/>
+<area shape="rect" id="node10" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="249,333,420,360"/>
 </map>
