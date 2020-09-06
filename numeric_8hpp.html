@@ -73,17 +73,19 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="definitions_8hpp_source.html">definitions.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="limits_8hpp_source.html">limits.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">type_traits.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utility_8hpp_source.html">utility.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for numeric.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="numeric_8hpp__incl.png" border="0" usemap="#etl_2numeric_8hpp" alt=""/></div>
 <map name="etl_2numeric_8hpp" id="etl_2numeric_8hpp">
-<area shape="rect" id="node2" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="106,244,225,271"/>
-<area shape="rect" id="node6" href="limits_8hpp.html" title="limits.hpp" alt="" coords="237,80,323,107"/>
-<area shape="rect" id="node10" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="439,80,559,107"/>
-<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="5,319,104,345"/>
-<area shape="rect" id="node11" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="477,155,611,196"/>
-<area shape="rect" id="node12" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="459,244,629,271"/>
+<area shape="rect" id="node2" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="106,319,225,345"/>
+<area shape="rect" id="node6" href="limits_8hpp.html" title="limits.hpp" alt="" coords="282,80,369,107"/>
+<area shape="rect" id="node10" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="477,155,597,181"/>
+<area shape="rect" id="node13" href="utility_8hpp.html" title="utility.hpp" alt="" coords="481,80,567,107"/>
+<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="5,393,104,420"/>
+<area shape="rect" id="node11" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="369,229,503,271"/>
+<area shape="rect" id="node12" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="351,319,521,345"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -118,14 +120,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a594a7b7fb202c9a1b6d82115e7a172e3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">etl::abs</a> (Type input) noexcept -&gt; Type</td></tr>
 <tr class="memdesc:a594a7b7fb202c9a1b6d82115e7a172e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute value.  <a href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">More...</a><br /></td></tr>
 <tr class="separator:a594a7b7fb202c9a1b6d82115e7a172e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="memTemplParams" colspan="2">template&lt;typename M , typename N &gt; </td></tr>
-<tr class="memitem:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac0c15d45f1e3cd0c35fa9c638e90fb4b">etl::gcd</a> (M m, N n) noexcept</td></tr>
-<tr class="memdesc:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the greatest common divisor of the integers m and n.  <a href="namespaceetl.html#ac0c15d45f1e3cd0c35fa9c638e90fb4b">More...</a><br /></td></tr>
-<tr class="separator:ac0c15d45f1e3cd0c35fa9c638e90fb4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9900f32867800d2a9ffa2c660090cc83"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:a9900f32867800d2a9ffa2c660090cc83"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9900f32867800d2a9ffa2c660090cc83">etl::midpoint</a> (Integer a, Integer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, Integer &gt;</td></tr>
-<tr class="memdesc:a9900f32867800d2a9ffa2c660090cc83"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  T is arithmentic type other than bool.  <a href="namespaceetl.html#a9900f32867800d2a9ffa2c660090cc83">More...</a><br /></td></tr>
-<tr class="separator:a9900f32867800d2a9ffa2c660090cc83"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memTemplParams" colspan="2">template&lt;typename M , typename N &gt; </td></tr>
+<tr class="memitem:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">etl::gcd</a> (M m, N n) noexcept -&gt; <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt; M, N &gt;</td></tr>
+<tr class="memdesc:ab65cd6f8748c172eab6ee36130dca3c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the greatest common divisor of the integers m and n.  <a href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">More...</a><br /></td></tr>
+<tr class="separator:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
+<tr class="memitem:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add674d1e1c1fd1d72dd7b39f74a0525a">etl::midpoint</a> (Integer a, Integer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt; &amp;&amp;!<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt; Integer, bool &gt;, Integer &gt;</td></tr>
+<tr class="memdesc:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="namespaceetl.html#add674d1e1c1fd1d72dd7b39f74a0525a">More...</a><br /></td></tr>
+<tr class="separator:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memTemplParams" colspan="2">template&lt;typename Float &gt; </td></tr>
 <tr class="memitem:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd6eb417ecc3a7b1c7e71baab1c2c522">etl::midpoint</a> (Float a, Float b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a5cf273d19443134cffcd66310d027ae4">etl::is_floating_point_v</a>&lt; Float &gt;, Float &gt;</td></tr>
 <tr class="separator:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memSeparator" colspan="2">&#160;</td></tr>

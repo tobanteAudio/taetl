@@ -71,14 +71,18 @@ $(function() {
 <div class="title">bit.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="definitions_8hpp_source.html">definitions.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="definitions_8hpp_source.html">etl/definitions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">etl/type_traits.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for bit.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="bit_8hpp__incl.png" border="0" usemap="#etl_2bit_8hpp" alt=""/></div>
 <map name="etl_2bit_8hpp" id="etl_2bit_8hpp">
-<area shape="rect" id="node2" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="106,80,225,107"/>
-<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="5,155,104,181"/>
+<area shape="rect" id="node2" href="definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="96,244,235,271"/>
+<area shape="rect" id="node6" href="type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="203,80,344,107"/>
+<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="5,319,104,345"/>
+<area shape="rect" id="node7" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="207,155,340,196"/>
+<area shape="rect" id="node8" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="259,244,429,271"/>
 </map>
 </div>
 </div>
@@ -101,10 +105,10 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0d02c4c388de0067ab15cb5febdebea7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a0d02c4c388de0067ab15cb5febdebea7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0d02c4c388de0067ab15cb5febdebea7">etl::popcount</a> (T input) noexcept -&gt; int</td></tr>
-<tr class="memdesc:a0d02c4c388de0067ab15cb5febdebea7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="namespaceetl.html#a0d02c4c388de0067ab15cb5febdebea7">More...</a><br /></td></tr>
-<tr class="separator:a0d02c4c388de0067ab15cb5febdebea7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a42c567d4af50ac4e8ec50f6694b80c36"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a42c567d4af50ac4e8ec50f6694b80c36"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a42c567d4af50ac4e8ec50f6694b80c36">etl::popcount</a> (T input) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a3bbd05dc09b68b19c63d7b4fbf6f1108">etl::is_unsigned_v</a>&lt; T &gt;, int &gt;</td></tr>
+<tr class="memdesc:a42c567d4af50ac4e8ec50f6694b80c36"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="namespaceetl.html#a42c567d4af50ac4e8ec50f6694b80c36">More...</a><br /></td></tr>
+<tr class="separator:a42c567d4af50ac4e8ec50f6694b80c36"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
