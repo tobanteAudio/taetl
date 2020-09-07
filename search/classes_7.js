@@ -41,6 +41,7 @@ var searchData=
   ['is_5ffloating_5fpoint_3c_20rep_20_3e',['is_floating_point&lt; Rep &gt;',['../structetl_1_1is__floating__point.html',1,'etl']]],
   ['is_5ffunction',['is_function',['../structetl_1_1is__function.html',1,'etl']]],
   ['is_5ffundamental',['is_fundamental',['../structetl_1_1is__fundamental.html',1,'etl']]],
+  ['is_5finteger_5fand_5fnot_5fchar',['is_integer_and_not_char',['../structetl_1_1detail_1_1is__integer__and__not__char.html',1,'etl::detail']]],
   ['is_5fintegral',['is_integral',['../structetl_1_1is__integral.html',1,'etl']]],
   ['is_5flvalue_5freference',['is_lvalue_reference',['../structetl_1_1is__lvalue__reference.html',1,'etl']]],
   ['is_5fmember_5ffunction_5fpointer',['is_member_function_pointer',['../structetl_1_1is__member__function__pointer.html',1,'etl']]],
@@ -71,7 +72,6 @@ var searchData=
   ['is_5funion',['is_union',['../structetl_1_1is__union.html',1,'etl']]],
   ['is_5funsigned',['is_unsigned',['../structetl_1_1is__unsigned.html',1,'etl']]],
   ['is_5funsigned_5finteger',['is_unsigned_integer',['../structetl_1_1detail_1_1is__unsigned__integer.html',1,'etl::detail']]],
-  ['is_5funsigned_5finteger_5fcomp',['is_unsigned_integer_comp',['../structetl_1_1detail_1_1is__unsigned__integer__comp.html',1,'etl::detail']]],
   ['is_5fvoid',['is_void',['../structetl_1_1is__void.html',1,'etl']]],
   ['isr',['isr',['../structetl_1_1hardware_1_1stm32_1_1isr.html',1,'etl::hardware::stm32']]]
 ];
