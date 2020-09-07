@@ -78,8 +78,6 @@ $(function() {
 Namespaces</h2></td></tr>
 <tr class="memitem:namespaceetl_1_1chrono"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html">chrono</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceetl_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html">detail</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1dsp"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1dsp.html">dsp</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1experimental"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental.html">experimental</a></td></tr>
@@ -204,10 +202,10 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the imaginary function definition To test() { return <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a>; } is well-formed, (that is, either <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a> can be converted to To using implicit conversions, or both From and To are possibly cv-qualified void), provides the member constant value equal to true. Otherwise value is false. For the purposes of this check, the use of <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> in the return statement is not considered an odr-use. Access checks are performed as if from a context unrelated to either type. Only the validity of the immediate context of the expression in the return statement (including conversions to the return type) is considered.  <a href="structetl_1_1is__convertible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__copy__constructible.html">is_copy_constructible</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_constructible&lt;T, const T&amp;&gt;::value</a>.  <a href="structetl_1_1is__copy__constructible.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_constructible&lt;T, const T&amp;&gt;::value.  <a href="structetl_1_1is__copy__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__default__constructible.html">is_default_constructible</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_constructible&lt;T&gt;::value</a> is true, provides the member constant value equal to true, otherwise value is false.  <a href="structetl_1_1is__default__constructible.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If etl::is_constructible&lt;T&gt;::value is true, provides the member constant value equal to true, otherwise value is false.  <a href="structetl_1_1is__default__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__enum.html">is_enum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -218,8 +216,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__error__condition__enum_3_01errc_01_4.html">is_error_condition_enum&lt; errc &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__floating__point.html">is_floating_point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a floating-point type. Provides the member constant value which is equal to true, if T is the type float, double, long double, including any cv-qualified variants. Otherwise, value is equal to false.  <a href="structetl_1_1is__floating__point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__function.html">is_function</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a function type. Types like <a class="el" href="classetl_1_1function.html">etl::function</a>, lambdas, classes with overloaded operator() and pointers to functions don't count as function types. Provides the member constant value which is equal to true, if T is a function type. Otherwise, value is equal to false.  <a href="structetl_1_1is__function.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__fundamental.html">is_fundamental</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -237,7 +237,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__member__pointer.html" title="If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for is_member_pointer or is_member_pointer_v (since C++17) is undefined. ">is_member_pointer</a> or is_member_pointer_v (since C++17) is undefined.  <a href="structetl_1_1is__member__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__move__constructible.html">is_move_constructible</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_constructible&lt;T, T&amp;&amp;&gt;::value</a>.  <a href="structetl_1_1is__move__constructible.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_constructible&lt;T, T&amp;&amp;&gt;::value.  <a href="structetl_1_1is__move__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__nothrow__constructible.html">is_nothrow_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable definition does not call any operation that is not trivial. For the purposes of this check, the call to <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> is considered trivial.  <a href="structetl_1_1is__nothrow__constructible.html#details">More...</a><br /></td></tr>
@@ -257,6 +257,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an object type (that is any possibly cv-qualified type other than function, reference, or void types), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__pointer.html">is_pointer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a pointer to object or a pointer to function (but not a pointer to member/member function). Provides the member constant value which is equal to true, if T is a object/function pointer type. Otherwise, value is equal to false.  <a href="structetl_1_1is__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__reference.html">is_reference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,26 +302,6 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an integral (except bool) or enumeration type, provides the member typedef type which is the unsigned integer type corresponding to T, with the same cv-qualifiers. If T is signed or unsigned char, short, int, long, long long; the unsigned type from this list corresponding to T is provided. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1make__unsigned.html" title="If T is an integral (except bool) or enumeration type, provides the member typedef type which is the ...">make_unsigned</a> is undefined.  <a href="structetl_1_1make__unsigned.html#details">More...</a><br /></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01char_01_4.html">make_unsigned&lt; signed char &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01int_01_4.html">make_unsigned&lt; signed int &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01long_01_4.html">make_unsigned&lt; signed long &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01long_01long_01_4.html">make_unsigned&lt; signed long long &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01signed_01short_01_4.html">make_unsigned&lt; signed short &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01char_01_4.html">make_unsigned&lt; unsigned char &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01int_01_4.html">make_unsigned&lt; unsigned int &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01long_01_4.html">make_unsigned&lt; unsigned long &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01long_01long_01_4.html">make_unsigned&lt; unsigned long long &gt;</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned_3_01unsigned_01short_01_4.html">make_unsigned&lt; unsigned short &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map.html">map</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -421,13 +402,13 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html">span</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">A non-owning view over a contiguous sequence of objects.  <a href="classetl_1_1span.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1stack__vector.html">stack_vector</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple.html">tuple</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple_3_01First_01_4.html">tuple&lt; First &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1type__identity.html">type_identity</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1vector.html">vector</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -567,7 +548,7 @@ Typedefs</h2></td></tr>
 <tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acb2df53f4e399975501cf8300d451814">make_unsigned_t</a> = typename <a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:acb2df53f4e399975501cf8300d451814"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a55bc1fa71ef93a7cd65389359e61683c"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
-<tr class="memitem:a55bc1fa71ef93a7cd65389359e61683c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">is_constructible</a> = <a class="el" href="structetl_1_1detail_1_1is__constructible__helper.html">detail::is_constructible_helper</a>&lt; <a class="el" href="namespaceetl.html#a8f76cc2621d7373b79e2fc034f160ee0">void_t</a>&lt;&gt;, T, Args... &gt;</td></tr>
+<tr class="memitem:a55bc1fa71ef93a7cd65389359e61683c"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">is_constructible</a> = detail::is_constructible_helper&lt; <a class="el" href="namespaceetl.html#a8f76cc2621d7373b79e2fc034f160ee0">void_t</a>&lt;&gt;, T, Args... &gt;</td></tr>
 <tr class="separator:a55bc1fa71ef93a7cd65389359e61683c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa508ba172c61957cf6c18357210f08f6"><td class="memTemplParams" colspan="2">template&lt;bool B, class T , class F &gt; </td></tr>
 <tr class="memitem:aa508ba172c61957cf6c18357210f08f6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa508ba172c61957cf6c18357210f08f6">conditional_t</a> = typename <a class="el" href="structetl_1_1conditional.html">conditional</a>&lt; B, T, F &gt;::type</td></tr>
@@ -825,23 +806,23 @@ Functions</h2></td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884">array</a> (T, U...) -&gt; <a class="el" href="classetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td></tr>
 <tr class="separator:ae5a13233ebf471c62f35f40b21128884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a966b3039757a35f7b1104a7f6c9b6523">popcount</a> (T input) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, int &gt;</td></tr>
+<tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a966b3039757a35f7b1104a7f6c9b6523">popcount</a> (T input) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a966b3039757a35f7b1104a7f6c9b6523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a966b3039757a35f7b1104a7f6c9b6523">More...</a><br /></td></tr>
 <tr class="separator:a966b3039757a35f7b1104a7f6c9b6523"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af4fea3bb59d69e9a23786b36024d802a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:af4fea3bb59d69e9a23786b36024d802a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af4fea3bb59d69e9a23786b36024d802a">has_single_bit</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:af4fea3bb59d69e9a23786b36024d802a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af4fea3bb59d69e9a23786b36024d802a">has_single_bit</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:af4fea3bb59d69e9a23786b36024d802a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if x is an integral power of two.  <a href="#af4fea3bb59d69e9a23786b36024d802a">More...</a><br /></td></tr>
 <tr class="separator:af4fea3bb59d69e9a23786b36024d802a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89028d9dc63da94a3c786df4c0a09f03"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a89028d9dc63da94a3c786df4c0a09f03"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a89028d9dc63da94a3c786df4c0a09f03">countl_zero</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, int &gt;</td></tr>
+<tr class="memitem:a89028d9dc63da94a3c786df4c0a09f03"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a89028d9dc63da94a3c786df4c0a09f03">countl_zero</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a89028d9dc63da94a3c786df4c0a09f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 0 bits in the value of x, starting from the most significant bit ("left").  <a href="#a89028d9dc63da94a3c786df4c0a09f03">More...</a><br /></td></tr>
 <tr class="separator:a89028d9dc63da94a3c786df4c0a09f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a036c43ee12867c8bc74fe95022f175c3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a036c43ee12867c8bc74fe95022f175c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a036c43ee12867c8bc74fe95022f175c3">countl_one</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, int &gt;</td></tr>
+<tr class="memitem:a036c43ee12867c8bc74fe95022f175c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a036c43ee12867c8bc74fe95022f175c3">countl_one</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a036c43ee12867c8bc74fe95022f175c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 1 ("one") bits in the value of x, starting from the most significant bit ("left").  <a href="#a036c43ee12867c8bc74fe95022f175c3">More...</a><br /></td></tr>
 <tr class="separator:a036c43ee12867c8bc74fe95022f175c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9317469178624538d15a8e264d22887a">bit_width</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, int &gt;</td></tr>
+<tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9317469178624538d15a8e264d22887a">bit_width</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a9317469178624538d15a8e264d22887a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero.  <a href="#a9317469178624538d15a8e264d22887a">More...</a><br /></td></tr>
 <tr class="separator:a9317469178624538d15a8e264d22887a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
@@ -932,6 +913,38 @@ Functions</h2></td></tr>
 <tr class="memitem:add013e52c2672440c53a8d2c82d4c63a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a">strlen</a> (const char *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
 <tr class="memdesc:add013e52c2672440c53a8d2c82d4c63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#add013e52c2672440c53a8d2c82d4c63a">More...</a><br /></td></tr>
 <tr class="separator:add013e52c2672440c53a8d2c82d4c63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3031e070c39546444bdd5fda57ead3d2"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a3031e070c39546444bdd5fda57ead3d2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2">begin</a> (C &amp;c) -&gt; decltype(c.begin())</td></tr>
+<tr class="memdesc:a3031e070c39546444bdd5fda57ead3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise.  <a href="#a3031e070c39546444bdd5fda57ead3d2">More...</a><br /></td></tr>
+<tr class="separator:a3031e070c39546444bdd5fda57ead3d2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a66664547d4c0705247e58b8580e1990e"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a66664547d4c0705247e58b8580e1990e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a66664547d4c0705247e58b8580e1990e">begin</a> (const C &amp;c) -&gt; decltype(c.begin())</td></tr>
+<tr class="memdesc:a66664547d4c0705247e58b8580e1990e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise.  <a href="#a66664547d4c0705247e58b8580e1990e">More...</a><br /></td></tr>
+<tr class="separator:a66664547d4c0705247e58b8580e1990e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0330eb79a39a00af31e79ece021f90f"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:ab0330eb79a39a00af31e79ece021f90f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f">begin</a> (T(&amp;<a class="el" href="classetl_1_1array.html">array</a>)[N]) noexcept -&gt; T *</td></tr>
+<tr class="memdesc:ab0330eb79a39a00af31e79ece021f90f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns a pointer to the beginning of the array.  <a href="#ab0330eb79a39a00af31e79ece021f90f">More...</a><br /></td></tr>
+<tr class="separator:ab0330eb79a39a00af31e79ece021f90f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac530ab34c9d8ef872aeb563f30be8091"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:ac530ab34c9d8ef872aeb563f30be8091"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac530ab34c9d8ef872aeb563f30be8091">cbegin</a> (const C &amp;c) noexcept(noexcept(<a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2">etl::begin</a>(c))) -&gt; decltype(<a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2">etl::begin</a>(c))</td></tr>
+<tr class="memdesc:ac530ab34c9d8ef872aeb563f30be8091"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly etl::begin(c), with c always treated as const-qualified. If C is a standard Container, this always returns C::const_iterator.  <a href="#ac530ab34c9d8ef872aeb563f30be8091">More...</a><br /></td></tr>
+<tr class="separator:ac530ab34c9d8ef872aeb563f30be8091"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abf9eb859a31968a9179b29b638cd054b"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:abf9eb859a31968a9179b29b638cd054b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b">end</a> (C &amp;c) -&gt; decltype(c.end())</td></tr>
+<tr class="memdesc:abf9eb859a31968a9179b29b638cd054b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation.  <a href="#abf9eb859a31968a9179b29b638cd054b">More...</a><br /></td></tr>
+<tr class="separator:abf9eb859a31968a9179b29b638cd054b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb97ec3cd4ce3928f2e25709ee21afa0"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:afb97ec3cd4ce3928f2e25709ee21afa0"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afb97ec3cd4ce3928f2e25709ee21afa0">end</a> (const C &amp;c) -&gt; decltype(c.end())</td></tr>
+<tr class="memdesc:afb97ec3cd4ce3928f2e25709ee21afa0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation.  <a href="#afb97ec3cd4ce3928f2e25709ee21afa0">More...</a><br /></td></tr>
+<tr class="separator:afb97ec3cd4ce3928f2e25709ee21afa0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6f5d203d41447f951c386a27ef969327"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:a6f5d203d41447f951c386a27ef969327"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327">end</a> (T(&amp;<a class="el" href="classetl_1_1array.html">array</a>)[N]) noexcept -&gt; T *</td></tr>
+<tr class="memdesc:a6f5d203d41447f951c386a27ef969327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation.  <a href="#a6f5d203d41447f951c386a27ef969327">More...</a><br /></td></tr>
+<tr class="separator:a6f5d203d41447f951c386a27ef969327"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9516c752e87a1cc87e7bc5763b61b7f4"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
+<tr class="memitem:a9516c752e87a1cc87e7bc5763b61b7f4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9516c752e87a1cc87e7bc5763b61b7f4">cend</a> (const C &amp;c) noexcept(noexcept(<a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b">etl::end</a>(c))) -&gt; decltype(<a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b">etl::end</a>(c))</td></tr>
+<tr class="memdesc:a9516c752e87a1cc87e7bc5763b61b7f4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation.  <a href="#a9516c752e87a1cc87e7bc5763b61b7f4">More...</a><br /></td></tr>
+<tr class="separator:a9516c752e87a1cc87e7bc5763b61b7f4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3008e042f920b06e2a67b1aa31a1803"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:af3008e042f920b06e2a67b1aa31a1803"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803">size</a> (C const &amp;c) noexcept(noexcept(c.size())) -&gt; decltype(c.size())</td></tr>
 <tr class="memdesc:af3008e042f920b06e2a67b1aa31a1803"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the size of the given container c or array array. Returns <a class="el" href="namespaceetl.html#ac88d35eb701e83ae17b613e3041ef063" title="Returns the size of the given container c or array array. Returns N. ">c.size()</a>, converted to the return type if necessary.  <a href="#af3008e042f920b06e2a67b1aa31a1803">More...</a><br /></td></tr>
@@ -1034,9 +1047,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4151e119ab2900682096503b5592cdd1"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4151e119ab2900682096503b5592cdd1">operator&gt;=</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a4151e119ab2900682096503b5592cdd1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#a4151e119ab2900682096503b5592cdd1">More...</a><br /></td></tr>
 <tr class="separator:a4151e119ab2900682096503b5592cdd1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
-<tr class="memitem:a15f4fd4efe3204f43756b83be3ae1479"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479">get</a> (const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(<a class="el" href="structetl_1_1detail_1_1get__impl.html">detail::get_impl</a>&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
-<tr class="separator:a15f4fd4efe3204f43756b83be3ae1479"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9df6d2b5d1046470baf1626470258ed2"><td class="memTemplParams" colspan="2">template&lt;int index, typename First , typename... Rest&gt; </td></tr>
+<tr class="memitem:a9df6d2b5d1046470baf1626470258ed2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9df6d2b5d1046470baf1626470258ed2">get</a> (const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;t) -&gt; decltype(detail::get_impl&lt; index, First, Rest... &gt;::value(&amp;t))</td></tr>
+<tr class="separator:a9df6d2b5d1046470baf1626470258ed2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">declval</a> () noexcept -&gt; typename <a class="el" href="structetl_1_1add__rvalue__reference.html">etl::add_rvalue_reference</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:a4147daa38c6c4c1e59540fa0fa27a292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts any type T to a reference type, making it possible to use member functions in decltype expressions without the need to go through constructors.  <a href="#a4147daa38c6c4c1e59540fa0fa27a292">More...</a><br /></td></tr>
@@ -1066,31 +1079,31 @@ Functions</h2></td></tr>
 <tr class="memdesc:a96cf5452578f57be8c16cc9b4688f8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const rvalue reference overload is deleted to disallow rvalue arguments.  <a href="#a96cf5452578f57be8c16cc9b4688f8af">More...</a><br /></td></tr>
 <tr class="separator:a96cf5452578f57be8c16cc9b4688f8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adf43ebd431e0effc1fcd56e1cdb3a58c">cmp_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adf43ebd431e0effc1fcd56e1cdb3a58c">cmp_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#adf43ebd431e0effc1fcd56e1cdb3a58c">More...</a><br /></td></tr>
 <tr class="separator:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a67fad2bcf2015251e85a6881458656c5"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a67fad2bcf2015251e85a6881458656c5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a67fad2bcf2015251e85a6881458656c5">cmp_not_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:a67fad2bcf2015251e85a6881458656c5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a67fad2bcf2015251e85a6881458656c5">cmp_not_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:a67fad2bcf2015251e85a6881458656c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a67fad2bcf2015251e85a6881458656c5">More...</a><br /></td></tr>
 <tr class="separator:a67fad2bcf2015251e85a6881458656c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8c2faa4ff3aa7b68304c111c33000601"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a8c2faa4ff3aa7b68304c111c33000601"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8c2faa4ff3aa7b68304c111c33000601">cmp_less</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:a8c2faa4ff3aa7b68304c111c33000601"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8c2faa4ff3aa7b68304c111c33000601">cmp_less</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:a8c2faa4ff3aa7b68304c111c33000601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a8c2faa4ff3aa7b68304c111c33000601">More...</a><br /></td></tr>
 <tr class="separator:a8c2faa4ff3aa7b68304c111c33000601"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a726b4eedfb2a4ae9c478e0e98588a2e8">cmp_greater</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a726b4eedfb2a4ae9c478e0e98588a2e8">cmp_greater</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a726b4eedfb2a4ae9c478e0e98588a2e8">More...</a><br /></td></tr>
 <tr class="separator:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a331ef5587f806c7dc56a94dfaaf8e819">cmp_less_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a331ef5587f806c7dc56a94dfaaf8e819">cmp_less_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:a331ef5587f806c7dc56a94dfaaf8e819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a331ef5587f806c7dc56a94dfaaf8e819">More...</a><br /></td></tr>
 <tr class="separator:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0eb292194946c9d80e86df97adf5635b"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
-<tr class="memitem:a0eb292194946c9d80e86df97adf5635b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0eb292194946c9d80e86df97adf5635b">cmp_greater_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:a0eb292194946c9d80e86df97adf5635b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0eb292194946c9d80e86df97adf5635b">cmp_greater_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:a0eb292194946c9d80e86df97adf5635b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a0eb292194946c9d80e86df97adf5635b">More...</a><br /></td></tr>
 <tr class="separator:a0eb292194946c9d80e86df97adf5635b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memTemplParams" colspan="2">template&lt;class R , class T &gt; </td></tr>
-<tr class="memitem:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa374f8a8aadeee045b4a6d154baa5d7c">in_range</a> (T t) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt; T &gt;::value, bool &gt;</td></tr>
+<tr class="memitem:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa374f8a8aadeee045b4a6d154baa5d7c">in_range</a> (T t) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value, bool &gt;</td></tr>
 <tr class="memdesc:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the value of t is in the range of values that can be represented in R, that is, if t can be converted to R without data loss.  <a href="#aa374f8a8aadeee045b4a6d154baa5d7c">More...</a><br /></td></tr>
 <tr class="separator:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
@@ -1177,6 +1190,9 @@ Variables</h2></td></tr>
 <tr class="memitem:afaa46050181985a6156a6c800c86a7d8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:afaa46050181985a6156a6c800c86a7d8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afaa46050181985a6156a6c800c86a7d8">is_array_v</a> = <a class="el" href="structetl_1_1is__array.html">is_array</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:afaa46050181985a6156a6c800c86a7d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aec3b44fa05f956c1efc4f34af98bd1f0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aec3b44fa05f956c1efc4f34af98bd1f0"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aec3b44fa05f956c1efc4f34af98bd1f0">is_function_v</a> = <a class="el" href="structetl_1_1is__function.html">is_function</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:aec3b44fa05f956c1efc4f34af98bd1f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac00eca7d51c4d2c1021402ee9a70f03c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ac00eca7d51c4d2c1021402ee9a70f03c"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a> = <a class="el" href="structetl_1_1is__pointer.html">is_pointer</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:ac00eca7d51c4d2c1021402ee9a70f03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1684,7 +1700,7 @@ template&lt;bool B, class T  = void&gt; </div>
 template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a> = typedef <a class="el" href="structetl_1_1detail_1_1is__constructible__helper.html">detail::is_constructible_helper</a>&lt;<a class="el" href="namespaceetl.html#a8f76cc2621d7373b79e2fc034f160ee0">void_t</a>&lt;&gt;, T, Args...&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a> = typedef detail::is_constructible_helper&lt;<a class="el" href="namespaceetl.html#a8f76cc2621d7373b79e2fc034f160ee0">void_t</a>&lt;&gt;, T, Args...&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2787,6 +2803,86 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a3031e070c39546444bdd5fda57ead3d2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3031e070c39546444bdd5fda57ead3d2">&#9670;&nbsp;</a></span>begin() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::begin </td>
+          <td>(</td>
+          <td class="paramtype">C &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; decltype(c.begin())
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise. </p>
+<p>Custom overloads of begin may be provided for classes that do not expose a suitable <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> member function, yet can be iterated. </p>
+
+</div>
+</div>
+<a id="a66664547d4c0705247e58b8580e1990e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a66664547d4c0705247e58b8580e1990e">&#9670;&nbsp;</a></span>begin() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::begin </td>
+          <td>(</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; decltype(c.begin())
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise. </p>
+<p>Custom overloads of begin may be provided for classes that do not expose a suitable <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> member function, yet can be iterated. </p>
+
+</div>
+</div>
+<a id="ab0330eb79a39a00af31e79ece021f90f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab0330eb79a39a00af31e79ece021f90f">&#9670;&nbsp;</a></span>begin() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , etl::size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::begin </td>
+          <td>(</td>
+          <td class="paramtype">T(&amp;)&#160;</td>
+          <td class="paramname"><em>array</em>[N]</td><td>)</td>
+          <td> -&gt; T*
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns a pointer to the beginning of the array. </p>
+<p>Custom overloads of begin may be provided for classes that do not expose a suitable <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> member function, yet can be iterated. </p>
+
+</div>
+</div>
 <a id="a9317469178624538d15a8e264d22887a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9317469178624538d15a8e264d22887a">&#9670;&nbsp;</a></span>bit_width()</h2>
 
@@ -2803,7 +2899,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt;T&gt;::value, int&gt;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
 </td>
         </tr>
       </table>
@@ -2816,6 +2912,69 @@ template&lt;typename T &gt; </div>
 
 <p>If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero. </p>
 <p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type). </p>
+
+</div>
+</div>
+<a id="ac530ab34c9d8ef872aeb563f30be8091"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac530ab34c9d8ef872aeb563f30be8091">&#9670;&nbsp;</a></span>cbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cbegin </td>
+          <td>(</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; decltype(<a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2">etl::begin</a>(c))
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly etl::begin(c), with c always treated as const-qualified. If C is a standard Container, this always returns C::const_iterator. </p>
+<p>Custom overloads of begin may be provided for classes that do not expose a suitable <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> member function, yet can be iterated. </p>
+
+</div>
+</div>
+<a id="a9516c752e87a1cc87e7bc5763b61b7f4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9516c752e87a1cc87e7bc5763b61b7f4">&#9670;&nbsp;</a></span>cend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cend </td>
+          <td>(</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; decltype(<a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b">etl::end</a>(c))
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation. </p>
 
 </div>
 </div>
@@ -2935,8 +3094,8 @@ template&lt;class T , class U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value
-                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;U&gt;::value,
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
+                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
                    bool&gt;
 </td>
         </tr>
@@ -2979,8 +3138,8 @@ template&lt;class T , class U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value
-                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;U&gt;::value,
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
+                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
                    bool&gt;
 </td>
         </tr>
@@ -3023,8 +3182,8 @@ template&lt;class T , class U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value
-                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;U&gt;::value,
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
+                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
                    bool&gt;
 </td>
         </tr>
@@ -3067,8 +3226,8 @@ template&lt;class T , class U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value
-                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;U&gt;::value,
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
+                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
                    bool&gt;
 </td>
         </tr>
@@ -3111,8 +3270,8 @@ template&lt;class T , class U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value
-                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;U&gt;::value,
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
+                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
                    bool&gt;
 </td>
         </tr>
@@ -3155,8 +3314,8 @@ template&lt;class T , class U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value
-                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;U&gt;::value,
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
+                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
                    bool&gt;
 </td>
         </tr>
@@ -3189,7 +3348,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt;T&gt;::value, int&gt;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
 </td>
         </tr>
       </table>
@@ -3222,7 +3381,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt;T&gt;::value, int&gt;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
 </td>
         </tr>
       </table>
@@ -3509,6 +3668,83 @@ template&lt;typename T , etl::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns whether the given container is empty. </p>
+
+</div>
+</div>
+<a id="abf9eb859a31968a9179b29b638cd054b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abf9eb859a31968a9179b29b638cd054b">&#9670;&nbsp;</a></span>end() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::end </td>
+          <td>(</td>
+          <td class="paramtype">C &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; decltype(c.end())
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation. </p>
+
+</div>
+</div>
+<a id="afb97ec3cd4ce3928f2e25709ee21afa0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb97ec3cd4ce3928f2e25709ee21afa0">&#9670;&nbsp;</a></span>end() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class C &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::end </td>
+          <td>(</td>
+          <td class="paramtype">const C &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; decltype(c.end())
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation. </p>
+
+</div>
+</div>
+<a id="a6f5d203d41447f951c386a27ef969327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6f5d203d41447f951c386a27ef969327">&#9670;&nbsp;</a></span>end() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , etl::size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::end </td>
+          <td>(</td>
+          <td class="paramtype">T(&amp;)&#160;</td>
+          <td class="paramname"><em>array</em>[N]</td><td>)</td>
+          <td> -&gt; T*
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation. </p>
 
 </div>
 </div>
@@ -3892,8 +4128,8 @@ template&lt;typename M , typename N &gt; </div>
 
 </div>
 </div>
-<a id="a15f4fd4efe3204f43756b83be3ae1479"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a15f4fd4efe3204f43756b83be3ae1479">&#9670;&nbsp;</a></span>get()</h2>
+<a id="a9df6d2b5d1046470baf1626470258ed2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9df6d2b5d1046470baf1626470258ed2">&#9670;&nbsp;</a></span>get()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3901,11 +4137,11 @@ template&lt;typename M , typename N &gt; </div>
 template&lt;int index, typename First , typename... Rest&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">auto etl::get </td>
+          <td class="memname">constexpr auto etl::get </td>
           <td>(</td>
           <td class="paramtype">const <a class="el" href="structetl_1_1tuple.html">tuple</a>&lt; First, Rest... &gt; &amp;&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt; decltype(<a class="el" href="structetl_1_1detail_1_1get__impl.html">detail::get_impl</a>&lt;index, First, Rest...&gt;::value(&amp;t))
+          <td> -&gt; decltype(detail::get_impl&lt;index, First, Rest...&gt;::value(&amp;t))
 </td>
         </tr>
       </table>
@@ -3929,7 +4165,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt;T&gt;::value, bool&gt;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, bool&gt;
 </td>
         </tr>
       </table>
@@ -3983,7 +4219,7 @@ template&lt;class R , class T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__integer__and__not__char.html">detail::is_integer_and_not_char</a>&lt;T&gt;::value, bool&gt;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value, bool&gt;
 </td>
         </tr>
       </table>
@@ -6027,7 +6263,7 @@ template&lt;class T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt;T&gt;::value, int&gt;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
 </td>
         </tr>
       </table>
@@ -6626,6 +6862,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_floating_point_v = <a class="el" href="structetl_1_1is__floating__point.html">is_floating_point</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aec3b44fa05f956c1efc4f34af98bd1f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aec3b44fa05f956c1efc4f34af98bd1f0">&#9670;&nbsp;</a></span>is_function_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_function_v = <a class="el" href="structetl_1_1is__function.html">is_function</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>

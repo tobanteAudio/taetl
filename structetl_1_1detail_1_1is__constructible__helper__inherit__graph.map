@@ -1,6 +1,0 @@
-<map id="etl::detail::is_constructible_helper&lt; class, T, Args &gt;" name="etl::detail::is_constructible_helper&lt; class, T, Args &gt;">
-<area shape="rect" id="node3" href="$structetl_1_1is__copy__constructible.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="421,5,640,76"/>
-<area shape="rect" id="node4" href="$structetl_1_1is__default__constructible.html" title="If etl::is_constructible&lt;T&gt;::value is true, provides the member constant value equal to true..." alt="" coords="411,101,651,127"/>
-<area shape="rect" id="node5" href="$structetl_1_1is__move__constructible.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="421,151,640,207"/>
-<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::false_type" alt="" coords="5,101,120,127"/>
-</map>

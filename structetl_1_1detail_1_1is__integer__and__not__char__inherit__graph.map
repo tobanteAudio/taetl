@@ -1,3 +1,0 @@
-<map id="etl::detail::is_integer_and_not_char&lt; T &gt;" name="etl::detail::is_integer_and_not_char&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, is_integral_v\l\&lt; T \&gt; &amp;&amp;(!is_same_v\&lt; T,\l bool \&gt; &amp;&amp;!is_same_v\&lt; T,\l char \&gt; &amp;&amp;!is_same_v\&lt; T,\l char16_t \&gt; &amp;&amp;!is_same_v\&lt;\l T, char32_t \&gt; &amp;&amp;!is_same_v\l\&lt; T, wchar_t \&gt;)\&gt;" alt="" coords="5,5,216,135"/>
-</map>

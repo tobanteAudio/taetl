@@ -70,13 +70,15 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
+<p>Checks whether T is a function type. Types like <a class="el" href="classetl_1_1function.html">etl::function</a>, lambdas, classes with overloaded operator() and pointers to functions don't count as function types. Provides the member constant value which is equal to true, if T is a function type. Otherwise, value is equal to false.  
+ <a href="structetl_1_1is__function.html#details">More...</a></p>
+
 <p><code>#include &lt;<a class="el" href="type__traits__decl_8hpp_source.html">type_traits_decl.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for etl::is_function&lt; T &gt;:</div>
 <div class="dyncontent">
 <div class="center"><img src="structetl_1_1is__function__inherit__graph.png" border="0" usemap="#etl_1_1is__function_3_01T_01_4_inherit__map" alt="Inheritance graph"/></div>
 <map name="etl_1_1is__function_3_01T_01_4_inherit__map" id="etl_1_1is__function_3_01T_01_4_inherit__map">
-<area shape="rect" id="node3" href="structetl_1_1detail_1_1is__member__function__pointer__helper_3_01T_01U_1_1_5_01_4.html" title="etl::detail::is_member\l_function_pointer_helper\l\&lt; T U::* \&gt;" alt="" coords="464,13,647,69"/>
 <area shape="rect" id="node2" href="structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, !etl::is_const\l\&lt; const T \&gt;::value &amp;&amp;!etl\l::is_reference\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,212,76"/>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
@@ -105,7 +107,13 @@ Additional Inherited Members</h2></td></tr>
 <tr class="memitem:ac6a0d38654d5eeea44e25fea4eae7a55 inherit pub_static_attribs_structetl_1_1integral__constant"><td class="memItemLeft" align="right" valign="top">static constexpr bool&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">value</a></td></tr>
 <tr class="separator:ac6a0d38654d5eeea44e25fea4eae7a55 inherit pub_static_attribs_structetl_1_1integral__constant"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<hr/>The documentation for this struct was generated from the following file:<ul>
+<a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
+<div class="textblock"><h3>template&lt;class T&gt;<br />
+struct etl::is_function&lt; T &gt;</h3>
+
+<p>Checks whether T is a function type. Types like <a class="el" href="classetl_1_1function.html">etl::function</a>, lambdas, classes with overloaded operator() and pointers to functions don't count as function types. Provides the member constant value which is equal to true, if T is a function type. Otherwise, value is equal to false. </p>
+<p>The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__function.html" title="Checks whether T is a function type. Types like etl::function, lambdas, classes with overloaded opera...">is_function</a> or is_function_v is undefined. </p>
+</div><hr/>The documentation for this struct was generated from the following file:<ul>
 <li>etl/detail/<a class="el" href="type__traits__decl_8hpp_source.html">type_traits_decl.hpp</a></li>
 </ul>
 </div><!-- contents -->

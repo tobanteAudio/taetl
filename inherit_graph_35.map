@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1detail_1_1common__type__2__impl.html" title="etl::detail::common\l_type_2_impl\&lt; etl::decay\l\&lt; T1 \&gt;::type, etl::decay\l\&lt; T2 \&gt;::type \&gt;" alt="" coords="5,5,193,76"/>
-<area shape="rect" id="node2" href="$structetl_1_1common__type_3_01T1_00_01T2_01_4.html" title="etl::common_type\&lt; T1,\l T2 \&gt;" alt="" coords="241,20,416,61"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::den\&lt; R2::num *R1\l::den)\&gt;" alt="" coords="5,5,173,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1ratio__less.html" title="Compares two ratio objects for equality at compile&#45;time. If the ratio R1 is less than the ratio R2..." alt="" coords="221,5,368,47"/>
 </map>

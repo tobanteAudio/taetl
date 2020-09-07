@@ -1,4 +1,0 @@
-<map id="etl::detail::is_member_function_pointer_helper&lt; T U::* &gt;" name="etl::detail::is_member_function_pointer_helper&lt; T U::* &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1is__function.html" title="etl::is_function\&lt; T \&gt;" alt="" coords="260,27,416,54"/>
-<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, !etl::is_const\l\&lt; const T \&gt;::value &amp;&amp;!etl\l::is_reference\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,212,76"/>
-</map>

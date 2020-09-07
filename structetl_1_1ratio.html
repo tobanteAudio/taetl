@@ -84,7 +84,7 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a15ad9bea294aeeba2f02f33ec0283065"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespaceetl.html#a178a2082210268baa21de6920cf2de96">intmax_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">num</a> = <a class="el" href="namespaceetl_1_1detail.html#a61569dcf541d72a35bb405317d7dfa0e">detail::sign</a>(Num) * <a class="el" href="namespaceetl_1_1detail.html#a61569dcf541d72a35bb405317d7dfa0e">detail::sign</a>(Denom) * <a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">abs</a>(Num) / <a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">gcd</a>(Num, Denom)</td></tr>
+<tr class="memitem:a15ad9bea294aeeba2f02f33ec0283065"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespaceetl.html#a178a2082210268baa21de6920cf2de96">intmax_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">num</a> = detail::sign(Num) * detail::sign(Denom) * <a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">abs</a>(Num) / <a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">gcd</a>(Num, Denom)</td></tr>
 <tr class="separator:a15ad9bea294aeeba2f02f33ec0283065"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb49b27bde07d5c4878c5347454a0044"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="namespaceetl.html#a178a2082210268baa21de6920cf2de96">intmax_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">den</a> = <a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">abs</a>(Denom) / <a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">gcd</a>(Num, Denom)</td></tr>
 <tr class="separator:acb49b27bde07d5c4878c5347454a0044"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -148,7 +148,7 @@ template&lt;intmax_t Num, intmax_t Denom = 1&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="namespaceetl.html#a178a2082210268baa21de6920cf2de96">intmax_t</a> <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; Num, Denom &gt;::num = <a class="el" href="namespaceetl_1_1detail.html#a61569dcf541d72a35bb405317d7dfa0e">detail::sign</a>(Num) * <a class="el" href="namespaceetl_1_1detail.html#a61569dcf541d72a35bb405317d7dfa0e">detail::sign</a>(Denom) * <a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">abs</a>(Num) / <a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">gcd</a>(Num, Denom)</td>
+          <td class="memname">constexpr <a class="el" href="namespaceetl.html#a178a2082210268baa21de6920cf2de96">intmax_t</a> <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; Num, Denom &gt;::num = detail::sign(Num) * detail::sign(Denom) * <a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">abs</a>(Num) / <a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">gcd</a>(Num, Denom)</td>
         </tr>
       </table>
   </td>

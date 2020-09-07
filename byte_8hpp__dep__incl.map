@@ -1,8 +1,9 @@
 <map id="etl/byte.hpp" name="etl/byte.hpp">
 <area shape="rect" id="node2" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="125,80,261,107"/>
-<area shape="rect" id="node6" href="$cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="285,80,399,107"/>
+<area shape="rect" id="node7" href="$cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="285,80,399,107"/>
 <area shape="rect" id="node3" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="5,155,140,181"/>
-<area shape="rect" id="node5" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="164,155,264,181"/>
-<area shape="rect" id="node4" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="135,229,280,256"/>
-<area shape="rect" id="node7" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="288,155,396,181"/>
+<area shape="rect" id="node6" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="164,155,264,181"/>
+<area shape="rect" id="node4" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="211,229,356,256"/>
+<area shape="rect" id="node5" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="17,229,128,256"/>
+<area shape="rect" id="node8" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="288,155,396,181"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_member\l_pointer\&lt; T \&gt;::value &amp;&amp;!etl\l::is_member_function_pointer\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,221,91"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__member__object__pointer.html" title="Checks whether T is a non&#45;static member object pointer. Provides the member constant value which is e..." alt="" coords="269,27,436,69"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, R1::num==R2::num\l &amp;&amp;R1::den==R2::den \&gt;" alt="" coords="5,5,208,61"/>
+<area shape="rect" id="node2" href="$structetl_1_1ratio__equal.html" title="Compares two ratio objects for equality at compile&#45;time. If the ratios R1 and R2 are equal..." alt="" coords="256,13,412,54"/>
 </map>

@@ -1,3 +1,2 @@
 <map id="etl::is_convertible&lt; From, To &gt;" name="etl::is_convertible&lt; From, To &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool,(decltype(detail\l::test_returnable\&lt; To \&gt;\l(0))::value &amp;&amp;decltype(detail\l::test_nonvoid_convertible\&lt;\l From, To \&gt;(0))::value)\|\|(etl\l::is_void\&lt; From \&gt;::value &amp;&amp;etl\l::is_void\&lt; To \&gt;::value)\&gt;" alt="" coords="5,5,228,135"/>
 </map>
