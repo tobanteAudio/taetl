@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_member\l_pointer\&lt; T \&gt;::value &amp;&amp;!etl\l::is_member_function_pointer\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,221,91"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__member__object__pointer.html" title="Checks whether T is a non&#45;static member object pointer. Provides the member constant value which is e..." alt="" coords="269,27,436,69"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_integral\l\&lt; T \&gt;::value\|\|etl::is_floating\l_point\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,209,76"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__arithmetic.html" title="If T is an arithmetic type (that is, an integral type or a floating&#45;point type) or a cv&#45;qualified ver..." alt="" coords="257,27,428,54"/>
 </map>

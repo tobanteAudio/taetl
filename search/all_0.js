@@ -29,6 +29,7 @@ var searchData=
   ['address_5fin_5fuse',['address_in_use',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8e2bc80599069d337b43dff6edfb6891',1,'etl']]],
   ['address_5fnot_5favailable',['address_not_available',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a20abf2ffbf6e82e36405843f269d6438',1,'etl']]],
   ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
+  ['advance',['advance',['../namespaceetl.html#ac45065b143a47fb9249bda8d57ccca63',1,'etl']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
   ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],
   ['aligned_5fstorage_5ft',['aligned_storage_t',['../namespaceetl.html#a16ded42403ee495bd465c070c0262b8a',1,'etl']]],

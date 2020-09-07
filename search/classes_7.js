@@ -4,11 +4,13 @@ var searchData=
   ['in_5fplace_5findex_5ft',['in_place_index_t',['../structetl_1_1in__place__index__t.html',1,'etl']]],
   ['in_5fplace_5ft',['in_place_t',['../structetl_1_1in__place__t.html',1,'etl']]],
   ['in_5fplace_5ftype_5ft',['in_place_type_t',['../structetl_1_1in__place__type__t.html',1,'etl']]],
+  ['input_5fiterator_5ftag',['input_iterator_tag',['../structetl_1_1input__iterator__tag.html',1,'etl']]],
   ['integral_5fconstant',['integral_constant',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20_21etl_3a_3ais_5fconst_3c_20const_20t_20_3e_3a_3avalue_20_26_26_21etl_3a_3ais_5freference_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, !etl::is_const&lt; const T &gt;::value &amp;&amp;!etl::is_reference&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20_21etl_3a_3ais_5ffundamental_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, !etl::is_fundamental&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20_21etl_3a_3aratio_5fequal_5fv_3c_20r1_2c_20r2_20_3e_20_3e',['integral_constant&lt; bool, !etl::ratio_equal_v&lt; R1, R2 &gt; &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20etl_3a_3ais_5farithmetic_3c_20t_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5fenum_3c_20t_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5fpointer_3c_20t_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5fmember_5fpointer_3c_20t_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5fnull_5fpointer_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, etl::is_arithmetic&lt; T &gt;::value||etl::is_enum&lt; T &gt;::value||etl::is_pointer&lt; T &gt;::value||etl::is_member_pointer&lt; T &gt;::value||etl::is_null_pointer&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
+  ['integral_5fconstant_3c_20bool_2c_20etl_3a_3ais_5fclass_3c_20base_20_3e_3a_3avalue_20_26_26etl_3a_3ais_5fclass_3c_20derived_20_3e_3a_3avalue_20_26_26decltype_28detail_3a_3atest_5fpre_5fis_5fbase_5fof_3c_20base_2c_20derived_20_3e_280_29_29_3a_3avalue_20_3e',['integral_constant&lt; bool, etl::is_class&lt; Base &gt;::value &amp;&amp;etl::is_class&lt; Derived &gt;::value &amp;&amp;decltype(detail::test_pre_is_base_of&lt; Base, Derived &gt;(0))::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20etl_3a_3ais_5fintegral_3c_20t_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5ffloating_5fpoint_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, etl::is_integral&lt; T &gt;::value||etl::is_floating_point&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20etl_3a_3ais_5fmember_5fpointer_3c_20t_20_3e_3a_3avalue_20_26_26_21etl_3a_3ais_5fmember_5ffunction_5fpointer_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, etl::is_member_pointer&lt; T &gt;::value &amp;&amp;!etl::is_member_function_pointer&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20etl_3a_3ais_5fsame_3c_20float_2c_20etl_3a_3aremove_5fcv_3c_20rep_20_3e_3a_3atype_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5fsame_3c_20double_2c_20etl_3a_3aremove_5fcv_3c_20rep_20_3e_3a_3atype_20_3e_3a_3avalue_7c_7cetl_3a_3ais_5fsame_3c_20long_20double_2c_20etl_3a_3aremove_5fcv_3c_20rep_20_3e_3a_3atype_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, etl::is_same&lt; float, etl::remove_cv&lt; Rep &gt;::type &gt;::value||etl::is_same&lt; double, etl::remove_cv&lt; Rep &gt;::type &gt;::value||etl::is_same&lt; long double, etl::remove_cv&lt; Rep &gt;::type &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
@@ -29,6 +31,7 @@ var searchData=
   ['is_5farray',['is_array',['../structetl_1_1is__array.html',1,'etl']]],
   ['is_5farray_3c_20t_5b_5d_3e',['is_array&lt; T[]&gt;',['../structetl_1_1is__array_3_01T[]_4.html',1,'etl']]],
   ['is_5farray_3c_20t_5bn_5d_3e',['is_array&lt; T[N]&gt;',['../structetl_1_1is__array_3_01T[N]_4.html',1,'etl']]],
+  ['is_5fbase_5fof',['is_base_of',['../structetl_1_1is__base__of.html',1,'etl']]],
   ['is_5fclass',['is_class',['../structetl_1_1is__class.html',1,'etl']]],
   ['is_5fcompound',['is_compound',['../structetl_1_1is__compound.html',1,'etl']]],
   ['is_5fconst',['is_const',['../structetl_1_1is__const.html',1,'etl']]],
@@ -80,5 +83,7 @@ var searchData=
   ['is_5funion',['is_union',['../structetl_1_1is__union.html',1,'etl']]],
   ['is_5funsigned',['is_unsigned',['../structetl_1_1is__unsigned.html',1,'etl']]],
   ['is_5fvoid',['is_void',['../structetl_1_1is__void.html',1,'etl']]],
-  ['isr',['isr',['../structetl_1_1hardware_1_1stm32_1_1isr.html',1,'etl::hardware::stm32']]]
+  ['isr',['isr',['../structetl_1_1hardware_1_1stm32_1_1isr.html',1,'etl::hardware::stm32']]],
+  ['iterator_5ftraits',['iterator_traits',['../structetl_1_1iterator__traits.html',1,'etl']]],
+  ['iterator_5ftraits_3c_20t_20_2a_20_3e',['iterator_traits&lt; T * &gt;',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html',1,'etl']]]
 ];
