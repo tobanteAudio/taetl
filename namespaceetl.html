@@ -172,6 +172,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1fpos.html">fpos</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1front__insert__iterator.html">front_insert_iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1front__insert__iterator.html" title="etl::front_insert_iterator is an LegacyOutputIterator that prepends elements to a container for which...">etl::front_insert_iterator</a> is an LegacyOutputIterator that prepends elements to a container for which it was constructed. The container's push_front() member function is called whenever the iterator (whether dereferenced or not) is assigned to. Incrementing the <a class="el" href="classetl_1_1front__insert__iterator.html" title="etl::front_insert_iterator is an LegacyOutputIterator that prepends elements to a container for which...">etl::front_insert_iterator</a> is a no-op.  <a href="classetl_1_1front__insert__iterator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1function.html">function</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1function_3_01Capacity_00_01Result_07Arguments_8_8_8_08_4.html">function&lt; Capacity, Result(Arguments...)&gt;</a></td></tr>
@@ -1022,6 +1025,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
 <tr class="memitem:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab4ea18354d7bfc7358bf9c13004f0233">back_inserter</a> (Container &amp;container) -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a>&lt; Container &gt;</td></tr>
 <tr class="separator:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e969dbba1b9a1c3889a417e695fb296"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:a1e969dbba1b9a1c3889a417e695fb296"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1e969dbba1b9a1c3889a417e695fb296">front_inserter</a> (Container &amp;c) -&gt; <a class="el" href="classetl_1_1front__insert__iterator.html">etl::front_insert_iterator</a>&lt; Container &gt;</td></tr>
+<tr class="memdesc:a1e969dbba1b9a1c3889a417e695fb296"><td class="mdescLeft">&#160;</td><td class="mdescRight">front_inserter is a convenience function template that constructs a <a class="el" href="classetl_1_1front__insert__iterator.html" title="etl::front_insert_iterator is an LegacyOutputIterator that prepends elements to a container for which...">etl::front_insert_iterator</a> for the container c with the type deduced from the type of the argument.  <a href="#a1e969dbba1b9a1c3889a417e695fb296">More...</a><br /></td></tr>
+<tr class="separator:a1e969dbba1b9a1c3889a417e695fb296"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbedfa50bab7817a29802cce148c7def">addressof</a> (T &amp;arg) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt; T &gt;, T *&gt;</td></tr>
 <tr class="memdesc:adbedfa50bab7817a29802cce148c7def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;.  <a href="#adbedfa50bab7817a29802cce148c7def">More...</a><br /></td></tr>
@@ -4225,6 +4232,29 @@ template&lt;class T &gt; </div>
 <p>Forwards rvalues as rvalues and prohibits forwarding of rvalues as lvalues. </p>
 <p>This overload makes it possible to forward a result of an expression (such as function call), which may be rvalue or lvalue, as the original value category of a forwarding reference argument.</p>
 <p>https://en.cppreference.com/w/cpp/utility/forward </p>
+
+</div>
+</div>
+<a id="a1e969dbba1b9a1c3889a417e695fb296"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e969dbba1b9a1c3889a417e695fb296">&#9670;&nbsp;</a></span>front_inserter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Container &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::front_inserter </td>
+          <td>(</td>
+          <td class="paramtype">Container &amp;&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1front__insert__iterator.html">etl::front_insert_iterator</a>&lt;Container&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>front_inserter is a convenience function template that constructs a <a class="el" href="classetl_1_1front__insert__iterator.html" title="etl::front_insert_iterator is an LegacyOutputIterator that prepends elements to a container for which...">etl::front_insert_iterator</a> for the container c with the type deduced from the type of the argument. </p>
 
 </div>
 </div>
