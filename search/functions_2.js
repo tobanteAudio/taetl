@@ -15,6 +15,7 @@ var searchData=
   ['contains',['contains',['../classetl_1_1map.html#a795cab6f9ecd620e9d48b8033b160184',1,'etl::map']]],
   ['copy',['copy',['../structetl_1_1char__traits_3_01char_01_4.html#a845e942bb17f321f36ea246c7bc668b4',1,'etl::char_traits&lt; char &gt;::copy()'],['../classetl_1_1basic__string__view.html#adb2fca88ca3efcdce12f2fa0975d0dd0',1,'etl::basic_string_view::copy()']]],
   ['count',['count',['../classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72',1,'etl::chrono::duration::count()'],['../classetl_1_1map.html#a8857d6ee762f24b0fe2a01f619ca3c59',1,'etl::map::count()']]],
-  ['countl_5fzero',['countl_zero',['../namespaceetl.html#acd1cb844acd969230720bc68e1a31078',1,'etl']]],
+  ['countl_5fone',['countl_one',['../namespaceetl.html#a036c43ee12867c8bc74fe95022f175c3',1,'etl']]],
+  ['countl_5fzero',['countl_zero',['../namespaceetl.html#a89028d9dc63da94a3c786df4c0a09f03',1,'etl']]],
   ['create_5ftask',['create_task',['../namespaceetl_1_1rtos.html#a154ecb5e22e1f058d2f22fe8c6de9253',1,'etl::rtos']]]
 ];
