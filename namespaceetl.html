@@ -203,6 +203,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__convertible.html">is_convertible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the imaginary function definition To test() { return <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a>; } is well-formed, (that is, either <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a> can be converted to To using implicit conversions, or both From and To are possibly cv-qualified void), provides the member constant value equal to true. Otherwise value is false. For the purposes of this check, the use of <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> in the return statement is not considered an odr-use. Access checks are performed as if from a context unrelated to either type. Only the validity of the immediate context of the expression in the return statement (including conversions to the return type) is considered.  <a href="structetl_1_1is__convertible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__copy__constructible.html">is_copy_constructible</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_constructible&lt;T, const T&amp;&gt;::value</a>.  <a href="structetl_1_1is__copy__constructible.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__default__constructible.html">is_default_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_constructible&lt;T&gt;::value</a> is true, provides the member constant value equal to true, otherwise value is false.  <a href="structetl_1_1is__default__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -239,8 +242,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__nothrow__constructible.html">is_nothrow_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable definition does not call any operation that is not trivial. For the purposes of this check, the call to <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> is considered trivial.  <a href="structetl_1_1is__nothrow__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__nothrow__copy__constructible.html">is_nothrow_copy_constructible</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as copy, but uses etl::is_nothrow_constructible&lt;T, const T&amp;&gt;.  <a href="structetl_1_1is__nothrow__copy__constructible.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__nothrow__default__constructible.html">is_nothrow_default_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_nothrow_constructible&lt;T&gt;::value</a> is true, provides the member constant value equal to true, otherwise value is false.  <a href="structetl_1_1is__nothrow__default__constructible.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__nothrow__move__constructible.html">is_nothrow_move_constructible</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_nothrow_constructible&lt;T, T&amp;&amp;&gt;::value</a>.  <a href="structetl_1_1is__nothrow__move__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__null__pointer.html">is_null_pointer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -271,8 +280,14 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__constructible.html">is_trivially_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable definition does not call any operation that is not trivial. For the purposes of this check, the call to <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> is considered trivial.  <a href="structetl_1_1is__trivially__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__copy__constructible.html">is_trivially_copy_constructible</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Same as copy, but uses etl::is_trivially_constructible&lt;T, const T&amp;&gt;.  <a href="structetl_1_1is__trivially__copy__constructible.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__default__constructible.html">is_trivially_default_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_trivially_constructible&lt;T&gt;::value</a> is true, provides the member constant value equal to true, otherwise value is false.  <a href="structetl_1_1is__trivially__default__constructible.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__move__constructible.html">is_trivially_move_constructible</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_trivially_constructible&lt;T, T&amp;&amp;&gt;::value</a>.  <a href="structetl_1_1is__trivially__move__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__union.html">is_union</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1198,12 +1213,12 @@ Variables</h2></td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">is_constructible_v</a> = <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">is_constructible</a>&lt;T, Args...&gt;::value</td></tr>
 <tr class="separator:a1ab616d6855ca5fc60968a153587b2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93e29ee97fde0df4b13772894bce4eb8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:a93e29ee97fde0df4b13772894bce4eb8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a93e29ee97fde0df4b13772894bce4eb8">is_trivially_constructible_v</a> = <a class="el" href="structetl_1_1is__trivially__constructible.html">is_trivially_constructible</a>&lt;T&gt;::value</td></tr>
-<tr class="separator:a93e29ee97fde0df4b13772894bce4eb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac6320904d21308e0814a60d4047951c8"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ac6320904d21308e0814a60d4047951c8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac6320904d21308e0814a60d4047951c8">is_nothrow_constructible_v</a> = <a class="el" href="structetl_1_1is__nothrow__constructible.html">is_nothrow_constructible</a>&lt;T&gt;::value</td></tr>
-<tr class="separator:ac6320904d21308e0814a60d4047951c8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a74c34b46b65c2b8fa633d1e6211b25"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:a0a74c34b46b65c2b8fa633d1e6211b25"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0a74c34b46b65c2b8fa633d1e6211b25">is_trivially_constructible_v</a> = <a class="el" href="structetl_1_1is__trivially__constructible.html">is_trivially_constructible</a>&lt;T, Args...&gt;::value</td></tr>
+<tr class="separator:a0a74c34b46b65c2b8fa633d1e6211b25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ff5fc00d3b16aa2421ea49dae4e864e"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
+<tr class="memitem:a4ff5fc00d3b16aa2421ea49dae4e864e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4ff5fc00d3b16aa2421ea49dae4e864e">is_nothrow_constructible_v</a> = <a class="el" href="structetl_1_1is__nothrow__constructible.html">is_nothrow_constructible</a>&lt;T, Args...&gt;::value</td></tr>
+<tr class="separator:a4ff5fc00d3b16aa2421ea49dae4e864e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0093a625b8acbeac1878b9a9668a2563"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a0093a625b8acbeac1878b9a9668a2563"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0093a625b8acbeac1878b9a9668a2563">is_default_constructible_v</a> = <a class="el" href="structetl_1_1is__default__constructible.html">is_default_constructible</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a0093a625b8acbeac1878b9a9668a2563"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1213,9 +1228,24 @@ Variables</h2></td></tr>
 <tr class="memitem:a12e312d7578609fe1f21277a6d7a1606"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a12e312d7578609fe1f21277a6d7a1606"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a12e312d7578609fe1f21277a6d7a1606">is_nothrow_default_constructible_v</a> = <a class="el" href="structetl_1_1is__nothrow__default__constructible.html">is_nothrow_default_constructible</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a12e312d7578609fe1f21277a6d7a1606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a045ef39158833b2ba6592fa8a1d0ebc1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a045ef39158833b2ba6592fa8a1d0ebc1"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">is_copy_constructible_v</a> = <a class="el" href="structetl_1_1is__copy__constructible.html">is_copy_constructible</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a045ef39158833b2ba6592fa8a1d0ebc1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac56b91d45ec88c108b77f55e9f6bc187"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac56b91d45ec88c108b77f55e9f6bc187"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac56b91d45ec88c108b77f55e9f6bc187">is_trivially_copy_constructible_v</a> = <a class="el" href="structetl_1_1is__trivially__copy__constructible.html">is_trivially_copy_constructible</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ac56b91d45ec88c108b77f55e9f6bc187"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab05ca75073ae3731fef7c09200d9f693"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ab05ca75073ae3731fef7c09200d9f693"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab05ca75073ae3731fef7c09200d9f693">is_nothrow_copy_constructible_v</a> = <a class="el" href="structetl_1_1is__nothrow__copy__constructible.html">is_nothrow_copy_constructible</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ab05ca75073ae3731fef7c09200d9f693"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a82b776d5da5e25514489bfd330d7940d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a82b776d5da5e25514489bfd330d7940d"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">is_move_constructible_v</a> = <a class="el" href="structetl_1_1is__move__constructible.html">is_move_constructible</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a82b776d5da5e25514489bfd330d7940d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6a74767dc0b6e2022826126e3581d7ed"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a6a74767dc0b6e2022826126e3581d7ed"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6a74767dc0b6e2022826126e3581d7ed">is_trivially_move_constructible_v</a> = <a class="el" href="structetl_1_1is__trivially__move__constructible.html">is_trivially_move_constructible</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a6a74767dc0b6e2022826126e3581d7ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac00f5b3ced7a1f4ebd3e7b1119a4c12a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ac00f5b3ced7a1f4ebd3e7b1119a4c12a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">is_nothrow_move_constructible_v</a> = <a class="el" href="structetl_1_1is__nothrow__move__constructible.html">is_nothrow_move_constructible</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ac00f5b3ced7a1f4ebd3e7b1119a4c12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bbd05dc09b68b19c63d7b4fbf6f1108"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a3bbd05dc09b68b19c63d7b4fbf6f1108"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3bbd05dc09b68b19c63d7b4fbf6f1108">is_unsigned_v</a> = <a class="el" href="structetl_1_1is__unsigned.html">is_unsigned</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a3bbd05dc09b68b19c63d7b4fbf6f1108"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6511,6 +6541,30 @@ template&lt;class From , class To &gt; </div>
 
 </div>
 </div>
+<a id="a045ef39158833b2ba6592fa8a1d0ebc1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a045ef39158833b2ba6592fa8a1d0ebc1">&#9670;&nbsp;</a></span>is_copy_constructible_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_copy_constructible_v = <a class="el" href="structetl_1_1is__copy__constructible.html">is_copy_constructible</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a0093a625b8acbeac1878b9a9668a2563"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0093a625b8acbeac1878b9a9668a2563">&#9670;&nbsp;</a></span>is_default_constructible_v</h2>
 
@@ -6703,8 +6757,32 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="ac6320904d21308e0814a60d4047951c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac6320904d21308e0814a60d4047951c8">&#9670;&nbsp;</a></span>is_nothrow_constructible_v</h2>
+<a id="a4ff5fc00d3b16aa2421ea49dae4e864e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ff5fc00d3b16aa2421ea49dae4e864e">&#9670;&nbsp;</a></span>is_nothrow_constructible_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_nothrow_constructible_v = <a class="el" href="structetl_1_1is__nothrow__constructible.html">is_nothrow_constructible</a>&lt;T, Args...&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ab05ca75073ae3731fef7c09200d9f693"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab05ca75073ae3731fef7c09200d9f693">&#9670;&nbsp;</a></span>is_nothrow_copy_constructible_v</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6715,7 +6793,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr bool etl::is_nothrow_constructible_v = <a class="el" href="structetl_1_1is__nothrow__constructible.html">is_nothrow_constructible</a>&lt;T&gt;::value</td>
+          <td class="memname">constexpr bool etl::is_nothrow_copy_constructible_v = <a class="el" href="structetl_1_1is__nothrow__copy__constructible.html">is_nothrow_copy_constructible</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -6740,6 +6818,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_nothrow_default_constructible_v = <a class="el" href="structetl_1_1is__nothrow__default__constructible.html">is_nothrow_default_constructible</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac00f5b3ced7a1f4ebd3e7b1119a4c12a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">&#9670;&nbsp;</a></span>is_nothrow_move_constructible_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_nothrow_move_constructible_v = <a class="el" href="structetl_1_1is__nothrow__move__constructible.html">is_nothrow_move_constructible</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -6919,8 +7021,32 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a93e29ee97fde0df4b13772894bce4eb8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93e29ee97fde0df4b13772894bce4eb8">&#9670;&nbsp;</a></span>is_trivially_constructible_v</h2>
+<a id="a0a74c34b46b65c2b8fa633d1e6211b25"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a74c34b46b65c2b8fa633d1e6211b25">&#9670;&nbsp;</a></span>is_trivially_constructible_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_trivially_constructible_v = <a class="el" href="structetl_1_1is__trivially__constructible.html">is_trivially_constructible</a>&lt;T, Args...&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ac56b91d45ec88c108b77f55e9f6bc187"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac56b91d45ec88c108b77f55e9f6bc187">&#9670;&nbsp;</a></span>is_trivially_copy_constructible_v</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6931,7 +7057,7 @@ template&lt;class T &gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr bool etl::is_trivially_constructible_v = <a class="el" href="structetl_1_1is__trivially__constructible.html">is_trivially_constructible</a>&lt;T&gt;::value</td>
+          <td class="memname">constexpr bool etl::is_trivially_copy_constructible_v = <a class="el" href="structetl_1_1is__trivially__copy__constructible.html">is_trivially_copy_constructible</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -6956,6 +7082,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_trivially_default_constructible_v = <a class="el" href="structetl_1_1is__trivially__default__constructible.html">is_trivially_default_constructible</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6a74767dc0b6e2022826126e3581d7ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6a74767dc0b6e2022826126e3581d7ed">&#9670;&nbsp;</a></span>is_trivially_move_constructible_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_trivially_move_constructible_v = <a class="el" href="structetl_1_1is__trivially__move__constructible.html">is_trivially_move_constructible</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
