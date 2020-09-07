@@ -1,5 +1,8 @@
 var searchData=
 [
+  ['in_5fplace',['in_place',['../namespaceetl.html#a4e2e748d9aa9eee89e9ae27c1783dbea',1,'etl']]],
+  ['in_5fplace_5findex',['in_place_index',['../namespaceetl.html#a1c179dea2a5063201728cd0823d49e4f',1,'etl']]],
+  ['in_5fplace_5ftype',['in_place_type',['../namespaceetl.html#a9e9c16f25058085d7b41037104bfea25',1,'etl']]],
   ['input_5fdata',['input_data',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a767d0b897dbbb737ebfa52efea784c94',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['is_5farithmetic_5fv',['is_arithmetic_v',['../namespaceetl.html#a105e2a5ac8fc634dcc71675e27e3f95e',1,'etl']]],
   ['is_5farray_5fv',['is_array_v',['../namespaceetl.html#afaa46050181985a6156a6c800c86a7d8',1,'etl']]],

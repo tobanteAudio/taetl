@@ -10,6 +10,8 @@ var searchData=
   ['permission_5fdenied',['permission_denied',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ae8ee838822072f02738dbd7d97ea03fc',1,'etl']]],
   ['peta',['peta',['../namespaceetl.html#ac2de582631c8b0507fa316267f24ae3b',1,'etl']]],
   ['pico',['pico',['../namespaceetl.html#ab85e2cc66c84a64edf096334ea68d82f',1,'etl']]],
+  ['piecewise_5fconstruct',['piecewise_construct',['../namespaceetl.html#a69282b501974163cc5557d48739f21c4',1,'etl']]],
+  ['piecewise_5fconstruct_5ft',['piecewise_construct_t',['../structetl_1_1piecewise__construct__t.html',1,'etl::piecewise_construct_t'],['../structetl_1_1piecewise__construct__t.html#ac6e288abe7b8428f5a6de7fb25f83492',1,'etl::piecewise_construct_t::piecewise_construct_t()']]],
   ['pin_5f0',['pin_0',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a83f8fea7ae39847bcef9a17417f82530',1,'etl::hardware::stm32']]],
   ['pin_5f1',['pin_1',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a47ccc9e3ee3a60c30dacaee70c24f5e6',1,'etl::hardware::stm32']]],
   ['pin_5f10',['pin_10',['../namespaceetl_1_1hardware_1_1stm32.html#a616f823028e28d773cbb20552b4bc249a4770533c183b19baceacc33e0901fdb7',1,'etl::hardware::stm32']]],

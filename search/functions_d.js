@@ -1,6 +1,7 @@
 var searchData=
 [
   ['pair',['pair',['../structetl_1_1pair.html#a6f19fd0e10017b26b2a69deeffef2cf2',1,'etl::pair::pair()=default'],['../structetl_1_1pair.html#a394cfba9d9e22e5d6fcd001483ebdb9c',1,'etl::pair::pair(T1 const &amp;t1, T2 const &amp;t2)'],['../structetl_1_1pair.html#a494567ad741ca0acd16f6055d57e8c43',1,'etl::pair::pair(pair&lt; U1, U2 &gt; const &amp;p)'],['../structetl_1_1pair.html#a412f27ee91061e65397498f2acd7053f',1,'etl::pair::pair(pair const &amp;p)=default'],['../structetl_1_1pair.html#aef097a505da5321ad5bd666070b32207',1,'etl::pair::pair(pair &amp;&amp;p) noexcept=default']]],
+  ['piecewise_5fconstruct_5ft',['piecewise_construct_t',['../structetl_1_1piecewise__construct__t.html#ac6e288abe7b8428f5a6de7fb25f83492',1,'etl::piecewise_construct_t']]],
   ['pipe',['pipe',['../structetl_1_1dsp_1_1pipe.html#a1946e8495b4be7160b9dfe21748ad0da',1,'etl::dsp::pipe']]],
   ['place_5fat',['place_at',['../structetl_1_1hardware_1_1stm32_1_1port.html#a7e4f7557d7501c8561c92f1697a7ecb5',1,'etl::hardware::stm32::port']]],
   ['pop_5fback',['pop_back',['../classetl_1_1vector.html#a771cf28220d550559ddbe7c48a515efe',1,'etl::vector']]],

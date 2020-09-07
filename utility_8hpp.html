@@ -66,7 +66,8 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
-<a href="#func-members">Functions</a>  </div>
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">utility.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -113,6 +114,18 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html">etl::pair&lt; T1, T2 &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> is a class template that provides a way to store two heterogeneous objects as a single unit. A pair is a specific case of a <a class="el" href="structetl_1_1tuple.html">etl::tuple</a> with two elements. If neither T1 nor T2 is a possibly cv-qualified class type with non-trivial destructor, or array thereof, the destructor of pair is trivial. https://en.cppreference.com/w/cpp/utility/pair  <a href="structetl_1_1pair.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1piecewise__construct__t.html">etl::piecewise_construct_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1piecewise__construct__t.html" title="etl::piecewise_construct_t is an empty class tag type used to disambiguate between different function...">etl::piecewise_construct_t</a> is an empty class tag type used to disambiguate between different functions that take two tuple arguments.  <a href="structetl_1_1piecewise__construct__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__t.html">etl::in_place_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__type__t.html">etl::in_place_type_t&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__type__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__index__t.html">etl::in_place_index_t&lt; I &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__index__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -209,6 +222,20 @@ Functions</h2></td></tr>
 <tr class="memitem:ae48ced933809d3ce47af09003416996d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae48ced933809d3ce47af09003416996d">etl::operator&gt;=</a> (<a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt; const &amp;lhs, <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt; const &amp;rhs) -&gt; bool</td></tr>
 <tr class="memdesc:ae48ced933809d3ce47af09003416996d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares lhs and rhs lexicographically by operator&lt;, that is, compares the first elements and only if they are equivalent, compares the second elements.  <a href="namespaceetl.html#ae48ced933809d3ce47af09003416996d">More...</a><br /></td></tr>
 <tr class="separator:ae48ced933809d3ce47af09003416996d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a69282b501974163cc5557d48739f21c4"><td class="memItemLeft" align="right" valign="top">constexpr piecewise_construct_t&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a69282b501974163cc5557d48739f21c4">etl::piecewise_construct</a> {}</td></tr>
+<tr class="memdesc:a69282b501974163cc5557d48739f21c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The constant <a class="el" href="namespaceetl.html#a69282b501974163cc5557d48739f21c4" title="The constant etl::piecewise_construct is an instance of an empty struct tag type etl::piecewise_const...">etl::piecewise_construct</a> is an instance of an empty struct tag type <a class="el" href="structetl_1_1piecewise__construct__t.html" title="etl::piecewise_construct_t is an empty class tag type used to disambiguate between different function...">etl::piecewise_construct_t</a>.  <a href="namespaceetl.html#a69282b501974163cc5557d48739f21c4">More...</a><br /></td></tr>
+<tr class="separator:a69282b501974163cc5557d48739f21c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2e748d9aa9eee89e9ae27c1783dbea"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4e2e748d9aa9eee89e9ae27c1783dbea">etl::in_place</a> = in_place_t {}</td></tr>
+<tr class="separator:a4e2e748d9aa9eee89e9ae27c1783dbea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9e9c16f25058085d7b41037104bfea25"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a9e9c16f25058085d7b41037104bfea25"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9e9c16f25058085d7b41037104bfea25">etl::in_place_type</a> = in_place_type_t&lt;T&gt; {}</td></tr>
+<tr class="separator:a9e9c16f25058085d7b41037104bfea25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1c179dea2a5063201728cd0823d49e4f"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
+<tr class="memitem:a1c179dea2a5063201728cd0823d49e4f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1c179dea2a5063201728cd0823d49e4f">etl::in_place_index</a> = in_place_index_t&lt;I&gt; {}</td></tr>
+<tr class="separator:a1c179dea2a5063201728cd0823d49e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

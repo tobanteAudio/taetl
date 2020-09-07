@@ -1,6 +1,9 @@
 var searchData=
 [
   ['identity',['identity',['../structetl_1_1dsp_1_1identity.html',1,'etl::dsp']]],
+  ['in_5fplace_5findex_5ft',['in_place_index_t',['../structetl_1_1in__place__index__t.html',1,'etl']]],
+  ['in_5fplace_5ft',['in_place_t',['../structetl_1_1in__place__t.html',1,'etl']]],
+  ['in_5fplace_5ftype_5ft',['in_place_type_t',['../structetl_1_1in__place__type__t.html',1,'etl']]],
   ['integral_5fconstant',['integral_constant',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20_21etl_3a_3ais_5fconst_3c_20const_20t_20_3e_3a_3avalue_20_26_26_21etl_3a_3ais_5freference_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, !etl::is_const&lt; const T &gt;::value &amp;&amp;!etl::is_reference&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20_21etl_3a_3ais_5ffundamental_3c_20t_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, !etl::is_fundamental&lt; T &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
