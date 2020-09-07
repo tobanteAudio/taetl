@@ -300,6 +300,24 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio.html">ratio</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template provides compile-time rational arithmetic support. Each instantiation of this template exactly represents any finite rational number as long as its numerator Num and denominator Denom are representable as compile-time constants of type intmax_t.  <a href="structetl_1_1ratio.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio__equal.html">ratio_equal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ratio objects for equality at compile-time. If the ratios R1 and R2 are equal, provides the member constant value equal true. Otherwise, value is false.  <a href="structetl_1_1ratio__equal.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio__greater.html">ratio_greater</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ratio objects for equality at compile-time. If the ratio R1 is greater than the ratio R2, provides the member constant value equal true. Otherwise, value is false.  <a href="structetl_1_1ratio__greater.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio__greater__equal.html">ratio_greater_equal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ratio objects for equality at compile-time. If the ratio R1 is greater than or equal to the ratio R2, provides the member constant value equal true. Otherwise, value is false.  <a href="structetl_1_1ratio__greater__equal.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio__less.html">ratio_less</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ratio objects for equality at compile-time. If the ratio R1 is less than the ratio R2, provides the member constant value equal true. Otherwise, value is false.  <a href="structetl_1_1ratio__less.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio__less__equal.html">ratio_less_equal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ratio objects for equality at compile-time. If the ratio R1 is less than or equal to the ratio R2, provides the member constant value equal true. Otherwise, value is false.  <a href="structetl_1_1ratio__less__equal.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1ratio__not__equal.html">ratio_not_equal</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two ratio objects for equality at compile-time. If the ratios R1 and R2 are not equal, provides the member constant value equal true. Otherwise, value is false.  <a href="structetl_1_1ratio__not__equal.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1remove__const.html">remove_const</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the member typedef type which is the same as T, except that its topmost cv-qualifiers are removed. Removes the topmost const.  <a href="structetl_1_1remove__const.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -378,18 +396,34 @@ Typedefs</h2></td></tr>
 <tr class="separator:adf4272f3f16bf2234ac8248db615f133"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38946ce496aa3f045c07f32b2e4ca374"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a38946ce496aa3f045c07f32b2e4ca374">streamoff</a> = int</td></tr>
 <tr class="separator:a38946ce496aa3f045c07f32b2e4ca374"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abf333951ccdff3b01dc321ac566bfecd"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abf333951ccdff3b01dc321ac566bfecd">atto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000000000000000 &gt;</td></tr>
-<tr class="separator:abf333951ccdff3b01dc321ac566bfecd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24c3ad429659821374780e0448855ef8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a24c3ad429659821374780e0448855ef8">femto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000000000000 &gt;</td></tr>
-<tr class="separator:a24c3ad429659821374780e0448855ef8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acf951c7004991770fcef76d2959007b0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acf951c7004991770fcef76d2959007b0">pico</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000000000 &gt;</td></tr>
-<tr class="separator:acf951c7004991770fcef76d2959007b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a49eea6db84c720b602fbe4ec3ad44c79"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a49eea6db84c720b602fbe4ec3ad44c79">nano</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000000 &gt;</td></tr>
-<tr class="separator:a49eea6db84c720b602fbe4ec3ad44c79"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a79c9c1103e0bf6709642f55f9a31cb8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a79c9c1103e0bf6709642f55f9a31cb8e">micro</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000000 &gt;</td></tr>
-<tr class="separator:a79c9c1103e0bf6709642f55f9a31cb8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8a92d262bf043c1ef824a60d171019e8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8a92d262bf043c1ef824a60d171019e8">milli</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1000 &gt;</td></tr>
-<tr class="separator:a8a92d262bf043c1ef824a60d171019e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a515e08f8ce11f32a154acd83b2fe6b00"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:a515e08f8ce11f32a154acd83b2fe6b00"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00">ratio_add</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den+R2::num *R1::den, R1::den *R2::den &gt;</td></tr>
+<tr class="memdesc:a515e08f8ce11f32a154acd83b2fe6b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2.  <a href="#a515e08f8ce11f32a154acd83b2fe6b00">More...</a><br /></td></tr>
+<tr class="separator:a515e08f8ce11f32a154acd83b2fe6b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a234acc6c1438740afe4f7766f1208784"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:a234acc6c1438740afe4f7766f1208784"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784">ratio_subtract</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den - R2::num *R1::den, R1::den *R2::den &gt;</td></tr>
+<tr class="memdesc:a234acc6c1438740afe4f7766f1208784"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2.  <a href="#a234acc6c1438740afe4f7766f1208784">More...</a><br /></td></tr>
+<tr class="separator:a234acc6c1438740afe4f7766f1208784"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbdaf3b94f7cb0830c812d5c8aabbe0b"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:abbdaf3b94f7cb0830c812d5c8aabbe0b"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b">ratio_multiply</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::num, R1::den *R2::den &gt;</td></tr>
+<tr class="memdesc:abbdaf3b94f7cb0830c812d5c8aabbe0b"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b" title="The alias template etl::ratio_multiply denotes the result of multiplying two exact rational fractions...">etl::ratio_multiply</a> denotes the result of multiplying two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2.  <a href="#abbdaf3b94f7cb0830c812d5c8aabbe0b">More...</a><br /></td></tr>
+<tr class="separator:abbdaf3b94f7cb0830c812d5c8aabbe0b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a420acf1424e7ed7ae82f703ac31ff258"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:a420acf1424e7ed7ae82f703ac31ff258"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258">ratio_divide</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den, R1::den *R2::num &gt;</td></tr>
+<tr class="memdesc:a420acf1424e7ed7ae82f703ac31ff258"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258" title="The alias template etl::ratio_divide denotes the result of dividing two exact rational fractions repr...">etl::ratio_divide</a> denotes the result of dividing two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2.  <a href="#a420acf1424e7ed7ae82f703ac31ff258">More...</a><br /></td></tr>
+<tr class="separator:a420acf1424e7ed7ae82f703ac31ff258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7cc2ccd245f477d45cf1f6957c8f8993"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7cc2ccd245f477d45cf1f6957c8f8993">atto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1 '000 '000 '000 '000 '000 '000 &gt;</td></tr>
+<tr class="separator:a7cc2ccd245f477d45cf1f6957c8f8993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a837dad904f094bc29e24139565eec1c5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a837dad904f094bc29e24139565eec1c5">femto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1 '000 '000 '000 '000 '000 &gt;</td></tr>
+<tr class="separator:a837dad904f094bc29e24139565eec1c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab85e2cc66c84a64edf096334ea68d82f"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab85e2cc66c84a64edf096334ea68d82f">pico</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1 '000 '000 '000 '000 &gt;</td></tr>
+<tr class="separator:ab85e2cc66c84a64edf096334ea68d82f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab16ea857b72e93345fcd6fb255f7fe86"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab16ea857b72e93345fcd6fb255f7fe86">nano</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1 '000 '000 '000 &gt;</td></tr>
+<tr class="separator:ab16ea857b72e93345fcd6fb255f7fe86"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56ee5013d725632677b4d1d93204c07b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a56ee5013d725632677b4d1d93204c07b">micro</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1 '000 '000 &gt;</td></tr>
+<tr class="separator:a56ee5013d725632677b4d1d93204c07b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afc43923bf9757db3bbaa5a6e4d36a3c6"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afc43923bf9757db3bbaa5a6e4d36a3c6">milli</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 1 '000 &gt;</td></tr>
+<tr class="separator:afc43923bf9757db3bbaa5a6e4d36a3c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95d8c20c69482c794a0cfb9e4428ca8d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a95d8c20c69482c794a0cfb9e4428ca8d">centi</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 100 &gt;</td></tr>
 <tr class="separator:a95d8c20c69482c794a0cfb9e4428ca8d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a59f2e2c10ab4b06ed261d1e4a8358895"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a59f2e2c10ab4b06ed261d1e4a8358895">deci</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1, 10 &gt;</td></tr>
@@ -398,30 +432,18 @@ Typedefs</h2></td></tr>
 <tr class="separator:acae5b099e4ead54343e6304a6371985b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba04e5fa0d29bc9f6a9f3fa4f9ff3dbb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aba04e5fa0d29bc9f6a9f3fa4f9ff3dbb">hecto</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 100, 1 &gt;</td></tr>
 <tr class="separator:aba04e5fa0d29bc9f6a9f3fa4f9ff3dbb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28e306410036af95bf5ea4fc02bed266"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a28e306410036af95bf5ea4fc02bed266">kilo</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1000, 1 &gt;</td></tr>
-<tr class="separator:a28e306410036af95bf5ea4fc02bed266"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a918391ebf4a95eeb6fa0ad99c936252d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a918391ebf4a95eeb6fa0ad99c936252d">mega</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1000000, 1 &gt;</td></tr>
-<tr class="separator:a918391ebf4a95eeb6fa0ad99c936252d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1b0c06d80bc66be0b8807cee66b576f0"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1b0c06d80bc66be0b8807cee66b576f0">giga</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1000000000, 1 &gt;</td></tr>
-<tr class="separator:a1b0c06d80bc66be0b8807cee66b576f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2c4d429035abc6729b30e3406a1703a1"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2c4d429035abc6729b30e3406a1703a1">tera</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1000000000000, 1 &gt;</td></tr>
-<tr class="separator:a2c4d429035abc6729b30e3406a1703a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa37756654b5a747b646eb948d539193c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa37756654b5a747b646eb948d539193c">peta</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1000000000000000, 1 &gt;</td></tr>
-<tr class="separator:aa37756654b5a747b646eb948d539193c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5f1a1ee1ab1b90d8dcf30d783f938ada"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5f1a1ee1ab1b90d8dcf30d783f938ada">exa</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1000000000000000000, 1 &gt;</td></tr>
-<tr class="separator:a5f1a1ee1ab1b90d8dcf30d783f938ada"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a515e08f8ce11f32a154acd83b2fe6b00"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
-<tr class="memitem:a515e08f8ce11f32a154acd83b2fe6b00"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00">ratio_add</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den+R2::num *R1::den, R1::den *R2::den &gt;</td></tr>
-<tr class="memdesc:a515e08f8ce11f32a154acd83b2fe6b00"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den.  <a href="#a515e08f8ce11f32a154acd83b2fe6b00">More...</a><br /></td></tr>
-<tr class="separator:a515e08f8ce11f32a154acd83b2fe6b00"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a234acc6c1438740afe4f7766f1208784"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
-<tr class="memitem:a234acc6c1438740afe4f7766f1208784"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784">ratio_subtract</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den - R2::num *R1::den, R1::den *R2::den &gt;</td></tr>
-<tr class="memdesc:a234acc6c1438740afe4f7766f1208784"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a>&lt;Num, Denom&gt;::den.  <a href="#a234acc6c1438740afe4f7766f1208784">More...</a><br /></td></tr>
-<tr class="separator:a234acc6c1438740afe4f7766f1208784"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a420acf1424e7ed7ae82f703ac31ff258"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
-<tr class="memitem:a420acf1424e7ed7ae82f703ac31ff258"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258">ratio_divide</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; R1::num *R2::den, R1::den *R2::num &gt;</td></tr>
-<tr class="memdesc:a420acf1424e7ed7ae82f703ac31ff258"><td class="mdescLeft">&#160;</td><td class="mdescRight">The alias template <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258" title="The alias template etl::ratio_divide denotes the result of dividing two exact rational fractions repr...">etl::ratio_divide</a> denotes the result of dividing two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2.  <a href="#a420acf1424e7ed7ae82f703ac31ff258">More...</a><br /></td></tr>
-<tr class="separator:a420acf1424e7ed7ae82f703ac31ff258"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0f7df2b4a088f13d067ec91336ad6d8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae0f7df2b4a088f13d067ec91336ad6d8">kilo</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000, 1 &gt;</td></tr>
+<tr class="separator:ae0f7df2b4a088f13d067ec91336ad6d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb8b8f156e99d25877de869998eca882"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afb8b8f156e99d25877de869998eca882">mega</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000 '000, 1 &gt;</td></tr>
+<tr class="separator:afb8b8f156e99d25877de869998eca882"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeaa010c22727dfd8ede60afef156650c"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aeaa010c22727dfd8ede60afef156650c">giga</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000 '000 '000, 1 &gt;</td></tr>
+<tr class="separator:aeaa010c22727dfd8ede60afef156650c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d864adecb109d82a13a134020536ce7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9d864adecb109d82a13a134020536ce7">tera</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000 '000 '000 '000, 1 &gt;</td></tr>
+<tr class="separator:a9d864adecb109d82a13a134020536ce7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac2de582631c8b0507fa316267f24ae3b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac2de582631c8b0507fa316267f24ae3b">peta</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000 '000 '000 '000 '000, 1 &gt;</td></tr>
+<tr class="separator:ac2de582631c8b0507fa316267f24ae3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a525a461cc6d062b7138a777cadacac47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a525a461cc6d062b7138a777cadacac47">exa</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000 '000 '000 '000 '000 '000, 1 &gt;</td></tr>
+<tr class="separator:a525a461cc6d062b7138a777cadacac47"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af2769dde06d41131748597077535e2cc"><td class="memTemplParams" colspan="2">template&lt;etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:af2769dde06d41131748597077535e2cc"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af2769dde06d41131748597077535e2cc">string</a> = <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt; char, Capacity &gt;</td></tr>
 <tr class="separator:af2769dde06d41131748597077535e2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -908,6 +930,24 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a717a065b4d593697dc186ca84f51ffb8"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:a717a065b4d593697dc186ca84f51ffb8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a717a065b4d593697dc186ca84f51ffb8">ratio_equal_v</a> = <a class="el" href="structetl_1_1ratio__equal.html">ratio_equal</a>&lt;R1, R2&gt;::value</td></tr>
+<tr class="separator:a717a065b4d593697dc186ca84f51ffb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf88cdc68bd2c8d7aa353d030c3c1e6c"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:adf88cdc68bd2c8d7aa353d030c3c1e6c"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adf88cdc68bd2c8d7aa353d030c3c1e6c">ratio_not_equal_v</a> = <a class="el" href="structetl_1_1ratio__not__equal.html">ratio_not_equal</a>&lt;R1, R2&gt;::value</td></tr>
+<tr class="separator:adf88cdc68bd2c8d7aa353d030c3c1e6c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8d7dd3cfa6494a27aaf40f11ec60b62"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:aa8d7dd3cfa6494a27aaf40f11ec60b62"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa8d7dd3cfa6494a27aaf40f11ec60b62">ratio_less_v</a> = <a class="el" href="structetl_1_1ratio__less.html">ratio_less</a>&lt;R1, R2&gt;::value</td></tr>
+<tr class="separator:aa8d7dd3cfa6494a27aaf40f11ec60b62"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31e01f9b1a6c95f6f7b793bdfb54755d"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:a31e01f9b1a6c95f6f7b793bdfb54755d"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a31e01f9b1a6c95f6f7b793bdfb54755d">ratio_less_equal_v</a> = <a class="el" href="structetl_1_1ratio__less__equal.html">ratio_less_equal</a>&lt;R1, R2&gt;::value</td></tr>
+<tr class="separator:a31e01f9b1a6c95f6f7b793bdfb54755d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abce653ddb9ec91f96bda7e292725dc0e"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:abce653ddb9ec91f96bda7e292725dc0e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abce653ddb9ec91f96bda7e292725dc0e">ratio_greater_v</a> = <a class="el" href="structetl_1_1ratio__greater.html">ratio_greater</a>&lt;R1, R2&gt;::value</td></tr>
+<tr class="separator:abce653ddb9ec91f96bda7e292725dc0e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1ed208c9b18aabc1288d0721225be488"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
+<tr class="memitem:a1ed208c9b18aabc1288d0721225be488"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1ed208c9b18aabc1288d0721225be488">ratio_greater_equal_v</a> = <a class="el" href="structetl_1_1ratio__greater__equal.html">ratio_greater_equal</a>&lt;R1, R2&gt;::value</td></tr>
+<tr class="separator:a1ed208c9b18aabc1288d0721225be488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae174223df490e6263d4648a86326c902"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902">dynamic_extent</a> = <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">size_t</a>(-1)</td></tr>
 <tr class="memdesc:ae174223df490e6263d4648a86326c902"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a> is a constant of type <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> that is used to differentiate <a class="el" href="classetl_1_1span.html" title="A non-owning view over a contiguous sequence of objects. ">etl::span</a> of static and dynamic extent.  <a href="#ae174223df490e6263d4648a86326c902">More...</a><br /></td></tr>
 <tr class="separator:ae174223df490e6263d4648a86326c902"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1023,14 +1063,14 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="abf333951ccdff3b01dc321ac566bfecd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abf333951ccdff3b01dc321ac566bfecd">&#9670;&nbsp;</a></span>atto</h2>
+<a id="a7cc2ccd245f477d45cf1f6957c8f8993"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7cc2ccd245f477d45cf1f6957c8f8993">&#9670;&nbsp;</a></span>atto</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#abf333951ccdff3b01dc321ac566bfecd">etl::atto</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1000000000000000000&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a7cc2ccd245f477d45cf1f6957c8f8993">etl::atto</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1'000'000'000'000'000'000&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1159,14 +1199,14 @@ template&lt;bool B, class T  = void&gt; </div>
 
 </div>
 </div>
-<a id="a5f1a1ee1ab1b90d8dcf30d783f938ada"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5f1a1ee1ab1b90d8dcf30d783f938ada">&#9670;&nbsp;</a></span>exa</h2>
+<a id="a525a461cc6d062b7138a777cadacac47"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a525a461cc6d062b7138a777cadacac47">&#9670;&nbsp;</a></span>exa</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a5f1a1ee1ab1b90d8dcf30d783f938ada">etl::exa</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000000000000000000, 1&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a525a461cc6d062b7138a777cadacac47">etl::exa</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000'000'000'000'000'000, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1187,28 +1227,28 @@ template&lt;bool B, class T  = void&gt; </div>
 
 </div>
 </div>
-<a id="a24c3ad429659821374780e0448855ef8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24c3ad429659821374780e0448855ef8">&#9670;&nbsp;</a></span>femto</h2>
+<a id="a837dad904f094bc29e24139565eec1c5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a837dad904f094bc29e24139565eec1c5">&#9670;&nbsp;</a></span>femto</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a24c3ad429659821374780e0448855ef8">etl::femto</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1000000000000000&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a837dad904f094bc29e24139565eec1c5">etl::femto</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1'000'000'000'000'000&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a1b0c06d80bc66be0b8807cee66b576f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b0c06d80bc66be0b8807cee66b576f0">&#9670;&nbsp;</a></span>giga</h2>
+<a id="aeaa010c22727dfd8ede60afef156650c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeaa010c22727dfd8ede60afef156650c">&#9670;&nbsp;</a></span>giga</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a1b0c06d80bc66be0b8807cee66b576f0">etl::giga</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000000000, 1&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#aeaa010c22727dfd8ede60afef156650c">etl::giga</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000'000'000, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1329,14 +1369,14 @@ template&lt;class T , class... Args&gt; </div>
 
 </div>
 </div>
-<a id="a28e306410036af95bf5ea4fc02bed266"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a28e306410036af95bf5ea4fc02bed266">&#9670;&nbsp;</a></span>kilo</h2>
+<a id="ae0f7df2b4a088f13d067ec91336ad6d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0f7df2b4a088f13d067ec91336ad6d8">&#9670;&nbsp;</a></span>kilo</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a28e306410036af95bf5ea4fc02bed266">etl::kilo</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000, 1&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#ae0f7df2b4a088f13d067ec91336ad6d8">etl::kilo</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1359,56 +1399,56 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a918391ebf4a95eeb6fa0ad99c936252d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a918391ebf4a95eeb6fa0ad99c936252d">&#9670;&nbsp;</a></span>mega</h2>
+<a id="afb8b8f156e99d25877de869998eca882"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb8b8f156e99d25877de869998eca882">&#9670;&nbsp;</a></span>mega</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a918391ebf4a95eeb6fa0ad99c936252d">etl::mega</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000000, 1&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#afb8b8f156e99d25877de869998eca882">etl::mega</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000'000, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a79c9c1103e0bf6709642f55f9a31cb8e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a79c9c1103e0bf6709642f55f9a31cb8e">&#9670;&nbsp;</a></span>micro</h2>
+<a id="a56ee5013d725632677b4d1d93204c07b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56ee5013d725632677b4d1d93204c07b">&#9670;&nbsp;</a></span>micro</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a79c9c1103e0bf6709642f55f9a31cb8e">etl::micro</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1000000&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a56ee5013d725632677b4d1d93204c07b">etl::micro</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1'000'000&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a8a92d262bf043c1ef824a60d171019e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8a92d262bf043c1ef824a60d171019e8">&#9670;&nbsp;</a></span>milli</h2>
+<a id="afc43923bf9757db3bbaa5a6e4d36a3c6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afc43923bf9757db3bbaa5a6e4d36a3c6">&#9670;&nbsp;</a></span>milli</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a8a92d262bf043c1ef824a60d171019e8">etl::milli</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1000&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#afc43923bf9757db3bbaa5a6e4d36a3c6">etl::milli</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1'000&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="a49eea6db84c720b602fbe4ec3ad44c79"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a49eea6db84c720b602fbe4ec3ad44c79">&#9670;&nbsp;</a></span>nano</h2>
+<a id="ab16ea857b72e93345fcd6fb255f7fe86"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab16ea857b72e93345fcd6fb255f7fe86">&#9670;&nbsp;</a></span>nano</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a49eea6db84c720b602fbe4ec3ad44c79">etl::nano</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1000000000&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#ab16ea857b72e93345fcd6fb255f7fe86">etl::nano</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1'000'000'000&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1429,28 +1469,28 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="aa37756654b5a747b646eb948d539193c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa37756654b5a747b646eb948d539193c">&#9670;&nbsp;</a></span>peta</h2>
+<a id="ac2de582631c8b0507fa316267f24ae3b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2de582631c8b0507fa316267f24ae3b">&#9670;&nbsp;</a></span>peta</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#aa37756654b5a747b646eb948d539193c">etl::peta</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000000000000000, 1&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#ac2de582631c8b0507fa316267f24ae3b">etl::peta</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000'000'000'000'000, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 </div>
 </div>
-<a id="acf951c7004991770fcef76d2959007b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf951c7004991770fcef76d2959007b0">&#9670;&nbsp;</a></span>pico</h2>
+<a id="ab85e2cc66c84a64edf096334ea68d82f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab85e2cc66c84a64edf096334ea68d82f">&#9670;&nbsp;</a></span>pico</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#acf951c7004991770fcef76d2959007b0">etl::pico</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1000000000000&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#ab85e2cc66c84a64edf096334ea68d82f">etl::pico</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1, 1'000'000'000'000&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1485,10 +1525,9 @@ template&lt;class R1 , class R2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den. </p>
-<ul>
-<li>R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a>&lt;Num, Denom&gt;::num and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>. </li>
-</ul>
+<p>The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
+<p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -1508,7 +1547,27 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258" title="The alias template etl::ratio_divide denotes the result of dividing two exact rational fractions repr...">etl::ratio_divide</a> denotes the result of dividing two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den and Denom == R1::den * R2::num (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+
+</div>
+</div>
+<a id="abbdaf3b94f7cb0830c812d5c8aabbe0b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbdaf3b94f7cb0830c812d5c8aabbe0b">&#9670;&nbsp;</a></span>ratio_multiply</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b">etl::ratio_multiply</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;R1::num * R2::num, R1::den * R2::den&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The alias template <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b" title="The alias template etl::ratio_multiply denotes the result of multiplying two exact rational fractions...">etl::ratio_multiply</a> denotes the result of multiplying two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
+<p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::num and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -1526,7 +1585,9 @@ template&lt;class R1 , class R2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a>&lt;Num, Denom&gt;::den. </p>
+<p>The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
+<p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -1684,14 +1745,14 @@ template&lt;etl::size_t Capacity&gt; </div>
 
 </div>
 </div>
-<a id="a2c4d429035abc6729b30e3406a1703a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c4d429035abc6729b30e3406a1703a1">&#9670;&nbsp;</a></span>tera</h2>
+<a id="a9d864adecb109d82a13a134020536ce7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d864adecb109d82a13a134020536ce7">&#9670;&nbsp;</a></span>tera</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a2c4d429035abc6729b30e3406a1703a1">etl::tera</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1000000000000, 1&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a9d864adecb109d82a13a134020536ce7">etl::tera</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000'000'000'000, 1&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5386,6 +5447,150 @@ template&lt;class Type &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> etl::rank_v = <a class="el" href="structetl_1_1rank.html">rank</a>&lt;Type&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a717a065b4d593697dc186ca84f51ffb8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a717a065b4d593697dc186ca84f51ffb8">&#9670;&nbsp;</a></span>ratio_equal_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::ratio_equal_v = <a class="el" href="structetl_1_1ratio__equal.html">ratio_equal</a>&lt;R1, R2&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a1ed208c9b18aabc1288d0721225be488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1ed208c9b18aabc1288d0721225be488">&#9670;&nbsp;</a></span>ratio_greater_equal_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::ratio_greater_equal_v = <a class="el" href="structetl_1_1ratio__greater__equal.html">ratio_greater_equal</a>&lt;R1, R2&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abce653ddb9ec91f96bda7e292725dc0e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abce653ddb9ec91f96bda7e292725dc0e">&#9670;&nbsp;</a></span>ratio_greater_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::ratio_greater_v = <a class="el" href="structetl_1_1ratio__greater.html">ratio_greater</a>&lt;R1, R2&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a31e01f9b1a6c95f6f7b793bdfb54755d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a31e01f9b1a6c95f6f7b793bdfb54755d">&#9670;&nbsp;</a></span>ratio_less_equal_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::ratio_less_equal_v = <a class="el" href="structetl_1_1ratio__less__equal.html">ratio_less_equal</a>&lt;R1, R2&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa8d7dd3cfa6494a27aaf40f11ec60b62"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8d7dd3cfa6494a27aaf40f11ec60b62">&#9670;&nbsp;</a></span>ratio_less_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::ratio_less_v = <a class="el" href="structetl_1_1ratio__less.html">ratio_less</a>&lt;R1, R2&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="adf88cdc68bd2c8d7aa353d030c3c1e6c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf88cdc68bd2c8d7aa353d030c3c1e6c">&#9670;&nbsp;</a></span>ratio_not_equal_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class R1 , class R2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::ratio_not_equal_v = <a class="el" href="structetl_1_1ratio__not__equal.html">ratio_not_equal</a>&lt;R1, R2&gt;::value</td>
         </tr>
       </table>
   </td>

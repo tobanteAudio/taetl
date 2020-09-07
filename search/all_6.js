@@ -4,7 +4,7 @@ var searchData=
   ['get',['get',['../classetl_1_1small__ptr.html#a72b5b4add52fd479b5fdfb54fbd2864f',1,'etl::small_ptr::get() noexcept -&gt; Type *'],['../classetl_1_1small__ptr.html#a260cc982f6e7feb2f6c7bca1fa5604a4',1,'etl::small_ptr::get() const noexcept -&gt; Type const *'],['../namespaceetl.html#a15f4fd4efe3204f43756b83be3ae1479',1,'etl::get()']]],
   ['get_5fimpl',['get_impl',['../structetl_1_1detail_1_1get__impl.html',1,'etl::detail']]],
   ['get_5fimpl_3c_200_2c_20first_2c_20rest_2e_2e_2e_20_3e',['get_impl&lt; 0, First, Rest... &gt;',['../structetl_1_1detail_1_1get__impl_3_010_00_01First_00_01Rest_8_8_8_01_4.html',1,'etl::detail']]],
-  ['giga',['giga',['../namespaceetl.html#a1b0c06d80bc66be0b8807cee66b576f0',1,'etl']]],
+  ['giga',['giga',['../namespaceetl.html#aeaa010c22727dfd8ede60afef156650c',1,'etl']]],
   ['gpintena',['GPINTENA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca03993b5654f15a8140aa212a0a0166d5',1,'etl::hardware::mcp23017']]],
   ['gpintenb',['GPINTENB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77cae374660a6659b9e5bffe1e1e802d87be',1,'etl::hardware::mcp23017']]],
   ['gpio_2ehpp',['gpio.hpp',['../gpio_8hpp.html',1,'']]],
