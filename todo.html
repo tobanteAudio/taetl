@@ -66,27 +66,29 @@ $(function() {
 <div class="textblock"><dl class="reflist">
 <dt><a class="anchor" id="_todo000002"></a>Class <a class="el" href="classetl_1_1bitset.html">etl::bitset&lt; NumberOfBits &gt;</a>  </dt>
 <dd>Converted to and from strings and integers. Add operators &amp; more docs.  </dd>
-<dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="classetl_1_1map.html#ad85f96b74b0b9a56353aa8dbf8619e81">etl::map&lt; KeyType, ValueType, Compare &gt;::at</a>  (key_type const &amp;key) -&gt; mapped_type &amp;</dt>
+<dt><a class="anchor" id="_todo000004"></a>Class <a class="el" href="classetl_1_1front__insert__iterator.html">etl::front_insert_iterator&lt; Container &gt;</a>  </dt>
+<dd>Add tests when a container with push_front has been implemented.  </dd>
+<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classetl_1_1map.html#ad85f96b74b0b9a56353aa8dbf8619e81">etl::map&lt; KeyType, ValueType, Compare &gt;::at</a>  (key_type const &amp;key) -&gt; mapped_type &amp;</dt>
 <dd>Reverse iterators &amp; node type. reverse_iterator etl::reverse_iterator&lt;iterator&gt; const_reverse_iterator etl::reverse_iterator&lt;const_iterator&gt; node_type a specialization of node handle representing a container node insert_return_type  </dd>
-<dt><a class="anchor" id="_todo000005"></a>Member <a class="el" href="classetl_1_1map.html#a0f1765eebe134ecf9f3a4f5674a9a43b">etl::map&lt; KeyType, ValueType, Compare &gt;::clear</a>  () noexcept -&gt; void</dt>
+<dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classetl_1_1map.html#a0f1765eebe134ecf9f3a4f5674a9a43b">etl::map&lt; KeyType, ValueType, Compare &gt;::clear</a>  () noexcept -&gt; void</dt>
 <dd>Replace with calls to destructor  </dd>
 <dt><a class="anchor" id="_todo000003"></a>Member <a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9">etl::memmove</a>  (void *dest, const void *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</dt>
 <dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a>  </dd>
-<dt><a class="anchor" id="_todo000007"></a>Member <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00">etl::ratio_add</a>  </dt>
+<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00">etl::ratio_add</a>  </dt>
 <dd>Check overflow.  </dd>
-<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258">etl::ratio_divide</a>  </dt>
+<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258">etl::ratio_divide</a>  </dt>
 <dd>Check overflow.  </dd>
-<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b">etl::ratio_multiply</a>  </dt>
+<dt><a class="anchor" id="_todo000010"></a>Member <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b">etl::ratio_multiply</a>  </dt>
 <dd>Check overflow.  </dd>
-<dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784">etl::ratio_subtract</a>  </dt>
+<dt><a class="anchor" id="_todo000009"></a>Member <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784">etl::ratio_subtract</a>  </dt>
 <dd>Check overflow.  </dd>
-<dt><a class="anchor" id="_todo000006"></a>Class <a class="el" href="classetl_1_1scoped__lock.html">etl::scoped_lock&lt; MutexType &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000007"></a>Class <a class="el" href="classetl_1_1scoped__lock.html">etl::scoped_lock&lt; MutexType &gt;</a>  </dt>
 <dd>Fix move special member funcs. Make variadic.  </dd>
-<dt><a class="anchor" id="_todo000011"></a>Member <a class="el" href="classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9">etl::span&lt; ElementType, Extent &gt;::span</a>  () noexcept=default</dt>
+<dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9">etl::span&lt; ElementType, Extent &gt;::span</a>  () noexcept=default</dt>
 <dd>Remove from overload with concepts once available.  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">etl::swap</a>  (T &amp;a, T &amp;b) noexcept -&gt; void</dt>
 <dd>Fix noexcept specifier. https://en.cppreference.com/w/cpp/algorithm/swap  </dd>
-<dt><a class="anchor" id="_todo000012"></a>Class <a class="el" href="structetl_1_1tuple.html">etl::tuple&lt; First, Rest &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000013"></a>Class <a class="el" href="structetl_1_1tuple.html">etl::tuple&lt; First, Rest &gt;</a>  </dt>
 <dd>Implement index_sequence &amp; tuple_size </dd>
 </dl>
 </div></div><!-- contents -->
