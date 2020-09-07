@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classetl_1_1numeric__limits_3_01char_01_4.html" title="etl::numeric_limits\l\&lt; char \&gt;" alt="" coords="5,5,149,47"/>
+<area shape="rect" id="node1" href="$classetl_1_1map.html" title="etl::map\&lt; KeyType,\l ValueType, Compare \&gt;" alt="" coords="5,13,180,54"/>
+<area shape="rect" id="node2" href="$classetl_1_1make_1_1map.html" title="etl::make::map\&lt; KeyType,\l ValueType, Capacity,\l Compare \&gt;" alt="" coords="228,5,423,61"/>
 </map>

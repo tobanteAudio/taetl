@@ -1,5 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, rank\&lt; T\l \&gt;::value+1 \&gt;" alt="" coords="5,16,165,72"/>
-<area shape="rect" id="node2" href="$structetl_1_1rank_3_01T[]_4.html" title="etl::rank\&lt; T[]\&gt;" alt="" coords="219,5,339,32"/>
-<area shape="rect" id="node3" href="$structetl_1_1rank_3_01T[N]_4.html" title="etl::rank\&lt; T[N]\&gt;" alt="" coords="213,56,344,83"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_TRIVIAL\l_CONSTRUCTABLE(T)\&gt;" alt="" coords="5,5,193,61"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__trivially__constructible.html" title="The variable definition does not call any operation that is not trivial. For the purposes of this che..." alt="" coords="241,20,485,47"/>
+<area shape="rect" id="node3" href="$structetl_1_1is__trivially__default__constructible.html" title="If etl::is_trivially_constructible&lt;T&gt;::value is true, provides the member constant value equal to tru..." alt="" coords="533,13,701,54"/>
 </map>

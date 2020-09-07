@@ -30,6 +30,8 @@ var searchData=
   ['address_5fnot_5favailable',['address_not_available',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a20abf2ffbf6e82e36405843f269d6438',1,'etl']]],
   ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
+  ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],
+  ['aligned_5fstorage_5ft',['aligned_storage_t',['../namespaceetl.html#a16ded42403ee495bd465c070c0262b8a',1,'etl']]],
   ['all_5fdisabled',['all_disabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea5599fd353b54b2e5a40d8bf084756795',1,'etl::hardware::mcp23017']]],
   ['all_5fenabled',['all_enabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea45af82beb33aee3f358b7c761876f795',1,'etl::hardware::mcp23017']]],
   ['all_5finput',['all_input',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786ad4d9151bc3a3742ee2f44d6dceb6b20e',1,'etl::hardware::mcp23017']]],
