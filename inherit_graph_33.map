@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1detail_1_1common__type__multi__impl.html" title="etl::detail::common\l_type_multi_impl\&lt; AlwaysVoid,\l T1, T2, R \&gt;" alt="" coords="5,5,235,61"/>
+<area shape="rect" id="node1" href="$structetl_1_1detail_1_1common__type__2__impl.html" title="etl::detail::common\l_type_2_impl\&lt; etl::decay\l\&lt; T1 \&gt;::type, etl::decay\l\&lt; T2 \&gt;::type \&gt;" alt="" coords="5,5,193,76"/>
+<area shape="rect" id="node2" href="$structetl_1_1common__type_3_01T1_00_01T2_01_4.html" title="etl::common_type\&lt; T1,\l T2 \&gt;" alt="" coords="241,20,416,61"/>
 </map>

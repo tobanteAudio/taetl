@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_integral\l\&lt; T \&gt;::value\|\|etl::is_floating\l_point\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,209,76"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__arithmetic.html" title="If T is an arithmetic type (that is, an integral type or a floating&#45;point type) or a cv&#45;qualified ver..." alt="" coords="257,27,428,54"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, !etl::is_fundamental\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,209,61"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__compound.html" title="If T is a compound type (that is, array, function, object pointer, function pointer, member object pointer, member function pointer, reference, class, union, or enumeration, including any cv&#45;qualified variants), provides the member constant value equal true. For any other type, value is false. " alt="" coords="257,20,428,47"/>
 </map>

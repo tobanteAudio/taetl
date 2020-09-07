@@ -97,12 +97,21 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__const.html">add_const</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the member typedef type which is the same as T, except it has a cv-qualifier added (unless T is a function, a reference, or already has this cv-qualifier). Adds const.  <a href="structetl_1_1add__const.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__cv.html">add_cv</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the member typedef type which is the same as T, except it has a cv-qualifier added (unless T is a function, a reference, or already has this cv-qualifier). Adds both const and volatile.  <a href="structetl_1_1add__cv.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__lvalue__reference.html">add_lvalue_reference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__pointer.html">add_pointer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a reference type, then provides the member typedef type which is a pointer to the referred type. Otherwise, if T names an object type, a function type that is not cv- or ref-qualified, or a (possibly cv-qualified) void type, provides the member typedef type which is the type T*. Otherwise (if T is a cv- or ref-qualified function type), provides the member typedef type which is the type T. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1add__pointer.html" title="If T is a reference type, then provides the member typedef type which is a pointer to the referred ty...">add_pointer</a> is undefined.  <a href="structetl_1_1add__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__rvalue__reference.html">add_rvalue_reference</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__volatile.html">add_volatile</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the member typedef type which is the same as T, except it has a cv-qualifier added (unless T is a function, a reference, or already has this cv-qualifier). Adds volatile.  <a href="structetl_1_1add__volatile.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1array.html">array</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">array class with fixed size capacity.  <a href="classetl_1_1array.html#details">More...</a><br /></td></tr>
@@ -180,7 +189,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__const_3_01const_01T_01_4.html">is_const&lt; const T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__convertible.html">is_convertible</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the imaginary function definition To test() { return <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval&lt;From&gt;()</a>; } is well-formed, (that is, either <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval&lt;From&gt;()</a> can be converted to To using implicit conversions, or both From and To are possibly cv-qualified void), provides the member constant value equal to true. Otherwise value is false. For the purposes of this check, the use of <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a> in the return statement is not considered an odr-use. Access checks are performed as if from a context unrelated to either type. Only the validity of the immediate context of the expression in the return statement (including conversions to the return type) is considered.  <a href="structetl_1_1is__convertible.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the imaginary function definition To test() { return <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a>; } is well-formed, (that is, either <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a> can be converted to To using implicit conversions, or both From and To are possibly cv-qualified void), provides the member constant value equal to true. Otherwise value is false. For the purposes of this check, the use of <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> in the return statement is not considered an odr-use. Access checks are performed as if from a context unrelated to either type. Only the validity of the immediate context of the expression in the return statement (including conversions to the return type) is considered.  <a href="structetl_1_1is__convertible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__enum.html">is_enum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -495,6 +504,15 @@ Typedefs</h2></td></tr>
 <tr class="memitem:afd20d67cb221212f49a97e02a7c1ca25"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:afd20d67cb221212f49a97e02a7c1ca25"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">add_pointer_t</a> = typename <a class="el" href="structetl_1_1add__pointer.html">add_pointer</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:afd20d67cb221212f49a97e02a7c1ca25"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a40eedf5bef2e5ff8e5c7ca337cdc3ee1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a40eedf5bef2e5ff8e5c7ca337cdc3ee1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a40eedf5bef2e5ff8e5c7ca337cdc3ee1">add_cv_t</a> = typename <a class="el" href="structetl_1_1add__cv.html">add_cv</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:a40eedf5bef2e5ff8e5c7ca337cdc3ee1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a20607674e1e3cd49d5f0b815b33b2c1d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a20607674e1e3cd49d5f0b815b33b2c1d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a20607674e1e3cd49d5f0b815b33b2c1d">add_const_t</a> = typename <a class="el" href="structetl_1_1add__const.html">add_const</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:a20607674e1e3cd49d5f0b815b33b2c1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e3ae65a8164f8204c7f0ab6076b2cbc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a4e3ae65a8164f8204c7f0ab6076b2cbc"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4e3ae65a8164f8204c7f0ab6076b2cbc">add_volatile_t</a> = typename <a class="el" href="structetl_1_1add__volatile.html">add_volatile</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:a4e3ae65a8164f8204c7f0ab6076b2cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acb2df53f4e399975501cf8300d451814">make_unsigned_t</a> = typename <a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:acb2df53f4e399975501cf8300d451814"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -968,6 +986,7 @@ Functions</h2></td></tr>
 <tr class="separator:a15f4fd4efe3204f43756b83be3ae1479"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">declval</a> () noexcept -&gt; typename <a class="el" href="structetl_1_1add__rvalue__reference.html">etl::add_rvalue_reference</a>&lt; T &gt;::type</td></tr>
+<tr class="memdesc:a4147daa38c6c4c1e59540fa0fa27a292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts any type T to a reference type, making it possible to use member functions in decltype expressions without the need to go through constructors.  <a href="#a4147daa38c6c4c1e59540fa0fa27a292">More...</a><br /></td></tr>
 <tr class="separator:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d">move</a> (T &amp;&amp;t) noexcept -&gt; typename <a class="el" href="structetl_1_1remove__reference.html">etl::remove_reference</a>&lt; T &gt;::type &amp;&amp;</td></tr>
@@ -985,10 +1004,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a287776d62f51d8f2b70314a1ca7022d5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a287776d62f51d8f2b70314a1ca7022d5">exchange</a> (T &amp;obj, U &amp;&amp;new_value) -&gt; T</td></tr>
 <tr class="memdesc:a287776d62f51d8f2b70314a1ca7022d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the value of obj with new_value and returns the old value of obj.  <a href="#a287776d62f51d8f2b70314a1ca7022d5">More...</a><br /></td></tr>
 <tr class="separator:a287776d62f51d8f2b70314a1ca7022d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad184dfe1d0ac293209e7fd3fe065779e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
-<tr class="memitem:ad184dfe1d0ac293209e7fd3fe065779e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad184dfe1d0ac293209e7fd3fe065779e">as_const</a> (T &amp;t) noexcept -&gt; std::add_const_t&lt; T &gt; &amp;</td></tr>
-<tr class="memdesc:ad184dfe1d0ac293209e7fd3fe065779e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forms lvalue reference to const type of t.  <a href="#ad184dfe1d0ac293209e7fd3fe065779e">More...</a><br /></td></tr>
-<tr class="separator:ad184dfe1d0ac293209e7fd3fe065779e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c3a2df3d684f12d436ea1d16e2de630"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a6c3a2df3d684f12d436ea1d16e2de630"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6c3a2df3d684f12d436ea1d16e2de630">as_const</a> (T &amp;t) noexcept -&gt; <a class="el" href="namespaceetl.html#a20607674e1e3cd49d5f0b815b33b2c1d">etl::add_const_t</a>&lt; T &gt; &amp;</td></tr>
+<tr class="memdesc:a6c3a2df3d684f12d436ea1d16e2de630"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forms lvalue reference to const type of t.  <a href="#a6c3a2df3d684f12d436ea1d16e2de630">More...</a><br /></td></tr>
+<tr class="separator:a6c3a2df3d684f12d436ea1d16e2de630"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a96cf5452578f57be8c16cc9b4688f8af"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a96cf5452578f57be8c16cc9b4688f8af"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a96cf5452578f57be8c16cc9b4688f8af">as_const</a> (const T &amp;&amp;) -&gt; void=delete</td></tr>
 <tr class="memdesc:a96cf5452578f57be8c16cc9b4688f8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const rvalue reference overload is deleted to disallow rvalue arguments.  <a href="#a96cf5452578f57be8c16cc9b4688f8af">More...</a><br /></td></tr>
@@ -1129,6 +1148,38 @@ Variables</h2></td></tr>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for the etl library. </p>
 </div><h2 class="groupheader">Typedef Documentation</h2>
+<a id="a20607674e1e3cd49d5f0b815b33b2c1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a20607674e1e3cd49d5f0b815b33b2c1d">&#9670;&nbsp;</a></span>add_const_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a20607674e1e3cd49d5f0b815b33b2c1d">etl::add_const_t</a> = typedef typename <a class="el" href="structetl_1_1add__const.html">add_const</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a40eedf5bef2e5ff8e5c7ca337cdc3ee1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a40eedf5bef2e5ff8e5c7ca337cdc3ee1">&#9670;&nbsp;</a></span>add_cv_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a40eedf5bef2e5ff8e5c7ca337cdc3ee1">etl::add_cv_t</a> = typedef typename <a class="el" href="structetl_1_1add__cv.html">add_cv</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a662329de2bc2a83d5e45d1ccad797f17"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a662329de2bc2a83d5e45d1ccad797f17">&#9670;&nbsp;</a></span>add_lvalue_reference_t</h2>
 
@@ -1171,6 +1222,22 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#a17c37a443b0cb66dc9b3c4374967b68f">etl::add_rvalue_reference_t</a> = typedef typename <a class="el" href="structetl_1_1add__rvalue__reference.html">add_rvalue_reference</a>&lt;T&gt;::type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a4e3ae65a8164f8204c7f0ab6076b2cbc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e3ae65a8164f8204c7f0ab6076b2cbc">&#9670;&nbsp;</a></span>add_volatile_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a4e3ae65a8164f8204c7f0ab6076b2cbc">etl::add_volatile_t</a> = typedef typename <a class="el" href="structetl_1_1add__volatile.html">add_volatile</a>&lt;T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -2518,8 +2585,8 @@ template&lt;class T , class... U&gt; </div>
 
 </div>
 </div>
-<a id="ad184dfe1d0ac293209e7fd3fe065779e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad184dfe1d0ac293209e7fd3fe065779e">&#9670;&nbsp;</a></span>as_const() <span class="overload">[1/2]</span></h2>
+<a id="a6c3a2df3d684f12d436ea1d16e2de630"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c3a2df3d684f12d436ea1d16e2de630">&#9670;&nbsp;</a></span>as_const() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2534,7 +2601,7 @@ template&lt;class T &gt; </div>
           <td>(</td>
           <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt; std::add_const_t&lt;T&gt;&amp;
+          <td> -&gt; <a class="el" href="namespaceetl.html#a20607674e1e3cd49d5f0b815b33b2c1d">etl::add_const_t</a>&lt;T&gt;&amp;
 </td>
         </tr>
       </table>
@@ -3148,6 +3215,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Converts any type T to a reference type, making it possible to use member functions in decltype expressions without the need to go through constructors. </p>
 
 </div>
 </div>

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, 0 \&gt;" alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node2" href="$structetl_1_1rank.html" title="If Type is an array type, provides the member constant value equal to the number of dimensions of the..." alt="" coords="213,13,328,39"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_ENUM(T)\&gt;" alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__enum.html" title="etl::is_enum\&lt; T \&gt;" alt="" coords="260,13,400,39"/>
 </map>
