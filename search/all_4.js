@@ -31,6 +31,7 @@ var searchData=
   ['etl',['etl',['../namespaceetl.html',1,'']]],
   ['etl_5fassert',['ETL_ASSERT',['../cassert_8hpp.html#a69c1c42b255b921a668a115ff58acc5c',1,'cassert.hpp']]],
   ['exa',['exa',['../namespaceetl.html#a525a461cc6d062b7138a777cadacac47',1,'etl']]],
+  ['exchange',['exchange',['../namespaceetl.html#a287776d62f51d8f2b70314a1ca7022d5',1,'etl']]],
   ['executable_5fformat_5ferror',['executable_format_error',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a4dfaf9c996cf045f32d17edc9754fc95',1,'etl']]],
   ['experimental',['experimental',['../namespaceetl_1_1experimental.html',1,'etl']]],
   ['extent',['extent',['../classetl_1_1span.html#a8185ca9b34d216439a1646aceef4de64',1,'etl::span']]],

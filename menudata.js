@@ -49,7 +49,11 @@ var menudata={children:[
 {text:"v",url:"namespacemembers_func.html#index_v"},
 {text:"y",url:"namespacemembers_func.html#index_y"},
 {text:"z",url:"namespacemembers_func.html#index_z"}]},
-{text:"Variables",url:"namespacemembers_vars.html"},
+{text:"Variables",url:"namespacemembers_vars.html",children:[
+{text:"d",url:"namespacemembers_vars.html#index_d"},
+{text:"i",url:"namespacemembers_vars.html#index_i"},
+{text:"r",url:"namespacemembers_vars.html#index_r"},
+{text:"t",url:"namespacemembers_vars.html#index_t"}]},
 {text:"Typedefs",url:"namespacemembers_type.html",children:[
 {text:"a",url:"namespacemembers_type.html#index_a"},
 {text:"b",url:"namespacemembers_type.html#index_b"},

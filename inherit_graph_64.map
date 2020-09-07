@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, R1::num==R2::num\l &amp;&amp;R1::den==R2::den \&gt;" alt="" coords="5,5,208,61"/>
-<area shape="rect" id="node2" href="$structetl_1_1ratio__equal.html" title="Compares two ratio objects for equality at compile&#45;time. If the ratios R1 and R2 are equal..." alt="" coords="256,13,412,54"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_scalar\l\&lt; T \&gt;::value\|\|etl::is_array\l\&lt; T \&gt;::value\|\|etl::is_union\l\&lt; T \&gt;::value\|\|etl::is_class\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,196,105"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__object.html" title="If T is an object type (that is any possibly cv&#45;qualified type other than function, reference, or void types), provides the member constant value equal true. For any other type, value is false. " alt="" coords="244,42,387,69"/>
 </map>

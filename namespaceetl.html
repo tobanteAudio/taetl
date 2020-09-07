@@ -173,6 +173,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__class.html">is_class</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__compound.html">is_compound</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a compound type (that is, array, function, object pointer, function pointer, member object pointer, member function pointer, reference, class, union, or enumeration, including any cv-qualified variants), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__compound.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__const.html">is_const</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -200,8 +201,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__lvalue__reference.html">is_lvalue_reference</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__member__function__pointer.html">is_member_function_pointer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a non-static member function pointer. Provides the member constant value which is equal to true, if T is a non-static member function pointer type. Otherwise, value is equal to false.  <a href="structetl_1_1is__member__function__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__member__object__pointer.html">is_member_object_pointer</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a non-static member object pointer. Provides the member constant value which is equal to true, if T is a non-static member object pointer type. Otherwise, value is equal to false.  <a href="structetl_1_1is__member__object__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__member__pointer.html">is_member_pointer</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__member__pointer.html" title="If T is pointer to non-static member object or a pointer to non-static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for is_member_pointer or is_member_pointer_v (since C++17) is undefined. ">is_member_pointer</a> or is_member_pointer_v (since C++17) is undefined.  <a href="structetl_1_1is__member__pointer.html#details">More...</a><br /></td></tr>
@@ -209,6 +212,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__null__pointer.html">is_null_pointer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__object.html">is_object</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an object type (that is any possibly cv-qualified type other than function, reference, or void types), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__object.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__pointer.html">is_pointer</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -226,6 +230,10 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__same_3_01T_00_01T_01_4.html">is_same&lt; T, T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__scalar.html">is_scalar</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a scalar type (that is a possibly cv-qualified arithmetic, pointer, pointer to member, enumeration, or <a class="el" href="namespaceetl.html#adf4272f3f16bf2234ac8248db615f133">etl::nullptr_t</a> type), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__scalar.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__signed.html">is_signed</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an arithmetic type, provides the member constant value equal to true if T(-1) &lt; T(0): this results in true for the floating-point types and the signed integer types, and in false for the unsigned integer types and the type bool. For any other type, value is false.  <a href="structetl_1_1is__signed.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__union.html">is_union</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -289,6 +297,7 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01unsigned_01short_01_4.html">numeric_limits&lt; unsigned short &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html">pair</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> is a class template that provides a way to store two heterogeneous objects as a single unit. A pair is a specific case of a <a class="el" href="structetl_1_1tuple.html">etl::tuple</a> with two elements. If neither T1 nor T2 is a possibly cv-qualified class type with non-trivial destructor, or array thereof, the destructor of pair is trivial. https://en.cppreference.com/w/cpp/utility/pair  <a href="structetl_1_1pair.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1rank.html">rank</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If Type is an array type, provides the member constant value equal to the number of dimensions of the array. For any other type, value is 0. The behavior of a program that adds specializations for rank or rank_v is undefined.  <a href="structetl_1_1rank.html#details">More...</a><br /></td></tr>
@@ -966,10 +975,40 @@ Functions</h2></td></tr>
 <tr class="separator:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b9621f8af141d0572885428d2880d9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a40b9621f8af141d0572885428d2880d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a40b9621f8af141d0572885428d2880d9">forward</a> (<a class="el" href="namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6">etl::remove_reference_t</a>&lt; T &gt; &amp;param) noexcept -&gt; T &amp;&amp;</td></tr>
+<tr class="memdesc:a40b9621f8af141d0572885428d2880d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forwards lvalues as either lvalues or as rvalues, depending on T.  <a href="#a40b9621f8af141d0572885428d2880d9">More...</a><br /></td></tr>
 <tr class="separator:a40b9621f8af141d0572885428d2880d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aecb1fda04868d6ffa0343a463beba0e7"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:aecb1fda04868d6ffa0343a463beba0e7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aecb1fda04868d6ffa0343a463beba0e7">forward</a> (<a class="el" href="namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6">etl::remove_reference_t</a>&lt; T &gt; &amp;&amp;param) noexcept -&gt; T &amp;&amp;</td></tr>
+<tr class="memdesc:aecb1fda04868d6ffa0343a463beba0e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forwards rvalues as rvalues and prohibits forwarding of rvalues as lvalues.  <a href="#aecb1fda04868d6ffa0343a463beba0e7">More...</a><br /></td></tr>
 <tr class="separator:aecb1fda04868d6ffa0343a463beba0e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a287776d62f51d8f2b70314a1ca7022d5"><td class="memTemplParams" colspan="2">template&lt;class T , class U  = T&gt; </td></tr>
+<tr class="memitem:a287776d62f51d8f2b70314a1ca7022d5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a287776d62f51d8f2b70314a1ca7022d5">exchange</a> (T &amp;obj, U &amp;&amp;new_value) -&gt; T</td></tr>
+<tr class="memdesc:a287776d62f51d8f2b70314a1ca7022d5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the value of obj with new_value and returns the old value of obj.  <a href="#a287776d62f51d8f2b70314a1ca7022d5">More...</a><br /></td></tr>
+<tr class="separator:a287776d62f51d8f2b70314a1ca7022d5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5bde2a231012d75366e3c6531ec2aff0"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a5bde2a231012d75366e3c6531ec2aff0"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5bde2a231012d75366e3c6531ec2aff0">cmp_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memdesc:a5bde2a231012d75366e3c6531ec2aff0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a5bde2a231012d75366e3c6531ec2aff0">More...</a><br /></td></tr>
+<tr class="separator:a5bde2a231012d75366e3c6531ec2aff0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac1d0e8f73ed5d2c4f2ee40b8e39b73fa"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:ac1d0e8f73ed5d2c4f2ee40b8e39b73fa"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac1d0e8f73ed5d2c4f2ee40b8e39b73fa">cmp_not_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memdesc:ac1d0e8f73ed5d2c4f2ee40b8e39b73fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#ac1d0e8f73ed5d2c4f2ee40b8e39b73fa">More...</a><br /></td></tr>
+<tr class="separator:ac1d0e8f73ed5d2c4f2ee40b8e39b73fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a08e371cf1790651fd37e6a18e05be279"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a08e371cf1790651fd37e6a18e05be279"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a08e371cf1790651fd37e6a18e05be279">cmp_less</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memdesc:a08e371cf1790651fd37e6a18e05be279"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a08e371cf1790651fd37e6a18e05be279">More...</a><br /></td></tr>
+<tr class="separator:a08e371cf1790651fd37e6a18e05be279"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15ca74ea1e1d064e11e72d9e8eb3a054"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a15ca74ea1e1d064e11e72d9e8eb3a054"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a15ca74ea1e1d064e11e72d9e8eb3a054">cmp_greater</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memdesc:a15ca74ea1e1d064e11e72d9e8eb3a054"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a15ca74ea1e1d064e11e72d9e8eb3a054">More...</a><br /></td></tr>
+<tr class="separator:a15ca74ea1e1d064e11e72d9e8eb3a054"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa64e53f8e486c2d548aaa0248080d010"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:aa64e53f8e486c2d548aaa0248080d010"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa64e53f8e486c2d548aaa0248080d010">cmp_less_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memdesc:aa64e53f8e486c2d548aaa0248080d010"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#aa64e53f8e486c2d548aaa0248080d010">More...</a><br /></td></tr>
+<tr class="separator:aa64e53f8e486c2d548aaa0248080d010"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a06895dcf9a007e71aae86108544ce2be"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
+<tr class="memitem:a06895dcf9a007e71aae86108544ce2be"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a06895dcf9a007e71aae86108544ce2be">cmp_greater_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; T &gt;::value &amp;&amp;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt; U &gt;::value, bool &gt;</td></tr>
+<tr class="memdesc:a06895dcf9a007e71aae86108544ce2be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a06895dcf9a007e71aae86108544ce2be">More...</a><br /></td></tr>
+<tr class="separator:a06895dcf9a007e71aae86108544ce2be"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b">is_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
 <tr class="memdesc:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the given standard and the currently configurated in the compiler match.  <a href="#ad763c7f65a817a0ba3f58cf0d5672d1b">More...</a><br /></td></tr>
 <tr class="separator:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1041,6 +1080,12 @@ Variables</h2></td></tr>
 <tr class="memitem:adbaaa5057d498812ee848f491a20649a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:adbaaa5057d498812ee848f491a20649a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbaaa5057d498812ee848f491a20649a">is_member_pointer_v</a> = <a class="el" href="structetl_1_1is__member__pointer.html">is_member_pointer</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:adbaaa5057d498812ee848f491a20649a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a690a598d20472c340a3e6969d5fe58af"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a690a598d20472c340a3e6969d5fe58af"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a690a598d20472c340a3e6969d5fe58af">is_member_function_pointer_v</a> = <a class="el" href="structetl_1_1is__member__function__pointer.html">is_member_function_pointer</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a690a598d20472c340a3e6969d5fe58af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a05fe5ff6b0b6727ff7c98a53e5eb1c80"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a05fe5ff6b0b6727ff7c98a53e5eb1c80"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a05fe5ff6b0b6727ff7c98a53e5eb1c80">is_member_object_pointer_v</a> = <a class="el" href="structetl_1_1is__member__object__pointer.html">is_member_object_pointer</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a05fe5ff6b0b6727ff7c98a53e5eb1c80"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a105e2a5ac8fc634dcc71675e27e3f95e">is_arithmetic_v</a> = <a class="el" href="structetl_1_1is__arithmetic.html">is_arithmetic</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1050,12 +1095,18 @@ Variables</h2></td></tr>
 <tr class="memitem:a63efd09c0ee7195824be65423adadedc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a63efd09c0ee7195824be65423adadedc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">is_object_v</a> = <a class="el" href="structetl_1_1is__object.html">is_object</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a63efd09c0ee7195824be65423adadedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab45e49677aea4d7ed533e7c73ea7f2b6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ab45e49677aea4d7ed533e7c73ea7f2b6"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab45e49677aea4d7ed533e7c73ea7f2b6">is_compound_v</a> = <a class="el" href="structetl_1_1is__compound.html">is_compound</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ab45e49677aea4d7ed533e7c73ea7f2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">is_constructible_v</a> = <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">is_constructible</a>&lt;T, Args...&gt;::value</td></tr>
 <tr class="separator:a1ab616d6855ca5fc60968a153587b2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3bbd05dc09b68b19c63d7b4fbf6f1108"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a3bbd05dc09b68b19c63d7b4fbf6f1108"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3bbd05dc09b68b19c63d7b4fbf6f1108">is_unsigned_v</a> = <a class="el" href="structetl_1_1is__unsigned.html">is_unsigned</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a3bbd05dc09b68b19c63d7b4fbf6f1108"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aff3fadd2a1e349c45f524ab5444220ff"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aff3fadd2a1e349c45f524ab5444220ff"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aff3fadd2a1e349c45f524ab5444220ff">is_signed_v</a> = <a class="el" href="structetl_1_1is__signed.html">is_signed</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:aff3fadd2a1e349c45f524ab5444220ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56baa007c444a18e18b603a55d9957bf"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
 <tr class="memitem:a56baa007c444a18e18b603a55d9957bf"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a56baa007c444a18e18b603a55d9957bf">rank_v</a> = <a class="el" href="structetl_1_1rank.html">rank</a>&lt;Type&gt;::value</td></tr>
 <tr class="separator:a56baa007c444a18e18b603a55d9957bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2577,6 +2628,270 @@ template&lt;class Type , class Compare &gt; </div>
 
 </div>
 </div>
+<a id="a5bde2a231012d75366e3c6531ec2aff0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5bde2a231012d75366e3c6531ec2aff0">&#9670;&nbsp;</a></span>cmp_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cmp_equal </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;T&gt;::value
+                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;U&gt;::value,
+                   bool&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
+<p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
+
+</div>
+</div>
+<a id="a15ca74ea1e1d064e11e72d9e8eb3a054"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15ca74ea1e1d064e11e72d9e8eb3a054">&#9670;&nbsp;</a></span>cmp_greater()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cmp_greater </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;T&gt;::value
+                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;U&gt;::value,
+                   bool&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
+<p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
+
+</div>
+</div>
+<a id="a06895dcf9a007e71aae86108544ce2be"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a06895dcf9a007e71aae86108544ce2be">&#9670;&nbsp;</a></span>cmp_greater_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cmp_greater_equal </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;T&gt;::value
+                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;U&gt;::value,
+                   bool&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
+<p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
+
+</div>
+</div>
+<a id="a08e371cf1790651fd37e6a18e05be279"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a08e371cf1790651fd37e6a18e05be279">&#9670;&nbsp;</a></span>cmp_less()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cmp_less </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;T&gt;::value
+                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;U&gt;::value,
+                   bool&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
+<p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
+
+</div>
+</div>
+<a id="aa64e53f8e486c2d548aaa0248080d010"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa64e53f8e486c2d548aaa0248080d010">&#9670;&nbsp;</a></span>cmp_less_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cmp_less_equal </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;T&gt;::value
+                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;U&gt;::value,
+                   bool&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
+<p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
+
+</div>
+</div>
+<a id="ac1d0e8f73ed5d2c4f2ee40b8e39b73fa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1d0e8f73ed5d2c4f2ee40b8e39b73fa">&#9670;&nbsp;</a></span>cmp_not_equal()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::cmp_not_equal </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U&#160;</td>
+          <td class="paramname"><em>u</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;T&gt;::value
+                       &amp;&amp; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer__comp.html">detail::is_unsigned_integer_comp</a>&lt;U&gt;::value,
+                   bool&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
+<p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
+
+</div>
+</div>
 <a id="a036c43ee12867c8bc74fe95022f175c3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a036c43ee12867c8bc74fe95022f175c3">&#9670;&nbsp;</a></span>countl_one()</h2>
 
@@ -2914,6 +3229,40 @@ template&lt;typename T , etl::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a287776d62f51d8f2b70314a1ca7022d5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a287776d62f51d8f2b70314a1ca7022d5">&#9670;&nbsp;</a></span>exchange()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class U  = T&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::exchange </td>
+          <td>(</td>
+          <td class="paramtype">T &amp;&#160;</td>
+          <td class="paramname"><em>obj</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U &amp;&amp;&#160;</td>
+          <td class="paramname"><em>new_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; T
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces the value of obj with new_value and returns the old value of obj. </p>
+<dl class="section return"><dt>Returns</dt><dd>The old value of obj. </dd></dl>
+
+</div>
+</div>
 <a id="af33857e090fba6747166a167e1018400"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af33857e090fba6747166a167e1018400">&#9670;&nbsp;</a></span>find()</h2>
 
@@ -3179,6 +3528,10 @@ template&lt;class T &gt; </div>
 </table>
 </div><div class="memdoc">
 
+<p>Forwards lvalues as either lvalues or as rvalues, depending on T. </p>
+<p>When t is a forwarding reference (a function argument that is declared as an rvalue reference to a cv-unqualified function template parameter), this overload forwards the argument to another function with the value category it had when passed to the calling function.</p>
+<p>https://en.cppreference.com/w/cpp/utility/forward </p>
+
 </div>
 </div>
 <a id="aecb1fda04868d6ffa0343a463beba0e7"></a>
@@ -3207,6 +3560,10 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Forwards rvalues as rvalues and prohibits forwarding of rvalues as lvalues. </p>
+<p>This overload makes it possible to forward a result of an expression (such as function call), which may be rvalue or lvalue, as the original value category of a forwarding reference argument.</p>
+<p>https://en.cppreference.com/w/cpp/utility/forward </p>
 
 </div>
 </div>
@@ -5469,6 +5826,30 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="ab45e49677aea4d7ed533e7c73ea7f2b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab45e49677aea4d7ed533e7c73ea7f2b6">&#9670;&nbsp;</a></span>is_compound_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_compound_v = <a class="el" href="structetl_1_1is__compound.html">is_compound</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a40862de0c689f5281b8d680741bc7cf9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a40862de0c689f5281b8d680741bc7cf9">&#9670;&nbsp;</a></span>is_const_v</h2>
 
@@ -5602,6 +5983,54 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_integral_v = <a class="el" href="structetl_1_1is__integral.html">is_integral</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a690a598d20472c340a3e6969d5fe58af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a690a598d20472c340a3e6969d5fe58af">&#9670;&nbsp;</a></span>is_member_function_pointer_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_member_function_pointer_v = <a class="el" href="structetl_1_1is__member__function__pointer.html">is_member_function_pointer</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a05fe5ff6b0b6727ff7c98a53e5eb1c80"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a05fe5ff6b0b6727ff7c98a53e5eb1c80">&#9670;&nbsp;</a></span>is_member_object_pointer_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_member_object_pointer_v = <a class="el" href="structetl_1_1is__member__object__pointer.html">is_member_object_pointer</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -5770,6 +6199,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_scalar_v = <a class="el" href="structetl_1_1is__scalar.html">is_scalar</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aff3fadd2a1e349c45f524ab5444220ff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aff3fadd2a1e349c45f524ab5444220ff">&#9670;&nbsp;</a></span>is_signed_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_signed_v = <a class="el" href="structetl_1_1is__signed.html">is_signed</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
