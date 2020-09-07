@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool,(decltype(detail\l::test_returnable\&lt; To \&gt;\l(0))::value &amp;&amp;decltype(detail\l::test_nonvoid_convertible\&lt;\l From, To \&gt;(0))::value)\|\|(etl\l::is_void\&lt; From \&gt;::value &amp;&amp;etl\l::is_void\&lt; To \&gt;::value)\&gt;" alt="" coords="5,5,228,135"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__convertible.html" title="If the imaginary function definition To test() { return etl::declval&lt;From&gt;(); } is well&#45;formed..." alt="" coords="276,49,415,91"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_UNION(T)\&gt;" alt="" coords="5,5,216,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__union.html" title="etl::is_union\&lt; T \&gt;" alt="" coords="264,13,403,39"/>
 </map>
