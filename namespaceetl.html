@@ -760,6 +760,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a036c43ee12867c8bc74fe95022f175c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a036c43ee12867c8bc74fe95022f175c3">countl_one</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a036c43ee12867c8bc74fe95022f175c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 1 ("one") bits in the value of x, starting from the most significant bit ("left").  <a href="#a036c43ee12867c8bc74fe95022f175c3">More...</a><br /></td></tr>
 <tr class="separator:a036c43ee12867c8bc74fe95022f175c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9317469178624538d15a8e264d22887a">bit_width</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt; T &gt;::value, int &gt;</td></tr>
+<tr class="memdesc:a9317469178624538d15a8e264d22887a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero.  <a href="#a9317469178624538d15a8e264d22887a">More...</a><br /></td></tr>
+<tr class="separator:a9317469178624538d15a8e264d22887a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
 <tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aaa84e096751094f12fc96460addc2483">to_integer</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, Integer &gt;</td></tr>
 <tr class="memdesc:aaa84e096751094f12fc96460addc2483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return Integer(b); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#aaa84e096751094f12fc96460addc2483">More...</a><br /></td></tr>
@@ -2448,6 +2452,38 @@ template&lt;class T , class... U&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a9317469178624538d15a8e264d22887a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9317469178624538d15a8e264d22887a">&#9670;&nbsp;</a></span>bit_width()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::bit_width </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="structetl_1_1detail_1_1is__unsigned__integer.html">detail::is_unsigned_integer</a>&lt;T&gt;::value, int&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero. </p>
+<p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type). </p>
 
 </div>
 </div>
