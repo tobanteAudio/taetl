@@ -117,6 +117,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1array.html">array</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">array class with fixed size capacity.  <a href="classetl_1_1array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a LegacyOutputIterator that appends to a container for which it was constructed. The container's push_back() member function is called whenever the iterator (whether dereferenced or not) is assigned to. Incrementing the <a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a no-op.  <a href="classetl_1_1back__insert__iterator.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html">basic_string</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1basic__string.html" title="basic_string class with fixed size capacity. ">basic_string</a> class with fixed size capacity.  <a href="classetl_1_1basic__string.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1008,6 +1011,17 @@ Functions</h2></td></tr>
 <tr class="memitem:aa5fe5f67d90d1f2c3c3d293099fe12e9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa5fe5f67d90d1f2c3c3d293099fe12e9">distance</a> (It first, It last) -&gt; typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; It &gt;::difference_type</td></tr>
 <tr class="memdesc:aa5fe5f67d90d1f2c3c3d293099fe12e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of hops from first to last.  <a href="#aa5fe5f67d90d1f2c3c3d293099fe12e9">More...</a><br /></td></tr>
 <tr class="separator:aa5fe5f67d90d1f2c3c3d293099fe12e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedaa2543b2404906532e1d425eabbd2"><td class="memTemplParams" colspan="2">template&lt;class InputIt &gt; </td></tr>
+<tr class="memitem:afedaa2543b2404906532e1d425eabbd2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afedaa2543b2404906532e1d425eabbd2">next</a> (InputIt it, typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; InputIt &gt;::difference_type n=1) -&gt; InputIt</td></tr>
+<tr class="memdesc:afedaa2543b2404906532e1d425eabbd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nth successor of iterator it.  <a href="#afedaa2543b2404906532e1d425eabbd2">More...</a><br /></td></tr>
+<tr class="separator:afedaa2543b2404906532e1d425eabbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memTemplParams" colspan="2">template&lt;class BidirIt &gt; </td></tr>
+<tr class="memitem:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad580aca5d1f9f6d65f28f4270cb765ed">prev</a> (BidirIt it, typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; BidirIt &gt;::difference_type n=1) -&gt; BidirIt</td></tr>
+<tr class="memdesc:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nth predecessor of iterator it.  <a href="#ad580aca5d1f9f6d65f28f4270cb765ed">More...</a><br /></td></tr>
+<tr class="separator:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab4ea18354d7bfc7358bf9c13004f0233">back_inserter</a> (Container &amp;container) -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a>&lt; Container &gt;</td></tr>
+<tr class="separator:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbedfa50bab7817a29802cce148c7def">addressof</a> (T &amp;arg) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt; T &gt;, T *&gt;</td></tr>
 <tr class="memdesc:adbedfa50bab7817a29802cce148c7def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;.  <a href="#adbedfa50bab7817a29802cce148c7def">More...</a><br /></td></tr>
@@ -2872,6 +2886,28 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Const rvalue reference overload is deleted to disallow rvalue arguments. </p>
+
+</div>
+</div>
+<a id="ab4ea18354d7bfc7358bf9c13004f0233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4ea18354d7bfc7358bf9c13004f0233">&#9670;&nbsp;</a></span>back_inserter()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Container &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::back_inserter </td>
+          <td>(</td>
+          <td class="paramtype">Container &amp;&#160;</td>
+          <td class="paramname"><em>container</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a>&lt;Container&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>back_inserter is a convenience function template that constructs a <a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> for the container c with the type deduced from the type of the argument. </p>
 
 </div>
 </div>
@@ -5436,6 +5472,39 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="afedaa2543b2404906532e1d425eabbd2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afedaa2543b2404906532e1d425eabbd2">&#9670;&nbsp;</a></span>next()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::next </td>
+          <td>(</td>
+          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; InputIt &gt;::difference_type&#160;</td>
+          <td class="paramname"><em>n</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; InputIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the nth successor of iterator it. </p>
+
+</div>
+</div>
 <a id="add22a48a49c792039e0d0ec1eef5528b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#add22a48a49c792039e0d0ec1eef5528b">&#9670;&nbsp;</a></span>none_of()</h2>
 
@@ -6382,6 +6451,39 @@ template&lt;class T &gt; </div>
 
 <p>Returns the number of 1 bits in the value of x. </p>
 <p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type). </p>
+
+</div>
+</div>
+<a id="ad580aca5d1f9f6d65f28f4270cb765ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad580aca5d1f9f6d65f28f4270cb765ed">&#9670;&nbsp;</a></span>prev()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class BidirIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::prev </td>
+          <td>(</td>
+          <td class="paramtype">BidirIt&#160;</td>
+          <td class="paramname"><em>it</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; BidirIt &gt;::difference_type&#160;</td>
+          <td class="paramname"><em>n</em> = <code>1</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; BidirIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Return the nth predecessor of iterator it. </p>
 
 </div>
 </div>

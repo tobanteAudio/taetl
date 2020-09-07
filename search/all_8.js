@@ -191,7 +191,7 @@ var searchData=
   ['iter_5fswap',['iter_swap',['../namespaceetl.html#aa18b878794474881fce640e7a163abf3',1,'etl']]],
   ['iterator',['iterator',['../classetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33',1,'etl::array::iterator()'],['../classetl_1_1map.html#a2ea3f60bc149d97e854dd31b8834163f',1,'etl::map::iterator()'],['../classetl_1_1span.html#a5d04cc0bc7cc697c19163221819bae3d',1,'etl::span::iterator()'],['../classetl_1_1basic__string.html#ae885d5685200fc1cd6f27315aefe48b9',1,'etl::basic_string::iterator()'],['../classetl_1_1basic__string__view.html#ad4542ea77cc6043fee1cd51b93c81d8d',1,'etl::basic_string_view::iterator()'],['../classetl_1_1stack__vector.html#a7795d3ad62d408d0776260e4731bdcdb',1,'etl::stack_vector::iterator()']]],
   ['iterator_2ehpp',['iterator.hpp',['../iterator_8hpp.html',1,'']]],
-  ['iterator_5fcategory',['iterator_category',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#aa11fd04f0d0c926f6feda40757d66a00',1,'etl::iterator_traits&lt; T * &gt;']]],
+  ['iterator_5fcategory',['iterator_category',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#aa11fd04f0d0c926f6feda40757d66a00',1,'etl::iterator_traits&lt; T * &gt;::iterator_category()'],['../classetl_1_1back__insert__iterator.html#a8f1948d4fefd82644ad01d6d88cc4a21',1,'etl::back_insert_iterator::iterator_category()']]],
   ['iterator_5fconcept',['iterator_concept',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#a3e4b11ff83596f8f77338181209acbe4',1,'etl::iterator_traits&lt; T * &gt;']]],
   ['iterator_5ftraits',['iterator_traits',['../structetl_1_1iterator__traits.html',1,'etl']]],
   ['iterator_5ftraits_3c_20t_20_2a_20_3e',['iterator_traits&lt; T * &gt;',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html',1,'etl']]]

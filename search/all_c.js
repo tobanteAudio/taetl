@@ -8,6 +8,7 @@ var searchData=
   ['network_5funreachable',['network_unreachable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a608a68344b4eb1fe0690861a83828816',1,'etl']]],
   ['never',['never',['../structetl_1_1rtos_1_1never.html',1,'etl::rtos']]],
   ['new_2ehpp',['new.hpp',['../new_8hpp.html',1,'']]],
+  ['next',['next',['../namespaceetl.html#afedaa2543b2404906532e1d425eabbd2',1,'etl']]],
   ['nmi',['nmi',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7abcc0f53fbd0c273d18435941509f4eda',1,'etl::hardware::stm32']]],
   ['no_5fbuffer_5fspace',['no_buffer_space',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a618ead44397b73cf0baa08b460b66c39',1,'etl']]],
   ['no_5fchild_5fprocess',['no_child_process',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ad08d4c854a6810cebd2a8ab61876f919',1,'etl']]],

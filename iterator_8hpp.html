@@ -72,19 +72,24 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="definitions_8hpp_source.html">etl/definitions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="memory_8hpp_source.html">etl/memory.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">etl/type_traits.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="utility_8hpp_source.html">etl/utility.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="warning_8hpp_source.html">etl/warning.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for iterator.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="iterator_8hpp__incl.png" border="0" usemap="#etl_2iterator_8hpp" alt=""/></div>
 <map name="etl_2iterator_8hpp" id="etl_2iterator_8hpp">
-<area shape="rect" id="node2" href="definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="96,244,235,271"/>
-<area shape="rect" id="node6" href="type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="203,80,344,107"/>
-<area shape="rect" id="node9" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="368,80,491,107"/>
-<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="5,319,104,345"/>
-<area shape="rect" id="node7" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="207,155,340,196"/>
-<area shape="rect" id="node8" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="259,244,429,271"/>
+<area shape="rect" id="node2" href="definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="118,319,257,345"/>
+<area shape="rect" id="node6" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="452,80,576,107"/>
+<area shape="rect" id="node11" href="type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="344,155,485,181"/>
+<area shape="rect" id="node14" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="560,155,682,181"/>
+<area shape="rect" id="node15" href="utility_8hpp.html" title="etl/utility.hpp" alt="" coords="270,80,377,107"/>
+<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="28,393,126,420"/>
+<area shape="rect" id="node7" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="182,155,290,181"/>
+<area shape="rect" id="node12" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="352,229,485,271"/>
+<area shape="rect" id="node13" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="333,319,504,345"/>
 </map>
 </div>
 </div>
@@ -115,6 +120,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1iterator__traits_3_01T_01_5_01_4.html">etl::iterator_traits&lt; T * &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1iterator__traits.html" title="etl::iterator_traits is the type trait class that provides uniform interface to the properties of Leg...">etl::iterator_traits</a> is the type trait class that provides uniform interface to the properties of LegacyIterator types. This makes it possible to implement algorithms only in terms of iterators.  <a href="structetl_1_1iterator__traits_3_01T_01_5_01_4.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html">etl::back_insert_iterator&lt; Container &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a LegacyOutputIterator that appends to a container for which it was constructed. The container's push_back() member function is called whenever the iterator (whether dereferenced or not) is assigned to. Incrementing the <a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a no-op.  <a href="classetl_1_1back__insert__iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -193,6 +201,17 @@ Functions</h2></td></tr>
 <tr class="memitem:aa5fe5f67d90d1f2c3c3d293099fe12e9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa5fe5f67d90d1f2c3c3d293099fe12e9">etl::distance</a> (It first, It last) -&gt; typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; It &gt;::difference_type</td></tr>
 <tr class="memdesc:aa5fe5f67d90d1f2c3c3d293099fe12e9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of hops from first to last.  <a href="namespaceetl.html#aa5fe5f67d90d1f2c3c3d293099fe12e9">More...</a><br /></td></tr>
 <tr class="separator:aa5fe5f67d90d1f2c3c3d293099fe12e9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afedaa2543b2404906532e1d425eabbd2"><td class="memTemplParams" colspan="2">template&lt;class InputIt &gt; </td></tr>
+<tr class="memitem:afedaa2543b2404906532e1d425eabbd2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afedaa2543b2404906532e1d425eabbd2">etl::next</a> (InputIt it, typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; InputIt &gt;::difference_type n=1) -&gt; InputIt</td></tr>
+<tr class="memdesc:afedaa2543b2404906532e1d425eabbd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nth successor of iterator it.  <a href="namespaceetl.html#afedaa2543b2404906532e1d425eabbd2">More...</a><br /></td></tr>
+<tr class="separator:afedaa2543b2404906532e1d425eabbd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memTemplParams" colspan="2">template&lt;class BidirIt &gt; </td></tr>
+<tr class="memitem:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad580aca5d1f9f6d65f28f4270cb765ed">etl::prev</a> (BidirIt it, typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; BidirIt &gt;::difference_type n=1) -&gt; BidirIt</td></tr>
+<tr class="memdesc:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nth predecessor of iterator it.  <a href="namespaceetl.html#ad580aca5d1f9f6d65f28f4270cb765ed">More...</a><br /></td></tr>
+<tr class="separator:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memTemplParams" colspan="2">template&lt;class Container &gt; </td></tr>
+<tr class="memitem:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab4ea18354d7bfc7358bf9c13004f0233">etl::back_inserter</a> (Container &amp;container) -&gt; back_insert_iterator&lt; Container &gt;</td></tr>
+<tr class="separator:ab4ea18354d7bfc7358bf9c13004f0233"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->
