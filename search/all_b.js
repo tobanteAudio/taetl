@@ -1,6 +1,7 @@
 var searchData=
 [
   ['make_5fbuffer',['make_buffer',['../namespaceetl_1_1net.html#af3874b3eec6ece3b3bd8aecc139e8a4f',1,'etl::net::make_buffer(void *data, size_t size) noexcept -&gt; mutable_buffer'],['../namespaceetl_1_1net.html#abefb47c4c7c3c1cebcae5c3a95384790',1,'etl::net::make_buffer(void const *data, size_t size) noexcept -&gt; const_buffer']]],
+  ['make_5fpair',['make_pair',['../namespaceetl.html#a638ad4db4d90fecc8d08227b1c214148',1,'etl']]],
   ['make_5funsigned',['make_unsigned',['../structetl_1_1make__unsigned.html',1,'etl']]],
   ['make_5funsigned_3c_20signed_20char_20_3e',['make_unsigned&lt; signed char &gt;',['../structetl_1_1make__unsigned_3_01signed_01char_01_4.html',1,'etl']]],
   ['make_5funsigned_3c_20signed_20int_20_3e',['make_unsigned&lt; signed int &gt;',['../structetl_1_1make__unsigned_3_01signed_01int_01_4.html',1,'etl']]],
