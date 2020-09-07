@@ -1,6 +1,8 @@
 var searchData=
 [
   ['test',['test',['../classetl_1_1bitset.html#a56a095832470709f2aa229078caca5fd',1,'etl::bitset']]],
+  ['test_5fnonvoid_5fconvertible',['test_nonvoid_convertible',['../namespaceetl_1_1detail.html#aacdeb6355bdbbc7f2e0c03f8a6b8dd85',1,'etl::detail::test_nonvoid_convertible(int) -&gt; true_type_for&lt; decltype(etl::declval&lt; void(&amp;)(To)&gt;()(etl::declval&lt; From &gt;()))&gt;'],['../namespaceetl_1_1detail.html#a68f169d072f3290564c45be092d5b352',1,'etl::detail::test_nonvoid_convertible(...) -&gt; etl::false_type']]],
+  ['test_5freturnable',['test_returnable',['../namespaceetl_1_1detail.html#a24a9d942fca78e6480545f590e71fa0c',1,'etl::detail::test_returnable(int) -&gt; true_type_for&lt; T()&gt;'],['../namespaceetl_1_1detail.html#addcc617420e36cad147efda37f49e9dd',1,'etl::detail::test_returnable(...) -&gt; etl::false_type']]],
   ['to_5fchar_5ftype',['to_char_type',['../structetl_1_1char__traits_3_01char_01_4.html#aa018f7cc938b211975ec578ef3d4aeda',1,'etl::char_traits&lt; char &gt;']]],
   ['to_5fint_5ftype',['to_int_type',['../structetl_1_1char__traits_3_01char_01_4.html#a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf',1,'etl::char_traits&lt; char &gt;']]],
   ['to_5finteger',['to_integer',['../namespaceetl.html#aaa84e096751094f12fc96460addc2483',1,'etl']]],

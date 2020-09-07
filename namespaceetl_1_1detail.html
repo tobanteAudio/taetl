@@ -104,6 +104,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3f5fb714218ae063870f7447fa845775"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
 <tr class="memitem:a3f5fb714218ae063870f7447fa845775"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a3f5fb714218ae063870f7447fa845775">cond_t</a> = decltype(false ? <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; T1 &gt;() :<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; T2 &gt;())</td></tr>
 <tr class="separator:a3f5fb714218ae063870f7447fa845775"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cc1f25c4439f63a860dc44358f5a5d"><td class="memTemplParams" colspan="2">template&lt;class &gt; </td></tr>
+<tr class="memitem:af4cc1f25c4439f63a860dc44358f5a5d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">true_type_for</a> = <a class="el" href="namespaceetl.html#ac5b54646ef5937839803117924c49d01">etl::true_type</a></td></tr>
+<tr class="separator:af4cc1f25c4439f63a860dc44358f5a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -128,6 +131,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a62e8d828da790a56eaa4e9d62e347835"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a62e8d828da790a56eaa4e9d62e347835"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a62e8d828da790a56eaa4e9d62e347835">try_add_pointer</a> (...) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td></tr>
 <tr class="separator:a62e8d828da790a56eaa4e9d62e347835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24a9d942fca78e6480545f590e71fa0c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a24a9d942fca78e6480545f590e71fa0c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a24a9d942fca78e6480545f590e71fa0c">test_returnable</a> (int) -&gt; <a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">true_type_for</a>&lt; T()&gt;</td></tr>
+<tr class="separator:a24a9d942fca78e6480545f590e71fa0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcc617420e36cad147efda37f49e9dd"><td class="memTemplParams" colspan="2">template&lt;class &gt; </td></tr>
+<tr class="memitem:addcc617420e36cad147efda37f49e9dd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#addcc617420e36cad147efda37f49e9dd">test_returnable</a> (...) -&gt; <a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">etl::false_type</a></td></tr>
+<tr class="separator:addcc617420e36cad147efda37f49e9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacdeb6355bdbbc7f2e0c03f8a6b8dd85"><td class="memTemplParams" colspan="2">template&lt;class From , class To &gt; </td></tr>
+<tr class="memitem:aacdeb6355bdbbc7f2e0c03f8a6b8dd85"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#aacdeb6355bdbbc7f2e0c03f8a6b8dd85">test_nonvoid_convertible</a> (int) -&gt; <a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">true_type_for</a>&lt; decltype(<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; void(&amp;)(To)&gt;()(<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; From &gt;()))&gt;</td></tr>
+<tr class="separator:aacdeb6355bdbbc7f2e0c03f8a6b8dd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f169d072f3290564c45be092d5b352"><td class="memTemplParams" colspan="2">template&lt;class , class &gt; </td></tr>
+<tr class="memitem:a68f169d072f3290564c45be092d5b352"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a68f169d072f3290564c45be092d5b352">test_nonvoid_convertible</a> (...) -&gt; <a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">etl::false_type</a></td></tr>
+<tr class="separator:a68f169d072f3290564c45be092d5b352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
 <a id="a3f5fb714218ae063870f7447fa845775"></a>
@@ -140,6 +155,22 @@ template&lt;class T1 , class T2 &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl_1_1detail.html#a3f5fb714218ae063870f7447fa845775">etl::detail::cond_t</a> = typedef decltype(false ? <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt;T1&gt;() : <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt;T2&gt;())</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af4cc1f25c4439f63a860dc44358f5a5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af4cc1f25c4439f63a860dc44358f5a5d">&#9670;&nbsp;</a></span>true_type_for</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">etl::detail::true_type_for</a> = typedef <a class="el" href="namespaceetl.html#ac5b54646ef5937839803117924c49d01">etl::true_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -161,6 +192,86 @@ template&lt;typename T &gt; </div>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>val</em></td><td>)</td>
           <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aacdeb6355bdbbc7f2e0c03f8a6b8dd85"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aacdeb6355bdbbc7f2e0c03f8a6b8dd85">&#9670;&nbsp;</a></span>test_nonvoid_convertible() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class From , class To &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::detail::test_nonvoid_convertible </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  <a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">true_type_for</a>&lt; decltype(<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; void(&amp;)(To)&gt;()(<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; From &gt;()))&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a68f169d072f3290564c45be092d5b352"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a68f169d072f3290564c45be092d5b352">&#9670;&nbsp;</a></span>test_nonvoid_convertible() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class , class &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::detail::test_nonvoid_convertible </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td> -&gt;  <a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">etl::false_type</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a24a9d942fca78e6480545f590e71fa0c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a24a9d942fca78e6480545f590e71fa0c">&#9670;&nbsp;</a></span>test_returnable() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::detail::test_returnable </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  <a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">true_type_for</a>&lt; T()&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="addcc617420e36cad147efda37f49e9dd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#addcc617420e36cad147efda37f49e9dd">&#9670;&nbsp;</a></span>test_returnable() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::detail::test_returnable </td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname"><em>...</em></td><td>)</td>
+          <td> -&gt;  <a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">etl::false_type</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

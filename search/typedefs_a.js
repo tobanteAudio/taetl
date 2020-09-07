@@ -8,5 +8,5 @@ var searchData=
   ['milli',['milli',['../namespaceetl.html#a8a92d262bf043c1ef824a60d171019e8',1,'etl']]],
   ['milliseconds',['milliseconds',['../namespaceetl_1_1chrono.html#ab6c569067898fba22426ec03b8708843',1,'etl::chrono']]],
   ['minutes',['minutes',['../namespaceetl_1_1chrono.html#afbfd0a58052fc7b37978f15a7b28c1f4',1,'etl::chrono']]],
-  ['months',['months',['../namespaceetl_1_1chrono.html#a8391152c3f2eb03fbbad0b2a56108617',1,'etl::chrono']]]
+  ['months',['months',['../namespaceetl_1_1chrono.html#a580aaca1b8394beec1fc058a131cd83b',1,'etl::chrono']]]
 ];

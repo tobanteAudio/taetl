@@ -1,29 +1,31 @@
 <map id="etl::integral_constant&lt; Type, val &gt;" name="etl::integral_constant&lt; Type, val &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1detail_1_1is__constructible__helper.html" title="etl::detail::is_constructible\l_helper\&lt; bool, false \&gt;" alt="" coords="228,5,423,47"/>
-<area shape="rect" id="node3" href="$structetl_1_1detail_1_1is__constructible__helper_3_01void__t_3_01decltype_07T_07declval_3_01Argsa80037a39bb9e756040a068d64e78d77.html" title="etl::detail::is_constructible\l_helper\&lt; void_t\&lt; decltype\l(T(declval\&lt; Args \&gt;()...))\&gt;\l, T, Args... \&gt;" alt="" coords="227,71,423,141"/>
-<area shape="rect" id="node4" href="$structetl_1_1detail_1_1is__member__pointer__helper.html" title="etl::detail::is_member\l_pointer_helper\&lt; bool,\l false \&gt;" alt="" coords="240,166,411,222"/>
-<area shape="rect" id="node5" href="$structetl_1_1detail_1_1is__member__pointer__helper_3_01T_01U_1_1_5_01_4.html" title="etl::detail::is_member\l_pointer_helper\&lt; T U::* \&gt;" alt="" coords="230,247,421,288"/>
-<area shape="rect" id="node6" href="$structetl_1_1detail_1_1is__pointer__helper.html" title="etl::detail::is_pointer\l_helper\&lt; bool, false \&gt;" alt="" coords="241,312,409,353"/>
-<area shape="rect" id="node7" href="$structetl_1_1detail_1_1is__pointer__helper_3_01T_01_5_01_4.html" title="etl::detail::is_pointer\l_helper\&lt; T * \&gt;" alt="" coords="247,377,403,419"/>
-<area shape="rect" id="node8" href="$structetl_1_1is__array.html" title="Checks whether T is an array type. Provides the member constant value which is equal to true..." alt="" coords="252,443,399,484"/>
-<area shape="rect" id="node9" href="$structetl_1_1is__array_3_01T[]_4.html" title="etl::is_array\&lt; T[]\&gt;" alt="" coords="254,509,397,535"/>
-<area shape="rect" id="node10" href="$structetl_1_1is__array_3_01T[N]_4.html" title="etl::is_array\&lt; T[N]\&gt;" alt="" coords="249,559,402,586"/>
-<area shape="rect" id="node11" href="$structetl_1_1is__const.html" title="etl::is_const\&lt; bool,\l false \&gt;" alt="" coords="252,611,399,652"/>
-<area shape="rect" id="node12" href="$structetl_1_1is__const_3_01const_01T_01_4.html" title="etl::is_const\&lt; const T \&gt;" alt="" coords="237,677,414,703"/>
-<area shape="rect" id="node13" href="$structetl_1_1is__error__code__enum.html" title="etl::is_error_code\l_enum\&lt; bool, false \&gt;" alt="" coords="243,728,407,769"/>
-<area shape="rect" id="node14" href="$structetl_1_1is__error__condition__enum.html" title="etl::is_error_condition\l_enum\&lt; bool, false \&gt;" alt="" coords="243,793,407,835"/>
-<area shape="rect" id="node15" href="$structetl_1_1is__error__condition__enum_3_01errc_01_4.html" title="etl::is_error_condition\l_enum\&lt; errc \&gt;" alt="" coords="244,859,407,900"/>
-<area shape="rect" id="node16" href="$structetl_1_1is__reference.html" title="etl::is_reference\&lt;\l bool, false \&gt;" alt="" coords="256,924,395,965"/>
-<area shape="rect" id="node17" href="$structetl_1_1is__reference_3_01T_01_6_01_4.html" title="etl::is_reference\&lt;\l T &amp; \&gt;" alt="" coords="256,989,395,1031"/>
-<area shape="rect" id="node18" href="$structetl_1_1is__reference_3_01T_01_6_6_01_4.html" title="etl::is_reference\&lt;\l T &amp;&amp; \&gt;" alt="" coords="256,1055,395,1096"/>
-<area shape="rect" id="node19" href="$structetl_1_1is__same.html" title="If T and U name the same type (taking into account const/volatile qualifications), provides the member constant value equal to true. Otherwise value is false. " alt="" coords="251,1120,399,1161"/>
-<area shape="rect" id="node20" href="$structetl_1_1is__same_3_01T_00_01T_01_4.html" title="etl::is_same\&lt; T, T \&gt;" alt="" coords="248,1186,403,1213"/>
-<area shape="rect" id="node21" href="$structetl_1_1detail_1_1is__member__pointer__helper.html" title="is_member_pointer_helper\l\&lt; etl::remove_cv\&lt; T \&gt;::type \&gt;" alt="" coords="213,1237,437,1279"/>
-<area shape="rect" id="node23" href="$structetl_1_1detail_1_1is__pointer__helper.html" title="is_pointer_helper\&lt;\l remove_cv\&lt; T \&gt;::type \&gt;" alt="" coords="231,1303,419,1344"/>
-<area shape="rect" id="node25" href="$structetl_1_1is__same.html" title="is_same\&lt; nullptr_t,\l remove_cv_t\&lt; T \&gt; \&gt;" alt="" coords="244,1368,407,1409"/>
-<area shape="rect" id="node27" href="$structetl_1_1is__same.html" title="is_same\&lt; void, remove\l_cv\&lt; T \&gt;::type \&gt;" alt="" coords="237,1433,414,1475"/>
-<area shape="rect" id="node22" href="$structetl_1_1is__member__pointer.html" title="If T is pointer to non&#45;static member object or a pointer to non&#45;static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for is_member_pointer or is_member_pointer_v (since C++17) is undefined. " alt="" coords="485,1245,696,1271"/>
-<area shape="rect" id="node24" href="$structetl_1_1is__pointer.html" title="etl::is_pointer\&lt; T \&gt;" alt="" coords="516,1310,665,1337"/>
-<area shape="rect" id="node26" href="$structetl_1_1is__null__pointer.html" title="etl::is_null_pointer\&lt; T \&gt;" alt="" coords="501,1375,681,1402"/>
-<area shape="rect" id="node28" href="$structetl_1_1is__void.html" title="Define a member typedef only if a boolean constant is true. " alt="" coords="525,1441,656,1467"/>
+<area shape="rect" id="node2" href="$structetl_1_1chrono_1_1detail_1_1is__duration.html" title="etl::chrono::detail\l::is_duration\&lt; bool,\l false \&gt;" alt="" coords="251,5,400,61"/>
+<area shape="rect" id="node3" href="$structetl_1_1chrono_1_1detail_1_1is__duration_3_01etl_1_1chrono_1_1duration_3_01Rep_00_01Period_01_4_01_4.html" title="etl::chrono::detail\l::is_duration\&lt; etl::\lchrono::duration\&lt; Rep,\l Period \&gt; \&gt;" alt="" coords="240,86,411,157"/>
+<area shape="rect" id="node4" href="$structetl_1_1detail_1_1is__constructible__helper.html" title="etl::detail::is_constructible\l_helper\&lt; bool, false \&gt;" alt="" coords="228,181,423,222"/>
+<area shape="rect" id="node5" href="$structetl_1_1detail_1_1is__constructible__helper_3_01void__t_3_01decltype_07T_07declval_3_01Argsa80037a39bb9e756040a068d64e78d77.html" title="etl::detail::is_constructible\l_helper\&lt; void_t\&lt; decltype\l(T(declval\&lt; Args \&gt;()...))\&gt;\l, T, Args... \&gt;" alt="" coords="227,246,423,317"/>
+<area shape="rect" id="node6" href="$structetl_1_1detail_1_1is__member__pointer__helper.html" title="etl::detail::is_member\l_pointer_helper\&lt; bool,\l false \&gt;" alt="" coords="240,341,411,397"/>
+<area shape="rect" id="node7" href="$structetl_1_1detail_1_1is__member__pointer__helper_3_01T_01U_1_1_5_01_4.html" title="etl::detail::is_member\l_pointer_helper\&lt; T U::* \&gt;" alt="" coords="230,422,421,463"/>
+<area shape="rect" id="node8" href="$structetl_1_1detail_1_1is__pointer__helper.html" title="etl::detail::is_pointer\l_helper\&lt; bool, false \&gt;" alt="" coords="241,487,409,529"/>
+<area shape="rect" id="node9" href="$structetl_1_1detail_1_1is__pointer__helper_3_01T_01_5_01_4.html" title="etl::detail::is_pointer\l_helper\&lt; T * \&gt;" alt="" coords="247,553,403,594"/>
+<area shape="rect" id="node10" href="$structetl_1_1is__array.html" title="Checks whether T is an array type. Provides the member constant value which is equal to true..." alt="" coords="252,618,399,659"/>
+<area shape="rect" id="node11" href="$structetl_1_1is__array_3_01T[]_4.html" title="etl::is_array\&lt; T[]\&gt;" alt="" coords="254,684,397,711"/>
+<area shape="rect" id="node12" href="$structetl_1_1is__array_3_01T[N]_4.html" title="etl::is_array\&lt; T[N]\&gt;" alt="" coords="249,735,402,761"/>
+<area shape="rect" id="node13" href="$structetl_1_1is__const.html" title="etl::is_const\&lt; bool,\l false \&gt;" alt="" coords="252,786,399,827"/>
+<area shape="rect" id="node14" href="$structetl_1_1is__const_3_01const_01T_01_4.html" title="etl::is_const\&lt; const T \&gt;" alt="" coords="237,852,414,879"/>
+<area shape="rect" id="node15" href="$structetl_1_1is__error__code__enum.html" title="etl::is_error_code\l_enum\&lt; bool, false \&gt;" alt="" coords="243,903,407,945"/>
+<area shape="rect" id="node16" href="$structetl_1_1is__error__condition__enum.html" title="etl::is_error_condition\l_enum\&lt; bool, false \&gt;" alt="" coords="243,969,407,1010"/>
+<area shape="rect" id="node17" href="$structetl_1_1is__error__condition__enum_3_01errc_01_4.html" title="etl::is_error_condition\l_enum\&lt; errc \&gt;" alt="" coords="244,1034,407,1075"/>
+<area shape="rect" id="node18" href="$structetl_1_1is__reference.html" title="etl::is_reference\&lt;\l bool, false \&gt;" alt="" coords="256,1099,395,1141"/>
+<area shape="rect" id="node19" href="$structetl_1_1is__reference_3_01T_01_6_01_4.html" title="etl::is_reference\&lt;\l T &amp; \&gt;" alt="" coords="256,1165,395,1206"/>
+<area shape="rect" id="node20" href="$structetl_1_1is__reference_3_01T_01_6_6_01_4.html" title="etl::is_reference\&lt;\l T &amp;&amp; \&gt;" alt="" coords="256,1230,395,1271"/>
+<area shape="rect" id="node21" href="$structetl_1_1is__same.html" title="If T and U name the same type (taking into account const/volatile qualifications), provides the member constant value equal to true. Otherwise value is false. " alt="" coords="251,1295,399,1337"/>
+<area shape="rect" id="node22" href="$structetl_1_1is__same_3_01T_00_01T_01_4.html" title="etl::is_same\&lt; T, T \&gt;" alt="" coords="248,1361,403,1388"/>
+<area shape="rect" id="node23" href="$structetl_1_1detail_1_1is__member__pointer__helper.html" title="is_member_pointer_helper\l\&lt; etl::remove_cv\&lt; T \&gt;::type \&gt;" alt="" coords="213,1413,437,1454"/>
+<area shape="rect" id="node25" href="$structetl_1_1detail_1_1is__pointer__helper.html" title="is_pointer_helper\&lt;\l remove_cv\&lt; T \&gt;::type \&gt;" alt="" coords="231,1478,419,1519"/>
+<area shape="rect" id="node27" href="$structetl_1_1is__same.html" title="is_same\&lt; nullptr_t,\l remove_cv_t\&lt; T \&gt; \&gt;" alt="" coords="244,1543,407,1585"/>
+<area shape="rect" id="node29" href="$structetl_1_1is__same.html" title="is_same\&lt; void, remove\l_cv\&lt; T \&gt;::type \&gt;" alt="" coords="237,1609,414,1650"/>
+<area shape="rect" id="node24" href="$structetl_1_1is__member__pointer.html" title="If T is pointer to non&#45;static member object or a pointer to non&#45;static member function, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for is_member_pointer or is_member_pointer_v (since C++17) is undefined. " alt="" coords="485,1420,696,1447"/>
+<area shape="rect" id="node26" href="$structetl_1_1is__pointer.html" title="etl::is_pointer\&lt; T \&gt;" alt="" coords="516,1485,665,1512"/>
+<area shape="rect" id="node28" href="$structetl_1_1is__null__pointer.html" title="etl::is_null_pointer\&lt; T \&gt;" alt="" coords="501,1551,681,1577"/>
+<area shape="rect" id="node30" href="$structetl_1_1is__void.html" title="Define a member typedef only if a boolean constant is true. " alt="" coords="525,1616,656,1643"/>
 </map>

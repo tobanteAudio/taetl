@@ -64,13 +64,20 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
-<a href="#typedef-members">Typedefs</a>  </div>
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">etl::chrono Namespace Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceetl_1_1chrono_1_1detail"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono_1_1detail.html">detail</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a></td></tr>
@@ -78,6 +85,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1chrono_1_1duration__values.html">duration_values</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structetl_1_1chrono_1_1duration__values.html" title="The etl::chrono::duration_values type defines three common durations. ">etl::chrono::duration_values</a> type defines three common durations.  <a href="structetl_1_1chrono_1_1duration__values.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1chrono_1_1treat__as__floating__point.html">treat_as_floating_point</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The <a class="el" href="structetl_1_1chrono_1_1treat__as__floating__point.html" title="The etl::chrono::treat_as_floating_point trait helps determine if a duration can be converted to anot...">etl::chrono::treat_as_floating_point</a> trait helps determine if a duration can be converted to another duration with a different tick period.  <a href="structetl_1_1chrono_1_1treat__as__floating__point.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -100,28 +110,34 @@ Typedefs</h2></td></tr>
 <tr class="memitem:abbfced0609962ed270e044fe68500458"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#abbfced0609962ed270e044fe68500458">hours</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 3600 &gt; &gt;</td></tr>
 <tr class="memdesc:abbfced0609962ed270e044fe68500458"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 23 bits.  <a href="#abbfced0609962ed270e044fe68500458">More...</a><br /></td></tr>
 <tr class="separator:abbfced0609962ed270e044fe68500458"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a020bdc230a8aa99956a248267e098386"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a020bdc230a8aa99956a248267e098386">days</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 86400 &gt; &gt;</td></tr>
-<tr class="memdesc:a020bdc230a8aa99956a248267e098386"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 25 bits.  <a href="#a020bdc230a8aa99956a248267e098386">More...</a><br /></td></tr>
-<tr class="separator:a020bdc230a8aa99956a248267e098386"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a945ba75a76a274b64d2071cc9437ed4d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a945ba75a76a274b64d2071cc9437ed4d">weeks</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 604800 &gt; &gt;</td></tr>
-<tr class="memdesc:a945ba75a76a274b64d2071cc9437ed4d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 22 bits.  <a href="#a945ba75a76a274b64d2071cc9437ed4d">More...</a><br /></td></tr>
-<tr class="separator:a945ba75a76a274b64d2071cc9437ed4d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8391152c3f2eb03fbbad0b2a56108617"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a8391152c3f2eb03fbbad0b2a56108617">months</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 2629746 &gt; &gt;</td></tr>
-<tr class="memdesc:a8391152c3f2eb03fbbad0b2a56108617"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 20 bits.  <a href="#a8391152c3f2eb03fbbad0b2a56108617">More...</a><br /></td></tr>
-<tr class="separator:a8391152c3f2eb03fbbad0b2a56108617"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af79ce0df850a5229116ad64901a0b5df"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#af79ce0df850a5229116ad64901a0b5df">years</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 31556952 &gt; &gt;</td></tr>
-<tr class="memdesc:af79ce0df850a5229116ad64901a0b5df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 17 bits.  <a href="#af79ce0df850a5229116ad64901a0b5df">More...</a><br /></td></tr>
-<tr class="separator:af79ce0df850a5229116ad64901a0b5df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98de3a14be134e1781f8ac38eea7fe1d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a98de3a14be134e1781f8ac38eea7fe1d">days</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 86 '400 &gt; &gt;</td></tr>
+<tr class="memdesc:a98de3a14be134e1781f8ac38eea7fe1d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 25 bits.  <a href="#a98de3a14be134e1781f8ac38eea7fe1d">More...</a><br /></td></tr>
+<tr class="separator:a98de3a14be134e1781f8ac38eea7fe1d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a752ee03842d9acecb3e9d043186190fb"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a752ee03842d9acecb3e9d043186190fb">weeks</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 604 '800 &gt; &gt;</td></tr>
+<tr class="memdesc:a752ee03842d9acecb3e9d043186190fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 22 bits.  <a href="#a752ee03842d9acecb3e9d043186190fb">More...</a><br /></td></tr>
+<tr class="separator:a752ee03842d9acecb3e9d043186190fb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a580aaca1b8394beec1fc058a131cd83b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a580aaca1b8394beec1fc058a131cd83b">months</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 2 '629 '746 &gt; &gt;</td></tr>
+<tr class="memdesc:a580aaca1b8394beec1fc058a131cd83b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 20 bits.  <a href="#a580aaca1b8394beec1fc058a131cd83b">More...</a><br /></td></tr>
+<tr class="separator:a580aaca1b8394beec1fc058a131cd83b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3da636fcc73163067f9bb5bbdcf6b0de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a3da636fcc73163067f9bb5bbdcf6b0de">years</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 31 '556 '952 &gt; &gt;</td></tr>
+<tr class="memdesc:a3da636fcc73163067f9bb5bbdcf6b0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 17 bits.  <a href="#a3da636fcc73163067f9bb5bbdcf6b0de">More...</a><br /></td></tr>
+<tr class="separator:a3da636fcc73163067f9bb5bbdcf6b0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:af67f1bb3314d5d528565a3e100ce15a8"><td class="memTemplParams" colspan="2">template&lt;class Rep &gt; </td></tr>
+<tr class="memitem:af67f1bb3314d5d528565a3e100ce15a8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#af67f1bb3314d5d528565a3e100ce15a8">treat_as_floating_point_v</a> = <a class="el" href="structetl_1_1chrono_1_1treat__as__floating__point.html">treat_as_floating_point</a>&lt;Rep&gt;::value</td></tr>
+<tr class="separator:af67f1bb3314d5d528565a3e100ce15a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Typedef Documentation</h2>
-<a id="a020bdc230a8aa99956a248267e098386"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a020bdc230a8aa99956a248267e098386">&#9670;&nbsp;</a></span>days</h2>
+<a id="a98de3a14be134e1781f8ac38eea7fe1d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98de3a14be134e1781f8ac38eea7fe1d">&#9670;&nbsp;</a></span>days</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a020bdc230a8aa99956a248267e098386">etl::chrono::days</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;86400&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a98de3a14be134e1781f8ac38eea7fe1d">etl::chrono::days</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;86'400&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -194,14 +210,14 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
-<a id="a8391152c3f2eb03fbbad0b2a56108617"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8391152c3f2eb03fbbad0b2a56108617">&#9670;&nbsp;</a></span>months</h2>
+<a id="a580aaca1b8394beec1fc058a131cd83b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a580aaca1b8394beec1fc058a131cd83b">&#9670;&nbsp;</a></span>months</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a8391152c3f2eb03fbbad0b2a56108617">etl::chrono::months</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;2629746&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a580aaca1b8394beec1fc058a131cd83b">etl::chrono::months</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;2'629'746&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -242,14 +258,14 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
-<a id="a945ba75a76a274b64d2071cc9437ed4d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a945ba75a76a274b64d2071cc9437ed4d">&#9670;&nbsp;</a></span>weeks</h2>
+<a id="a752ee03842d9acecb3e9d043186190fb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a752ee03842d9acecb3e9d043186190fb">&#9670;&nbsp;</a></span>weeks</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a945ba75a76a274b64d2071cc9437ed4d">etl::chrono::weeks</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;604800&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a752ee03842d9acecb3e9d043186190fb">etl::chrono::weeks</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;604'800&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -258,19 +274,44 @@ Typedefs</h2></td></tr>
 
 </div>
 </div>
-<a id="af79ce0df850a5229116ad64901a0b5df"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af79ce0df850a5229116ad64901a0b5df">&#9670;&nbsp;</a></span>years</h2>
+<a id="a3da636fcc73163067f9bb5bbdcf6b0de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3da636fcc73163067f9bb5bbdcf6b0de">&#9670;&nbsp;</a></span>years</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#af79ce0df850a5229116ad64901a0b5df">etl::chrono::years</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;31556952&gt; &gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1chrono.html#a3da636fcc73163067f9bb5bbdcf6b0de">etl::chrono::years</a> = typedef <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;<a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt;31'556'952&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
 
 <p>Signed integer type of at least 17 bits. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Variable Documentation</h2>
+<a id="af67f1bb3314d5d528565a3e100ce15a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af67f1bb3314d5d528565a3e100ce15a8">&#9670;&nbsp;</a></span>treat_as_floating_point_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::chrono::treat_as_floating_point_v = <a class="el" href="structetl_1_1chrono_1_1treat__as__floating__point.html">treat_as_floating_point</a>&lt;Rep&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>

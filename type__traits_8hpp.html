@@ -279,6 +279,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1common__type_3_01T1_00_01T2_00_01R_8_8_8_01_4.html">etl::common_type&lt; T1, T2, R... &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__convertible.html">etl::is_convertible&lt; From, To &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the imaginary function definition To test() { return <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval&lt;From&gt;()</a>; } is well-formed, (that is, either <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval&lt;From&gt;()</a> can be converted to To using implicit conversions, or both From and To are possibly cv-qualified void), provides the member constant value equal to true. Otherwise value is false. For the purposes of this check, the use of <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a> in the return statement is not considered an odr-use. Access checks are performed as if from a context unrelated to either type. Only the validity of the immediate context of the expression in the return statement (including conversions to the return type) is considered.  <a href="structetl_1_1is__convertible.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
 Namespaces</h2></td></tr>
@@ -345,6 +348,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:ac80571ce0a1bbafdb4d8e153ceade9e3"><td class="memTemplParams" colspan="2">template&lt;class... T&gt; </td></tr>
 <tr class="memitem:ac80571ce0a1bbafdb4d8e153ceade9e3"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a> = typename common_type&lt; T... &gt;::type</td></tr>
 <tr class="separator:ac80571ce0a1bbafdb4d8e153ceade9e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af4cc1f25c4439f63a860dc44358f5a5d"><td class="memTemplParams" colspan="2">template&lt;class &gt; </td></tr>
+<tr class="memitem:af4cc1f25c4439f63a860dc44358f5a5d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#af4cc1f25c4439f63a860dc44358f5a5d">etl::detail::true_type_for</a> = <a class="el" href="namespaceetl.html#ac5b54646ef5937839803117924c49d01">etl::true_type</a></td></tr>
+<tr class="separator:af4cc1f25c4439f63a860dc44358f5a5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
@@ -369,6 +375,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a62e8d828da790a56eaa4e9d62e347835"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a62e8d828da790a56eaa4e9d62e347835"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a62e8d828da790a56eaa4e9d62e347835">etl::detail::try_add_pointer</a> (...) -&gt; <a class="el" href="structetl_1_1type__identity.html">etl::type_identity</a>&lt; T &gt;</td></tr>
 <tr class="separator:a62e8d828da790a56eaa4e9d62e347835"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a24a9d942fca78e6480545f590e71fa0c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a24a9d942fca78e6480545f590e71fa0c"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a24a9d942fca78e6480545f590e71fa0c">etl::detail::test_returnable</a> (int) -&gt; true_type_for&lt; T()&gt;</td></tr>
+<tr class="separator:a24a9d942fca78e6480545f590e71fa0c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:addcc617420e36cad147efda37f49e9dd"><td class="memTemplParams" colspan="2">template&lt;class &gt; </td></tr>
+<tr class="memitem:addcc617420e36cad147efda37f49e9dd"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#addcc617420e36cad147efda37f49e9dd">etl::detail::test_returnable</a> (...) -&gt; <a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">etl::false_type</a></td></tr>
+<tr class="separator:addcc617420e36cad147efda37f49e9dd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aacdeb6355bdbbc7f2e0c03f8a6b8dd85"><td class="memTemplParams" colspan="2">template&lt;class From , class To &gt; </td></tr>
+<tr class="memitem:aacdeb6355bdbbc7f2e0c03f8a6b8dd85"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#aacdeb6355bdbbc7f2e0c03f8a6b8dd85">etl::detail::test_nonvoid_convertible</a> (int) -&gt; true_type_for&lt; decltype(<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; void(&amp;)(To)&gt;()(<a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; From &gt;()))&gt;</td></tr>
+<tr class="separator:aacdeb6355bdbbc7f2e0c03f8a6b8dd85"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a68f169d072f3290564c45be092d5b352"><td class="memTemplParams" colspan="2">template&lt;class , class &gt; </td></tr>
+<tr class="memitem:a68f169d072f3290564c45be092d5b352"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1detail.html#a68f169d072f3290564c45be092d5b352">etl::detail::test_nonvoid_convertible</a> (...) -&gt; <a class="el" href="namespaceetl.html#a0917d3f5e85877c283c4f04e327fd973">etl::false_type</a></td></tr>
+<tr class="separator:a68f169d072f3290564c45be092d5b352"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -429,6 +447,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a56baa007c444a18e18b603a55d9957bf"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
 <tr class="memitem:a56baa007c444a18e18b603a55d9957bf"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a56baa007c444a18e18b603a55d9957bf">etl::rank_v</a> = rank&lt;Type&gt;::value</td></tr>
 <tr class="separator:a56baa007c444a18e18b603a55d9957bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa15279e84c7ec40ef8a2d460b81b7fb7"><td class="memTemplParams" colspan="2">template&lt;class From , class To &gt; </td></tr>
+<tr class="memitem:aa15279e84c7ec40ef8a2d460b81b7fb7"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa15279e84c7ec40ef8a2d460b81b7fb7">etl::is_convertible_v</a> = is_convertible&lt;From, To&gt;::value</td></tr>
+<tr class="separator:aa15279e84c7ec40ef8a2d460b81b7fb7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

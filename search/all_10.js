@@ -8,6 +8,7 @@ var searchData=
   ['ratio',['ratio',['../structetl_1_1ratio.html',1,'etl']]],
   ['ratio_2ehpp',['ratio.hpp',['../ratio_8hpp.html',1,'']]],
   ['ratio_5fadd',['ratio_add',['../namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00',1,'etl']]],
+  ['ratio_5fdivide',['ratio_divide',['../namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258',1,'etl']]],
   ['ratio_5fsubtract',['ratio_subtract',['../namespaceetl.html#a234acc6c1438740afe4f7766f1208784',1,'etl']]],
   ['raw_5fvalue',['raw_value',['../structetl_1_1experimental_1_1strong__type.html#a72af07133fc28ed7b8b04e7e1959bc72',1,'etl::experimental::strong_type']]],
   ['read',['read',['../structetl_1_1hardware_1_1stm32_1_1port.html#aa80f75b5594d04b917e6df244999883c',1,'etl::hardware::stm32::port']]],

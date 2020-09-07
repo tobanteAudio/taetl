@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['days',['days',['../namespaceetl_1_1chrono.html#a020bdc230a8aa99956a248267e098386',1,'etl::chrono']]],
+  ['days',['days',['../namespaceetl_1_1chrono.html#a98de3a14be134e1781f8ac38eea7fe1d',1,'etl::chrono']]],
   ['deca',['deca',['../namespaceetl.html#acae5b099e4ead54343e6304a6371985b',1,'etl']]],
   ['decay_5ft',['decay_t',['../namespaceetl.html#ad602447fa93ad71f4db547fa0ae92883',1,'etl']]],
   ['deci',['deci',['../namespaceetl.html#a59f2e2c10ab4b06ed261d1e4a8358895',1,'etl']]],
