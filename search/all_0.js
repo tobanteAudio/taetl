@@ -9,7 +9,7 @@ var searchData=
   ['a25',['a25',['../namespaceetl_1_1hardware_1_1mcp23017.html#a2bd389dd9be11184f4988e244e8a556ea7850737a42d9d21cac6fee3958d95f5f',1,'etl::hardware::mcp23017']]],
   ['a26',['a26',['../namespaceetl_1_1hardware_1_1mcp23017.html#a2bd389dd9be11184f4988e244e8a556eabbf2466e744a50035030927d7283f2b3',1,'etl::hardware::mcp23017']]],
   ['a27',['a27',['../namespaceetl_1_1hardware_1_1mcp23017.html#a2bd389dd9be11184f4988e244e8a556ea07ae153a4f9e087201edbdd5a4c12d5e',1,'etl::hardware::mcp23017']]],
-  ['abs',['abs',['../namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3',1,'etl']]],
+  ['abs',['abs',['../namespaceetl_1_1chrono.html#a28c420ed1f11b22a9577e4a8abe4dad3',1,'etl::chrono::abs()'],['../namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3',1,'etl::abs()']]],
   ['accumulate',['accumulate',['../namespaceetl.html#afe443a26a34b79fc921c4583df576333',1,'etl::accumulate(InputIt first, InputIt last, Type init) noexcept -&gt; Type'],['../namespaceetl.html#a9413959b7ee39d393e7c35ad2cd78294',1,'etl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type']]],
   ['add_5flvalue_5freference',['add_lvalue_reference',['../structetl_1_1add__lvalue__reference.html',1,'etl']]],
   ['add_5flvalue_5freference_5ft',['add_lvalue_reference_t',['../namespaceetl.html#a662329de2bc2a83d5e45d1ccad797f17',1,'etl']]],

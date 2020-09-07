@@ -67,6 +67,7 @@ $(function() {
 <a href="#namespaces">Namespaces</a> &#124;
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
 <a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">etl::chrono Namespace Reference</div>  </div>
@@ -122,6 +123,41 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a3da636fcc73163067f9bb5bbdcf6b0de"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a3da636fcc73163067f9bb5bbdcf6b0de">years</a> = <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; <a class="el" href="namespaceetl.html#ae779a40ac9323d2b0729f8bb95cf0fd1">etl::int32_t</a>, <a class="el" href="structetl_1_1ratio.html">etl::ratio</a>&lt; 31 '556 '952 &gt; &gt;</td></tr>
 <tr class="memdesc:a3da636fcc73163067f9bb5bbdcf6b0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Signed integer type of at least 17 bits.  <a href="#a3da636fcc73163067f9bb5bbdcf6b0de">More...</a><br /></td></tr>
 <tr class="separator:a3da636fcc73163067f9bb5bbdcf6b0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
+Functions</h2></td></tr>
+<tr class="memitem:abb19e1d8a9ef3db7b4d4aad0c75af620"><td class="memTemplParams" colspan="2">template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </td></tr>
+<tr class="memitem:abb19e1d8a9ef3db7b4d4aad0c75af620"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#abb19e1d8a9ef3db7b4d4aad0c75af620">operator==</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;lhs, const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:abb19e1d8a9ef3db7b4d4aad0c75af620"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two durations. Checks if lhs and rhs are equal, i.e. the number of ticks for the type common to both durations are equal.  <a href="#abb19e1d8a9ef3db7b4d4aad0c75af620">More...</a><br /></td></tr>
+<tr class="separator:abb19e1d8a9ef3db7b4d4aad0c75af620"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d64f421817031025cbcfdb4a9a3b301"><td class="memTemplParams" colspan="2">template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </td></tr>
+<tr class="memitem:a3d64f421817031025cbcfdb4a9a3b301"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a3d64f421817031025cbcfdb4a9a3b301">operator!=</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;lhs, const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a3d64f421817031025cbcfdb4a9a3b301"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two durations. Checks if lhs and rhs are equal, i.e. the number of ticks for the type common to both durations are equal.  <a href="#a3d64f421817031025cbcfdb4a9a3b301">More...</a><br /></td></tr>
+<tr class="separator:a3d64f421817031025cbcfdb4a9a3b301"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa8101b7a0ed6a2ee12648eda0d75bd06"><td class="memTemplParams" colspan="2">template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </td></tr>
+<tr class="memitem:aa8101b7a0ed6a2ee12648eda0d75bd06"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#aa8101b7a0ed6a2ee12648eda0d75bd06">operator&lt;</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;lhs, const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:aa8101b7a0ed6a2ee12648eda0d75bd06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations.  <a href="#aa8101b7a0ed6a2ee12648eda0d75bd06">More...</a><br /></td></tr>
+<tr class="separator:aa8101b7a0ed6a2ee12648eda0d75bd06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a13446f9a9d204ca76d6f2d29cf23efc9"><td class="memTemplParams" colspan="2">template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </td></tr>
+<tr class="memitem:a13446f9a9d204ca76d6f2d29cf23efc9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a13446f9a9d204ca76d6f2d29cf23efc9">operator&lt;=</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;lhs, const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a13446f9a9d204ca76d6f2d29cf23efc9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations.  <a href="#a13446f9a9d204ca76d6f2d29cf23efc9">More...</a><br /></td></tr>
+<tr class="separator:a13446f9a9d204ca76d6f2d29cf23efc9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4e2ff3a12650e03972bff753a765d09c"><td class="memTemplParams" colspan="2">template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </td></tr>
+<tr class="memitem:a4e2ff3a12650e03972bff753a765d09c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a4e2ff3a12650e03972bff753a765d09c">operator&gt;</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;lhs, const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a4e2ff3a12650e03972bff753a765d09c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations.  <a href="#a4e2ff3a12650e03972bff753a765d09c">More...</a><br /></td></tr>
+<tr class="separator:a4e2ff3a12650e03972bff753a765d09c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9b8140063cf4fd14001472c7a4429307"><td class="memTemplParams" colspan="2">template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </td></tr>
+<tr class="memitem:a9b8140063cf4fd14001472c7a4429307"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a9b8140063cf4fd14001472c7a4429307">operator&gt;=</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;lhs, const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a9b8140063cf4fd14001472c7a4429307"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations.  <a href="#a9b8140063cf4fd14001472c7a4429307">More...</a><br /></td></tr>
+<tr class="separator:a9b8140063cf4fd14001472c7a4429307"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c5d75513b403d3b4de7f892ec173d44"><td class="memTemplParams" colspan="2">template&lt;class ToDuration , class Rep , class Period &gt; </td></tr>
+<tr class="memitem:a9c5d75513b403d3b4de7f892ec173d44"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a9c5d75513b403d3b4de7f892ec173d44">duration_cast</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; &amp;d) -&gt; ToDuration</td></tr>
+<tr class="memdesc:a9c5d75513b403d3b4de7f892ec173d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="classetl_1_1chrono_1_1duration.html" title="Class template etl::chrono::duration represents a time interval. ">etl::chrono::duration</a> to a duration of different type ToDuration.  <a href="#a9c5d75513b403d3b4de7f892ec173d44">More...</a><br /></td></tr>
+<tr class="separator:a9c5d75513b403d3b4de7f892ec173d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memTemplParams" colspan="2">template&lt;typename Rep , typename Period , typename  = etl::enable_if_t&lt;numeric_limits&lt;Rep&gt;::is_signed&gt;&gt; </td></tr>
+<tr class="memitem:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a28c420ed1f11b22a9577e4a8abe4dad3">abs</a> (<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; d) -&gt; <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt;</td></tr>
+<tr class="memdesc:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the greatest duration t representable in ToDuration that is less or equal to d. The function does not participate in the overload resolution unless ToDuration is an instance of <a class="el" href="classetl_1_1chrono_1_1duration.html" title="Class template etl::chrono::duration represents a time interval. ">etl::chrono::duration</a>.  <a href="#a28c420ed1f11b22a9577e4a8abe4dad3">More...</a><br /></td></tr>
+<tr class="separator:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
@@ -287,6 +323,252 @@ Variables</h2></td></tr>
 </div><div class="memdoc">
 
 <p>Signed integer type of at least 17 bits. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Function Documentation</h2>
+<a id="a28c420ed1f11b22a9577e4a8abe4dad3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28c420ed1f11b22a9577e4a8abe4dad3">&#9670;&nbsp;</a></span>abs()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Rep , typename Period , typename  = etl::enable_if_t&lt;numeric_limits&lt;Rep&gt;::is_signed&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::abs </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt;&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt;Rep, Period&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns the greatest duration t representable in ToDuration that is less or equal to d. The function does not participate in the overload resolution unless ToDuration is an instance of <a class="el" href="classetl_1_1chrono_1_1duration.html" title="Class template etl::chrono::duration represents a time interval. ">etl::chrono::duration</a>. </p>
+<p>Returns the absolute value of the duration d. Specifically, if d &gt;= d.zero(), return d, otherwise return -d. The function does not participate in the overload resolution unless <a class="el" href="classetl_1_1numeric__limits.html#a1f1deabd95c96ac9b332c2f2cc6961b7">etl::numeric_limits&lt;Rep&gt;::is_signed</a> is true. </p>
+
+</div>
+</div>
+<a id="a9c5d75513b403d3b4de7f892ec173d44"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c5d75513b403d3b4de7f892ec173d44">&#9670;&nbsp;</a></span>duration_cast()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ToDuration , class Rep , class Period &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::duration_cast </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; &amp;&#160;</td>
+          <td class="paramname"><em>d</em></td><td>)</td>
+          <td> -&gt; ToDuration
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts a <a class="el" href="classetl_1_1chrono_1_1duration.html" title="Class template etl::chrono::duration represents a time interval. ">etl::chrono::duration</a> to a duration of different type ToDuration. </p>
+
+</div>
+</div>
+<a id="a3d64f421817031025cbcfdb4a9a3b301"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d64f421817031025cbcfdb4a9a3b301">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::operator!= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two durations. Checks if lhs and rhs are equal, i.e. the number of ticks for the type common to both durations are equal. </p>
+
+</div>
+</div>
+<a id="aa8101b7a0ed6a2ee12648eda0d75bd06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8101b7a0ed6a2ee12648eda0d75bd06">&#9670;&nbsp;</a></span>operator<()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations. </p>
+
+</div>
+</div>
+<a id="a13446f9a9d204ca76d6f2d29cf23efc9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a13446f9a9d204ca76d6f2d29cf23efc9">&#9670;&nbsp;</a></span>operator<=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations. </p>
+
+</div>
+</div>
+<a id="abb19e1d8a9ef3db7b4d4aad0c75af620"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abb19e1d8a9ef3db7b4d4aad0c75af620">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::operator== </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two durations. Checks if lhs and rhs are equal, i.e. the number of ticks for the type common to both durations are equal. </p>
+
+</div>
+</div>
+<a id="a4e2ff3a12650e03972bff753a765d09c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4e2ff3a12650e03972bff753a765d09c">&#9670;&nbsp;</a></span>operator>()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations. </p>
+
+</div>
+</div>
+<a id="a9b8140063cf4fd14001472c7a4429307"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9b8140063cf4fd14001472c7a4429307">&#9670;&nbsp;</a></span>operator>=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class Rep1 , class Period1 , class Rep2 , class Period2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::chrono::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep1, Period1 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares two durations. Compares lhs to rhs, i.e. compares the number of ticks for the type common to both durations. </p>
 
 </div>
 </div>

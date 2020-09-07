@@ -1,6 +1,6 @@
 var searchData=
 [
-  ['abs',['abs',['../namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3',1,'etl']]],
+  ['abs',['abs',['../namespaceetl_1_1chrono.html#a28c420ed1f11b22a9577e4a8abe4dad3',1,'etl::chrono::abs()'],['../namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3',1,'etl::abs()']]],
   ['accumulate',['accumulate',['../namespaceetl.html#afe443a26a34b79fc921c4583df576333',1,'etl::accumulate(InputIt first, InputIt last, Type init) noexcept -&gt; Type'],['../namespaceetl.html#a9413959b7ee39d393e7c35ad2cd78294',1,'etl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type']]],
   ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
   ['all_5fof',['all_of',['../namespaceetl.html#ad9b7eed2eaa0b58da478a2d559164bb4',1,'etl']]],
