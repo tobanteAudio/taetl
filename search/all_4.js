@@ -4,6 +4,7 @@ var searchData=
   ['chrono_5fliterals',['chrono_literals',['../namespaceetl_1_1literals_1_1chrono__literals.html',1,'etl::literals']]],
   ['dsp',['dsp',['../namespaceetl_1_1dsp.html',1,'etl']]],
   ['element_5ftype',['element_type',['../classetl_1_1span.html#afc881e465caefd456f2b953c5b8fa8fd',1,'etl::span']]],
+  ['emplace',['emplace',['../classetl_1_1map__view.html#a9566919a57ffbcab483e095b91d249d8',1,'etl::map_view']]],
   ['emplace_5fback',['emplace_back',['../classetl_1_1stack__vector.html#aadbf5b7a6e23da053a187b704e9ed2d4',1,'etl::stack_vector']]],
   ['empty',['empty',['../classetl_1_1array.html#ae95d041aab839daa49ab2d63ef7460ec',1,'etl::array::empty()'],['../classetl_1_1map__view.html#a4b7b9235625bf718cf9dba59a8be4b67',1,'etl::map_view::empty()'],['../classetl_1_1basic__string.html#aede58c5d32f1a4a7bcea1bd3563962f1',1,'etl::basic_string::empty()'],['../classetl_1_1basic__string__view.html#a3e81279af8f68faec94759d96b317ce7',1,'etl::basic_string_view::empty()'],['../classetl_1_1stack__vector.html#a2bc87e62b9bdf133d7ef34a836413f92',1,'etl::stack_vector::empty()'],['../namespaceetl.html#a8a7a0e8153fc36ebd0147b94c7359ae8',1,'etl::empty(const C &amp;c) noexcept(noexcept(c.empty())) -&gt; decltype(c.empty())'],['../namespaceetl.html#a3868c40892e752ac869410ba4b0f0407',1,'etl::empty(T(&amp;array)[N]) noexcept -&gt; bool']]],
   ['enable_5fif',['enable_if',['../structetl_1_1enable__if.html',1,'etl']]],
