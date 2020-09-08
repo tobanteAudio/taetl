@@ -163,10 +163,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9566919a57ffbcab483e095b91d249d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the container constructed in-place with the given args if there is no element with the key in the container.  <a href="#a9566919a57ffbcab483e095b91d249d8">More...</a><br /></td></tr>
 <tr class="separator:a9566919a57ffbcab483e095b91d249d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac3caaebd466e4d6a8536061cea39bccb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html#ac3caaebd466e4d6a8536061cea39bccb">find</a> (KeyType const &amp;key) noexcept -&gt; <a class="el" href="classetl_1_1map__view.html#a3f8869df8112b7e11d5880e83c35f27e">iterator</a></td></tr>
-<tr class="memdesc:ac3caaebd466e4d6a8536061cea39bccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key.  <a href="#ac3caaebd466e4d6a8536061cea39bccb">More...</a><br /></td></tr>
+<tr class="memdesc:ac3caaebd466e4d6a8536061cea39bccb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key. Nullptr if not found.  <a href="#ac3caaebd466e4d6a8536061cea39bccb">More...</a><br /></td></tr>
 <tr class="separator:ac3caaebd466e4d6a8536061cea39bccb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32da91d0ad2043ae2f8eea5a7471da88"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html#a32da91d0ad2043ae2f8eea5a7471da88">find</a> (KeyType const &amp;key) const noexcept -&gt; <a class="el" href="classetl_1_1map__view.html#aec272fde96275698dafe58d991f75109">const_iterator</a></td></tr>
-<tr class="memdesc:a32da91d0ad2043ae2f8eea5a7471da88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key.  <a href="#a32da91d0ad2043ae2f8eea5a7471da88">More...</a><br /></td></tr>
+<tr class="memdesc:a32da91d0ad2043ae2f8eea5a7471da88"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an element with key equivalent to key. Nullptr if not found.  <a href="#a32da91d0ad2043ae2f8eea5a7471da88">More...</a><br /></td></tr>
 <tr class="separator:a32da91d0ad2043ae2f8eea5a7471da88"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-methods"></a>
@@ -835,7 +835,7 @@ template&lt;typename KeyType, typename ValueType, typename Compare = etl::less&l
 </table>
 </div><div class="memdoc">
 
-<p>Returns an element with key equivalent to key. </p>
+<p>Returns an element with key equivalent to key. Nullptr if not found. </p>
 
 </div>
 </div>
@@ -866,7 +866,7 @@ template&lt;typename KeyType, typename ValueType, typename Compare = etl::less&l
 </table>
 </div><div class="memdoc">
 
-<p>Returns an element with key equivalent to key. </p>
+<p>Returns an element with key equivalent to key. Nullptr if not found. </p>
 
 </div>
 </div>
