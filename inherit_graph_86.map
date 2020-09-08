@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, 0 \&gt;" alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node2" href="$structetl_1_1rank.html" title="If Type is an array type, provides the member constant value equal to the number of dimensions of the..." alt="" coords="213,13,328,39"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_TRIVIALLY\l_ASSIGNABLE(T, U)\&gt;" alt="" coords="5,5,207,61"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__trivially__assignable.html" title="If the expression etl::declval&lt;T&gt;() = etl::declval&lt;U&gt;() is well&#45;formed in unevaluated context..." alt="" coords="255,13,447,54"/>
 </map>
