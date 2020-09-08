@@ -825,6 +825,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5">rotate</a> (ForwardIt first, ForwardIt n_first, ForwardIt last) -&gt; ForwardIt</td></tr>
 <tr class="memdesc:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a left rotation on a range of elements.  <a href="#a6c225b4298d1c3ad6d3d17d92fd865b5">More...</a><br /></td></tr>
 <tr class="separator:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt , class UnaryPredicate &gt; </td></tr>
+<tr class="memitem:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa90bcaf1e13dfc47ddc7a62033d7cedc">partition</a> (ForwardIt first, ForwardIt last, UnaryPredicate p) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is not preserved.  <a href="#aa90bcaf1e13dfc47ddc7a62033d7cedc">More...</a><br /></td></tr>
+<tr class="separator:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a120f5d964cae523ab637a2ec068011e4"><td class="memTemplParams" colspan="2">template&lt;class BidirIt , class UnaryPredicate &gt; </td></tr>
 <tr class="memitem:a120f5d964cae523ab637a2ec068011e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a120f5d964cae523ab637a2ec068011e4">stable_partition</a> (BidirIt f, BidirIt l, UnaryPredicate p) -&gt; BidirIt</td></tr>
 <tr class="memdesc:a120f5d964cae523ab637a2ec068011e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is preserved.  <a href="#a120f5d964cae523ab637a2ec068011e4">More...</a><br /></td></tr>
@@ -857,6 +861,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ae627d43cafd94be503c4082795951f33"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae627d43cafd94be503c4082795951f33">lexicographical_compare</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2) -&gt; bool</td></tr>
 <tr class="memdesc:ae627d43cafd94be503c4082795951f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using operator&lt;.  <a href="#ae627d43cafd94be503c4082795951f33">More...</a><br /></td></tr>
 <tr class="separator:ae627d43cafd94be503c4082795951f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda62f64ad31faeb43dab1bbe8b2a664"><td class="memTemplParams" colspan="2">template&lt;class RandomIt , class Compare &gt; </td></tr>
+<tr class="memitem:adda62f64ad31faeb43dab1bbe8b2a664"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adda62f64ad31faeb43dab1bbe8b2a664">sort</a> (RandomIt first, RandomIt last, Compare comp) -&gt; void</td></tr>
+<tr class="memdesc:adda62f64ad31faeb43dab1bbe8b2a664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved.  <a href="#adda62f64ad31faeb43dab1bbe8b2a664">More...</a><br /></td></tr>
+<tr class="separator:adda62f64ad31faeb43dab1bbe8b2a664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29031b0fee25653ff42e6fab29670267"><td class="memTemplParams" colspan="2">template&lt;class RandomIt &gt; </td></tr>
+<tr class="memitem:a29031b0fee25653ff42e6fab29670267"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a29031b0fee25653ff42e6fab29670267">sort</a> (RandomIt first, RandomIt last) -&gt; void</td></tr>
+<tr class="memdesc:a29031b0fee25653ff42e6fab29670267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved. Elements are compared using operator&lt;.  <a href="#a29031b0fee25653ff42e6fab29670267">More...</a><br /></td></tr>
+<tr class="separator:a29031b0fee25653ff42e6fab29670267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplParams" colspan="2">template&lt;class T , class... U&gt; </td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884">array</a> (T, U...) -&gt; <a class="el" href="classetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td></tr>
 <tr class="separator:ae5a13233ebf471c62f35f40b21128884"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -6680,6 +6692,45 @@ template&lt;class Integer &gt; </div>
 
 </div>
 </div>
+<a id="aa90bcaf1e13dfc47ddc7a62033d7cedc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa90bcaf1e13dfc47ddc7a62033d7cedc">&#9670;&nbsp;</a></span>partition()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ForwardIt , class UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::partition </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is not preserved. </p>
+
+</div>
+</div>
 <a id="a966b3039757a35f7b1104a7f6c9b6523"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a966b3039757a35f7b1104a7f6c9b6523">&#9670;&nbsp;</a></span>popcount()</h2>
 
@@ -6844,6 +6895,82 @@ template&lt;class T , etl::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the size of the given container c or array array. Returns N. </p>
+
+</div>
+</div>
+<a id="adda62f64ad31faeb43dab1bbe8b2a664"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adda62f64ad31faeb43dab1bbe8b2a664">&#9670;&nbsp;</a></span>sort() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class RandomIt , class Compare &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::sort </td>
+          <td>(</td>
+          <td class="paramtype">RandomIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>comp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved. </p>
+<p>A sequence is sorted with respect to a comparator comp if for any iterator it pointing to the sequence and any non-negative integer n such that it + n is a valid iterator pointing to an element of the sequence, comp(*(it + n), *it) (or *(it + n) &lt; *it) evaluates to false. Quick sort implementation.</p>
+<p>https://en.cppreference.com/w/cpp/algorithm/sort </p>
+
+</div>
+</div>
+<a id="a29031b0fee25653ff42e6fab29670267"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a29031b0fee25653ff42e6fab29670267">&#9670;&nbsp;</a></span>sort() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class RandomIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::sort </td>
+          <td>(</td>
+          <td class="paramtype">RandomIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">RandomIt&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved. Elements are compared using operator&lt;. </p>
+<p>A sequence is sorted with respect to a comparator comp if for any iterator it pointing to the sequence and any non-negative integer n such that it + n is a valid iterator pointing to an element of the sequence, comp(*(it + n), *it) (or *(it + n) &lt; *it) evaluates to false. Quick sort implementation.</p>
+<p>https://en.cppreference.com/w/cpp/algorithm/sort </p>
 
 </div>
 </div>

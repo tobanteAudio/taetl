@@ -73,24 +73,28 @@ $(function() {
 <div class="textblock"><code>#include &quot;<a class="el" href="cassert_8hpp_source.html">cassert.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="definitions_8hpp_source.html">definitions.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="functional_8hpp_source.html">functional.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="iterator_8hpp_source.html">iterator.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">type_traits.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for algorithm.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="algorithm_8hpp__incl.png" border="0" usemap="#etl_2algorithm_8hpp" alt=""/></div>
 <map name="etl_2algorithm_8hpp" id="etl_2algorithm_8hpp">
-<area shape="rect" id="node2" href="cassert_8hpp.html" title="cassert.hpp" alt="" coords="5,229,103,256"/>
-<area shape="rect" id="node4" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="432,393,551,420"/>
-<area shape="rect" id="node8" href="functional_8hpp.html" title="functional.hpp" alt="" coords="463,80,578,107"/>
-<area shape="rect" id="node5" href="version_8hpp.html" title="version.hpp" alt="" coords="331,468,430,495"/>
-<area shape="rect" id="node9" href="array_8hpp.html" title="array.hpp" alt="" coords="99,155,182,181"/>
-<area shape="rect" id="node10" href="byte_8hpp.html" title="byte.hpp" alt="" coords="359,155,437,181"/>
-<area shape="rect" id="node14" href="new_8hpp.html" title="new.hpp" alt="" coords="689,155,765,181"/>
-<area shape="rect" id="node16" href="utility_8hpp.html" title="utility.hpp" alt="" coords="477,155,564,181"/>
-<area shape="rect" id="node11" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="338,229,458,256"/>
-<area shape="rect" id="node12" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="279,304,413,345"/>
-<area shape="rect" id="node13" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="218,393,389,420"/>
-<area shape="rect" id="node15" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="666,229,789,256"/>
-<area shape="rect" id="node17" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="533,229,641,256"/>
+<area shape="rect" id="node2" href="cassert_8hpp.html" title="cassert.hpp" alt="" coords="43,229,141,256"/>
+<area shape="rect" id="node4" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="310,393,429,420"/>
+<area shape="rect" id="node8" href="functional_8hpp.html" title="functional.hpp" alt="" coords="248,80,363,107"/>
+<area shape="rect" id="node11" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="808,229,928,256"/>
+<area shape="rect" id="node21" href="iterator_8hpp.html" title="iterator.hpp" alt="" coords="537,80,634,107"/>
+<area shape="rect" id="node5" href="version_8hpp.html" title="version.hpp" alt="" coords="209,468,308,495"/>
+<area shape="rect" id="node9" href="array_8hpp.html" title="array.hpp" alt="" coords="109,155,192,181"/>
+<area shape="rect" id="node10" href="byte_8hpp.html" title="byte.hpp" alt="" coords="419,155,498,181"/>
+<area shape="rect" id="node14" href="new_8hpp.html" title="new.hpp" alt="" coords="267,155,343,181"/>
+<area shape="rect" id="node16" href="utility_8hpp.html" title="utility.hpp" alt="" coords="722,155,809,181"/>
+<area shape="rect" id="node12" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="859,304,992,345"/>
+<area shape="rect" id="node13" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="892,393,1063,420"/>
+<area shape="rect" id="node15" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="447,229,569,256"/>
+<area shape="rect" id="node17" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="594,229,702,256"/>
+<area shape="rect" id="node22" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="574,155,698,181"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -197,6 +201,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5">etl::rotate</a> (ForwardIt first, ForwardIt n_first, ForwardIt last) -&gt; ForwardIt</td></tr>
 <tr class="memdesc:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Performs a left rotation on a range of elements.  <a href="namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5">More...</a><br /></td></tr>
 <tr class="separator:a6c225b4298d1c3ad6d3d17d92fd865b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="memTemplParams" colspan="2">template&lt;class ForwardIt , class UnaryPredicate &gt; </td></tr>
+<tr class="memitem:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa90bcaf1e13dfc47ddc7a62033d7cedc">etl::partition</a> (ForwardIt first, ForwardIt last, UnaryPredicate p) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is not preserved.  <a href="namespaceetl.html#aa90bcaf1e13dfc47ddc7a62033d7cedc">More...</a><br /></td></tr>
+<tr class="separator:aa90bcaf1e13dfc47ddc7a62033d7cedc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a120f5d964cae523ab637a2ec068011e4"><td class="memTemplParams" colspan="2">template&lt;class BidirIt , class UnaryPredicate &gt; </td></tr>
 <tr class="memitem:a120f5d964cae523ab637a2ec068011e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a120f5d964cae523ab637a2ec068011e4">etl::stable_partition</a> (BidirIt f, BidirIt l, UnaryPredicate p) -&gt; BidirIt</td></tr>
 <tr class="memdesc:a120f5d964cae523ab637a2ec068011e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is preserved.  <a href="namespaceetl.html#a120f5d964cae523ab637a2ec068011e4">More...</a><br /></td></tr>
@@ -229,6 +237,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ae627d43cafd94be503c4082795951f33"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae627d43cafd94be503c4082795951f33">etl::lexicographical_compare</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2) -&gt; bool</td></tr>
 <tr class="memdesc:ae627d43cafd94be503c4082795951f33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using operator&lt;.  <a href="namespaceetl.html#ae627d43cafd94be503c4082795951f33">More...</a><br /></td></tr>
 <tr class="separator:ae627d43cafd94be503c4082795951f33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adda62f64ad31faeb43dab1bbe8b2a664"><td class="memTemplParams" colspan="2">template&lt;class RandomIt , class Compare &gt; </td></tr>
+<tr class="memitem:adda62f64ad31faeb43dab1bbe8b2a664"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adda62f64ad31faeb43dab1bbe8b2a664">etl::sort</a> (RandomIt first, RandomIt last, Compare comp) -&gt; void</td></tr>
+<tr class="memdesc:adda62f64ad31faeb43dab1bbe8b2a664"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved.  <a href="namespaceetl.html#adda62f64ad31faeb43dab1bbe8b2a664">More...</a><br /></td></tr>
+<tr class="separator:adda62f64ad31faeb43dab1bbe8b2a664"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29031b0fee25653ff42e6fab29670267"><td class="memTemplParams" colspan="2">template&lt;class RandomIt &gt; </td></tr>
+<tr class="memitem:a29031b0fee25653ff42e6fab29670267"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a29031b0fee25653ff42e6fab29670267">etl::sort</a> (RandomIt first, RandomIt last) -&gt; void</td></tr>
+<tr class="memdesc:a29031b0fee25653ff42e6fab29670267"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved. Elements are compared using operator&lt;.  <a href="namespaceetl.html#a29031b0fee25653ff42e6fab29670267">More...</a><br /></td></tr>
+<tr class="separator:a29031b0fee25653ff42e6fab29670267"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

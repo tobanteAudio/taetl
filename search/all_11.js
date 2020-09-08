@@ -14,6 +14,7 @@ var searchData=
   ['skill',['skill',['../structetl_1_1experimental_1_1skill.html',1,'etl::experimental']]],
   ['small_5fptr',['small_ptr',['../classetl_1_1small__ptr.html',1,'etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;'],['../classetl_1_1small__ptr.html#af757bdd9a17f1eab1336204a96cbe96b',1,'etl::small_ptr::small_ptr()=default'],['../classetl_1_1small__ptr.html#a3922d770042f494567ce3f30f58d2203',1,'etl::small_ptr::small_ptr(nullptr_t null)'],['../classetl_1_1small__ptr.html#ac31c5747a70cae88f54d98b4665f4fc6',1,'etl::small_ptr::small_ptr(Type *ptr)']]],
   ['small_5fstring',['small_string',['../namespaceetl.html#a9bffa043c410459eda373247f384b9e2',1,'etl']]],
+  ['sort',['sort',['../namespaceetl.html#adda62f64ad31faeb43dab1bbe8b2a664',1,'etl::sort(RandomIt first, RandomIt last, Compare comp) -&gt; void'],['../namespaceetl.html#a29031b0fee25653ff42e6fab29670267',1,'etl::sort(RandomIt first, RandomIt last) -&gt; void']]],
   ['span',['span',['../classetl_1_1span.html',1,'etl::span&lt; ElementType, Extent &gt;'],['../classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9',1,'etl::span::span() noexcept=default'],['../classetl_1_1span.html#a0fc37f46dbc0c737b49ec0730622ced7',1,'etl::span::span(const span &amp;other) noexcept=default']]],
   ['span_2ehpp',['span.hpp',['../span_8hpp.html',1,'']]],
   ['stable_5fpartition',['stable_partition',['../namespaceetl.html#a120f5d964cae523ab637a2ec068011e4',1,'etl']]],

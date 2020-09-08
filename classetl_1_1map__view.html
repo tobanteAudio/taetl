@@ -153,10 +153,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a02d8a2a45d0f61009a7725dcbbd2e248"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements from the container. After this call, <a class="el" href="classetl_1_1map__view.html#a3eb4edefb5cdc11967055f1b3fe36d1b" title="Returns the current element count. ">size()</a> returns zero.  <a href="#a02d8a2a45d0f61009a7725dcbbd2e248">More...</a><br /></td></tr>
 <tr class="separator:a02d8a2a45d0f61009a7725dcbbd2e248"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa5a504444c25c2f17f4ecc9c0c5b4112"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html#aa5a504444c25c2f17f4ecc9c0c5b4112">insert</a> (<a class="el" href="classetl_1_1map__view.html#ad8afc03843a24ad2c4d1325a3c4f18b6">value_type</a> const &amp;value) noexcept -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1map__view.html#a3f8869df8112b7e11d5880e83c35f27e">iterator</a>, bool &gt;</td></tr>
-<tr class="memdesc:aa5a504444c25c2f17f4ecc9c0c5b4112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#aa5a504444c25c2f17f4ecc9c0c5b4112">More...</a><br /></td></tr>
+<tr class="memdesc:aa5a504444c25c2f17f4ecc9c0c5b4112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map.  <a href="#aa5a504444c25c2f17f4ecc9c0c5b4112">More...</a><br /></td></tr>
 <tr class="separator:aa5a504444c25c2f17f4ecc9c0c5b4112"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adf6d0181b524003165a51aa35753712d"><td class="memTemplParams" colspan="2">template&lt;class P &gt; </td></tr>
+<tr class="memitem:adf6d0181b524003165a51aa35753712d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html#adf6d0181b524003165a51aa35753712d">insert</a> (P &amp;&amp;value) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">etl::is_constructible_v</a>&lt; <a class="el" href="classetl_1_1map__view.html#ad8afc03843a24ad2c4d1325a3c4f18b6">value_type</a>, P &amp;&amp;&gt;, <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1map__view.html#a3f8869df8112b7e11d5880e83c35f27e">iterator</a>, bool &gt;&gt;</td></tr>
+<tr class="memdesc:adf6d0181b524003165a51aa35753712d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map.  <a href="#adf6d0181b524003165a51aa35753712d">More...</a><br /></td></tr>
+<tr class="separator:adf6d0181b524003165a51aa35753712d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acea93d0b91b4303990acab86551d8f0d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html#acea93d0b91b4303990acab86551d8f0d">insert</a> (<a class="el" href="classetl_1_1map__view.html#ad8afc03843a24ad2c4d1325a3c4f18b6">value_type</a> &amp;&amp;value) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1map__view.html#a3f8869df8112b7e11d5880e83c35f27e">iterator</a>, bool &gt;</td></tr>
-<tr class="memdesc:acea93d0b91b4303990acab86551d8f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place.  <a href="#acea93d0b91b4303990acab86551d8f0d">More...</a><br /></td></tr>
+<tr class="memdesc:acea93d0b91b4303990acab86551d8f0d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a value pair into the map.  <a href="#acea93d0b91b4303990acab86551d8f0d">More...</a><br /></td></tr>
 <tr class="separator:acea93d0b91b4303990acab86551d8f0d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9566919a57ffbcab483e095b91d249d8"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
 <tr class="memitem:a9566919a57ffbcab483e095b91d249d8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html#a9566919a57ffbcab483e095b91d249d8">emplace</a> (Args &amp;&amp;... args) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1map__view.html#a3f8869df8112b7e11d5880e83c35f27e">iterator</a>, bool &gt;</td></tr>
@@ -871,7 +875,7 @@ template&lt;typename KeyType, typename ValueType, typename Compare = etl::less&l
 </div>
 </div>
 <a id="aa5a504444c25c2f17f4ecc9c0c5b4112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5a504444c25c2f17f4ecc9c0c5b4112">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5a504444c25c2f17f4ecc9c0c5b4112">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -897,12 +901,48 @@ template&lt;typename KeyType, typename ValueType, typename Compare = etl::less&l
 </table>
 </div><div class="memdoc">
 
-<p>Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place. </p>
+<p>Inserts a value pair into the map. </p>
+<p>Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place. </p>
+
+</div>
+</div>
+<a id="adf6d0181b524003165a51aa35753712d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adf6d0181b524003165a51aa35753712d">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename KeyType, typename ValueType, typename Compare = etl::less&lt;KeyType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;class P &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1map__view.html">etl::map_view</a>&lt; KeyType, ValueType, Compare &gt;::insert </td>
+          <td>(</td>
+          <td class="paramtype">P &amp;&amp;&#160;</td>
+          <td class="paramname"><em>value</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">etl::is_constructible_v</a>&lt;<a class="el" href="classetl_1_1map__view.html#ad8afc03843a24ad2c4d1325a3c4f18b6">value_type</a>, P&amp;&amp;&gt;,
+                            <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt;<a class="el" href="classetl_1_1map__view.html#a3f8869df8112b7e11d5880e83c35f27e">iterator</a>, bool&gt;&gt;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts a value pair into the map. </p>
+<p>Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place. </p>
 
 </div>
 </div>
 <a id="acea93d0b91b4303990acab86551d8f0d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acea93d0b91b4303990acab86551d8f0d">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acea93d0b91b4303990acab86551d8f0d">&#9670;&nbsp;</a></span>insert() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -928,7 +968,8 @@ template&lt;typename KeyType, typename ValueType, typename Compare = etl::less&l
 </table>
 </div><div class="memdoc">
 
-<p>Inserts a value pair into the map. Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place. </p>
+<p>Inserts a value pair into the map. </p>
+<p>Returns a pair consisting of an iterator to the inserted element (or to the element that prevented the insertion) and a bool denoting whether the insertion took place. </p>
 
 </div>
 </div>

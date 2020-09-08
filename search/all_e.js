@@ -2,6 +2,7 @@ var searchData=
 [
   ['project_20integration',['Project Integration',['../md_docs_project_integration.html',1,'']]],
   ['pair',['pair',['../structetl_1_1pair.html',1,'etl::pair&lt; T1, T2 &gt;'],['../structetl_1_1pair.html#a6f19fd0e10017b26b2a69deeffef2cf2',1,'etl::pair::pair()=default'],['../structetl_1_1pair.html#a394cfba9d9e22e5d6fcd001483ebdb9c',1,'etl::pair::pair(T1 const &amp;t1, T2 const &amp;t2)'],['../structetl_1_1pair.html#a494567ad741ca0acd16f6055d57e8c43',1,'etl::pair::pair(pair&lt; U1, U2 &gt; const &amp;p)'],['../structetl_1_1pair.html#a412f27ee91061e65397498f2acd7053f',1,'etl::pair::pair(pair const &amp;p)=default'],['../structetl_1_1pair.html#aef097a505da5321ad5bd666070b32207',1,'etl::pair::pair(pair &amp;&amp;p) noexcept=default']]],
+  ['partition',['partition',['../namespaceetl.html#aa90bcaf1e13dfc47ddc7a62033d7cedc',1,'etl']]],
   ['pdfail',['pdFAIL',['../stubs_8hpp.html#a99e2866c8cf4fe86db87dab62e7d6aa6',1,'stubs.hpp']]],
   ['pdfalse',['pdFALSE',['../stubs_8hpp.html#aa56260e937e7e203026707e5ba944273',1,'stubs.hpp']]],
   ['pdpass',['pdPASS',['../stubs_8hpp.html#a07848d3078849bd32353c69d30a479b3',1,'stubs.hpp']]],
