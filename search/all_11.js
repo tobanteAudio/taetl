@@ -21,7 +21,6 @@ var searchData=
   ['start_5fscheduler',['start_scheduler',['../namespaceetl_1_1rtos.html#adbc999203bc016a5ef34f1e8ae712345',1,'etl::rtos']]],
   ['starts_5fwith',['starts_with',['../classetl_1_1basic__string__view.html#aee339b645338a8331480eca9a62ff3ab',1,'etl::basic_string_view::starts_with(basic_string_view sv) const noexcept -&gt; bool'],['../classetl_1_1basic__string__view.html#ab2e496158cbe9a6228fa5793996b8511',1,'etl::basic_string_view::starts_with(CharType c) const noexcept -&gt; bool'],['../classetl_1_1basic__string__view.html#abc8aefcad4dac5c842b56522ad508a37',1,'etl::basic_string_view::starts_with(CharType const *str) const -&gt; bool']]],
   ['state_5fnot_5frecoverable',['state_not_recoverable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a6805059549401365b824b54573a6f46e',1,'etl']]],
-  ['storage_5ft',['storage_t',['../classetl_1_1map.html#a0fc2f67af40a31fda7609e70772ba8ef',1,'etl::map']]],
   ['stream_5ftimeout',['stream_timeout',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ac1a620a30954dc9402a811453c2c3e3f',1,'etl']]],
   ['streamoff',['streamoff',['../namespaceetl.html#a38946ce496aa3f045c07f32b2e4ca374',1,'etl']]],
   ['string',['string',['../namespaceetl.html#af2769dde06d41131748597077535e2cc',1,'etl']]],
