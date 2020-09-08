@@ -115,8 +115,40 @@ Macros</h2></td></tr>
 <tr class="separator:a38ae93135b2d8784ba16f72efb24e6ff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5f771e240f6a271fe41b69a11111977"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#ae5f771e240f6a271fe41b69a11111977">TAETL_IS_NOTHROW_CONSTRUCTIBLE</a>(Type)&#160;&#160;&#160;true</td></tr>
 <tr class="separator:ae5f771e240f6a271fe41b69a11111977"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad7abe365dd49b4a6fae86b1d7f122506"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#ad7abe365dd49b4a6fae86b1d7f122506">TAETL_IS_ASSIGNABLE</a>(Type,  Argument)&#160;&#160;&#160;__is_assignable(Type, Argument)</td></tr>
+<tr class="separator:ad7abe365dd49b4a6fae86b1d7f122506"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f4c8d402acca3911a9c9273b3cad685"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#a0f4c8d402acca3911a9c9273b3cad685">TAETL_IS_TRIVIALLY_ASSIGNABLE</a>(Type,  Argument)&#160;&#160;&#160;__is_trivially_assignable(Type, Argument)</td></tr>
+<tr class="separator:a0f4c8d402acca3911a9c9273b3cad685"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Macro Definition Documentation</h2>
+<a id="ad7abe365dd49b4a6fae86b1d7f122506"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad7abe365dd49b4a6fae86b1d7f122506">&#9670;&nbsp;</a></span>TAETL_IS_ASSIGNABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAETL_IS_ASSIGNABLE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Argument&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;__is_assignable(Type, Argument)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a5e5322628b3857868ee48f4baa81d7e0"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a5e5322628b3857868ee48f4baa81d7e0">&#9670;&nbsp;</a></span>TAETL_IS_CLASS</h2>
 
@@ -183,6 +215,34 @@ Macros</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname">Type</td><td>)</td>
           <td>&#160;&#160;&#160;__is_trivially_constructible(Type)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a0f4c8d402acca3911a9c9273b3cad685"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f4c8d402acca3911a9c9273b3cad685">&#9670;&nbsp;</a></span>TAETL_IS_TRIVIALLY_ASSIGNABLE</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAETL_IS_TRIVIALLY_ASSIGNABLE</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Argument&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td>&#160;&#160;&#160;__is_trivially_assignable(Type, Argument)</td>
         </tr>
       </table>
 </div><div class="memdoc">
