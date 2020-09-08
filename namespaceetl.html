@@ -86,8 +86,6 @@ Namespaces</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1literals"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1literals.html">literals</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:namespaceetl_1_1make"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1make.html">make</a></td></tr>
-<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1net"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1net.html">net</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:namespaceetl_1_1rtos"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1rtos.html">rtos</a></td></tr>
@@ -331,6 +329,8 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an integral (except bool) or enumeration type, provides the member typedef type which is the unsigned integer type corresponding to T, with the same cv-qualifiers. If T is signed or unsigned char, short, int, long, long long; the unsigned type from this list corresponding to T is provided. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1make__unsigned.html" title="If T is an integral (except bool) or enumeration type, provides the member typedef type which is the ...">make_unsigned</a> is undefined.  <a href="structetl_1_1make__unsigned.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map.html">map</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1map__view.html">map_view</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1max__align__t.html">max_align_t</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1924,7 +1924,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -1944,7 +1944,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258" title="The alias template etl::ratio_divide denotes the result of dividing two exact rational fractions repr...">etl::ratio_divide</a> denotes the result of dividing two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den and Denom == R1::den * R2::num (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -1964,7 +1964,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b" title="The alias template etl::ratio_multiply denotes the result of multiplying two exact rational fractions...">etl::ratio_multiply</a> denotes the result of multiplying two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::num and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -1984,7 +1984,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -4522,8 +4522,7 @@ template&lt;class R , class T &gt; </div>
           <td>(</td>
           <td class="paramtype">float&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; bool
-</td>
+          <td> -&gt; bool </td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4544,8 +4543,7 @@ template&lt;class R , class T &gt; </div>
           <td>(</td>
           <td class="paramtype">double&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; bool
-</td>
+          <td> -&gt; bool </td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4566,8 +4564,7 @@ template&lt;class R , class T &gt; </div>
           <td>(</td>
           <td class="paramtype">long double&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; bool
-</td>
+          <td> -&gt; bool </td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4652,8 +4649,7 @@ template&lt;typename IntegralType &gt; </div>
           <td>(</td>
           <td class="paramtype">long double&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; bool
-</td>
+          <td> -&gt; bool </td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -4884,7 +4880,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Creates a <a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> object, deducing the target type from the types of arguments. </p>
-<p>The deduced types V1 and V2 are <a class="el" href="structetl_1_1decay.html#aa8e16dc899c00810bd790cc676c6ebb0">etl::decay&lt;T1&gt;::type</a> and <a class="el" href="structetl_1_1decay.html#aa8e16dc899c00810bd790cc676c6ebb0">etl::decay&lt;T2&gt;::type</a> (the usual type transformations applied to arguments of functions passed by value).</p>
+<p>The deduced types V1 and V2 are <a class="el" href="structetl_1_1decay.html#aafdc23eff04d441f74c9e72ca18e5a09">etl::decay&lt;T1&gt;::type</a> and <a class="el" href="structetl_1_1decay.html#aafdc23eff04d441f74c9e72ca18e5a09">etl::decay&lt;T2&gt;::type</a> (the usual type transformations applied to arguments of functions passed by value).</p>
 <p>https://en.cppreference.com/w/cpp/utility/pair/make_pair </p>
 
 </div>
@@ -5195,8 +5191,8 @@ template&lt;typename Integer &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;
-    <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt; &amp;&amp; !<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt;Integer, bool&gt;, Integer&gt;
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt; &amp;&amp; !<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt;Integer, bool&gt;,
+                        Integer&gt;
 </td>
         </tr>
       </table>

@@ -8,6 +8,7 @@ var searchData=
   ['add_5fvolatile',['add_volatile',['../structetl_1_1add__volatile.html',1,'etl']]],
   ['addable',['addable',['../structetl_1_1experimental_1_1skill_1_1addable.html',1,'etl::experimental::skill']]],
   ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],
+  ['aligned_5fstorage_3c_20sizeof_28pair_5ft_29_2c_20alignof_28pair_5ft_29_3e',['aligned_storage&lt; sizeof(pair_t), alignof(pair_t)&gt;',['../structetl_1_1aligned__storage.html',1,'etl']]],
   ['array',['array',['../classetl_1_1array.html',1,'etl']]],
   ['array_3c_20t_2c_20static_5fcast_3c_20size_5ft_20_3e_28z_29_2b1_20_3e',['array&lt; T, static_cast&lt; size_t &gt;(Z)+1 &gt;',['../classetl_1_1array.html',1,'etl']]],
   ['array_3c_20unsigned_20char_2c_20allocated_5f_20_3e',['array&lt; unsigned char, allocated_ &gt;',['../classetl_1_1array.html',1,'etl']]]
