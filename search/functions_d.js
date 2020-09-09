@@ -1,6 +1,7 @@
 var searchData=
 [
   ['pair',['pair',['../structetl_1_1pair.html#a8e7e4ddd87b877b57c7302ad83e4549d',1,'etl::pair::pair()'],['../structetl_1_1pair.html#a394cfba9d9e22e5d6fcd001483ebdb9c',1,'etl::pair::pair(T1 const &amp;t1, T2 const &amp;t2)'],['../structetl_1_1pair.html#aecc15790e41742baf1ce5bc994f635b6',1,'etl::pair::pair(U1 &amp;&amp;x, U2 &amp;&amp;y)'],['../structetl_1_1pair.html#a494567ad741ca0acd16f6055d57e8c43',1,'etl::pair::pair(pair&lt; U1, U2 &gt; const &amp;p)'],['../structetl_1_1pair.html#a1581b4b0ce6c8ea2df79dc365d6f555d',1,'etl::pair::pair(pair&lt; U1, U2 &gt; &amp;&amp;p)'],['../structetl_1_1pair.html#a412f27ee91061e65397498f2acd7053f',1,'etl::pair::pair(pair const &amp;p)=default'],['../structetl_1_1pair.html#aef097a505da5321ad5bd666070b32207',1,'etl::pair::pair(pair &amp;&amp;p) noexcept=default']]],
+  ['partial_5fsum',['partial_sum',['../namespaceetl.html#a717726a2fed08cececaa93b504419300',1,'etl::partial_sum(InputIt first, InputIt last, OutputIt destination, BinaryOperation op) -&gt; OutputIt'],['../namespaceetl.html#a8d274a25ea5a88eb47898c8832795e3e',1,'etl::partial_sum(InputIt first, InputIt last, OutputIt destination) -&gt; OutputIt']]],
   ['partition',['partition',['../namespaceetl.html#aa90bcaf1e13dfc47ddc7a62033d7cedc',1,'etl']]],
   ['piecewise_5fconstruct_5ft',['piecewise_construct_t',['../structetl_1_1piecewise__construct__t.html#ac6e288abe7b8428f5a6de7fb25f83492',1,'etl::piecewise_construct_t']]],
   ['pipe',['pipe',['../structetl_1_1dsp_1_1pipe.html#a1946e8495b4be7160b9dfe21748ad0da',1,'etl::dsp::pipe']]],

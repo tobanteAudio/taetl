@@ -71,6 +71,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="definitions_8hpp_source.html">definitions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="functional_8hpp_source.html">functional.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="limits_8hpp_source.html">limits.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">type_traits.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="utility_8hpp_source.html">utility.hpp</a>&quot;</code><br />
@@ -79,13 +80,19 @@ Include dependency graph for numeric.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="numeric_8hpp__incl.png" border="0" usemap="#etl_2numeric_8hpp" alt=""/></div>
 <map name="etl_2numeric_8hpp" id="etl_2numeric_8hpp">
-<area shape="rect" id="node2" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="122,319,241,345"/>
-<area shape="rect" id="node6" href="limits_8hpp.html" title="limits.hpp" alt="" coords="115,155,202,181"/>
-<area shape="rect" id="node10" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="264,155,384,181"/>
-<area shape="rect" id="node13" href="utility_8hpp.html" title="utility.hpp" alt="" coords="197,80,283,107"/>
-<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="21,393,120,420"/>
-<area shape="rect" id="node11" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="361,229,495,271"/>
-<area shape="rect" id="node12" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="395,319,565,345"/>
+<area shape="rect" id="node2" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="402,393,521,420"/>
+<area shape="rect" id="node6" href="functional_8hpp.html" title="functional.hpp" alt="" coords="399,80,513,107"/>
+<area shape="rect" id="node11" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="547,229,667,256"/>
+<area shape="rect" id="node16" href="utility_8hpp.html" title="utility.hpp" alt="" coords="619,155,706,181"/>
+<area shape="rect" id="node17" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="774,229,882,256"/>
+<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="301,468,400,495"/>
+<area shape="rect" id="node7" href="array_8hpp.html" title="array.hpp" alt="" coords="137,155,220,181"/>
+<area shape="rect" id="node10" href="byte_8hpp.html" title="byte.hpp" alt="" coords="465,155,543,181"/>
+<area shape="rect" id="node14" href="new_8hpp.html" title="new.hpp" alt="" coords="313,155,389,181"/>
+<area shape="rect" id="node8" href="cassert_8hpp.html" title="cassert.hpp" alt="" coords="43,229,141,256"/>
+<area shape="rect" id="node12" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="565,304,699,345"/>
+<area shape="rect" id="node13" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="563,393,733,420"/>
+<area shape="rect" id="node15" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="216,229,339,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -132,6 +139,14 @@ Functions</h2></td></tr>
 <tr class="memitem:ae0039bdc9a6970a2089121ae3ee285b1"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae0039bdc9a6970a2089121ae3ee285b1">etl::inner_product</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, T init, BinaryOperation1 op1, BinaryOperation2 op2) -&gt; T</td></tr>
 <tr class="memdesc:ae0039bdc9a6970a2089121ae3ee285b1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes inner product (i.e. sum of products) or performs ordered map/reduce operation on the range [first1, last1) and the range beginning at first2.  <a href="namespaceetl.html#ae0039bdc9a6970a2089121ae3ee285b1">More...</a><br /></td></tr>
 <tr class="separator:ae0039bdc9a6970a2089121ae3ee285b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a717726a2fed08cececaa93b504419300"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class OutputIt , class BinaryOperation &gt; </td></tr>
+<tr class="memitem:a717726a2fed08cececaa93b504419300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a717726a2fed08cececaa93b504419300">etl::partial_sum</a> (InputIt first, InputIt last, OutputIt destination, BinaryOperation op) -&gt; OutputIt</td></tr>
+<tr class="memdesc:a717726a2fed08cececaa93b504419300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the partial sums of the elements in the subranges of the range [first, last) and writes them to the range beginning at destination. This version uses the given binary function op, both applying <a class="el" href="namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d" title="etl::move is used to indicate that an object t may be &quot;moved from&quot;, i.e. allowing the efficient trans...">etl::move</a> to their operands on the left hand side.  <a href="namespaceetl.html#a717726a2fed08cececaa93b504419300">More...</a><br /></td></tr>
+<tr class="separator:a717726a2fed08cececaa93b504419300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8d274a25ea5a88eb47898c8832795e3e"><td class="memTemplParams" colspan="2">template&lt;class InputIt , class OutputIt &gt; </td></tr>
+<tr class="memitem:a8d274a25ea5a88eb47898c8832795e3e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8d274a25ea5a88eb47898c8832795e3e">etl::partial_sum</a> (InputIt first, InputIt last, OutputIt destination) -&gt; OutputIt</td></tr>
+<tr class="memdesc:a8d274a25ea5a88eb47898c8832795e3e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the partial sums of the elements in the subranges of the range [first, last) and writes them to the range beginning at destination. This version uses operator+ to sum up the elements.  <a href="namespaceetl.html#a8d274a25ea5a88eb47898c8832795e3e">More...</a><br /></td></tr>
+<tr class="separator:a8d274a25ea5a88eb47898c8832795e3e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memTemplParams" colspan="2">template&lt;typename M , typename N &gt; </td></tr>
 <tr class="memitem:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">etl::gcd</a> (M m, N n) noexcept -&gt; <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt; M, N &gt;</td></tr>
 <tr class="memdesc:ab65cd6f8748c172eab6ee36130dca3c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the greatest common divisor of the integers m and n.  <a href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">More...</a><br /></td></tr>
