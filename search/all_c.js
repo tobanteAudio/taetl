@@ -3,6 +3,8 @@ var searchData=
   ['nano',['nano',['../namespaceetl.html#ab16ea857b72e93345fcd6fb255f7fe86',1,'etl']]],
   ['nanoseconds',['nanoseconds',['../namespaceetl_1_1chrono.html#af3767ccfde6d7a4a42f6e3e825948c80',1,'etl::chrono']]],
   ['native',['native',['../namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8a8e5f3adee38c8fccc13c1f3be0143796',1,'etl']]],
+  ['negate',['negate',['../structetl_1_1negate.html',1,'etl']]],
+  ['negate_3c_20void_20_3e',['negate&lt; void &gt;',['../structetl_1_1negate_3_01void_01_4.html',1,'etl']]],
   ['network_5fdown',['network_down',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a93b16d34b1689f66f0cfed60e99c0009',1,'etl']]],
   ['network_5freset',['network_reset',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a0e1d200ae35ede416bf85f84093ce37a',1,'etl']]],
   ['network_5funreachable',['network_unreachable',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a608a68344b4eb1fe0690861a83828816',1,'etl']]],

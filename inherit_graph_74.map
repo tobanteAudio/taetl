@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, is_integral_v\l\&lt; T \&gt; &amp;&amp;(!is_same_v\&lt; T,\l bool \&gt; &amp;&amp;!is_same_v\&lt; T,\l char \&gt; &amp;&amp;!is_same_v\&lt; T,\l char16_t \&gt; &amp;&amp;!is_same_v\&lt;\l T, char32_t \&gt; &amp;&amp;!is_same_v\l\&lt; T, wchar_t \&gt;)\&gt;" alt="" coords="5,5,216,135"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_scalar\l\&lt; T \&gt;::value\|\|etl::is_array\l\&lt; T \&gt;::value\|\|etl::is_union\l\&lt; T \&gt;::value\|\|etl::is_class\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,196,105"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__object.html" title="If T is an object type (that is any possibly cv&#45;qualified type other than function, reference, or void types), provides the member constant value equal true. For any other type, value is false. " alt="" coords="244,42,387,69"/>
 </map>

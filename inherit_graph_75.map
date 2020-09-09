@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, is_unsigned_v\l\&lt; T \&gt; &amp;&amp;(!is_same_v\&lt; T,\l bool \&gt; &amp;&amp;!is_same_v\&lt; T,\l char \&gt; &amp;&amp;!is_same_v\&lt; T,\l char16_t \&gt; &amp;&amp;!is_same_v\&lt;\l T, char32_t \&gt; &amp;&amp;!is_same_v\l\&lt; T, wchar_t \&gt;)\&gt;" alt="" coords="5,5,216,135"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_trivially\l_copyable\&lt; T \&gt;::value &amp;&amp;etl\l::is_trivially_default_constructible\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,248,91"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__trivial.html" title="If T is TrivialType (that is, a scalar type, a trivially copyable class with a trivial default constr..." alt="" coords="296,35,437,61"/>
 </map>

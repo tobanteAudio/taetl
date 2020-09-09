@@ -37,9 +37,13 @@ var searchData=
   ['minus',['minus',['../structetl_1_1minus.html',1,'etl']]],
   ['minus_3c_20void_20_3e',['minus&lt; void &gt;',['../structetl_1_1minus_3_01void_01_4.html',1,'etl']]],
   ['minutes',['minutes',['../namespaceetl_1_1chrono.html#afbfd0a58052fc7b37978f15a7b28c1f4',1,'etl::chrono']]],
+  ['modulus',['modulus',['../structetl_1_1modulus.html',1,'etl']]],
+  ['modulus_3c_20void_20_3e',['modulus&lt; void &gt;',['../structetl_1_1modulus_3_01void_01_4.html',1,'etl']]],
   ['months',['months',['../namespaceetl_1_1chrono.html#a580aaca1b8394beec1fc058a131cd83b',1,'etl::chrono']]],
   ['move',['move',['../structetl_1_1char__traits_3_01char_01_4.html#a0e7d1cc5ce8812b37b1dbaf79f2bfae3',1,'etl::char_traits&lt; char &gt;::move()'],['../namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d',1,'etl::move()']]],
   ['multipliable',['multipliable',['../structetl_1_1experimental_1_1skill_1_1multipliable.html',1,'etl::experimental::skill']]],
+  ['multiplies',['multiplies',['../structetl_1_1multiplies.html',1,'etl']]],
+  ['multiplies_3c_20void_20_3e',['multiplies&lt; void &gt;',['../structetl_1_1multiplies_3_01void_01_4.html',1,'etl']]],
   ['mutable_5fbuffer',['mutable_buffer',['../classetl_1_1net_1_1mutable__buffer.html',1,'etl::net::mutable_buffer'],['../classetl_1_1net_1_1mutable__buffer.html#aaa3fa42f522e1df0e0482d6f757ac5f3',1,'etl::net::mutable_buffer::mutable_buffer() noexcept=default'],['../classetl_1_1net_1_1mutable__buffer.html#afe1efb7b67cac6999ebb603e7536a76c',1,'etl::net::mutable_buffer::mutable_buffer(void *data, etl::size_t size)']]],
   ['mutex_2ehpp',['mutex.hpp',['../mutex_8hpp.html',1,'']]]
 ];

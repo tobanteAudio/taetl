@@ -1,5 +1,10 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_TRIVIALLY\l_ASSIGNABLE(etl::add_lvalue\l_reference\&lt; T \&gt;::type, etl\l::add_lvalue_reference\&lt; const\l T \&gt;::type)\&gt;" alt="" coords="5,5,225,105"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__trivially__assignable.html" title="etl::is_trivially_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="273,20,493,91"/>
-<area shape="rect" id="node3" href="$structetl_1_1is__trivially__copy__assignable.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="541,35,695,76"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_NOTHROW\l_CONSTRUCTIBLE(T)\&gt;" alt="" coords="5,90,213,146"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__nothrow__constructible.html" title="The variable definition does not call any operation that is not trivial. For the purposes of this che..." alt="" coords="292,5,501,47"/>
+<area shape="rect" id="node3" href="$structetl_1_1is__nothrow__constructible.html" title="etl::is_nothrow_constructible\&lt; T \&gt;" alt="" coords="273,71,520,98"/>
+<area shape="rect" id="node5" href="$structetl_1_1is__nothrow__constructible.html" title="etl::is_nothrow_constructible\l\&lt; T, etl::add_lvalue_reference\l\&lt; etl::add_const\&lt; T \&gt;::type \&gt;::type \&gt;" alt="" coords="261,122,532,178"/>
+<area shape="rect" id="node7" href="$structetl_1_1is__nothrow__constructible.html" title="etl::is_nothrow_constructible\l\&lt; T, etl::add_rvalue_reference\l\&lt; T \&gt;::type \&gt;" alt="" coords="287,202,506,258"/>
+<area shape="rect" id="node4" href="$structetl_1_1is__nothrow__default__constructible.html" title="If etl::is_nothrow_constructible&lt;T&gt;::value is true, provides the member constant value equal to true..." alt="" coords="580,64,751,105"/>
+<area shape="rect" id="node6" href="$structetl_1_1is__nothrow__copy__constructible.html" title="Same as copy, but uses etl::is_nothrow_constructible&lt;T, const T&amp;&gt;. " alt="" coords="587,129,743,171"/>
+<area shape="rect" id="node8" href="$structetl_1_1is__nothrow__move__constructible.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="584,209,747,251"/>
 </map>
