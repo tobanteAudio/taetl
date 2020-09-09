@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_same\&lt;\l float, etl::remove_cv\l\&lt; T \&gt;::type \&gt;::value\|\|etl\l::is_same\&lt; double, etl::remove\l_cv\&lt; T \&gt;::type \&gt;::value\|\|etl\l::is_same\&lt; long double, etl::remove\l_cv\&lt; T \&gt;::type \&gt;::value \&gt;" alt="" coords="5,5,264,135"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__floating__point.html" title="Checks whether T is a floating&#45;point type. Provides the member constant value which is equal to true..." alt="" coords="312,57,504,83"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_member\l_pointer\&lt; T \&gt;::value &amp;&amp;!etl\l::is_member_function_pointer\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,5,221,91"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__member__object__pointer.html" title="Checks whether T is a non&#45;static member object pointer. Provides the member constant value which is e..." alt="" coords="269,27,436,69"/>
 </map>
