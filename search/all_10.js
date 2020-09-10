@@ -36,6 +36,8 @@ var searchData=
   ['remove_5fconst_5ft',['remove_const_t',['../namespaceetl.html#a87e058aba499e52cc4ed554dd7d65332',1,'etl']]],
   ['remove_5fcv',['remove_cv',['../structetl_1_1remove__cv.html',1,'etl']]],
   ['remove_5fcv_5ft',['remove_cv_t',['../namespaceetl.html#a70fb46b3c4c98f5f23b76cb25f343373',1,'etl']]],
+  ['remove_5fcvref',['remove_cvref',['../structetl_1_1remove__cvref.html',1,'etl']]],
+  ['remove_5fcvref_5ft',['remove_cvref_t',['../namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1',1,'etl']]],
   ['remove_5fextent',['remove_extent',['../structetl_1_1remove__extent.html',1,'etl']]],
   ['remove_5fextent_3c_20t_5b_5d_3e',['remove_extent&lt; T[]&gt;',['../structetl_1_1remove__extent_3_01T[]_4.html',1,'etl']]],
   ['remove_5fextent_3c_20t_5bn_5d_3e',['remove_extent&lt; T[N]&gt;',['../structetl_1_1remove__extent_3_01T[N]_4.html',1,'etl']]],

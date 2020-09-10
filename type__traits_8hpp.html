@@ -156,6 +156,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1remove__reference_3_01T_01_6_6_01_4.html">etl::remove_reference&lt; T &amp;&amp; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1remove__cvref.html">etl::remove_cvref&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the type T is a reference type, provides the member typedef type which is the type referred to by T with its topmost cv-qualifiers removed. Otherwise type is T with its topmost cv-qualifiers removed.  <a href="structetl_1_1remove__cvref.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__pointer.html">etl::add_pointer&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a reference type, then provides the member typedef type which is a pointer to the referred type. Otherwise, if T names an object type, a function type that is not cv- or ref-qualified, or a (possibly cv-qualified) void type, provides the member typedef type which is the type T*. Otherwise (if T is a cv- or ref-qualified function type), provides the member typedef type which is the type T. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1add__pointer.html" title="If T is a reference type, then provides the member typedef type which is a pointer to the referred ty...">add_pointer</a> is undefined.  <a href="structetl_1_1add__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -395,6 +398,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a26ceb8de4fe37ef6a14f78dd10d95bb6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a26ceb8de4fe37ef6a14f78dd10d95bb6"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6">etl::remove_reference_t</a> = typename remove_reference&lt; T &gt;::type</td></tr>
 <tr class="separator:a26ceb8de4fe37ef6a14f78dd10d95bb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad85fb8c9d4542d450aa421f420184ca1"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ad85fb8c9d4542d450aa421f420184ca1"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a> = typename remove_cvref&lt; T &gt;::type</td></tr>
+<tr class="separator:ad85fb8c9d4542d450aa421f420184ca1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd20d67cb221212f49a97e02a7c1ca25"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:afd20d67cb221212f49a97e02a7c1ca25"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a> = typename add_pointer&lt; T &gt;::type</td></tr>
 <tr class="separator:afd20d67cb221212f49a97e02a7c1ca25"><td class="memSeparator" colspan="2">&#160;</td></tr>

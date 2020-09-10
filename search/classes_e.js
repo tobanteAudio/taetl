@@ -14,6 +14,7 @@ var searchData=
   ['remove_5fconst',['remove_const',['../structetl_1_1remove__const.html',1,'etl']]],
   ['remove_5fconst_3c_20type_20const_20_3e',['remove_const&lt; Type const &gt;',['../structetl_1_1remove__const_3_01Type_01const_01_4.html',1,'etl']]],
   ['remove_5fcv',['remove_cv',['../structetl_1_1remove__cv.html',1,'etl']]],
+  ['remove_5fcvref',['remove_cvref',['../structetl_1_1remove__cvref.html',1,'etl']]],
   ['remove_5fextent',['remove_extent',['../structetl_1_1remove__extent.html',1,'etl']]],
   ['remove_5fextent_3c_20t_5b_5d_3e',['remove_extent&lt; T[]&gt;',['../structetl_1_1remove__extent_3_01T[]_4.html',1,'etl']]],
   ['remove_5fextent_3c_20t_5bn_5d_3e',['remove_extent&lt; T[N]&gt;',['../structetl_1_1remove__extent_3_01T[N]_4.html',1,'etl']]],
