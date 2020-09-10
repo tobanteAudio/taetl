@@ -1,3 +1,5 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$structetl_1_1is__convertible.html" title="If the imaginary function definition To test() { return etl::declval&lt;From&gt;(); } is well&#45;formed..." alt="" coords="276,49,415,91"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_TRIVIALLY\l_ASSIGNABLE(etl::add_lvalue\l_reference\&lt; T \&gt;::type, etl\l::add_lvalue_reference\&lt; const\l T \&gt;::type)\&gt;" alt="" coords="5,5,225,105"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__trivially__assignable.html" title="etl::is_trivially_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="273,20,493,91"/>
+<area shape="rect" id="node3" href="$structetl_1_1is__trivially__copy__assignable.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="541,35,695,76"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::den\&lt;=R2::num *R1\l::den)\&gt;" alt="" coords="5,5,180,47"/>
-<area shape="rect" id="node2" href="$structetl_1_1ratio__less__equal.html" title="Compares two ratio objects for equality at compile&#45;time. If the ratio R1 is less than or equal to the..." alt="" coords="228,5,381,47"/>
+<area shape="rect" id="node1" href="$structetl_1_1crtp.html" title="etl::crtp\&lt; StrongType,\l divisible \&gt;" alt="" coords="5,5,168,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1experimental_1_1skill_1_1divisible.html" title="etl::experimental::\lskill::divisible\&lt; StrongType \&gt;" alt="" coords="216,5,431,47"/>
 </map>

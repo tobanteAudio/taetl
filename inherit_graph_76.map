@@ -1,5 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_same\&lt;\l float, etl::remove_cv\l\&lt; Rep \&gt;::type \&gt;::value\|\|\letl::is_same\&lt; double, etl\l::remove_cv\&lt; Rep \&gt;::type \&gt;\l::value\|\|etl::is_same\&lt; long\l double, etl::remove_cv\&lt; Rep\l \&gt;::type \&gt;::value \&gt;" alt="" coords="5,5,220,149"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__floating__point.html" title="etl::is_floating_point\l\&lt; Rep \&gt;" alt="" coords="268,57,423,98"/>
-<area shape="rect" id="node3" href="$structetl_1_1chrono_1_1treat__as__floating__point.html" title="The etl::chrono::treat_as_floating_point trait helps determine if a duration can be converted to anot..." alt="" coords="471,57,665,98"/>
+<area shape="rect" id="node1" href="$structetl_1_1in__place__type__t.html" title="Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in&#45;place, and (for the latter two) the type of the object to be constructed. " alt="" coords="5,5,143,47"/>
 </map>
