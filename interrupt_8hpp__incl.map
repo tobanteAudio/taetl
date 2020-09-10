@@ -1,6 +1,9 @@
 <map id="etl/experimental/hardware/stm32/interrupt.hpp" name="etl/experimental/hardware/stm32/interrupt.hpp">
-<area shape="rect" id="node2" href="$array_8hpp.html" title="etl/array.hpp" alt="" coords="101,95,203,121"/>
-<area shape="rect" id="node5" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="182,169,301,196"/>
-<area shape="rect" id="node3" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="38,169,135,196"/>
-<area shape="rect" id="node6" href="$version_8hpp.html" title="version.hpp" alt="" coords="104,244,203,271"/>
+<area shape="rect" id="node2" href="$array_8hpp.html" title="etl/array.hpp" alt="" coords="295,95,398,121"/>
+<area shape="rect" id="node5" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="219,333,338,360"/>
+<area shape="rect" id="node3" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="342,169,439,196"/>
+<area shape="rect" id="node9" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="119,169,239,196"/>
+<area shape="rect" id="node6" href="$version_8hpp.html" title="version.hpp" alt="" coords="119,408,217,435"/>
+<area shape="rect" id="node10" href="$type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="83,244,216,285"/>
+<area shape="rect" id="node11" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="5,333,176,360"/>
 </map>

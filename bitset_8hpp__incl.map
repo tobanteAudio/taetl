@@ -1,6 +1,9 @@
 <map id="etl/bitset.hpp" name="etl/bitset.hpp">
-<area shape="rect" id="node2" href="$array_8hpp.html" title="array.hpp" alt="" coords="121,80,204,107"/>
-<area shape="rect" id="node5" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="182,155,301,181"/>
-<area shape="rect" id="node3" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="38,155,135,181"/>
-<area shape="rect" id="node6" href="$version_8hpp.html" title="version.hpp" alt="" coords="104,229,203,256"/>
+<area shape="rect" id="node2" href="$array_8hpp.html" title="array.hpp" alt="" coords="307,80,389,107"/>
+<area shape="rect" id="node5" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="219,319,338,345"/>
+<area shape="rect" id="node3" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="342,155,439,181"/>
+<area shape="rect" id="node9" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="119,155,239,181"/>
+<area shape="rect" id="node6" href="$version_8hpp.html" title="version.hpp" alt="" coords="119,393,217,420"/>
+<area shape="rect" id="node10" href="$type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="83,229,216,271"/>
+<area shape="rect" id="node11" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="5,319,176,345"/>
 </map>

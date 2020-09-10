@@ -115,7 +115,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the nested type type, which is a trivial standard-layout type suitable for use as uninitialized storage for any object whose size is at most Len and whose alignment requirement is a divisor of Align.  <a href="structetl_1_1aligned__storage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1array.html">array</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">array class with fixed size capacity.  <a href="classetl_1_1array.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays.  <a href="classetl_1_1array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a LegacyOutputIterator that appends to a container for which it was constructed. The container's push_back() member function is called whenever the iterator (whether dereferenced or not) is assigned to. Incrementing the <a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a no-op.  <a href="classetl_1_1back__insert__iterator.html#details">More...</a><br /></td></tr>
@@ -2186,7 +2186,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000007">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -2206,7 +2206,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258" title="The alias template etl::ratio_divide denotes the result of dividing two exact rational fractions repr...">etl::ratio_divide</a> denotes the result of dividing two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den and Denom == R1::den * R2::num (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -2226,7 +2226,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b" title="The alias template etl::ratio_multiply denotes the result of multiplying two exact rational fractions...">etl::ratio_multiply</a> denotes the result of multiplying two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::num and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -2246,7 +2246,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -5793,7 +5793,7 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
 
 </div>
 </div>

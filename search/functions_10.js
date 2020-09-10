@@ -16,5 +16,5 @@ var searchData=
   ['strlen',['strlen',['../namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a',1,'etl']]],
   ['strong_5ftype',['strong_type',['../structetl_1_1experimental_1_1strong__type.html#afdbf8f810eaa8b7fa16590122c85913b',1,'etl::experimental::strong_type::strong_type() noexcept=default'],['../structetl_1_1experimental_1_1strong__type.html#a54c51a9a3949f70cb6d066d75042c7c3',1,'etl::experimental::strong_type::strong_type(ValueType data) noexcept']]],
   ['substr',['substr',['../classetl_1_1basic__string__view.html#a2d285b1cf3fae703b3cddda25d6fd2f1',1,'etl::basic_string_view']]],
-  ['swap',['swap',['../namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a',1,'etl']]]
+  ['swap',['swap',['../classetl_1_1array.html#acdca78370520dd0c634ad6754c947208',1,'etl::array::swap()'],['../namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a',1,'etl::swap()']]]
 ];

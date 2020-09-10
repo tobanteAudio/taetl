@@ -42,7 +42,7 @@ var searchData=
   ['stubs_2ehpp',['stubs.hpp',['../stubs_8hpp.html',1,'']]],
   ['substr',['substr',['../classetl_1_1basic__string__view.html#a2d285b1cf3fae703b3cddda25d6fd2f1',1,'etl::basic_string_view']]],
   ['subtractable',['subtractable',['../structetl_1_1experimental_1_1skill_1_1subtractable.html',1,'etl::experimental::skill']]],
-  ['swap',['swap',['../namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a',1,'etl']]],
+  ['swap',['swap',['../classetl_1_1array.html#acdca78370520dd0c634ad6754c947208',1,'etl::array::swap()'],['../namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a',1,'etl::swap()']]],
   ['sys_5ftick',['sys_tick',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7a74679e889a97bacc8ac1e1d4d16b5238',1,'etl::hardware::stm32']]],
   ['system_5ferror_2ehpp',['system_error.hpp',['../system__error_8hpp.html',1,'']]]
 ];

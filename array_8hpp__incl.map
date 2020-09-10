@@ -1,5 +1,8 @@
 <map id="etl/array.hpp" name="etl/array.hpp">
-<area shape="rect" id="node2" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="38,80,135,107"/>
-<area shape="rect" id="node4" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="182,80,301,107"/>
-<area shape="rect" id="node5" href="$version_8hpp.html" title="version.hpp" alt="" coords="104,155,203,181"/>
+<area shape="rect" id="node2" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="5,80,103,107"/>
+<area shape="rect" id="node4" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="132,244,251,271"/>
+<area shape="rect" id="node8" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="206,80,326,107"/>
+<area shape="rect" id="node5" href="$version_8hpp.html" title="version.hpp" alt="" coords="31,319,130,345"/>
+<area shape="rect" id="node9" href="$type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="229,155,362,196"/>
+<area shape="rect" id="node10" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="294,244,465,271"/>
 </map>
