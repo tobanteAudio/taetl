@@ -3,6 +3,8 @@ var searchData=
   ['negate',['negate',['../structetl_1_1negate.html',1,'etl']]],
   ['negate_3c_20void_20_3e',['negate&lt; void &gt;',['../structetl_1_1negate_3_01void_01_4.html',1,'etl']]],
   ['never',['never',['../structetl_1_1rtos_1_1never.html',1,'etl::rtos']]],
+  ['not_5fequal_5fto',['not_equal_to',['../structetl_1_1not__equal__to.html',1,'etl']]],
+  ['not_5fequal_5fto_3c_20void_20_3e',['not_equal_to&lt; void &gt;',['../structetl_1_1not__equal__to_3_01void_01_4.html',1,'etl']]],
   ['numeric_5flimits',['numeric_limits',['../classetl_1_1numeric__limits.html',1,'etl']]],
   ['numeric_5flimits_3c_20bool_20_3e',['numeric_limits&lt; bool &gt;',['../classetl_1_1numeric__limits_3_01bool_01_4.html',1,'etl']]],
   ['numeric_5flimits_3c_20char_20_3e',['numeric_limits&lt; char &gt;',['../classetl_1_1numeric__limits_3_01char_01_4.html',1,'etl']]],

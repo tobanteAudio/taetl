@@ -1,4 +1,5 @@
 <map id="etl/cstring.hpp" name="etl/cstring.hpp">
-<area shape="rect" id="node2" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="24,80,132,107"/>
-<area shape="rect" id="node3" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="5,155,151,181"/>
+<area shape="rect" id="node2" href="$bit_8hpp.html" title="etl/bit.hpp" alt="" coords="5,80,93,107"/>
+<area shape="rect" id="node3" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="118,80,226,107"/>
+<area shape="rect" id="node4" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="99,155,245,181"/>
 </map>

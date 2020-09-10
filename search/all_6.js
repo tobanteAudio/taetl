@@ -10,5 +10,9 @@ var searchData=
   ['gpioa',['GPIOA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77caeacd2953fcef7bde871f22dfc4a05792',1,'etl::hardware::mcp23017']]],
   ['gpiob',['GPIOB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca990b6031915662e14ca7c8954cf21643',1,'etl::hardware::mcp23017']]],
   ['gppua',['GPPUA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77cabecb3fd95be2bc7f2de8989e13d47a7f',1,'etl::hardware::mcp23017']]],
-  ['gppub',['GPPUB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77caad2ef1450a5819c882c6f567c3026156',1,'etl::hardware::mcp23017']]]
+  ['gppub',['GPPUB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77caad2ef1450a5819c882c6f567c3026156',1,'etl::hardware::mcp23017']]],
+  ['greater',['greater',['../structetl_1_1greater.html',1,'etl']]],
+  ['greater_3c_20void_20_3e',['greater&lt; void &gt;',['../structetl_1_1greater_3_01void_01_4.html',1,'etl']]],
+  ['greater_5fequal',['greater_equal',['../structetl_1_1greater__equal.html',1,'etl']]],
+  ['greater_5fequal_3c_20void_20_3e',['greater_equal&lt; void &gt;',['../structetl_1_1greater__equal_3_01void_01_4.html',1,'etl']]]
 ];

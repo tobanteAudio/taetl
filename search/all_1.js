@@ -14,6 +14,7 @@ var searchData=
   ['bidirectional_5fiterator_5ftag',['bidirectional_iterator_tag',['../structetl_1_1bidirectional__iterator__tag.html',1,'etl']]],
   ['big',['big',['../namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8ad861877da56b8b4ceb35c8cbfdf65bb4',1,'etl']]],
   ['bit_2ehpp',['bit.hpp',['../bit_8hpp.html',1,'']]],
+  ['bit_5fcast',['bit_cast',['../namespaceetl.html#ae516046f5fb54110a91f5e7759f16240',1,'etl']]],
   ['bit_5fset',['bit_set',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a6d7eab23e076aea916bad720be02ec9f',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['bit_5fset_5freset',['bit_set_reset',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a9789d55b1da9365859d0e36f8e4c64bf',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['bit_5fwidth',['bit_width',['../namespaceetl.html#a9317469178624538d15a8e264d22887a',1,'etl']]],
