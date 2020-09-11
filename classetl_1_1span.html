@@ -104,15 +104,40 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf2618260c951e813d8b691f919a26a9"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9">span</a> () noexcept=default</td></tr>
 <tr class="memdesc:acf2618260c951e813d8b691f919a26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span. Constructs an empty span whose <a class="el" href="classetl_1_1span.html#a0c14bb1210ce53227665fde907544321" title="Returns a pointer to the beginning of the sequence. ">data()</a> == nullptr and <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a> == 0.  <a href="#acf2618260c951e813d8b691f919a26a9">More...</a><br /></td></tr>
 <tr class="separator:acf2618260c951e813d8b691f919a26a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a130caefca2fa62603113dee3d0ae5050"><td class="memTemplParams" colspan="2">template&lt;class It &gt; </td></tr>
+<tr class="memitem:a130caefca2fa62603113dee3d0ae5050"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a130caefca2fa62603113dee3d0ae5050">span</a> (It first, <a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a> <a class="el" href="namespaceetl.html#afe8c29a359a0bffc469225b6aeb0ae64">count</a>)</td></tr>
+<tr class="memdesc:a130caefca2fa62603113dee3d0ae5050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span.  <a href="#a130caefca2fa62603113dee3d0ae5050">More...</a><br /></td></tr>
+<tr class="separator:a130caefca2fa62603113dee3d0ae5050"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0fc37f46dbc0c737b49ec0730622ced7"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a0fc37f46dbc0c737b49ec0730622ced7">span</a> (const <a class="el" href="classetl_1_1span.html">span</a> &amp;other) noexcept=default</td></tr>
 <tr class="memdesc:a0fc37f46dbc0c737b49ec0730622ced7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span.  <a href="#a0fc37f46dbc0c737b49ec0730622ced7">More...</a><br /></td></tr>
 <tr class="separator:a0fc37f46dbc0c737b49ec0730622ced7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a19552b21081a93efc803236413b9c559"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a19552b21081a93efc803236413b9c559">begin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1span.html#a5d04cc0bc7cc697c19163221819bae3d">iterator</a></td></tr>
+<tr class="memdesc:a19552b21081a93efc803236413b9c559"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first element of the span. If the span is empty, the returned iterator will be equal to <a class="el" href="classetl_1_1span.html#a67fa4632156b842915857669bf9bf8cb" title="Returns an iterator to the element following the last element of the span. This element acts as a pla...">end()</a>.  <a href="#a19552b21081a93efc803236413b9c559">More...</a><br /></td></tr>
+<tr class="separator:a19552b21081a93efc803236413b9c559"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a67fa4632156b842915857669bf9bf8cb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a67fa4632156b842915857669bf9bf8cb">end</a> () const noexcept -&gt; <a class="el" href="classetl_1_1span.html#a5d04cc0bc7cc697c19163221819bae3d">iterator</a></td></tr>
+<tr class="memdesc:a67fa4632156b842915857669bf9bf8cb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the element following the last element of the span. This element acts as a placeholder; attempting to access it results in undefined behavior.  <a href="#a67fa4632156b842915857669bf9bf8cb">More...</a><br /></td></tr>
+<tr class="separator:a67fa4632156b842915857669bf9bf8cb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9bb035dc3943f7c6c6ae477db4356d8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#ad9bb035dc3943f7c6c6ae477db4356d8">front</a> () const -&gt; <a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a></td></tr>
+<tr class="memdesc:ad9bb035dc3943f7c6c6ae477db4356d8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the first element in the span. Calling front on an empty span results in undefined behavior.  <a href="#ad9bb035dc3943f7c6c6ae477db4356d8">More...</a><br /></td></tr>
+<tr class="separator:ad9bb035dc3943f7c6c6ae477db4356d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaf7bc219f3faa0fb6356b62623c80661"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#aaf7bc219f3faa0fb6356b62623c80661">back</a> () const -&gt; <a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a></td></tr>
+<tr class="memdesc:aaf7bc219f3faa0fb6356b62623c80661"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the last element in the span. Calling front on an empty span results in undefined behavior.  <a href="#aaf7bc219f3faa0fb6356b62623c80661">More...</a><br /></td></tr>
+<tr class="separator:aaf7bc219f3faa0fb6356b62623c80661"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a37e77fa3991589aaa7a0f0529cb44145"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a37e77fa3991589aaa7a0f0529cb44145">operator[]</a> (<a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a> idx) const -&gt; <a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a></td></tr>
+<tr class="memdesc:a37e77fa3991589aaa7a0f0529cb44145"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the idx-th element of the sequence. The behavior is undefined if idx is out of range (i.e., if it is greater than or equal to <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a>).  <a href="#a37e77fa3991589aaa7a0f0529cb44145">More...</a><br /></td></tr>
+<tr class="separator:a37e77fa3991589aaa7a0f0529cb44145"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c14bb1210ce53227665fde907544321"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a0c14bb1210ce53227665fde907544321">data</a> () const noexcept -&gt; <a class="el" href="classetl_1_1span.html#a01144633928dd6a554f076ce8414ab7c">pointer</a></td></tr>
 <tr class="memdesc:a0c14bb1210ce53227665fde907544321"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the beginning of the sequence.  <a href="#a0c14bb1210ce53227665fde907544321">More...</a><br /></td></tr>
 <tr class="separator:a0c14bb1210ce53227665fde907544321"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acfb3f728d2476f5e87a490153d32e46a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a">size</a> () const noexcept -&gt; <a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a></td></tr>
 <tr class="memdesc:acfb3f728d2476f5e87a490153d32e46a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements in the span.  <a href="#acfb3f728d2476f5e87a490153d32e46a">More...</a><br /></td></tr>
 <tr class="separator:acfb3f728d2476f5e87a490153d32e46a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a12f4f8ae184872d70b59f3961f2081ac"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a12f4f8ae184872d70b59f3961f2081ac">size_bytes</a> () const noexcept -&gt; <a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a></td></tr>
+<tr class="memdesc:a12f4f8ae184872d70b59f3961f2081ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements in the span.  <a href="#a12f4f8ae184872d70b59f3961f2081ac">More...</a><br /></td></tr>
+<tr class="separator:a12f4f8ae184872d70b59f3961f2081ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afab8496dde141f7cfa992d6808dd634f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#afab8496dde141f7cfa992d6808dd634f">empty</a> () const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:afab8496dde141f7cfa992d6808dd634f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the span is empty.  <a href="#afab8496dde141f7cfa992d6808dd634f">More...</a><br /></td></tr>
+<tr class="separator:afab8496dde141f7cfa992d6808dd634f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -274,7 +299,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="acf2618260c951e813d8b691f919a26a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acf2618260c951e813d8b691f919a26a9">&#9670;&nbsp;</a></span>span() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acf2618260c951e813d8b691f919a26a9">&#9670;&nbsp;</a></span>span() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -304,8 +329,52 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 
 </div>
 </div>
+<a id="a130caefca2fa62603113dee3d0ae5050"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a130caefca2fa62603113dee3d0ae5050">&#9670;&nbsp;</a></span>span() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<div class="memtemplate">
+template&lt;class It &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html">span</a> </td>
+          <td>(</td>
+          <td class="paramtype">It&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a span. </p>
+<p>Constructs a span that is a view over the range [first, first + count); the resulting span has <a class="el" href="classetl_1_1span.html#a0c14bb1210ce53227665fde907544321" title="Returns a pointer to the beginning of the sequence. ">data()</a> == etl::to_address(first) and <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a> == count. The behavior is undefined if [first, first + count) is not a valid range, if It does not actually model contiguous_iterator, or if extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a> &amp;&amp; count != extent. This overload only participates in overload resolution if, It satisfies contiguous_iterator and the conversion from etl::iter_reference_t&lt;It&gt; to element_type is at most a qualification conversion.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>). </dd></dl>
+
+</div>
+</div>
 <a id="a0fc37f46dbc0c737b49ec0730622ced7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0fc37f46dbc0c737b49ec0730622ced7">&#9670;&nbsp;</a></span>span() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0fc37f46dbc0c737b49ec0730622ced7">&#9670;&nbsp;</a></span>span() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -331,11 +400,70 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 </div><div class="memdoc">
 
 <p>Constructs a span. </p>
-<p>Constructs a span. Constructs a span. Constructs a span. Constructs a span. Constructs a span. Constructs a span. Constructs a span. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>). </dd></dl>
+<p>Constructs a span. Constructs a span. Constructs a span. Constructs a span. Constructs a span. Constructs a span. </p>
 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="aaf7bc219f3faa0fb6356b62623c80661"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaf7bc219f3faa0fb6356b62623c80661">&#9670;&nbsp;</a></span>back()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::back </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a> </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the last element in the span. Calling front on an empty span results in undefined behavior. </p>
+
+</div>
+</div>
+<a id="a19552b21081a93efc803236413b9c559"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a19552b21081a93efc803236413b9c559">&#9670;&nbsp;</a></span>begin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::begin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1span.html#a5d04cc0bc7cc697c19163221819bae3d">iterator</a> </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the first element of the span. If the span is empty, the returned iterator will be equal to <a class="el" href="classetl_1_1span.html#a67fa4632156b842915857669bf9bf8cb" title="Returns an iterator to the element following the last element of the span. This element acts as a pla...">end()</a>. </p>
+
+</div>
+</div>
 <a id="a0c14bb1210ce53227665fde907544321"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a0c14bb1210ce53227665fde907544321">&#9670;&nbsp;</a></span>data()</h2>
 
@@ -365,6 +493,125 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 
 </div>
 </div>
+<a id="afab8496dde141f7cfa992d6808dd634f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afab8496dde141f7cfa992d6808dd634f">&#9670;&nbsp;</a></span>empty()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::empty </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; bool </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the span is empty. </p>
+
+</div>
+</div>
+<a id="a67fa4632156b842915857669bf9bf8cb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a67fa4632156b842915857669bf9bf8cb">&#9670;&nbsp;</a></span>end()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::end </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1span.html#a5d04cc0bc7cc697c19163221819bae3d">iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator to the element following the last element of the span. This element acts as a placeholder; attempting to access it results in undefined behavior. </p>
+
+</div>
+</div>
+<a id="ad9bb035dc3943f7c6c6ae477db4356d8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9bb035dc3943f7c6c6ae477db4356d8">&#9670;&nbsp;</a></span>front()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::front </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a> </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the first element in the span. Calling front on an empty span results in undefined behavior. </p>
+
+</div>
+</div>
+<a id="a37e77fa3991589aaa7a0f0529cb44145"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a37e77fa3991589aaa7a0f0529cb44145">&#9670;&nbsp;</a></span>operator[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::operator[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a>&#160;</td>
+          <td class="paramname"><em>idx</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reference to the idx-th element of the sequence. The behavior is undefined if idx is out of range (i.e., if it is greater than or equal to <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a>). </p>
+
+</div>
+</div>
 <a id="acfb3f728d2476f5e87a490153d32e46a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acfb3f728d2476f5e87a490153d32e46a">&#9670;&nbsp;</a></span>size()</h2>
 
@@ -381,6 +628,36 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a> </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of elements in the span. </p>
+
+</div>
+</div>
+<a id="a12f4f8ae184872d70b59f3961f2081ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a12f4f8ae184872d70b59f3961f2081ac">&#9670;&nbsp;</a></span>size_bytes()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::size_bytes </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a>
+    </td>
         </tr>
       </table>
   </td>

@@ -70,13 +70,13 @@ $(function() {
 <dd>Converted to and from strings and integers. Add operators &amp; more docs.  </dd>
 <dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="classetl_1_1front__insert__iterator.html">etl::front_insert_iterator&lt; Container &gt;</a>  </dt>
 <dd>Add tests when a container with push_front has been implemented.  </dd>
-<dt><a class="anchor" id="_todo000014"></a>Class <a class="el" href="classetl_1_1is__trivially__copyable.html">etl::is_trivially_copyable&lt; T &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000016"></a>Class <a class="el" href="classetl_1_1is__trivially__copyable.html">etl::is_trivially_copyable&lt; T &gt;</a>  </dt>
 <dd>Add is_destructible  </dd>
 <dt><a class="anchor" id="_todo000006"></a>Member <a class="el" href="classetl_1_1map__view.html#a2b1531c1eb172f7810795e4e50fbf20a">etl::map_view&lt; KeyType, ValueType, Compare &gt;::at</a>  (key_type const &amp;key) -&gt; mapped_type &amp;</dt>
 <dd>Reverse iterators &amp; node type. reverse_iterator etl::reverse_iterator&lt;iterator&gt; const_reverse_iterator etl::reverse_iterator&lt;const_iterator&gt; node_type a specialization of node handle representing a container node insert_return_type  </dd>
 <dt><a class="anchor" id="_todo000004"></a>Member <a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9">etl::memmove</a>  (void *dest, const void *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</dt>
 <dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a>  </dd>
-<dt><a class="anchor" id="_todo000015"></a>Class <a class="el" href="structetl_1_1pair.html">etl::pair&lt; T1, T2 &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000017"></a>Class <a class="el" href="structetl_1_1pair.html">etl::pair&lt; T1, T2 &gt;</a>  </dt>
 <dd>Add conditional explicit when C++20 is available.  </dd>
 <dt><a class="anchor" id="_todo000008"></a>Member <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00">etl::ratio_add</a>  </dt>
 <dd>Check overflow.  </dd>
@@ -88,11 +88,15 @@ $(function() {
 <dd>Check overflow.  </dd>
 <dt><a class="anchor" id="_todo000007"></a>Class <a class="el" href="classetl_1_1scoped__lock.html">etl::scoped_lock&lt; MutexType &gt;</a>  </dt>
 <dd>Fix move special member funcs. Make variadic.  </dd>
+<dt><a class="anchor" id="_todo000014"></a>Member <a class="el" href="classetl_1_1span.html#a0fc37f46dbc0c737b49ec0730622ced7">etl::span&lt; ElementType, Extent &gt;::span</a>  (const span &amp;other) noexcept=default</dt>
+<dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>).  </dd>
+<dt><a class="anchor" id="_todo000013"></a>Member <a class="el" href="classetl_1_1span.html#a130caefca2fa62603113dee3d0ae5050">etl::span&lt; ElementType, Extent &gt;::span</a>  (It first, size_type count)</dt>
+<dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>).  </dd>
 <dt><a class="anchor" id="_todo000012"></a>Member <a class="el" href="classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9">etl::span&lt; ElementType, Extent &gt;::span</a>  () noexcept=default</dt>
 <dd>Remove from overload with concepts once available.  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">etl::swap</a>  (T &amp;a, T &amp;b) noexcept -&gt; void</dt>
 <dd>Fix noexcept specifier. https://en.cppreference.com/w/cpp/algorithm/swap  </dd>
-<dt><a class="anchor" id="_todo000013"></a>Class <a class="el" href="structetl_1_1tuple.html">etl::tuple&lt; First, Rest &gt;</a>  </dt>
+<dt><a class="anchor" id="_todo000015"></a>Class <a class="el" href="structetl_1_1tuple.html">etl::tuple&lt; First, Rest &gt;</a>  </dt>
 <dd>Implement index_sequence &amp; tuple_size </dd>
 </dl>
 </div></div><!-- contents -->
