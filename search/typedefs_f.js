@@ -9,6 +9,7 @@ var searchData=
   ['remove_5fcv_5ft',['remove_cv_t',['../namespaceetl.html#a70fb46b3c4c98f5f23b76cb25f343373',1,'etl']]],
   ['remove_5fcvref_5ft',['remove_cvref_t',['../namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1',1,'etl']]],
   ['remove_5fextent_5ft',['remove_extent_t',['../namespaceetl.html#a2368185596474aaf04490908f75e3a18',1,'etl']]],
+  ['remove_5fpointer_5ft',['remove_pointer_t',['../namespaceetl.html#a7dab9cb6af8b33ea5f7c09c58e75bfb7',1,'etl']]],
   ['remove_5freference_5ft',['remove_reference_t',['../namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6',1,'etl']]],
   ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]],
   ['rep',['rep',['../classetl_1_1chrono_1_1duration.html#a1c57e1a77c765c16c58ef9a46d703d15',1,'etl::chrono::duration']]],
