@@ -36,6 +36,7 @@ var searchData=
   ['divides',['divides',['../structetl_1_1divides.html',1,'etl']]],
   ['divides_3c_20void_20_3e',['divides&lt; void &gt;',['../structetl_1_1divides_3_01void_01_4.html',1,'etl']]],
   ['divisible',['divisible',['../structetl_1_1experimental_1_1skill_1_1divisible.html',1,'etl::experimental::skill']]],
+  ['double_5ft',['double_t',['../namespaceetl.html#a9c91cfdd41de11ccf80532067354fe92',1,'etl']]],
   ['dsp_2ehpp',['dsp.hpp',['../dsp_8hpp.html',1,'']]],
   ['duration',['duration',['../classetl_1_1chrono_1_1duration.html',1,'etl::chrono::duration&lt; Rep, Period &gt;'],['../classetl_1_1chrono_1_1duration.html#a5c8e2a8648cf827e1c2c98963ede148f',1,'etl::chrono::duration::duration() noexcept=default'],['../classetl_1_1chrono_1_1duration.html#a4ae653ef629d9813e45345becd107ae5',1,'etl::chrono::duration::duration(const duration &amp;) noexcept=default'],['../classetl_1_1chrono_1_1duration.html#a6e5fb0105f6dfb5d2b3abaa6c6274d2e',1,'etl::chrono::duration::duration(const Rep2 &amp;r) noexcept'],['../classetl_1_1chrono_1_1duration.html#abdc02c83b02da861af6c81f3d94a8a1b',1,'etl::chrono::duration::duration(const duration&lt; Rep2, Period2 &gt; &amp;other) noexcept']]],
   ['duration_5fcast',['duration_cast',['../namespaceetl_1_1chrono.html#a9c5d75513b403d3b4de7f892ec173d44',1,'etl::chrono']]],

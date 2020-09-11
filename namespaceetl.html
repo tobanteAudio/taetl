@@ -606,6 +606,12 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
 Typedefs</h2></td></tr>
+<tr class="memitem:a04532556e568bb7cc276440befc7f441"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a04532556e568bb7cc276440befc7f441">float_t</a> = float</td></tr>
+<tr class="memdesc:a04532556e568bb7cc276440befc7f441"><td class="mdescLeft">&#160;</td><td class="mdescRight">Most efficient floating-point type at least as wide as float.  <a href="#a04532556e568bb7cc276440befc7f441">More...</a><br /></td></tr>
+<tr class="separator:a04532556e568bb7cc276440befc7f441"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9c91cfdd41de11ccf80532067354fe92"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9c91cfdd41de11ccf80532067354fe92">double_t</a> = double</td></tr>
+<tr class="memdesc:a9c91cfdd41de11ccf80532067354fe92"><td class="mdescLeft">&#160;</td><td class="mdescRight">Most efficient floating-point type at least as wide as double.  <a href="#a9c91cfdd41de11ccf80532067354fe92">More...</a><br /></td></tr>
+<tr class="separator:a9c91cfdd41de11ccf80532067354fe92"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afd99b481983335f785f7713b9bb4f436"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afd99b481983335f785f7713b9bb4f436">int8_t</a> = <a class="el" href="namespaceetl.html#afd99b481983335f785f7713b9bb4f436">int8_t</a></td></tr>
 <tr class="separator:afd99b481983335f785f7713b9bb4f436"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3ffe3c07a4dbbe98792f1936145c6876"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3ffe3c07a4dbbe98792f1936145c6876">int16_t</a> = <a class="el" href="namespaceetl.html#a3ffe3c07a4dbbe98792f1936145c6876">int16_t</a></td></tr>
@@ -1866,6 +1872,22 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a9c91cfdd41de11ccf80532067354fe92"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c91cfdd41de11ccf80532067354fe92">&#9670;&nbsp;</a></span>double_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a9c91cfdd41de11ccf80532067354fe92">etl::double_t</a> = typedef double</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Most efficient floating-point type at least as wide as double. </p>
+
+</div>
+</div>
 <a id="a2a2df4ab89284c8c5866afea3100f290"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2a2df4ab89284c8c5866afea3100f290">&#9670;&nbsp;</a></span>enable_if_t</h2>
 
@@ -1921,6 +1943,22 @@ template&lt;bool B, class T  = void&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a04532556e568bb7cc276440befc7f441"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a04532556e568bb7cc276440befc7f441">&#9670;&nbsp;</a></span>float_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a04532556e568bb7cc276440befc7f441">etl::float_t</a> = typedef float</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Most efficient floating-point type at least as wide as float. </p>
 
 </div>
 </div>
@@ -5317,6 +5355,7 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg has finite value i.e. it is normal, subnormal or zero, but not infinite or NaN. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isfinite </p>
 
 </div>
 </div>
@@ -5338,6 +5377,7 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg has finite value i.e. it is normal, subnormal or zero, but not infinite or NaN. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isfinite </p>
 
 </div>
 </div>
@@ -5359,6 +5399,7 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg has finite value i.e. it is normal, subnormal or zero, but not infinite or NaN. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isfinite </p>
 
 </div>
 </div>
@@ -5379,7 +5420,8 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a positive or negative infinity. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise</dd></dl>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isinf </p>
 
 </div>
 </div>
@@ -5400,7 +5442,8 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a positive or negative infinity. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise</dd></dl>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isinf </p>
 
 </div>
 </div>
@@ -5421,7 +5464,8 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a positive or negative infinity. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise</dd></dl>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isinf </p>
 
 </div>
 </div>
@@ -5445,7 +5489,8 @@ template&lt;typename IntegralType &gt; </div>
 </div><div class="memdoc">
 
 <p>A set of overloads or a function template accepting the arg argument of any integral type. Equivalent to cast to double. </p>
-<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise </dd></dl>
+<dl class="section return"><dt>Returns</dt><dd>true if arg is infinite, false otherwise</dd></dl>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isinf </p>
 
 </div>
 </div>
@@ -5466,6 +5511,7 @@ template&lt;typename IntegralType &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a not-a-number (NaN) value. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isnan </p>
 
 </div>
 </div>
@@ -5486,6 +5532,7 @@ template&lt;typename IntegralType &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a not-a-number (NaN) value. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isnan </p>
 
 </div>
 </div>
@@ -5506,6 +5553,7 @@ template&lt;typename IntegralType &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a not-a-number (NaN) value. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isnan </p>
 
 </div>
 </div>
@@ -5529,6 +5577,7 @@ template&lt;typename IntegralType &gt; </div>
 </div><div class="memdoc">
 
 <p>Determines if the given floating point number arg is a not-a-number (NaN) value. </p>
+<p>https://en.cppreference.com/w/cpp/numeric/math/isnan </p>
 
 </div>
 </div>

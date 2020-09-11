@@ -18,6 +18,7 @@ var searchData=
   ['first_5ftype',['first_type',['../structetl_1_1pair.html#a28ef81180e9d7238017a3562e55c6586',1,'etl::pair']]],
   ['float_5fdenorm_5fstyle',['float_denorm_style',['../namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247c',1,'etl']]],
   ['float_5fround_5fstyle',['float_round_style',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92',1,'etl']]],
+  ['float_5ft',['float_t',['../namespaceetl.html#a04532556e568bb7cc276440befc7f441',1,'etl']]],
   ['for_5feach',['for_each',['../namespaceetl.html#a013f931a99670b660a20f65b845013a3',1,'etl']]],
   ['for_5feach_5fn',['for_each_n',['../namespaceetl.html#ad648007806d54bdfc4e127ab1e1ca4a3',1,'etl']]],
   ['forever',['forever',['../structetl_1_1rtos_1_1forever.html',1,'etl::rtos']]],
