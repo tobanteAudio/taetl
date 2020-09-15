@@ -1181,6 +1181,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae33b9666e620117df47e7cd5c2faae53"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae33b9666e620117df47e7cd5c2faae53">isfinite</a> (long double arg) -&gt; bool</td></tr>
 <tr class="memdesc:ae33b9666e620117df47e7cd5c2faae53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg has finite value i.e. it is normal, subnormal or zero, but not infinite or NaN.  <a href="#ae33b9666e620117df47e7cd5c2faae53">More...</a><br /></td></tr>
 <tr class="separator:ae33b9666e620117df47e7cd5c2faae53"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af5307f2678264efbe87f3ca33f9ada2b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af5307f2678264efbe87f3ca33f9ada2b">iota</a> (int val, char *const buffer, int base) -&gt; char *</td></tr>
+<tr class="memdesc:af5307f2678264efbe87f3ca33f9ada2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter.  <a href="#af5307f2678264efbe87f3ca33f9ada2b">More...</a><br /></td></tr>
+<tr class="separator:af5307f2678264efbe87f3ca33f9ada2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9788f03be1d72496a6c116e12ffd008a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9788f03be1d72496a6c116e12ffd008a">atol</a> (const char *str) -&gt; long</td></tr>
+<tr class="memdesc:a9788f03be1d72496a6c116e12ffd008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the C-string str interpreting its content as an integral number, which is returned as a value of type long int.  <a href="#a9788f03be1d72496a6c116e12ffd008a">More...</a><br /></td></tr>
+<tr class="separator:a9788f03be1d72496a6c116e12ffd008a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a28bb04c335112b2c13d676c422e66"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a99a28bb04c335112b2c13d676c422e66">memcpy</a> (void *dest, const void *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
 <tr class="memdesc:a99a28bb04c335112b2c13d676c422e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, <a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9" title="Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may...">memmove()</a> must be used instead.  <a href="#a99a28bb04c335112b2c13d676c422e66">More...</a><br /></td></tr>
 <tr class="separator:a99a28bb04c335112b2c13d676c422e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2282,7 +2288,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a515e08f8ce11f32a154acd83b2fe6b00" title="The alias template etl::ratio_add denotes the result of adding two exact rational fractions represent...">etl::ratio_add</a> denotes the result of adding two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den + R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000008">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -2302,7 +2308,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a420acf1424e7ed7ae82f703ac31ff258" title="The alias template etl::ratio_divide denotes the result of dividing two exact rational fractions repr...">etl::ratio_divide</a> denotes the result of dividing two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den and Denom == R1::den * R2::num (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000012">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -2322,7 +2328,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#abbdaf3b94f7cb0830c812d5c8aabbe0b" title="The alias template etl::ratio_multiply denotes the result of multiplying two exact rational fractions...">etl::ratio_multiply</a> denotes the result of multiplying two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::num and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000011">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -2342,7 +2348,7 @@ template&lt;class R1 , class R2 &gt; </div>
 
 <p>The alias template <a class="el" href="namespaceetl.html#a234acc6c1438740afe4f7766f1208784" title="The alias template etl::ratio_subtract denotes the result of subtracting two exact rational fractions...">etl::ratio_subtract</a> denotes the result of subtracting two exact rational fractions represented by the <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specializations R1 and R2. </p>
 <p>The result is a <a class="el" href="structetl_1_1ratio.html" title="The class template provides compile-time rational arithmetic support. Each instantiation of this temp...">etl::ratio</a> specialization etl::ratio&lt;U, V&gt;, such that given Num == R1::num * R2::den - R2::num * R1::den and Denom == R1::den * R2::den (computed without arithmetic overflow), U is <a class="el" href="structetl_1_1ratio.html#a15ad9bea294aeeba2f02f33ec0283065">etl::ratio&lt;Num, Denom&gt;::num</a> and V is <a class="el" href="structetl_1_1ratio.html#acb49b27bde07d5c4878c5347454a0044">etl::ratio&lt;Num, Denom&gt;::den</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000009">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000010">Todo:</a></b></dt><dd>Check overflow. </dd></dl>
 
 </div>
 </div>
@@ -3284,6 +3290,27 @@ template&lt;class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Const rvalue reference overload is deleted to disallow rvalue arguments. </p>
+
+</div>
+</div>
+<a id="a9788f03be1d72496a6c116e12ffd008a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9788f03be1d72496a6c116e12ffd008a">&#9670;&nbsp;</a></span>atol()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::atol </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> -&gt; long
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Parses the C-string str interpreting its content as an integral number, which is returned as a value of type long int. </p>
 
 </div>
 </div>
@@ -5308,8 +5335,47 @@ template&lt;class InputIt1 , class InputIt2 , class T , class BinaryOperation1 ,
 
 </div>
 </div>
+<a id="af5307f2678264efbe87f3ca33f9ada2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af5307f2678264efbe87f3ca33f9ada2b">&#9670;&nbsp;</a></span>iota() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::iota </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *const&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; char*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter. </p>
+<p>If base is 10 and value is negative, the resulting string is preceded with a minus sign (-). With any other base, value is always considered unsigned.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Only base 10 is currently supported. </dd></dl>
+
+</div>
+</div>
 <a id="a44562b8c2da2eb5f51eb8e98d09ea697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44562b8c2da2eb5f51eb8e98d09ea697">&#9670;&nbsp;</a></span>iota()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44562b8c2da2eb5f51eb8e98d09ea697">&#9670;&nbsp;</a></span>iota() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6074,7 +6140,7 @@ template&lt;class ForwardIterator , class Compare &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000005">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
 
 </div>
 </div>
