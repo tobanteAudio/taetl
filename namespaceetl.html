@@ -1181,9 +1181,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ae33b9666e620117df47e7cd5c2faae53"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae33b9666e620117df47e7cd5c2faae53">isfinite</a> (long double arg) -&gt; bool</td></tr>
 <tr class="memdesc:ae33b9666e620117df47e7cd5c2faae53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg has finite value i.e. it is normal, subnormal or zero, but not infinite or NaN.  <a href="#ae33b9666e620117df47e7cd5c2faae53">More...</a><br /></td></tr>
 <tr class="separator:ae33b9666e620117df47e7cd5c2faae53"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5307f2678264efbe87f3ca33f9ada2b"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af5307f2678264efbe87f3ca33f9ada2b">iota</a> (int val, char *const buffer, int base) -&gt; char *</td></tr>
-<tr class="memdesc:af5307f2678264efbe87f3ca33f9ada2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter.  <a href="#af5307f2678264efbe87f3ca33f9ada2b">More...</a><br /></td></tr>
-<tr class="separator:af5307f2678264efbe87f3ca33f9ada2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a07b9405fac6c1a10a80eedfbe2a120b6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a07b9405fac6c1a10a80eedfbe2a120b6">itoa</a> (int val, char *const buffer, int base) -&gt; char *</td></tr>
+<tr class="memdesc:a07b9405fac6c1a10a80eedfbe2a120b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter.  <a href="#a07b9405fac6c1a10a80eedfbe2a120b6">More...</a><br /></td></tr>
+<tr class="separator:a07b9405fac6c1a10a80eedfbe2a120b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9788f03be1d72496a6c116e12ffd008a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9788f03be1d72496a6c116e12ffd008a">atol</a> (const char *str) -&gt; long</td></tr>
 <tr class="memdesc:a9788f03be1d72496a6c116e12ffd008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the C-string str interpreting its content as an integral number, which is returned as a value of type long int.  <a href="#a9788f03be1d72496a6c116e12ffd008a">More...</a><br /></td></tr>
 <tr class="separator:a9788f03be1d72496a6c116e12ffd008a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -5335,47 +5335,8 @@ template&lt;class InputIt1 , class InputIt2 , class T , class BinaryOperation1 ,
 
 </div>
 </div>
-<a id="af5307f2678264efbe87f3ca33f9ada2b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5307f2678264efbe87f3ca33f9ada2b">&#9670;&nbsp;</a></span>iota() <span class="overload">[1/2]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">auto etl::iota </td>
-          <td>(</td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>val</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">char *const&#160;</td>
-          <td class="paramname"><em>buffer</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">int&#160;</td>
-          <td class="paramname"><em>base</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; char*
-</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-<p>Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter. </p>
-<p>If base is 10 and value is negative, the resulting string is preceded with a minus sign (-). With any other base, value is always considered unsigned.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Only base 10 is currently supported. </dd></dl>
-
-</div>
-</div>
 <a id="a44562b8c2da2eb5f51eb8e98d09ea697"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44562b8c2da2eb5f51eb8e98d09ea697">&#9670;&nbsp;</a></span>iota() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a44562b8c2da2eb5f51eb8e98d09ea697">&#9670;&nbsp;</a></span>iota()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -5728,6 +5689,45 @@ template&lt;class ForwardIt1 , class ForwardIt2 &gt; </div>
 
 <p>Swaps the values of the elements the given iterators are pointing to. </p>
 <p>https://en.cppreference.com/w/cpp/algorithm/iter_swap </p>
+
+</div>
+</div>
+<a id="a07b9405fac6c1a10a80eedfbe2a120b6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a07b9405fac6c1a10a80eedfbe2a120b6">&#9670;&nbsp;</a></span>itoa()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::itoa </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char *const&#160;</td>
+          <td class="paramname"><em>buffer</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>base</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; char*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter. </p>
+<p>If base is 10 and value is negative, the resulting string is preceded with a minus sign (-). With any other base, value is always considered unsigned.</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Only base 10 is currently supported. </dd></dl>
 
 </div>
 </div>

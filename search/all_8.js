@@ -105,7 +105,7 @@ var searchData=
   ['io_5ferror',['io_error',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170acccc32f2a5f7dc7b87d2f85daea66789',1,'etl']]],
   ['io_5fpolarity',['io_polarity',['../namespaceetl_1_1hardware_1_1mcp23017.html#a5a7c8be1bbef2b28cd6cdcdf71ffe1e1',1,'etl::hardware::mcp23017']]],
   ['ios_2ehpp',['ios.hpp',['../ios_8hpp.html',1,'']]],
-  ['iota',['iota',['../namespaceetl.html#af5307f2678264efbe87f3ca33f9ada2b',1,'etl::iota(int val, char *const buffer, int base) -&gt; char *'],['../namespaceetl.html#a44562b8c2da2eb5f51eb8e98d09ea697',1,'etl::iota(ForwardIt first, ForwardIt last, T value) -&gt; void']]],
+  ['iota',['iota',['../namespaceetl.html#a44562b8c2da2eb5f51eb8e98d09ea697',1,'etl']]],
   ['ipola',['IPOLA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca9e5298ed29a66e92c80ae80c5ab35d8e',1,'etl::hardware::mcp23017']]],
   ['ipolb',['IPOLB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca86f025b3f0ba1169acfeb0ce5fc83095',1,'etl::hardware::mcp23017']]],
   ['is_5fa_5fdirectory',['is_a_directory',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170af3c51d7ea75a76f26c0a2bdc00c4e006',1,'etl']]],
@@ -254,5 +254,6 @@ var searchData=
   ['iterator_5fcategory',['iterator_category',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#aa11fd04f0d0c926f6feda40757d66a00',1,'etl::iterator_traits&lt; T * &gt;::iterator_category()'],['../classetl_1_1back__insert__iterator.html#a8f1948d4fefd82644ad01d6d88cc4a21',1,'etl::back_insert_iterator::iterator_category()'],['../classetl_1_1front__insert__iterator.html#a93d899f2e111196f2710d03c879415cb',1,'etl::front_insert_iterator::iterator_category()']]],
   ['iterator_5fconcept',['iterator_concept',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#a3e4b11ff83596f8f77338181209acbe4',1,'etl::iterator_traits&lt; T * &gt;']]],
   ['iterator_5ftraits',['iterator_traits',['../structetl_1_1iterator__traits.html',1,'etl']]],
-  ['iterator_5ftraits_3c_20t_20_2a_20_3e',['iterator_traits&lt; T * &gt;',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html',1,'etl']]]
+  ['iterator_5ftraits_3c_20t_20_2a_20_3e',['iterator_traits&lt; T * &gt;',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html',1,'etl']]],
+  ['itoa',['itoa',['../namespaceetl.html#a07b9405fac6c1a10a80eedfbe2a120b6',1,'etl']]]
 ];
