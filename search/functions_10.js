@@ -1,5 +1,7 @@
 var searchData=
 [
+  ['scope_5fexit',['scope_exit',['../namespaceetl.html#ad9320ebd2b7f25fcb308f2dd939d356d',1,'etl']]],
+  ['scope_5fguard',['scope_guard',['../classetl_1_1scope__guard.html#a6a1cf9331f3e6811d1412741073895f6',1,'etl::scope_guard::scope_guard(Functor f)'],['../classetl_1_1scope__guard.html#af7b7cfb05c97456f9e2840c55a3821ee',1,'etl::scope_guard::scope_guard(scope_guard &amp;&amp;rhs)'],['../classetl_1_1scope__guard.html#a31e3345096362dd3b36a08b449c6ce8f',1,'etl::scope_guard::scope_guard(const scope_guard &amp;)=delete']]],
   ['scoped_5flock',['scoped_lock',['../classetl_1_1scoped__lock.html#a57df1e19dd5ae56ea29d3c6c46aab9be',1,'etl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classetl_1_1scoped__lock.html#ae8f87072467341d0f882bdbf5d87a467',1,'etl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classetl_1_1scoped__lock.html#ac4fa28b7c84a6e578b765eaa62153cc0',1,'etl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
   ['send',['send',['../classetl_1_1rtos_1_1queue.html#aeb7d654e0a1bb691dcf3f8663cd6400e',1,'etl::rtos::queue']]],
   ['set',['set',['../classetl_1_1bitset.html#a0f02eb62c23ef48e5627cf764c55801d',1,'etl::bitset']]],

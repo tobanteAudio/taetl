@@ -3,6 +3,7 @@ var searchData=
   ['raw_5fvalue',['raw_value',['../structetl_1_1experimental_1_1strong__type.html#a72af07133fc28ed7b8b04e7e1959bc72',1,'etl::experimental::strong_type']]],
   ['read',['read',['../structetl_1_1hardware_1_1stm32_1_1port.html#aa80f75b5594d04b917e6df244999883c',1,'etl::hardware::stm32::port']]],
   ['receive',['receive',['../classetl_1_1rtos_1_1queue.html#ac56edbc4dfe661bd31e8f5d43ef4e5a3',1,'etl::rtos::queue::receive(ValueType &amp;data, TickType_t ticksToWait=0) const -&gt; bool'],['../classetl_1_1rtos_1_1queue.html#ad94ed5f9e0a2dedea279e32e44faa56a',1,'etl::rtos::queue::receive(TickType_t ticksToWait=0) const -&gt; pair&lt; bool, ValueType &gt;']]],
+  ['release',['release',['../classetl_1_1scope__guard.html#a5a561091ec5fa7254e50abf8abacb704',1,'etl::scope_guard']]],
   ['remove_5fprefix',['remove_prefix',['../classetl_1_1basic__string__view.html#a9be1e8f658453c4fd8a5beb9079500ca',1,'etl::basic_string_view']]],
   ['remove_5fsuffix',['remove_suffix',['../classetl_1_1basic__string__view.html#ac4441138ee2ac5fe3c8c18a637682f48',1,'etl::basic_string_view']]],
   ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue']]],

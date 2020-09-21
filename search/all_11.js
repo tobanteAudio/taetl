@@ -1,5 +1,9 @@
 var searchData=
 [
+  ['scope_5fexit',['scope_exit',['../structetl_1_1scope__exit.html',1,'etl::scope_exit&lt; FuncT &gt;'],['../namespaceetl.html#ad9320ebd2b7f25fcb308f2dd939d356d',1,'etl::scope_exit(FuncT) -&gt; scope_exit&lt; etl::decay_t&lt; FuncT &gt;&gt;']]],
+  ['scope_5fguard',['scope_guard',['../classetl_1_1scope__guard.html',1,'etl::scope_guard&lt; FuncT, PolicyT &gt;'],['../classetl_1_1scope__guard.html#a6a1cf9331f3e6811d1412741073895f6',1,'etl::scope_guard::scope_guard(Functor f)'],['../classetl_1_1scope__guard.html#af7b7cfb05c97456f9e2840c55a3821ee',1,'etl::scope_guard::scope_guard(scope_guard &amp;&amp;rhs)'],['../classetl_1_1scope__guard.html#a31e3345096362dd3b36a08b449c6ce8f',1,'etl::scope_guard::scope_guard(const scope_guard &amp;)=delete']]],
+  ['scope_5fguard_2ehpp',['scope_guard.hpp',['../scope__guard_8hpp.html',1,'']]],
+  ['scope_5fguard_3c_20funct_2c_20detail_3a_3ascope_5fexit_5fimpl_20_3e',['scope_guard&lt; FuncT, detail::scope_exit_impl &gt;',['../classetl_1_1scope__guard.html',1,'etl']]],
   ['scoped_5flock',['scoped_lock',['../classetl_1_1scoped__lock.html',1,'etl::scoped_lock&lt; MutexType &gt;'],['../classetl_1_1scoped__lock.html#a57df1e19dd5ae56ea29d3c6c46aab9be',1,'etl::scoped_lock::scoped_lock(MutexType &amp;m)'],['../classetl_1_1scoped__lock.html#ae8f87072467341d0f882bdbf5d87a467',1,'etl::scoped_lock::scoped_lock(const scoped_lock &amp;)=delete'],['../classetl_1_1scoped__lock.html#ac4fa28b7c84a6e578b765eaa62153cc0',1,'etl::scoped_lock::scoped_lock(scoped_lock &amp;&amp;) noexcept=default']]],
   ['second',['second',['../structetl_1_1pair.html#af651c7d1235d0edb50a26be719e61f14',1,'etl::pair']]],
   ['second_5ftype',['second_type',['../structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c',1,'etl::pair']]],

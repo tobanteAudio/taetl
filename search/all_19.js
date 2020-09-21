@@ -6,6 +6,7 @@ var searchData=
   ['_7epair',['~pair',['../structetl_1_1pair.html#a56e5a3e5e1810316f209f0a63b6b901b',1,'etl::pair']]],
   ['_7eport',['~port',['../structetl_1_1hardware_1_1stm32_1_1port.html#a2969aca3898f5e007fc901c812efbb18',1,'etl::hardware::stm32::port']]],
   ['_7equeue',['~queue',['../classetl_1_1rtos_1_1queue.html#a6de4a9b7cf367125c03a7d8d92e1bdea',1,'etl::rtos::queue']]],
+  ['_7escope_5fguard',['~scope_guard',['../classetl_1_1scope__guard.html#a3f0ebeaf55c090efcd474026f35f91b7',1,'etl::scope_guard']]],
   ['_7escoped_5flock',['~scoped_lock',['../classetl_1_1scoped__lock.html#a43bd55a96bb360ff949f7239686ff0b5',1,'etl::scoped_lock']]],
   ['_7estack_5fvector',['~stack_vector',['../classetl_1_1stack__vector.html#afcaf9313662216accfadc7fb4f3a7476',1,'etl::stack_vector']]]
 ];

@@ -597,6 +597,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1remove__volatile_3_01Type_01volatile_01_4.html">remove_volatile&lt; Type volatile &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1scope__exit.html">scope_exit</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scope__guard.html">scope_guard</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">RAII based lock.  <a href="classetl_1_1scoped__lock.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1352,6 +1356,9 @@ Functions</h2></td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplParams" colspan="2">template&lt;typename Pointer &gt; </td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt; Pointer &gt;, Pointer &gt;</td></tr>
 <tr class="separator:ad2f4c423421fddd2a2f941d805c05300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9320ebd2b7f25fcb308f2dd939d356d"><td class="memTemplParams" colspan="2">template&lt;typename FuncT &gt; </td></tr>
+<tr class="memitem:ad9320ebd2b7f25fcb308f2dd939d356d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad9320ebd2b7f25fcb308f2dd939d356d">scope_exit</a> (FuncT) -&gt; <a class="el" href="structetl_1_1scope__exit.html">scope_exit</a>&lt; <a class="el" href="namespaceetl.html#ad602447fa93ad71f4db547fa0ae92883">etl::decay_t</a>&lt; FuncT &gt;&gt;</td></tr>
+<tr class="separator:ad9320ebd2b7f25fcb308f2dd939d356d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0da3a02a79034271cbc560bc94dbe2cd"><td class="memTemplParams" colspan="2">template&lt;class Type , etl::size_t Extent&gt; </td></tr>
 <tr class="memitem:a0da3a02a79034271cbc560bc94dbe2cd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0da3a02a79034271cbc560bc94dbe2cd">span</a> (Type(&amp;)[Extent]) -&gt; <a class="el" href="classetl_1_1span.html">span</a>&lt; Type, Extent &gt;</td></tr>
 <tr class="memdesc:a0da3a02a79034271cbc560bc94dbe2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction Guides. From raw array.  <a href="#a0da3a02a79034271cbc560bc94dbe2cd">More...</a><br /></td></tr>
@@ -7728,6 +7735,26 @@ template&lt;class ForwardIt &gt; </div>
 
 <p>Performs a left rotation on a range of elements. </p>
 <p>Specifically, <a class="el" href="namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5" title="Performs a left rotation on a range of elements. ">etl::rotate</a> swaps the elements in the range [first, last) in such a way that the element n_first becomes the first element of the new range and n_first - 1 becomes the last element. A precondition of this function is that [first, n_first) and [n_first, last) are valid ranges. </p>
+
+</div>
+</div>
+<a id="ad9320ebd2b7f25fcb308f2dd939d356d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9320ebd2b7f25fcb308f2dd939d356d">&#9670;&nbsp;</a></span>scope_exit()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename FuncT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="structetl_1_1scope__exit.html">etl::scope_exit</a> </td>
+          <td>(</td>
+          <td class="paramtype">FuncT&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  <a class="el" href="structetl_1_1scope__exit.html">scope_exit</a>&lt; <a class="el" href="namespaceetl.html#ad602447fa93ad71f4db547fa0ae92883">etl::decay_t</a>&lt; FuncT &gt;&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
 
 </div>
 </div>
