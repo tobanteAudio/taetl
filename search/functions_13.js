@@ -1,6 +1,8 @@
 var searchData=
 [
   ['val',['val',['../namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e',1,'etl::hardware::stm32']]],
+  ['valueless_5fby_5fexception',['valueless_by_exception',['../classetl_1_1variant.html#a6343bf22c7351f4634c3b7a5ba0a1a97',1,'etl::variant']]],
+  ['variant',['variant',['../classetl_1_1variant.html#a8157ef11f791e3a7dba4ddd4cf31e4e1',1,'etl::variant']]],
   ['vportyield',['vPortYield',['../stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42',1,'stubs.hpp']]],
   ['vqueuedelete',['vQueueDelete',['../stubs_8hpp.html#a153422cc5143e3f5715349d0092146bb',1,'stubs.hpp']]],
   ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#aab45dfd5e56c051cd4cef90b16848b30',1,'stubs.hpp']]],

@@ -39,6 +39,7 @@ var searchData=
   ['minutes',['minutes',['../namespaceetl_1_1chrono.html#afbfd0a58052fc7b37978f15a7b28c1f4',1,'etl::chrono']]],
   ['modulus',['modulus',['../structetl_1_1modulus.html',1,'etl']]],
   ['modulus_3c_20void_20_3e',['modulus&lt; void &gt;',['../structetl_1_1modulus_3_01void_01_4.html',1,'etl']]],
+  ['monostate',['monostate',['../structetl_1_1monostate.html',1,'etl']]],
   ['months',['months',['../namespaceetl_1_1chrono.html#a580aaca1b8394beec1fc058a131cd83b',1,'etl::chrono']]],
   ['move',['move',['../structetl_1_1char__traits_3_01char_01_4.html#a0e7d1cc5ce8812b37b1dbaf79f2bfae3',1,'etl::char_traits&lt; char &gt;::move()'],['../namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d',1,'etl::move()']]],
   ['multipliable',['multipliable',['../structetl_1_1experimental_1_1skill_1_1multipliable.html',1,'etl::experimental::skill']]],

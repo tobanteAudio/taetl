@@ -232,13 +232,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing comparisons. Unless specialised, invokes operator&gt; on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1greater__equal.html" title="Function object for performing comparisons. Unless specialised, invokes operator&gt;= on type T...">etl::greater_equal</a> when T is not specified, which leaves the parameter types and return type to be deduced.  <a href="structetl_1_1greater__equal_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__index__t.html">in_place_index_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__index__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__index__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__t.html">in_place_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__type__t.html">in_place_type_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, etl::variant, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__type__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__type__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1input__iterator__tag.html">input_iterator_tag</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the category of an iterator. Each tag is an empty type and corresponds to one of the five (until C++20) six (since C++20) iterator categories.  <a href="structetl_1_1input__iterator__tag.html#details">More...</a><br /></td></tr>
@@ -467,6 +467,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1modulus_3_01void_01_4.html">modulus&lt; void &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for computing remainders of divisions. Implements operator% for type T. The standard library provides a specialization of <a class="el" href="structetl_1_1modulus.html" title="Function object for computing remainders of divisions. Implements operator% for type T...">etl::modulus</a> when T is not specified, which leaves the parameter types and return type to be deduced.  <a href="structetl_1_1modulus_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1monostate.html">monostate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unit type intended for use as a well-behaved empty alternative in <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>. In particular, a variant of non-default-constructible types may list <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> as its first alternative: this makes the variant itself default-constructible.  <a href="structetl_1_1monostate.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1multiplies.html">multiplies</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing multiplication. Effectively calls operator* on two instances of type T.  <a href="structetl_1_1multiplies.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -617,6 +620,18 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple_3_01First_01_4.html">tuple&lt; First &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1type__identity.html">type_identity</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1variant.html">variant</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a> represents a type-safe union. An instance of <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a> at any given time either holds a value of one of its alternative types.  <a href="classetl_1_1variant.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1variant__alternative.html">variant_alternative</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides compile-time indexed access to the types of the alternatives of the possibly cv-qualified variant, combining cv-qualifications of the variant (if any) with the cv-qualifications of the alternative.  <a href="structetl_1_1variant__alternative.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1variant__alternative_3_01I_00_01const_01T_01_4.html">variant_alternative&lt; I, const T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides compile-time indexed access to the types of the alternatives of the possibly cv-qualified variant, combining cv-qualifications of the variant (if any) with the cv-qualifications of the alternative.  <a href="classetl_1_1variant__alternative_3_01I_00_01const_01T_01_4.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1variant__alternative_3_01I_00_01variant_3_01Types_8_8_8_01_4_01_4.html">variant_alternative&lt; I, variant&lt; Types... &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides compile-time indexed access to the types of the alternatives of the possibly cv-qualified variant, combining cv-qualifications of the variant (if any) with the cv-qualifications of the alternative.  <a href="structetl_1_1variant__alternative_3_01I_00_01variant_3_01Types_8_8_8_01_4_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
@@ -785,6 +800,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a16ded42403ee495bd465c070c0262b8a"><td class="memTemplParams" colspan="2">template&lt;etl::size_t Len, etl::size_t Align = alignof(etl::max_align_t)&gt; </td></tr>
 <tr class="memitem:a16ded42403ee495bd465c070c0262b8a"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a16ded42403ee495bd465c070c0262b8a">aligned_storage_t</a> = typename <a class="el" href="structetl_1_1aligned__storage.html">aligned_storage</a>&lt; Len, Align &gt;::type</td></tr>
 <tr class="separator:a16ded42403ee495bd465c070c0262b8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aef7110ca07ee5b481d99d9ae57a977ed"><td class="memTemplParams" colspan="2">template&lt;size_t I, class T &gt; </td></tr>
+<tr class="memitem:aef7110ca07ee5b481d99d9ae57a977ed"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">variant_alternative_t</a> = typename <a class="el" href="structetl_1_1variant__alternative.html">variant_alternative</a>&lt; I, T &gt;::type</td></tr>
+<tr class="separator:aef7110ca07ee5b481d99d9ae57a977ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="enum-members"></a>
 Enumerations</h2></td></tr>
@@ -1490,6 +1508,36 @@ Functions</h2></td></tr>
 <tr class="memitem:ae48ced933809d3ce47af09003416996d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae48ced933809d3ce47af09003416996d">operator&gt;=</a> (<a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt; const &amp;lhs, <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt; const &amp;rhs) -&gt; bool</td></tr>
 <tr class="memdesc:ae48ced933809d3ce47af09003416996d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares lhs and rhs lexicographically by operator&lt;, that is, compares the first elements and only if they are equivalent, compares the second elements.  <a href="#ae48ced933809d3ce47af09003416996d">More...</a><br /></td></tr>
 <tr class="separator:ae48ced933809d3ce47af09003416996d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4805fd3b0cdc0a1a3db6475f16708849"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4805fd3b0cdc0a1a3db6475f16708849">operator==</a> (<a class="el" href="structetl_1_1monostate.html">monostate</a>, <a class="el" href="structetl_1_1monostate.html">monostate</a>) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a4805fd3b0cdc0a1a3db6475f16708849"><td class="mdescLeft">&#160;</td><td class="mdescRight">All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal.  <a href="#a4805fd3b0cdc0a1a3db6475f16708849">More...</a><br /></td></tr>
+<tr class="separator:a4805fd3b0cdc0a1a3db6475f16708849"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abde631d12e3fa3eadef0726f8a1218ec"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abde631d12e3fa3eadef0726f8a1218ec">operator!=</a> (<a class="el" href="structetl_1_1monostate.html">monostate</a>, <a class="el" href="structetl_1_1monostate.html">monostate</a>) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:abde631d12e3fa3eadef0726f8a1218ec"><td class="mdescLeft">&#160;</td><td class="mdescRight">All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal.  <a href="#abde631d12e3fa3eadef0726f8a1218ec">More...</a><br /></td></tr>
+<tr class="separator:abde631d12e3fa3eadef0726f8a1218ec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad3d6295f5e016b5d4473335bb3bdc056"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad3d6295f5e016b5d4473335bb3bdc056">operator&lt;</a> (<a class="el" href="structetl_1_1monostate.html">monostate</a>, <a class="el" href="structetl_1_1monostate.html">monostate</a>) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ad3d6295f5e016b5d4473335bb3bdc056"><td class="mdescLeft">&#160;</td><td class="mdescRight">All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal.  <a href="#ad3d6295f5e016b5d4473335bb3bdc056">More...</a><br /></td></tr>
+<tr class="separator:ad3d6295f5e016b5d4473335bb3bdc056"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae7e919d889b1cffc2fe30748064be47d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae7e919d889b1cffc2fe30748064be47d">operator&gt;</a> (<a class="el" href="structetl_1_1monostate.html">monostate</a>, <a class="el" href="structetl_1_1monostate.html">monostate</a>) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ae7e919d889b1cffc2fe30748064be47d"><td class="mdescLeft">&#160;</td><td class="mdescRight">All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal.  <a href="#ae7e919d889b1cffc2fe30748064be47d">More...</a><br /></td></tr>
+<tr class="separator:ae7e919d889b1cffc2fe30748064be47d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a15e6f06421ee1d47e10ac411d5266606"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a15e6f06421ee1d47e10ac411d5266606">operator&lt;=</a> (<a class="el" href="structetl_1_1monostate.html">monostate</a>, <a class="el" href="structetl_1_1monostate.html">monostate</a>) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a15e6f06421ee1d47e10ac411d5266606"><td class="mdescLeft">&#160;</td><td class="mdescRight">All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal.  <a href="#a15e6f06421ee1d47e10ac411d5266606">More...</a><br /></td></tr>
+<tr class="separator:a15e6f06421ee1d47e10ac411d5266606"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3c9427318b650a4b9bc68d9c363e7b6a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3c9427318b650a4b9bc68d9c363e7b6a">operator&gt;=</a> (<a class="el" href="structetl_1_1monostate.html">monostate</a>, <a class="el" href="structetl_1_1monostate.html">monostate</a>) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a3c9427318b650a4b9bc68d9c363e7b6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal.  <a href="#a3c9427318b650a4b9bc68d9c363e7b6a">More...</a><br /></td></tr>
+<tr class="separator:a3c9427318b650a4b9bc68d9c363e7b6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a61440f28934330fcfa979f4a1fba3c54"><td class="memTemplParams" colspan="2">template&lt;class T , class... Types&gt; </td></tr>
+<tr class="memitem:a61440f28934330fcfa979f4a1fba3c54"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a61440f28934330fcfa979f4a1fba3c54">holds_alternative</a> (<a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; const &amp;v) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a61440f28934330fcfa979f4a1fba3c54"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the variant v holds the alternative T. The call is ill-formed if T does not appear exactly once in Types...  <a href="#a61440f28934330fcfa979f4a1fba3c54">More...</a><br /></td></tr>
+<tr class="separator:a61440f28934330fcfa979f4a1fba3c54"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8169996f70a6db66068896e1f2d6d774"><td class="memTemplParams" colspan="2">template&lt;etl::size_t I, class... Types&gt; </td></tr>
+<tr class="memitem:a8169996f70a6db66068896e1f2d6d774"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8169996f70a6db66068896e1f2d6d774">get_if</a> (<a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; *pv) noexcept -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt; <a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt; I, <a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt;&gt;&gt;</td></tr>
+<tr class="memdesc:a8169996f70a6db66068896e1f2d6d774"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant.  <a href="#a8169996f70a6db66068896e1f2d6d774">More...</a><br /></td></tr>
+<tr class="separator:a8169996f70a6db66068896e1f2d6d774"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6793464788b24ea02472dc48eb208218"><td class="memTemplParams" colspan="2">template&lt;etl::size_t I, class... Types&gt; </td></tr>
+<tr class="memitem:a6793464788b24ea02472dc48eb208218"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6793464788b24ea02472dc48eb208218">get_if</a> (<a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; const *pv) noexcept -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt; <a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt; I, <a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt;&gt; const &gt;</td></tr>
+<tr class="memdesc:a6793464788b24ea02472dc48eb208218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant.  <a href="#a6793464788b24ea02472dc48eb208218">More...</a><br /></td></tr>
+<tr class="separator:a6793464788b24ea02472dc48eb208218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b">is_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
 <tr class="memdesc:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the given standard and the currently configurated in the compiler match.  <a href="#ad763c7f65a817a0ba3f58cf0d5672d1b">More...</a><br /></td></tr>
 <tr class="separator:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1683,6 +1731,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a1c179dea2a5063201728cd0823d49e4f"><td class="memTemplParams" colspan="2">template&lt;size_t I&gt; </td></tr>
 <tr class="memitem:a1c179dea2a5063201728cd0823d49e4f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1c179dea2a5063201728cd0823d49e4f">in_place_index</a> = <a class="el" href="structetl_1_1in__place__index__t.html">in_place_index_t</a>&lt;I&gt; {}</td></tr>
 <tr class="separator:a1c179dea2a5063201728cd0823d49e4f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a28d369052fc23b452882a9fd514abb87"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a28d369052fc23b452882a9fd514abb87">variant_npos</a> = static_cast&lt;<a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&gt;(-1)</td></tr>
+<tr class="memdesc:a28d369052fc23b452882a9fd514abb87"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a special value equal to the largest value representable by the type <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>, used as the return value of index() when valueless_by_exception() is true.  <a href="#a28d369052fc23b452882a9fd514abb87">More...</a><br /></td></tr>
+<tr class="separator:a28d369052fc23b452882a9fd514abb87"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><p>Namespace for the etl library. </p>
@@ -2651,6 +2702,22 @@ template&lt;etl::size_t Capacity&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#a2fca78d7da557daded3df9fbffccc06c">etl::uintptr_t</a> = typedef <a class="el" href="namespaceetl.html#a2fca78d7da557daded3df9fbffccc06c">uintptr_t</a></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aef7110ca07ee5b481d99d9ae57a977ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aef7110ca07ee5b481d99d9ae57a977ed">&#9670;&nbsp;</a></span>variant_alternative_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t I, class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a> = typedef typename <a class="el" href="structetl_1_1variant__alternative.html">variant_alternative</a>&lt;I, T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5149,6 +5216,72 @@ template&lt;int index, typename First , typename... Rest&gt; </div>
 
 </div>
 </div>
+<a id="a8169996f70a6db66068896e1f2d6d774"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8169996f70a6db66068896e1f2d6d774">&#9670;&nbsp;</a></span>get_if() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;etl::size_t I, class... Types&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::get_if </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; *&#160;</td>
+          <td class="paramname"><em>pv</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt;<a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt;I, <a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt;Types...&gt;&gt;&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
+<p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>Implement </dd></dl>
+
+</div>
+</div>
+<a id="a6793464788b24ea02472dc48eb208218"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6793464788b24ea02472dc48eb208218">&#9670;&nbsp;</a></span>get_if() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;etl::size_t I, class... Types&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::get_if </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; const *&#160;</td>
+          <td class="paramname"><em>pv</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt;<a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt;I, <a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt;Types...&gt;&gt; const&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
+<p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Implement </dd></dl>
+
+</div>
+</div>
 <a id="af4fea3bb59d69e9a23786b36024d802a"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af4fea3bb59d69e9a23786b36024d802a">&#9670;&nbsp;</a></span>has_single_bit()</h2>
 
@@ -5179,6 +5312,37 @@ template&lt;typename T &gt; </div>
 <p>Checks if x is an integral power of two. </p>
 <p>This overload only participates in overload resolution if T is an unsigned integer type (that is, unsigned char, unsigned short, unsigned int, unsigned long, unsigned long long, or an extended unsigned integer type).</p>
 <dl class="section return"><dt>Returns</dt><dd>true if x is an integral power of two; otherwise false. </dd></dl>
+
+</div>
+</div>
+<a id="a61440f28934330fcfa979f4a1fba3c54"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a61440f28934330fcfa979f4a1fba3c54">&#9670;&nbsp;</a></span>holds_alternative()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T , class... Types&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::holds_alternative </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>v</em></td><td>)</td>
+          <td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the variant v holds the alternative T. The call is ill-formed if T does not appear exactly once in Types... </p>
 
 </div>
 </div>
@@ -6671,8 +6835,47 @@ template&lt;class InputIt , class UnaryPredicate &gt; </div>
 
 </div>
 </div>
+<a id="abde631d12e3fa3eadef0726f8a1218ec"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abde631d12e3fa3eadef0726f8a1218ec">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal. </p>
+
+</div>
+</div>
 <a id="a799dae79119bbb5d967d25f990939522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a799dae79119bbb5d967d25f990939522">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a799dae79119bbb5d967d25f990939522">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6705,7 +6908,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="aaad8ec05de177a5a989ca89fb1568698"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaad8ec05de177a5a989ca89fb1568698">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaad8ec05de177a5a989ca89fb1568698">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6746,8 +6949,47 @@ template&lt;class CharType , class Traits &gt; </div>
 
 </div>
 </div>
+<a id="ad3d6295f5e016b5d4473335bb3bdc056"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad3d6295f5e016b5d4473335bb3bdc056">&#9670;&nbsp;</a></span>operator<() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&lt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal. </p>
+
+</div>
+</div>
 <a id="a2c7b429dca0b762facbaea24836f0995"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c7b429dca0b762facbaea24836f0995">&#9670;&nbsp;</a></span>operator<() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c7b429dca0b762facbaea24836f0995">&#9670;&nbsp;</a></span>operator<() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6780,7 +7022,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="a67cf06af339b11fe81d54b7f93c1334e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67cf06af339b11fe81d54b7f93c1334e">&#9670;&nbsp;</a></span>operator<() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a67cf06af339b11fe81d54b7f93c1334e">&#9670;&nbsp;</a></span>operator<() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6904,8 +7146,47 @@ template&lt;class Integer &gt; </div>
 
 </div>
 </div>
+<a id="a15e6f06421ee1d47e10ac411d5266606"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a15e6f06421ee1d47e10ac411d5266606">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&lt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal. </p>
+
+</div>
+</div>
 <a id="a7562e604a7a1298eda82e34e2f8dab40"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7562e604a7a1298eda82e34e2f8dab40">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7562e604a7a1298eda82e34e2f8dab40">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6938,7 +7219,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="ad0de7f91cc35b7999972eb423539d892"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad0de7f91cc35b7999972eb423539d892">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0de7f91cc35b7999972eb423539d892">&#9670;&nbsp;</a></span>operator<=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -6979,8 +7260,47 @@ template&lt;class CharType , class Traits &gt; </div>
 
 </div>
 </div>
+<a id="a4805fd3b0cdc0a1a3db6475f16708849"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4805fd3b0cdc0a1a3db6475f16708849">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal. </p>
+
+</div>
+</div>
 <a id="ae2a4e54525fb4847cb202baaff5657d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a4e54525fb4847cb202baaff5657d8">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a4e54525fb4847cb202baaff5657d8">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7013,7 +7333,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="a32f6e7555448a64b1558e3f5b9771718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32f6e7555448a64b1558e3f5b9771718">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f6e7555448a64b1558e3f5b9771718">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7054,8 +7374,47 @@ template&lt;class CharType , class Traits &gt; </div>
 
 </div>
 </div>
+<a id="ae7e919d889b1cffc2fe30748064be47d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae7e919d889b1cffc2fe30748064be47d">&#9670;&nbsp;</a></span>operator>() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&gt; </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal. </p>
+
+</div>
+</div>
 <a id="a08cb376464287fd4c82dc6d4ca604081"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a08cb376464287fd4c82dc6d4ca604081">&#9670;&nbsp;</a></span>operator>() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a08cb376464287fd4c82dc6d4ca604081">&#9670;&nbsp;</a></span>operator>() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7088,7 +7447,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="a610759a20e2af85ebdd5bdf54a5418a5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a610759a20e2af85ebdd5bdf54a5418a5">&#9670;&nbsp;</a></span>operator>() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a610759a20e2af85ebdd5bdf54a5418a5">&#9670;&nbsp;</a></span>operator>() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7129,8 +7488,47 @@ template&lt;class CharType , class Traits &gt; </div>
 
 </div>
 </div>
+<a id="a3c9427318b650a4b9bc68d9c363e7b6a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3c9427318b650a4b9bc68d9c363e7b6a">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator&gt;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1monostate.html">monostate</a>&#160;</td>
+          <td class="paramname">&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>All instances of <a class="el" href="structetl_1_1monostate.html" title="Unit type intended for use as a well-behaved empty alternative in etl::variant. In particular...">etl::monostate</a> compare equal. </p>
+
+</div>
+</div>
 <a id="ae48ced933809d3ce47af09003416996d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae48ced933809d3ce47af09003416996d">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae48ced933809d3ce47af09003416996d">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -7163,7 +7561,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="a4151e119ab2900682096503b5592cdd1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4151e119ab2900682096503b5592cdd1">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4151e119ab2900682096503b5592cdd1">&#9670;&nbsp;</a></span>operator>=() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9696,6 +10094,30 @@ template&lt;class R1 , class R2 &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a28d369052fc23b452882a9fd514abb87"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a28d369052fc23b452882a9fd514abb87">&#9670;&nbsp;</a></span>variant_npos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::variant_npos = static_cast&lt;<a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&gt;(-1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a special value equal to the largest value representable by the type <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>, used as the return value of index() when valueless_by_exception() is true. </p>
 
 </div>
 </div>
