@@ -283,7 +283,6 @@ template&lt;typename... Types&gt; </div>
 
 <p>Copy-assignment. </p>
 <p>If both *this and rhs are valueless by exception, does nothing.</p>
-<p>Otherwise, if rhs is valueless, but *this is not, destroys the value contained in *this and makes it valueless.</p>
 <p>Otherwise, if rhs holds the same alternative as *this, assigns the value contained in rhs to the value contained in *this. If an exception is thrown, *this does not become valueless: the value depends on the exception safety guarantee of the alternative's copy assignment. </p>
 
 </div>
