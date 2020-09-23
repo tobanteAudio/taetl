@@ -67,6 +67,7 @@ var searchData=
   ['is_5ftrivially_5fcopy_5fconstructible_5fv',['is_trivially_copy_constructible_v',['../namespaceetl.html#ac56b91d45ec88c108b77f55e9f6bc187',1,'etl']]],
   ['is_5ftrivially_5fcopyable_5fv',['is_trivially_copyable_v',['../namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd',1,'etl']]],
   ['is_5ftrivially_5fdefault_5fconstructible_5fv',['is_trivially_default_constructible_v',['../namespaceetl.html#a6f37ab88cda78781a7aca13f18adac97',1,'etl']]],
+  ['is_5ftrivially_5fdestructible_5fv',['is_trivially_destructible_v',['../namespaceetl.html#ad4bab71f6cd300d48e15293f0f45eed0',1,'etl']]],
   ['is_5ftrivially_5fmove_5fassignable_5fv',['is_trivially_move_assignable_v',['../namespaceetl.html#a3673480825caede3c2d5095f8a39fe0d',1,'etl']]],
   ['is_5ftrivially_5fmove_5fconstructible_5fv',['is_trivially_move_constructible_v',['../namespaceetl.html#a6a74767dc0b6e2022826126e3581d7ed',1,'etl']]],
   ['is_5funion_5fv',['is_union_v',['../namespaceetl.html#a51d4c31d288adf2cb4c5d7fd14c32f00',1,'etl']]],

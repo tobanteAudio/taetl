@@ -232,13 +232,13 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing comparisons. Unless specialised, invokes operator&gt; on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1greater__equal.html" title="Function object for performing comparisons. Unless specialised, invokes operator&gt;= on type T...">etl::greater_equal</a> when T is not specified, which leaves the parameter types and return type to be deduced.  <a href="structetl_1_1greater__equal_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__index__t.html">in_place_index_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__index__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a>, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__index__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__t.html">in_place_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a>, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1in__place__type__t.html">in_place_type_t</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of etl::optional, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__type__t.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Disambiguation tags that can be passed to the constructors of <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a>, <a class="el" href="classetl_1_1variant.html" title="The class template etl::variant represents a type-safe union. An instance of etl::variant at any give...">etl::variant</a>, and etl::any to indicate that the contained object should be constructed in-place, and (for the latter two) the type of the object to be constructed.  <a href="structetl_1_1in__place__type__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1input__iterator__tag.html">input_iterator_tag</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the category of an iterator. Each tag is an empty type and corresponds to one of the five (until C++20) six (since C++20) iterator categories.  <a href="structetl_1_1input__iterator__tag.html#details">More...</a><br /></td></tr>
@@ -394,6 +394,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__default__constructible.html">is_trivially_default_constructible</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_trivially_constructible&lt;T&gt;::value</a> is true, provides the member constant value equal to true, otherwise value is false.  <a href="structetl_1_1is__trivially__default__constructible.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__destructible.html">is_trivially_destructible</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__move__assignable.html">is_trivially_move_assignable</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_assignable&lt;T&amp;, T&amp;&amp;&gt;::value</a>.  <a href="structetl_1_1is__trivially__move__assignable.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -488,6 +490,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1not__equal__to_3_01void_01_4.html">not_equal_to&lt; void &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing comparisons. Unless specialised, invokes operator!= on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1not__equal__to.html" title="Function object for performing comparisons. Unless specialised, invokes operator!= on type T...">etl::not_equal_to</a> when T is not specified, which leaves the parameter types and return type to be deduced.  <a href="structetl_1_1not__equal__to_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1nullopt__t.html">nullopt_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1nullopt__t.html" title="etl::nullopt_t is an empty class type used to indicate optional type with uninitialized state...">etl::nullopt_t</a> is an empty class type used to indicate optional type with uninitialized state. In particular, <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a> has a constructor with <a class="el" href="structetl_1_1nullopt__t.html" title="etl::nullopt_t is an empty class type used to indicate optional type with uninitialized state...">nullopt_t</a> as a single argument, which creates an optional that does not contain a value.  <a href="structetl_1_1nullopt__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits.html">numeric_limits</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01bool_01_4.html">numeric_limits&lt; bool &gt;</a></td></tr>
@@ -513,6 +518,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01unsigned_01long_01_4.html">numeric_limits&lt; unsigned long &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1numeric__limits_3_01unsigned_01short_01_4.html">numeric_limits&lt; unsigned short &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html">optional</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a> manages an optional contained value, i.e. a value that may or may not be present.  <a href="classetl_1_1optional.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1output__iterator__tag.html">output_iterator_tag</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Defines the category of an iterator. Each tag is an empty type and corresponds to one of the five (until C++20) six (since C++20) iterator categories.  <a href="structetl_1_1output__iterator__tag.html#details">More...</a><br /></td></tr>
@@ -1549,6 +1557,9 @@ Functions</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
 Variables</h2></td></tr>
+<tr class="memitem:a93d7a7601aedf2ce125a34a9d83b80a7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a93d7a7601aedf2ce125a34a9d83b80a7">nullopt</a> = <a class="el" href="structetl_1_1nullopt__t.html">etl::nullopt_t</a> {{}}</td></tr>
+<tr class="memdesc:a93d7a7601aedf2ce125a34a9d83b80a7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#a93d7a7601aedf2ce125a34a9d83b80a7" title="etl::nullopt is a constant of type etl::nullopt_t that is used to indicate optional type with uniniti...">etl::nullopt</a> is a constant of type <a class="el" href="structetl_1_1nullopt__t.html" title="etl::nullopt_t is an empty class type used to indicate optional type with uninitialized state...">etl::nullopt_t</a> that is used to indicate optional type with uninitialized state.  <a href="#a93d7a7601aedf2ce125a34a9d83b80a7">More...</a><br /></td></tr>
+<tr class="separator:a93d7a7601aedf2ce125a34a9d83b80a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a717a065b4d593697dc186ca84f51ffb8"><td class="memTemplParams" colspan="2">template&lt;class R1 , class R2 &gt; </td></tr>
 <tr class="memitem:a717a065b4d593697dc186ca84f51ffb8"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a717a065b4d593697dc186ca84f51ffb8">ratio_equal_v</a> = <a class="el" href="structetl_1_1ratio__equal.html">ratio_equal</a>&lt;R1, R2&gt;::value</td></tr>
 <tr class="separator:a717a065b4d593697dc186ca84f51ffb8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1666,6 +1677,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ac00f5b3ced7a1f4ebd3e7b1119a4c12a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ac00f5b3ced7a1f4ebd3e7b1119a4c12a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">is_nothrow_move_constructible_v</a> = <a class="el" href="structetl_1_1is__nothrow__move__constructible.html">is_nothrow_move_constructible</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:ac00f5b3ced7a1f4ebd3e7b1119a4c12a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4bab71f6cd300d48e15293f0f45eed0"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad4bab71f6cd300d48e15293f0f45eed0"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad4bab71f6cd300d48e15293f0f45eed0">is_trivially_destructible_v</a> = <a class="el" href="structetl_1_1is__trivially__destructible.html">is_trivially_destructible</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:ad4bab71f6cd300d48e15293f0f45eed0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae630f4cbcf30c3c7912d50547711e86d"><td class="memTemplParams" colspan="2">template&lt;class T , class U &gt; </td></tr>
 <tr class="memitem:ae630f4cbcf30c3c7912d50547711e86d"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">is_assignable_v</a> = <a class="el" href="structetl_1_1is__assignable.html">is_assignable</a>&lt;T, U&gt;::value</td></tr>
 <tr class="separator:ae630f4cbcf30c3c7912d50547711e86d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -9785,6 +9799,30 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="ad4bab71f6cd300d48e15293f0f45eed0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4bab71f6cd300d48e15293f0f45eed0">&#9670;&nbsp;</a></span>is_trivially_destructible_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::is_trivially_destructible_v = <a class="el" href="structetl_1_1is__trivially__destructible.html">is_trivially_destructible</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="a3673480825caede3c2d5095f8a39fe0d"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a3673480825caede3c2d5095f8a39fe0d">&#9670;&nbsp;</a></span>is_trivially_move_assignable_v</h2>
 
@@ -9902,6 +9940,30 @@ template&lt;class T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a93d7a7601aedf2ce125a34a9d83b80a7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93d7a7601aedf2ce125a34a9d83b80a7">&#9670;&nbsp;</a></span>nullopt</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::nullopt = <a class="el" href="structetl_1_1nullopt__t.html">etl::nullopt_t</a> {{}}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p><a class="el" href="namespaceetl.html#a93d7a7601aedf2ce125a34a9d83b80a7" title="etl::nullopt is a constant of type etl::nullopt_t that is used to indicate optional type with uniniti...">etl::nullopt</a> is a constant of type <a class="el" href="structetl_1_1nullopt__t.html" title="etl::nullopt_t is an empty class type used to indicate optional type with uninitialized state...">etl::nullopt_t</a> that is used to indicate optional type with uninitialized state. </p>
 
 </div>
 </div>
