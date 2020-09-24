@@ -1,10 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_TRIVIAL\l_CONSTRUCTIBLE(T)\&gt;" alt="" coords="5,90,193,146"/>
-<area shape="rect" id="node2" href="$structetl_1_1is__trivially__constructible.html" title="The variable definition does not call any operation that is not trivial. For the purposes of this che..." alt="" coords="260,5,467,47"/>
-<area shape="rect" id="node3" href="$structetl_1_1is__trivially__constructible.html" title="etl::is_trivially_constructible\&lt; T \&gt;" alt="" coords="241,71,485,98"/>
-<area shape="rect" id="node5" href="$structetl_1_1is__trivially__constructible.html" title="etl::is_trivially_constructible\l\&lt; T, etl::add_lvalue_reference\l_t\&lt; etl::add_const_t\&lt; T \&gt; \&gt; \&gt;" alt="" coords="253,122,473,178"/>
-<area shape="rect" id="node7" href="$structetl_1_1is__trivially__constructible.html" title="etl::is_trivially_constructible\l\&lt; T, etl::add_rvalue_reference\l\&lt; T \&gt;::type \&gt;" alt="" coords="254,202,473,258"/>
-<area shape="rect" id="node4" href="$structetl_1_1is__trivially__default__constructible.html" title="If etl::is_trivially_constructible&lt;T&gt;::value is true, provides the member constant value equal to tru..." alt="" coords="533,64,701,105"/>
-<area shape="rect" id="node6" href="$structetl_1_1is__trivially__copy__constructible.html" title="Same as copy, but uses etl::is_trivially_constructible&lt;T, const T&amp;&gt;. " alt="" coords="541,129,694,171"/>
-<area shape="rect" id="node8" href="$structetl_1_1is__trivially__move__constructible.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="538,209,697,251"/>
+<area shape="rect" id="node1" href="$structetl_1_1iterator__traits_3_01T_01_5_01_4.html" title="etl::iterator_traits is the type trait class that provides uniform interface to the properties of Leg..." alt="" coords="5,5,141,47"/>
 </map>

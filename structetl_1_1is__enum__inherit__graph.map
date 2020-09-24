@@ -1,3 +1,3 @@
 <map id="etl::is_enum&lt; T &gt;" name="etl::is_enum&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_ENUM(T)\&gt;" alt="" coords="5,5,212,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; TAETL_IS_ENUM(T)\&gt;" alt="" coords="5,5,176,47"/>
 </map>

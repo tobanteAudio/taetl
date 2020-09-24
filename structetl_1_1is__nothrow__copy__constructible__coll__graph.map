@@ -1,4 +1,4 @@
 <map id="etl::is_nothrow_copy_constructible&lt; T &gt;" name="etl::is_nothrow_copy_constructible&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1is__nothrow__constructible.html" title="etl::is_nothrow_constructible\l\&lt; T, etl::add_lvalue_reference\l\&lt; etl::add_const\&lt; T \&gt;::type \&gt;::type \&gt;" alt="" coords="261,5,532,61"/>
-<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_NOTHROW\l_CONSTRUCTIBLE(T)\&gt;" alt="" coords="5,5,213,61"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__nothrow__constructible.html" title="etl::is_nothrow_constructible\l\&lt; T, etl::add_lvalue_reference\l\&lt; etl::add_const\&lt; T \&gt;::type \&gt;::type \&gt;" alt="" coords="513,5,784,61"/>
+<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; TAETL_IS_NOTHROW_CONSTRUCTIBLE(T)\&gt;" alt="" coords="147,13,464,54"/>
 </map>

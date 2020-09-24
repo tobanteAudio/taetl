@@ -1,4 +1,4 @@
 <map id="etl::is_copy_assignable&lt; T &gt;" name="etl::is_copy_assignable&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1is__assignable.html" title="etl::is_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="275,13,495,83"/>
-<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_ASSIGNABLE\l(etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type)\&gt;" alt="" coords="5,5,227,91"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__assignable.html" title="etl::is_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="421,13,641,83"/>
+<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; TAETL_IS_ASSIGNABLE\l(etl::add_lvalue_reference\l\&lt; T \&gt;::type , etl::add_lvalue\l_reference\&lt; const T \&gt;::type )\&gt;" alt="" coords="147,5,372,91"/>
 </map>

@@ -1,4 +1,4 @@
 <map id="etl::is_trivially_copy_assignable&lt; T &gt;" name="etl::is_trivially_copy_assignable&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1is__trivially__assignable.html" title="etl::is_trivially_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="273,20,493,91"/>
-<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, TAETL_IS_TRIVIALLY\l_ASSIGNABLE(etl::add_lvalue\l_reference\&lt; T \&gt;::type, etl\l::add_lvalue_reference\&lt; const\l T \&gt;::type)\&gt;" alt="" coords="5,5,225,105"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__trivially__assignable.html" title="etl::is_trivially_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="279,20,499,91"/>
+<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; TAETL_IS_TRIVIALLY\l_ASSIGNABLE(etl::add\l_lvalue_reference\&lt; T \&gt;\l::type , etl::add_lvalue\l_reference\&lt; const T \&gt;::type )\&gt;" alt="" coords="5,5,231,105"/>
 </map>
