@@ -2,6 +2,7 @@ var searchData=
 [
   ['negate',['negate',['../structetl_1_1negate.html',1,'etl']]],
   ['negate_3c_20void_20_3e',['negate&lt; void &gt;',['../structetl_1_1negate_3_01void_01_4.html',1,'etl']]],
+  ['negation',['negation',['../structetl_1_1negation.html',1,'etl']]],
   ['never',['never',['../structetl_1_1rtos_1_1never.html',1,'etl::rtos']]],
   ['not_5fequal_5fto',['not_equal_to',['../structetl_1_1not__equal__to.html',1,'etl']]],
   ['not_5fequal_5fto_3c_20void_20_3e',['not_equal_to&lt; void &gt;',['../structetl_1_1not__equal__to_3_01void_01_4.html',1,'etl']]],

@@ -350,6 +350,23 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1conditional_3_01false_00_01T_00_01F_01_4.html">etl::conditional&lt; false, T, F &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1conjunction.html">etl::conjunction&lt;... &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forms the logical conjunction of the type traits B..., effectively performing a logical AND on the sequence of traits.  <a href="structetl_1_1conjunction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1conjunction_3_01B1_01_4.html">etl::conjunction&lt; B1 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1conjunction_3_01B1_00_01Bn_8_8_8_01_4.html">etl::conjunction&lt; B1, Bn... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1disjunction.html">etl::disjunction&lt;... &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forms the logical disjunction of the type traits B..., effectively performing a logical OR on the sequence of traits.  <a href="structetl_1_1disjunction.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1disjunction_3_01B1_01_4.html">etl::disjunction&lt; B1 &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1disjunction_3_01B1_00_01Bn_8_8_8_01_4.html">etl::disjunction&lt; B1, Bn... &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1negation.html">etl::negation&lt; B &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forms the logical negation of the type trait B.  <a href="structetl_1_1negation.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1enable__if.html">etl::enable_if&lt; bool, Type &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structetl_1_1enable__if.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -617,6 +634,15 @@ Variables</h2></td></tr>
 <tr class="memitem:af00bab8d0b02bcb2974969b9d69639bb"><td class="memTemplParams" colspan="2">template&lt;class Base , class Derived &gt; </td></tr>
 <tr class="memitem:af00bab8d0b02bcb2974969b9d69639bb"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af00bab8d0b02bcb2974969b9d69639bb">etl::is_base_of_v</a> = is_base_of&lt;Base, Derived&gt;::value</td></tr>
 <tr class="separator:af00bab8d0b02bcb2974969b9d69639bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af0d9f32a20bf813fd8ce025d0aebbff5"><td class="memTemplParams" colspan="2">template&lt;class... B&gt; </td></tr>
+<tr class="memitem:af0d9f32a20bf813fd8ce025d0aebbff5"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af0d9f32a20bf813fd8ce025d0aebbff5">etl::conjunction_v</a> = conjunction&lt;B...&gt;::value</td></tr>
+<tr class="separator:af0d9f32a20bf813fd8ce025d0aebbff5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a29f460d9cd9dc39f08fc926828d8b442"><td class="memTemplParams" colspan="2">template&lt;class... B&gt; </td></tr>
+<tr class="memitem:a29f460d9cd9dc39f08fc926828d8b442"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a29f460d9cd9dc39f08fc926828d8b442">etl::disjunction_v</a> = disjunction&lt;B...&gt;::value</td></tr>
+<tr class="separator:a29f460d9cd9dc39f08fc926828d8b442"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2e0422e10e238c05956150aa5f4ed77e"><td class="memTemplParams" colspan="2">template&lt;class B &gt; </td></tr>
+<tr class="memitem:a2e0422e10e238c05956150aa5f4ed77e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2e0422e10e238c05956150aa5f4ed77e">etl::negation_v</a> = negation&lt;B&gt;::value</td></tr>
+<tr class="separator:a2e0422e10e238c05956150aa5f4ed77e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a56baa007c444a18e18b603a55d9957bf"><td class="memTemplParams" colspan="2">template&lt;class Type &gt; </td></tr>
 <tr class="memitem:a56baa007c444a18e18b603a55d9957bf"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a56baa007c444a18e18b603a55d9957bf">etl::rank_v</a> = rank&lt;Type&gt;::value</td></tr>
 <tr class="separator:a56baa007c444a18e18b603a55d9957bf"><td class="memSeparator" colspan="2">&#160;</td></tr>

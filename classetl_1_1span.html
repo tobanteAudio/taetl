@@ -341,7 +341,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 
 <p>Constructs a span. Constructs an empty span whose <a class="el" href="classetl_1_1span.html#a0c14bb1210ce53227665fde907544321" title="Returns a pointer to the beginning of the sequence. ">data()</a> == nullptr and <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a> == 0. </p>
 <p>This overload only participates in overload resolution if extent == 0 || extent == <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000013">Todo:</a></b></dt><dd>Remove from overload with concepts once available. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Remove from overload with concepts once available. </dd></dl>
 
 </div>
 </div>
@@ -385,7 +385,7 @@ template&lt;class It &gt; </div>
 
 <p>Constructs a span. </p>
 <p>Constructs a span that is a view over the range [first, first + count); the resulting span has <a class="el" href="classetl_1_1span.html#a0c14bb1210ce53227665fde907544321" title="Returns a pointer to the beginning of the sequence. ">data()</a> == etl::to_address(first) and <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a> == count. The behavior is undefined if [first, first + count) is not a valid range, if It does not actually model contiguous_iterator, or if extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a> &amp;&amp; count != extent. This overload only participates in overload resolution if, It satisfies contiguous_iterator and the conversion from etl::iter_reference_t&lt;It&gt; to element_type is at most a qualification conversion.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000014">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>). </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>). </dd></dl>
 
 </div>
 </div>
@@ -418,7 +418,7 @@ template&lt;etl::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Constructs a span. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000015">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>). </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>). </dd></dl>
 <p>Constructs a span. From a c style array. </p>
 
 </div>
@@ -516,7 +516,7 @@ template&lt;class R &gt; </div>
 </div><div class="memdoc">
 
 <p>Constructs a span. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000016">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000017">Todo:</a></b></dt><dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>) </dd></dl>
 
 </div>
 </div>
