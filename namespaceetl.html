@@ -1399,6 +1399,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplParams" colspan="2">template&lt;typename Pointer &gt; </td></tr>
 <tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt; Pointer &gt;, Pointer &gt;</td></tr>
 <tr class="separator:ad2f4c423421fddd2a2f941d805c05300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae75cac911cf6d9b9b3b37254bc227e53"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae75cac911cf6d9b9b3b37254bc227e53"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae75cac911cf6d9b9b3b37254bc227e53">optional</a> (T) -&gt; <a class="el" href="classetl_1_1optional.html">optional</a>&lt; T &gt;</td></tr>
+<tr class="memdesc:ae75cac911cf6d9b9b3b37254bc227e53"><td class="mdescLeft">&#160;</td><td class="mdescRight">One deduction guide is provided for <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a> to account for the edge cases missed by the implicit deduction guides, in particular, non-copyable arguments and array to pointer conversion.  <a href="#ae75cac911cf6d9b9b3b37254bc227e53">More...</a><br /></td></tr>
+<tr class="separator:ae75cac911cf6d9b9b3b37254bc227e53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad9320ebd2b7f25fcb308f2dd939d356d"><td class="memTemplParams" colspan="2">template&lt;typename FuncT &gt; </td></tr>
 <tr class="memitem:ad9320ebd2b7f25fcb308f2dd939d356d"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad9320ebd2b7f25fcb308f2dd939d356d">scope_exit</a> (FuncT) -&gt; <a class="el" href="structetl_1_1scope__exit.html">scope_exit</a>&lt; <a class="el" href="namespaceetl.html#ad602447fa93ad71f4db547fa0ae92883">etl::decay_t</a>&lt; FuncT &gt;&gt;</td></tr>
 <tr class="separator:ad9320ebd2b7f25fcb308f2dd939d356d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -7906,6 +7910,28 @@ template&lt;class Integer &gt; </div>
 </div><div class="memdoc">
 
 <p>Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(~static_cast&lt;unsigned int&gt;(b));. </p>
+
+</div>
+</div>
+<a id="ae75cac911cf6d9b9b3b37254bc227e53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae75cac911cf6d9b9b3b37254bc227e53">&#9670;&nbsp;</a></span>optional()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classetl_1_1optional.html">etl::optional</a> </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt;  <a class="el" href="classetl_1_1optional.html">optional</a>&lt; T &gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>One deduction guide is provided for <a class="el" href="classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no...">etl::optional</a> to account for the edge cases missed by the implicit deduction guides, in particular, non-copyable arguments and array to pointer conversion. </p>
 
 </div>
 </div>
