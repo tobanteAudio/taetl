@@ -1,5 +1,6 @@
 <map id="etl/algorithm.hpp" name="etl/algorithm.hpp">
 <area shape="rect" id="node2" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="5,80,105,107"/>
-<area shape="rect" id="node3" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="129,80,275,107"/>
-<area shape="rect" id="node4" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="299,80,409,107"/>
+<area shape="rect" id="node3" href="$optional_8hpp.html" title="etl/optional.hpp" alt="" coords="129,80,253,107"/>
+<area shape="rect" id="node4" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="277,80,423,107"/>
+<area shape="rect" id="node5" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="447,80,557,107"/>
 </map>

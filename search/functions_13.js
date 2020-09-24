@@ -1,7 +1,7 @@
 var searchData=
 [
   ['val',['val',['../namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e',1,'etl::hardware::stm32']]],
-  ['value',['value',['../classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8',1,'etl::optional::value() &amp;-&gt; value_type &amp;'],['../classetl_1_1optional.html#a71c01fdcc27608af9a1b1b021faab7d7',1,'etl::optional::value() const &amp;-&gt; const value_type &amp;'],['../classetl_1_1optional.html#a522d55e10b2ffcf555b5a2848d31124e',1,'etl::optional::value() &amp;&amp;-&gt; value_type &amp;&amp;'],['../classetl_1_1optional.html#a6149a33dd16ef122d0cc84a2a5fec1e3',1,'etl::optional::value() const &amp;&amp;-&gt; const value_type &amp;&amp;']]],
+  ['value',['value',['../classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0',1,'etl::optional::value() -&gt; value_type *'],['../classetl_1_1optional.html#ac60d547a2fcb48b012d025b81c77856a',1,'etl::optional::value() const -&gt; const value_type *']]],
   ['value_5for',['value_or',['../classetl_1_1optional.html#a29abd9d9cc9fa456f071ddc02e469726',1,'etl::optional::value_or(U &amp;&amp;default_value) const &amp;-&gt; value_type'],['../classetl_1_1optional.html#a5689363b0c727faa0e941590385f0577',1,'etl::optional::value_or(U &amp;&amp;default_value) &amp;&amp;-&gt; value_type']]],
   ['valueless_5fby_5fexception',['valueless_by_exception',['../classetl_1_1variant.html#a6343bf22c7351f4634c3b7a5ba0a1a97',1,'etl::variant']]],
   ['variant',['variant',['../classetl_1_1variant.html#a8157ef11f791e3a7dba4ddd4cf31e4e1',1,'etl::variant']]],

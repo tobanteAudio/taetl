@@ -112,34 +112,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a9c548759303286aae73e1a385d85d444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an optional object that contains a value, initialized as if direct-initializing.  <a href="#a9c548759303286aae73e1a385d85d444">More...</a><br /></td></tr>
 <tr class="separator:a9c548759303286aae73e1a385d85d444"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplParams" colspan="2">template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;                  conjunction_v&lt;is_constructible&lt;ValueType, U&amp;&amp;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </td></tr>
-<tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aa69fd7c832cf51cb9ebc859226a0a2c0">optional</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8">value</a>)</td></tr>
+<tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aa69fd7c832cf51cb9ebc859226a0a2c0">optional</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0">value</a>)</td></tr>
 <tr class="memdesc:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an optional object that contains a value, initialized as if direct-initializing.  <a href="#aa69fd7c832cf51cb9ebc859226a0a2c0">More...</a><br /></td></tr>
 <tr class="separator:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa49bc2ffcdcb9b8428cad91d3ce7a64d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aa49bc2ffcdcb9b8428cad91d3ce7a64d">operator=</a> (<a class="el" href="structetl_1_1nullopt__t.html">etl::nullopt_t</a>) noexcept -&gt; <a class="el" href="classetl_1_1optional.html">optional</a> &amp;</td></tr>
-<tr class="memdesc:aa49bc2ffcdcb9b8428cad91d3ce7a64d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this contains a value before the call, the contained value is destroyed by calling its destructor as if by <a class="el" href="classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8" title="If *this contains a value, returns a reference to the contained value. ">value()</a>.T::~T(). *this does not contain a value after this call.  <a href="#aa49bc2ffcdcb9b8428cad91d3ce7a64d">More...</a><br /></td></tr>
+<tr class="memdesc:aa49bc2ffcdcb9b8428cad91d3ce7a64d"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this contains a value before the call, the contained value is destroyed by calling its destructor as if by <a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0" title="If the optional contains a value, returns a pointer. If empty the pointer will be null...">value()</a>.T::~T(). *this does not contain a value after this call.  <a href="#aa49bc2ffcdcb9b8428cad91d3ce7a64d">More...</a><br /></td></tr>
 <tr class="separator:aa49bc2ffcdcb9b8428cad91d3ce7a64d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a662d962cf0bbf81f5c6c64c75572976f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a662d962cf0bbf81f5c6c64c75572976f">operator=</a> (<a class="el" href="classetl_1_1optional.html">optional</a> const &amp;other) -&gt; <a class="el" href="classetl_1_1optional.html">optional</a> &amp;</td></tr>
 <tr class="memdesc:a662d962cf0bbf81f5c6c64c75572976f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the state of other.  <a href="#a662d962cf0bbf81f5c6c64c75572976f">More...</a><br /></td></tr>
 <tr class="separator:a662d962cf0bbf81f5c6c64c75572976f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af5022a2652b5cdf43a419a1e284d8962"><td class="memTemplParams" colspan="2">template&lt;class U  = ValueType&gt; </td></tr>
-<tr class="memitem:af5022a2652b5cdf43a419a1e284d8962"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#af5022a2652b5cdf43a419a1e284d8962">operator=</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8">value</a>) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#af0d9f32a20bf813fd8ce025d0aebbff5">etl::conjunction_v</a>&lt; <a class="el" href="structetl_1_1negation.html">etl::negation</a>&lt; <a class="el" href="structetl_1_1is__same.html">etl::is_same</a>&lt; <a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt; U &gt;, <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;&gt;&gt;, <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a>&lt; ValueType, U &gt;, <a class="el" href="structetl_1_1is__assignable.html">etl::is_assignable</a>&lt; ValueType &amp;, U &gt;&gt;, <a class="el" href="classetl_1_1optional.html">optional</a> &amp;&gt;</td></tr>
+<tr class="memitem:af5022a2652b5cdf43a419a1e284d8962"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#af5022a2652b5cdf43a419a1e284d8962">operator=</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0">value</a>) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#af0d9f32a20bf813fd8ce025d0aebbff5">etl::conjunction_v</a>&lt; <a class="el" href="structetl_1_1negation.html">etl::negation</a>&lt; <a class="el" href="structetl_1_1is__same.html">etl::is_same</a>&lt; <a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt; U &gt;, <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;&gt;&gt;, <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a>&lt; ValueType, U &gt;, <a class="el" href="structetl_1_1is__assignable.html">etl::is_assignable</a>&lt; ValueType &amp;, U &gt;&gt;, <a class="el" href="classetl_1_1optional.html">optional</a> &amp;&gt;</td></tr>
 <tr class="memdesc:af5022a2652b5cdf43a419a1e284d8962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perfect-forwarded assignment.  <a href="#af5022a2652b5cdf43a419a1e284d8962">More...</a><br /></td></tr>
 <tr class="separator:af5022a2652b5cdf43a419a1e284d8962"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8de8e6e7cd9d30784652a6254efe069"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#ae8de8e6e7cd9d30784652a6254efe069">operator bool</a> () const noexcept</td></tr>
 <tr class="memdesc:ae8de8e6e7cd9d30784652a6254efe069"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether *this contains a value.  <a href="#ae8de8e6e7cd9d30784652a6254efe069">More...</a><br /></td></tr>
 <tr class="separator:ae8de8e6e7cd9d30784652a6254efe069"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3cd6b1e8dccaafd881c19cb9707c6ea8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8">value</a> () &amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;</td></tr>
-<tr class="memdesc:a3cd6b1e8dccaafd881c19cb9707c6ea8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this contains a value, returns a reference to the contained value.  <a href="#a3cd6b1e8dccaafd881c19cb9707c6ea8">More...</a><br /></td></tr>
-<tr class="separator:a3cd6b1e8dccaafd881c19cb9707c6ea8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a71c01fdcc27608af9a1b1b021faab7d7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a71c01fdcc27608af9a1b1b021faab7d7">value</a> () const &amp;-&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;</td></tr>
-<tr class="memdesc:a71c01fdcc27608af9a1b1b021faab7d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this contains a value, returns a reference to the contained value.  <a href="#a71c01fdcc27608af9a1b1b021faab7d7">More...</a><br /></td></tr>
-<tr class="separator:a71c01fdcc27608af9a1b1b021faab7d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a522d55e10b2ffcf555b5a2848d31124e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a522d55e10b2ffcf555b5a2848d31124e">value</a> () &amp;&amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;&amp;</td></tr>
-<tr class="memdesc:a522d55e10b2ffcf555b5a2848d31124e"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this contains a value, returns a reference to the contained value.  <a href="#a522d55e10b2ffcf555b5a2848d31124e">More...</a><br /></td></tr>
-<tr class="separator:a522d55e10b2ffcf555b5a2848d31124e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6149a33dd16ef122d0cc84a2a5fec1e3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a6149a33dd16ef122d0cc84a2a5fec1e3">value</a> () const &amp;&amp;-&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;&amp;</td></tr>
-<tr class="memdesc:a6149a33dd16ef122d0cc84a2a5fec1e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">If *this contains a value, returns a reference to the contained value.  <a href="#a6149a33dd16ef122d0cc84a2a5fec1e3">More...</a><br /></td></tr>
-<tr class="separator:a6149a33dd16ef122d0cc84a2a5fec1e3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2a3da191af3ac8b4e5b5c945446d2f0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0">value</a> () -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> *</td></tr>
+<tr class="memdesc:af2a3da191af3ac8b4e5b5c945446d2f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the optional contains a value, returns a pointer. If empty the pointer will be null.  <a href="#af2a3da191af3ac8b4e5b5c945446d2f0">More...</a><br /></td></tr>
+<tr class="separator:af2a3da191af3ac8b4e5b5c945446d2f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac60d547a2fcb48b012d025b81c77856a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#ac60d547a2fcb48b012d025b81c77856a">value</a> () const -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> *</td></tr>
+<tr class="memdesc:ac60d547a2fcb48b012d025b81c77856a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the optional contains a value, returns a pointer. If empty the pointer will be null.  <a href="#ac60d547a2fcb48b012d025b81c77856a">More...</a><br /></td></tr>
+<tr class="separator:ac60d547a2fcb48b012d025b81c77856a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a29abd9d9cc9fa456f071ddc02e469726"><td class="memTemplParams" colspan="2">template&lt;class U &gt; </td></tr>
 <tr class="memitem:a29abd9d9cc9fa456f071ddc02e469726"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a29abd9d9cc9fa456f071ddc02e469726">value_or</a> (U &amp;&amp;default_value) const &amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a></td></tr>
 <tr class="memdesc:a29abd9d9cc9fa456f071ddc02e469726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the contained value if *this has a value, otherwise returns default_value.  <a href="#a29abd9d9cc9fa456f071ddc02e469726">More...</a><br /></td></tr>
@@ -149,23 +143,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a5689363b0c727faa0e941590385f0577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the contained value if *this has a value, otherwise returns default_value.  <a href="#a5689363b0c727faa0e941590385f0577">More...</a><br /></td></tr>
 <tr class="separator:a5689363b0c727faa0e941590385f0577"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad49dd65ae38f0e57d3b91e8d9d3792a6"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#ad49dd65ae38f0e57d3b91e8d9d3792a6">operator-&gt;</a> () const -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> *</td></tr>
-<tr class="memdesc:ad49dd65ae38f0e57d3b91e8d9d3792a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the contained value.  <a href="#ad49dd65ae38f0e57d3b91e8d9d3792a6">More...</a><br /></td></tr>
+<tr class="memdesc:ad49dd65ae38f0e57d3b91e8d9d3792a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the contained value. The pointer is null if the optional is empty.  <a href="#ad49dd65ae38f0e57d3b91e8d9d3792a6">More...</a><br /></td></tr>
 <tr class="separator:ad49dd65ae38f0e57d3b91e8d9d3792a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe9e99a47bde25a38265834a10350ca7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#afe9e99a47bde25a38265834a10350ca7">operator-&gt;</a> () -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> *</td></tr>
-<tr class="memdesc:afe9e99a47bde25a38265834a10350ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the contained value.  <a href="#afe9e99a47bde25a38265834a10350ca7">More...</a><br /></td></tr>
+<tr class="memdesc:afe9e99a47bde25a38265834a10350ca7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a pointer to the contained value. The pointer is null if the optional is empty.  <a href="#afe9e99a47bde25a38265834a10350ca7">More...</a><br /></td></tr>
 <tr class="separator:afe9e99a47bde25a38265834a10350ca7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd82a4eec8a5f717eef5f4ac1d410e08"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#acd82a4eec8a5f717eef5f4ac1d410e08">operator*</a> () const &amp;-&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;</td></tr>
-<tr class="memdesc:acd82a4eec8a5f717eef5f4ac1d410e08"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the contained value.  <a href="#acd82a4eec8a5f717eef5f4ac1d410e08">More...</a><br /></td></tr>
-<tr class="separator:acd82a4eec8a5f717eef5f4ac1d410e08"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b3a727ec61d359a5e23994efe8a394c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a3b3a727ec61d359a5e23994efe8a394c">operator*</a> () &amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;</td></tr>
-<tr class="memdesc:a3b3a727ec61d359a5e23994efe8a394c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the contained value.  <a href="#a3b3a727ec61d359a5e23994efe8a394c">More...</a><br /></td></tr>
-<tr class="separator:a3b3a727ec61d359a5e23994efe8a394c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0e8b29453ad3fcbbe05f599a3c4dc32f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a0e8b29453ad3fcbbe05f599a3c4dc32f">operator*</a> () const &amp;&amp;-&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;&amp;</td></tr>
-<tr class="memdesc:a0e8b29453ad3fcbbe05f599a3c4dc32f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the contained value.  <a href="#a0e8b29453ad3fcbbe05f599a3c4dc32f">More...</a><br /></td></tr>
-<tr class="separator:a0e8b29453ad3fcbbe05f599a3c4dc32f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab385264436093ddd4873d8747231e5b0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#ab385264436093ddd4873d8747231e5b0">operator*</a> () &amp;&amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;&amp;</td></tr>
-<tr class="memdesc:ab385264436093ddd4873d8747231e5b0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reference to the contained value.  <a href="#ab385264436093ddd4873d8747231e5b0">More...</a><br /></td></tr>
-<tr class="separator:ab385264436093ddd4873d8747231e5b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa7242b05ff1a9962c11df38bdafe401"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aaa7242b05ff1a9962c11df38bdafe401">swap</a> (<a class="el" href="classetl_1_1optional.html">optional</a> &amp;other) noexcept(<a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">etl::is_nothrow_move_constructible_v</a>&lt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">etl::is_nothrow_swappable_v</a>&lt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &gt;) -&gt; void</td></tr>
+<tr class="memdesc:aaa7242b05ff1a9962c11df38bdafe401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents with those of other.  <a href="#aaa7242b05ff1a9962c11df38bdafe401">More...</a><br /></td></tr>
+<tr class="separator:aaa7242b05ff1a9962c11df38bdafe401"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab96e5c12c75912e0c10bb94022588f0f"></a>
@@ -408,124 +393,6 @@ template&lt;class ValueType &gt; </div>
 
 </div>
 </div>
-<a id="acd82a4eec8a5f717eef5f4ac1d410e08"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd82a4eec8a5f717eef5f4ac1d410e08">&#9670;&nbsp;</a></span>operator*() <span class="overload">[1/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const &amp; -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a reference to the contained value. </p>
-
-</div>
-</div>
-<a id="a3b3a727ec61d359a5e23994efe8a394c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3b3a727ec61d359a5e23994efe8a394c">&#9670;&nbsp;</a></span>operator*() <span class="overload">[2/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> &amp; -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a reference to the contained value. </p>
-
-</div>
-</div>
-<a id="a0e8b29453ad3fcbbe05f599a3c4dc32f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e8b29453ad3fcbbe05f599a3c4dc32f">&#9670;&nbsp;</a></span>operator*() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const &amp;&amp; -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;&amp;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a reference to the contained value. </p>
-
-</div>
-</div>
-<a id="ab385264436093ddd4873d8747231e5b0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab385264436093ddd4873d8747231e5b0">&#9670;&nbsp;</a></span>operator*() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::operator* </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> &amp;&amp; -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;&amp; </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a reference to the contained value. </p>
-
-</div>
-</div>
 <a id="ad49dd65ae38f0e57d3b91e8d9d3792a6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ad49dd65ae38f0e57d3b91e8d9d3792a6">&#9670;&nbsp;</a></span>operator->() <span class="overload">[1/2]</span></h2>
 
@@ -552,7 +419,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the contained value. </p>
+<p>Returns a pointer to the contained value. The pointer is null if the optional is empty. </p>
 
 </div>
 </div>
@@ -581,7 +448,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Returns a pointer to the contained value. </p>
+<p>Returns a pointer to the contained value. The pointer is null if the optional is empty. </p>
 
 </div>
 </div>
@@ -612,7 +479,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>If *this contains a value before the call, the contained value is destroyed by calling its destructor as if by <a class="el" href="classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8" title="If *this contains a value, returns a reference to the contained value. ">value()</a>.T::~T(). *this does not contain a value after this call. </p>
+<p>If *this contains a value before the call, the contained value is destroyed by calling its destructor as if by <a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0" title="If the optional contains a value, returns a pointer. If empty the pointer will be null...">value()</a>.T::~T(). *this does not contain a value after this call. </p>
 
 </div>
 </div>
@@ -687,8 +554,39 @@ template&lt;class U  = ValueType&gt; </div>
 
 </div>
 </div>
-<a id="a3cd6b1e8dccaafd881c19cb9707c6ea8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3cd6b1e8dccaafd881c19cb9707c6ea8">&#9670;&nbsp;</a></span>value() <span class="overload">[1/4]</span></h2>
+<a id="aaa7242b05ff1a9962c11df38bdafe401"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa7242b05ff1a9962c11df38bdafe401">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class ValueType &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1optional.html">optional</a>&lt; ValueType &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> -&gt; void
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Swaps the contents with those of other. </p>
+
+</div>
+</div>
+<a id="af2a3da191af3ac8b4e5b5c945446d2f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af2a3da191af3ac8b4e5b5c945446d2f0">&#9670;&nbsp;</a></span>value() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -702,7 +600,7 @@ template&lt;class ValueType &gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::value </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> &amp; -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;
+          <td> -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>*
     </td>
         </tr>
       </table>
@@ -713,12 +611,12 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>If *this contains a value, returns a reference to the contained value. </p>
+<p>If the optional contains a value, returns a pointer. If empty the pointer will be null. </p>
 
 </div>
 </div>
-<a id="a71c01fdcc27608af9a1b1b021faab7d7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a71c01fdcc27608af9a1b1b021faab7d7">&#9670;&nbsp;</a></span>value() <span class="overload">[2/4]</span></h2>
+<a id="ac60d547a2fcb48b012d025b81c77856a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac60d547a2fcb48b012d025b81c77856a">&#9670;&nbsp;</a></span>value() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -732,7 +630,7 @@ template&lt;class ValueType &gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::value </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const &amp; -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;
+          <td> const -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>*
     </td>
         </tr>
       </table>
@@ -743,67 +641,7 @@ template&lt;class ValueType &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>If *this contains a value, returns a reference to the contained value. </p>
-
-</div>
-</div>
-<a id="a522d55e10b2ffcf555b5a2848d31124e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a522d55e10b2ffcf555b5a2848d31124e">&#9670;&nbsp;</a></span>value() <span class="overload">[3/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::value </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> &amp;&amp; -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;&amp;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>If *this contains a value, returns a reference to the contained value. </p>
-
-</div>
-</div>
-<a id="a6149a33dd16ef122d0cc84a2a5fec1e3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6149a33dd16ef122d0cc84a2a5fec1e3">&#9670;&nbsp;</a></span>value() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;class ValueType &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::value </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const &amp;&amp; -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;&amp;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>If *this contains a value, returns a reference to the contained value. </p>
+<p>If the optional contains a value, returns a pointer. If empty the pointer will be null. </p>
 
 </div>
 </div>
