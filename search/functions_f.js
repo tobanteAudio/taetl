@@ -6,7 +6,7 @@ var searchData=
   ['release',['release',['../classetl_1_1scope__guard.html#a5a561091ec5fa7254e50abf8abacb704',1,'etl::scope_guard']]],
   ['remove_5fprefix',['remove_prefix',['../classetl_1_1basic__string__view.html#a9be1e8f658453c4fd8a5beb9079500ca',1,'etl::basic_string_view']]],
   ['remove_5fsuffix',['remove_suffix',['../classetl_1_1basic__string__view.html#ac4441138ee2ac5fe3c8c18a637682f48',1,'etl::basic_string_view']]],
-  ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue::reset()'],['../classetl_1_1optional.html#a44fdbd51ed219da2f5c8d6fd1a6cdf53',1,'etl::optional::reset()']]],
+  ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue']]],
   ['reverse',['reverse',['../namespaceetl.html#aa198aa5e9e5759947d51496cede4e6f6',1,'etl']]],
   ['rfind',['rfind',['../classetl_1_1basic__string__view.html#a6d379ebfa23f5e41ac3b1157dc97b13f',1,'etl::basic_string_view::rfind(basic_string_view v, size_type pos=npos) const noexcept -&gt; size_type'],['../classetl_1_1basic__string__view.html#a9bb3e05fe78ee3fa37cd71455c4bfdba',1,'etl::basic_string_view::rfind(CharType c, size_type pos=npos) const noexcept -&gt; size_type'],['../classetl_1_1basic__string__view.html#a7dca5b83f47df4b246b8f82a614d3451',1,'etl::basic_string_view::rfind(CharType const *s, size_type pos, size_type count) const -&gt; size_type'],['../classetl_1_1basic__string__view.html#a2b408d65d8389041f64b03eab87db73e',1,'etl::basic_string_view::rfind(CharType const *s, size_type pos=npos) const -&gt; size_type']]],
   ['rotate',['rotate',['../namespaceetl.html#a6c225b4298d1c3ad6d3d17d92fd865b5',1,'etl']]],

@@ -59,7 +59,7 @@ var searchData=
   ['remove_5fvolatile_3c_20type_20volatile_20_3e',['remove_volatile&lt; Type volatile &gt;',['../structetl_1_1remove__volatile_3_01Type_01volatile_01_4.html',1,'etl']]],
   ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]],
   ['rep',['rep',['../classetl_1_1chrono_1_1duration.html#a1c57e1a77c765c16c58ef9a46d703d15',1,'etl::chrono::duration']]],
-  ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue::reset()'],['../classetl_1_1optional.html#a44fdbd51ed219da2f5c8d6fd1a6cdf53',1,'etl::optional::reset()'],['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003ca86266ee937d97f812a8e57d22b62ee29',1,'etl::hardware::stm32::reset()']]],
+  ['reset',['reset',['../classetl_1_1rtos_1_1queue.html#a74f91cfcbf5f3e319d718b66c61ff200',1,'etl::rtos::queue::reset()'],['../namespaceetl_1_1hardware_1_1stm32.html#a0582be362cc808d82e988ee5acc3003ca86266ee937d97f812a8e57d22b62ee29',1,'etl::hardware::stm32::reset()']]],
   ['resource_5fdeadlock_5fwould_5foccur',['resource_deadlock_would_occur',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170aed65f7649c6f0e365673d65a9d8119d8',1,'etl']]],
   ['resource_5funavailable_5ftry_5fagain',['resource_unavailable_try_again',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ae46a97ea2906921c8c626890bde832cf',1,'etl']]],
   ['result_5fout_5fof_5frange',['result_out_of_range',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8e0fafb181567cc468e1ee81983d739d',1,'etl']]],

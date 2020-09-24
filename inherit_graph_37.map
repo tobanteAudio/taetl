@@ -1,5 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$structetl_1_1conjunction_3_01B1_00_01Bn_8_8_8_01_4.html" title="etl::conjunction\&lt; B1,\l Bn... \&gt;" alt="" coords="168,5,327,47"/>
-<area shape="rect" id="node3" href="$structetl_1_1disjunction_3_01B1_00_01Bn_8_8_8_01_4.html" title="etl::disjunction\&lt; B1,\l Bn... \&gt;" alt="" coords="170,71,325,112"/>
-<area shape="rect" id="node4" href="$classetl_1_1optional.html" title="The class template etl::optional manages an optional contained value, i.e. a value that may or may no..." alt="" coords="160,137,335,163"/>
+<area shape="rect" id="node2" href="$structetl_1_1conjunction_3_01B1_00_01Bn_8_8_8_01_4.html" title="etl::conjunction\&lt; B1,\l Bn... \&gt;" alt="" coords="160,5,319,47"/>
+<area shape="rect" id="node3" href="$structetl_1_1disjunction_3_01B1_00_01Bn_8_8_8_01_4.html" title="etl::disjunction\&lt; B1,\l Bn... \&gt;" alt="" coords="162,71,317,112"/>
 </map>

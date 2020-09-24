@@ -1,9 +1,12 @@
 <map id="etl/optional.hpp" name="etl/optional.hpp">
-<area shape="rect" id="node2" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="159,155,300,181"/>
-<area shape="rect" id="node9" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="267,80,373,107"/>
-<area shape="rect" id="node3" href="$type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="113,229,247,271"/>
-<area shape="rect" id="node4" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="215,319,353,345"/>
-<area shape="rect" id="node8" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="5,319,176,345"/>
-<area shape="rect" id="node5" href="$version_8hpp.html" title="version.hpp" alt="" coords="124,393,223,420"/>
-<area shape="rect" id="node10" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="374,155,482,181"/>
+<area shape="rect" id="node2" href="$cassert_8hpp.html" title="etl/cassert.hpp" alt="" coords="78,80,197,107"/>
+<area shape="rect" id="node4" href="$memory_8hpp.html" title="etl/memory.hpp" alt="" coords="269,80,393,107"/>
+<area shape="rect" id="node13" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="552,155,693,181"/>
+<area shape="rect" id="node17" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="417,80,524,107"/>
+<area shape="rect" id="node5" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="545,319,684,345"/>
+<area shape="rect" id="node9" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="386,155,494,181"/>
+<area shape="rect" id="node16" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="104,155,227,181"/>
+<area shape="rect" id="node6" href="$version_8hpp.html" title="version.hpp" alt="" coords="455,393,553,420"/>
+<area shape="rect" id="node14" href="$type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="677,229,811,271"/>
+<area shape="rect" id="node15" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="735,319,905,345"/>
 </map>
