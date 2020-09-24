@@ -95,18 +95,18 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a60fc246a508b72fdc372fdeafe72ccac"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a60fc246a508b72fdc372fdeafe72ccac">optional</a> () noexcept</td></tr>
-<tr class="memdesc:a60fc246a508b72fdc372fdeafe72ccac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an object that does not contain a value.  <a href="#a60fc246a508b72fdc372fdeafe72ccac">More...</a><br /></td></tr>
-<tr class="separator:a60fc246a508b72fdc372fdeafe72ccac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aed4de1c84ae1ea8051ce4f63c763a07c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aed4de1c84ae1ea8051ce4f63c763a07c">optional</a> () noexcept=default</td></tr>
+<tr class="memdesc:aed4de1c84ae1ea8051ce4f63c763a07c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an object that does not contain a value.  <a href="#aed4de1c84ae1ea8051ce4f63c763a07c">More...</a><br /></td></tr>
+<tr class="separator:aed4de1c84ae1ea8051ce4f63c763a07c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a968fbd9e0e9735be70e249c7256a37ad"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a968fbd9e0e9735be70e249c7256a37ad">optional</a> (<a class="el" href="structetl_1_1nullopt__t.html">etl::nullopt_t</a>) noexcept</td></tr>
 <tr class="memdesc:a968fbd9e0e9735be70e249c7256a37ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an object that does not contain a value.  <a href="#a968fbd9e0e9735be70e249c7256a37ad">More...</a><br /></td></tr>
 <tr class="separator:a968fbd9e0e9735be70e249c7256a37ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dc83aeeca436e2c46fb19771f0c369a"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a7dc83aeeca436e2c46fb19771f0c369a">optional</a> (<a class="el" href="classetl_1_1optional.html">optional</a> const &amp;)=default</td></tr>
 <tr class="memdesc:a7dc83aeeca436e2c46fb19771f0c369a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a7dc83aeeca436e2c46fb19771f0c369a">More...</a><br /></td></tr>
 <tr class="separator:a7dc83aeeca436e2c46fb19771f0c369a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae326f7a262bc697c82c8c7fe8ac5005f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#ae326f7a262bc697c82c8c7fe8ac5005f">optional</a> (<a class="el" href="classetl_1_1optional.html">optional</a> &amp;&amp;)=default</td></tr>
-<tr class="memdesc:ae326f7a262bc697c82c8c7fe8ac5005f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#ae326f7a262bc697c82c8c7fe8ac5005f">More...</a><br /></td></tr>
-<tr class="separator:ae326f7a262bc697c82c8c7fe8ac5005f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2a7689bc83fcc36a4f516550149f545f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a2a7689bc83fcc36a4f516550149f545f">optional</a> (<a class="el" href="classetl_1_1optional.html">optional</a> &amp;&amp;) noexcept(<a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">etl::is_nothrow_move_constructible_v</a>&lt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &gt;)=default</td></tr>
+<tr class="memdesc:a2a7689bc83fcc36a4f516550149f545f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a2a7689bc83fcc36a4f516550149f545f">More...</a><br /></td></tr>
+<tr class="separator:a2a7689bc83fcc36a4f516550149f545f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplParams" colspan="2">template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;                  conjunction_v&lt;is_constructible&lt;ValueType, U&amp;&amp;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </td></tr>
 <tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aa69fd7c832cf51cb9ebc859226a0a2c0">optional</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#a3cd6b1e8dccaafd881c19cb9707c6ea8">value</a>)</td></tr>
 <tr class="memdesc:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an optional object that contains a value, initialized as if direct-initializing.  <a href="#aa69fd7c832cf51cb9ebc859226a0a2c0">More...</a><br /></td></tr>
@@ -181,8 +181,8 @@ template&lt;class ValueType &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a60fc246a508b72fdc372fdeafe72ccac"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a60fc246a508b72fdc372fdeafe72ccac">&#9670;&nbsp;</a></span>optional() <span class="overload">[1/5]</span></h2>
+<a id="aed4de1c84ae1ea8051ce4f63c763a07c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aed4de1c84ae1ea8051ce4f63c763a07c">&#9670;&nbsp;</a></span>optional() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -201,7 +201,7 @@ template&lt;class ValueType &gt; </div>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
@@ -270,8 +270,8 @@ template&lt;class ValueType &gt; </div>
 
 </div>
 </div>
-<a id="ae326f7a262bc697c82c8c7fe8ac5005f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae326f7a262bc697c82c8c7fe8ac5005f">&#9670;&nbsp;</a></span>optional() <span class="overload">[4/5]</span></h2>
+<a id="a2a7689bc83fcc36a4f516550149f545f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2a7689bc83fcc36a4f516550149f545f">&#9670;&nbsp;</a></span>optional() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -286,12 +286,12 @@ template&lt;class ValueType &gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classetl_1_1optional.html">optional</a>&lt; ValueType &gt; &amp;&amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
-          <td></td>
+          <td> const</td>
         </tr>
       </table>
   </td>
   <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">default</span></span>  </td>
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">
