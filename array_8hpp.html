@@ -71,20 +71,32 @@ $(function() {
 <div class="title">array.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="cassert_8hpp_source.html">cassert.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="definitions_8hpp_source.html">definitions.hpp</a>&quot;</code><br />
-<code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">type_traits.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="algorithm_8hpp_source.html">etl/algorithm.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="cassert_8hpp_source.html">etl/cassert.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="definitions_8hpp_source.html">etl/definitions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">etl/type_traits.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="tuple__size_8hpp_source.html">etl/detail/tuple_size.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for array.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="array_8hpp__incl.png" border="0" usemap="#etl_2array_8hpp" alt=""/></div>
 <map name="etl_2array_8hpp" id="etl_2array_8hpp">
-<area shape="rect" id="node2" href="cassert_8hpp.html" title="cassert.hpp" alt="" coords="5,80,103,107"/>
-<area shape="rect" id="node4" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="132,244,251,271"/>
-<area shape="rect" id="node8" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="206,80,326,107"/>
-<area shape="rect" id="node5" href="version_8hpp.html" title="version.hpp" alt="" coords="31,319,130,345"/>
-<area shape="rect" id="node9" href="type__traits__decl_8hpp.html" title="detail/type_traits\l_decl.hpp" alt="" coords="229,155,362,196"/>
-<area shape="rect" id="node10" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="294,244,465,271"/>
+<area shape="rect" id="node2" href="algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="424,80,559,107"/>
+<area shape="rect" id="node3" href="cassert_8hpp.html" title="cassert.hpp" alt="" coords="5,155,103,181"/>
+<area shape="rect" id="node5" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="447,543,565,569"/>
+<area shape="rect" id="node11" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="874,379,994,405"/>
+<area shape="rect" id="node21" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="967,304,1146,331"/>
+<area shape="rect" id="node9" href="functional_8hpp.html" title="functional.hpp" alt="" coords="685,155,799,181"/>
+<area shape="rect" id="node22" href="iterator_8hpp.html" title="iterator.hpp" alt="" coords="443,155,540,181"/>
+<area shape="rect" id="node6" href="version_8hpp.html" title="version.hpp" alt="" coords="346,617,445,644"/>
+<area shape="rect" id="node10" href="byte_8hpp.html" title="byte.hpp" alt="" coords="763,304,841,331"/>
+<area shape="rect" id="node14" href="new_8hpp.html" title="new.hpp" alt="" coords="577,229,653,256"/>
+<area shape="rect" id="node16" href="utility_8hpp.html" title="utility.hpp" alt="" coords="831,229,917,256"/>
+<area shape="rect" id="node12" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="910,543,1081,569"/>
+<area shape="rect" id="node13" href="type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="861,453,1015,495"/>
+<area shape="rect" id="node15" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="330,304,453,331"/>
+<area shape="rect" id="node17" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="477,304,585,331"/>
+<area shape="rect" id="node23" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="429,229,553,256"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -106,8 +118,17 @@ This graph shows which files directly or indirectly include this file:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1array.html">etl::array&lt; Type, Size &gt;</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays.  <a href="classetl_1_1array.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html">etl::array&lt; Type, Size &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays.  <a href="structetl_1_1array.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple__size_3_01etl_1_1array_3_01T_00_01N_01_4_01_4.html">etl::tuple_size&lt; etl::array&lt; T, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides access to the number of elements in an <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> as a compile-time constant expression.  <a href="structetl_1_1tuple__size_3_01etl_1_1array_3_01T_00_01N_01_4_01_4.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple__element.html">etl::tuple_element&lt; I, T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides compile-time indexed access to the type of the elements of the array using tuple-like interface.  <a href="structetl_1_1tuple__element.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple__element_3_01I_00_01etl_1_1array_3_01T_00_01N_01_4_01_4.html">etl::tuple_element&lt; I, etl::array&lt; T, N &gt; &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides compile-time indexed access to the type of the elements of the array using tuple-like interface.  <a href="structetl_1_1tuple__element_3_01I_00_01etl_1_1array_3_01T_00_01N_01_4_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
@@ -118,8 +139,37 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
+<tr class="memitem:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13">etl::swap</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
+<tr class="memdesc:a0f31d2c1983d613a5b1be68a431cfd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs.  <a href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13">More...</a><br /></td></tr>
+<tr class="separator:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd14c4b2bb371a67b0b7e5359471eb58"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:acd14c4b2bb371a67b0b7e5359471eb58"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd14c4b2bb371a67b0b7e5359471eb58">etl::operator==</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:acd14c4b2bb371a67b0b7e5359471eb58"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the contents of lhs and rhs are equal, that is, they have the same number of elements and each element in lhs compares equal with the element in rhs at the same position.  <a href="namespaceetl.html#acd14c4b2bb371a67b0b7e5359471eb58">More...</a><br /></td></tr>
+<tr class="separator:acd14c4b2bb371a67b0b7e5359471eb58"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a295bd71db44f0eff27e67e5767360cdc"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:a295bd71db44f0eff27e67e5767360cdc"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a295bd71db44f0eff27e67e5767360cdc">etl::operator!=</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a295bd71db44f0eff27e67e5767360cdc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>.  <a href="namespaceetl.html#a295bd71db44f0eff27e67e5767360cdc">More...</a><br /></td></tr>
+<tr class="separator:a295bd71db44f0eff27e67e5767360cdc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a92e223941035502e547d8793e780a8e6"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:a92e223941035502e547d8793e780a8e6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a92e223941035502e547d8793e780a8e6">etl::operator&lt;</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a92e223941035502e547d8793e780a8e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>.  <a href="namespaceetl.html#a92e223941035502e547d8793e780a8e6">More...</a><br /></td></tr>
+<tr class="separator:a92e223941035502e547d8793e780a8e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab2ed5e457d650aa10897012d52cd42fa"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:ab2ed5e457d650aa10897012d52cd42fa"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab2ed5e457d650aa10897012d52cd42fa">etl::operator&lt;=</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:ab2ed5e457d650aa10897012d52cd42fa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>.  <a href="namespaceetl.html#ab2ed5e457d650aa10897012d52cd42fa">More...</a><br /></td></tr>
+<tr class="separator:ab2ed5e457d650aa10897012d52cd42fa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1b2006aed7a710a77f2d7fff71d49a03"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:a1b2006aed7a710a77f2d7fff71d49a03"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1b2006aed7a710a77f2d7fff71d49a03">etl::operator&gt;</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a1b2006aed7a710a77f2d7fff71d49a03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>.  <a href="namespaceetl.html#a1b2006aed7a710a77f2d7fff71d49a03">More...</a><br /></td></tr>
+<tr class="separator:a1b2006aed7a710a77f2d7fff71d49a03"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a963d59bdcd892d002ca5733c2627cff4"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
+<tr class="memitem:a963d59bdcd892d002ca5733c2627cff4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a963d59bdcd892d002ca5733c2627cff4">etl::operator&gt;=</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
+<tr class="memdesc:a963d59bdcd892d002ca5733c2627cff4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#afe5ebb5d35320f153506765261d81a03" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>.  <a href="namespaceetl.html#a963d59bdcd892d002ca5733c2627cff4">More...</a><br /></td></tr>
+<tr class="separator:a963d59bdcd892d002ca5733c2627cff4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplParams" colspan="2">template&lt;class T , class... U&gt; </td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884">etl::array</a> (T, U...) -&gt; array&lt; T, 1+sizeof...(U)&gt;</td></tr>
+<tr class="memdesc:ae5a13233ebf471c62f35f40b21128884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction guide.  <a href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884">More...</a><br /></td></tr>
 <tr class="separator:ae5a13233ebf471c62f35f40b21128884"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->

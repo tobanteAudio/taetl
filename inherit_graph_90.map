@@ -1,3 +1,6 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1is__fundamental.html" title="etl::is_fundamental\&lt; T \&gt;" alt="" coords="5,5,192,32"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, tuple_size\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,49,180,105"/>
+<area shape="rect" id="node2" href="$structetl_1_1tuple__size_3_01const_01T_01_4.html" title="etl::tuple_size\&lt; const T \&gt;" alt="" coords="235,5,425,32"/>
+<area shape="rect" id="node3" href="$structetl_1_1tuple__size_3_01const_01volatile_01T_01_4.html" title="etl::tuple_size\&lt; const\l volatile T \&gt;" alt="" coords="249,57,411,98"/>
+<area shape="rect" id="node4" href="$structetl_1_1tuple__size_3_01volatile_01T_01_4.html" title="etl::tuple_size\&lt; volatile T \&gt;" alt="" coords="228,123,432,149"/>
 </map>
