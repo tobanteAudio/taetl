@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, sizeof...\l(Types)\&gt;" alt="" coords="5,5,165,61"/>
-<area shape="rect" id="node2" href="$structetl_1_1tuple__size_3_01etl_1_1tuple_3_01Types_8_8_8_01_4_01_4.html" title="etl::tuple_size\&lt; etl\l::tuple\&lt; Types... \&gt; \&gt;" alt="" coords="213,13,371,54"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, N \&gt;" alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1tuple__size_3_01etl_1_1array_3_01T_00_01N_01_4_01_4.html" title="Provides access to the number of elements in an etl::array as a compile&#45;time constant expression..." alt="" coords="213,5,359,47"/>
 </map>

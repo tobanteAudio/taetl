@@ -10,5 +10,5 @@ var searchData=
   ['port',['port',['../structetl_1_1hardware_1_1stm32_1_1port.html#a677732b13f423652aa19d4ca48e9391f',1,'etl::hardware::stm32::port::port()=default'],['../structetl_1_1hardware_1_1stm32_1_1port.html#a4adc2081670d855debe985c644f06737',1,'etl::hardware::stm32::port::port(port &amp;&amp;)=delete'],['../structetl_1_1hardware_1_1stm32_1_1port.html#ae3e4c4bba529db11a8680c8f5b58386a',1,'etl::hardware::stm32::port::port(port const &amp;)=delete']]],
   ['prev',['prev',['../namespaceetl.html#ad580aca5d1f9f6d65f28f4270cb765ed',1,'etl']]],
   ['push',['push',['../structetl_1_1dsp_1_1feedback__drain.html#a8b7deddda4c49a4436bd963c5113ff4c',1,'etl::dsp::feedback_drain']]],
-  ['push_5fback',['push_back',['../classetl_1_1stack__vector.html#ae2f8d68b05b9df19cbcfb035b3341583',1,'etl::stack_vector::push_back(const_reference element) -&gt; void'],['../classetl_1_1stack__vector.html#a58fb3a563c682897232b18410ccb44bd',1,'etl::stack_vector::push_back(value_type &amp;&amp;element) -&gt; void']]]
+  ['push_5fback',['push_back',['../classetl_1_1static__vector.html#a9af75e5677ae96f1f66d3c2cfaa47732',1,'etl::static_vector']]]
 ];

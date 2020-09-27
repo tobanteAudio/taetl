@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1logical__and_3_01void_01_4.html" title="Function object for performing logical AND (logical conjunction). Effectively calls operator&amp;&amp; on typ..." alt="" coords="5,5,184,32"/>
+<area shape="rect" id="node1" href="$structetl_1_1less_3_01void_01_4.html" title="Function object for performing comparisons. Unless specialised, invokes operator&lt; on type T..." alt="" coords="5,5,136,32"/>
 </map>

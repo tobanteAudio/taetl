@@ -8,6 +8,5 @@ var searchData=
   ['_7equeue',['~queue',['../classetl_1_1rtos_1_1queue.html#a6de4a9b7cf367125c03a7d8d92e1bdea',1,'etl::rtos::queue']]],
   ['_7escope_5fguard',['~scope_guard',['../classetl_1_1scope__guard.html#a3f0ebeaf55c090efcd474026f35f91b7',1,'etl::scope_guard']]],
   ['_7escoped_5flock',['~scoped_lock',['../classetl_1_1scoped__lock.html#a43bd55a96bb360ff949f7239686ff0b5',1,'etl::scoped_lock']]],
-  ['_7estack_5fvector',['~stack_vector',['../classetl_1_1stack__vector.html#afcaf9313662216accfadc7fb4f3a7476',1,'etl::stack_vector']]],
   ['_7evariant',['~variant',['../classetl_1_1variant.html#afbfb91310c6581e57b564e182ed6db0d',1,'etl::variant']]]
 ];
