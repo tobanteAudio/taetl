@@ -1251,6 +1251,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a5a93174fd55dba4449e55dd3accbd299"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5a93174fd55dba4449e55dd3accbd299">is_sorted</a> (ForwardIter first, ForwardIter last, Compare comp) -&gt; bool</td></tr>
 <tr class="memdesc:a5a93174fd55dba4449e55dd3accbd299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the elements in range [first, last) are sorted in non-descending order. Elements are compared using the given binary comparison function comp.  <a href="#a5a93174fd55dba4449e55dd3accbd299">More...</a><br /></td></tr>
 <tr class="separator:a5a93174fd55dba4449e55dd3accbd299"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acc7d9a038b385aff889235d470b837e4"><td class="memTemplParams" colspan="2">template&lt;class InputIt1 , class InputIt2 &gt; </td></tr>
+<tr class="memitem:acc7d9a038b385aff889235d470b837e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acc7d9a038b385aff889235d470b837e4">includes</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2) -&gt; bool</td></tr>
+<tr class="memdesc:acc7d9a038b385aff889235d470b837e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sorted range [first2, last2) is a subsequence of the sorted range [first1, last1). Both ranges must be sorted with operator&lt;.  <a href="#acc7d9a038b385aff889235d470b837e4">More...</a><br /></td></tr>
+<tr class="separator:acc7d9a038b385aff889235d470b837e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2f97df033ed5dc7c5458f991078633d9"><td class="memTemplParams" colspan="2">template&lt;class InputIt1 , class InputIt2 , class Compare &gt; </td></tr>
+<tr class="memitem:a2f97df033ed5dc7c5458f991078633d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2f97df033ed5dc7c5458f991078633d9">includes</a> (InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, Compare comp) -&gt; bool</td></tr>
+<tr class="memdesc:a2f97df033ed5dc7c5458f991078633d9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sorted range [first2, last2) is a subsequence of the sorted range [first1, last1). Both ranges must be sorted with the given comparison function comp.  <a href="#a2f97df033ed5dc7c5458f991078633d9">More...</a><br /></td></tr>
+<tr class="separator:a2f97df033ed5dc7c5458f991078633d9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memTemplParams" colspan="2">template&lt;class T , etl::size_t N&gt; </td></tr>
 <tr class="memitem:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13">swap</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
 <tr class="memdesc:a0f31d2c1983d613a5b1be68a431cfd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs.  <a href="#a0f31d2c1983d613a5b1be68a431cfd13">More...</a><br /></td></tr>
@@ -5938,6 +5946,102 @@ template&lt;class R , class T &gt; </div>
 <p>Returns true if the value of t is in the range of values that can be represented in R, that is, if t can be converted to R without data loss. </p>
 <p>It is a compile-time error if either T or R is not a signed or unsigned integer type (including standard integer type and extended integer type). This function cannot be used with <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>, char, char8_t, char16_t, char32_t, wchar_t and bool.</p>
 <p>https://en.cppreference.com/w/cpp/utility/in_range </p>
+
+</div>
+</div>
+<a id="acc7d9a038b385aff889235d470b837e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acc7d9a038b385aff889235d470b837e4">&#9670;&nbsp;</a></span>includes() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt1 , class InputIt2 &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::includes </td>
+          <td>(</td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>first1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>last1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>first2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>last2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the sorted range [first2, last2) is a subsequence of the sorted range [first1, last1). Both ranges must be sorted with operator&lt;. </p>
+
+</div>
+</div>
+<a id="a2f97df033ed5dc7c5458f991078633d9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a2f97df033ed5dc7c5458f991078633d9">&#9670;&nbsp;</a></span>includes() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIt1 , class InputIt2 , class Compare &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::includes </td>
+          <td>(</td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>first1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt1&#160;</td>
+          <td class="paramname"><em>last1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>first2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIt2&#160;</td>
+          <td class="paramname"><em>last2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>comp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns true if the sorted range [first2, last2) is a subsequence of the sorted range [first1, last1). Both ranges must be sorted with the given comparison function comp. </p>
 
 </div>
 </div>
