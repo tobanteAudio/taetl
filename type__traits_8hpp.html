@@ -285,6 +285,16 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__pointer.html">etl::is_pointer&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a pointer to object or a pointer to function (but not a pointer to member/member function). Provides the member constant value which is equal to true, if T is a object/function pointer type. Otherwise, value is equal to false.  <a href="structetl_1_1is__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__lvalue__reference.html">etl::is_lvalue_reference&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a lvalue reference type. Provides the member constant value which is equal to true, if T is a lvalue reference type. Otherwise, value is equal to false.  <a href="structetl_1_1is__lvalue__reference.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__lvalue__reference_3_01T_01_6_01_4.html">etl::is_lvalue_reference&lt; T &amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__rvalue__reference.html">etl::is_rvalue_reference&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a rvalue reference type. Provides the member constant value which is equal to true, if T is a rvalue reference type. Otherwise, value is equal to false.  <a href="structetl_1_1is__rvalue__reference.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__rvalue__reference_3_01T_01_6_6_01_4.html">etl::is_rvalue_reference&lt; T &amp;&amp; &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__class.html">etl::is_class&lt; T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__enum.html">etl::is_enum&lt; T &gt;</a></td></tr>
@@ -314,6 +324,16 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__compound.html">etl::is_compound&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a compound type (that is, array, function, object pointer, function pointer, member object pointer, member function pointer, reference, class, union, or enumeration, including any cv-qualified variants), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__compound.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__bounded__array.html">etl::is_bounded_array&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is an array type of known bound. Provides the member constant value which is equal to true, if T is an array type of known bound. Otherwise, value is equal to false.  <a href="structetl_1_1is__bounded__array.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__bounded__array_3_01T[N]_4.html">etl::is_bounded_array&lt; T[N]&gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__unbounded__array.html">etl::is_unbounded_array&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is an array type of unknown bound. Provides the member constant value which is equal to true, if T is an array type of unknown bound. Otherwise, value is equal to false.  <a href="structetl_1_1is__unbounded__array.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__unbounded__array_3_01T[]_4.html">etl::is_unbounded_array&lt; T[]&gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__trivially__constructible.html">etl::is_trivially_constructible&lt; T, Args &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The variable definition does not call any operation that is not trivial. For the purposes of this check, the call to <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> is considered trivial.  <a href="structetl_1_1is__trivially__constructible.html#details">More...</a><br /></td></tr>
@@ -591,6 +611,12 @@ Variables</h2></td></tr>
 <tr class="memitem:ac00eca7d51c4d2c1021402ee9a70f03c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ac00eca7d51c4d2c1021402ee9a70f03c"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">etl::is_pointer_v</a> = is_pointer&lt;T&gt;::value</td></tr>
 <tr class="separator:ac00eca7d51c4d2c1021402ee9a70f03c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abdf67506d7e83cba3f386c212a824e9c"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:abdf67506d7e83cba3f386c212a824e9c"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abdf67506d7e83cba3f386c212a824e9c">etl::is_lvalue_reference_v</a> = is_lvalue_reference&lt;T&gt;::value</td></tr>
+<tr class="separator:abdf67506d7e83cba3f386c212a824e9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af2cba0c4e29fbd91ba77cbf6b9744ebc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:af2cba0c4e29fbd91ba77cbf6b9744ebc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af2cba0c4e29fbd91ba77cbf6b9744ebc">etl::is_rvalue_reference_v</a> = is_rvalue_reference&lt;T&gt;::value</td></tr>
+<tr class="separator:af2cba0c4e29fbd91ba77cbf6b9744ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af8d441fab48eb459b77f6f5829f7fc75"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:af8d441fab48eb459b77f6f5829f7fc75"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af8d441fab48eb459b77f6f5829f7fc75">etl::is_class_v</a> = is_class&lt;T&gt;::value</td></tr>
 <tr class="separator:af8d441fab48eb459b77f6f5829f7fc75"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -624,6 +650,12 @@ Variables</h2></td></tr>
 <tr class="memitem:ab45e49677aea4d7ed533e7c73ea7f2b6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ab45e49677aea4d7ed533e7c73ea7f2b6"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab45e49677aea4d7ed533e7c73ea7f2b6">etl::is_compound_v</a> = is_compound&lt;T&gt;::value</td></tr>
 <tr class="separator:ab45e49677aea4d7ed533e7c73ea7f2b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae6d2eef20a4d7f2fcfb333c7e5c23444"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:ae6d2eef20a4d7f2fcfb333c7e5c23444"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae6d2eef20a4d7f2fcfb333c7e5c23444">etl::is_bounded_array_v</a> = is_bounded_array&lt;T&gt;::value</td></tr>
+<tr class="separator:ae6d2eef20a4d7f2fcfb333c7e5c23444"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00c65af89fc55014250b54559626d075"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a00c65af89fc55014250b54559626d075"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a00c65af89fc55014250b54559626d075">etl::is_unbounded_array_v</a> = is_unbounded_array&lt;T&gt;::value</td></tr>
+<tr class="separator:a00c65af89fc55014250b54559626d075"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplParams" colspan="2">template&lt;class T , class... Args&gt; </td></tr>
 <tr class="memitem:a1ab616d6855ca5fc60968a153587b2b4"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">etl::is_constructible_v</a> = is_constructible&lt;T, Args...&gt;::value</td></tr>
 <tr class="separator:a1ab616d6855ca5fc60968a153587b2b4"><td class="memSeparator" colspan="2">&#160;</td></tr>
