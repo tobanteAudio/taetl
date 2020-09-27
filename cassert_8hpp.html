@@ -63,14 +63,19 @@ $(function() {
 </div>
 </div><!-- top -->
 <div class="header">
-  <div class="summary">
-<a href="#define-members">Macros</a> &#124;
-<a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">cassert.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><div class="dynheader">
+<div class="textblock"><code>#include &lt;assert.h&gt;</code><br />
+</div><div class="textblock"><div class="dynheader">
+Include dependency graph for cassert.hpp:</div>
+<div class="dyncontent">
+<div class="center"><img src="cassert_8hpp__incl.png" border="0" usemap="#etl_2cassert_8hpp" alt=""/></div>
+<map name="etl_2cassert_8hpp" id="etl_2cassert_8hpp">
+</map>
+</div>
+</div><div class="textblock"><div class="dynheader">
 This graph shows which files directly or indirectly include this file:</div>
 <div class="dyncontent">
 <div class="center"><img src="cassert_8hpp__dep__incl.png" border="0" usemap="#etl_2cassert_8hppdep" alt=""/></div>
@@ -93,93 +98,6 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 </div>
 <p><a href="cassert_8hpp_source.html">Go to the source code of this file.</a></p>
-<table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="define-members"></a>
-Macros</h2></td></tr>
-<tr class="memitem:a58993ff1e150081fcc9a81d90812774f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cassert_8hpp.html#a58993ff1e150081fcc9a81d90812774f">ETL_ASSERT</a>(Expression)&#160;&#160;&#160;<a class="el" href="cassert_8hpp.html#a1b8b0798fb0d98a4dc9ed2a59fd6305a">assertion_handler</a>(#Expression, Expression, __FILE__, __LINE__, nullptr)</td></tr>
-<tr class="separator:a58993ff1e150081fcc9a81d90812774f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
-Functions</h2></td></tr>
-<tr class="memitem:a1b8b0798fb0d98a4dc9ed2a59fd6305a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="cassert_8hpp.html#a1b8b0798fb0d98a4dc9ed2a59fd6305a">assertion_handler</a> ([[maybe_unused]] const char *expr_str, [[maybe_unused]] bool expr, [[maybe_unused]] const char *file, [[maybe_unused]] int line, [[maybe_unused]] const char *msg=nullptr) -&gt; void</td></tr>
-<tr class="separator:a1b8b0798fb0d98a4dc9ed2a59fd6305a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table>
-<h2 class="groupheader">Macro Definition Documentation</h2>
-<a id="a58993ff1e150081fcc9a81d90812774f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a58993ff1e150081fcc9a81d90812774f">&#9670;&nbsp;</a></span>ETL_ASSERT</h2>
-
-<div class="memitem">
-<div class="memproto">
-      <table class="memname">
-        <tr>
-          <td class="memname">#define ETL_ASSERT</td>
-          <td>(</td>
-          <td class="paramtype">&#160;</td>
-          <td class="paramname">Expression</td><td>)</td>
-          <td>&#160;&#160;&#160;<a class="el" href="cassert_8hpp.html#a1b8b0798fb0d98a4dc9ed2a59fd6305a">assertion_handler</a>(#Expression, Expression, __FILE__, __LINE__, nullptr)</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<h2 class="groupheader">Function Documentation</h2>
-<a id="a1b8b0798fb0d98a4dc9ed2a59fd6305a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1b8b0798fb0d98a4dc9ed2a59fd6305a">&#9670;&nbsp;</a></span>assertion_handler()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto assertion_handler </td>
-          <td>(</td>
-          <td class="paramtype">[[maybe_unused] ] const char *&#160;</td>
-          <td class="paramname"><em>expr_str</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] bool&#160;</td>
-          <td class="paramname"><em>expr</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] const char *&#160;</td>
-          <td class="paramname"><em>file</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] int&#160;</td>
-          <td class="paramname"><em>line</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype">[[maybe_unused] ] const char *&#160;</td>
-          <td class="paramname"><em>msg</em> = <code>nullptr</code>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; void
-</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Maybe create a constexpr version of ETL_ASSERT. Otherwise the assertion_handler makes no real sense, because printing is not supported in constexpr context. </dd></dl>
-
-</div>
-</div>
 </div><!-- contents -->
 <!-- start footer part -->
 <hr class="footer"/><address class="footer"><small>
