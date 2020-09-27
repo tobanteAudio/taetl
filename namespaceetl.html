@@ -1359,6 +1359,9 @@ Functions</h2></td></tr>
 <tr class="memitem:add013e52c2672440c53a8d2c82d4c63a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add013e52c2672440c53a8d2c82d4c63a">strlen</a> (const char *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
 <tr class="memdesc:add013e52c2672440c53a8d2c82d4c63a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#add013e52c2672440c53a8d2c82d4c63a">More...</a><br /></td></tr>
 <tr class="separator:add013e52c2672440c53a8d2c82d4c63a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab5f8423cdd9669ce22e5b258d0755687"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab5f8423cdd9669ce22e5b258d0755687">strcmp</a> (const char *lhs, const char *rhs) -&gt; int</td></tr>
+<tr class="memdesc:ab5f8423cdd9669ce22e5b258d0755687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the C string lhs to the C string rhs.  <a href="#ab5f8423cdd9669ce22e5b258d0755687">More...</a><br /></td></tr>
+<tr class="separator:ab5f8423cdd9669ce22e5b258d0755687"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3031e070c39546444bdd5fda57ead3d2"><td class="memTemplParams" colspan="2">template&lt;class C &gt; </td></tr>
 <tr class="memitem:a3031e070c39546444bdd5fda57ead3d2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2">begin</a> (C &amp;c) -&gt; decltype(c.begin())</td></tr>
 <tr class="memdesc:a3031e070c39546444bdd5fda57ead3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise.  <a href="#a3031e070c39546444bdd5fda57ead3d2">More...</a><br /></td></tr>
@@ -10144,6 +10147,38 @@ template&lt;class BidirIt , class UnaryPredicate &gt; </div>
 </div><div class="memdoc">
 
 <p>Reorders the elements in the range [first, last) in such a way that all elements for which the predicate p returns true precede the elements for which predicate p returns false. Relative order of the elements is preserved. </p>
+
+</div>
+</div>
+<a id="ab5f8423cdd9669ce22e5b258d0755687"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab5f8423cdd9669ce22e5b258d0755687">&#9670;&nbsp;</a></span>strcmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::strcmp </td>
+          <td>(</td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const char *&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; int
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares the C string lhs to the C string rhs. </p>
+<p>This function starts comparing the first character of each string. If they are equal to each other, it continues with the following pairs until the characters differ or until a terminating null-character is reached. </p>
 
 </div>
 </div>
