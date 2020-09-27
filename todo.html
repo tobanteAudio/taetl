@@ -106,9 +106,9 @@ $(function() {
 <dd>Add explicit(extent != <a class="el" href="namespaceetl.html#ae174223df490e6263d4648a86326c902" title="etl::dynamic_extent is a constant of type etl::size_t that is used to differentiate etl::span of stat...">etl::dynamic_extent</a>).  </dd>
 <dt><a class="anchor" id="_todo000020"></a>Member <a class="el" href="classetl_1_1static__vector.html#a51b31e8b1a60ab05961512510b648b19">etl::static_vector&lt; T, Capacity &gt;::static_vector</a>  (InputIter first, InputIter last)</dt>
 <dd>FCV_REQUIRES_(detail::InputIterator&lt;InputIt&gt;)  </dd>
-<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="classetl_1_1static__vector.html#a303ee0967d8d28159e2f2582c4234400">etl::static_vector&lt; T, Capacity &gt;::static_vector</a>  (size_type n) noexcept(noexcept(this-&gt;emplace_n(n)))</dt>
+<dt><a class="anchor" id="_todo000018"></a>Member <a class="el" href="classetl_1_1static__vector.html#ab6c627ed23fabc58cd482e6f895f5129">etl::static_vector&lt; T, Capacity &gt;::static_vector</a>  (size_type n) noexcept(noexcept(emplace_n(n)))</dt>
 <dd>FCV_REQUIRES(<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v&lt;T&gt;</a> || <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a>)  </dd>
-<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="classetl_1_1static__vector.html#ace34f2927a6f3f155c5c026a268350fa">etl::static_vector&lt; T, Capacity &gt;::static_vector</a>  (size_type n, T const &amp;value) noexcept(noexcept(this-&gt;insert(this-&gt;<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin()</a>, n, value)))</dt>
+<dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="classetl_1_1static__vector.html#ac2e8d0aead5a1f82a28ce4ee9f22bb48">etl::static_vector&lt; T, Capacity &gt;::static_vector</a>  (size_type n, T const &amp;value) noexcept(noexcept(insert(begin(), n, value)))</dt>
 <dd>FCV_REQUIRES(etl::is_copy_constructible_v&lt;T&gt;)  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Member <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">etl::swap</a>  (T &amp;a, T &amp;b) noexcept -&gt; void</dt>
 <dd>Fix noexcept specifier. https://en.cppreference.com/w/cpp/algorithm/swap  </dd>
