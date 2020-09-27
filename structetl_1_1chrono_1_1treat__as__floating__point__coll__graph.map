@@ -1,4 +1,4 @@
 <map id="etl::chrono::treat_as_floating_point&lt; Rep &gt;" name="etl::chrono::treat_as_floating_point&lt; Rep &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1is__floating__point.html" title="etl::is_floating_point\l\&lt; Rep \&gt;" alt="" coords="268,57,423,98"/>
-<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_same\&lt;\l float, etl::remove_cv\l\&lt; Rep \&gt;::type \&gt;::value\|\|\letl::is_same\&lt; double, etl\l::remove_cv\&lt; Rep \&gt;::type \&gt;\l::value\|\|etl::is_same\&lt; long\l double, etl::remove_cv\&lt; Rep\l \&gt;::type \&gt;::value \&gt;" alt="" coords="5,5,220,149"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__floating__point.html" title="etl::is_floating_point\l\&lt; Rep \&gt;" alt="" coords="435,49,589,91"/>
+<area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; etl::is_same\&lt; float,\l etl::remove_cv_t\&lt; Rep\l &#160;\&gt; \&gt;::value\|\|etl::is_same\l\&lt; double, etl::remove_cv_t\l\&lt; Rep &#160;\&gt; \&gt;::value\|\|etl::is\l_same\&lt; long double, etl::remove\l_cv_t\&lt; Rep &#160;\&gt; \&gt;::value \&gt;" alt="" coords="147,5,385,135"/>
 </map>

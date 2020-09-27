@@ -1,4 +1,4 @@
 <map id="etl::is_trivially_move_constructible&lt; T &gt;" name="etl::is_trivially_move_constructible&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1is__trivially__constructible.html" title="etl::is_trivially_constructible\l\&lt; T, etl::add_rvalue_reference\l\&lt; T \&gt;::type \&gt;" alt="" coords="45,185,263,241"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__trivially__constructible.html" title="etl::is_trivially_constructible\l\&lt; T, etl::add_rvalue_reference\l_t\&lt; T \&gt; \&gt;" alt="" coords="45,185,263,241"/>
 <area shape="rect" id="node3" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; TAETL_IS_TRIVIAL_CONSTRUCTIBLE(T)\&gt;" alt="" coords="5,95,303,136"/>
 </map>

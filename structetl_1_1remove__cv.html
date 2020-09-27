@@ -78,8 +78,8 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
 Public Types</h2></td></tr>
-<tr class="memitem:a04ac683b6bf5a27842813cb3845c8623"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1remove__cv.html#a04ac683b6bf5a27842813cb3845c8623">type</a> = typename <a class="el" href="structetl_1_1remove__const.html">remove_const</a>&lt; typename <a class="el" href="structetl_1_1remove__volatile.html">remove_volatile</a>&lt; Type &gt;::<a class="el" href="structetl_1_1remove__cv.html#a04ac683b6bf5a27842813cb3845c8623">type</a> &gt;::<a class="el" href="structetl_1_1remove__cv.html#a04ac683b6bf5a27842813cb3845c8623">type</a></td></tr>
-<tr class="separator:a04ac683b6bf5a27842813cb3845c8623"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac5d06a162672e88717d25e0fa8d13246"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1remove__cv.html#ac5d06a162672e88717d25e0fa8d13246">type</a> = <a class="el" href="namespaceetl.html#a87e058aba499e52cc4ed554dd7d65332">remove_const_t</a>&lt; <a class="el" href="namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83">remove_volatile_t</a>&lt; Type &gt; &gt;</td></tr>
+<tr class="separator:ac5d06a162672e88717d25e0fa8d13246"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename Type&gt;<br />
@@ -88,8 +88,8 @@ struct etl::remove_cv&lt; Type &gt;</h3>
 <p>Provides the member typedef type which is the same as T, except that its topmost cv-qualifiers are removed. Removes the topmost const, or the topmost volatile, or both, if present. </p>
 <p>The behavior of a program that adds specializations for any of the templates described on this page is undefined. </p>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
-<a id="a04ac683b6bf5a27842813cb3845c8623"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a04ac683b6bf5a27842813cb3845c8623">&#9670;&nbsp;</a></span>type</h2>
+<a id="ac5d06a162672e88717d25e0fa8d13246"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac5d06a162672e88717d25e0fa8d13246">&#9670;&nbsp;</a></span>type</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -97,7 +97,7 @@ struct etl::remove_cv&lt; Type &gt;</h3>
 template&lt;typename Type&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structetl_1_1remove__cv.html">etl::remove_cv</a>&lt; Type &gt;::<a class="el" href="structetl_1_1remove__cv.html#a04ac683b6bf5a27842813cb3845c8623">type</a> =  typename <a class="el" href="structetl_1_1remove__const.html">remove_const</a>&lt;typename <a class="el" href="structetl_1_1remove__volatile.html">remove_volatile</a>&lt;Type&gt;::<a class="el" href="structetl_1_1remove__cv.html#a04ac683b6bf5a27842813cb3845c8623">type</a>&gt;::<a class="el" href="structetl_1_1remove__cv.html#a04ac683b6bf5a27842813cb3845c8623">type</a></td>
+          <td class="memname">using <a class="el" href="structetl_1_1remove__cv.html">etl::remove_cv</a>&lt; Type &gt;::<a class="el" href="structetl_1_1remove__cv.html#ac5d06a162672e88717d25e0fa8d13246">type</a> =  <a class="el" href="namespaceetl.html#a87e058aba499e52cc4ed554dd7d65332">remove_const_t</a>&lt;<a class="el" href="namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83">remove_volatile_t</a>&lt;Type&gt; &gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">

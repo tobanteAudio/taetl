@@ -1,3 +1,3 @@
 <map id="etl::is_floating_point&lt; T &gt;" name="etl::is_floating_point&lt; T &gt;">
-<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; bool, etl::is_same\&lt;\l float, etl::remove_cv\l\&lt; T \&gt;::type \&gt;::value\|\|etl\l::is_same\&lt; double, etl::remove\l_cv\&lt; T \&gt;::type \&gt;::value\|\|etl\l::is_same\&lt; long double, etl::remove\l_cv\&lt; T \&gt;::type \&gt;::value \&gt;" alt="" coords="5,5,264,135"/>
+<area shape="rect" id="node2" href="$structetl_1_1integral__constant.html" title="etl::bool_constant\l\&lt; etl::is_same\&lt; float,\l etl::remove_cv_t\&lt; T \&gt;\l \&gt;::value\|\|etl::is_same\l\&lt; double, etl::remove_cv\l_t\&lt; T \&gt; \&gt;::value\|\|etl::is\l_same\&lt; long double, etl::remove\l_cv_t\&lt; T \&gt; \&gt;::value \&gt;" alt="" coords="147,5,385,135"/>
 </map>

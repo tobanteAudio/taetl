@@ -1,6 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, tuple_size\l\&lt; T \&gt;::value \&gt;" alt="" coords="5,49,180,105"/>
-<area shape="rect" id="node2" href="$structetl_1_1tuple__size_3_01const_01T_01_4.html" title="etl::tuple_size\&lt; const T \&gt;" alt="" coords="235,5,425,32"/>
-<area shape="rect" id="node3" href="$structetl_1_1tuple__size_3_01const_01volatile_01T_01_4.html" title="etl::tuple_size\&lt; const\l volatile T \&gt;" alt="" coords="249,57,411,98"/>
-<area shape="rect" id="node4" href="$structetl_1_1tuple__size_3_01volatile_01T_01_4.html" title="etl::tuple_size\&lt; volatile T \&gt;" alt="" coords="228,123,432,149"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__nothrow__assignable.html" title="etl::is_nothrow_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_lvalue\l_reference\&lt; const T \&gt;::type \&gt;" alt="" coords="324,42,544,113"/>
+<area shape="rect" id="node3" href="$structetl_1_1is__nothrow__copy__assignable.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="592,57,748,98"/>
 </map>
