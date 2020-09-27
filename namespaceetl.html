@@ -294,6 +294,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a compound type (that is, array, function, object pointer, function pointer, member object pointer, member function pointer, reference, class, union, or enumeration, including any cv-qualified variants), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__compound.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__const.html">is_const</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a const-qualified type (that is, const, or const volatile), provides the member constant value equal to true. For any other type, value is false.  <a href="structetl_1_1is__const.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__const_3_01const_01T_01_4.html">is_const&lt; const T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -318,6 +319,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__destructible_3_01void_01_4.html">is_destructible&lt; void &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a href="https://en.cppreference.com/w/cpp/types/is_destructible">https://en.cppreference.com/w/cpp/types/is_destructible</a>  <a href="structetl_1_1is__destructible_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__empty.html">is_empty</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">f T is an empty type (that is, a non-union class type with no non-static data members other than bit-fields of size 0, no virtual functions, no virtual base classes, and no non-empty base classes), provides the member constant value equal to true. For any other type, value is false.  <a href="structetl_1_1is__empty.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__enum.html">is_enum</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__error__code__enum.html">is_error_code_enum</a></td></tr>
@@ -333,6 +337,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a function type. Types like <a class="el" href="classetl_1_1function.html">etl::function</a>, lambdas, classes with overloaded operator() and pointers to functions don't count as function types. Provides the member constant value which is equal to true, if T is a function type. Otherwise, value is equal to false.  <a href="structetl_1_1is__function.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__fundamental.html">is_fundamental</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a fundamental type (that is, arithmetic type, void, or nullptr_t), provides the member constant value equal true. For any other type, value is false.  <a href="structetl_1_1is__fundamental.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__integral.html">is_integral</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -395,6 +400,7 @@ Classes</h2></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks whether T is a pointer to object or a pointer to function (but not a pointer to member/member function). Provides the member constant value which is equal to true, if T is a object/function pointer type. Otherwise, value is equal to false.  <a href="structetl_1_1is__pointer.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__reference.html">is_reference</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a reference type (lvalue reference or rvalue reference), provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__reference.html" title="If T is a reference type (lvalue reference or rvalue reference), provides the member constant value e...">is_reference</a> or is_reference_v is undefined.  <a href="structetl_1_1is__reference.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__reference_3_01T_01_6_01_4.html">is_reference&lt; T &amp; &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -455,6 +461,10 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__void.html">is_void</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Define a member typedef only if a boolean constant is true.  <a href="structetl_1_1is__void.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__volatile.html">is_volatile</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__volatile_3_01volatile_01T_01_4.html">is_volatile&lt; volatile T &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1iterator__traits.html">iterator_traits</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1iterator__traits.html" title="etl::iterator_traits is the type trait class that provides uniform interface to the properties of Leg...">etl::iterator_traits</a> is the type trait class that provides uniform interface to the properties of LegacyIterator types. This makes it possible to implement algorithms only in terms of iterators.  <a href="structetl_1_1iterator__traits.html#details">More...</a><br /></td></tr>
@@ -1843,6 +1853,12 @@ Variables</h2></td></tr>
 <tr class="memitem:a40862de0c689f5281b8d680741bc7cf9"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a40862de0c689f5281b8d680741bc7cf9"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a40862de0c689f5281b8d680741bc7cf9">is_const_v</a> = <a class="el" href="structetl_1_1is__const.html">is_const</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a40862de0c689f5281b8d680741bc7cf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa76b943cef158f554f60c8d61b6835bc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:aa76b943cef158f554f60c8d61b6835bc"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa76b943cef158f554f60c8d61b6835bc">is_volatile_v</a> = <a class="el" href="structetl_1_1is__volatile.html">is_volatile</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:aa76b943cef158f554f60c8d61b6835bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a258143fbbaaef57434ff042f35db08a6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a258143fbbaaef57434ff042f35db08a6"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a258143fbbaaef57434ff042f35db08a6">is_empty_v</a> = <a class="el" href="structetl_1_1is__empty.html">is_empty</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:a258143fbbaaef57434ff042f35db08a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a22294e9170ea0547c68724eabe0c8c5a">is_reference_v</a> = <a class="el" href="structetl_1_1is__reference.html">is_reference</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a22294e9170ea0547c68724eabe0c8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1879,6 +1895,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a105e2a5ac8fc634dcc71675e27e3f95e">is_arithmetic_v</a> = <a class="el" href="structetl_1_1is__arithmetic.html">is_arithmetic</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a105e2a5ac8fc634dcc71675e27e3f95e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af6b1115f04c131e47ab31a50aa2194b2"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:af6b1115f04c131e47ab31a50aa2194b2"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af6b1115f04c131e47ab31a50aa2194b2">is_fundamental_v</a> = <a class="el" href="structetl_1_1is__fundamental.html">is_fundamental</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:af6b1115f04c131e47ab31a50aa2194b2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab43d223a689de0810df63d7c223d4228"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:ab43d223a689de0810df63d7c223d4228"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab43d223a689de0810df63d7c223d4228">is_scalar_v</a> = <a class="el" href="structetl_1_1is__scalar.html">is_scalar</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:ab43d223a689de0810df63d7c223d4228"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -10895,6 +10914,30 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
+<a id="a258143fbbaaef57434ff042f35db08a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a258143fbbaaef57434ff042f35db08a6">&#9670;&nbsp;</a></span>is_empty_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_empty_v = <a class="el" href="structetl_1_1is__empty.html">is_empty</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="aa4784b73e6d758a37358b62211a308ef"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aa4784b73e6d758a37358b62211a308ef">&#9670;&nbsp;</a></span>is_enum_v</h2>
 
@@ -10956,6 +10999,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_function_v = <a class="el" href="structetl_1_1is__function.html">is_function</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af6b1115f04c131e47ab31a50aa2194b2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af6b1115f04c131e47ab31a50aa2194b2">&#9670;&nbsp;</a></span>is_fundamental_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_fundamental_v = <a class="el" href="structetl_1_1is__fundamental.html">is_fundamental</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
@@ -11820,6 +11887,30 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_void_v = <a class="el" href="structetl_1_1is__void.html">is_void</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="aa76b943cef158f554f60c8d61b6835bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa76b943cef158f554f60c8d61b6835bc">&#9670;&nbsp;</a></span>is_volatile_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_volatile_v = <a class="el" href="structetl_1_1is__volatile.html">is_volatile</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>
