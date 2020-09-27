@@ -1,17 +1,13 @@
 var searchData=
 [
-  ['make_5funsigned',['make_unsigned',['../structetl_1_1make__unsigned.html',1,'etl']]],
-  ['map',['map',['../classetl_1_1map.html',1,'etl']]],
-  ['map_5fview',['map_view',['../classetl_1_1map__view.html',1,'etl']]],
-  ['map_5fview_3c_20keyt_2c_20valuet_2c_20compare_20_3e',['map_view&lt; KeyT, ValueT, Compare &gt;',['../classetl_1_1map__view.html',1,'etl']]],
-  ['max_5falign_5ft',['max_align_t',['../structetl_1_1max__align__t.html',1,'etl']]],
-  ['minus',['minus',['../structetl_1_1minus.html',1,'etl']]],
-  ['minus_3c_20void_20_3e',['minus&lt; void &gt;',['../structetl_1_1minus_3_01void_01_4.html',1,'etl']]],
-  ['modulus',['modulus',['../structetl_1_1modulus.html',1,'etl']]],
-  ['modulus_3c_20void_20_3e',['modulus&lt; void &gt;',['../structetl_1_1modulus_3_01void_01_4.html',1,'etl']]],
-  ['monostate',['monostate',['../structetl_1_1monostate.html',1,'etl']]],
-  ['multipliable',['multipliable',['../structetl_1_1experimental_1_1skill_1_1multipliable.html',1,'etl::experimental::skill']]],
-  ['multiplies',['multiplies',['../structetl_1_1multiplies.html',1,'etl']]],
-  ['multiplies_3c_20void_20_3e',['multiplies&lt; void &gt;',['../structetl_1_1multiplies_3_01void_01_4.html',1,'etl']]],
-  ['mutable_5fbuffer',['mutable_buffer',['../classetl_1_1net_1_1mutable__buffer.html',1,'etl::net']]]
+  ['less',['less',['../structetl_1_1less.html',1,'etl']]],
+  ['less_3c_20void_20_3e',['less&lt; void &gt;',['../structetl_1_1less_3_01void_01_4.html',1,'etl']]],
+  ['less_5fequal',['less_equal',['../structetl_1_1less__equal.html',1,'etl']]],
+  ['less_5fequal_3c_20void_20_3e',['less_equal&lt; void &gt;',['../structetl_1_1less__equal_3_01void_01_4.html',1,'etl']]],
+  ['logical_5fand',['logical_and',['../structetl_1_1logical__and.html',1,'etl']]],
+  ['logical_5fand_3c_20void_20_3e',['logical_and&lt; void &gt;',['../structetl_1_1logical__and_3_01void_01_4.html',1,'etl']]],
+  ['logical_5fnot',['logical_not',['../structetl_1_1logical__not.html',1,'etl']]],
+  ['logical_5fnot_3c_20void_20_3e',['logical_not&lt; void &gt;',['../structetl_1_1logical__not_3_01void_01_4.html',1,'etl']]],
+  ['logical_5for',['logical_or',['../structetl_1_1logical__or.html',1,'etl']]],
+  ['logical_5for_3c_20void_20_3e',['logical_or&lt; void &gt;',['../structetl_1_1logical__or_3_01void_01_4.html',1,'etl']]]
 ];

@@ -15,6 +15,7 @@ var searchData=
   ['conjunction',['conjunction',['../structetl_1_1conjunction.html',1,'etl']]],
   ['conjunction_3c_20b1_20_3e',['conjunction&lt; B1 &gt;',['../structetl_1_1conjunction_3_01B1_01_4.html',1,'etl']]],
   ['conjunction_3c_20b1_2c_20bn_2e_2e_2e_20_3e',['conjunction&lt; B1, Bn... &gt;',['../structetl_1_1conjunction_3_01B1_00_01Bn_8_8_8_01_4.html',1,'etl']]],
+  ['conjunction_3c_20etl_3a_3ais_5farray_3c_20t_20_3e_2c_20etl_3a_3anegation_3c_20etl_3a_3aextent_3c_20t_20_3e_20_3e_20_3e',['conjunction&lt; etl::is_array&lt; T &gt;, etl::negation&lt; etl::extent&lt; T &gt; &gt; &gt;',['../structetl_1_1conjunction.html',1,'etl']]],
   ['const_5fbuffer',['const_buffer',['../classetl_1_1net_1_1const__buffer.html',1,'etl::net']]],
   ['constant',['constant',['../structetl_1_1dsp_1_1constant.html',1,'etl::dsp']]],
   ['contiguous_5fiterator_5ftag',['contiguous_iterator_tag',['../structetl_1_1contiguous__iterator__tag.html',1,'etl']]],
