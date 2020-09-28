@@ -40,6 +40,7 @@ var searchData=
   ['minus',['minus',['../structetl_1_1minus.html',1,'etl']]],
   ['minus_3c_20void_20_3e',['minus&lt; void &gt;',['../structetl_1_1minus_3_01void_01_4.html',1,'etl']]],
   ['minutes',['minutes',['../namespaceetl_1_1chrono.html#afbfd0a58052fc7b37978f15a7b28c1f4',1,'etl::chrono']]],
+  ['mismatch',['mismatch',['../namespaceetl.html#ab340ce2b640eb395b08fe8b266881603',1,'etl::mismatch(InputIter1 first1, InputIter1 last1, InputIter2 first2, BinaryPredicate pred) -&gt; etl::pair&lt; InputIter1, InputIter2 &gt;'],['../namespaceetl.html#a5670e9bd29e9fb8b573558fe9a6bff17',1,'etl::mismatch(InputIter1 first1, InputIter1 last1, InputIter2 first2) -&gt; etl::pair&lt; InputIter1, InputIter2 &gt;'],['../namespaceetl.html#ace4d823211420bf94fe43c94bf902a57',1,'etl::mismatch(InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2, BinaryPredicate pred) -&gt; etl::pair&lt; InputIter1, InputIter2 &gt;'],['../namespaceetl.html#a934b1b48023aa9532f3f329fe18f1079',1,'etl::mismatch(InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2) -&gt; etl::pair&lt; InputIter1, InputIter2 &gt;']]],
   ['modulus',['modulus',['../structetl_1_1modulus.html',1,'etl']]],
   ['modulus_3c_20void_20_3e',['modulus&lt; void &gt;',['../structetl_1_1modulus_3_01void_01_4.html',1,'etl']]],
   ['monostate',['monostate',['../structetl_1_1monostate.html',1,'etl']]],

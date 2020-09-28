@@ -30,6 +30,7 @@ var searchData=
   ['address_5fnot_5favailable',['address_not_available',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a20abf2ffbf6e82e36405843f269d6438',1,'etl']]],
   ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
   ['advance',['advance',['../namespaceetl.html#ac45065b143a47fb9249bda8d57ccca63',1,'etl']]],
+  ['algo_5fsearch_2ehpp',['algo_search.hpp',['../algo__search_8hpp.html',1,'']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
   ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],
   ['aligned_5fstorage_3c_20sizeof_28pair_5ft_29_2c_20alignof_28pair_5ft_29_3e',['aligned_storage&lt; sizeof(pair_t), alignof(pair_t)&gt;',['../structetl_1_1aligned__storage.html',1,'etl']]],

@@ -7,6 +7,7 @@ var searchData=
   ['decay_5ft',['decay_t',['../namespaceetl.html#ad602447fa93ad71f4db547fa0ae92883',1,'etl']]],
   ['deci',['deci',['../namespaceetl.html#a59f2e2c10ab4b06ed261d1e4a8358895',1,'etl']]],
   ['declval',['declval',['../namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292',1,'etl']]],
+  ['default_5fsearcher',['default_searcher',['../classetl_1_1default__searcher.html',1,'etl::default_searcher&lt; ForwardIter, Predicate &gt;'],['../classetl_1_1default__searcher.html#a4ad60e354cefdd17d97ec32cf09d2637',1,'etl::default_searcher::default_searcher()']]],
   ['definitions_2ehpp',['definitions.hpp',['../definitions_8hpp.html',1,'']]],
   ['defvala',['DEFVALA',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca9cb811587b96ad554f7e970f5c8a691c',1,'etl::hardware::mcp23017']]],
   ['defvalb',['DEFVALB',['../namespaceetl_1_1hardware_1_1mcp23017.html#aa623c967f42a82f6bf4c33a99fdda77ca5989dad3c64dc4825dffadc2cac49779',1,'etl::hardware::mcp23017']]],

@@ -1,6 +1,7 @@
 var searchData=
 [
   ['decay',['decay',['../structetl_1_1decay.html',1,'etl']]],
+  ['default_5fsearcher',['default_searcher',['../classetl_1_1default__searcher.html',1,'etl']]],
   ['delay',['delay',['../structetl_1_1dsp_1_1delay.html',1,'etl::dsp']]],
   ['den_29_3e',['den)&gt;',['../structetl_1_1integral__constant.html',1,'etl::den)&gt;'],['../structetl_1_1integral__constant.html',1,'etl::den)&gt;']]],
   ['den_3c_20r2_3a_3anum_20_2ar1_3a_3aden_29_3e',['den&lt; R2::num *R1::den)&gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
