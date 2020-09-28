@@ -37,6 +37,8 @@ var searchData=
   ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],
   ['aligned_5fstorage_3c_20sizeof_28pair_5ft_29_2c_20alignof_28pair_5ft_29_3e',['aligned_storage&lt; sizeof(pair_t), alignof(pair_t)&gt;',['../structetl_1_1aligned__storage.html',1,'etl']]],
   ['aligned_5fstorage_5ft',['aligned_storage_t',['../namespaceetl.html#a16ded42403ee495bd465c070c0262b8a',1,'etl']]],
+  ['alignment_5fof',['alignment_of',['../structetl_1_1alignment__of.html',1,'etl']]],
+  ['alignment_5fof_5fv',['alignment_of_v',['../namespaceetl.html#af27c4787c3ece65b789aa21a2bbd72d0',1,'etl']]],
   ['all_5fdisabled',['all_disabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea5599fd353b54b2e5a40d8bf084756795',1,'etl::hardware::mcp23017']]],
   ['all_5fenabled',['all_enabled',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1ea45af82beb33aee3f358b7c761876f795',1,'etl::hardware::mcp23017']]],
   ['all_5finput',['all_input',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786ad4d9151bc3a3742ee2f44d6dceb6b20e',1,'etl::hardware::mcp23017']]],

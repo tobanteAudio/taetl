@@ -117,6 +117,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1aligned__storage.html">aligned_storage</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the nested type type, which is a trivial standard-layout type suitable for use as uninitialized storage for any object whose size is at most Len and whose alignment requirement is a divisor of Align.  <a href="structetl_1_1aligned__storage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1alignment__of.html">alignment_of</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1alignment__of.html" title="alignment_of ">alignment_of</a>  <a href="structetl_1_1alignment__of.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html">array</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays.  <a href="structetl_1_1array.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -283,6 +286,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__abstract.html">is_abstract</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1is__abstract.html" title="is_abstract ">is_abstract</a>  <a href="structetl_1_1is__abstract.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__aggregate.html">is_aggregate</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1is__aggregate.html" title="is_aggregate ">is_aggregate</a>  <a href="structetl_1_1is__aggregate.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__arithmetic.html">is_arithmetic</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an arithmetic type (that is, an integral type or a floating-point type) or a cv-qualified version thereof, provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__arithmetic.html" title="If T is an arithmetic type (that is, an integral type or a floating-point type) or a cv-qualified ver...">is_arithmetic</a> or is_arithmetic_v (since C++17) is undefined.  <a href="structetl_1_1is__arithmetic.html#details">More...</a><br /></td></tr>
@@ -1998,6 +2004,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad586ed3dee38cd4cc1b409e607230ffb">is_abstract_v</a> = <a class="el" href="structetl_1_1is__abstract.html">is_abstract</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacace2162b09f525f4baff15548ecda"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afacace2162b09f525f4baff15548ecda"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afacace2162b09f525f4baff15548ecda">is_aggregate_v</a> = <a class="el" href="structetl_1_1is__aggregate.html">is_aggregate</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:afacace2162b09f525f4baff15548ecda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a22294e9170ea0547c68724eabe0c8c5a">is_reference_v</a> = <a class="el" href="structetl_1_1is__reference.html">is_reference</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a22294e9170ea0547c68724eabe0c8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -2140,6 +2149,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a4fe0a7655d7b161139e48f8eb34838ac"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a4fe0a7655d7b161139e48f8eb34838ac"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">is_nothrow_swappable_v</a> = <a class="el" href="structetl_1_1is__nothrow__swappable.html">is_nothrow_swappable</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a4fe0a7655d7b161139e48f8eb34838ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af27c4787c3ece65b789aa21a2bbd72d0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:af27c4787c3ece65b789aa21a2bbd72d0"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af27c4787c3ece65b789aa21a2bbd72d0">alignment_of_v</a> = <a class="el" href="structetl_1_1alignment__of.html">alignment_of</a>&lt;T&gt;::value</td></tr>
+<tr class="separator:af27c4787c3ece65b789aa21a2bbd72d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3b937c99443cbaf5f1817d061261bd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a5b3b937c99443cbaf5f1817d061261bd"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">is_trivially_copyable_v</a> = <a class="el" href="classetl_1_1is__trivially__copyable.html">is_trivially_copyable</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:a5b3b937c99443cbaf5f1817d061261bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11411,6 +11423,30 @@ template&lt;class InputIter , class OutputIter &gt; </div>
 
 </div>
 </div>
+<a id="af27c4787c3ece65b789aa21a2bbd72d0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af27c4787c3ece65b789aa21a2bbd72d0">&#9670;&nbsp;</a></span>alignment_of_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">size_t</a> etl::alignment_of_v = <a class="el" href="structetl_1_1alignment__of.html">alignment_of</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="af0d9f32a20bf813fd8ce025d0aebbff5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0d9f32a20bf813fd8ce025d0aebbff5">&#9670;&nbsp;</a></span>conjunction_v</h2>
 
@@ -11616,6 +11652,30 @@ template&lt;typename T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr bool etl::is_abstract_v = <a class="el" href="structetl_1_1is__abstract.html">is_abstract</a>&lt;T&gt;::value</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="afacace2162b09f525f4baff15548ecda"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afacace2162b09f525f4baff15548ecda">&#9670;&nbsp;</a></span>is_aggregate_v</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr bool etl::is_aggregate_v = <a class="el" href="structetl_1_1is__aggregate.html">is_aggregate</a>&lt;T&gt;::value</td>
         </tr>
       </table>
   </td>

@@ -275,6 +275,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__abstract.html">etl::is_abstract&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1is__abstract.html" title="is_abstract ">is_abstract</a>  <a href="structetl_1_1is__abstract.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__aggregate.html">etl::is_aggregate&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1is__aggregate.html" title="is_aggregate ">is_aggregate</a>  <a href="structetl_1_1is__aggregate.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__reference.html">etl::is_reference&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a reference type (lvalue reference or rvalue reference), provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__reference.html" title="If T is a reference type (lvalue reference or rvalue reference), provides the member constant value e...">is_reference</a> or is_reference_v is undefined.  <a href="structetl_1_1is__reference.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -436,6 +439,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__nothrow__swappable.html">etl::is_nothrow_swappable&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_nothrow_swappable_with&lt;T&amp;, T&amp;&gt;::value.  <a href="structetl_1_1is__nothrow__swappable.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1alignment__of.html">etl::alignment_of&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1alignment__of.html" title="alignment_of ">alignment_of</a>  <a href="structetl_1_1alignment__of.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1is__trivially__copyable.html">etl::is_trivially_copyable&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a TriviallyCopyable type, provides the member constant value equal to true. For any other type, value is false. The only trivially copyable types are scalar types, trivially copyable classes, and arrays of such types/classes (possibly cv-qualified).  <a href="classetl_1_1is__trivially__copyable.html#details">More...</a><br /></td></tr>
@@ -623,6 +629,9 @@ Variables</h2></td></tr>
 <tr class="memitem:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad586ed3dee38cd4cc1b409e607230ffb">etl::is_abstract_v</a> = is_abstract&lt;T&gt;::value</td></tr>
 <tr class="separator:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afacace2162b09f525f4baff15548ecda"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:afacace2162b09f525f4baff15548ecda"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afacace2162b09f525f4baff15548ecda">etl::is_aggregate_v</a> = is_aggregate&lt;T&gt;::value</td></tr>
+<tr class="separator:afacace2162b09f525f4baff15548ecda"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a22294e9170ea0547c68724eabe0c8c5a">etl::is_reference_v</a> = is_reference&lt;T&gt;::value</td></tr>
 <tr class="separator:a22294e9170ea0547c68724eabe0c8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -765,6 +774,9 @@ Variables</h2></td></tr>
 <tr class="memitem:a4fe0a7655d7b161139e48f8eb34838ac"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a4fe0a7655d7b161139e48f8eb34838ac"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">etl::is_nothrow_swappable_v</a> = is_nothrow_swappable&lt;T&gt;::value</td></tr>
 <tr class="separator:a4fe0a7655d7b161139e48f8eb34838ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af27c4787c3ece65b789aa21a2bbd72d0"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:af27c4787c3ece65b789aa21a2bbd72d0"><td class="memTemplItemLeft" align="right" valign="top">constexpr size_t&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af27c4787c3ece65b789aa21a2bbd72d0">etl::alignment_of_v</a> = alignment_of&lt;T&gt;::value</td></tr>
+<tr class="separator:af27c4787c3ece65b789aa21a2bbd72d0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5b3b937c99443cbaf5f1817d061261bd"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a5b3b937c99443cbaf5f1817d061261bd"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a> = is_trivially_copyable&lt;T&gt;::value</td></tr>
 <tr class="separator:a5b3b937c99443cbaf5f1817d061261bd"><td class="memSeparator" colspan="2">&#160;</td></tr>

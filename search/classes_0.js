@@ -10,6 +10,7 @@ var searchData=
   ['adopt_5flock_5ft',['adopt_lock_t',['../structetl_1_1adopt__lock__t.html',1,'etl']]],
   ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],
   ['aligned_5fstorage_3c_20sizeof_28pair_5ft_29_2c_20alignof_28pair_5ft_29_3e',['aligned_storage&lt; sizeof(pair_t), alignof(pair_t)&gt;',['../structetl_1_1aligned__storage.html',1,'etl']]],
+  ['alignment_5fof',['alignment_of',['../structetl_1_1alignment__of.html',1,'etl']]],
   ['array',['array',['../structetl_1_1array.html',1,'etl']]],
   ['array_3c_20t_2c_20static_5fcast_3c_20size_5ft_20_3e_28z_29_2b1_20_3e',['array&lt; T, static_cast&lt; size_t &gt;(Z)+1 &gt;',['../structetl_1_1array.html',1,'etl']]],
   ['array_3c_20unsigned_20char_2c_20allocated_5f_20_3e',['array&lt; unsigned char, allocated_ &gt;',['../structetl_1_1array.html',1,'etl']]]

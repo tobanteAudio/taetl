@@ -3,6 +3,7 @@ var searchData=
   ['taetl_20_2d_20embedded_20template_20library',['TAETL - Embedded Template Library',['../index.html',1,'']]],
   ['taetl_5fhas_5fvirtual_5fdestructor',['TAETL_HAS_VIRTUAL_DESTRUCTOR',['../intrinsics_8hpp.html#a37f45a093948fc4cb810b4c02d7636af',1,'intrinsics.hpp']]],
   ['taetl_5fis_5fabstract',['TAETL_IS_ABSTRACT',['../intrinsics_8hpp.html#a3bc719edb688a447b5d047e85afff4ad',1,'intrinsics.hpp']]],
+  ['taetl_5fis_5faggregate',['TAETL_IS_AGGREGATE',['../intrinsics_8hpp.html#a6bb0c597fa58b16266a29d431b2e947f',1,'intrinsics.hpp']]],
   ['taetl_5fis_5fassignable',['TAETL_IS_ASSIGNABLE',['../intrinsics_8hpp.html#a048eef5f8d7e881e79b20ceef603726e',1,'intrinsics.hpp']]],
   ['taetl_5fis_5fclass',['TAETL_IS_CLASS',['../intrinsics_8hpp.html#a5e5322628b3857868ee48f4baa81d7e0',1,'intrinsics.hpp']]],
   ['taetl_5fis_5fconstant_5fevaluated',['TAETL_IS_CONSTANT_EVALUATED',['../intrinsics_8hpp.html#a69f0ac27902cc6b3d80c12df27d874bf',1,'intrinsics.hpp']]],

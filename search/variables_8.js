@@ -17,6 +17,7 @@ var searchData=
   ['inv_5fsqrtpif',['inv_sqrtpif',['../namespaceetl_1_1numbers.html#a890fef0f2082644e67400001608b4b89',1,'etl::numbers']]],
   ['inv_5fsqrtpil',['inv_sqrtpil',['../namespaceetl_1_1numbers.html#a7971a557cd97a51db3f80f653e59c750',1,'etl::numbers']]],
   ['is_5fabstract_5fv',['is_abstract_v',['../namespaceetl.html#ad586ed3dee38cd4cc1b409e607230ffb',1,'etl']]],
+  ['is_5faggregate_5fv',['is_aggregate_v',['../namespaceetl.html#afacace2162b09f525f4baff15548ecda',1,'etl']]],
   ['is_5farithmetic_5fv',['is_arithmetic_v',['../namespaceetl.html#a105e2a5ac8fc634dcc71675e27e3f95e',1,'etl']]],
   ['is_5farray_5fv',['is_array_v',['../namespaceetl.html#afaa46050181985a6156a6c800c86a7d8',1,'etl']]],
   ['is_5fassignable_5fv',['is_assignable_v',['../namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d',1,'etl']]],
