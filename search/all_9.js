@@ -114,6 +114,7 @@ var searchData=
   ['is_5fconst',['is_const',['../structetl_1_1is__const.html',1,'etl']]],
   ['is_5fconst_3c_20const_20t_20_3e',['is_const&lt; const T &gt;',['../structetl_1_1is__const_3_01const_01T_01_4.html',1,'etl']]],
   ['is_5fconst_5fv',['is_const_v',['../namespaceetl.html#a40862de0c689f5281b8d680741bc7cf9',1,'etl']]],
+  ['is_5fconstant_5fevaluated',['is_constant_evaluated',['../namespaceetl.html#a4ec5c14f53ef79e0b6debfffb6ce947f',1,'etl']]],
   ['is_5fconstructible',['is_constructible',['../namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c',1,'etl']]],
   ['is_5fconstructible_5fv',['is_constructible_v',['../namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4',1,'etl']]],
   ['is_5fconvertible',['is_convertible',['../structetl_1_1is__convertible.html',1,'etl']]],

@@ -518,6 +518,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1logical__or_3_01void_01_4.html">logical_or&lt; void &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing logical OR (logical disjunction). Effectively calls operator|| on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1logical__or.html" title="Function object for performing logical OR (logical disjunction). Effectively calls operator|| on type...">etl::logical_or</a> when T is not specified, which leaves the parameter types and return type to be deduced.  <a href="structetl_1_1logical__or_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__signed.html">make_signed</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an integral (except bool) or enumeration type, provides the member typedef type which is the unsigned integer type corresponding to T, with the same cv-qualifiers. If T is signed or unsigned char, short, int, long, long long; the unsigned type from this list corresponding to T is provided. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1make__signed.html" title="If T is an integral (except bool) or enumeration type, provides the member typedef type which is the ...">make_signed</a> is undefined.  <a href="structetl_1_1make__signed.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is an integral (except bool) or enumeration type, provides the member typedef type which is the unsigned integer type corresponding to T, with the same cv-qualifiers. If T is signed or unsigned char, short, int, long, long long; the unsigned type from this list corresponding to T is provided. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1make__unsigned.html" title="If T is an integral (except bool) or enumeration type, provides the member typedef type which is the ...">make_unsigned</a> is undefined.  <a href="structetl_1_1make__unsigned.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -897,6 +900,9 @@ Typedefs</h2></td></tr>
 <tr class="memitem:a4e3ae65a8164f8204c7f0ab6076b2cbc"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a4e3ae65a8164f8204c7f0ab6076b2cbc"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4e3ae65a8164f8204c7f0ab6076b2cbc">add_volatile_t</a> = typename <a class="el" href="structetl_1_1add__volatile.html">add_volatile</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:a4e3ae65a8164f8204c7f0ab6076b2cbc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abffe34c79351f871acb3e0438b2ad488"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:abffe34c79351f871acb3e0438b2ad488"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abffe34c79351f871acb3e0438b2ad488">make_signed_t</a> = typename <a class="el" href="structetl_1_1make__signed.html">make_signed</a>&lt; T &gt;::type</td></tr>
+<tr class="separator:abffe34c79351f871acb3e0438b2ad488"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:acb2df53f4e399975501cf8300d451814"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acb2df53f4e399975501cf8300d451814">make_unsigned_t</a> = typename <a class="el" href="structetl_1_1make__unsigned.html">make_unsigned</a>&lt; T &gt;::type</td></tr>
 <tr class="separator:acb2df53f4e399975501cf8300d451814"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1725,6 +1731,9 @@ Functions</h2></td></tr>
 <tr class="memitem:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">declval</a> () noexcept -&gt; typename <a class="el" href="structetl_1_1add__rvalue__reference.html">etl::add_rvalue_reference</a>&lt; T &gt;::type</td></tr>
 <tr class="memdesc:a4147daa38c6c4c1e59540fa0fa27a292"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts any type T to a reference type, making it possible to use member functions in decltype expressions without the need to go through constructors.  <a href="#a4147daa38c6c4c1e59540fa0fa27a292">More...</a><br /></td></tr>
 <tr class="separator:a4147daa38c6c4c1e59540fa0fa27a292"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ec5c14f53ef79e0b6debfffb6ce947f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4ec5c14f53ef79e0b6debfffb6ce947f">is_constant_evaluated</a> () noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a4ec5c14f53ef79e0b6debfffb6ce947f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Detects whether the function call occurs within a constant-evaluated context. Returns true if the evaluation of the call occurs within the evaluation of an expression or conversion that is manifestly constant-evaluated; otherwise returns false.  <a href="#a4ec5c14f53ef79e0b6debfffb6ce947f">More...</a><br /></td></tr>
+<tr class="separator:a4ec5c14f53ef79e0b6debfffb6ce947f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d">move</a> (T &amp;&amp;t) noexcept -&gt; typename <a class="el" href="structetl_1_1remove__reference.html">etl::remove_reference</a>&lt; T &gt;::type &amp;&amp;</td></tr>
 <tr class="memdesc:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#a89a16e8fe438511422a1576d9e1723fd" title="Moves the elements in the range [first, last), to another range beginning at d_first, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object. In particular, <a class="el" href="namespaceetl.html#a89a16e8fe438511422a1576d9e1723fd" title="Moves the elements in the range [first, last), to another range beginning at d_first, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> produces an xvalue expression that identifies its argument t. It is exactly equivalent to a static_cast to an rvalue reference type.  <a href="#a4165fb01e5de4a84bfd7367b5133cb3d">More...</a><br /></td></tr>
@@ -2542,6 +2551,22 @@ template&lt;class T , class... Args&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#ae0f7df2b4a088f13d067ec91336ad6d8">etl::kilo</a> = typedef <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt;1'000, 1&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="abffe34c79351f871acb3e0438b2ad488"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abffe34c79351f871acb3e0438b2ad488">&#9670;&nbsp;</a></span>make_signed_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl.html#abffe34c79351f871acb3e0438b2ad488">etl::make_signed_t</a> = typedef typename <a class="el" href="structetl_1_1make__signed.html">make_signed</a>&lt;T&gt;::type</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -6190,6 +6215,35 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Fills the range [first, last) with sequentially increasing values, starting with value and repetitively evaluating ++value. </p>
+
+</div>
+</div>
+<a id="a4ec5c14f53ef79e0b6debfffb6ce947f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ec5c14f53ef79e0b6debfffb6ce947f">&#9670;&nbsp;</a></span>is_constant_evaluated()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::is_constant_evaluated </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Detects whether the function call occurs within a constant-evaluated context. Returns true if the evaluation of the call occurs within the evaluation of an expression or conversion that is manifestly constant-evaluated; otherwise returns false. </p>
+<p><a href="https://en.cppreference.com/w/cpp/types/is_constant_evaluated">https://en.cppreference.com/w/cpp/types/is_constant_evaluated</a> </p>
 
 </div>
 </div>

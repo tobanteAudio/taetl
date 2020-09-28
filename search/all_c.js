@@ -3,6 +3,8 @@ var searchData=
   ['make_5fbuffer',['make_buffer',['../namespaceetl_1_1net.html#af3874b3eec6ece3b3bd8aecc139e8a4f',1,'etl::net::make_buffer(void *data, size_t size) noexcept -&gt; mutable_buffer'],['../namespaceetl_1_1net.html#abefb47c4c7c3c1cebcae5c3a95384790',1,'etl::net::make_buffer(void const *data, size_t size) noexcept -&gt; const_buffer']]],
   ['make_5foptional',['make_optional',['../namespaceetl.html#a43c80d5c10c1a11341e864197c701176',1,'etl::make_optional(ValueType &amp;&amp;value) -&gt; etl::optional&lt; etl::decay_t&lt; ValueType &gt;&gt;'],['../namespaceetl.html#a3100dac4a3eddc7d88a828b05513ccc0',1,'etl::make_optional(Args &amp;&amp;... args) -&gt; etl::optional&lt; ValueType &gt;']]],
   ['make_5fpair',['make_pair',['../namespaceetl.html#a638ad4db4d90fecc8d08227b1c214148',1,'etl']]],
+  ['make_5fsigned',['make_signed',['../structetl_1_1make__signed.html',1,'etl']]],
+  ['make_5fsigned_5ft',['make_signed_t',['../namespaceetl.html#abffe34c79351f871acb3e0438b2ad488',1,'etl']]],
   ['make_5funsigned',['make_unsigned',['../structetl_1_1make__unsigned.html',1,'etl']]],
   ['make_5funsigned_5ft',['make_unsigned_t',['../namespaceetl.html#acb2df53f4e399975501cf8300d451814',1,'etl']]],
   ['map',['map',['../classetl_1_1map.html',1,'etl::map&lt; KeyT, ValueT, Size, Compare &gt;'],['../classetl_1_1map.html#af4ee698c1ea77e2dd37d99767e4f79f9',1,'etl::map::map() noexcept'],['../classetl_1_1map.html#a4acf4c89813f314f97b74c2ff9dae1e3',1,'etl::map::map(map const &amp;other)'],['../classetl_1_1map.html#ab312c698a94275fd5ce9876f0472461c',1,'etl::map::map(map &amp;&amp;other) noexcept']]],

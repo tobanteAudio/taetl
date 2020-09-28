@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['make_5fsigned',['make_signed',['../structetl_1_1make__signed.html',1,'etl']]],
   ['make_5funsigned',['make_unsigned',['../structetl_1_1make__unsigned.html',1,'etl']]],
   ['map',['map',['../classetl_1_1map.html',1,'etl']]],
   ['map_5fview',['map_view',['../classetl_1_1map__view.html',1,'etl']]],
