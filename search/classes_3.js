@@ -1,6 +1,8 @@
 var searchData=
 [
   ['decay',['decay',['../structetl_1_1decay.html',1,'etl']]],
+  ['default_5fdelete',['default_delete',['../classetl_1_1default__delete.html',1,'etl']]],
+  ['default_5fdelete_3c_20t_5b_5d_3e',['default_delete&lt; T[]&gt;',['../classetl_1_1default__delete_3_01T[]_4.html',1,'etl']]],
   ['default_5fsearcher',['default_searcher',['../classetl_1_1default__searcher.html',1,'etl']]],
   ['defer_5flock_5ft',['defer_lock_t',['../structetl_1_1defer__lock__t.html',1,'etl']]],
   ['delay',['delay',['../structetl_1_1dsp_1_1delay.html',1,'etl::dsp']]],

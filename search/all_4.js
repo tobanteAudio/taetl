@@ -7,6 +7,8 @@ var searchData=
   ['decay_5ft',['decay_t',['../namespaceetl.html#ad602447fa93ad71f4db547fa0ae92883',1,'etl']]],
   ['deci',['deci',['../namespaceetl.html#a59f2e2c10ab4b06ed261d1e4a8358895',1,'etl']]],
   ['declval',['declval',['../namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292',1,'etl']]],
+  ['default_5fdelete',['default_delete',['../classetl_1_1default__delete.html',1,'etl::default_delete&lt; T &gt;'],['../classetl_1_1default__delete.html#ad1cdbb66ff724b592486456a19c9e8b6',1,'etl::default_delete::default_delete() noexcept=default'],['../classetl_1_1default__delete.html#aa444b2cc0249ee218c15af9aceba1aa6',1,'etl::default_delete::default_delete(const default_delete&lt; U &gt; &amp;) noexcept'],['../classetl_1_1default__delete_3_01T[]_4.html#a5a533895c5d109ad4c5d8c1aea772f13',1,'etl::default_delete&lt; T[]&gt;::default_delete() noexcept=default'],['../classetl_1_1default__delete_3_01T[]_4.html#af841cdc760667763ab4e55b338d8ade1',1,'etl::default_delete&lt; T[]&gt;::default_delete(const default_delete&lt; U[]&gt; &amp;) noexcept']]],
+  ['default_5fdelete_3c_20t_5b_5d_3e',['default_delete&lt; T[]&gt;',['../classetl_1_1default__delete_3_01T[]_4.html',1,'etl']]],
   ['default_5fsearcher',['default_searcher',['../classetl_1_1default__searcher.html',1,'etl::default_searcher&lt; ForwardIter, Predicate &gt;'],['../classetl_1_1default__searcher.html#a4ad60e354cefdd17d97ec32cf09d2637',1,'etl::default_searcher::default_searcher()']]],
   ['defer_5flock',['defer_lock',['../namespaceetl.html#a3e9e177fde5dc55ea58bb3771c37051a',1,'etl']]],
   ['defer_5flock_5ft',['defer_lock_t',['../structetl_1_1defer__lock__t.html',1,'etl::defer_lock_t'],['../structetl_1_1defer__lock__t.html#a142b9bb86afb0057c6bfb318fbbf549a',1,'etl::defer_lock_t::defer_lock_t()']]],

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1greater_3_01void_01_4.html" title="Function object for performing comparisons. Unless specialised, invokes operator&gt; on type T..." alt="" coords="5,5,157,32"/>
+<area shape="rect" id="node1" href="$classetl_1_1function__view_3_01Result_07Arguments_8_8_8_08_4.html" title="etl::function_view\l\&lt; Result(Arguments...)\&gt;" alt="" coords="5,5,187,47"/>
+<area shape="rect" id="node2" href="$classetl_1_1function_3_01Capacity_00_01Result_07Arguments_8_8_8_08_4.html" title="etl::function\&lt; Capacity,\l Result(Arguments...)\&gt;" alt="" coords="235,5,411,47"/>
 </map>
