@@ -124,6 +124,12 @@ Macros</h2></td></tr>
 <tr class="separator:a5e5322628b3857868ee48f4baa81d7e0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae0d1f9cf9b90fa012b8ec4ec5c7c6fb3"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#ae0d1f9cf9b90fa012b8ec4ec5c7c6fb3">TAETL_IS_UNION</a>(Type)&#160;&#160;&#160;__is_union(Type)</td></tr>
 <tr class="separator:ae0d1f9cf9b90fa012b8ec4ec5c7c6fb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6b688395f85ebfd0c80db164c234ee9c"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#a6b688395f85ebfd0c80db164c234ee9c">TAETL_IS_POLYMORPHIC</a>(Type)&#160;&#160;&#160;__is_polymorphic(Type)</td></tr>
+<tr class="separator:a6b688395f85ebfd0c80db164c234ee9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7bdcdb88bcb418d346aae4317f3a77f1"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#a7bdcdb88bcb418d346aae4317f3a77f1">TAETL_IS_FINAL</a>(Type)&#160;&#160;&#160;__is_final(Type)</td></tr>
+<tr class="separator:a7bdcdb88bcb418d346aae4317f3a77f1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bc719edb688a447b5d047e85afff4ad"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#a3bc719edb688a447b5d047e85afff4ad">TAETL_IS_ABSTRACT</a>(Type)&#160;&#160;&#160;__is_abstract(Type)</td></tr>
+<tr class="separator:a3bc719edb688a447b5d047e85afff4ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a37f45a093948fc4cb810b4c02d7636af"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#a37f45a093948fc4cb810b4c02d7636af">TAETL_HAS_VIRTUAL_DESTRUCTOR</a>(Type)&#160;&#160;&#160;__has_virtual_destructor(Type)</td></tr>
 <tr class="separator:a37f45a093948fc4cb810b4c02d7636af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a38ae93135b2d8784ba16f72efb24e6ff"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="intrinsics_8hpp.html#a38ae93135b2d8784ba16f72efb24e6ff">TAETL_IS_TRIVIAL_CONSTRUCTIBLE</a>(Type)&#160;&#160;&#160;__is_trivially_constructible(Type)</td></tr>
@@ -152,6 +158,24 @@ Macros</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname">Type</td><td>)</td>
           <td>&#160;&#160;&#160;__has_virtual_destructor(Type)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3bc719edb688a447b5d047e85afff4ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bc719edb688a447b5d047e85afff4ad">&#9670;&nbsp;</a></span>TAETL_IS_ABSTRACT</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAETL_IS_ABSTRACT</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type</td><td>)</td>
+          <td>&#160;&#160;&#160;__is_abstract(Type)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -239,6 +263,24 @@ Macros</h2></td></tr>
 
 </div>
 </div>
+<a id="a7bdcdb88bcb418d346aae4317f3a77f1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7bdcdb88bcb418d346aae4317f3a77f1">&#9670;&nbsp;</a></span>TAETL_IS_FINAL</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAETL_IS_FINAL</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type</td><td>)</td>
+          <td>&#160;&#160;&#160;__is_final(Type)</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ae5f771e240f6a271fe41b69a11111977"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae5f771e240f6a271fe41b69a11111977">&#9670;&nbsp;</a></span>TAETL_IS_NOTHROW_CONSTRUCTIBLE</h2>
 
@@ -251,6 +293,24 @@ Macros</h2></td></tr>
           <td class="paramtype">&#160;</td>
           <td class="paramname">Type</td><td>)</td>
           <td>&#160;&#160;&#160;true</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6b688395f85ebfd0c80db164c234ee9c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6b688395f85ebfd0c80db164c234ee9c">&#9670;&nbsp;</a></span>TAETL_IS_POLYMORPHIC</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">#define TAETL_IS_POLYMORPHIC</td>
+          <td>(</td>
+          <td class="paramtype">&#160;</td>
+          <td class="paramname">Type</td><td>)</td>
+          <td>&#160;&#160;&#160;__is_polymorphic(Type)</td>
         </tr>
       </table>
 </div><div class="memdoc">

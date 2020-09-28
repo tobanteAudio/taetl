@@ -266,6 +266,15 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__empty.html">etl::is_empty&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">f T is an empty type (that is, a non-union class type with no non-static data members other than bit-fields of size 0, no virtual functions, no virtual base classes, and no non-empty base classes), provides the member constant value equal to true. For any other type, value is false.  <a href="structetl_1_1is__empty.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__polymorphic.html">etl::is_polymorphic&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1is__polymorphic.html" title="is_polymorphic ">is_polymorphic</a>  <a href="structetl_1_1is__polymorphic.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__final.html">etl::is_final&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a final class (that is, a class declared with the final specifier), provides the member constant value equal true. For any other type, value is false. If T is a class type, T shall be a complete type; otherwise, the behavior is undefined.  <a href="structetl_1_1is__final.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__abstract.html">etl::is_abstract&lt; T &gt;</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1is__abstract.html" title="is_abstract ">is_abstract</a>  <a href="structetl_1_1is__abstract.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1is__reference.html">etl::is_reference&lt; T &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">If T is a reference type (lvalue reference or rvalue reference), provides the member constant value equal true. For any other type, value is false. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1is__reference.html" title="If T is a reference type (lvalue reference or rvalue reference), provides the member constant value e...">is_reference</a> or is_reference_v is undefined.  <a href="structetl_1_1is__reference.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -605,6 +614,15 @@ Variables</h2></td></tr>
 <tr class="memitem:a258143fbbaaef57434ff042f35db08a6"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a258143fbbaaef57434ff042f35db08a6"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a258143fbbaaef57434ff042f35db08a6">etl::is_empty_v</a> = is_empty&lt;T&gt;::value</td></tr>
 <tr class="separator:a258143fbbaaef57434ff042f35db08a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aca8f73739262829ccbc6f7400f3b2601"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:aca8f73739262829ccbc6f7400f3b2601"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aca8f73739262829ccbc6f7400f3b2601">etl::is_polymorphic_v</a> = is_polymorphic&lt;T&gt;::value</td></tr>
+<tr class="separator:aca8f73739262829ccbc6f7400f3b2601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0b8c484a0ff37fdfc1fc2c47b092ade2"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0b8c484a0ff37fdfc1fc2c47b092ade2"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0b8c484a0ff37fdfc1fc2c47b092ade2">etl::is_final_v</a> = is_final&lt;T&gt;::value</td></tr>
+<tr class="separator:a0b8c484a0ff37fdfc1fc2c47b092ade2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad586ed3dee38cd4cc1b409e607230ffb">etl::is_abstract_v</a> = is_abstract&lt;T&gt;::value</td></tr>
+<tr class="separator:ad586ed3dee38cd4cc1b409e607230ffb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a22294e9170ea0547c68724eabe0c8c5a"><td class="memTemplItemLeft" align="right" valign="top">constexpr bool&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a22294e9170ea0547c68724eabe0c8c5a">etl::is_reference_v</a> = is_reference&lt;T&gt;::value</td></tr>
 <tr class="separator:a22294e9170ea0547c68724eabe0c8c5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
