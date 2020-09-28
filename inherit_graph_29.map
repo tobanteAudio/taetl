@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1common__type_3_01etl_1_1chrono_1_1duration_3_01Rep1_00_01Period1_01_4_00_01etl_1_1cb97b81fdc5f26d47dec1bbf9c7339b38.html" title="Exposes the type named type, which is the common type of two etl::chrono::durations, whose period is the greatest common divisor of Period1 and Period2. " alt="" coords="5,5,224,76"/>
+<area shape="rect" id="node1" href="$structetl_1_1common__type.html" title="etl::common_type\&lt; common\l_type\&lt; T1, T2 \&gt;::type, R... \&gt;" alt="" coords="5,5,217,47"/>
 </map>

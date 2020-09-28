@@ -29,6 +29,8 @@ var searchData=
   ['address_5fin_5fuse',['address_in_use',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a8e2bc80599069d337b43dff6edfb6891',1,'etl']]],
   ['address_5fnot_5favailable',['address_not_available',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a20abf2ffbf6e82e36405843f269d6438',1,'etl']]],
   ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
+  ['adopt_5flock',['adopt_lock',['../namespaceetl.html#a03ee00292ff760cd8ecf8b41bb4de696',1,'etl']]],
+  ['adopt_5flock_5ft',['adopt_lock_t',['../structetl_1_1adopt__lock__t.html',1,'etl::adopt_lock_t'],['../structetl_1_1adopt__lock__t.html#aaadb452147fd23e2356982181576ff94',1,'etl::adopt_lock_t::adopt_lock_t()']]],
   ['advance',['advance',['../namespaceetl.html#ac45065b143a47fb9249bda8d57ccca63',1,'etl']]],
   ['algo_5fsearch_2ehpp',['algo_search.hpp',['../algo__search_8hpp.html',1,'']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],

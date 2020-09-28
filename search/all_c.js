@@ -51,5 +51,6 @@ var searchData=
   ['multiplies',['multiplies',['../structetl_1_1multiplies.html',1,'etl']]],
   ['multiplies_3c_20void_20_3e',['multiplies&lt; void &gt;',['../structetl_1_1multiplies_3_01void_01_4.html',1,'etl']]],
   ['mutable_5fbuffer',['mutable_buffer',['../classetl_1_1net_1_1mutable__buffer.html',1,'etl::net::mutable_buffer'],['../classetl_1_1net_1_1mutable__buffer.html#aaa3fa42f522e1df0e0482d6f757ac5f3',1,'etl::net::mutable_buffer::mutable_buffer() noexcept=default'],['../classetl_1_1net_1_1mutable__buffer.html#afe1efb7b67cac6999ebb603e7536a76c',1,'etl::net::mutable_buffer::mutable_buffer(void *data, etl::size_t size)']]],
-  ['mutex_2ehpp',['mutex.hpp',['../mutex_8hpp.html',1,'']]]
+  ['mutex_2ehpp',['mutex.hpp',['../mutex_8hpp.html',1,'']]],
+  ['mutex_5ftype',['mutex_type',['../classetl_1_1lock__guard.html#a194e74bde9a726d5d03d52705b00e01f',1,'etl::lock_guard']]]
 ];

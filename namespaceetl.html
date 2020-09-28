@@ -111,6 +111,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1add__volatile.html">add_volatile</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the member typedef type which is the same as T, except it has a cv-qualifier added (unless T is a function, a reference, or already has this cv-qualifier). Adds volatile.  <a href="structetl_1_1add__volatile.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1adopt__lock__t.html">adopt_lock_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty class tag types used to specify locking strategy for <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">etl::lock_guard</a>, <a class="el" href="classetl_1_1scoped__lock.html" title="RAII based lock. ">etl::scoped_lock</a>, etl::unique_lock, and etl::shared_lock.  <a href="structetl_1_1adopt__lock__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1aligned__storage.html">aligned_storage</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Provides the nested type type, which is a trivial standard-layout type suitable for use as uninitialized storage for any object whose size is at most Len and whose alignment requirement is a divisor of Align.  <a href="structetl_1_1aligned__storage.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -195,6 +198,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1default__searcher.html">default_searcher</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default searcher. A class suitable for use with Searcher overload of <a class="el" href="namespaceetl.html#a7813a73d80057255ef78a69804f2f361" title="Searches for the first occurrence of the sequence of elements [s_first, s_last) in the range [first...">etl::search</a> that delegates the search operation to the pre-C++17 standard library's <a class="el" href="namespaceetl.html#a7813a73d80057255ef78a69804f2f361" title="Searches for the first occurrence of the sequence of elements [s_first, s_last) in the range [first...">etl::search</a>.  <a href="classetl_1_1default__searcher.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1defer__lock__t.html">defer_lock_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty class tag types used to specify locking strategy for <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">etl::lock_guard</a>, <a class="el" href="classetl_1_1scoped__lock.html" title="RAII based lock. ">etl::scoped_lock</a>, etl::unique_lock, and etl::shared_lock.  <a href="structetl_1_1defer__lock__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1disjunction.html">disjunction</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Forms the logical disjunction of the type traits B..., effectively performing a logical OR on the sequence of traits.  <a href="structetl_1_1disjunction.html#details">More...</a><br /></td></tr>
@@ -503,6 +509,9 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1less__equal_3_01void_01_4.html">less_equal&lt; void &gt;</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing comparisons. Unless specialised, invokes operator&lt; on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1less__equal.html" title="Function object for performing comparisons. Unless specialised, invokes operator&lt;= on type T...">etl::less_equal</a> when T is not specified, which leaves the parameter types and return type to be deduced.  <a href="structetl_1_1less__equal_3_01void_01_4.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1lock__guard.html">lock_guard</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">lock_guard</a> is a mutex wrapper that provides a convenient RAII-style mechanism for owning a mutex for the duration of a scoped block. When a <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">lock_guard</a> object is created, it attempts to take ownership of the mutex it is given. When control leaves the scope in which the <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">lock_guard</a> object was created, the <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">lock_guard</a> is destructed and the mutex is released. The <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">lock_guard</a> class is non-copyable.  <a href="classetl_1_1lock__guard.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1logical__and.html">logical_and</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Function object for performing logical AND (logical conjunction). Effectively calls operator&amp;&amp; on type T.  <a href="structetl_1_1logical__and.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -712,6 +721,9 @@ Classes</h2></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html">static_vector</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Dynamically-resizable fixed-capacity vector.  <a href="classetl_1_1static__vector.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1try__to__lock__t.html">try_to_lock_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">Empty class tag types used to specify locking strategy for <a class="el" href="classetl_1_1lock__guard.html" title="The class lock_guard is a mutex wrapper that provides a convenient RAII-style mechanism for owning a ...">etl::lock_guard</a>, <a class="el" href="classetl_1_1scoped__lock.html" title="RAII based lock. ">etl::scoped_lock</a>, etl::unique_lock, and etl::shared_lock.  <a href="structetl_1_1try__to__lock__t.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1tuple.html">tuple</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1905,6 +1917,15 @@ Variables</h2></td></tr>
 <tr class="memitem:abf153d087d14c7ed7794a0a7d4f5d08d"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:abf153d087d14c7ed7794a0a7d4f5d08d"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abf153d087d14c7ed7794a0a7d4f5d08d">tuple_size_v</a> = <a class="el" href="structetl_1_1tuple__size.html">tuple_size</a>&lt;T&gt;::value</td></tr>
 <tr class="separator:abf153d087d14c7ed7794a0a7d4f5d08d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3e9e177fde5dc55ea58bb3771c37051a"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structetl_1_1defer__lock__t.html">defer_lock_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3e9e177fde5dc55ea58bb3771c37051a">defer_lock</a> {}</td></tr>
+<tr class="memdesc:a3e9e177fde5dc55ea58bb3771c37051a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instances of empty struct tag types. See <a class="el" href="structetl_1_1defer__lock__t.html" title="Empty class tag types used to specify locking strategy for etl::lock_guard, etl::scoped_lock, etl::unique_lock, and etl::shared_lock. ">defer_lock_t</a>.  <a href="#a3e9e177fde5dc55ea58bb3771c37051a">More...</a><br /></td></tr>
+<tr class="separator:a3e9e177fde5dc55ea58bb3771c37051a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a086e79db17e8b72ae86d834fad514b2e"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structetl_1_1try__to__lock__t.html">try_to_lock_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a086e79db17e8b72ae86d834fad514b2e">try_to_lock</a> {}</td></tr>
+<tr class="memdesc:a086e79db17e8b72ae86d834fad514b2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instances of empty struct tag types. See <a class="el" href="structetl_1_1try__to__lock__t.html" title="Empty class tag types used to specify locking strategy for etl::lock_guard, etl::scoped_lock, etl::unique_lock, and etl::shared_lock. ">try_to_lock_t</a>.  <a href="#a086e79db17e8b72ae86d834fad514b2e">More...</a><br /></td></tr>
+<tr class="separator:a086e79db17e8b72ae86d834fad514b2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a03ee00292ff760cd8ecf8b41bb4de696"><td class="memItemLeft" align="right" valign="top">constexpr <a class="el" href="structetl_1_1adopt__lock__t.html">adopt_lock_t</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a03ee00292ff760cd8ecf8b41bb4de696">adopt_lock</a> {}</td></tr>
+<tr class="memdesc:a03ee00292ff760cd8ecf8b41bb4de696"><td class="mdescLeft">&#160;</td><td class="mdescRight">Instances of empty struct tag types. See <a class="el" href="structetl_1_1adopt__lock__t.html" title="Empty class tag types used to specify locking strategy for etl::lock_guard, etl::scoped_lock, etl::unique_lock, and etl::shared_lock. ">adopt_lock_t</a>.  <a href="#a03ee00292ff760cd8ecf8b41bb4de696">More...</a><br /></td></tr>
+<tr class="separator:a03ee00292ff760cd8ecf8b41bb4de696"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a93d7a7601aedf2ce125a34a9d83b80a7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a93d7a7601aedf2ce125a34a9d83b80a7">nullopt</a> = <a class="el" href="structetl_1_1nullopt__t.html">etl::nullopt_t</a> {{}}</td></tr>
 <tr class="memdesc:a93d7a7601aedf2ce125a34a9d83b80a7"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#a93d7a7601aedf2ce125a34a9d83b80a7" title="etl::nullopt is a constant of type etl::nullopt_t that is used to indicate optional type with uniniti...">etl::nullopt</a> is a constant of type <a class="el" href="structetl_1_1nullopt__t.html" title="etl::nullopt_t is an empty class type used to indicate optional type with uninitialized state...">etl::nullopt_t</a> that is used to indicate optional type with uninitialized state.  <a href="#a93d7a7601aedf2ce125a34a9d83b80a7">More...</a><br /></td></tr>
 <tr class="separator:a93d7a7601aedf2ce125a34a9d83b80a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -11348,6 +11369,30 @@ template&lt;class InputIter , class OutputIter &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Variable Documentation</h2>
+<a id="a03ee00292ff760cd8ecf8b41bb4de696"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a03ee00292ff760cd8ecf8b41bb4de696">&#9670;&nbsp;</a></span>adopt_lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structetl_1_1adopt__lock__t.html">adopt_lock_t</a> etl::adopt_lock {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instances of empty struct tag types. See <a class="el" href="structetl_1_1adopt__lock__t.html" title="Empty class tag types used to specify locking strategy for etl::lock_guard, etl::scoped_lock, etl::unique_lock, and etl::shared_lock. ">adopt_lock_t</a>. </p>
+
+</div>
+</div>
 <a id="af0d9f32a20bf813fd8ce025d0aebbff5"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af0d9f32a20bf813fd8ce025d0aebbff5">&#9670;&nbsp;</a></span>conjunction_v</h2>
 
@@ -11369,6 +11414,30 @@ template&lt;class... B&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3e9e177fde5dc55ea58bb3771c37051a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9e177fde5dc55ea58bb3771c37051a">&#9670;&nbsp;</a></span>defer_lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structetl_1_1defer__lock__t.html">defer_lock_t</a> etl::defer_lock {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instances of empty struct tag types. See <a class="el" href="structetl_1_1defer__lock__t.html" title="Empty class tag types used to specify locking strategy for etl::lock_guard, etl::scoped_lock, etl::unique_lock, and etl::shared_lock. ">defer_lock_t</a>. </p>
 
 </div>
 </div>
@@ -13169,6 +13238,30 @@ template&lt;class R1 , class R2 &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+</div>
+</div>
+<a id="a086e79db17e8b72ae86d834fad514b2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a086e79db17e8b72ae86d834fad514b2e">&#9670;&nbsp;</a></span>try_to_lock</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="structetl_1_1try__to__lock__t.html">try_to_lock_t</a> etl::try_to_lock {}</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Instances of empty struct tag types. See <a class="el" href="structetl_1_1try__to__lock__t.html" title="Empty class tag types used to specify locking strategy for etl::lock_guard, etl::scoped_lock, etl::unique_lock, and etl::shared_lock. ">try_to_lock_t</a>. </p>
 
 </div>
 </div>

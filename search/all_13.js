@@ -42,6 +42,8 @@ var searchData=
   ['treat_5fas_5ffloating_5fpoint',['treat_as_floating_point',['../structetl_1_1chrono_1_1treat__as__floating__point.html',1,'etl::chrono']]],
   ['treat_5fas_5ffloating_5fpoint_5fv',['treat_as_floating_point_v',['../namespaceetl_1_1chrono.html#af67f1bb3314d5d528565a3e100ce15a8',1,'etl::chrono']]],
   ['true_5ftype',['true_type',['../namespaceetl.html#aa107a29afbb5288d6dceb9fae86b07b8',1,'etl']]],
+  ['try_5fto_5flock',['try_to_lock',['../namespaceetl.html#a086e79db17e8b72ae86d834fad514b2e',1,'etl']]],
+  ['try_5fto_5flock_5ft',['try_to_lock_t',['../structetl_1_1try__to__lock__t.html',1,'etl::try_to_lock_t'],['../structetl_1_1try__to__lock__t.html#af06a493d8a0eaf3bfb6dae59654e30a5',1,'etl::try_to_lock_t::try_to_lock_t()']]],
   ['tuple',['tuple',['../structetl_1_1tuple.html',1,'etl::tuple&lt; First, Rest &gt;'],['../structetl_1_1tuple.html#ab8e76ac29d0cbefcacf8542472cb57e4',1,'etl::tuple::tuple()'],['../structetl_1_1tuple_3_01First_01_4.html#aa04ae60dbe7c1cd3fc614143e58759e2',1,'etl::tuple&lt; First &gt;::tuple()']]],
   ['tuple_2ehpp',['tuple.hpp',['../tuple_8hpp.html',1,'']]],
   ['tuple_3c_20first_20_3e',['tuple&lt; First &gt;',['../structetl_1_1tuple_3_01First_01_4.html',1,'etl']]],
