@@ -1,20 +1,20 @@
 var searchData=
 [
   ['ln10',['ln10',['../namespaceetl_1_1numbers.html#a4245086951c77a15b2b44f6a1f8149e1',1,'etl::numbers']]],
-  ['ln10_5fv',['ln10_v',['../namespaceetl_1_1numbers.html#aad2757a37f56a87b3ae11a476923a22b',1,'etl::numbers']]],
+  ['ln10_5fv',['ln10_v',['../namespaceetl_1_1numbers.html#a905847204873cf2b5ccafb52cf2808e3',1,'etl::numbers']]],
   ['ln10f',['ln10f',['../namespaceetl_1_1numbers.html#a8ece0e1ceec505cf31d999f4968da0a8',1,'etl::numbers']]],
   ['ln10l',['ln10l',['../namespaceetl_1_1numbers.html#abe54be0dc010650358ae07397d92af8d',1,'etl::numbers']]],
   ['ln2',['ln2',['../namespaceetl_1_1numbers.html#ad9e921642619ab341e62af742bc3e797',1,'etl::numbers']]],
-  ['ln2_5fv',['ln2_v',['../namespaceetl_1_1numbers.html#a63747447df554e35b8121e574ed4a67c',1,'etl::numbers']]],
+  ['ln2_5fv',['ln2_v',['../namespaceetl_1_1numbers.html#a3f2b31dbd44fb1c29a0b12b633e4e4e3',1,'etl::numbers']]],
   ['ln2f',['ln2f',['../namespaceetl_1_1numbers.html#a8f4d0a5cdb9e591382176cb7c3c63131',1,'etl::numbers']]],
   ['ln2l',['ln2l',['../namespaceetl_1_1numbers.html#abb2199c499ca639678a6148154a97b4d',1,'etl::numbers']]],
   ['lock',['lock',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#acefd9292ceaa610f67fd70125de0856e',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['log10e',['log10e',['../namespaceetl_1_1numbers.html#a5ec8c8f73621f83dc793d8c8163fbac0',1,'etl::numbers']]],
-  ['log10e_5fv',['log10e_v',['../namespaceetl_1_1numbers.html#abcf4589b8f5afa76013186614afe47ad',1,'etl::numbers']]],
+  ['log10e_5fv',['log10e_v',['../namespaceetl_1_1numbers.html#af2e97977b41496dc42b1b2ab3c6c07c6',1,'etl::numbers']]],
   ['log10ef',['log10ef',['../namespaceetl_1_1numbers.html#a7762d126b80f573a5eea4ac5b6024d56',1,'etl::numbers']]],
   ['log10el',['log10el',['../namespaceetl_1_1numbers.html#ae4394c69c342cf5d48ae9857b372704b',1,'etl::numbers']]],
   ['log2e',['log2e',['../namespaceetl_1_1numbers.html#a4b4a1b90333844f91a168b6aa215d07c',1,'etl::numbers']]],
-  ['log2e_5fv',['log2e_v',['../namespaceetl_1_1numbers.html#ab38cf345dfc58ee3be348298b8cf3e67',1,'etl::numbers']]],
+  ['log2e_5fv',['log2e_v',['../namespaceetl_1_1numbers.html#a184fd78a90d67b3d26c0859bb1a41d9d',1,'etl::numbers']]],
   ['log2ef',['log2ef',['../namespaceetl_1_1numbers.html#a129d192c6e383221bbd809e4514ad299',1,'etl::numbers']]],
   ['log2el',['log2el',['../namespaceetl_1_1numbers.html#a9cb609f50073bc0fb2a7e285a160f1a7',1,'etl::numbers']]]
 ];
