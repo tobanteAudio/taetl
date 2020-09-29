@@ -26,7 +26,7 @@ var searchData=
   ['bit_5fwidth',['bit_width',['../namespaceetl.html#a9317469178624538d15a8e264d22887a',1,'etl']]],
   ['bit_5fxor',['bit_xor',['../structetl_1_1bit__xor.html',1,'etl']]],
   ['bit_5fxor_3c_20void_20_3e',['bit_xor&lt; void &gt;',['../structetl_1_1bit__xor_3_01void_01_4.html',1,'etl']]],
-  ['bitset',['bitset',['../classetl_1_1bitset.html',1,'etl::bitset&lt; NumberOfBits &gt;'],['../classetl_1_1bitset.html#aca15e7866be23897a6ebbb7e99641351',1,'etl::bitset::bitset()']]],
+  ['bitset',['bitset',['../classetl_1_1bitset.html',1,'etl::bitset&lt; NumberOfBits &gt;'],['../classetl_1_1bitset.html#aca15e7866be23897a6ebbb7e99641351',1,'etl::bitset::bitset() noexcept=default'],['../classetl_1_1bitset.html#ae23b74d54635c1a1643e103826a0488b',1,'etl::bitset::bitset(unsigned long long) noexcept']]],
   ['bitset_2ehpp',['bitset.hpp',['../bitset_8hpp.html',1,'']]],
   ['bool_5fconstant',['bool_constant',['../namespaceetl.html#aa19ff9e7939158584698cee4260e4471',1,'etl']]],
   ['broken_5fpipe',['broken_pipe',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a2f0338eed54503152be1d31c93c9c2f1',1,'etl']]],

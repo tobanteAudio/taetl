@@ -23,7 +23,7 @@ var searchData=
   ['copy_5fbackward',['copy_backward',['../namespaceetl.html#a9cac48e35a645442922221597ece14b1',1,'etl']]],
   ['copy_5fif',['copy_if',['../namespaceetl.html#a2066fbbe3ee185ee159011308414d8ed',1,'etl']]],
   ['copy_5fn',['copy_n',['../namespaceetl.html#aa65063d9f87cd088156f3d49bb32f2e5',1,'etl']]],
-  ['count',['count',['../classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72',1,'etl::chrono::duration::count()'],['../classetl_1_1map__view.html#ae62773dd7f9dbd300333660e5f27e902',1,'etl::map_view::count()'],['../namespaceetl.html#afe8c29a359a0bffc469225b6aeb0ae64',1,'etl::count()']]],
+  ['count',['count',['../classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72',1,'etl::chrono::duration::count()'],['../classetl_1_1map__view.html#ae62773dd7f9dbd300333660e5f27e902',1,'etl::map_view::count()'],['../namespaceetl.html#a12959aac739b3aca2ded392a4255ec12',1,'etl::count()']]],
   ['count_5fif',['count_if',['../namespaceetl.html#af949f9bf15cdfd7e8282705ab00ddcc3',1,'etl']]],
   ['countl_5fone',['countl_one',['../namespaceetl.html#a036c43ee12867c8bc74fe95022f175c3',1,'etl']]],
   ['countl_5fzero',['countl_zero',['../namespaceetl.html#a89028d9dc63da94a3c786df4c0a09f03',1,'etl']]],
