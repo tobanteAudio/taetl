@@ -7,7 +7,7 @@ var searchData=
   ['less_3c_20void_20_3e',['less&lt; void &gt;',['../structetl_1_1less_3_01void_01_4.html',1,'etl']]],
   ['less_5fequal',['less_equal',['../structetl_1_1less__equal.html',1,'etl']]],
   ['less_5fequal_3c_20void_20_3e',['less_equal&lt; void &gt;',['../structetl_1_1less__equal_3_01void_01_4.html',1,'etl']]],
-  ['lexicographical_5fcompare',['lexicographical_compare',['../namespaceetl.html#afe5ebb5d35320f153506765261d81a03',1,'etl::lexicographical_compare(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2, Compare comp) -&gt; bool'],['../namespaceetl.html#ae627d43cafd94be503c4082795951f33',1,'etl::lexicographical_compare(InputIt1 first1, InputIt1 last1, InputIt2 first2, InputIt2 last2) -&gt; bool']]],
+  ['lexicographical_5fcompare',['lexicographical_compare',['../namespaceetl.html#a22bf6272342dcb53c476905d305d5253',1,'etl::lexicographical_compare(InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2, Compare comp) -&gt; bool'],['../namespaceetl.html#a1b18462d7f6dac998d3af5eaf17d1dca',1,'etl::lexicographical_compare(InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2) -&gt; bool']]],
   ['limits_2ehpp',['limits.hpp',['../limits_8hpp.html',1,'']]],
   ['little',['little',['../namespaceetl.html#aadba129a7dc760f449b09b7fafeb63a8aaae6635e044ac56046b2893a529b5114',1,'etl']]],
   ['ln10',['ln10',['../namespaceetl_1_1numbers.html#a4245086951c77a15b2b44f6a1f8149e1',1,'etl::numbers']]],
