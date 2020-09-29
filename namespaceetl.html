@@ -1160,6 +1160,14 @@ Functions</h2></td></tr>
 <tr class="memitem:a934b1b48023aa9532f3f329fe18f1079"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a934b1b48023aa9532f3f329fe18f1079">mismatch</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; InputIter1, InputIter2 &gt;</td></tr>
 <tr class="memdesc:a934b1b48023aa9532f3f329fe18f1079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1).  <a href="#a934b1b48023aa9532f3f329fe18f1079">More...</a><br /></td></tr>
 <tr class="separator:a934b1b48023aa9532f3f329fe18f1079"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ba98486c230b754b2cabc1805b53c16"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename BinaryPredicate &gt; </td></tr>
+<tr class="memitem:a9ba98486c230b754b2cabc1805b53c16"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9ba98486c230b754b2cabc1805b53c16">adjacent_find</a> (ForwardIter first, ForwardIter last, BinaryPredicate pred) -&gt; ForwardIter</td></tr>
+<tr class="memdesc:a9ba98486c230b754b2cabc1805b53c16"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the range [first, last) for two consecutive equal elements.  <a href="#a9ba98486c230b754b2cabc1805b53c16">More...</a><br /></td></tr>
+<tr class="separator:a9ba98486c230b754b2cabc1805b53c16"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4fe91c66e3042bde20710111a8d622e4"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt &gt; </td></tr>
+<tr class="memitem:a4fe91c66e3042bde20710111a8d622e4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4fe91c66e3042bde20710111a8d622e4">adjacent_find</a> (ForwardIt first, ForwardIt last) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:a4fe91c66e3042bde20710111a8d622e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the range [first, last) for two consecutive equal elements.  <a href="#a4fe91c66e3042bde20710111a8d622e4">More...</a><br /></td></tr>
+<tr class="separator:a4fe91c66e3042bde20710111a8d622e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac504b45acce22fba5a962a6ba642c942"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename T &gt; </td></tr>
 <tr class="memitem:ac504b45acce22fba5a962a6ba642c942"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac504b45acce22fba5a962a6ba642c942">find</a> (InputIter first, InputIter last, T const &amp;value) noexcept -&gt; InputIter</td></tr>
 <tr class="memdesc:ac504b45acce22fba5a962a6ba642c942"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for an element equal to value.  <a href="#ac504b45acce22fba5a962a6ba642c942">More...</a><br /></td></tr>
@@ -1172,6 +1180,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a2a9d16dde42342fd1e6b91ea378af979"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2a9d16dde42342fd1e6b91ea378af979">find_if_not</a> (InputIter first, InputIter last, UnaryPredicate predicate) noexcept -&gt; InputIter</td></tr>
 <tr class="memdesc:a2a9d16dde42342fd1e6b91ea378af979"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for an element for which predicate q returns false.  <a href="#a2a9d16dde42342fd1e6b91ea378af979">More...</a><br /></td></tr>
 <tr class="separator:a2a9d16dde42342fd1e6b91ea378af979"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a153bb5f923b54433abe623a6846a903a"><td class="memTemplParams" colspan="2">template&lt;class InputIter , class ForwardIter , class BinaryPredicate &gt; </td></tr>
+<tr class="memitem:a153bb5f923b54433abe623a6846a903a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a153bb5f923b54433abe623a6846a903a">find_first_of</a> (InputIter first, InputIter last, ForwardIter s_first, ForwardIter s_last, BinaryPredicate pred) -&gt; InputIter</td></tr>
+<tr class="separator:a153bb5f923b54433abe623a6846a903a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af76b6e0c91c8150e8b4b7c1192337fe2"><td class="memTemplParams" colspan="2">template&lt;class InputIter , class ForwardIter &gt; </td></tr>
+<tr class="memitem:af76b6e0c91c8150e8b4b7c1192337fe2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af76b6e0c91c8150e8b4b7c1192337fe2">find_first_of</a> (InputIter first, InputIter last, ForwardIter s_first, ForwardIter s_last) -&gt; InputIter</td></tr>
+<tr class="separator:af76b6e0c91c8150e8b4b7c1192337fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7813a73d80057255ef78a69804f2f361"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter1 , typename ForwardIter2 , typename BinaryPredicate &gt; </td></tr>
 <tr class="memitem:a7813a73d80057255ef78a69804f2f361"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7813a73d80057255ef78a69804f2f361">search</a> (ForwardIter1 first, ForwardIter1 last, ForwardIter2 s_first, ForwardIter2 s_last, BinaryPredicate pred) -&gt; ForwardIter1</td></tr>
 <tr class="memdesc:a7813a73d80057255ef78a69804f2f361"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches for the first occurrence of the sequence of elements [s_first, s_last) in the range [first, last). Elements are compared using the given binary predicate <code>pred</code>.  <a href="#a7813a73d80057255ef78a69804f2f361">More...</a><br /></td></tr>
@@ -1184,6 +1198,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a358e4ef95efe7ae5429eb586dedf290f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a358e4ef95efe7ae5429eb586dedf290f">search</a> (ForwardIter first, ForwardIter last, Searcher const &amp;searcher) -&gt; ForwardIter</td></tr>
 <tr class="memdesc:a358e4ef95efe7ae5429eb586dedf290f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the sequence [first, last) for the pattern specified in the constructor of searcher.  <a href="#a358e4ef95efe7ae5429eb586dedf290f">More...</a><br /></td></tr>
 <tr class="separator:a358e4ef95efe7ae5429eb586dedf290f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae3d677a05e506fdaaad8076170be13c4"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename Size , typename ValueT , typename BinaryPredicate &gt; </td></tr>
+<tr class="memitem:ae3d677a05e506fdaaad8076170be13c4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae3d677a05e506fdaaad8076170be13c4">search_n</a> (ForwardIter first, ForwardIter last, Size <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, ValueT const &amp;value, BinaryPredicate pred) -&gt; ForwardIter</td></tr>
+<tr class="memdesc:ae3d677a05e506fdaaad8076170be13c4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the range [first, last) for the first sequence of count identical elements, each equal to the given value.  <a href="#ae3d677a05e506fdaaad8076170be13c4">More...</a><br /></td></tr>
+<tr class="separator:ae3d677a05e506fdaaad8076170be13c4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6c8fcaf19422ff5c92791797f6373260"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt , typename Size , typename ValueT &gt; </td></tr>
+<tr class="memitem:a6c8fcaf19422ff5c92791797f6373260"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6c8fcaf19422ff5c92791797f6373260">search_n</a> (ForwardIt first, ForwardIt last, Size <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, ValueT const &amp;value) -&gt; ForwardIt</td></tr>
+<tr class="memdesc:a6c8fcaf19422ff5c92791797f6373260"><td class="mdescLeft">&#160;</td><td class="mdescRight">Searches the range [first, last) for the first sequence of count identical elements, each equal to the given value.  <a href="#a6c8fcaf19422ff5c92791797f6373260">More...</a><br /></td></tr>
+<tr class="separator:a6c8fcaf19422ff5c92791797f6373260"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e77a31d2842fc3ce0d0830363d39429"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename UnaryPredicate &gt; </td></tr>
+<tr class="memitem:a8e77a31d2842fc3ce0d0830363d39429"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8e77a31d2842fc3ce0d0830363d39429">remove_if</a> (ForwardIter first, ForwardIter last, UnaryPredicate pred) -&gt; ForwardIter</td></tr>
+<tr class="memdesc:a8e77a31d2842fc3ce0d0830363d39429"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements satisfying specific criteria from the range [first, last) and returns a past-the-end iterator for the new end of the range.  <a href="#a8e77a31d2842fc3ce0d0830363d39429">More...</a><br /></td></tr>
+<tr class="separator:a8e77a31d2842fc3ce0d0830363d39429"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7c1a2e03a972777ccc64606b378160bb"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename T &gt; </td></tr>
+<tr class="memitem:a7c1a2e03a972777ccc64606b378160bb"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7c1a2e03a972777ccc64606b378160bb">remove</a> (ForwardIter first, ForwardIter last, const T &amp;value) -&gt; ForwardIter</td></tr>
+<tr class="memdesc:a7c1a2e03a972777ccc64606b378160bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements satisfying specific criteria from the range [first, last) and returns a past-the-end iterator for the new end of the range.  <a href="#a7c1a2e03a972777ccc64606b378160bb">More...</a><br /></td></tr>
+<tr class="separator:a7c1a2e03a972777ccc64606b378160bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fdd0cf88f36f44f8fe8ec8327cfac74"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
 <tr class="memitem:a7fdd0cf88f36f44f8fe8ec8327cfac74"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7fdd0cf88f36f44f8fe8ec8327cfac74">max</a> (Type const &amp;a, Type const &amp;b) noexcept -&gt; Type const &amp;</td></tr>
 <tr class="memdesc:a7fdd0cf88f36f44f8fe8ec8327cfac74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the greater of a and b.  <a href="#a7fdd0cf88f36f44f8fe8ec8327cfac74">More...</a><br /></td></tr>
@@ -3671,6 +3701,78 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
+<a id="a9ba98486c230b754b2cabc1805b53c16"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ba98486c230b754b2cabc1805b53c16">&#9670;&nbsp;</a></span>adjacent_find() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename BinaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::adjacent_find </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BinaryPredicate&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches the range [first, last) for two consecutive equal elements. </p>
+
+</div>
+</div>
+<a id="a4fe91c66e3042bde20710111a8d622e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4fe91c66e3042bde20710111a8d622e4">&#9670;&nbsp;</a></span>adjacent_find() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIt &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::adjacent_find </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches the range [first, last) for two consecutive equal elements. </p>
+
+</div>
+</div>
 <a id="ac45065b143a47fb9249bda8d57ccca63"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac45065b143a47fb9249bda8d57ccca63">&#9670;&nbsp;</a></span>advance()</h2>
 
@@ -5487,6 +5589,98 @@ template&lt;typename InputIter , typename T &gt; </div>
 <p>Searches for an element equal to value. </p>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="algorithm_8cpp-example.html#a6">algorithm.cpp</a>.</dd>
 </dl>
+</div>
+</div>
+<a id="a153bb5f923b54433abe623a6846a903a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a153bb5f923b54433abe623a6846a903a">&#9670;&nbsp;</a></span>find_first_of() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIter , class ForwardIter , class BinaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::find_first_of </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>s_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>s_last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BinaryPredicate&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; InputIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="af76b6e0c91c8150e8b4b7c1192337fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af76b6e0c91c8150e8b4b7c1192337fe2">&#9670;&nbsp;</a></span>find_first_of() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class InputIter , class ForwardIter &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::find_first_of </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>s_first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>s_last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; InputIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
 </div>
 </div>
 <a id="a0ee167552576c5bc91dc94fd1fc8324d"></a>
@@ -10585,6 +10779,84 @@ template&lt;class BidirIt &gt; </div>
 
 </div>
 </div>
+<a id="a7c1a2e03a972777ccc64606b378160bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7c1a2e03a972777ccc64606b378160bb">&#9670;&nbsp;</a></span>remove()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::remove </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes all elements satisfying specific criteria from the range [first, last) and returns a past-the-end iterator for the new end of the range. </p>
+
+</div>
+</div>
+<a id="a8e77a31d2842fc3ce0d0830363d39429"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e77a31d2842fc3ce0d0830363d39429">&#9670;&nbsp;</a></span>remove_if()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::remove_if </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Removes all elements satisfying specific criteria from the range [first, last) and returns a past-the-end iterator for the new end of the range. </p>
+
+</div>
+</div>
 <a id="a9590c66ecd3e2668da22396b36470994"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a9590c66ecd3e2668da22396b36470994">&#9670;&nbsp;</a></span>reverse()</h2>
 
@@ -10850,6 +11122,102 @@ template&lt;typename ForwardIter , typename Searcher &gt; </div>
 </div><div class="memdoc">
 
 <p>Searches the sequence [first, last) for the pattern specified in the constructor of searcher. </p>
+
+</div>
+</div>
+<a id="ae3d677a05e506fdaaad8076170be13c4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae3d677a05e506fdaaad8076170be13c4">&#9670;&nbsp;</a></span>search_n() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename Size , typename ValueT , typename BinaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::search_n </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ValueT const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BinaryPredicate&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches the range [first, last) for the first sequence of count identical elements, each equal to the given value. </p>
+
+</div>
+</div>
+<a id="a6c8fcaf19422ff5c92791797f6373260"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6c8fcaf19422ff5c92791797f6373260">&#9670;&nbsp;</a></span>search_n() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIt , typename Size , typename ValueT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::search_n </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ValueT const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Searches the range [first, last) for the first sequence of count identical elements, each equal to the given value. </p>
 
 </div>
 </div>
