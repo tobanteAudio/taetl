@@ -105,10 +105,10 @@ This graph shows which files directly or indirectly include this file:</div>
 <div class="center"><img src="algorithm_8hpp__dep__incl.png" border="0" usemap="#etl_2algorithm_8hppdep" alt=""/></div>
 <map name="etl_2algorithm_8hppdep" id="etl_2algorithm_8hppdep">
 <area shape="rect" id="node2" href="array_8hpp.html" title="etl/array.hpp" alt="" coords="653,80,756,107"/>
-<area shape="rect" id="node10" href="static__vector_8hpp.html" title="etl/static_vector.hpp" alt="" coords="1023,162,1178,189"/>
-<area shape="rect" id="node11" href="map_8hpp.html" title="etl/map.hpp" alt="" coords="985,80,1085,107"/>
-<area shape="rect" id="node12" href="optional_8hpp.html" title="etl/optional.hpp" alt="" coords="1109,80,1233,107"/>
-<area shape="rect" id="node13" href="string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="1257,80,1403,107"/>
+<area shape="rect" id="node10" href="vector_8hpp.html" title="etl/vector.hpp" alt="" coords="1023,162,1133,189"/>
+<area shape="rect" id="node11" href="map_8hpp.html" title="etl/map.hpp" alt="" coords="973,80,1073,107"/>
+<area shape="rect" id="node12" href="optional_8hpp.html" title="etl/optional.hpp" alt="" coords="1097,80,1221,107"/>
+<area shape="rect" id="node13" href="string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="1245,80,1391,107"/>
 <area shape="rect" id="node3" href="bitset_8hpp.html" title="etl/bitset.hpp" alt="" coords="5,162,113,189"/>
 <area shape="rect" id="node4" href="dsp_8hpp.html" title="etl/experimental/dsp\l/dsp.hpp" alt="" coords="138,155,295,196"/>
 <area shape="rect" id="node5" href="interrupt_8hpp.html" title="etl/experimental/hardware\l/stm32/interrupt.hpp" alt="" coords="319,155,514,196"/>
@@ -366,6 +366,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0512bc5f4147d65b4de29c284371f385"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0512bc5f4147d65b4de29c284371f385">etl::fill</a> (ForwardIter first, ForwardIter last, T const &amp;value) -&gt; void</td></tr>
 <tr class="memdesc:a0512bc5f4147d65b4de29c284371f385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the given value to the elements in the range [first, last).  <a href="namespaceetl.html#a0512bc5f4147d65b4de29c284371f385">More...</a><br /></td></tr>
 <tr class="separator:a0512bc5f4147d65b4de29c284371f385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98adaea3f6515215086ef2f7a31d04df"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename Size , typename T &gt; </td></tr>
+<tr class="memitem:a98adaea3f6515215086ef2f7a31d04df"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a98adaea3f6515215086ef2f7a31d04df">etl::fill_n</a> (OutputIter first, Size count, const T &amp;value) -&gt; OutputIter</td></tr>
+<tr class="memdesc:a98adaea3f6515215086ef2f7a31d04df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the given value to the first count elements in the range beginning at first if count &gt; 0. Does nothing otherwise.  <a href="namespaceetl.html#a98adaea3f6515215086ef2f7a31d04df">More...</a><br /></td></tr>
+<tr class="separator:a98adaea3f6515215086ef2f7a31d04df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5643f3eb1ca8c4e0028a62ab747962fb"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 , typename BinaryPredicate &gt; </td></tr>
 <tr class="memitem:a5643f3eb1ca8c4e0028a62ab747962fb"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5643f3eb1ca8c4e0028a62ab747962fb">etl::equal</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, BinaryPredicate p) -&gt; bool</td></tr>
 <tr class="memdesc:a5643f3eb1ca8c4e0028a62ab747962fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the range [first1, last1) is equal to the range [first2, first2.  <a href="namespaceetl.html#a5643f3eb1ca8c4e0028a62ab747962fb">More...</a><br /></td></tr>

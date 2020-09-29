@@ -75,7 +75,7 @@ $(function() {
 <p>Dynamically-resizable fixed-capacity vector.  
  <a href="classetl_1_1static__vector.html#details">More...</a></p>
 
-<p><code>#include &lt;<a class="el" href="static__vector_8hpp_source.html">static_vector.hpp</a>&gt;</code></p>
+<p><code>#include &lt;<a class="el" href="vector_8hpp_source.html">vector.hpp</a>&gt;</code></p>
 <div class="dynheader">
 Inheritance diagram for etl::static_vector&lt; T, Capacity &gt;:</div>
 <div class="dyncontent">
@@ -488,7 +488,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Initializes vector with <code>n</code> default-constructed elements. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>FCV_REQUIRES(<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v&lt;T&gt;</a> || <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a>) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>FCV_REQUIRES(<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v&lt;T&gt;</a> || <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a>) </dd></dl>
 
 </div>
 </div>
@@ -529,7 +529,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Initializes vector with <code>n</code> with <code>value</code>. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>FCV_REQUIRES(etl::is_copy_constructible_v&lt;T&gt;) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>FCV_REQUIRES(etl::is_copy_constructible_v&lt;T&gt;) </dd></dl>
 
 </div>
 </div>
@@ -572,7 +572,7 @@ template&lt;typename InputIter &gt; </div>
 </div><div class="memdoc">
 
 <p>Initialize vector from range [first, last). </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>FCV_REQUIRES_(detail::InputIterator&lt;InputIt&gt;) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000031">Todo:</a></b></dt><dd>FCV_REQUIRES_(detail::InputIterator&lt;InputIt&gt;) </dd></dl>
 
 </div>
 </div>
@@ -1559,7 +1559,7 @@ template&lt;typename U &gt; </div>
 </div><div class="memdoc">
 
 <p>Appends <code>value</code> at the end of the vector. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Add noexcept(noexcept(emplace_back(etl::forward&lt;U&gt;(value)))) breaks AVR build GCC8.2 currently. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Add noexcept(noexcept(emplace_back(etl::forward&lt;U&gt;(value)))) breaks AVR build GCC8.2 currently. </dd></dl>
 
 </div>
 </div>
@@ -1694,7 +1694,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div>
 </div>
 <hr/>The documentation for this class was generated from the following file:<ul>
-<li>etl/<a class="el" href="static__vector_8hpp_source.html">static_vector.hpp</a></li>
+<li>etl/<a class="el" href="vector_8hpp_source.html">vector.hpp</a></li>
 </ul>
 </div><!-- contents -->
 <!-- start footer part -->

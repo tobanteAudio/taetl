@@ -126,8 +126,8 @@ Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a LegacyOutputIterator that appends to a container for which it was constructed. The container's push_back() member function is called whenever the iterator (whether dereferenced or not) is assigned to. Incrementing the <a class="el" href="classetl_1_1back__insert__iterator.html" title="etl::back_insert_iterator is a LegacyOutputIterator that appends to a container for which it was cons...">etl::back_insert_iterator</a> is a no-op.  <a href="classetl_1_1back__insert__iterator.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string.html">basic_string</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1basic__string.html" title="basic_string class with fixed size capacity. ">basic_string</a> class with fixed size capacity.  <a href="classetl_1_1basic__string.html#details">More...</a><br /></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">basic_static_string</a> class with fixed size capacity.  <a href="classetl_1_1basic__static__string.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a></td></tr>
 <tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The class template <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> describes an object that can refer to a constant contiguous sequence of char-like objects with the first element of the sequence at position zero. A typical implementation holds only two members: a pointer to constant CharType and a size.  <a href="classetl_1_1basic__string__view.html#details">More...</a><br /></td></tr>
@@ -870,11 +870,9 @@ Typedefs</h2></td></tr>
 <tr class="separator:ac2de582631c8b0507fa316267f24ae3b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a525a461cc6d062b7138a777cadacac47"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a525a461cc6d062b7138a777cadacac47">exa</a> = <a class="el" href="structetl_1_1ratio.html">ratio</a>&lt; 1 '000 '000 '000 '000 '000 '000, 1 &gt;</td></tr>
 <tr class="separator:a525a461cc6d062b7138a777cadacac47"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af2769dde06d41131748597077535e2cc"><td class="memTemplParams" colspan="2">template&lt;etl::size_t Capacity&gt; </td></tr>
-<tr class="memitem:af2769dde06d41131748597077535e2cc"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af2769dde06d41131748597077535e2cc">string</a> = <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt; char, Capacity &gt;</td></tr>
-<tr class="separator:af2769dde06d41131748597077535e2cc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9bffa043c410459eda373247f384b9e2"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9bffa043c410459eda373247f384b9e2">small_string</a> = <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt; char, 32 &gt;</td></tr>
-<tr class="separator:a9bffa043c410459eda373247f384b9e2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8dfb181ab4cdace72138dcfb3b7b8e27"><td class="memTemplParams" colspan="2">template&lt;etl::size_t Capacity&gt; </td></tr>
+<tr class="memitem:a8dfb181ab4cdace72138dcfb3b7b8e27"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8dfb181ab4cdace72138dcfb3b7b8e27">static_string</a> = <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; char, Capacity &gt;</td></tr>
+<tr class="separator:a8dfb181ab4cdace72138dcfb3b7b8e27"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a41ec92a1e825e31fc024b95f85aed1da"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">string_view</a> = <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; char, <a class="el" href="structetl_1_1char__traits.html">etl::char_traits</a>&lt; char &gt; &gt;</td></tr>
 <tr class="memdesc:a41ec92a1e825e31fc024b95f85aed1da"><td class="mdescLeft">&#160;</td><td class="mdescRight">Typedefs for common character type.  <a href="#a41ec92a1e825e31fc024b95f85aed1da">More...</a><br /></td></tr>
 <tr class="separator:a41ec92a1e825e31fc024b95f85aed1da"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1337,6 +1335,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0512bc5f4147d65b4de29c284371f385"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0512bc5f4147d65b4de29c284371f385">fill</a> (ForwardIter first, ForwardIter last, T const &amp;value) -&gt; void</td></tr>
 <tr class="memdesc:a0512bc5f4147d65b4de29c284371f385"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the given value to the elements in the range [first, last).  <a href="#a0512bc5f4147d65b4de29c284371f385">More...</a><br /></td></tr>
 <tr class="separator:a0512bc5f4147d65b4de29c284371f385"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98adaea3f6515215086ef2f7a31d04df"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename Size , typename T &gt; </td></tr>
+<tr class="memitem:a98adaea3f6515215086ef2f7a31d04df"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a98adaea3f6515215086ef2f7a31d04df">fill_n</a> (OutputIter first, Size <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, const T &amp;value) -&gt; OutputIter</td></tr>
+<tr class="memdesc:a98adaea3f6515215086ef2f7a31d04df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the given value to the first count elements in the range beginning at first if count &gt; 0. Does nothing otherwise.  <a href="#a98adaea3f6515215086ef2f7a31d04df">More...</a><br /></td></tr>
+<tr class="separator:a98adaea3f6515215086ef2f7a31d04df"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5643f3eb1ca8c4e0028a62ab747962fb"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 , typename BinaryPredicate &gt; </td></tr>
 <tr class="memitem:a5643f3eb1ca8c4e0028a62ab747962fb"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5643f3eb1ca8c4e0028a62ab747962fb">equal</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, BinaryPredicate p) -&gt; bool</td></tr>
 <tr class="memdesc:a5643f3eb1ca8c4e0028a62ab747962fb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the range [first1, last1) is equal to the range [first2, first2.  <a href="#a5643f3eb1ca8c4e0028a62ab747962fb">More...</a><br /></td></tr>
@@ -1806,24 +1808,6 @@ Functions</h2></td></tr>
 <tr class="memitem:adc55cb127ec094c3dbdec3ed03452ebc"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adc55cb127ec094c3dbdec3ed03452ebc">span</a> (Container const &amp;) -&gt; <a class="el" href="classetl_1_1span.html">span</a>&lt; Element &gt;</td></tr>
 <tr class="memdesc:adc55cb127ec094c3dbdec3ed03452ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction Guides. From Container const.  <a href="#adc55cb127ec094c3dbdec3ed03452ebc">More...</a><br /></td></tr>
 <tr class="separator:adc55cb127ec094c3dbdec3ed03452ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
-<tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9d3aa3446aca179d812252faf83360c6">operator==</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
-<tr class="separator:a9d3aa3446aca179d812252faf83360c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
-<tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab0dfb93223a9c8e4413fe9368cd36046">operator&lt;</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
-<tr class="separator:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
-<tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3d2867e9d12d25137a50a1b3aee3c5a7">operator!=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
-<tr class="separator:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
-<tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a715395c53fa693969e269ef5af1972e6">operator&lt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
-<tr class="separator:a715395c53fa693969e269ef5af1972e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
-<tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad4fd2ea0cf33ad9339a54469a92f5121">operator&gt;</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
-<tr class="separator:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
-<tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aebf47ed021fd1e8bfbc389525967e551">operator&gt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
-<tr class="separator:aebf47ed021fd1e8bfbc389525967e551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32f6e7555448a64b1558e3f5b9771718"><td class="memTemplParams" colspan="2">template&lt;class CharType , class Traits &gt; </td></tr>
 <tr class="memitem:a32f6e7555448a64b1558e3f5b9771718"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a32f6e7555448a64b1558e3f5b9771718">operator==</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a32f6e7555448a64b1558e3f5b9771718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#a32f6e7555448a64b1558e3f5b9771718">More...</a><br /></td></tr>
@@ -1968,6 +1952,24 @@ Functions</h2></td></tr>
 <tr class="memitem:a6793464788b24ea02472dc48eb208218"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6793464788b24ea02472dc48eb208218">get_if</a> (<a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; const *pv) noexcept -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt; <a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt; I, <a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt;&gt; const &gt;</td></tr>
 <tr class="memdesc:a6793464788b24ea02472dc48eb208218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant.  <a href="#a6793464788b24ea02472dc48eb208218">More...</a><br /></td></tr>
 <tr class="separator:a6793464788b24ea02472dc48eb208218"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9d3aa3446aca179d812252faf83360c6">operator==</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="separator:a9d3aa3446aca179d812252faf83360c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab0dfb93223a9c8e4413fe9368cd36046">operator&lt;</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="separator:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3d2867e9d12d25137a50a1b3aee3c5a7">operator!=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="separator:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a715395c53fa693969e269ef5af1972e6">operator&lt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="separator:a715395c53fa693969e269ef5af1972e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad4fd2ea0cf33ad9339a54469a92f5121">operator&gt;</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="separator:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aebf47ed021fd1e8bfbc389525967e551">operator&gt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="separator:aebf47ed021fd1e8bfbc389525967e551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b">is_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
 <tr class="memdesc:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the given standard and the currently configurated in the compiler match.  <a href="#ad763c7f65a817a0ba3f58cf0d5672d1b">More...</a><br /></td></tr>
 <tr class="separator:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -3073,14 +3075,16 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a9bffa043c410459eda373247f384b9e2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9bffa043c410459eda373247f384b9e2">&#9670;&nbsp;</a></span>small_string</h2>
+<a id="a8dfb181ab4cdace72138dcfb3b7b8e27"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8dfb181ab4cdace72138dcfb3b7b8e27">&#9670;&nbsp;</a></span>static_string</h2>
 
 <div class="memitem">
 <div class="memproto">
+<div class="memtemplate">
+template&lt;etl::size_t Capacity&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#a9bffa043c410459eda373247f384b9e2">etl::small_string</a> = typedef <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt;char, 32&gt;</td>
+          <td class="memname">using <a class="el" href="namespaceetl.html#a8dfb181ab4cdace72138dcfb3b7b8e27">etl::static_string</a> = typedef <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt;char, Capacity&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -3095,22 +3099,6 @@ template&lt;class T &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="namespaceetl.html#a38946ce496aa3f045c07f32b2e4ca374">etl::streamoff</a> = typedef int</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="af2769dde06d41131748597077535e2cc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af2769dde06d41131748597077535e2cc">&#9670;&nbsp;</a></span>string</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;etl::size_t Capacity&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">using <a class="el" href="namespaceetl.html#af2769dde06d41131748597077535e2cc">etl::string</a> = typedef <a class="el" href="classetl_1_1basic__string.html">basic_string</a>&lt;char, Capacity&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -5543,6 +5531,46 @@ template&lt;typename ForwardIter , typename T &gt; </div>
 
 </div>
 </div>
+<a id="a98adaea3f6515215086ef2f7a31d04df"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98adaea3f6515215086ef2f7a31d04df">&#9670;&nbsp;</a></span>fill_n()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename OutputIter , typename Size , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::fill_n </td>
+          <td>(</td>
+          <td class="paramtype">OutputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Size&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; OutputIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Assigns the given value to the first count elements in the range beginning at first if count &gt; 0. Does nothing otherwise. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator one past the last element assigned if count &gt; 0, first otherwise. </dd></dl>
+
+</div>
+</div>
 <a id="ac504b45acce22fba5a962a6ba642c942"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac504b45acce22fba5a962a6ba642c942">&#9670;&nbsp;</a></span>find()</h2>
 
@@ -6134,7 +6162,7 @@ template&lt;etl::size_t I, class... Types&gt; </div>
 
 <p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
 <p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Implement </dd></dl>
 
 </div>
 </div>
@@ -6167,7 +6195,7 @@ template&lt;etl::size_t I, class... Types&gt; </div>
 
 <p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
 <p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Implement </dd></dl>
 
 </div>
 </div>
