@@ -227,12 +227,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4018fb3a17d69d893bd0892be1903796"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a4018fb3a17d69d893bd0892be1903796">insert</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> const index, <a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> const <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
 <tr class="memdesc:a4018fb3a17d69d893bd0892be1903796"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the characters in the range [s, s+count) at the position index. The range can contain null characters.  <a href="#a4018fb3a17d69d893bd0892be1903796">More...</a><br /></td></tr>
 <tr class="separator:a4018fb3a17d69d893bd0892be1903796"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af28f84c005bd4059e2b8e53acf747738"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#af28f84c005bd4059e2b8e53acf747738">resize</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, CharType ch) noexcept -&gt; void</td></tr>
-<tr class="memdesc:af28f84c005bd4059e2b8e53acf747738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the string to contain count characters.  <a href="#af28f84c005bd4059e2b8e53acf747738">More...</a><br /></td></tr>
-<tr class="separator:af28f84c005bd4059e2b8e53acf747738"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3b07751c06d101b056f72fea64630e5a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a3b07751c06d101b056f72fea64630e5a">resize</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) noexcept -&gt; void</td></tr>
-<tr class="memdesc:a3b07751c06d101b056f72fea64630e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the string to contain count characters.  <a href="#a3b07751c06d101b056f72fea64630e5a">More...</a><br /></td></tr>
-<tr class="separator:a3b07751c06d101b056f72fea64630e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1e556d7b7327376260ac23bcf4cb6688"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a1e556d7b7327376260ac23bcf4cb6688">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str) const noexcept -&gt; int</td></tr>
 <tr class="memdesc:a1e556d7b7327376260ac23bcf4cb6688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this string to str.  <a href="#a1e556d7b7327376260ac23bcf4cb6688">More...</a><br /></td></tr>
 <tr class="separator:a1e556d7b7327376260ac23bcf4cb6688"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -243,7 +237,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adce42fba5b92c28f42002d8b797c3fe2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#adce42fba5b92c28f42002d8b797c3fe2">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str) const -&gt; int</td></tr>
 <tr class="memdesc:adce42fba5b92c28f42002d8b797c3fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to str. If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>).  <a href="#adce42fba5b92c28f42002d8b797c3fe2">More...</a><br /></td></tr>
 <tr class="separator:adce42fba5b92c28f42002d8b797c3fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#acfbddd2848d6d7c72e8f9bd1d5865e33">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos2, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count2=<a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a>) const -&gt; int</td></tr>
+<tr class="memitem:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#acfbddd2848d6d7c72e8f9bd1d5865e33">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos2, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count2=<a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a>) const -&gt; int</td></tr>
 <tr class="memdesc:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to a substring [pos2, pos2+count2) of str. If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a> - pos1 the first substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). Likewise, count2 &gt; <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a> - pos2 the second substring is [pos2, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a>).  <a href="#acfbddd2848d6d7c72e8f9bd1d5865e33">More...</a><br /></td></tr>
 <tr class="separator:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad8f2f254e396faf25b0a34ad6d5d840b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ad8f2f254e396faf25b0a34ad6d5d840b">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s) const -&gt; int</td></tr>
@@ -273,15 +267,51 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2b8fc944c09f3f85919561dca876542c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a2b8fc944c09f3f85919561dca876542c">ends_with</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> str) const -&gt; bool</td></tr>
 <tr class="memdesc:a2b8fc944c09f3f85919561dca876542c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#a2b8fc944c09f3f85919561dca876542c">More...</a><br /></td></tr>
 <tr class="separator:a2b8fc944c09f3f85919561dca876542c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a224c951050a8ad84fadfb7b350d42fe7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a224c951050a8ad84fadfb7b350d42fe7">substr</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>=<a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a></td></tr>
+<tr class="memitem:a224c951050a8ad84fadfb7b350d42fe7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a224c951050a8ad84fadfb7b350d42fe7">substr</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>=<a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a></td></tr>
 <tr class="memdesc:a224c951050a8ad84fadfb7b350d42fe7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a substring [pos, pos+count). If the requested substring extends past the end of the string, or if count == npos, the returned substring is [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>).  <a href="#a224c951050a8ad84fadfb7b350d42fe7">More...</a><br /></td></tr>
 <tr class="separator:a224c951050a8ad84fadfb7b350d42fe7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad70a17167ce040688d94d2c14a0b794"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#aad70a17167ce040688d94d2c14a0b794">copy</a> (<a class="el" href="classetl_1_1basic__static__string.html#a8194c085c71841d988d75e8b068d2f91">pointer</a> destination, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:aad70a17167ce040688d94d2c14a0b794"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies a substring [pos, pos+count) to character string pointed to by dest. If the requested substring lasts past the end of the string, or if count == npos, the copied substring is [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). The resulting character string is not null-terminated.  <a href="#aad70a17167ce040688d94d2c14a0b794">More...</a><br /></td></tr>
+<tr class="separator:aad70a17167ce040688d94d2c14a0b794"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af28f84c005bd4059e2b8e53acf747738"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#af28f84c005bd4059e2b8e53acf747738">resize</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, CharType ch) noexcept -&gt; void</td></tr>
+<tr class="memdesc:af28f84c005bd4059e2b8e53acf747738"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the string to contain count characters.  <a href="#af28f84c005bd4059e2b8e53acf747738">More...</a><br /></td></tr>
+<tr class="separator:af28f84c005bd4059e2b8e53acf747738"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3b07751c06d101b056f72fea64630e5a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a3b07751c06d101b056f72fea64630e5a">resize</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) noexcept -&gt; void</td></tr>
+<tr class="memdesc:a3b07751c06d101b056f72fea64630e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the string to contain count characters.  <a href="#a3b07751c06d101b056f72fea64630e5a">More...</a><br /></td></tr>
+<tr class="separator:a3b07751c06d101b056f72fea64630e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa3f61f2f919f4e9043f3de4de717d4af"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#aa3f61f2f919f4e9043f3de4de717d4af">swap</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;other) noexcept -&gt; void</td></tr>
+<tr class="memdesc:aa3f61f2f919f4e9043f3de4de717d4af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the contents of the string with those of other. All iterators and references may be invalidated.  <a href="#aa3f61f2f919f4e9043f3de4de717d4af">More...</a><br /></td></tr>
+<tr class="separator:aa3f61f2f919f4e9043f3de4de717d4af"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a99ef8d606f047f06fa1ec7e4ee946972"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a99ef8d606f047f06fa1ec7e4ee946972">find</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:a99ef8d606f047f06fa1ec7e4ee946972"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos.  <a href="#a99ef8d606f047f06fa1ec7e4ee946972">More...</a><br /></td></tr>
+<tr class="separator:a99ef8d606f047f06fa1ec7e4ee946972"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9097d1eadfd2213b9837d1eeb0d3d742"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a9097d1eadfd2213b9837d1eeb0d3d742">find</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:a9097d1eadfd2213b9837d1eeb0d3d742"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos.  <a href="#a9097d1eadfd2213b9837d1eeb0d3d742">More...</a><br /></td></tr>
+<tr class="separator:a9097d1eadfd2213b9837d1eeb0d3d742"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af195a48e122f345954c23ba05bfb0cb3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#af195a48e122f345954c23ba05bfb0cb3">find</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:af195a48e122f345954c23ba05bfb0cb3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos.  <a href="#af195a48e122f345954c23ba05bfb0cb3">More...</a><br /></td></tr>
+<tr class="separator:af195a48e122f345954c23ba05bfb0cb3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a058635bd2e752b45f0e60800f9bba91b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a058635bd2e752b45f0e60800f9bba91b">find</a> (<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> ch, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:a058635bd2e752b45f0e60800f9bba91b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos.  <a href="#a058635bd2e752b45f0e60800f9bba91b">More...</a><br /></td></tr>
+<tr class="separator:a058635bd2e752b45f0e60800f9bba91b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a103067f69d29b96bd66cb56fbc09a3ac"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a103067f69d29b96bd66cb56fbc09a3ac">find_first_of</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:a103067f69d29b96bd66cb56fbc09a3ac"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned.  <a href="#a103067f69d29b96bd66cb56fbc09a3ac">More...</a><br /></td></tr>
+<tr class="separator:a103067f69d29b96bd66cb56fbc09a3ac"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba46b5aaf937650d6277bcd76567f819"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#aba46b5aaf937650d6277bcd76567f819">find_first_of</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:aba46b5aaf937650d6277bcd76567f819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned.  <a href="#aba46b5aaf937650d6277bcd76567f819">More...</a><br /></td></tr>
+<tr class="separator:aba46b5aaf937650d6277bcd76567f819"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9522d6a131a0136a12f23d04d0fe0c63"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a9522d6a131a0136a12f23d04d0fe0c63">find_first_of</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:a9522d6a131a0136a12f23d04d0fe0c63"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned.  <a href="#a9522d6a131a0136a12f23d04d0fe0c63">More...</a><br /></td></tr>
+<tr class="separator:a9522d6a131a0136a12f23d04d0fe0c63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acac02409eaa7fa2c53f244c5ff301b53"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#acac02409eaa7fa2c53f244c5ff301b53">find_first_of</a> (<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> ch, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos=0) const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a></td></tr>
+<tr class="memdesc:acac02409eaa7fa2c53f244c5ff301b53"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned.  <a href="#acac02409eaa7fa2c53f244c5ff301b53">More...</a><br /></td></tr>
+<tr class="separator:acac02409eaa7fa2c53f244c5ff301b53"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
-<tr class="memitem:a6195ba885c9e16eabe7c2f90edd940a1"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a> = static_cast&lt;<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&gt;(-1)</td></tr>
-<tr class="memdesc:a6195ba885c9e16eabe7c2f90edd940a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a special value equal to the maximum value representable by the type size_type. The exact meaning depends on context, but it is generally used either as end of string indicator by the functions that expect a string index or as the error indicator by the functions that return a string index.  <a href="#a6195ba885c9e16eabe7c2f90edd940a1">More...</a><br /></td></tr>
-<tr class="separator:a6195ba885c9e16eabe7c2f90edd940a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afb37413dfb6292e9bd02b0b7c32eaeff"><td class="memItemLeft" align="right" valign="top">static constexpr <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a> = static_cast&lt;<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&gt;(-1)</td></tr>
+<tr class="memdesc:afb37413dfb6292e9bd02b0b7c32eaeff"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a special value equal to the maximum value representable by the type size_type. The exact meaning depends on context, but it is generally used either as end of string indicator by the functions that expect a string index or as the error indicator by the functions that return a string index.  <a href="#afb37413dfb6292e9bd02b0b7c32eaeff">More...</a><br /></td></tr>
+<tr class="separator:afb37413dfb6292e9bd02b0b7c32eaeff"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt;<br />
@@ -1226,7 +1256,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
-          <td class="paramname"><em>count2</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a></code>&#160;</td>
+          <td class="paramname"><em>count2</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -1377,6 +1407,55 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 <p>Compares a [pos1, pos1+count1) substring of this string to the characters in the range [s, s + count2). If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). (Note: the characters in the range [s, s + count2) may include null characters.) </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>Implement. </dd></dl>
+
+</div>
+</div>
+<a id="aad70a17167ce040688d94d2c14a0b794"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad70a17167ce040688d94d2c14a0b794">&#9670;&nbsp;</a></span>copy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::copy </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a8194c085c71841d988d75e8b068d2f91">pointer</a>&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Copies a substring [pos, pos+count) to character string pointed to by dest. If the requested substring lasts past the end of the string, or if count == npos, the copied substring is [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). The resulting character string is not null-terminated. </p>
+<p>If <code>pos</code> is greater then <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>, nothing will be copied.</p>
+<dl class="section return"><dt>Returns</dt><dd>Number of characters copied. </dd></dl>
 
 </div>
 </div>
@@ -1618,6 +1697,354 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div><div class="memdoc">
 
 <p>Checks if the string ends with the given prefix. </p>
+
+</div>
+</div>
+<a id="a99ef8d606f047f06fa1ec7e4ee946972"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a99ef8d606f047f06fa1ec7e4ee946972">&#9670;&nbsp;</a></span>find() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/basic_string/find">https://en.cppreference.com/w/cpp/string/basic_string/find</a></p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="a9097d1eadfd2213b9837d1eeb0d3d742"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9097d1eadfd2213b9837d1eeb0d3d742">&#9670;&nbsp;</a></span>find() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/basic_string/find">https://en.cppreference.com/w/cpp/string/basic_string/find</a></p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="af195a48e122f345954c23ba05bfb0cb3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af195a48e122f345954c23ba05bfb0cb3">&#9670;&nbsp;</a></span>find() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/basic_string/find">https://en.cppreference.com/w/cpp/string/basic_string/find</a></p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="a058635bd2e752b45f0e60800f9bba91b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a058635bd2e752b45f0e60800f9bba91b">&#9670;&nbsp;</a></span>find() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>&#160;</td>
+          <td class="paramname"><em>ch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first substring equal to the given character sequence. Search begins at pos, i.e. the found substring must not begin in a position preceding pos. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/basic_string/find">https://en.cppreference.com/w/cpp/string/basic_string/find</a></p>
+<dl class="section return"><dt>Returns</dt><dd>Position of the first character of the found substring or npos if no such substring is found. </dd></dl>
+
+</div>
+</div>
+<a id="a103067f69d29b96bd66cb56fbc09a3ac"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a103067f69d29b96bd66cb56fbc09a3ac">&#9670;&nbsp;</a></span>find_first_of() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find_first_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned. </p>
+
+</div>
+</div>
+<a id="aba46b5aaf937650d6277bcd76567f819"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba46b5aaf937650d6277bcd76567f819">&#9670;&nbsp;</a></span>find_first_of() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find_first_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned. </p>
+
+</div>
+</div>
+<a id="a9522d6a131a0136a12f23d04d0fe0c63"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9522d6a131a0136a12f23d04d0fe0c63">&#9670;&nbsp;</a></span>find_first_of() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find_first_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a>&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned. </p>
+
+</div>
+</div>
+<a id="acac02409eaa7fa2c53f244c5ff301b53"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acac02409eaa7fa2c53f244c5ff301b53">&#9670;&nbsp;</a></span>find_first_of() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::find_first_of </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>&#160;</td>
+          <td class="paramname"><em>ch</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds the first character equal to one of the characters in the given character sequence. The search considers only the interval [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). If the character is not present in the interval, npos will be returned. </p>
 
 </div>
 </div>
@@ -2362,7 +2789,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
-          <td class="paramname"><em>count</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a></code>&#160;</td>
+          <td class="paramname"><em>count</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a></code>&#160;</td>
         </tr>
         <tr>
           <td></td>
@@ -2383,9 +2810,8 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 </div>
 </div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6195ba885c9e16eabe7c2f90edd940a1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6195ba885c9e16eabe7c2f90edd940a1">&#9670;&nbsp;</a></span>npos</h2>
+<a id="aa3f61f2f919f4e9043f3de4de717d4af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa3f61f2f919f4e9043f3de4de717d4af">&#9670;&nbsp;</a></span>swap()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2396,7 +2822,39 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">const <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::npos = static_cast&lt;<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&gt;(-1)</td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> -&gt; void
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Exchanges the contents of the string with those of other. All iterators and references may be invalidated. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="afb37413dfb6292e9bd02b0b7c32eaeff"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afb37413dfb6292e9bd02b0b7c32eaeff">&#9670;&nbsp;</a></span>npos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::npos = static_cast&lt;<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&gt;(-1)</td>
         </tr>
       </table>
   </td>

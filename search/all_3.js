@@ -57,7 +57,7 @@ var searchData=
   ['contiguous_5fiterator_5ftag',['contiguous_iterator_tag',['../structetl_1_1contiguous__iterator__tag.html',1,'etl']]],
   ['control_5fhigh',['control_high',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a90b5732e7418618492d8ed20178b87d7',1,'etl::hardware::stm32::gpio_memory_layout']]],
   ['control_5flow',['control_low',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#acde94339f71d05114a12d7e1ad8a6681',1,'etl::hardware::stm32::gpio_memory_layout']]],
-  ['copy',['copy',['../structetl_1_1char__traits_3_01char_01_4.html#a845e942bb17f321f36ea246c7bc668b4',1,'etl::char_traits&lt; char &gt;::copy()'],['../classetl_1_1basic__string__view.html#adb2fca88ca3efcdce12f2fa0975d0dd0',1,'etl::basic_string_view::copy()'],['../namespaceetl.html#a6a6c95d500822d453650e96620caee5d',1,'etl::copy()']]],
+  ['copy',['copy',['../structetl_1_1char__traits_3_01char_01_4.html#a845e942bb17f321f36ea246c7bc668b4',1,'etl::char_traits&lt; char &gt;::copy()'],['../classetl_1_1basic__static__string.html#aad70a17167ce040688d94d2c14a0b794',1,'etl::basic_static_string::copy()'],['../classetl_1_1basic__string__view.html#adb2fca88ca3efcdce12f2fa0975d0dd0',1,'etl::basic_string_view::copy()'],['../namespaceetl.html#a6a6c95d500822d453650e96620caee5d',1,'etl::copy()']]],
   ['copy_5fbackward',['copy_backward',['../namespaceetl.html#a53fd2bc273dba3758e8649ead0701ea2',1,'etl']]],
   ['copy_5fif',['copy_if',['../namespaceetl.html#af598f817fb64b8da3b8f3dffd0a11ba0',1,'etl']]],
   ['copy_5fn',['copy_n',['../namespaceetl.html#a0c1bb0a9fce600f19a513fe310b38bc9',1,'etl']]],
