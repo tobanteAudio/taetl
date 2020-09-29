@@ -1808,6 +1808,14 @@ Functions</h2></td></tr>
 <tr class="memitem:adc55cb127ec094c3dbdec3ed03452ebc"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adc55cb127ec094c3dbdec3ed03452ebc">span</a> (Container const &amp;) -&gt; <a class="el" href="classetl_1_1span.html">span</a>&lt; Element &gt;</td></tr>
 <tr class="memdesc:adc55cb127ec094c3dbdec3ed03452ebc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction Guides. From Container const.  <a href="#adc55cb127ec094c3dbdec3ed03452ebc">More...</a><br /></td></tr>
 <tr class="separator:adc55cb127ec094c3dbdec3ed03452ebc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a94dc8782b98b1ab98ceb97611e387311"><td class="memTemplParams" colspan="2">template&lt;typename CharType , typename Traits , etl::size_t Capacity1, etl::size_t Capacity2&gt; </td></tr>
+<tr class="memitem:a94dc8782b98b1ab98ceb97611e387311"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a94dc8782b98b1ab98ceb97611e387311">operator==</a> (<a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity1, Traits &gt; const &amp;lhs, <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity2, Traits &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a94dc8782b98b1ab98ceb97611e387311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of a string with another string or a null-terminated array of CharType.  <a href="#a94dc8782b98b1ab98ceb97611e387311">More...</a><br /></td></tr>
+<tr class="separator:a94dc8782b98b1ab98ceb97611e387311"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aac5ceb282d7885361e2a7530aee0edfd"><td class="memTemplParams" colspan="2">template&lt;typename CharType , typename Traits , etl::size_t Capacity1, etl::size_t Capacity2&gt; </td></tr>
+<tr class="memitem:aac5ceb282d7885361e2a7530aee0edfd"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aac5ceb282d7885361e2a7530aee0edfd">operator!=</a> (<a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity1, Traits &gt; const &amp;lhs, <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity2, Traits &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:aac5ceb282d7885361e2a7530aee0edfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of a string with another string or a null-terminated array of CharType.  <a href="#aac5ceb282d7885361e2a7530aee0edfd">More...</a><br /></td></tr>
+<tr class="separator:aac5ceb282d7885361e2a7530aee0edfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32f6e7555448a64b1558e3f5b9771718"><td class="memTemplParams" colspan="2">template&lt;class CharType , class Traits &gt; </td></tr>
 <tr class="memitem:a32f6e7555448a64b1558e3f5b9771718"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a32f6e7555448a64b1558e3f5b9771718">operator==</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a32f6e7555448a64b1558e3f5b9771718"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two views. All comparisons are done via the compare() member function (which itself is defined in terms of Traits::compare()):  <a href="#a32f6e7555448a64b1558e3f5b9771718">More...</a><br /></td></tr>
@@ -6162,7 +6170,7 @@ template&lt;etl::size_t I, class... Types&gt; </div>
 
 <p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
 <p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Implement </dd></dl>
 
 </div>
 </div>
@@ -6195,7 +6203,7 @@ template&lt;etl::size_t I, class... Types&gt; </div>
 
 <p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
 <p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Implement </dd></dl>
 
 </div>
 </div>
@@ -8436,7 +8444,7 @@ template&lt;typename InputIter , typename UnaryPredicate &gt; </div>
 </div>
 </div>
 <a id="abde631d12e3fa3eadef0726f8a1218ec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abde631d12e3fa3eadef0726f8a1218ec">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#abde631d12e3fa3eadef0726f8a1218ec">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[1/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8475,7 +8483,7 @@ template&lt;typename InputIter , typename UnaryPredicate &gt; </div>
 </div>
 </div>
 <a id="a295bd71db44f0eff27e67e5767360cdc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a295bd71db44f0eff27e67e5767360cdc">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a295bd71db44f0eff27e67e5767360cdc">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8508,7 +8516,7 @@ template&lt;class T , etl::size_t N&gt; </div>
 </div>
 </div>
 <a id="a799dae79119bbb5d967d25f990939522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a799dae79119bbb5d967d25f990939522">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a799dae79119bbb5d967d25f990939522">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[3/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8541,7 +8549,7 @@ template&lt;class T1 , class T2 &gt; </div>
 </div>
 </div>
 <a id="a0199291e596a6580c028a4fbb4c1a439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0199291e596a6580c028a4fbb4c1a439">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0199291e596a6580c028a4fbb4c1a439">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[4/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8573,8 +8581,50 @@ template&lt;class T , class U &gt; </div>
 
 </div>
 </div>
+<a id="aac5ceb282d7885361e2a7530aee0edfd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aac5ceb282d7885361e2a7530aee0edfd">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[5/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType , typename Traits , etl::size_t Capacity1, etl::size_t Capacity2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity1, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity2, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares the contents of a string with another string or a null-terminated array of CharType. </p>
+<p>Two strings are equal if both the size of lhs and rhs are equal and each character in lhs has equivalent character in rhs at the same position. </p>
+
+</div>
+</div>
 <a id="a8e737d88ff2f1d432403026a91a24766"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e737d88ff2f1d432403026a91a24766">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e737d88ff2f1d432403026a91a24766">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8615,7 +8665,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="ad6bf68822d73dd9f0d84b6a5aa3f3618"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad6bf68822d73dd9f0d84b6a5aa3f3618">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad6bf68822d73dd9f0d84b6a5aa3f3618">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8656,7 +8706,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="aaad8ec05de177a5a989ca89fb1568698"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaad8ec05de177a5a989ca89fb1568698">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aaad8ec05de177a5a989ca89fb1568698">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -8698,7 +8748,7 @@ template&lt;class CharType , class Traits &gt; </div>
 </div>
 </div>
 <a id="a3d2867e9d12d25137a50a1b3aee3c5a7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a3d2867e9d12d25137a50a1b3aee3c5a7">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d2867e9d12d25137a50a1b3aee3c5a7">&#9670;&nbsp;</a></span>operator!=() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9422,7 +9472,7 @@ template&lt;typename T , size_t Capacity&gt; </div>
 </div>
 </div>
 <a id="a4805fd3b0cdc0a1a3db6475f16708849"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4805fd3b0cdc0a1a3db6475f16708849">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a4805fd3b0cdc0a1a3db6475f16708849">&#9670;&nbsp;</a></span>operator==() <span class="overload">[1/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9461,7 +9511,7 @@ template&lt;typename T , size_t Capacity&gt; </div>
 </div>
 </div>
 <a id="acd14c4b2bb371a67b0b7e5359471eb58"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd14c4b2bb371a67b0b7e5359471eb58">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#acd14c4b2bb371a67b0b7e5359471eb58">&#9670;&nbsp;</a></span>operator==() <span class="overload">[2/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9494,7 +9544,7 @@ template&lt;class T , etl::size_t N&gt; </div>
 </div>
 </div>
 <a id="ae2a4e54525fb4847cb202baaff5657d8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae2a4e54525fb4847cb202baaff5657d8">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2a4e54525fb4847cb202baaff5657d8">&#9670;&nbsp;</a></span>operator==() <span class="overload">[3/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9526,8 +9576,50 @@ template&lt;class T1 , class T2 &gt; </div>
 
 </div>
 </div>
+<a id="a94dc8782b98b1ab98ceb97611e387311"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a94dc8782b98b1ab98ceb97611e387311">&#9670;&nbsp;</a></span>operator==() <span class="overload">[4/9]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType , typename Traits , etl::size_t Capacity1, etl::size_t Capacity2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity1, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity2, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares the contents of a string with another string or a null-terminated array of CharType. </p>
+<p>Two strings are equal if both the size of lhs and rhs are equal and each character in lhs has equivalent character in rhs at the same position. </p>
+
+</div>
+</div>
 <a id="a5d1cc2f7a422e0cadab9361b16f7e875"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a5d1cc2f7a422e0cadab9361b16f7e875">&#9670;&nbsp;</a></span>operator==() <span class="overload">[4/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1cc2f7a422e0cadab9361b16f7e875">&#9670;&nbsp;</a></span>operator==() <span class="overload">[5/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9560,7 +9652,7 @@ template&lt;class T , class U &gt; </div>
 </div>
 </div>
 <a id="afbb0eb100ae57232d484215f1b4315d6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afbb0eb100ae57232d484215f1b4315d6">&#9670;&nbsp;</a></span>operator==() <span class="overload">[5/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afbb0eb100ae57232d484215f1b4315d6">&#9670;&nbsp;</a></span>operator==() <span class="overload">[6/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9601,7 +9693,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="a55bdc0584358e44c777f1ff6dd845026"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a55bdc0584358e44c777f1ff6dd845026">&#9670;&nbsp;</a></span>operator==() <span class="overload">[6/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a55bdc0584358e44c777f1ff6dd845026">&#9670;&nbsp;</a></span>operator==() <span class="overload">[7/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9642,7 +9734,7 @@ template&lt;class T &gt; </div>
 </div>
 </div>
 <a id="a32f6e7555448a64b1558e3f5b9771718"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32f6e7555448a64b1558e3f5b9771718">&#9670;&nbsp;</a></span>operator==() <span class="overload">[7/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a32f6e7555448a64b1558e3f5b9771718">&#9670;&nbsp;</a></span>operator==() <span class="overload">[8/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -9684,7 +9776,7 @@ template&lt;class CharType , class Traits &gt; </div>
 </div>
 </div>
 <a id="a9d3aa3446aca179d812252faf83360c6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9d3aa3446aca179d812252faf83360c6">&#9670;&nbsp;</a></span>operator==() <span class="overload">[8/8]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9d3aa3446aca179d812252faf83360c6">&#9670;&nbsp;</a></span>operator==() <span class="overload">[9/9]</span></h2>
 
 <div class="memitem">
 <div class="memproto">

@@ -66,6 +66,7 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
+<a href="#pub-static-attribs">Static Public Attributes</a> &#124;
 <a href="classetl_1_1basic__static__string-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">etl::basic_static_string&lt; CharType, Capacity, Traits &gt; Class Template Reference</div>  </div>
@@ -193,6 +194,28 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a3b07751c06d101b056f72fea64630e5a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a3b07751c06d101b056f72fea64630e5a">resize</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) noexcept -&gt; void</td></tr>
 <tr class="memdesc:a3b07751c06d101b056f72fea64630e5a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the string to contain count characters.  <a href="#a3b07751c06d101b056f72fea64630e5a">More...</a><br /></td></tr>
 <tr class="separator:a3b07751c06d101b056f72fea64630e5a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1e556d7b7327376260ac23bcf4cb6688"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a1e556d7b7327376260ac23bcf4cb6688">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str) const noexcept -&gt; int</td></tr>
+<tr class="memdesc:a1e556d7b7327376260ac23bcf4cb6688"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this string to str.  <a href="#a1e556d7b7327376260ac23bcf4cb6688">More...</a><br /></td></tr>
+<tr class="separator:a1e556d7b7327376260ac23bcf4cb6688"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87facf6a973f702694d576ef3be00601"><td class="memTemplParams" colspan="2">template&lt;size_type OtherCapacity&gt; </td></tr>
+<tr class="memitem:a87facf6a973f702694d576ef3be00601"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a87facf6a973f702694d576ef3be00601">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>, OtherCapacity, <a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> &gt; const &amp;str) const noexcept -&gt; int</td></tr>
+<tr class="memdesc:a87facf6a973f702694d576ef3be00601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this string to str with other capacity.  <a href="#a87facf6a973f702694d576ef3be00601">More...</a><br /></td></tr>
+<tr class="separator:a87facf6a973f702694d576ef3be00601"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adce42fba5b92c28f42002d8b797c3fe2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#adce42fba5b92c28f42002d8b797c3fe2">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str) const -&gt; int</td></tr>
+<tr class="memdesc:adce42fba5b92c28f42002d8b797c3fe2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to str. If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>).  <a href="#adce42fba5b92c28f42002d8b797c3fe2">More...</a><br /></td></tr>
+<tr class="separator:adce42fba5b92c28f42002d8b797c3fe2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#acfbddd2848d6d7c72e8f9bd1d5865e33">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos2, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count2=<a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a>) const -&gt; int</td></tr>
+<tr class="memdesc:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to a substring [pos2, pos2+count2) of str. If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the first substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>). Likewise, count2 &gt; <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a> - pos2 the second substring is [pos2, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a>).  <a href="#acfbddd2848d6d7c72e8f9bd1d5865e33">More...</a><br /></td></tr>
+<tr class="separator:acfbddd2848d6d7c72e8f9bd1d5865e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afe2f4cda413313a008f81982a2fa4200"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#afe2f4cda413313a008f81982a2fa4200">compare</a> (const CharType *s) const -&gt; int</td></tr>
+<tr class="memdesc:afe2f4cda413313a008f81982a2fa4200"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares this string to the null-terminated character sequence beginning at the character pointed to by s with length Traits::length(s).  <a href="#afe2f4cda413313a008f81982a2fa4200">More...</a><br /></td></tr>
+<tr class="separator:afe2f4cda413313a008f81982a2fa4200"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3642ee05931c192f4a278f2cf673033a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a3642ee05931c192f4a278f2cf673033a">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, const CharType *s) const -&gt; int</td></tr>
+<tr class="memdesc:a3642ee05931c192f4a278f2cf673033a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to the null-terminated character sequence beginning at the character pointed to by s with length Traits::length(s). If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>).  <a href="#a3642ee05931c192f4a278f2cf673033a">More...</a><br /></td></tr>
+<tr class="separator:a3642ee05931c192f4a278f2cf673033a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af31cf83e9e3c44ebbd196ac298b725dc"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#af31cf83e9e3c44ebbd196ac298b725dc">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, const CharType *s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count2) const -&gt; int</td></tr>
+<tr class="memdesc:af31cf83e9e3c44ebbd196ac298b725dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to the characters in the range [s, s + count2). If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>). (Note: the characters in the range [s, s + count2) may include null characters.)  <a href="#af31cf83e9e3c44ebbd196ac298b725dc">More...</a><br /></td></tr>
+<tr class="separator:af31cf83e9e3c44ebbd196ac298b725dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a173e46355912614f8df4167077986db0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a173e46355912614f8df4167077986db0">starts_with</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; sv) const noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a173e46355912614f8df4167077986db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#a173e46355912614f8df4167077986db0">More...</a><br /></td></tr>
 <tr class="separator:a173e46355912614f8df4167077986db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -202,6 +225,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:adc44f44ef468eba3c72fe4faec94eaf5"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#adc44f44ef468eba3c72fe4faec94eaf5">starts_with</a> (CharType const *str) const -&gt; bool</td></tr>
 <tr class="memdesc:adc44f44ef468eba3c72fe4faec94eaf5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#adc44f44ef468eba3c72fe4faec94eaf5">More...</a><br /></td></tr>
 <tr class="separator:adc44f44ef468eba3c72fe4faec94eaf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93b43cf76058705c911a6233932749ad"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a93b43cf76058705c911a6233932749ad">ends_with</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; sv) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a93b43cf76058705c911a6233932749ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#a93b43cf76058705c911a6233932749ad">More...</a><br /></td></tr>
+<tr class="separator:a93b43cf76058705c911a6233932749ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ace00fef720c059ccf29411d9695d578b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ace00fef720c059ccf29411d9695d578b">ends_with</a> (CharType c) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ace00fef720c059ccf29411d9695d578b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#ace00fef720c059ccf29411d9695d578b">More...</a><br /></td></tr>
+<tr class="separator:ace00fef720c059ccf29411d9695d578b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a57449acb31d363168118d7b836a21077"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a57449acb31d363168118d7b836a21077">ends_with</a> (CharType const *str) const -&gt; bool</td></tr>
+<tr class="memdesc:a57449acb31d363168118d7b836a21077"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#a57449acb31d363168118d7b836a21077">More...</a><br /></td></tr>
+<tr class="separator:a57449acb31d363168118d7b836a21077"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
+Static Public Attributes</h2></td></tr>
+<tr class="memitem:a6195ba885c9e16eabe7c2f90edd940a1"><td class="memItemLeft" align="right" valign="top">static const <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a> = static_cast&lt;<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&gt;(-1)</td></tr>
+<tr class="memdesc:a6195ba885c9e16eabe7c2f90edd940a1"><td class="mdescLeft">&#160;</td><td class="mdescRight">This is a special value equal to the maximum value representable by the type size_type. The exact meaning depends on context, but it is generally used either as end of string indicator by the functions that expect a string index or as the error indicator by the functions that return a string index.  <a href="#a6195ba885c9e16eabe7c2f90edd940a1">More...</a><br /></td></tr>
+<tr class="separator:a6195ba885c9e16eabe7c2f90edd940a1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt;<br />
@@ -223,7 +261,7 @@ class etl::basic_static_string&lt; CharType, Capacity, Traits &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a56d20dc1038c50be49b98452bdd67db4">const_iterator</a> =  const CharType*</td>
@@ -239,7 +277,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#ae0d66afde635a107198f62c0ef10fb7f">const_pointer</a> =  const CharType*</td>
@@ -255,7 +293,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a1d7f322293fd65d98d42c82d66bfea04">const_reference</a> =  const CharType&amp;</td>
@@ -271,7 +309,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#ab674c2e642e94560ed25c17ffdad88a9">iterator</a> =  CharType*</td>
@@ -287,7 +325,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a8194c085c71841d988d75e8b068d2f91">pointer</a> =  CharType*</td>
@@ -303,7 +341,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a484c600c350181a7ca4a16f50368a782">reference</a> =  CharType&amp;</td>
@@ -319,7 +357,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> =  <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td>
@@ -335,7 +373,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> =  Traits</td>
@@ -351,7 +389,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> =  CharType</td>
@@ -368,7 +406,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -397,7 +435,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -437,7 +475,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -468,7 +506,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -510,7 +548,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -541,7 +579,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -582,7 +620,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -613,7 +651,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -644,7 +682,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -673,7 +711,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -702,7 +740,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -733,7 +771,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -763,7 +801,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -793,7 +831,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -823,7 +861,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -847,13 +885,318 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 
 </div>
 </div>
+<a id="a1e556d7b7327376260ac23bcf4cb6688"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1e556d7b7327376260ac23bcf4cb6688">&#9670;&nbsp;</a></span>compare() <span class="overload">[1/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares this string to str. </p>
+
+</div>
+</div>
+<a id="a87facf6a973f702694d576ef3be00601"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87facf6a973f702694d576ef3be00601">&#9670;&nbsp;</a></span>compare() <span class="overload">[2/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;size_type OtherCapacity&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>, OtherCapacity, <a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares this string to str with other capacity. </p>
+
+</div>
+</div>
+<a id="adce42fba5b92c28f42002d8b797c3fe2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adce42fba5b92c28f42002d8b797c3fe2">&#9670;&nbsp;</a></span>compare() <span class="overload">[3/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares a [pos1, pos1+count1) substring of this string to str. If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000018">Todo:</a></b></dt><dd>Implement. </dd></dl>
+
+</div>
+</div>
+<a id="acfbddd2848d6d7c72e8f9bd1d5865e33"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acfbddd2848d6d7c72e8f9bd1d5865e33">&#9670;&nbsp;</a></span>compare() <span class="overload">[4/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos2</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count2</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#a6195ba885c9e16eabe7c2f90edd940a1">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares a [pos1, pos1+count1) substring of this string to a substring [pos2, pos2+count2) of str. If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the first substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>). Likewise, count2 &gt; <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a> - pos2 the second substring is [pos2, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a>). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Implement. </dd></dl>
+
+</div>
+</div>
+<a id="afe2f4cda413313a008f81982a2fa4200"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afe2f4cda413313a008f81982a2fa4200">&#9670;&nbsp;</a></span>compare() <span class="overload">[5/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares this string to the null-terminated character sequence beginning at the character pointed to by s with length Traits::length(s). </p>
+
+</div>
+</div>
+<a id="a3642ee05931c192f4a278f2cf673033a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3642ee05931c192f4a278f2cf673033a">&#9670;&nbsp;</a></span>compare() <span class="overload">[6/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares a [pos1, pos1+count1) substring of this string to the null-terminated character sequence beginning at the character pointed to by s with length Traits::length(s). If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>). </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000020">Todo:</a></b></dt><dd>Implement. </dd></dl>
+
+</div>
+</div>
+<a id="af31cf83e9e3c44ebbd196ac298b725dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af31cf83e9e3c44ebbd196ac298b725dc">&#9670;&nbsp;</a></span>compare() <span class="overload">[7/7]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::compare </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count1</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramname"><em>s</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count2</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> const -&gt; int
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Compares a [pos1, pos1+count1) substring of this string to the characters in the range [s, s + count2). If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a2725cec1507bd92e543eea8ad0d1f0b2" title="Returns the number of characters. ">size()</a>). (Note: the characters in the range [s, s + count2) may include null characters.) </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>Implement. </dd></dl>
+
+</div>
+</div>
 <a id="a30345c76a56f1c7256efee2001265349"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a30345c76a56f1c7256efee2001265349">&#9670;&nbsp;</a></span>data() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -883,7 +1226,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -914,7 +1257,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -943,7 +1286,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -966,13 +1309,106 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 
 </div>
 </div>
+<a id="a93b43cf76058705c911a6233932749ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93b43cf76058705c911a6233932749ad">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::ends_with </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramname"><em>sv</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the string ends with the given prefix. </p>
+
+</div>
+</div>
+<a id="ace00fef720c059ccf29411d9695d578b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ace00fef720c059ccf29411d9695d578b">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::ends_with </td>
+          <td>(</td>
+          <td class="paramtype">CharType&#160;</td>
+          <td class="paramname"><em>c</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the string ends with the given prefix. </p>
+
+</div>
+</div>
+<a id="a57449acb31d363168118d7b836a21077"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a57449acb31d363168118d7b836a21077">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::ends_with </td>
+          <td>(</td>
+          <td class="paramtype">CharType const *&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the string ends with the given prefix. </p>
+
+</div>
+</div>
 <a id="a6e6bacf32b231c5b4f83fa4d804da0de"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a6e6bacf32b231c5b4f83fa4d804da0de">&#9670;&nbsp;</a></span>front()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1001,7 +1437,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1048,7 +1484,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1089,7 +1525,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1136,7 +1572,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1165,7 +1601,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1195,7 +1631,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1224,7 +1660,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1255,7 +1691,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1286,7 +1722,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1328,7 +1764,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1359,7 +1795,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1388,7 +1824,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1419,7 +1855,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1450,7 +1886,7 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::char_traits&lt;CharType&gt;&gt; </div>
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1472,6 +1908,33 @@ template&lt;typename CharType , etl::size_t Capacity, typename Traits  = etl::ch
 </div><div class="memdoc">
 
 <p>Checks if the string begins with the given prefix. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Data Documentation</h2>
+<a id="a6195ba885c9e16eabe7c2f90edd940a1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6195ba885c9e16eabe7c2f90edd940a1">&#9670;&nbsp;</a></span>npos</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">const <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::npos = static_cast&lt;<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&gt;(-1)</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">static</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>This is a special value equal to the maximum value representable by the type size_type. The exact meaning depends on context, but it is generally used either as end of string indicator by the functions that expect a string index or as the error indicator by the functions that return a string index. </p>
 
 </div>
 </div>
