@@ -52,7 +52,7 @@ var searchData=
   ['append',['append',['../classetl_1_1basic__static__string.html#a18b53a230847b7f25252d4f133cbc465',1,'etl::basic_static_string::append(size_type const count, value_type const s) noexcept -&gt; basic_static_string &amp;'],['../classetl_1_1basic__static__string.html#a536baa9be6a15d6509ce0061b95924ea',1,'etl::basic_static_string::append(const_pointer s) noexcept -&gt; basic_static_string &amp;'],['../classetl_1_1basic__static__string.html#a72466e6eda89dc2a24c4df8f27c66a46',1,'etl::basic_static_string::append(const_pointer s, size_type count) noexcept -&gt; basic_static_string &amp;']]],
   ['argument_5flist_5ftoo_5flong',['argument_list_too_long',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a1b245b26b5ea3428c050d7f1503d7715',1,'etl']]],
   ['argument_5fout_5fof_5fdomain',['argument_out_of_domain',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a4b82222a0895b538d0597092b3ceab3e',1,'etl']]],
-  ['array',['array',['../structetl_1_1array.html',1,'etl::array&lt; Type, Size &gt;'],['../structetl_1_1array.html#acdc97b5e0d70e37047676075f90efcb4',1,'etl::array::array()'],['../namespaceetl.html#ae5a13233ebf471c62f35f40b21128884',1,'etl::array()']]],
+  ['array',['array',['../structetl_1_1array.html',1,'etl::array&lt; Type, Size &gt;'],['../namespaceetl.html#ae5a13233ebf471c62f35f40b21128884',1,'etl::array(T, U...) -&gt; array&lt; T, 1+sizeof...(U)&gt;']]],
   ['array_2ehpp',['array.hpp',['../array_8hpp.html',1,'']]],
   ['array_3c_20t_2c_20static_5fcast_3c_20size_5ft_20_3e_28z_29_2b1_20_3e',['array&lt; T, static_cast&lt; size_t &gt;(Z)+1 &gt;',['../structetl_1_1array.html',1,'etl']]],
   ['array_3c_20unsigned_20char_2c_20allocated_5f_20_3e',['array&lt; unsigned char, allocated_ &gt;',['../structetl_1_1array.html',1,'etl']]],
