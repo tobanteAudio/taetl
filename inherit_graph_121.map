@@ -1,4 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classetl_1_1map__view.html" title="etl::map_view\&lt; KeyT,\l ValueT, Compare \&gt;" alt="" coords="5,5,171,47"/>
-<area shape="rect" id="node2" href="$classetl_1_1map.html" title="etl::map is a sorted associative container that contains key&#45;value pairs with unique keys..." alt="" coords="219,5,397,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1is__nothrow__assignable.html" title="etl::is_nothrow_assignable\l\&lt; etl::add_lvalue_reference\l\&lt; T \&gt;::type, etl::add_rvalue\l_reference\&lt; T \&gt;::type \&gt;" alt="" coords="301,42,504,113"/>
+<area shape="rect" id="node3" href="$structetl_1_1is__nothrow__move__assignable.html" title="If T is not a referenceable type (i.e., possibly cv&#45;qualified void or a function type with a cv&#45;quali..." alt="" coords="552,57,715,98"/>
 </map>
