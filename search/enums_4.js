@@ -1,6 +1,5 @@
 var searchData=
 [
-  ['io_5fdirection',['io_direction',['../namespaceetl_1_1hardware_1_1mcp23017.html#a317809b7ea8dd66eebaa6385732b7786',1,'etl::hardware::mcp23017']]],
-  ['io_5fpolarity',['io_polarity',['../namespaceetl_1_1hardware_1_1mcp23017.html#a5a7c8be1bbef2b28cd6cdcdf71ffe1e1',1,'etl::hardware::mcp23017']]],
-  ['isr_5fids',['isr_ids',['../namespaceetl_1_1hardware_1_1stm32.html#a6b4bbfe378c505e8c80562451021adb7',1,'etl::hardware::stm32']]]
+  ['float_5fdenorm_5fstyle',['float_denorm_style',['../namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247c',1,'etl']]],
+  ['float_5fround_5fstyle',['float_round_style',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92',1,'etl']]]
 ];

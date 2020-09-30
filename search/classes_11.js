@@ -1,6 +1,7 @@
 var searchData=
 [
   ['times',['times',['../structetl_1_1rtos_1_1times.html',1,'etl::rtos']]],
+  ['to_5fchars_5fresult',['to_chars_result',['../structetl_1_1to__chars__result.html',1,'etl']]],
   ['treat_5fas_5ffloating_5fpoint',['treat_as_floating_point',['../structetl_1_1chrono_1_1treat__as__floating__point.html',1,'etl::chrono']]],
   ['try_5fto_5flock_5ft',['try_to_lock_t',['../structetl_1_1try__to__lock__t.html',1,'etl']]],
   ['tuple',['tuple',['../structetl_1_1tuple.html',1,'etl']]],

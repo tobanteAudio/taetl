@@ -115,6 +115,7 @@ $(function() {
 , <a class="el" href="structetl_1_1hash_3_01char16__t_01_4.html#a92bf62222896d3115a36cde910e84f53">etl::hash&lt; char16_t &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01char32__t_01_4.html#abe287d4c8b85fdd7470f8213ec4bc4a1">etl::hash&lt; char32_t &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01double_01_4.html#ad5ad6b9dd5e9328c2f591aef7a2b9050">etl::hash&lt; double &gt;</a>
+, <a class="el" href="structetl_1_1hash_3_01etl_1_1nullptr__t_01_4.html#ac66243b2dccce56fae3c296b9a0d4b38">etl::hash&lt; etl::nullptr_t &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01float_01_4.html#a92173fbfff1ebb63bbd38a5f618d274f">etl::hash&lt; float &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01int_01_4.html#a377666eb3b9c20847e9ae463764e26f3">etl::hash&lt; int &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01long_01_4.html#a91a27d588fd21f78e5c3774fcb9b1446">etl::hash&lt; long &gt;</a>
@@ -122,7 +123,6 @@ $(function() {
 , <a class="el" href="structetl_1_1hash_3_01long_01long_01_4.html#a6b8d6bd01a2eb1899722f35e8a3f7653">etl::hash&lt; long long &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01short_01_4.html#a9961a542eefe0f3e22dc02617cf57281">etl::hash&lt; short &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01signed_01char_01_4.html#aa00cb6c5145e5b10a1e64d5e43641eb5">etl::hash&lt; signed char &gt;</a>
-, <a class="el" href="structetl_1_1hash_3_01std_1_1nullptr__t_01_4.html#a36389eb0e95daf826cdf394362c970fc">etl::hash&lt; std::nullptr_t &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01T_01_5_01_4.html#a998113c580d6010f3f37f595ff6a4c5a">etl::hash&lt; T * &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01unsigned_01char_01_4.html#aa5238b7f92750079677a35fc0528363e">etl::hash&lt; unsigned char &gt;</a>
 , <a class="el" href="structetl_1_1hash_3_01unsigned_01int_01_4.html#a82d5eda8dc62d48f0fe2323a87aeaee0">etl::hash&lt; unsigned int &gt;</a>
@@ -171,8 +171,8 @@ $(function() {
 </li>
 <li>operator++()
 : <a class="el" href="classetl_1_1back__insert__iterator.html#adb6b1fcd903293f377f111ceb7a5bbef">etl::back_insert_iterator&lt; Container &gt;</a>
-, <a class="el" href="classetl_1_1chrono_1_1duration.html#a1fb2342931563ecb0946586e1c997ad9">etl::chrono::duration&lt; Rep, Period &gt;</a>
-, <a class="el" href="classetl_1_1front__insert__iterator.html#a3ed877d15695696cfd356b8481ab4a63">etl::front_insert_iterator&lt; Container &gt;</a>
+, <a class="el" href="classetl_1_1chrono_1_1duration.html#adfd0ef03eec88974e59275633b51f984">etl::chrono::duration&lt; Rep, Period &gt;</a>
+, <a class="el" href="classetl_1_1front__insert__iterator.html#ab52abd5470c8828f57ec6254c431cce7">etl::front_insert_iterator&lt; Container &gt;</a>
 , <a class="el" href="classetl_1_1small__ptr.html#ae92fd2d22a1442ce20c2f80271452bc9">etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;</a>
 </li>
 <li>operator+=()
@@ -202,7 +202,7 @@ $(function() {
 : <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#af29a45eb1cc732cae6ab61a0290e4db5">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
 </li>
 <li>operator=()
-: <a class="el" href="classetl_1_1back__insert__iterator.html#acc7938e379d53aaa2f99e03d6a3cbae6">etl::back_insert_iterator&lt; Container &gt;</a>
+: <a class="el" href="classetl_1_1back__insert__iterator.html#a7a66f71d8f23c803b47dfa9a404d4167">etl::back_insert_iterator&lt; Container &gt;</a>
 , <a class="el" href="classetl_1_1basic__static__string.html#ac3bf8a28d03597a598aa397687c0dde8">etl::basic_static_string&lt; CharType, Capacity, Traits &gt;</a>
 , <a class="el" href="classetl_1_1basic__string__view.html#a924871fc9429d312d3274cec6a306db9">etl::basic_string_view&lt; CharType, Traits &gt;</a>
 , <a class="el" href="classetl_1_1chrono_1_1duration.html#aded9e28e91e13df8ef03960b53d74aab">etl::chrono::duration&lt; Rep, Period &gt;</a>
@@ -213,15 +213,17 @@ $(function() {
 , <a class="el" href="classetl_1_1lock__guard.html#a4c2357bf313498b5a07bd44c26439c5d">etl::lock_guard&lt; MutexT &gt;</a>
 , <a class="el" href="classetl_1_1map.html#ac9d98245ae06c4d0cfe14caa1cab0a1f">etl::map&lt; KeyT, ValueT, Size, Compare &gt;</a>
 , <a class="el" href="classetl_1_1optional.html#aa49bc2ffcdcb9b8428cad91d3ce7a64d">etl::optional&lt; ValueType &gt;</a>
-, <a class="el" href="structetl_1_1pair.html#a12ba8d689ce290a4b2dfbba16692d157">etl::pair&lt; T1, T2 &gt;</a>
+, <a class="el" href="structetl_1_1pair.html#a09821fa1ff58472e1d179779522cf85e">etl::pair&lt; T1, T2 &gt;</a>
 , <a class="el" href="classetl_1_1rtos_1_1queue.html#af0a27f5a983baef444925bbaa0fb9d2a">etl::rtos::queue&lt; ValueType, Size &gt;</a>
-, <a class="el" href="classetl_1_1scope__guard.html#ac5605dc2e112ff6a0cad229111f37d2d">etl::scope_guard&lt; FuncT, PolicyT &gt;</a>
-, <a class="el" href="classetl_1_1scoped__lock.html#a8faee5f3da4d5c9185e899dc0d289574">etl::scoped_lock&lt; MutexT &gt;</a>
+, <a class="el" href="classetl_1_1scope__guard.html#a9e4095cef79a26bf5b9dddaa7ea23a9d">etl::scope_guard&lt; FuncT, PolicyT &gt;</a>
+, <a class="el" href="classetl_1_1scoped__lock.html#aca3a7095188f7be985dae78a431d4cb2">etl::scoped_lock&lt; MutexT &gt;</a>
 , <a class="el" href="classetl_1_1static__vector.html#aa7d3919efaf3447fd23555c971b50233">etl::static_vector&lt; T, Capacity &gt;</a>
 , <a class="el" href="classetl_1_1variant.html#af8984e99b37c368416464447cefc9821">etl::variant&lt; Types &gt;</a>
 </li>
 <li>operator==
 : <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#aa1148bd9c6895887a9158e48b2e1bfa5">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
+, <a class="el" href="structetl_1_1from__chars__result.html#ab049767332e5cbe44a17a9e0e8ca95df">etl::from_chars_result</a>
+, <a class="el" href="structetl_1_1to__chars__result.html#adf95abd3f334e70c9f99c2c3457e408e">etl::to_chars_result</a>
 </li>
 <li>operator&gt;
 : <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#a848c9991b58334fcc7107eca42aae365">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
@@ -230,7 +232,7 @@ $(function() {
 : <a class="el" href="structetl_1_1experimental_1_1skill_1_1comparable.html#a2a42d7d019b4c934d65dd4ed91871b51">etl::experimental::skill::comparable&lt; StrongType &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="structetl_1_1array.html#a6bc42b55602ea9c9a3ddc08619788819">etl::array&lt; Type, Size &gt;</a>
+: <a class="el" href="structetl_1_1array.html#a6ac316953f9fe490ffd5fc9e9b92edb3">etl::array&lt; Type, Size &gt;</a>
 , <a class="el" href="classetl_1_1basic__static__string.html#ae17b0989ba45dc2b597600ff7604b91e">etl::basic_static_string&lt; CharType, Capacity, Traits &gt;</a>
 , <a class="el" href="classetl_1_1basic__string__view.html#af3bf07e552947ed6ad28ab37c77331df">etl::basic_string_view&lt; CharType, Traits &gt;</a>
 , <a class="el" href="classetl_1_1bitset.html#acc5325fed40585f65aa8332bbdaa970d">etl::bitset&lt; NumberOfBits &gt;</a>
@@ -239,7 +241,7 @@ $(function() {
 , <a class="el" href="classetl_1_1static__vector.html#aba4e91fc177bdb050127566d0f20d929">etl::static_vector&lt; T, Capacity &gt;</a>
 </li>
 <li>optional()
-: <a class="el" href="classetl_1_1optional.html#aa69fd7c832cf51cb9ebc859226a0a2c0">etl::optional&lt; ValueType &gt;</a>
+: <a class="el" href="classetl_1_1optional.html#aed4de1c84ae1ea8051ce4f63c763a07c">etl::optional&lt; ValueType &gt;</a>
 </li>
 <li>output_data
 : <a class="el" href="structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#a3d8d1a535bf34326388d0bb301b31b50">etl::hardware::stm32::gpio_memory_layout</a>

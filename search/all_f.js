@@ -53,6 +53,7 @@ var searchData=
   ['project_5fintegration_2emd',['project_integration.md',['../project__integration_8md.html',1,'']]],
   ['protocol_5ferror',['protocol_error',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a9665c745d0a9132d8da6ed55e89a0564',1,'etl']]],
   ['protocol_5fnot_5fsupported',['protocol_not_supported',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170aa2635acef8b9a3e1c40923829722d472',1,'etl']]],
+  ['ptr',['ptr',['../structetl_1_1to__chars__result.html#a19421967f126e3ab8ba85b9fc7d27a9f',1,'etl::to_chars_result::ptr()'],['../structetl_1_1from__chars__result.html#ac1772358fc563f10a92f04991334525a',1,'etl::from_chars_result::ptr()']]],
   ['ptrdiff_5ft',['ptrdiff_t',['../namespaceetl.html#a56e0abf50b318376b511f461e8baca33',1,'etl']]],
   ['pull_5fup_5fresistor',['pull_up_resistor',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1e',1,'etl::hardware::mcp23017']]],
   ['push',['push',['../structetl_1_1dsp_1_1feedback__drain.html#a8b7deddda4c49a4436bd963c5113ff4c',1,'etl::dsp::feedback_drain']]],

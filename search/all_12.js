@@ -1,5 +1,6 @@
 var searchData=
 [
+  ['scientific',['scientific',['../namespaceetl.html#af524d0acb625979997f7a2dd1c0ea944a55a95650a66b53ecbb960b53d985b964',1,'etl']]],
   ['scope_5fexit',['scope_exit',['../structetl_1_1scope__exit.html',1,'etl::scope_exit&lt; FuncT &gt;'],['../namespaceetl.html#ad9320ebd2b7f25fcb308f2dd939d356d',1,'etl::scope_exit(FuncT) -&gt; scope_exit&lt; etl::decay_t&lt; FuncT &gt;&gt;']]],
   ['scope_5fguard',['scope_guard',['../classetl_1_1scope__guard.html',1,'etl::scope_guard&lt; FuncT, PolicyT &gt;'],['../classetl_1_1scope__guard.html#a6a1cf9331f3e6811d1412741073895f6',1,'etl::scope_guard::scope_guard(Functor f)'],['../classetl_1_1scope__guard.html#af7b7cfb05c97456f9e2840c55a3821ee',1,'etl::scope_guard::scope_guard(scope_guard &amp;&amp;rhs)'],['../classetl_1_1scope__guard.html#a31e3345096362dd3b36a08b449c6ce8f',1,'etl::scope_guard::scope_guard(const scope_guard &amp;)=delete']]],
   ['scope_5fguard_2ehpp',['scope_guard.hpp',['../scope__guard_8hpp.html',1,'']]],

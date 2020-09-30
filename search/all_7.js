@@ -1,6 +1,7 @@
 var searchData=
 [
   ['gcd',['gcd',['../namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3',1,'etl']]],
+  ['general',['general',['../namespaceetl.html#af524d0acb625979997f7a2dd1c0ea944a958153f1b8b96ec4c4eb2147429105d9',1,'etl']]],
   ['generate',['generate',['../namespaceetl.html#a9dafeb773e43238a39165aeffe200e9a',1,'etl']]],
   ['generate_5fn',['generate_n',['../namespaceetl.html#ae9ef45defed1d076c23d018658203f69',1,'etl']]],
   ['get',['get',['../classetl_1_1small__ptr.html#a72b5b4add52fd479b5fdfb54fbd2864f',1,'etl::small_ptr::get() noexcept -&gt; Type *'],['../classetl_1_1small__ptr.html#a260cc982f6e7feb2f6c7bca1fa5604a4',1,'etl::small_ptr::get() const noexcept -&gt; Type const *'],['../namespaceetl.html#a9df6d2b5d1046470baf1626470258ed2',1,'etl::get()']]],
