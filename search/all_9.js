@@ -275,6 +275,7 @@ var searchData=
   ['iterator_5fcategory',['iterator_category',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#aa11fd04f0d0c926f6feda40757d66a00',1,'etl::iterator_traits&lt; T * &gt;::iterator_category()'],['../classetl_1_1back__insert__iterator.html#a8f1948d4fefd82644ad01d6d88cc4a21',1,'etl::back_insert_iterator::iterator_category()'],['../classetl_1_1front__insert__iterator.html#a93d899f2e111196f2710d03c879415cb',1,'etl::front_insert_iterator::iterator_category()']]],
   ['iterator_5fconcept',['iterator_concept',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#a3e4b11ff83596f8f77338181209acbe4',1,'etl::iterator_traits&lt; T * &gt;']]],
   ['iterator_5ftraits',['iterator_traits',['../structetl_1_1iterator__traits.html',1,'etl']]],
+  ['iterator_5ftraits_3c_20etl_3a_3aremove_5fcvref_5ft_3c_20out_20_3e_20_3e',['iterator_traits&lt; etl::remove_cvref_t&lt; Out &gt; &gt;',['../structetl_1_1iterator__traits.html',1,'etl']]],
   ['iterator_5ftraits_3c_20t_20_2a_20_3e',['iterator_traits&lt; T * &gt;',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html',1,'etl']]],
-  ['itoa',['itoa',['../namespaceetl.html#a07b9405fac6c1a10a80eedfbe2a120b6',1,'etl']]]
+  ['itoa',['itoa',['../namespaceetl.html#a69075522bb141cd4a7d7df9e6e149a9b',1,'etl']]]
 ];

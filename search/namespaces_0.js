@@ -5,6 +5,7 @@ var searchData=
   ['dsp',['dsp',['../namespaceetl_1_1dsp.html',1,'etl']]],
   ['etl',['etl',['../namespaceetl.html',1,'']]],
   ['experimental',['experimental',['../namespaceetl_1_1experimental.html',1,'etl']]],
+  ['format',['format',['../namespaceetl_1_1experimental_1_1format.html',1,'etl::experimental']]],
   ['hardware',['hardware',['../namespaceetl_1_1hardware.html',1,'etl']]],
   ['literals',['literals',['../namespaceetl_1_1dsp_1_1literals.html',1,'etl::dsp::literals'],['../namespaceetl_1_1literals.html',1,'etl::literals']]],
   ['mcp23017',['mcp23017',['../namespaceetl_1_1hardware_1_1mcp23017.html',1,'etl::hardware']]],

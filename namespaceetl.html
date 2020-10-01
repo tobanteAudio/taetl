@@ -1595,12 +1595,12 @@ Functions</h2></td></tr>
 <tr class="memitem:acc4c503432fdd0c35572fbf5cba2e06f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acc4c503432fdd0c35572fbf5cba2e06f">lerp</a> (long double a, long double b, long double t) noexcept -&gt; long double</td></tr>
 <tr class="memdesc:acc4c503432fdd0c35572fbf5cba2e06f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes a+t(b−a), i.e. the linear interpolation between a and b for the parameter t (or extrapolation, when t is outside the range [0,1]).  <a href="#acc4c503432fdd0c35572fbf5cba2e06f">More...</a><br /></td></tr>
 <tr class="separator:acc4c503432fdd0c35572fbf5cba2e06f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a07b9405fac6c1a10a80eedfbe2a120b6"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a07b9405fac6c1a10a80eedfbe2a120b6">itoa</a> (int val, char *const buffer, int base) -&gt; char *</td></tr>
-<tr class="memdesc:a07b9405fac6c1a10a80eedfbe2a120b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter.  <a href="#a07b9405fac6c1a10a80eedfbe2a120b6">More...</a><br /></td></tr>
-<tr class="separator:a07b9405fac6c1a10a80eedfbe2a120b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9788f03be1d72496a6c116e12ffd008a"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9788f03be1d72496a6c116e12ffd008a">atol</a> (const char *str) -&gt; long</td></tr>
-<tr class="memdesc:a9788f03be1d72496a6c116e12ffd008a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the C-string str interpreting its content as an integral number, which is returned as a value of type long int.  <a href="#a9788f03be1d72496a6c116e12ffd008a">More...</a><br /></td></tr>
-<tr class="separator:a9788f03be1d72496a6c116e12ffd008a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a69075522bb141cd4a7d7df9e6e149a9b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a69075522bb141cd4a7d7df9e6e149a9b">itoa</a> (int val, char *const buffer, int base) -&gt; char *</td></tr>
+<tr class="memdesc:a69075522bb141cd4a7d7df9e6e149a9b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter.  <a href="#a69075522bb141cd4a7d7df9e6e149a9b">More...</a><br /></td></tr>
+<tr class="separator:a69075522bb141cd4a7d7df9e6e149a9b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab3b73ced8ae8c5e9e090d3c56e10974e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab3b73ced8ae8c5e9e090d3c56e10974e">atol</a> (const char *str) -&gt; long</td></tr>
+<tr class="memdesc:ab3b73ced8ae8c5e9e090d3c56e10974e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the C-string str interpreting its content as an integral number, which is returned as a value of type long int.  <a href="#ab3b73ced8ae8c5e9e090d3c56e10974e">More...</a><br /></td></tr>
+<tr class="separator:ab3b73ced8ae8c5e9e090d3c56e10974e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a99a28bb04c335112b2c13d676c422e66"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a99a28bb04c335112b2c13d676c422e66">memcpy</a> (void *dest, const void *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
 <tr class="memdesc:a99a28bb04c335112b2c13d676c422e66"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, <a class="el" href="namespaceetl.html#a4604077670e2126de4d05e9d4dab2df9" title="Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may...">memmove()</a> must be used instead.  <a href="#a99a28bb04c335112b2c13d676c422e66">More...</a><br /></td></tr>
 <tr class="separator:a99a28bb04c335112b2c13d676c422e66"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4116,14 +4116,14 @@ template&lt;class T &gt; </div>
 
 </div>
 </div>
-<a id="a9788f03be1d72496a6c116e12ffd008a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9788f03be1d72496a6c116e12ffd008a">&#9670;&nbsp;</a></span>atol()</h2>
+<a id="ab3b73ced8ae8c5e9e090d3c56e10974e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab3b73ced8ae8c5e9e090d3c56e10974e">&#9670;&nbsp;</a></span>atol()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto etl::atol </td>
+          <td class="memname">constexpr auto etl::atol </td>
           <td>(</td>
           <td class="paramtype">const char *&#160;</td>
           <td class="paramname"><em>str</em></td><td>)</td>
@@ -7199,14 +7199,14 @@ template&lt;typename ForwardIt1 , typename ForwardIt2 &gt; </div>
 
 </div>
 </div>
-<a id="a07b9405fac6c1a10a80eedfbe2a120b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a07b9405fac6c1a10a80eedfbe2a120b6">&#9670;&nbsp;</a></span>itoa()</h2>
+<a id="a69075522bb141cd4a7d7df9e6e149a9b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a69075522bb141cd4a7d7df9e6e149a9b">&#9670;&nbsp;</a></span>itoa()</h2>
 
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">auto etl::itoa </td>
+          <td class="memname">constexpr auto etl::itoa </td>
           <td>(</td>
           <td class="paramtype">int&#160;</td>
           <td class="paramname"><em>val</em>, </td>

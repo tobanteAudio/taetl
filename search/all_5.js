@@ -51,6 +51,7 @@ var searchData=
   ['extent_3c_20t_5b_5d_2c_20n_20_3e',['extent&lt; T[], N &gt;',['../structetl_1_1extent_3_01T[]_00_01N_01_4.html',1,'etl']]],
   ['extent_3c_20t_5bi_5d_2c_200_20_3e',['extent&lt; T[I], 0 &gt;',['../structetl_1_1extent_3_01T[I]_00_010_01_4.html',1,'etl']]],
   ['extent_3c_20t_5bi_5d_2c_20n_20_3e',['extent&lt; T[I], N &gt;',['../structetl_1_1extent_3_01T[I]_00_01N_01_4.html',1,'etl']]],
+  ['format',['format',['../namespaceetl_1_1experimental_1_1format.html',1,'etl::experimental']]],
   ['hardware',['hardware',['../namespaceetl_1_1hardware.html',1,'etl']]],
   ['literals',['literals',['../namespaceetl_1_1dsp_1_1literals.html',1,'etl::dsp::literals'],['../namespaceetl_1_1literals.html',1,'etl::literals']]],
   ['mcp23017',['mcp23017',['../namespaceetl_1_1hardware_1_1mcp23017.html',1,'etl::hardware']]],

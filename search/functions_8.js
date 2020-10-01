@@ -22,5 +22,5 @@ var searchData=
   ['isinf',['isinf',['../namespaceetl.html#a47ef6491e0baea008f09e77e8bdd1893',1,'etl::isinf(float arg) -&gt; bool'],['../namespaceetl.html#a0bd9c92fc417d48f3b71a556c288f34d',1,'etl::isinf(double arg) -&gt; bool'],['../namespaceetl.html#aac63899ba5cdbbcbe25e867baaa11c8a',1,'etl::isinf(long double arg) -&gt; bool'],['../namespaceetl.html#a479b0c43cc953cd7843f865e75bdc53b',1,'etl::isinf(IntegralType arg) -&gt; etl::enable_if_t&lt; etl::is_integral_v&lt; IntegralType &gt;, bool &gt;']]],
   ['isnan',['isnan',['../namespaceetl.html#a605d9e24e916cbbc8f38c7e377eb792d',1,'etl::isnan(float arg) -&gt; bool'],['../namespaceetl.html#ac4da86e5987c4a4fc2368f5195645c3f',1,'etl::isnan(double arg) -&gt; bool'],['../namespaceetl.html#a5b1b06749558d3368fe928aba61d3b46',1,'etl::isnan(long double arg) -&gt; bool'],['../namespaceetl.html#aa8337c5b28ae7940b265ee8afe4c328e',1,'etl::isnan(IntegralType arg) -&gt; etl::enable_if_t&lt; etl::is_integral_v&lt; IntegralType &gt;, bool &gt;']]],
   ['iter_5fswap',['iter_swap',['../namespaceetl.html#aa18b878794474881fce640e7a163abf3',1,'etl']]],
-  ['itoa',['itoa',['../namespaceetl.html#a07b9405fac6c1a10a80eedfbe2a120b6',1,'etl']]]
+  ['itoa',['itoa',['../namespaceetl.html#a69075522bb141cd4a7d7df9e6e149a9b',1,'etl']]]
 ];
