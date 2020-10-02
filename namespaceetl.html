@@ -1490,6 +1490,12 @@ Functions</h2></td></tr>
 <tr class="memitem:ae516046f5fb54110a91f5e7759f16240"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae516046f5fb54110a91f5e7759f16240">bit_cast</a> (const From &amp;src) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;(sizeof(To)==sizeof(From)) &amp;&amp;<a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt; From &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt; To &gt;, To &gt;</td></tr>
 <tr class="memdesc:ae516046f5fb54110a91f5e7759f16240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a value of type To by reinterpreting the object representation of from. Every bit in the value representation of the returned To object is equal to the corresponding bit in the object representation of from.  <a href="#ae516046f5fb54110a91f5e7759f16240">More...</a><br /></td></tr>
 <tr class="separator:ae516046f5fb54110a91f5e7759f16240"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae26e5671129a71e5b05a9e8763a72ce5"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae26e5671129a71e5b05a9e8763a72ce5">is_big_endian</a> () noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ae26e5671129a71e5b05a9e8763a72ce5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the system is big endian.  <a href="#ae26e5671129a71e5b05a9e8763a72ce5">More...</a><br /></td></tr>
+<tr class="separator:ae26e5671129a71e5b05a9e8763a72ce5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd414238dbd4b828eea66882b9af5ba2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd414238dbd4b828eea66882b9af5ba2">is_little_endian</a> () noexcept -&gt; bool</td></tr>
+<tr class="memdesc:acd414238dbd4b828eea66882b9af5ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the system is little endian.  <a href="#acd414238dbd4b828eea66882b9af5ba2">More...</a><br /></td></tr>
+<tr class="separator:acd414238dbd4b828eea66882b9af5ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
 <tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a966b3039757a35f7b1104a7f6c9b6523">popcount</a> (T input) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a966b3039757a35f7b1104a7f6c9b6523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a966b3039757a35f7b1104a7f6c9b6523">More...</a><br /></td></tr>
@@ -6708,6 +6714,34 @@ template&lt;class ForwardIt , class T &gt; </div>
 
 </div>
 </div>
+<a id="ae26e5671129a71e5b05a9e8763a72ce5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae26e5671129a71e5b05a9e8763a72ce5">&#9670;&nbsp;</a></span>is_big_endian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::is_big_endian </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; bool
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true, if the system is big endian. </p>
+
+</div>
+</div>
 <a id="a4ec5c14f53ef79e0b6debfffb6ce947f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a4ec5c14f53ef79e0b6debfffb6ce947f">&#9670;&nbsp;</a></span>is_constant_evaluated()</h2>
 
@@ -6774,6 +6808,33 @@ template&lt;class ForwardIt , class T &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true, if the given standard and the currently configurated in the compiler match. </p>
+
+</div>
+</div>
+<a id="acd414238dbd4b828eea66882b9af5ba2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd414238dbd4b828eea66882b9af5ba2">&#9670;&nbsp;</a></span>is_little_endian()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::is_little_endian </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; bool </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true, if the system is little endian. </p>
 
 </div>
 </div>

@@ -1,3 +1,4 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node2" href="$structetl_1_1is__convertible.html" title="If the imaginary function definition To test() { return etl::declval&lt;From&gt;(); } is well&#45;formed..." alt="" coords="276,49,415,91"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, N \&gt;" alt="" coords="5,5,165,47"/>
+<area shape="rect" id="node2" href="$structetl_1_1tuple__size_3_01etl_1_1array_3_01T_00_01N_01_4_01_4.html" title="Provides access to the number of elements in an etl::array as a compile&#45;time constant expression..." alt="" coords="213,5,359,47"/>
 </map>

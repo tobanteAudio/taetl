@@ -66,12 +66,16 @@ $(function() {
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
 <a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">format.hpp File Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><code>#include &quot;<a class="el" href="definitions_8hpp_source.html">etl/definitions.hpp</a>&quot;</code><br />
+<div class="textblock"><code>#include &quot;<a class="el" href="cstring_8hpp_source.html">etl/cstring.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="definitions_8hpp_source.html">etl/definitions.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="iterator_8hpp_source.html">etl/iterator.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="string_8hpp_source.html">etl/string.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="string__view_8hpp_source.html">etl/string_view.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="vector_8hpp_source.html">etl/vector.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="warning_8hpp_source.html">etl/warning.hpp</a>&quot;</code><br />
@@ -80,29 +84,30 @@ Include dependency graph for format.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="format_8hpp__incl.png" border="0" usemap="#etl_2experimental_2format_2format_8hpp" alt=""/></div>
 <map name="etl_2experimental_2format_2format_8hpp" id="etl_2experimental_2format_2format_8hpp">
-<area shape="rect" id="node2" href="definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="619,796,757,823"/>
-<area shape="rect" id="node6" href="string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="379,169,525,196"/>
-<area shape="rect" id="node21" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="725,557,848,584"/>
-<area shape="rect" id="node29" href="vector_8hpp.html" title="etl/vector.hpp" alt="" coords="1174,95,1285,121"/>
-<area shape="rect" id="node3" href="version_8hpp.html" title="version.hpp" alt="" coords="528,871,627,897"/>
-<area shape="rect" id="node7" href="algorithm_8hpp.html" title="algorithm.hpp" alt="" coords="1105,244,1218,271"/>
-<area shape="rect" id="node16" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="825,483,949,509"/>
-<area shape="rect" id="node26" href="string__char__traits_8hpp.html" title="etl/detail/string_char\l_traits.hpp" alt="" coords="166,393,322,435"/>
-<area shape="rect" id="node8" href="cassert_8hpp.html" title="etl/cassert.hpp" alt="" coords="1593,319,1711,345"/>
-<area shape="rect" id="node10" href="functional_8hpp.html" title="etl/functional.hpp" alt="" coords="889,319,1025,345"/>
-<area shape="rect" id="node12" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="1237,632,1357,659"/>
-<area shape="rect" id="node15" href="iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="1193,401,1311,427"/>
-<area shape="rect" id="node25" href="algo__search_8hpp.html" title="etl/detail/algo_search.hpp" alt="" coords="926,401,1117,427"/>
-<area shape="rect" id="node11" href="byte_8hpp.html" title="etl/byte.hpp" alt="" coords="449,557,549,584"/>
-<area shape="rect" id="node22" href="utility_8hpp.html" title="etl/utility.hpp" alt="" coords="1259,483,1365,509"/>
-<area shape="rect" id="node24" href="new_8hpp.html" title="etl/new.hpp" alt="" coords="601,483,698,509"/>
-<area shape="rect" id="node13" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="1308,796,1479,823"/>
-<area shape="rect" id="node14" href="type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="1259,707,1413,748"/>
-<area shape="rect" id="node17" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="923,557,1031,584"/>
-<area shape="rect" id="node23" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="1360,557,1539,584"/>
-<area shape="rect" id="node27" href="cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="208,483,323,509"/>
-<area shape="rect" id="node28" href="ios_8hpp.html" title="etl/ios.hpp" alt="" coords="93,483,184,509"/>
-<area shape="rect" id="node30" href="array_8hpp.html" title="etl/array.hpp" alt="" coords="1427,169,1530,196"/>
+<area shape="rect" id="node2" href="cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="259,483,373,509"/>
+<area shape="rect" id="node4" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="551,796,670,823"/>
+<area shape="rect" id="node11" href="iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="718,401,837,427"/>
+<area shape="rect" id="node17" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="541,557,664,584"/>
+<area shape="rect" id="node20" href="string_8hpp.html" title="etl/string.hpp" alt="" coords="165,95,273,121"/>
+<area shape="rect" id="node21" href="string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="237,169,382,196"/>
+<area shape="rect" id="node30" href="vector_8hpp.html" title="etl/vector.hpp" alt="" coords="986,95,1097,121"/>
+<area shape="rect" id="node3" href="byte_8hpp.html" title="byte.hpp" alt="" coords="438,557,517,584"/>
+<area shape="rect" id="node8" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="1187,632,1307,659"/>
+<area shape="rect" id="node5" href="version_8hpp.html" title="version.hpp" alt="" coords="451,871,549,897"/>
+<area shape="rect" id="node9" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="1389,796,1560,823"/>
+<area shape="rect" id="node10" href="type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="1176,707,1331,748"/>
+<area shape="rect" id="node12" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="651,483,775,509"/>
+<area shape="rect" id="node18" href="utility_8hpp.html" title="etl/utility.hpp" alt="" coords="1227,483,1333,509"/>
+<area shape="rect" id="node13" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="739,557,847,584"/>
+<area shape="rect" id="node19" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="1277,557,1456,584"/>
+<area shape="rect" id="node28" href="string__char__traits_8hpp.html" title="etl/detail/string_char\l_traits.hpp" alt="" coords="141,393,297,435"/>
+<area shape="rect" id="node22" href="algorithm_8hpp.html" title="algorithm.hpp" alt="" coords="1053,244,1166,271"/>
+<area shape="rect" id="node23" href="cassert_8hpp.html" title="etl/cassert.hpp" alt="" coords="1286,319,1405,345"/>
+<area shape="rect" id="node25" href="functional_8hpp.html" title="etl/functional.hpp" alt="" coords="899,319,1035,345"/>
+<area shape="rect" id="node27" href="algo__search_8hpp.html" title="etl/detail/algo_search.hpp" alt="" coords="1014,401,1205,427"/>
+<area shape="rect" id="node26" href="new_8hpp.html" title="etl/new.hpp" alt="" coords="902,483,999,509"/>
+<area shape="rect" id="node29" href="ios_8hpp.html" title="etl/ios.hpp" alt="" coords="144,483,235,509"/>
+<area shape="rect" id="node31" href="array_8hpp.html" title="etl/array.hpp" alt="" coords="1297,169,1399,196"/>
 </map>
 </div>
 </div>
@@ -110,6 +115,18 @@ Include dependency graph for format.hpp:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter.html">etl::experimental::format::formatter&lt; T, CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1basic__format__context.html">etl::experimental::format::basic_format_context&lt; OutputIt, CharT &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char_00_01char_01_4.html">etl::experimental::format::formatter&lt; char, char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char_01const_01_5_00_01char_01_4.html">etl::experimental::format::formatter&lt; char const *, char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char[N]_00_01char_01_4.html">etl::experimental::format::formatter&lt; char[N], char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01etl_1_1string__view_00_01char_01_4.html">etl::experimental::format::formatter&lt; etl::string_view, char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1format__to__n__result.html">etl::experimental::format::format_to_n_result&lt; Out &gt;</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
@@ -118,11 +135,26 @@ Namespaces</h2></td></tr>
 <tr class="memitem:namespaceetl_1_1experimental_1_1format"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html">etl::experimental::format</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a6fcb407ae35e2e26360a4f3a42b9d03d"><td class="memTemplParams" colspan="2">template&lt;typename ContainerT &gt; </td></tr>
+<tr class="memitem:a6fcb407ae35e2e26360a4f3a42b9d03d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a6fcb407ae35e2e26360a4f3a42b9d03d">etl::experimental::format::format_context</a> = basic_format_context&lt; <a class="el" href="classetl_1_1back__insert__iterator.html">etl::back_insert_iterator</a>&lt; ContainerT &gt;, char &gt;</td></tr>
+<tr class="separator:a6fcb407ae35e2e26360a4f3a42b9d03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2abf42d11509770534183d051fea45"><td class="memTemplParams" colspan="2">template&lt;typename Out &gt; </td></tr>
+<tr class="memitem:a8a2abf42d11509770534183d051fea45"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a8a2abf42d11509770534183d051fea45">etl::experimental::format::diff_t</a> = typename ::<a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt;::<a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt; Out &gt; &gt;::difference_type</td></tr>
+<tr class="separator:a8a2abf42d11509770534183d051fea45"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a44608b5167d5cc32529d5071043e7d61"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename... Args&gt; </td></tr>
-<tr class="memitem:a44608b5167d5cc32529d5071043e7d61"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a44608b5167d5cc32529d5071043e7d61">etl::experimental::format::format_to_n</a> (OutputIter out, <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a> n, <a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> fmt, Args const &amp;... args) -&gt; format_to_n_result&lt; OutputIter &gt;</td></tr>
-<tr class="separator:a44608b5167d5cc32529d5071043e7d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954f220061e3102f5d7be34f8f85f514"><td class="memTemplParams" colspan="2">template&lt;typename ValueT , typename Context &gt; </td></tr>
+<tr class="memitem:a954f220061e3102f5d7be34f8f85f514"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a954f220061e3102f5d7be34f8f85f514">etl::experimental::format::format_impl</a> (ValueT const &amp;val, Context &amp;ctx)</td></tr>
+<tr class="separator:a954f220061e3102f5d7be34f8f85f514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2010af63bb7f4a2f2efe63062f9abf"><td class="memTemplParams" colspan="2">template&lt;typename OutputIt , typename... Args&gt; </td></tr>
+<tr class="memitem:a3a2010af63bb7f4a2f2efe63062f9abf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a3a2010af63bb7f4a2f2efe63062f9abf">etl::experimental::format::format_to</a> (OutputIt out, <a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> fmt, Args const &amp;... args) -&gt; OutputIt</td></tr>
+<tr class="separator:a3a2010af63bb7f4a2f2efe63062f9abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dabafd6be92bc0c352ea8efd34449b7"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename... Args&gt; </td></tr>
+<tr class="memitem:a6dabafd6be92bc0c352ea8efd34449b7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a6dabafd6be92bc0c352ea8efd34449b7">etl::experimental::format::format_to_n</a> (OutputIter out, diff_t&lt; OutputIter &gt; n, ::<a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> fmt, Args const &amp;... args) -&gt; format_to_n_result&lt; OutputIter &gt;</td></tr>
+<tr class="separator:a6dabafd6be92bc0c352ea8efd34449b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 </div><!-- contents -->
 <!-- start footer part -->

@@ -65,6 +65,7 @@ $(function() {
 <div class="header">
   <div class="summary">
 <a href="#nested-classes">Classes</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
 <a href="#func-members">Functions</a>  </div>
   <div class="headertitle">
 <div class="title">etl::experimental::format Namespace Reference</div>  </div>
@@ -73,18 +74,145 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1basic__format__context.html">basic_format_context</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1format__to__n__result.html">format_to_n_result</a></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter.html">formatter</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char_01const_01_5_00_01char_01_4.html">formatter&lt; char const *, char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char_00_01char_01_4.html">formatter&lt; char, char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char[N]_00_01char_01_4.html">formatter&lt; char[N], char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01etl_1_1string__view_00_01char_01_4.html">formatter&lt; etl::string_view, char &gt;</a></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a6fcb407ae35e2e26360a4f3a42b9d03d"><td class="memTemplParams" colspan="2">template&lt;typename ContainerT &gt; </td></tr>
+<tr class="memitem:a6fcb407ae35e2e26360a4f3a42b9d03d"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a6fcb407ae35e2e26360a4f3a42b9d03d">format_context</a> = <a class="el" href="structetl_1_1experimental_1_1format_1_1basic__format__context.html">basic_format_context</a>&lt; <a class="el" href="classetl_1_1back__insert__iterator.html">etl::back_insert_iterator</a>&lt; ContainerT &gt;, char &gt;</td></tr>
+<tr class="separator:a6fcb407ae35e2e26360a4f3a42b9d03d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8a2abf42d11509770534183d051fea45"><td class="memTemplParams" colspan="2">template&lt;typename Out &gt; </td></tr>
+<tr class="memitem:a8a2abf42d11509770534183d051fea45"><td class="memTemplItemLeft" align="right" valign="top">using&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a8a2abf42d11509770534183d051fea45">diff_t</a> = typename ::<a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt;::<a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt; Out &gt; &gt;::difference_type</td></tr>
+<tr class="separator:a8a2abf42d11509770534183d051fea45"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a44608b5167d5cc32529d5071043e7d61"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename... Args&gt; </td></tr>
-<tr class="memitem:a44608b5167d5cc32529d5071043e7d61"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a44608b5167d5cc32529d5071043e7d61">format_to_n</a> (OutputIter out, <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a> n, <a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> fmt, Args const &amp;... args) -&gt; <a class="el" href="structetl_1_1experimental_1_1format_1_1format__to__n__result.html">format_to_n_result</a>&lt; OutputIter &gt;</td></tr>
-<tr class="separator:a44608b5167d5cc32529d5071043e7d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a954f220061e3102f5d7be34f8f85f514"><td class="memTemplParams" colspan="2">template&lt;typename ValueT , typename Context &gt; </td></tr>
+<tr class="memitem:a954f220061e3102f5d7be34f8f85f514"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a954f220061e3102f5d7be34f8f85f514">format_impl</a> (ValueT const &amp;val, Context &amp;ctx)</td></tr>
+<tr class="separator:a954f220061e3102f5d7be34f8f85f514"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a2010af63bb7f4a2f2efe63062f9abf"><td class="memTemplParams" colspan="2">template&lt;typename OutputIt , typename... Args&gt; </td></tr>
+<tr class="memitem:a3a2010af63bb7f4a2f2efe63062f9abf"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a3a2010af63bb7f4a2f2efe63062f9abf">format_to</a> (OutputIt out, <a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> fmt, Args const &amp;... args) -&gt; OutputIt</td></tr>
+<tr class="separator:a3a2010af63bb7f4a2f2efe63062f9abf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6dabafd6be92bc0c352ea8efd34449b7"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename... Args&gt; </td></tr>
+<tr class="memitem:a6dabafd6be92bc0c352ea8efd34449b7"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a6dabafd6be92bc0c352ea8efd34449b7">format_to_n</a> (OutputIter out, <a class="el" href="namespaceetl_1_1experimental_1_1format.html#a8a2abf42d11509770534183d051fea45">diff_t</a>&lt; OutputIter &gt; n, ::<a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a> fmt, Args const &amp;... args) -&gt; <a class="el" href="structetl_1_1experimental_1_1format_1_1format__to__n__result.html">format_to_n_result</a>&lt; OutputIter &gt;</td></tr>
+<tr class="separator:a6dabafd6be92bc0c352ea8efd34449b7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Typedef Documentation</h2>
+<a id="a8a2abf42d11509770534183d051fea45"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8a2abf42d11509770534183d051fea45">&#9670;&nbsp;</a></span>diff_t</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Out &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1experimental_1_1format.html#a8a2abf42d11509770534183d051fea45">etl::experimental::format::diff_t</a> = typedef typename ::<a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt;::<a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt;Out&gt; &gt;::difference_type</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6fcb407ae35e2e26360a4f3a42b9d03d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6fcb407ae35e2e26360a4f3a42b9d03d">&#9670;&nbsp;</a></span>format_context</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ContainerT &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="namespaceetl_1_1experimental_1_1format.html#a6fcb407ae35e2e26360a4f3a42b9d03d">etl::experimental::format::format_context</a> = typedef <a class="el" href="structetl_1_1experimental_1_1format_1_1basic__format__context.html">basic_format_context</a>&lt;<a class="el" href="classetl_1_1back__insert__iterator.html">etl::back_insert_iterator</a>&lt;ContainerT&gt;, char&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <h2 class="groupheader">Function Documentation</h2>
-<a id="a44608b5167d5cc32529d5071043e7d61"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a44608b5167d5cc32529d5071043e7d61">&#9670;&nbsp;</a></span>format_to_n()</h2>
+<a id="a954f220061e3102f5d7be34f8f85f514"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a954f220061e3102f5d7be34f8f85f514">&#9670;&nbsp;</a></span>format_impl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueT , typename Context &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::experimental::format::format_impl </td>
+          <td>(</td>
+          <td class="paramtype">ValueT const &amp;&#160;</td>
+          <td class="paramname"><em>val</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Context &amp;&#160;</td>
+          <td class="paramname"><em>ctx</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a3a2010af63bb7f4a2f2efe63062f9abf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a2010af63bb7f4a2f2efe63062f9abf">&#9670;&nbsp;</a></span>format_to()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename OutputIt , typename... Args&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">auto etl::experimental::format::format_to </td>
+          <td>(</td>
+          <td class="paramtype">OutputIt&#160;</td>
+          <td class="paramname"><em>out</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a>&#160;</td>
+          <td class="paramname"><em>fmt</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Args const &amp;...&#160;</td>
+          <td class="paramname"><em>args</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; OutputIt
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a6dabafd6be92bc0c352ea8efd34449b7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6dabafd6be92bc0c352ea8efd34449b7">&#9670;&nbsp;</a></span>format_to_n()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -100,13 +228,13 @@ template&lt;typename OutputIter , typename... Args&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a>&#160;</td>
+          <td class="paramtype"><a class="el" href="namespaceetl_1_1experimental_1_1format.html#a8a2abf42d11509770534183d051fea45">diff_t</a>&lt; OutputIter &gt;&#160;</td>
           <td class="paramname"><em>n</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a>&#160;</td>
+          <td class="paramtype">::<a class="el" href="namespaceetl.html#a41ec92a1e825e31fc024b95f85aed1da">etl::string_view</a>&#160;</td>
           <td class="paramname"><em>fmt</em>, </td>
         </tr>
         <tr>

@@ -1,4 +1,9 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; size_t, alignof(T)\&gt;" alt="" coords="5,5,165,47"/>
-<area shape="rect" id="node2" href="$structetl_1_1alignment__of.html" title="alignment_of " alt="" coords="213,13,384,39"/>
+<area shape="rect" id="node1" href="$structetl_1_1integral__constant.html" title="etl::integral_constant\l\&lt; etl::size_t, 0 \&gt;" alt="" coords="5,74,165,115"/>
+<area shape="rect" id="node2" href="$structetl_1_1extent.html" title="etl::extent\&lt; T, N \&gt;" alt="" coords="224,5,369,32"/>
+<area shape="rect" id="node3" href="$structetl_1_1extent_3_01T[]_00_010_01_4.html" title="etl::extent\&lt; T[], 0 \&gt;" alt="" coords="220,56,373,83"/>
+<area shape="rect" id="node4" href="$structetl_1_1rank.html" title="If Type is an array type, provides the member constant value equal to the number of dimensions of the..." alt="" coords="239,107,354,133"/>
+<area shape="rect" id="node5" href="$structetl_1_1extent.html" title="etl::extent\&lt; T, N &#45; 1 \&gt;" alt="" coords="213,157,380,184"/>
+<area shape="rect" id="node6" href="$structetl_1_1extent_3_01T[]_00_01N_01_4.html" title="etl::extent\&lt; T[], N \&gt;" alt="" coords="430,132,585,159"/>
+<area shape="rect" id="node7" href="$structetl_1_1extent_3_01T[I]_00_01N_01_4.html" title="etl::extent\&lt; T[I], N \&gt;" alt="" coords="428,183,587,209"/>
 </map>

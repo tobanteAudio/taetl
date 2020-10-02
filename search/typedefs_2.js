@@ -2,7 +2,7 @@ var searchData=
 [
   ['callback_5ft',['callback_t',['../structetl_1_1hardware_1_1stm32_1_1isr.html#a123ce2c10239b6102bd122e9a17cfcd9',1,'etl::hardware::stm32::isr']]],
   ['centi',['centi',['../namespaceetl.html#a95d8c20c69482c794a0cfb9e4428ca8d',1,'etl']]],
-  ['char_5ftype',['char_type',['../structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60',1,'etl::char_traits&lt; char &gt;']]],
+  ['char_5ftype',['char_type',['../structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60',1,'etl::char_traits&lt; char &gt;::char_type()'],['../structetl_1_1experimental_1_1format_1_1basic__format__context.html#ad6afb73c7e1808093ded70c151365ecb',1,'etl::experimental::format::basic_format_context::char_type()']]],
   ['common_5ftype_5ft',['common_type_t',['../namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3',1,'etl']]],
   ['conditional_5ft',['conditional_t',['../namespaceetl.html#aa508ba172c61957cf6c18357210f08f6',1,'etl']]],
   ['configstack_5fdepth_5ftype',['configSTACK_DEPTH_TYPE',['../stubs_8hpp.html#aabec32c46dbd674bee0bdd6e57cb8888',1,'stubs.hpp']]],

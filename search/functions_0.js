@@ -6,6 +6,7 @@ var searchData=
   ['adjacent_5ffind',['adjacent_find',['../namespaceetl.html#a9ba98486c230b754b2cabc1805b53c16',1,'etl::adjacent_find(ForwardIter first, ForwardIter last, BinaryPredicate pred) -&gt; ForwardIter'],['../namespaceetl.html#a4fe91c66e3042bde20710111a8d622e4',1,'etl::adjacent_find(ForwardIt first, ForwardIt last) -&gt; ForwardIt']]],
   ['adopt_5flock_5ft',['adopt_lock_t',['../structetl_1_1adopt__lock__t.html#aaadb452147fd23e2356982181576ff94',1,'etl::adopt_lock_t']]],
   ['advance',['advance',['../namespaceetl.html#ac45065b143a47fb9249bda8d57ccca63',1,'etl']]],
+  ['advance_5fto',['advance_to',['../structetl_1_1experimental_1_1format_1_1basic__format__context.html#a38b0e518209801eea5d204506b467632',1,'etl::experimental::format::basic_format_context']]],
   ['all_5fof',['all_of',['../namespaceetl.html#a88b77a574e3e855966765f90b89bd753',1,'etl']]],
   ['any_5fof',['any_of',['../namespaceetl.html#a4d54e00f1a365a0fb3d26386088c99c8',1,'etl']]],
   ['append',['append',['../classetl_1_1basic__static__string.html#a18b53a230847b7f25252d4f133cbc465',1,'etl::basic_static_string::append(size_type const count, value_type const s) noexcept -&gt; basic_static_string &amp;'],['../classetl_1_1basic__static__string.html#a536baa9be6a15d6509ce0061b95924ea',1,'etl::basic_static_string::append(const_pointer s) noexcept -&gt; basic_static_string &amp;'],['../classetl_1_1basic__static__string.html#a72466e6eda89dc2a24c4df8f27c66a46',1,'etl::basic_static_string::append(const_pointer s, size_type count) noexcept -&gt; basic_static_string &amp;']]],
