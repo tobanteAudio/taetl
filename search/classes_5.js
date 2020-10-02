@@ -8,6 +8,7 @@ var searchData=
   ['formatter_3c_20char_20const_20_2a_2c_20char_20_3e',['formatter&lt; char const *, char &gt;',['../structetl_1_1experimental_1_1format_1_1formatter_3_01char_01const_01_5_00_01char_01_4.html',1,'etl::experimental::format']]],
   ['formatter_3c_20char_2c_20char_20_3e',['formatter&lt; char, char &gt;',['../structetl_1_1experimental_1_1format_1_1formatter_3_01char_00_01char_01_4.html',1,'etl::experimental::format']]],
   ['formatter_3c_20char_5bn_5d_2c_20char_20_3e',['formatter&lt; char[N], char &gt;',['../structetl_1_1experimental_1_1format_1_1formatter_3_01char[N]_00_01char_01_4.html',1,'etl::experimental::format']]],
+  ['formatter_3c_20etl_3a_3astatic_5fstring_3c_20capacity_20_3e_2c_20char_20_3e',['formatter&lt; etl::static_string&lt; Capacity &gt;, char &gt;',['../structetl_1_1experimental_1_1format_1_1formatter_3_01etl_1_1static__string_3_01Capacity_01_4_00_01char_01_4.html',1,'etl::experimental::format']]],
   ['formatter_3c_20etl_3a_3astring_5fview_2c_20char_20_3e',['formatter&lt; etl::string_view, char &gt;',['../structetl_1_1experimental_1_1format_1_1formatter_3_01etl_1_1string__view_00_01char_01_4.html',1,'etl::experimental::format']]],
   ['forward_5fiterator_5ftag',['forward_iterator_tag',['../structetl_1_1forward__iterator__tag.html',1,'etl']]],
   ['fpos',['fpos',['../classetl_1_1fpos.html',1,'etl']]],
