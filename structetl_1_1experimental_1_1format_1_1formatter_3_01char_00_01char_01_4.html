@@ -78,9 +78,9 @@ $(function() {
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a4289156ddabbb277fccbee798c04c993"><td class="memTemplParams" colspan="2">template&lt;class FormatContext &gt; </td></tr>
-<tr class="memitem:a4289156ddabbb277fccbee798c04c993"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char_00_01char_01_4.html#a4289156ddabbb277fccbee798c04c993">format</a> (char val, FormatContext &amp;fc)</td></tr>
-<tr class="separator:a4289156ddabbb277fccbee798c04c993"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a770e2710353ad767f7d9aa41418b97aa"><td class="memTemplParams" colspan="2">template&lt;class FormatContext &gt; </td></tr>
+<tr class="memitem:a770e2710353ad767f7d9aa41418b97aa"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1experimental_1_1format_1_1formatter_3_01char_00_01char_01_4.html#a770e2710353ad767f7d9aa41418b97aa">format</a> (char val, FormatContext &amp;fc) -&gt; decltype(fc.out())</td></tr>
+<tr class="separator:a770e2710353ad767f7d9aa41418b97aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;&gt;<br />
@@ -88,8 +88,8 @@ struct etl::experimental::format::formatter&lt; char, char &gt;</h3>
 
 <p>Standard specializations for basic type char. </p>
 </div><h2 class="groupheader">Member Function Documentation</h2>
-<a id="a4289156ddabbb277fccbee798c04c993"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4289156ddabbb277fccbee798c04c993">&#9670;&nbsp;</a></span>format()</h2>
+<a id="a770e2710353ad767f7d9aa41418b97aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a770e2710353ad767f7d9aa41418b97aa">&#9670;&nbsp;</a></span>format()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -114,7 +114,8 @@ template&lt;class FormatContext &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; decltype(fc.out())
+    </td>
         </tr>
       </table>
   </td>

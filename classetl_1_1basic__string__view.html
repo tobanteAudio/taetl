@@ -119,6 +119,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aa289acd020eeb2630d62c6eda15caa3d">basic_string_view</a> (FirstIter first, SecondIter last)</td></tr>
 <tr class="memdesc:aa289acd020eeb2630d62c6eda15caa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range.  <a href="#aa289acd020eeb2630d62c6eda15caa3d">More...</a><br /></td></tr>
 <tr class="separator:aa289acd020eeb2630d62c6eda15caa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3be7c860941f6d2083039e72175165f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a3be7c860941f6d2083039e72175165f6">~basic_string_view</a> () noexcept=default</td></tr>
+<tr class="separator:a3be7c860941f6d2083039e72175165f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924871fc9429d312d3274cec6a306db9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a924871fc9429d312d3274cec6a306db9">operator=</a> (const <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;view) noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td></tr>
 <tr class="memdesc:a924871fc9429d312d3274cec6a306db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the view with that of view.  <a href="#a924871fc9429d312d3274cec6a306db9">More...</a><br /></td></tr>
 <tr class="separator:a924871fc9429d312d3274cec6a306db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -612,6 +614,33 @@ template&lt;typename FirstIter , typename SecondIter , typename etl::enable_if_t
 
 <p>Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>SFINAE protect. </dd></dl>
+
+</div>
+</div>
+<a id="a3be7c860941f6d2083039e72175165f6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3be7c860941f6d2083039e72175165f6">&#9670;&nbsp;</a></span>~basic_string_view()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::~<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">default</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
