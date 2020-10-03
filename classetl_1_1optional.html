@@ -121,7 +121,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a662d962cf0bbf81f5c6c64c75572976f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a662d962cf0bbf81f5c6c64c75572976f">operator=</a> (<a class="el" href="classetl_1_1optional.html">optional</a> const &amp;other) -&gt; <a class="el" href="classetl_1_1optional.html">optional</a> &amp;</td></tr>
 <tr class="memdesc:a662d962cf0bbf81f5c6c64c75572976f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the state of other.  <a href="#a662d962cf0bbf81f5c6c64c75572976f">More...</a><br /></td></tr>
 <tr class="separator:a662d962cf0bbf81f5c6c64c75572976f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5022a2652b5cdf43a419a1e284d8962"><td class="memTemplParams" colspan="2">template&lt;class U  = ValueType&gt; </td></tr>
+<tr class="memitem:af5022a2652b5cdf43a419a1e284d8962"><td class="memTemplParams" colspan="2">template&lt;typename U  = ValueType&gt; </td></tr>
 <tr class="memitem:af5022a2652b5cdf43a419a1e284d8962"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#af5022a2652b5cdf43a419a1e284d8962">operator=</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0">value</a>) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#af0d9f32a20bf813fd8ce025d0aebbff5">etl::conjunction_v</a>&lt; <a class="el" href="structetl_1_1negation.html">etl::negation</a>&lt; <a class="el" href="structetl_1_1is__same.html">etl::is_same</a>&lt; <a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt; U &gt;, <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;&gt;&gt;, <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a>&lt; ValueType, U &gt;, <a class="el" href="structetl_1_1is__assignable.html">etl::is_assignable</a>&lt; ValueType &amp;, U &gt;&gt;, <a class="el" href="classetl_1_1optional.html">optional</a> &amp;&gt;</td></tr>
 <tr class="memdesc:af5022a2652b5cdf43a419a1e284d8962"><td class="mdescLeft">&#160;</td><td class="mdescRight">Perfect-forwarded assignment.  <a href="#af5022a2652b5cdf43a419a1e284d8962">More...</a><br /></td></tr>
 <tr class="separator:af5022a2652b5cdf43a419a1e284d8962"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -134,11 +134,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ac60d547a2fcb48b012d025b81c77856a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#ac60d547a2fcb48b012d025b81c77856a">value</a> () const -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> *</td></tr>
 <tr class="memdesc:ac60d547a2fcb48b012d025b81c77856a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If the optional contains a value, returns a pointer. If empty the pointer will be null.  <a href="#ac60d547a2fcb48b012d025b81c77856a">More...</a><br /></td></tr>
 <tr class="separator:ac60d547a2fcb48b012d025b81c77856a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a29abd9d9cc9fa456f071ddc02e469726"><td class="memTemplParams" colspan="2">template&lt;class U &gt; </td></tr>
+<tr class="memitem:a29abd9d9cc9fa456f071ddc02e469726"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a29abd9d9cc9fa456f071ddc02e469726"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a29abd9d9cc9fa456f071ddc02e469726">value_or</a> (U &amp;&amp;default_value) const &amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a></td></tr>
 <tr class="memdesc:a29abd9d9cc9fa456f071ddc02e469726"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the contained value if *this has a value, otherwise returns default_value.  <a href="#a29abd9d9cc9fa456f071ddc02e469726">More...</a><br /></td></tr>
 <tr class="separator:a29abd9d9cc9fa456f071ddc02e469726"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5689363b0c727faa0e941590385f0577"><td class="memTemplParams" colspan="2">template&lt;class U &gt; </td></tr>
+<tr class="memitem:a5689363b0c727faa0e941590385f0577"><td class="memTemplParams" colspan="2">template&lt;typename U &gt; </td></tr>
 <tr class="memitem:a5689363b0c727faa0e941590385f0577"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a5689363b0c727faa0e941590385f0577">value_or</a> (U &amp;&amp;default_value) &amp;&amp;-&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a></td></tr>
 <tr class="memdesc:a5689363b0c727faa0e941590385f0577"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the contained value if *this has a value, otherwise returns default_value.  <a href="#a5689363b0c727faa0e941590385f0577">More...</a><br /></td></tr>
 <tr class="separator:a5689363b0c727faa0e941590385f0577"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -159,7 +159,7 @@ Public Member Functions</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::<a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> =  ValueType</td>
@@ -176,7 +176,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -205,7 +205,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -235,7 +235,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -265,7 +265,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -295,7 +295,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
 template&lt;typename... Args, typename  = typename etl::enable_if_t&lt;is_constructible_v&lt;value_type, Args...&gt;&gt;&gt; </div>
 <table class="mlabels">
@@ -337,7 +337,7 @@ template&lt;typename... Args, typename  = typename etl::enable_if_t&lt;is_constr
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
 template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;                  conjunction_v&lt;is_constructible&lt;ValueType, U&amp;&amp;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </div>
 <table class="mlabels">
@@ -370,7 +370,7 @@ template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt; 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -399,7 +399,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -429,7 +429,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -458,7 +458,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -489,7 +489,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -520,9 +520,9 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
-template&lt;class U  = ValueType&gt; </div>
+template&lt;typename U  = ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -560,7 +560,7 @@ template&lt;class U  = ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -591,7 +591,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -621,7 +621,7 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -651,9 +651,9 @@ template&lt;class ValueType&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
-template&lt;class U &gt; </div>
+template&lt;typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -684,9 +684,9 @@ template&lt;class U &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ValueType&gt; </div>
+template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
-template&lt;class U &gt; </div>
+template&lt;typename U &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

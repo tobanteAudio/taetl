@@ -104,7 +104,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:acf2618260c951e813d8b691f919a26a9"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#acf2618260c951e813d8b691f919a26a9">span</a> () noexcept=default</td></tr>
 <tr class="memdesc:acf2618260c951e813d8b691f919a26a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span. Constructs an empty span whose <a class="el" href="classetl_1_1span.html#a0c14bb1210ce53227665fde907544321" title="Returns a pointer to the beginning of the sequence. ">data()</a> == nullptr and <a class="el" href="classetl_1_1span.html#acfb3f728d2476f5e87a490153d32e46a" title="Returns the number of elements in the span. ">size()</a> == 0.  <a href="#acf2618260c951e813d8b691f919a26a9">More...</a><br /></td></tr>
 <tr class="separator:acf2618260c951e813d8b691f919a26a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a130caefca2fa62603113dee3d0ae5050"><td class="memTemplParams" colspan="2">template&lt;class It &gt; </td></tr>
+<tr class="memitem:a130caefca2fa62603113dee3d0ae5050"><td class="memTemplParams" colspan="2">template&lt;typename It &gt; </td></tr>
 <tr class="memitem:a130caefca2fa62603113dee3d0ae5050"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#a130caefca2fa62603113dee3d0ae5050">span</a> (It first, <a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>)</td></tr>
 <tr class="memdesc:a130caefca2fa62603113dee3d0ae5050"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span.  <a href="#a130caefca2fa62603113dee3d0ae5050">More...</a><br /></td></tr>
 <tr class="separator:a130caefca2fa62603113dee3d0ae5050"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -112,15 +112,15 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ae43df9ec22b0eec582622354d3aeaa1c"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#ae43df9ec22b0eec582622354d3aeaa1c">span</a> (<a class="el" href="classetl_1_1span.html#afc881e465caefd456f2b953c5b8fa8fd">element_type</a>(&amp;arr)[N]) noexcept</td></tr>
 <tr class="memdesc:ae43df9ec22b0eec582622354d3aeaa1c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span.  <a href="#ae43df9ec22b0eec582622354d3aeaa1c">More...</a><br /></td></tr>
 <tr class="separator:ae43df9ec22b0eec582622354d3aeaa1c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab5492c37562e955e368d611fd54d54ed"><td class="memTemplParams" colspan="2">template&lt;class U , etl::size_t N&gt; </td></tr>
+<tr class="memitem:ab5492c37562e955e368d611fd54d54ed"><td class="memTemplParams" colspan="2">template&lt;typename U , etl::size_t N&gt; </td></tr>
 <tr class="memitem:ab5492c37562e955e368d611fd54d54ed"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#ab5492c37562e955e368d611fd54d54ed">span</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; U, N &gt; &amp;arr) noexcept</td></tr>
 <tr class="memdesc:ab5492c37562e955e368d611fd54d54ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span. From a <a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884" title="Deduction guide. ">etl::array&lt;Type,Size&gt;</a>.  <a href="#ab5492c37562e955e368d611fd54d54ed">More...</a><br /></td></tr>
 <tr class="separator:ab5492c37562e955e368d611fd54d54ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aca6ba2d79688cdcf6e8f1981f44601fc"><td class="memTemplParams" colspan="2">template&lt;class U , etl::size_t N&gt; </td></tr>
+<tr class="memitem:aca6ba2d79688cdcf6e8f1981f44601fc"><td class="memTemplParams" colspan="2">template&lt;typename U , etl::size_t N&gt; </td></tr>
 <tr class="memitem:aca6ba2d79688cdcf6e8f1981f44601fc"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#aca6ba2d79688cdcf6e8f1981f44601fc">span</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; U, N &gt; const &amp;arr) noexcept</td></tr>
 <tr class="memdesc:aca6ba2d79688cdcf6e8f1981f44601fc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span. From a <a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884" title="Deduction guide. ">etl::array&lt;Type,Size&gt;</a> const.  <a href="#aca6ba2d79688cdcf6e8f1981f44601fc">More...</a><br /></td></tr>
 <tr class="separator:aca6ba2d79688cdcf6e8f1981f44601fc"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afcd6d64a7b3be081431579ca48b21bfd"><td class="memTemplParams" colspan="2">template&lt;class R &gt; </td></tr>
+<tr class="memitem:afcd6d64a7b3be081431579ca48b21bfd"><td class="memTemplParams" colspan="2">template&lt;typename R &gt; </td></tr>
 <tr class="memitem:afcd6d64a7b3be081431579ca48b21bfd"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1span.html#afcd6d64a7b3be081431579ca48b21bfd">span</a> (R &amp;&amp;r)</td></tr>
 <tr class="memdesc:afcd6d64a7b3be081431579ca48b21bfd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a span.  <a href="#afcd6d64a7b3be081431579ca48b21bfd">More...</a><br /></td></tr>
 <tr class="separator:afcd6d64a7b3be081431579ca48b21bfd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -162,7 +162,7 @@ Static Public Attributes</h2></td></tr>
 <tr class="separator:a8185ca9b34d216439a1646aceef4de64"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class ElementType, size_t Extent = etl::dynamic_extent&gt;<br />
+<div class="textblock"><h3>template&lt;typename ElementType, size_t Extent = etl::dynamic_extent&gt;<br />
 class etl::span&lt; ElementType, Extent &gt;</h3>
 
 <p>A non-owning view over a contiguous sequence of objects. </p>
@@ -175,7 +175,7 @@ class etl::span&lt; ElementType, Extent &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#aab337e9f7efd4e94889a496d642fb90a">const_pointer</a> =  ElementType const*</td>
@@ -191,7 +191,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#afb5fb3e7344dbe77f1b330c599323bfd">const_reference</a> =  ElementType const&amp;</td>
@@ -207,7 +207,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#ac92ed0cfa8ba5b8d34f8245d3c2a5b4b">difference_type</a> =  <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a></td>
@@ -223,7 +223,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#afc881e465caefd456f2b953c5b8fa8fd">element_type</a> =  ElementType</td>
@@ -239,7 +239,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#a5d04cc0bc7cc697c19163221819bae3d">iterator</a> =  ElementType const*</td>
@@ -255,7 +255,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#a01144633928dd6a554f076ce8414ab7c">pointer</a> =  ElementType*</td>
@@ -271,7 +271,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#a75fada4dc46efee6a4701273694a56ea">reference</a> =  ElementType&amp;</td>
@@ -287,7 +287,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#a831d3f9d211e49ea8cd1791765e8fe92">size_type</a> =  <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td>
@@ -303,7 +303,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1span.html">etl::span</a>&lt; ElementType, Extent &gt;::<a class="el" href="classetl_1_1span.html#afaec5c35c07712422af6970ce942b613">value_type</a> =  <a class="el" href="namespaceetl.html#a70fb46b3c4c98f5f23b76cb25f343373">etl::remove_cv_t</a>&lt;ElementType&gt;</td>
@@ -320,7 +320,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -351,9 +351,9 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memtemplate">
-template&lt;class It &gt; </div>
+template&lt;typename It &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -395,7 +395,7 @@ template&lt;class It &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memtemplate">
 template&lt;etl::size_t N&gt; </div>
 <table class="mlabels">
@@ -429,9 +429,9 @@ template&lt;etl::size_t N&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memtemplate">
-template&lt;class U , etl::size_t N&gt; </div>
+template&lt;typename U , etl::size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -461,9 +461,9 @@ template&lt;class U , etl::size_t N&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memtemplate">
-template&lt;class U , etl::size_t N&gt; </div>
+template&lt;typename U , etl::size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -493,9 +493,9 @@ template&lt;class U , etl::size_t N&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memtemplate">
-template&lt;class R &gt; </div>
+template&lt;typename R &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -526,7 +526,7 @@ template&lt;class R &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -558,7 +558,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -587,7 +587,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -616,7 +616,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -645,7 +645,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -674,7 +674,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -704,7 +704,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -733,7 +733,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -764,7 +764,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -793,7 +793,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -824,7 +824,7 @@ template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
+template&lt;typename ElementType , size_t Extent = etl::dynamic_extent&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

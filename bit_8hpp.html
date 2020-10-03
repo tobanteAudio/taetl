@@ -109,7 +109,7 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:ae516046f5fb54110a91f5e7759f16240"><td class="memTemplParams" colspan="2">template&lt;class To , class From &gt; </td></tr>
+<tr class="memitem:ae516046f5fb54110a91f5e7759f16240"><td class="memTemplParams" colspan="2">template&lt;typename To , typename From &gt; </td></tr>
 <tr class="memitem:ae516046f5fb54110a91f5e7759f16240"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae516046f5fb54110a91f5e7759f16240">etl::bit_cast</a> (const From &amp;src) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;(sizeof(To)==sizeof(From)) &amp;&amp;<a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt; From &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt; To &gt;, To &gt;</td></tr>
 <tr class="memdesc:ae516046f5fb54110a91f5e7759f16240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a value of type To by reinterpreting the object representation of from. Every bit in the value representation of the returned To object is equal to the corresponding bit in the object representation of from.  <a href="namespaceetl.html#ae516046f5fb54110a91f5e7759f16240">More...</a><br /></td></tr>
 <tr class="separator:ae516046f5fb54110a91f5e7759f16240"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,7 +119,7 @@ Functions</h2></td></tr>
 <tr class="memitem:acd414238dbd4b828eea66882b9af5ba2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd414238dbd4b828eea66882b9af5ba2">etl::is_little_endian</a> () noexcept -&gt; bool</td></tr>
 <tr class="memdesc:acd414238dbd4b828eea66882b9af5ba2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the system is little endian.  <a href="namespaceetl.html#acd414238dbd4b828eea66882b9af5ba2">More...</a><br /></td></tr>
 <tr class="separator:acd414238dbd4b828eea66882b9af5ba2"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplParams" colspan="2">template&lt;class T &gt; </td></tr>
+<tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a966b3039757a35f7b1104a7f6c9b6523">etl::popcount</a> (T input) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
 <tr class="memdesc:a966b3039757a35f7b1104a7f6c9b6523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="namespaceetl.html#a966b3039757a35f7b1104a7f6c9b6523">More...</a><br /></td></tr>
 <tr class="separator:a966b3039757a35f7b1104a7f6c9b6523"><td class="memSeparator" colspan="2">&#160;</td></tr>
