@@ -87,7 +87,7 @@ Collaboration diagram for etl::is_convertible&lt; From, To &gt;:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class From, class To&gt;<br />
+<div class="textblock"><h3>template&lt;typename From, typename To&gt;<br />
 struct etl::is_convertible&lt; From, To &gt;</h3>
 
 <p>If the imaginary function definition To test() { return <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a>; } is well-formed, (that is, either <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval&lt;From&gt;()</a> can be converted to To using implicit conversions, or both From and To are possibly cv-qualified void), provides the member constant value equal to true. Otherwise value is false. For the purposes of this check, the use of <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292" title="Converts any type T to a reference type, making it possible to use member functions in decltype expre...">etl::declval</a> in the return statement is not considered an odr-use. Access checks are performed as if from a context unrelated to either type. Only the validity of the immediate context of the expression in the return statement (including conversions to the return type) is considered. </p>

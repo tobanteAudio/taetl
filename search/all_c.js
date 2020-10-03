@@ -48,7 +48,7 @@ var searchData=
   ['monostate',['monostate',['../structetl_1_1monostate.html',1,'etl']]],
   ['months',['months',['../namespaceetl_1_1chrono.html#a580aaca1b8394beec1fc058a131cd83b',1,'etl::chrono']]],
   ['move',['move',['../structetl_1_1char__traits_3_01char_01_4.html#a0e7d1cc5ce8812b37b1dbaf79f2bfae3',1,'etl::char_traits&lt; char &gt;::move()'],['../namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc',1,'etl::move(InputIter first, InputIter last, OutputIter destination) -&gt; OutputIter'],['../namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d',1,'etl::move(T &amp;&amp;t) noexcept -&gt; typename etl::remove_reference&lt; T &gt;::type &amp;&amp;']]],
-  ['move_5finsert',['move_insert',['../classetl_1_1static__vector.html#a70c09c14b88f68b1621c6684d5d961f6',1,'etl::static_vector']]],
+  ['move_5finsert',['move_insert',['../classetl_1_1static__vector.html#aab0e6f60eeeadbd320dbedb5c15727b6',1,'etl::static_vector']]],
   ['multipliable',['multipliable',['../structetl_1_1experimental_1_1skill_1_1multipliable.html',1,'etl::experimental::skill']]],
   ['multiplies',['multiplies',['../structetl_1_1multiplies.html',1,'etl']]],
   ['multiplies_3c_20void_20_3e',['multiplies&lt; void &gt;',['../structetl_1_1multiplies_3_01void_01_4.html',1,'etl']]],

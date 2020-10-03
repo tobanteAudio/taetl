@@ -87,7 +87,7 @@ Collaboration diagram for etl::add_pointer&lt; T &gt;:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T&gt;<br />
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct etl::add_pointer&lt; T &gt;</h3>
 
 <p>If T is a reference type, then provides the member typedef type which is a pointer to the referred type. Otherwise, if T names an object type, a function type that is not cv- or ref-qualified, or a (possibly cv-qualified) void type, provides the member typedef type which is the type T*. Otherwise (if T is a cv- or ref-qualified function type), provides the member typedef type which is the type T. The behavior of a program that adds specializations for <a class="el" href="structetl_1_1add__pointer.html" title="If T is a reference type, then provides the member typedef type which is a pointer to the referred ty...">add_pointer</a> is undefined. </p>

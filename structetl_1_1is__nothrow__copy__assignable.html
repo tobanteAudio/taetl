@@ -89,7 +89,7 @@ Collaboration diagram for etl::is_nothrow_copy_assignable&lt; T &gt;:</div>
 </map>
 <center><span class="legend">[<a href="graph_legend.html">legend</a>]</span></center></div>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T&gt;<br />
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct etl::is_nothrow_copy_assignable&lt; T &gt;</h3>
 
 <p>If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to <a class="el" href="structetl_1_1integral__constant.html#ac6a0d38654d5eeea44e25fea4eae7a55">etl::is_nothrow_assignable&lt;T&amp;, const T&amp;&gt;::value</a>. </p>

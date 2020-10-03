@@ -82,7 +82,7 @@ Public Types</h2></td></tr>
 <tr class="separator:a45376ed2f6224ebe00c1c3151de7f8e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;class T&gt;<br />
+<div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct etl::remove_cvref&lt; T &gt;</h3>
 
 <p>If the type T is a reference type, provides the member typedef type which is the type referred to by T with its topmost cv-qualifiers removed. Otherwise type is T with its topmost cv-qualifiers removed. </p>
@@ -94,7 +94,7 @@ struct etl::remove_cvref&lt; T &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;class T&gt; </div>
+template&lt;typename T&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="structetl_1_1remove__cvref.html">etl::remove_cvref</a>&lt; T &gt;::<a class="el" href="structetl_1_1remove__cvref.html#a45376ed2f6224ebe00c1c3151de7f8e1">type</a> =  <a class="el" href="namespaceetl.html#a70fb46b3c4c98f5f23b76cb25f343373">etl::remove_cv_t</a>&lt;<a class="el" href="namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6">etl::remove_reference_t</a>&lt;T&gt; &gt;</td>
