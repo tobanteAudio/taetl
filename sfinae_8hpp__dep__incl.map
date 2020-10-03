@@ -1,5 +1,7 @@
 <map id="etl/detail/sfinae.hpp" name="etl/detail/sfinae.hpp">
-<area shape="rect" id="node2" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="39,80,150,107"/>
-<area shape="rect" id="node4" href="$optional_8hpp.html" title="etl/optional.hpp" alt="" coords="174,80,298,107"/>
-<area shape="rect" id="node3" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="5,155,184,196"/>
+<area shape="rect" id="node2" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="61,80,207,107"/>
+<area shape="rect" id="node5" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="189,155,300,181"/>
+<area shape="rect" id="node6" href="$optional_8hpp.html" title="etl/optional.hpp" alt="" coords="283,80,407,107"/>
+<area shape="rect" id="node3" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="5,155,113,181"/>
+<area shape="rect" id="node4" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="62,229,241,271"/>
 </map>

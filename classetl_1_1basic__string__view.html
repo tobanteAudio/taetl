@@ -115,7 +115,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5acf3f09659da157899ca91d5f1e147"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ad5acf3f09659da157899ca91d5f1e147">basic_string_view</a> (CharType const *str)</td></tr>
 <tr class="memdesc:ad5acf3f09659da157899ca91d5f1e147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a view of the null-terminated character string pointed to by s, not including the terminating null character. The length of the view is determined as if by Traits::length(s). The behavior is undefined if [s, s+Traits::length(s)) is not a valid range. After construction, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> is equal to s, and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> is equal to Traits::length(s).  <a href="#ad5acf3f09659da157899ca91d5f1e147">More...</a><br /></td></tr>
 <tr class="separator:ad5acf3f09659da157899ca91d5f1e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplParams" colspan="2">template&lt;typename FirstIter , typename SecondIter , typename etl::enable_if_t&lt;!etl::is_convertible_v&lt; SecondIter, size_type &gt;, int &gt;  = 0&gt; </td></tr>
+<tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplParams" colspan="2">template&lt;typename FirstIter , typename SecondIter , TAETL_REQUIRES_(!etl::is_convertible_v&lt; SecondIter, size_type &gt;) &gt; </td></tr>
 <tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aa289acd020eeb2630d62c6eda15caa3d">basic_string_view</a> (FirstIter first, SecondIter last)</td></tr>
 <tr class="memdesc:aa289acd020eeb2630d62c6eda15caa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range.  <a href="#aa289acd020eeb2630d62c6eda15caa3d">More...</a><br /></td></tr>
 <tr class="separator:aa289acd020eeb2630d62c6eda15caa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -582,7 +582,7 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
 <div class="memtemplate">
 template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <div class="memtemplate">
-template&lt;typename FirstIter , typename SecondIter , typename etl::enable_if_t&lt;!etl::is_convertible_v&lt; SecondIter, size_type &gt;, int &gt;  = 0&gt; </div>
+template&lt;typename FirstIter , typename SecondIter , TAETL_REQUIRES_(!etl::is_convertible_v&lt; SecondIter, size_type &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -613,7 +613,7 @@ template&lt;typename FirstIter , typename SecondIter , typename etl::enable_if_t
 </div><div class="memdoc">
 
 <p>Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>SFINAE protect. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000022">Todo:</a></b></dt><dd>Improve SFINAE protection. See standard. </dd></dl>
 
 </div>
 </div>
