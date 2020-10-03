@@ -488,7 +488,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Initializes vector with <code>n</code> default-constructed elements. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>FCV_REQUIRES(<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v&lt;T&gt;</a> || <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a>) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>FCV_REQUIRES(<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v&lt;T&gt;</a> || <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a>) </dd></dl>
 
 </div>
 </div>
@@ -529,7 +529,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Initializes vector with <code>n</code> with <code>value</code>. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000035">Todo:</a></b></dt><dd>FCV_REQUIRES(etl::is_copy_constructible_v&lt;T&gt;) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>FCV_REQUIRES(etl::is_copy_constructible_v&lt;T&gt;) </dd></dl>
 
 </div>
 </div>
@@ -572,7 +572,7 @@ template&lt;typename InputIter &gt; </div>
 </div><div class="memdoc">
 
 <p>Initialize vector from range [first, last). </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000036">Todo:</a></b></dt><dd>FCV_REQUIRES_(detail::InputIterator&lt;InputIt&gt;) </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000037">Todo:</a></b></dt><dd>FCV_REQUIRES_(detail::InputIterator&lt;InputIt&gt;) </dd></dl>
 
 </div>
 </div>
@@ -1559,7 +1559,7 @@ template&lt;typename U &gt; </div>
 </div><div class="memdoc">
 
 <p>Appends <code>value</code> at the end of the vector. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000033">Todo:</a></b></dt><dd>Add noexcept(noexcept(emplace_back(etl::forward&lt;U&gt;(value)))) breaks AVR build GCC8.2 currently. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000034">Todo:</a></b></dt><dd>Add noexcept(noexcept(emplace_back(etl::forward&lt;U&gt;(value)))) breaks AVR build GCC8.2 currently. </dd></dl>
 
 </div>
 </div>

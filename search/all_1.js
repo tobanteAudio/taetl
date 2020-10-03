@@ -33,7 +33,7 @@ var searchData=
   ['adopt_5flock',['adopt_lock',['../namespaceetl.html#a03ee00292ff760cd8ecf8b41bb4de696',1,'etl']]],
   ['adopt_5flock_5ft',['adopt_lock_t',['../structetl_1_1adopt__lock__t.html',1,'etl::adopt_lock_t'],['../structetl_1_1adopt__lock__t.html#aaadb452147fd23e2356982181576ff94',1,'etl::adopt_lock_t::adopt_lock_t()']]],
   ['advance',['advance',['../namespaceetl.html#ac45065b143a47fb9249bda8d57ccca63',1,'etl']]],
-  ['advance_5fto',['advance_to',['../structetl_1_1experimental_1_1format_1_1basic__format__context.html#a38b0e518209801eea5d204506b467632',1,'etl::experimental::format::basic_format_context']]],
+  ['advance_5fto',['advance_to',['../classetl_1_1experimental_1_1format_1_1basic__format__context.html#a38b0e518209801eea5d204506b467632',1,'etl::experimental::format::basic_format_context']]],
   ['algo_5fsearch_2ehpp',['algo_search.hpp',['../algo__search_8hpp.html',1,'']]],
   ['algorithm_2ehpp',['algorithm.hpp',['../algorithm_8hpp.html',1,'']]],
   ['aligned_5fstorage',['aligned_storage',['../structetl_1_1aligned__storage.html',1,'etl']]],

@@ -11,7 +11,7 @@ var searchData=
   ['centi',['centi',['../namespaceetl.html#a95d8c20c69482c794a0cfb9e4428ca8d',1,'etl']]],
   ['char_5ftraits',['char_traits',['../structetl_1_1char__traits.html',1,'etl']]],
   ['char_5ftraits_3c_20char_20_3e',['char_traits&lt; char &gt;',['../structetl_1_1char__traits_3_01char_01_4.html',1,'etl']]],
-  ['char_5ftype',['char_type',['../structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60',1,'etl::char_traits&lt; char &gt;::char_type()'],['../structetl_1_1experimental_1_1format_1_1basic__format__context.html#ad6afb73c7e1808093ded70c151365ecb',1,'etl::experimental::format::basic_format_context::char_type()']]],
+  ['char_5ftype',['char_type',['../structetl_1_1char__traits_3_01char_01_4.html#a03dfad65d012abdd4a79dd2f53802c60',1,'etl::char_traits&lt; char &gt;::char_type()'],['../classetl_1_1experimental_1_1format_1_1basic__format__context.html#ad6afb73c7e1808093ded70c151365ecb',1,'etl::experimental::format::basic_format_context::char_type()']]],
   ['charconv_2ehpp',['charconv.hpp',['../charconv_8hpp.html',1,'']]],
   ['chars_5fformat',['chars_format',['../namespaceetl.html#af524d0acb625979997f7a2dd1c0ea944',1,'etl']]],
   ['chrono_2ehpp',['chrono.hpp',['../chrono_8hpp.html',1,'']]],

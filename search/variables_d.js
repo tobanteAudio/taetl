@@ -9,6 +9,5 @@ var searchData=
   ['piecewise_5fconstruct',['piecewise_construct',['../namespaceetl.html#a69282b501974163cc5557d48739f21c4',1,'etl']]],
   ['pif',['pif',['../namespaceetl_1_1numbers.html#ace39e5a4ac86102d5b07c8ab98267c86',1,'etl::numbers']]],
   ['pil',['pil',['../namespaceetl_1_1numbers.html#afcc2855145761c03392c9c24901692b6',1,'etl::numbers']]],
-  ['pos_5f',['pos_',['../structetl_1_1experimental_1_1format_1_1basic__format__context.html#a444790854662f145c1c602728093a89f',1,'etl::experimental::format::basic_format_context']]],
   ['ptr',['ptr',['../structetl_1_1to__chars__result.html#a19421967f126e3ab8ba85b9fc7d27a9f',1,'etl::to_chars_result::ptr()'],['../structetl_1_1from__chars__result.html#ac1772358fc563f10a92f04991334525a',1,'etl::from_chars_result::ptr()']]]
 ];

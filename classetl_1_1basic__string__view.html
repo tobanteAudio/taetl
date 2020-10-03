@@ -115,6 +115,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5acf3f09659da157899ca91d5f1e147"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ad5acf3f09659da157899ca91d5f1e147">basic_string_view</a> (CharType const *str)</td></tr>
 <tr class="memdesc:ad5acf3f09659da157899ca91d5f1e147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a view of the null-terminated character string pointed to by s, not including the terminating null character. The length of the view is determined as if by Traits::length(s). The behavior is undefined if [s, s+Traits::length(s)) is not a valid range. After construction, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> is equal to s, and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> is equal to Traits::length(s).  <a href="#ad5acf3f09659da157899ca91d5f1e147">More...</a><br /></td></tr>
 <tr class="separator:ad5acf3f09659da157899ca91d5f1e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplParams" colspan="2">template&lt;typename FirstIter , typename SecondIter , typename etl::enable_if_t&lt;!etl::is_convertible_v&lt; SecondIter, size_type &gt;, int &gt;  = 0&gt; </td></tr>
+<tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aa289acd020eeb2630d62c6eda15caa3d">basic_string_view</a> (FirstIter first, SecondIter last)</td></tr>
+<tr class="memdesc:aa289acd020eeb2630d62c6eda15caa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range.  <a href="#aa289acd020eeb2630d62c6eda15caa3d">More...</a><br /></td></tr>
+<tr class="separator:aa289acd020eeb2630d62c6eda15caa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a924871fc9429d312d3274cec6a306db9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a924871fc9429d312d3274cec6a306db9">operator=</a> (const <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;view) noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td></tr>
 <tr class="memdesc:a924871fc9429d312d3274cec6a306db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the view with that of view.  <a href="#a924871fc9429d312d3274cec6a306db9">More...</a><br /></td></tr>
 <tr class="separator:a924871fc9429d312d3274cec6a306db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -440,7 +444,7 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="aa8787169636e06525e6777efaf93a471"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8787169636e06525e6777efaf93a471">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa8787169636e06525e6777efaf93a471">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -469,7 +473,7 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 </div>
 </div>
 <a id="aa5fd616d4fef058984e226c00444e162"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5fd616d4fef058984e226c00444e162">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5fd616d4fef058984e226c00444e162">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -499,7 +503,7 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 </div>
 </div>
 <a id="a2c742950084a38cbaae5c3a60feb1400"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a2c742950084a38cbaae5c3a60feb1400">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a2c742950084a38cbaae5c3a60feb1400">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -539,7 +543,7 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 </div>
 </div>
 <a id="ad5acf3f09659da157899ca91d5f1e147"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad5acf3f09659da157899ca91d5f1e147">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad5acf3f09659da157899ca91d5f1e147">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -565,6 +569,49 @@ template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; 
 </div><div class="memdoc">
 
 <p>Constructs a view of the null-terminated character string pointed to by s, not including the terminating null character. The length of the view is determined as if by Traits::length(s). The behavior is undefined if [s, s+Traits::length(s)) is not a valid range. After construction, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> is equal to s, and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> is equal to Traits::length(s). </p>
+
+</div>
+</div>
+<a id="aa289acd020eeb2630d62c6eda15caa3d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa289acd020eeb2630d62c6eda15caa3d">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class CharType, class Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename FirstIter , typename SecondIter , typename etl::enable_if_t&lt;!etl::is_convertible_v&lt; SecondIter, size_type &gt;, int &gt;  = 0&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> </td>
+          <td>(</td>
+          <td class="paramtype">FirstIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">SecondIter&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range. </p>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000023">Todo:</a></b></dt><dd>SFINAE protect. </dd></dl>
 
 </div>
 </div>
