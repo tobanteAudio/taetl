@@ -2074,23 +2074,33 @@ Functions</h2></td></tr>
 <tr class="memitem:a6793464788b24ea02472dc48eb208218"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6793464788b24ea02472dc48eb208218">get_if</a> (<a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt; const *pv) noexcept -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt; <a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt; I, <a class="el" href="classetl_1_1variant.html">etl::variant</a>&lt; Types... &gt;&gt; const &gt;</td></tr>
 <tr class="memdesc:a6793464788b24ea02472dc48eb208218"><td class="mdescLeft">&#160;</td><td class="mdescRight">Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant.  <a href="#a6793464788b24ea02472dc48eb208218">More...</a><br /></td></tr>
 <tr class="separator:a6793464788b24ea02472dc48eb208218"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:ac1c5f129858d55474d1d7ae92c374456"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
+<tr class="memitem:ac1c5f129858d55474d1d7ae92c374456"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac1c5f129858d55474d1d7ae92c374456">swap</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;rhs) noexcept -&gt; void</td></tr>
+<tr class="memdesc:ac1c5f129858d55474d1d7ae92c374456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs.  <a href="#ac1c5f129858d55474d1d7ae92c374456">More...</a><br /></td></tr>
+<tr class="separator:ac1c5f129858d55474d1d7ae92c374456"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9d3aa3446aca179d812252faf83360c6">operator==</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a9d3aa3446aca179d812252faf83360c6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#a9d3aa3446aca179d812252faf83360c6">More...</a><br /></td></tr>
 <tr class="separator:a9d3aa3446aca179d812252faf83360c6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3d2867e9d12d25137a50a1b3aee3c5a7">operator!=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#a3d2867e9d12d25137a50a1b3aee3c5a7">More...</a><br /></td></tr>
 <tr class="separator:a3d2867e9d12d25137a50a1b3aee3c5a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab0dfb93223a9c8e4413fe9368cd36046">operator&lt;</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ab0dfb93223a9c8e4413fe9368cd36046"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#ab0dfb93223a9c8e4413fe9368cd36046">More...</a><br /></td></tr>
 <tr class="separator:ab0dfb93223a9c8e4413fe9368cd36046"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:a715395c53fa693969e269ef5af1972e6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a715395c53fa693969e269ef5af1972e6">operator&lt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a715395c53fa693969e269ef5af1972e6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#a715395c53fa693969e269ef5af1972e6">More...</a><br /></td></tr>
 <tr class="separator:a715395c53fa693969e269ef5af1972e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad4fd2ea0cf33ad9339a54469a92f5121">operator&gt;</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#ad4fd2ea0cf33ad9339a54469a92f5121">More...</a><br /></td></tr>
 <tr class="separator:ad4fd2ea0cf33ad9339a54469a92f5121"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplParams" colspan="2">template&lt;typename T , size_t Capacity&gt; </td></tr>
+<tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aebf47ed021fd1e8bfbc389525967e551">operator&gt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:aebf47ed021fd1e8bfbc389525967e551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#aebf47ed021fd1e8bfbc389525967e551">More...</a><br /></td></tr>
 <tr class="separator:aebf47ed021fd1e8bfbc389525967e551"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b">is_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
 <tr class="memdesc:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the given standard and the currently configurated in the compiler match.  <a href="#ad763c7f65a817a0ba3f58cf0d5672d1b">More...</a><br /></td></tr>
@@ -9089,7 +9099,7 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity1&gt; </di
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , size_t Capacity&gt; </div>
+template&lt;typename T , etl::size_t Capacity&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -9119,6 +9129,9 @@ template&lt;typename T , size_t Capacity&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compares the contents of two vectors. </p>
+<p>Checks if the contents of lhs and rhs are equal, that is, they have the same number of elements and each element in lhs compares equal with the element in rhs at the same position. </p>
 
 </div>
 </div>
@@ -9473,7 +9486,7 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity1&gt; </di
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , size_t Capacity&gt; </div>
+template&lt;typename T , etl::size_t Capacity&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -9503,6 +9516,9 @@ template&lt;typename T , size_t Capacity&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compares the contents of two vectors. </p>
+<p>Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#a22bf6272342dcb53c476905d305d5253" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
 
 </div>
 </div>
@@ -9940,7 +9956,7 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity1&gt; </di
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , size_t Capacity&gt; </div>
+template&lt;typename T , etl::size_t Capacity&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -9970,6 +9986,9 @@ template&lt;typename T , size_t Capacity&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compares the contents of two vectors. </p>
+<p>Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#a22bf6272342dcb53c476905d305d5253" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
 
 </div>
 </div>
@@ -10325,7 +10344,7 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity1&gt; </di
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , size_t Capacity&gt; </div>
+template&lt;typename T , etl::size_t Capacity&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -10355,6 +10374,9 @@ template&lt;typename T , size_t Capacity&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compares the contents of two vectors. </p>
+<p>Checks if the contents of lhs and rhs are equal, that is, they have the same number of elements and each element in lhs compares equal with the element in rhs at the same position. </p>
 
 </div>
 </div>
@@ -10709,7 +10731,7 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity1&gt; </di
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , size_t Capacity&gt; </div>
+template&lt;typename T , etl::size_t Capacity&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -10739,6 +10761,9 @@ template&lt;typename T , size_t Capacity&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compares the contents of two vectors. </p>
+<p>Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#a22bf6272342dcb53c476905d305d5253" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
 
 </div>
 </div>
@@ -11093,7 +11118,7 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity&gt; </div
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , size_t Capacity&gt; </div>
+template&lt;typename T , etl::size_t Capacity&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -11123,6 +11148,9 @@ template&lt;typename T , size_t Capacity&gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Compares the contents of two vectors. </p>
+<p>Compares the contents of lhs and rhs lexicographically. The comparison is performed by a function equivalent to <a class="el" href="namespaceetl.html#a22bf6272342dcb53c476905d305d5253" title="Checks if the first range [first1, last1) is lexicographically less than the second range [first2...">etl::lexicographical_compare</a>. </p>
 
 </div>
 </div>
@@ -12392,7 +12420,7 @@ template&lt;typename BidirIter , typename UnaryPredicate &gt; </div>
 </div>
 </div>
 <a id="a0a1c3baeebc248b3f787a308af595c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a1c3baeebc248b3f787a308af595c6a">&#9670;&nbsp;</a></span>swap() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1c3baeebc248b3f787a308af595c6a">&#9670;&nbsp;</a></span>swap() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12434,7 +12462,7 @@ template&lt;typename T &gt; </div>
 </div>
 </div>
 <a id="a0f31d2c1983d613a5b1be68a431cfd13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f31d2c1983d613a5b1be68a431cfd13">&#9670;&nbsp;</a></span>swap() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f31d2c1983d613a5b1be68a431cfd13">&#9670;&nbsp;</a></span>swap() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12475,7 +12503,7 @@ template&lt;typename T , etl::size_t N&gt; </div>
 </div>
 </div>
 <a id="ab26740fb04308c8615763f8f81f6bef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26740fb04308c8615763f8f81f6bef6">&#9670;&nbsp;</a></span>swap() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26740fb04308c8615763f8f81f6bef6">&#9670;&nbsp;</a></span>swap() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12512,6 +12540,47 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity&gt; </div
 </div><div class="memdoc">
 
 <p>Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs). </p>
+
+</div>
+</div>
+<a id="ac1c5f129858d55474d1d7ae92c374456"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c5f129858d55474d1d7ae92c374456">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , etl::size_t Capacity&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs. </p>
 
 </div>
 </div>
