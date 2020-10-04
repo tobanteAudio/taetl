@@ -74,6 +74,7 @@ $(function() {
 <div class="contents">
 <div class="textblock"><code>#include &quot;<a class="el" href="limits_8hpp_source.html">etl/limits.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">etl/type_traits.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="algo__swap_8hpp_source.html">etl/detail/algo_swap.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="sfinae_8hpp_source.html">etl/detail/sfinae.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="tuple__size_8hpp_source.html">etl/detail/tuple_size.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
@@ -81,10 +82,11 @@ Include dependency graph for utility.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="utility_8hpp__incl.png" border="0" usemap="#etl_2utility_8hpp" alt=""/></div>
 <map name="etl_2utility_8hpp" id="etl_2utility_8hpp">
-<area shape="rect" id="node2" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="120,80,228,107"/>
-<area shape="rect" id="node10" href="type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="387,155,529,181"/>
-<area shape="rect" id="node13" href="sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="304,80,455,107"/>
-<area shape="rect" id="node14" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="479,80,658,107"/>
+<area shape="rect" id="node2" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="167,80,275,107"/>
+<area shape="rect" id="node10" href="type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="383,155,525,181"/>
+<area shape="rect" id="node13" href="algo__swap_8hpp.html" title="etl/detail/algo_swap.hpp" alt="" coords="358,80,539,107"/>
+<area shape="rect" id="node14" href="sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="564,80,715,107"/>
+<area shape="rect" id="node15" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="739,80,918,107"/>
 <area shape="rect" id="node6" href="definitions_8hpp.html" title="definitions.hpp" alt="" coords="284,319,403,345"/>
 <area shape="rect" id="node7" href="version_8hpp.html" title="version.hpp" alt="" coords="183,393,282,420"/>
 <area shape="rect" id="node11" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="457,319,627,345"/>
@@ -207,6 +209,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a010684d008e6a4f168e1925af49c38f3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a010684d008e6a4f168e1925af49c38f3">etl::in_range</a> (T t) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a010684d008e6a4f168e1925af49c38f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the value of t is in the range of values that can be represented in R, that is, if t can be converted to R without data loss.  <a href="namespaceetl.html#a010684d008e6a4f168e1925af49c38f3">More...</a><br /></td></tr>
 <tr class="separator:a010684d008e6a4f168e1925af49c38f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa50aa68713ac9f56128ad9c0406b737"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
+<tr class="memitem:aaa50aa68713ac9f56128ad9c0406b737"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aaa50aa68713ac9f56128ad9c0406b737">etl::swap</a> (pair&lt; T1, T2 &gt; &amp;lhs, pair&lt; T1, T2 &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
+<tr class="memdesc:aaa50aa68713ac9f56128ad9c0406b737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of x and y. Equivalent to x.swap(y).  <a href="namespaceetl.html#aaa50aa68713ac9f56128ad9c0406b737">More...</a><br /></td></tr>
+<tr class="separator:aaa50aa68713ac9f56128ad9c0406b737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a638ad4db4d90fecc8d08227b1c214148">etl::make_pair</a> (T1 &amp;&amp;t, T2 &amp;&amp;u) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; typename <a class="el" href="structetl_1_1decay.html">etl::decay</a>&lt; T1 &gt;::type, typename <a class="el" href="structetl_1_1decay.html">etl::decay</a>&lt; T2 &gt;::type &gt;</td></tr>
 <tr class="memdesc:a638ad4db4d90fecc8d08227b1c214148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> object, deducing the target type from the types of arguments.  <a href="namespaceetl.html#a638ad4db4d90fecc8d08227b1c214148">More...</a><br /></td></tr>

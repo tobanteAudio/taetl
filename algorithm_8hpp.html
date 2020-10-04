@@ -76,28 +76,30 @@ $(function() {
 <code>#include &quot;<a class="el" href="iterator_8hpp_source.html">etl/iterator.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="type__traits_8hpp_source.html">etl/type_traits.hpp</a>&quot;</code><br />
 <code>#include &quot;<a class="el" href="algo__search_8hpp_source.html">etl/detail/algo_search.hpp</a>&quot;</code><br />
+<code>#include &quot;<a class="el" href="algo__swap_8hpp_source.html">etl/detail/algo_swap.hpp</a>&quot;</code><br />
 </div><div class="textblock"><div class="dynheader">
 Include dependency graph for algorithm.hpp:</div>
 <div class="dyncontent">
 <div class="center"><img src="algorithm_8hpp__incl.png" border="0" usemap="#etl_2algorithm_8hpp" alt=""/></div>
 <map name="etl_2algorithm_8hpp" id="etl_2algorithm_8hpp">
 <area shape="rect" id="node2" href="cassert_8hpp.html" title="etl/cassert.hpp" alt="" coords="5,80,124,107"/>
-<area shape="rect" id="node4" href="definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="570,543,709,569"/>
-<area shape="rect" id="node8" href="functional_8hpp.html" title="etl/functional.hpp" alt="" coords="619,80,755,107"/>
-<area shape="rect" id="node10" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="1115,379,1235,405"/>
-<area shape="rect" id="node14" href="iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="523,155,641,181"/>
-<area shape="rect" id="node24" href="algo__search_8hpp.html" title="etl/detail/algo_search.hpp" alt="" coords="823,155,1013,181"/>
-<area shape="rect" id="node5" href="version_8hpp.html" title="version.hpp" alt="" coords="479,617,578,644"/>
-<area shape="rect" id="node9" href="byte_8hpp.html" title="etl/byte.hpp" alt="" coords="1093,229,1193,256"/>
-<area shape="rect" id="node21" href="utility_8hpp.html" title="etl/utility.hpp" alt="" coords="770,229,877,256"/>
-<area shape="rect" id="node23" href="new_8hpp.html" title="etl/new.hpp" alt="" coords="349,229,447,256"/>
-<area shape="rect" id="node13" href="sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="987,304,1137,331"/>
-<area shape="rect" id="node11" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="1254,543,1425,569"/>
-<area shape="rect" id="node12" href="type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="1205,453,1359,495"/>
-<area shape="rect" id="node15" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="471,229,595,256"/>
-<area shape="rect" id="node20" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="250,304,373,331"/>
-<area shape="rect" id="node16" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="448,304,556,331"/>
-<area shape="rect" id="node22" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="783,304,962,331"/>
+<area shape="rect" id="node4" href="definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="363,543,502,569"/>
+<area shape="rect" id="node8" href="functional_8hpp.html" title="etl/functional.hpp" alt="" coords="655,80,791,107"/>
+<area shape="rect" id="node10" href="type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="1035,379,1155,405"/>
+<area shape="rect" id="node14" href="iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="561,155,680,181"/>
+<area shape="rect" id="node22" href="algo__swap_8hpp.html" title="etl/detail/algo_swap.hpp" alt="" coords="1213,304,1394,331"/>
+<area shape="rect" id="node25" href="algo__search_8hpp.html" title="etl/detail/algo_search.hpp" alt="" coords="809,155,1000,181"/>
+<area shape="rect" id="node5" href="version_8hpp.html" title="version.hpp" alt="" coords="273,617,371,644"/>
+<area shape="rect" id="node9" href="byte_8hpp.html" title="etl/byte.hpp" alt="" coords="1205,229,1305,256"/>
+<area shape="rect" id="node21" href="utility_8hpp.html" title="etl/utility.hpp" alt="" coords="819,229,926,256"/>
+<area shape="rect" id="node24" href="new_8hpp.html" title="etl/new.hpp" alt="" coords="437,229,535,256"/>
+<area shape="rect" id="node13" href="sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="1037,304,1188,331"/>
+<area shape="rect" id="node11" href="intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="1167,543,1338,569"/>
+<area shape="rect" id="node12" href="type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="1118,453,1273,495"/>
+<area shape="rect" id="node15" href="memory_8hpp.html" title="etl/memory.hpp" alt="" coords="559,229,683,256"/>
+<area shape="rect" id="node20" href="warning_8hpp.html" title="etl/warning.hpp" alt="" coords="301,304,423,331"/>
+<area shape="rect" id="node16" href="limits_8hpp.html" title="etl/limits.hpp" alt="" coords="499,304,607,331"/>
+<area shape="rect" id="node23" href="tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="783,304,962,331"/>
 </map>
 </div>
 </div><div class="textblock"><div class="dynheader">
@@ -132,10 +134,6 @@ Namespaces</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">etl::swap</a> (T &amp;a, T &amp;b) noexcept -&gt; void</td></tr>
-<tr class="memdesc:a0a1c3baeebc248b3f787a308af595c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a> &amp;&amp; <a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">etl::is_move_assignable_v&lt;T&gt;</a> is true.  <a href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">More...</a><br /></td></tr>
-<tr class="separator:a0a1c3baeebc248b3f787a308af595c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa18b878794474881fce640e7a163abf3"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt1 , typename ForwardIt2 &gt; </td></tr>
 <tr class="memitem:aa18b878794474881fce640e7a163abf3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa18b878794474881fce640e7a163abf3">etl::iter_swap</a> (ForwardIt1 a, ForwardIt2 b) -&gt; void</td></tr>
 <tr class="memdesc:aa18b878794474881fce640e7a163abf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the values of the elements the given iterators are pointing to.  <a href="namespaceetl.html#aa18b878794474881fce640e7a163abf3">More...</a><br /></td></tr>

@@ -93,18 +93,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a394cfba9d9e22e5d6fcd001483ebdb9c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a394cfba9d9e22e5d6fcd001483ebdb9c">pair</a> (T1 const &amp;t1, T2 const &amp;t2)</td></tr>
 <tr class="memdesc:a394cfba9d9e22e5d6fcd001483ebdb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with x and second with y.  <a href="#a394cfba9d9e22e5d6fcd001483ebdb9c">More...</a><br /></td></tr>
 <tr class="separator:a394cfba9d9e22e5d6fcd001483ebdb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aecc15790e41742baf1ce5bc994f635b6"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , typename  = etl::enable_if_t&lt;                  etl::is_constructible_v&lt;                      first_type, U1&amp;&amp;&gt; &amp;&amp; etl::is_constructible_v&lt;second_type, U2&amp;&amp;&gt;&gt;&gt; </td></tr>
+<tr class="memitem:aecc15790e41742baf1ce5bc994f635b6"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; U1 &amp;&amp;, first_type &gt; &amp;&amp; is_constructible_v&lt; U2 &amp;&amp;, second_type &gt;) &gt; </td></tr>
 <tr class="memitem:aecc15790e41742baf1ce5bc994f635b6"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#aecc15790e41742baf1ce5bc994f635b6">pair</a> (U1 &amp;&amp;x, U2 &amp;&amp;y)</td></tr>
 <tr class="memdesc:aecc15790e41742baf1ce5bc994f635b6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with etl::forward&lt;U1&gt;(x) and second with etl::forward&lt;U2&gt;(y).  <a href="#aecc15790e41742baf1ce5bc994f635b6">More...</a><br /></td></tr>
 <tr class="separator:aecc15790e41742baf1ce5bc994f635b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a494567ad741ca0acd16f6055d57e8c43"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 &gt; </td></tr>
-<tr class="memitem:a494567ad741ca0acd16f6055d57e8c43"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a494567ad741ca0acd16f6055d57e8c43">pair</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; const &amp;p)</td></tr>
-<tr class="memdesc:a494567ad741ca0acd16f6055d57e8c43"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with p.first and second with p.second.  <a href="#a494567ad741ca0acd16f6055d57e8c43">More...</a><br /></td></tr>
-<tr class="separator:a494567ad741ca0acd16f6055d57e8c43"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1581b4b0ce6c8ea2df79dc365d6f555d"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 &gt; </td></tr>
-<tr class="memitem:a1581b4b0ce6c8ea2df79dc365d6f555d"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a1581b4b0ce6c8ea2df79dc365d6f555d">pair</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; &amp;&amp;p)</td></tr>
-<tr class="memdesc:a1581b4b0ce6c8ea2df79dc365d6f555d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with <a class="el" href="namespaceetl.html#a40b9621f8af141d0572885428d2880d9" title="Forwards lvalues as either lvalues or as rvalues, depending on T. ">etl::forward&lt;U1&gt;</a>(p.first) and second with <a class="el" href="namespaceetl.html#a40b9621f8af141d0572885428d2880d9" title="Forwards lvalues as either lvalues or as rvalues, depending on T. ">etl::forward&lt;U2&gt;</a>(p.second).  <a href="#a1581b4b0ce6c8ea2df79dc365d6f555d">More...</a><br /></td></tr>
-<tr class="separator:a1581b4b0ce6c8ea2df79dc365d6f555d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0e9f73b25bc5539dff19965439f6ee15"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; first_type, U1 const  &amp; &gt; &amp;&amp; is_constructible_v&lt; second_type, U2 const  &amp; &gt;) &gt; </td></tr>
+<tr class="memitem:a0e9f73b25bc5539dff19965439f6ee15"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a0e9f73b25bc5539dff19965439f6ee15">pair</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; const &amp;p)</td></tr>
+<tr class="memdesc:a0e9f73b25bc5539dff19965439f6ee15"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with p.first and second with p.second.  <a href="#a0e9f73b25bc5539dff19965439f6ee15">More...</a><br /></td></tr>
+<tr class="separator:a0e9f73b25bc5539dff19965439f6ee15"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa676d36b6120361d30825d84c70c16ae"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; first_type, U1 &amp;&amp; &gt; &amp;&amp; is_constructible_v&lt; second_type, U2 &amp;&amp; &gt;) &gt; </td></tr>
+<tr class="memitem:aa676d36b6120361d30825d84c70c16ae"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#aa676d36b6120361d30825d84c70c16ae">pair</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; &amp;&amp;p)</td></tr>
+<tr class="memdesc:aa676d36b6120361d30825d84c70c16ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with <a class="el" href="namespaceetl.html#a40b9621f8af141d0572885428d2880d9" title="Forwards lvalues as either lvalues or as rvalues, depending on T. ">etl::forward&lt;U1&gt;</a>(p.first) and second with <a class="el" href="namespaceetl.html#a40b9621f8af141d0572885428d2880d9" title="Forwards lvalues as either lvalues or as rvalues, depending on T. ">etl::forward&lt;U2&gt;</a>(p.second).  <a href="#aa676d36b6120361d30825d84c70c16ae">More...</a><br /></td></tr>
+<tr class="separator:aa676d36b6120361d30825d84c70c16ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a412f27ee91061e65397498f2acd7053f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a412f27ee91061e65397498f2acd7053f">pair</a> (<a class="el" href="structetl_1_1pair.html">pair</a> const &amp;p)=default</td></tr>
 <tr class="memdesc:a412f27ee91061e65397498f2acd7053f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor is defaulted, and is constexpr if copying of both elements satisfies the requirements on constexpr functions.  <a href="#a412f27ee91061e65397498f2acd7053f">More...</a><br /></td></tr>
 <tr class="separator:a412f27ee91061e65397498f2acd7053f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -116,14 +116,16 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a56e5a3e5e1810316f209f0a63b6b901b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1839b0f3f9a4b85b5ca592af28aade31"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a1839b0f3f9a4b85b5ca592af28aade31">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a> const &amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
 <tr class="separator:a1839b0f3f9a4b85b5ca592af28aade31"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a09821fa1ff58472e1d179779522cf85e"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 &gt; </td></tr>
-<tr class="memitem:a09821fa1ff58472e1d179779522cf85e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a09821fa1ff58472e1d179779522cf85e">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; const &amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
-<tr class="separator:a09821fa1ff58472e1d179779522cf85e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7500f388ad19b56b97ece87d1338298e"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_assignable_v&lt; first_type &amp;, U1 const  &amp; &gt; &amp;&amp; is_assignable_v&lt; second_type &amp;, U2 const  &amp; &gt;) &gt; </td></tr>
+<tr class="memitem:a7500f388ad19b56b97ece87d1338298e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a7500f388ad19b56b97ece87d1338298e">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; const &amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
+<tr class="separator:a7500f388ad19b56b97ece87d1338298e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12ba8d689ce290a4b2dfbba16692d157"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a12ba8d689ce290a4b2dfbba16692d157">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a> &amp;&amp;p) noexcept -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
 <tr class="separator:a12ba8d689ce290a4b2dfbba16692d157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4c268337615041b9ea8e087c7d279868"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 &gt; </td></tr>
-<tr class="memitem:a4c268337615041b9ea8e087c7d279868"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a4c268337615041b9ea8e087c7d279868">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; &amp;&amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
-<tr class="separator:a4c268337615041b9ea8e087c7d279868"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5cfb3c9ba7aac0e0c48a69366fb25e1"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_( is_assignable_v&lt; first_type &amp;, U1 &gt; &amp;&amp;is_assignable_v&lt; second_type &amp;, U2 &gt;) &gt; </td></tr>
+<tr class="memitem:aa5cfb3c9ba7aac0e0c48a69366fb25e1"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#aa5cfb3c9ba7aac0e0c48a69366fb25e1">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; &amp;&amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
+<tr class="separator:aa5cfb3c9ba7aac0e0c48a69366fb25e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a16cc1edf0ceb752390077b2cafe08457"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a16cc1edf0ceb752390077b2cafe08457">swap</a> (<a class="el" href="structetl_1_1pair.html">pair</a> &amp;other) noexcept((<a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">is_nothrow_swappable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a28ef81180e9d7238017a3562e55c6586">first_type</a> &gt; and <a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">is_nothrow_swappable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c">second_type</a> &gt;))</td></tr>
+<tr class="separator:a16cc1edf0ceb752390077b2cafe08457"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
@@ -138,7 +140,7 @@ struct etl::pair&lt; T1, T2 &gt;</h3>
 
 <p><a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> is a class template that provides a way to store two heterogeneous objects as a single unit. A pair is a specific case of a <a class="el" href="structetl_1_1tuple.html">etl::tuple</a> with two elements. If neither T1 nor T2 is a possibly cv-qualified class type with non-trivial destructor, or array thereof, the destructor of pair is trivial. </p>
 <p>https://en.cppreference.com/w/cpp/utility/pair</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000025">Todo:</a></b></dt><dd>Add conditional explicit when C++20 is available. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000024">Todo:</a></b></dt><dd>Add conditional explicit when C++20 is available. </dd></dl>
 </div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="a28ef81180e9d7238017a3562e55c6586"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a28ef81180e9d7238017a3562e55c6586">&#9670;&nbsp;</a></span>first_type</h2>
@@ -250,7 +252,7 @@ template&lt;typename T1, typename T2&gt; </div>
 <div class="memtemplate">
 template&lt;typename T1, typename T2&gt; </div>
 <div class="memtemplate">
-template&lt;typename U1 , typename U2 , typename  = etl::enable_if_t&lt;                  etl::is_constructible_v&lt;                      first_type, U1&amp;&amp;&gt; &amp;&amp; etl::is_constructible_v&lt;second_type, U2&amp;&amp;&gt;&gt;&gt; </div>
+template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; U1 &amp;&amp;, first_type &gt; &amp;&amp; is_constructible_v&lt; U2 &amp;&amp;, second_type &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -281,19 +283,18 @@ template&lt;typename U1 , typename U2 , typename  = etl::enable_if_t&lt;        
 </div><div class="memdoc">
 
 <p>Initializes first with etl::forward&lt;U1&gt;(x) and second with etl::forward&lt;U2&gt;(y). </p>
-<p>This constructor participates in overload resolution if and only if <a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">etl::is_constructible_v&lt;first_type, U1&amp;&amp;&gt;</a> and <a class="el" href="namespaceetl.html#a1ab616d6855ca5fc60968a153587b2b4">etl::is_constructible_v</a>&lt;second_type, U2&amp;&amp;&gt; are both true. </p>
 
 </div>
 </div>
-<a id="a494567ad741ca0acd16f6055d57e8c43"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a494567ad741ca0acd16f6055d57e8c43">&#9670;&nbsp;</a></span>pair() <span class="overload">[4/7]</span></h2>
+<a id="a0e9f73b25bc5539dff19965439f6ee15"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9f73b25bc5539dff19965439f6ee15">&#9670;&nbsp;</a></span>pair() <span class="overload">[4/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1, typename T2&gt; </div>
 <div class="memtemplate">
-template&lt;typename U1 , typename U2 &gt; </div>
+template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; first_type, U1 const  &amp; &gt; &amp;&amp; is_constructible_v&lt; second_type, U2 const  &amp; &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -317,15 +318,15 @@ template&lt;typename U1 , typename U2 &gt; </div>
 
 </div>
 </div>
-<a id="a1581b4b0ce6c8ea2df79dc365d6f555d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1581b4b0ce6c8ea2df79dc365d6f555d">&#9670;&nbsp;</a></span>pair() <span class="overload">[5/7]</span></h2>
+<a id="aa676d36b6120361d30825d84c70c16ae"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa676d36b6120361d30825d84c70c16ae">&#9670;&nbsp;</a></span>pair() <span class="overload">[5/7]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1, typename T2&gt; </div>
 <div class="memtemplate">
-template&lt;typename U1 , typename U2 &gt; </div>
+template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; first_type, U1 &amp;&amp; &gt; &amp;&amp; is_constructible_v&lt; second_type, U2 &amp;&amp; &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -468,15 +469,15 @@ template&lt;typename T1, typename T2&gt; </div>
 
 </div>
 </div>
-<a id="a09821fa1ff58472e1d179779522cf85e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a09821fa1ff58472e1d179779522cf85e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+<a id="a7500f388ad19b56b97ece87d1338298e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7500f388ad19b56b97ece87d1338298e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1, typename T2&gt; </div>
 <div class="memtemplate">
-template&lt;typename U1 , typename U2 &gt; </div>
+template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_assignable_v&lt; first_type &amp;, U1 const  &amp; &gt; &amp;&amp; is_assignable_v&lt; second_type &amp;, U2 const  &amp; &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -528,15 +529,15 @@ template&lt;typename T1, typename T2&gt; </div>
 
 </div>
 </div>
-<a id="a4c268337615041b9ea8e087c7d279868"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4c268337615041b9ea8e087c7d279868">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
+<a id="aa5cfb3c9ba7aac0e0c48a69366fb25e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5cfb3c9ba7aac0e0c48a69366fb25e1">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1, typename T2&gt; </div>
 <div class="memtemplate">
-template&lt;typename U1 , typename U2 &gt; </div>
+template&lt;typename U1 , typename U2 , TAETL_REQUIRES_( is_assignable_v&lt; first_type &amp;, U1 &gt; &amp;&amp;is_assignable_v&lt; second_type &amp;, U2 &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -553,6 +554,34 @@ template&lt;typename U1 , typename U2 &gt; </div>
   </td>
   <td class="mlabels-right">
 <span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a16cc1edf0ceb752390077b2cafe08457"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a16cc1edf0ceb752390077b2cafe08457">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T1, typename T2&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr void <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
   </tr>
 </table>
 </div><div class="memdoc">

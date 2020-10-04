@@ -264,6 +264,8 @@ var searchData=
   ['is_5fvolatile',['is_volatile',['../structetl_1_1is__volatile.html',1,'etl']]],
   ['is_5fvolatile_3c_20volatile_20t_20_3e',['is_volatile&lt; volatile T &gt;',['../structetl_1_1is__volatile_3_01volatile_01T_01_4.html',1,'etl']]],
   ['is_5fvolatile_5fv',['is_volatile_v',['../namespaceetl.html#aa76b943cef158f554f60c8d61b6835bc',1,'etl']]],
+  ['isalnum',['isalnum',['../namespaceetl.html#a0ebfa4dc6da592b5c2d73f10ba7490dc',1,'etl']]],
+  ['isalpha',['isalpha',['../namespaceetl.html#a89ad095d93b811823b48e7b0486be7de',1,'etl']]],
   ['isfinite',['isfinite',['../namespaceetl.html#a80bf904f99630edb18fcb3a07117779f',1,'etl::isfinite(float arg) -&gt; bool'],['../namespaceetl.html#a813ce51b2632847f81eed1858528ff8e',1,'etl::isfinite(double arg) -&gt; bool'],['../namespaceetl.html#ae33b9666e620117df47e7cd5c2faae53',1,'etl::isfinite(long double arg) -&gt; bool']]],
   ['isinf',['isinf',['../namespaceetl.html#a47ef6491e0baea008f09e77e8bdd1893',1,'etl::isinf(float arg) -&gt; bool'],['../namespaceetl.html#a0bd9c92fc417d48f3b71a556c288f34d',1,'etl::isinf(double arg) -&gt; bool'],['../namespaceetl.html#aac63899ba5cdbbcbe25e867baaa11c8a',1,'etl::isinf(long double arg) -&gt; bool'],['../namespaceetl.html#a35bcbd3ac4ee08a005573e3218c26f67',1,'etl::isinf(IntegralType arg) -&gt; bool']]],
   ['isnan',['isnan',['../namespaceetl.html#a605d9e24e916cbbc8f38c7e377eb792d',1,'etl::isnan(float arg) -&gt; bool'],['../namespaceetl.html#ac4da86e5987c4a4fc2368f5195645c3f',1,'etl::isnan(double arg) -&gt; bool'],['../namespaceetl.html#a5b1b06749558d3368fe928aba61d3b46',1,'etl::isnan(long double arg) -&gt; bool'],['../namespaceetl.html#a51ce41821b2214af3cc69c664299447d',1,'etl::isnan(IntegralType arg) -&gt; bool']]],

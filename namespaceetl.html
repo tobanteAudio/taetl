@@ -1153,10 +1153,6 @@ Enumerations</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
-<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">swap</a> (T &amp;a, T &amp;b) noexcept -&gt; void</td></tr>
-<tr class="memdesc:a0a1c3baeebc248b3f787a308af595c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a> &amp;&amp; <a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">etl::is_move_assignable_v&lt;T&gt;</a> is true.  <a href="#a0a1c3baeebc248b3f787a308af595c6a">More...</a><br /></td></tr>
-<tr class="separator:a0a1c3baeebc248b3f787a308af595c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa18b878794474881fce640e7a163abf3"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt1 , typename ForwardIt2 &gt; </td></tr>
 <tr class="memitem:aa18b878794474881fce640e7a163abf3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa18b878794474881fce640e7a163abf3">iter_swap</a> (ForwardIt1 a, ForwardIt2 b) -&gt; void</td></tr>
 <tr class="memdesc:aa18b878794474881fce640e7a163abf3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the values of the elements the given iterators are pointing to.  <a href="#aa18b878794474881fce640e7a163abf3">More...</a><br /></td></tr>
@@ -1456,7 +1452,7 @@ Functions</h2></td></tr>
 <tr class="separator:a43bd1441d3f2aa745a450e2a5789f2d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t N&gt; </td></tr>
 <tr class="memitem:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13">swap</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
-<tr class="memdesc:a0f31d2c1983d613a5b1be68a431cfd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs.  <a href="#a0f31d2c1983d613a5b1be68a431cfd13">More...</a><br /></td></tr>
+<tr class="memdesc:a0f31d2c1983d613a5b1be68a431cfd13"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs.  <a href="#a0f31d2c1983d613a5b1be68a431cfd13">More...</a><br /></td></tr>
 <tr class="separator:a0f31d2c1983d613a5b1be68a431cfd13"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd14c4b2bb371a67b0b7e5359471eb58"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t N&gt; </td></tr>
 <tr class="memitem:acd14c4b2bb371a67b0b7e5359471eb58"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd14c4b2bb371a67b0b7e5359471eb58">operator==</a> (<a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;lhs, <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; T, N &gt; const &amp;rhs) -&gt; bool</td></tr>
@@ -1551,6 +1547,12 @@ Functions</h2></td></tr>
 <tr class="memitem:a0145ea9af63899833b6bf5f9f18fb7c1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0145ea9af63899833b6bf5f9f18fb7c1">operator^=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;l, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> r) noexcept -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;</td></tr>
 <tr class="memdesc:a0145ea9af63899833b6bf5f9f18fb7c1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return l = l ^ r;.  <a href="#a0145ea9af63899833b6bf5f9f18fb7c1">More...</a><br /></td></tr>
 <tr class="separator:a0145ea9af63899833b6bf5f9f18fb7c1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0ebfa4dc6da592b5c2d73f10ba7490dc"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0ebfa4dc6da592b5c2d73f10ba7490dc">isalnum</a> (int ch) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a0ebfa4dc6da592b5c2d73f10ba7490dc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given character is an alphanumeric character as classified by the default C locale.  <a href="#a0ebfa4dc6da592b5c2d73f10ba7490dc">More...</a><br /></td></tr>
+<tr class="separator:a0ebfa4dc6da592b5c2d73f10ba7490dc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a89ad095d93b811823b48e7b0486be7de"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a89ad095d93b811823b48e7b0486be7de">isalpha</a> (int ch) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a89ad095d93b811823b48e7b0486be7de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the given character is an alphanumeric character as classified by the default C locale.  <a href="#a89ad095d93b811823b48e7b0486be7de">More...</a><br /></td></tr>
+<tr class="separator:a89ad095d93b811823b48e7b0486be7de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a47ef6491e0baea008f09e77e8bdd1893"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a47ef6491e0baea008f09e77e8bdd1893">isinf</a> (float arg) -&gt; bool</td></tr>
 <tr class="memdesc:a47ef6491e0baea008f09e77e8bdd1893"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg is a positive or negative infinity.  <a href="#a47ef6491e0baea008f09e77e8bdd1893">More...</a><br /></td></tr>
 <tr class="separator:a47ef6491e0baea008f09e77e8bdd1893"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1616,6 +1618,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ab5f8423cdd9669ce22e5b258d0755687"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab5f8423cdd9669ce22e5b258d0755687">strcmp</a> (const char *lhs, const char *rhs) -&gt; int</td></tr>
 <tr class="memdesc:ab5f8423cdd9669ce22e5b258d0755687"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the C string lhs to the C string rhs.  <a href="#ab5f8423cdd9669ce22e5b258d0755687">More...</a><br /></td></tr>
 <tr class="separator:ab5f8423cdd9669ce22e5b258d0755687"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">swap</a> (T &amp;a, T &amp;b) noexcept -&gt; void</td></tr>
+<tr class="memdesc:a0a1c3baeebc248b3f787a308af595c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a> &amp;&amp; <a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">etl::is_move_assignable_v&lt;T&gt;</a> is true.  <a href="#a0a1c3baeebc248b3f787a308af595c6a">More...</a><br /></td></tr>
+<tr class="separator:a0a1c3baeebc248b3f787a308af595c6a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3031e070c39546444bdd5fda57ead3d2"><td class="memTemplParams" colspan="2">template&lt;typename C &gt; </td></tr>
 <tr class="memitem:a3031e070c39546444bdd5fda57ead3d2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2">begin</a> (C &amp;c) -&gt; decltype(c.begin())</td></tr>
 <tr class="memdesc:a3031e070c39546444bdd5fda57ead3d2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise.  <a href="#a3031e070c39546444bdd5fda57ead3d2">More...</a><br /></td></tr>
@@ -1928,7 +1934,7 @@ Functions</h2></td></tr>
 <tr class="separator:a0692bef8a5df700bc68b69ed54d77f28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab26740fb04308c8615763f8f81f6bef6"><td class="memTemplParams" colspan="2">template&lt;typename CharType , typename Traits , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:ab26740fb04308c8615763f8f81f6bef6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab26740fb04308c8615763f8f81f6bef6">swap</a> (<a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;lhs, <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
-<tr class="memdesc:ab26740fb04308c8615763f8f81f6bef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs).  <a href="#ab26740fb04308c8615763f8f81f6bef6">More...</a><br /></td></tr>
+<tr class="memdesc:ab26740fb04308c8615763f8f81f6bef6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs).  <a href="#ab26740fb04308c8615763f8f81f6bef6">More...</a><br /></td></tr>
 <tr class="separator:ab26740fb04308c8615763f8f81f6bef6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a32f6e7555448a64b1558e3f5b9771718"><td class="memTemplParams" colspan="2">template&lt;typename CharType , typename Traits &gt; </td></tr>
 <tr class="memitem:a32f6e7555448a64b1558e3f5b9771718"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a32f6e7555448a64b1558e3f5b9771718">operator==</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; lhs, <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; rhs) noexcept -&gt; bool</td></tr>
@@ -2016,6 +2022,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a010684d008e6a4f168e1925af49c38f3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a010684d008e6a4f168e1925af49c38f3">in_range</a> (T t) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a010684d008e6a4f168e1925af49c38f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the value of t is in the range of values that can be represented in R, that is, if t can be converted to R without data loss.  <a href="#a010684d008e6a4f168e1925af49c38f3">More...</a><br /></td></tr>
 <tr class="separator:a010684d008e6a4f168e1925af49c38f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa50aa68713ac9f56128ad9c0406b737"><td class="memTemplParams" colspan="2">template&lt;class T1 , class T2 &gt; </td></tr>
+<tr class="memitem:aaa50aa68713ac9f56128ad9c0406b737"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aaa50aa68713ac9f56128ad9c0406b737">swap</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;lhs, <a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
+<tr class="memdesc:aaa50aa68713ac9f56128ad9c0406b737"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents of x and y. Equivalent to x.swap(y).  <a href="#aaa50aa68713ac9f56128ad9c0406b737">More...</a><br /></td></tr>
+<tr class="separator:aaa50aa68713ac9f56128ad9c0406b737"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a638ad4db4d90fecc8d08227b1c214148">make_pair</a> (T1 &amp;&amp;t, T2 &amp;&amp;u) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; typename <a class="el" href="structetl_1_1decay.html">etl::decay</a>&lt; T1 &gt;::type, typename <a class="el" href="structetl_1_1decay.html">etl::decay</a>&lt; T2 &gt;::type &gt;</td></tr>
 <tr class="memdesc:a638ad4db4d90fecc8d08227b1c214148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> object, deducing the target type from the types of arguments.  <a href="#a638ad4db4d90fecc8d08227b1c214148">More...</a><br /></td></tr>
@@ -2076,7 +2086,7 @@ Functions</h2></td></tr>
 <tr class="separator:a6793464788b24ea02472dc48eb208218"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac1c5f129858d55474d1d7ae92c374456"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:ac1c5f129858d55474d1d7ae92c374456"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac1c5f129858d55474d1d7ae92c374456">swap</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;rhs) noexcept -&gt; void</td></tr>
-<tr class="memdesc:ac1c5f129858d55474d1d7ae92c374456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs.  <a href="#ac1c5f129858d55474d1d7ae92c374456">More...</a><br /></td></tr>
+<tr class="memdesc:ac1c5f129858d55474d1d7ae92c374456"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs.  <a href="#ac1c5f129858d55474d1d7ae92c374456">More...</a><br /></td></tr>
 <tr class="separator:ac1c5f129858d55474d1d7ae92c374456"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity&gt; </td></tr>
 <tr class="memitem:a9d3aa3446aca179d812252faf83360c6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9d3aa3446aca179d812252faf83360c6">operator==</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
@@ -6309,7 +6319,7 @@ template&lt;etl::size_t I, typename... Types&gt; </div>
 
 <p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
 <p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000028">Todo:</a></b></dt><dd>Implement </dd></dl>
 
 </div>
 </div>
@@ -6342,7 +6352,7 @@ template&lt;etl::size_t I, typename... Types&gt; </div>
 
 <p>Index-based non-throwing accessor: If pv is not a null pointer and pv-&gt;index() == I, returns a pointer to the value stored in the variant pointed to by pv. Otherwise, returns a null pointer value. The call is ill-formed if I is not a valid index in the variant. </p>
 <p>Type-based non-throwing accessor: The call is ill-formed if T is not a unique element of Types....</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000030">Todo:</a></b></dt><dd>Implement </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Implement </dd></dl>
 
 </div>
 </div>
@@ -6918,6 +6928,68 @@ template&lt;typename ForwardIter , typename Compare &gt; </div>
 
 </div>
 </div>
+<a id="a0ebfa4dc6da592b5c2d73f10ba7490dc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0ebfa4dc6da592b5c2d73f10ba7490dc">&#9670;&nbsp;</a></span>isalnum()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::isalnum </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td> -&gt; int
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the given character is an alphanumeric character as classified by the default C locale. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/byte/isalnum">https://en.cppreference.com/w/cpp/string/byte/isalnum</a></p>
+<dl class="section return"><dt>Returns</dt><dd>Non-zero value if the character is an alphanumeric character, 0 otherwise. </dd></dl>
+
+</div>
+</div>
+<a id="a89ad095d93b811823b48e7b0486be7de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a89ad095d93b811823b48e7b0486be7de">&#9670;&nbsp;</a></span>isalpha()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::isalpha </td>
+          <td>(</td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td> -&gt; int
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if the given character is an alphanumeric character as classified by the default C locale. </p>
+<p><a href="https://en.cppreference.com/w/cpp/string/byte/isalnum">https://en.cppreference.com/w/cpp/string/byte/isalnum</a></p>
+<dl class="section return"><dt>Returns</dt><dd>Non-zero value if the character is an alphanumeric character, 0 otherwise. </dd></dl>
+
+</div>
+</div>
 <a id="a80bf904f99630edb18fcb3a07117779f"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a80bf904f99630edb18fcb3a07117779f">&#9670;&nbsp;</a></span>isfinite() <span class="overload">[1/3]</span></h2>
 
@@ -7231,7 +7303,7 @@ template&lt;typename ForwardIt1 , typename ForwardIt2 &gt; </div>
 
 <p>Converts an integer value to a null-terminated string using the specified base and stores the result in the array given by str parameter. </p>
 <p>If base is 10 and value is negative, the resulting string is preceded with a minus sign (-). With any other base, value is always considered unsigned.</p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Only base 10 is currently supported. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000002">Todo:</a></b></dt><dd>Only base 10 is currently supported. </dd></dl>
 
 </div>
 </div>
@@ -7826,7 +7898,7 @@ template&lt;typename ForwardIterator , typename Compare &gt; </div>
 </div><div class="memdoc">
 
 <p>Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000003">Todo:</a></b></dt><dd>Check original implementation. They use __np_anyptrlt which is not portable. <a href="https://clc-wiki.net/wiki/C_standard_library:string.h:memmove">https://clc-wiki.net/wiki/C_standard_library:string.h:memmove</a> </dd></dl>
 
 </div>
 </div>
@@ -12401,7 +12473,7 @@ template&lt;typename BidirIter , typename UnaryPredicate &gt; </div>
 </div>
 </div>
 <a id="a0a1c3baeebc248b3f787a308af595c6a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0a1c3baeebc248b3f787a308af595c6a">&#9670;&nbsp;</a></span>swap() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0a1c3baeebc248b3f787a308af595c6a">&#9670;&nbsp;</a></span>swap() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12438,12 +12510,12 @@ template&lt;typename T &gt; </div>
 
 <p>Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a> &amp;&amp; <a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">etl::is_move_assignable_v&lt;T&gt;</a> is true. </p>
 <p><a href="https://en.cppreference.com/w/cpp/algorithm/swap">https://en.cppreference.com/w/cpp/algorithm/swap</a></p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Fix noexcept specifier. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>Fix noexcept specifier. </dd></dl>
 
 </div>
 </div>
 <a id="a0f31d2c1983d613a5b1be68a431cfd13"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f31d2c1983d613a5b1be68a431cfd13">&#9670;&nbsp;</a></span>swap() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f31d2c1983d613a5b1be68a431cfd13">&#9670;&nbsp;</a></span>swap() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12479,12 +12551,53 @@ template&lt;typename T , etl::size_t N&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs. </p>
+<p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs. </p>
+
+</div>
+</div>
+<a id="aaa50aa68713ac9f56128ad9c0406b737"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa50aa68713ac9f56128ad9c0406b737">&#9670;&nbsp;</a></span>swap() <span class="overload">[3/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;class T1 , class T2 &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Swaps the contents of x and y. Equivalent to x.swap(y). </p>
 
 </div>
 </div>
 <a id="ab26740fb04308c8615763f8f81f6bef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26740fb04308c8615763f8f81f6bef6">&#9670;&nbsp;</a></span>swap() <span class="overload">[3/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26740fb04308c8615763f8f81f6bef6">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12520,12 +12633,12 @@ template&lt;typename CharType , typename Traits , etl::size_t Capacity&gt; </div
 </table>
 </div><div class="memdoc">
 
-<p>Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs). </p>
+<p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs). </p>
 
 </div>
 </div>
 <a id="ac1c5f129858d55474d1d7ae92c374456"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1c5f129858d55474d1d7ae92c374456">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c5f129858d55474d1d7ae92c374456">&#9670;&nbsp;</a></span>swap() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -12561,7 +12674,7 @@ template&lt;typename T , etl::size_t Capacity&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Specializes the <a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a" title="Exchanges the given values. Swaps the values a and b. This overload does not participate in overload ...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs. </p>
+<p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs. </p>
 
 </div>
 </div>
