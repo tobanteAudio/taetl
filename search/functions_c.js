@@ -4,7 +4,7 @@ var searchData=
   ['operator_20_26_3d',['operator &amp;=',['../namespaceetl.html#a30243ddf0699dede912521c57cb92a25',1,'etl']]],
   ['operator_20basic_5fstring_5fview_3c_20value_5ftype_2c_20traits_5ftype_20_3e',['operator basic_string_view&lt; value_type, traits_type &gt;',['../classetl_1_1basic__static__string.html#a2dff37c40bbd7592c9055f8d6c279a2b',1,'etl::basic_static_string']]],
   ['operator_20bool',['operator bool',['../classetl_1_1optional.html#ae8de8e6e7cd9d30784652a6254efe069',1,'etl::optional']]],
-  ['operator_20new',['operator new',['../new_8hpp.html#a8693f3f16b822e943f7efa9aa103f754',1,'new.hpp']]],
+  ['operator_20new',['operator new',['../new_8hpp.html#a522458e13fc259cf6d28015c387bef0e',1,'new.hpp']]],
   ['operator_20new_5b_5d',['operator new[]',['../new_8hpp.html#aa994729279323d9864d823944a24959c',1,'new.hpp']]],
   ['operator_20type_20_2a',['operator Type *',['../classetl_1_1small__ptr.html#a4e998c6ce0a1b49037e29f03b6c114fa',1,'etl::small_ptr']]],
   ['operator_20type_20const_20_2a',['operator Type const *',['../classetl_1_1small__ptr.html#a5ff9c1341ae752ba9c7dee02084233e3',1,'etl::small_ptr']]],

@@ -1683,6 +1683,10 @@ Functions</h2></td></tr>
 <tr class="memitem:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad580aca5d1f9f6d65f28f4270cb765ed">prev</a> (BidirIt it, typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; BidirIt &gt;::difference_type n=1) -&gt; BidirIt</td></tr>
 <tr class="memdesc:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Return the nth predecessor of iterator it.  <a href="#ad580aca5d1f9f6d65f28f4270cb765ed">More...</a><br /></td></tr>
 <tr class="separator:ad580aca5d1f9f6d65f28f4270cb765ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a56fd86ba568b1c1665502fcb72ed4327"><td class="memTemplParams" colspan="2">template&lt;typename Iter &gt; </td></tr>
+<tr class="memitem:a56fd86ba568b1c1665502fcb72ed4327"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a56fd86ba568b1c1665502fcb72ed4327">make_reverse_iterator</a> (Iter i) noexcept -&gt; <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt; Iter &gt;</td></tr>
+<tr class="memdesc:a56fd86ba568b1c1665502fcb72ed4327"><td class="mdescLeft">&#160;</td><td class="mdescRight">Convenience function template that constructs a <a class="el" href="classetl_1_1reverse__iterator.html" title="etl::reverse_iterator is an iterator adaptor that reverses the direction of a given iterator...">etl::reverse_iterator</a> for the given iterator <code>i</code> (which must be a LegacyBidirectionalIterator) with the type deduced from the type of the argument.  <a href="#a56fd86ba568b1c1665502fcb72ed4327">More...</a><br /></td></tr>
+<tr class="separator:a56fd86ba568b1c1665502fcb72ed4327"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ed8eb1bf308acc967006e8073f5a132"><td class="memTemplParams" colspan="2">template&lt;typename Iter1 , typename Iter2 &gt; </td></tr>
 <tr class="memitem:a6ed8eb1bf308acc967006e8073f5a132"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6ed8eb1bf308acc967006e8073f5a132">operator==</a> (<a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt; Iter1 &gt; const &amp;lhs, <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt; Iter2 &gt; const &amp;rhs) -&gt; bool</td></tr>
 <tr class="memdesc:a6ed8eb1bf308acc967006e8073f5a132"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the underlying iterators. Inverse comparisons are applied in order to take into account that the iterator order is reversed.  <a href="#a6ed8eb1bf308acc967006e8073f5a132">More...</a><br /></td></tr>
@@ -8133,6 +8137,37 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <p>Creates a <a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> object, deducing the target type from the types of arguments. </p>
 <p>The deduced types V1 and V2 are <a class="el" href="structetl_1_1decay.html#aafdc23eff04d441f74c9e72ca18e5a09">etl::decay&lt;T1&gt;::type</a> and <a class="el" href="structetl_1_1decay.html#aafdc23eff04d441f74c9e72ca18e5a09">etl::decay&lt;T2&gt;::type</a> (the usual type transformations applied to arguments of functions passed by value).</p>
 <p>https://en.cppreference.com/w/cpp/utility/pair/make_pair </p>
+
+</div>
+</div>
+<a id="a56fd86ba568b1c1665502fcb72ed4327"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a56fd86ba568b1c1665502fcb72ed4327">&#9670;&nbsp;</a></span>make_reverse_iterator()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Iter &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::make_reverse_iterator </td>
+          <td>(</td>
+          <td class="paramtype">Iter&#160;</td>
+          <td class="paramname"><em>i</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt;Iter&gt;
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Convenience function template that constructs a <a class="el" href="classetl_1_1reverse__iterator.html" title="etl::reverse_iterator is an iterator adaptor that reverses the direction of a given iterator...">etl::reverse_iterator</a> for the given iterator <code>i</code> (which must be a LegacyBidirectionalIterator) with the type deduced from the type of the argument. </p>
 
 </div>
 </div>
