@@ -2,7 +2,7 @@ var searchData=
 [
   ['abs',['abs',['../namespaceetl_1_1chrono.html#a28c420ed1f11b22a9577e4a8abe4dad3',1,'etl::chrono::abs()'],['../namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3',1,'etl::abs()']]],
   ['accumulate',['accumulate',['../namespaceetl.html#afe443a26a34b79fc921c4583df576333',1,'etl::accumulate(InputIt first, InputIt last, Type init) noexcept -&gt; Type'],['../namespaceetl.html#a9413959b7ee39d393e7c35ad2cd78294',1,'etl::accumulate(InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type']]],
-  ['addressof',['addressof',['../namespaceetl.html#adbedfa50bab7817a29802cce148c7def',1,'etl::addressof(T &amp;arg) noexcept -&gt; typename etl::enable_if_t&lt; etl::is_object_v&lt; T &gt;, T *&gt;'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
+  ['addressof',['addressof',['../namespaceetl.html#a520137553bdb286f9bab87023dc787b3',1,'etl::addressof(T &amp;arg) noexcept -&gt; T *'],['../namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59',1,'etl::addressof(T const &amp;&amp;)=delete']]],
   ['adjacent_5ffind',['adjacent_find',['../namespaceetl.html#a9ba98486c230b754b2cabc1805b53c16',1,'etl::adjacent_find(ForwardIter first, ForwardIter last, BinaryPredicate pred) -&gt; ForwardIter'],['../namespaceetl.html#a4fe91c66e3042bde20710111a8d622e4',1,'etl::adjacent_find(ForwardIt first, ForwardIt last) -&gt; ForwardIt']]],
   ['adopt_5flock_5ft',['adopt_lock_t',['../structetl_1_1adopt__lock__t.html#aaadb452147fd23e2356982181576ff94',1,'etl::adopt_lock_t']]],
   ['advance',['advance',['../namespaceetl.html#ac45065b143a47fb9249bda8d57ccca63',1,'etl']]],

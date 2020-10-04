@@ -1,10 +1,11 @@
 <map id="etl/scope_guard.hpp" name="etl/scope_guard.hpp">
-<area shape="rect" id="node2" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="297,393,415,420"/>
-<area shape="rect" id="node6" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="419,229,539,256"/>
-<area shape="rect" id="node9" href="$utility_8hpp.html" title="utility.hpp" alt="" coords="299,80,386,107"/>
-<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="196,468,295,495"/>
-<area shape="rect" id="node7" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="483,393,653,420"/>
-<area shape="rect" id="node8" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="419,304,573,345"/>
-<area shape="rect" id="node10" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="121,155,229,181"/>
-<area shape="rect" id="node14" href="$tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="253,155,432,181"/>
+<area shape="rect" id="node2" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="230,393,349,420"/>
+<area shape="rect" id="node6" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="43,229,163,256"/>
+<area shape="rect" id="node9" href="$utility_8hpp.html" title="utility.hpp" alt="" coords="221,80,307,107"/>
+<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="129,468,228,495"/>
+<area shape="rect" id="node7" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="5,393,176,420"/>
+<area shape="rect" id="node8" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="72,304,227,345"/>
+<area shape="rect" id="node10" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="473,155,581,181"/>
+<area shape="rect" id="node14" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="94,155,245,181"/>
+<area shape="rect" id="node15" href="$tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="269,155,448,181"/>
 </map>

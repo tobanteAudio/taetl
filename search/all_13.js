@@ -38,7 +38,7 @@ var searchData=
   ['to_5fchar_5ftype',['to_char_type',['../structetl_1_1char__traits_3_01char_01_4.html#aa018f7cc938b211975ec578ef3d4aeda',1,'etl::char_traits&lt; char &gt;']]],
   ['to_5fchars_5fresult',['to_chars_result',['../structetl_1_1to__chars__result.html',1,'etl']]],
   ['to_5fint_5ftype',['to_int_type',['../structetl_1_1char__traits_3_01char_01_4.html#a1b1c7fd93cb1bd30ef3a10c9bd2f8ecf',1,'etl::char_traits&lt; char &gt;']]],
-  ['to_5finteger',['to_integer',['../namespaceetl.html#aaa84e096751094f12fc96460addc2483',1,'etl']]],
+  ['to_5finteger',['to_integer',['../namespaceetl.html#ac3f554d0da3a8b715151f0dd8534c9f2',1,'etl']]],
   ['todo_20list',['Todo List',['../todo.html',1,'']]],
   ['toggle_5fpin',['toggle_pin',['../structetl_1_1hardware_1_1stm32_1_1port.html#a48edbfa988f026e2216b6617681e4ca9',1,'etl::hardware::stm32::port']]],
   ['too_5fmany_5ffiles_5fopen',['too_many_files_open',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170aed2c33c8fe874cfeba6f4a7747c62d05',1,'etl']]],

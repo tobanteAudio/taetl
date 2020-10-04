@@ -148,7 +148,7 @@ Functions</h2></td></tr>
 <tr class="memitem:a9c5d75513b403d3b4de7f892ec173d44"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a9c5d75513b403d3b4de7f892ec173d44">duration_cast</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; &amp;d) -&gt; ToDuration</td></tr>
 <tr class="memdesc:a9c5d75513b403d3b4de7f892ec173d44"><td class="mdescLeft">&#160;</td><td class="mdescRight">Converts a <a class="el" href="classetl_1_1chrono_1_1duration.html" title="Class template etl::chrono::duration represents a time interval. ">etl::chrono::duration</a> to a duration of different type ToDuration.  <a href="#a9c5d75513b403d3b4de7f892ec173d44">More...</a><br /></td></tr>
 <tr class="separator:a9c5d75513b403d3b4de7f892ec173d44"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memTemplParams" colspan="2">template&lt;typename Rep , typename Period , typename  = etl::enable_if_t&lt;numeric_limits&lt;Rep&gt;::is_signed&gt;&gt; </td></tr>
+<tr class="memitem:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memTemplParams" colspan="2">template&lt;typename Rep , typename Period , TAETL_REQUIRES_(numeric_limits&lt; Rep &gt;::is_signed) &gt; </td></tr>
 <tr class="memitem:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl_1_1chrono.html#a28c420ed1f11b22a9577e4a8abe4dad3">abs</a> (<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; d) -&gt; <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt;</td></tr>
 <tr class="memdesc:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the greatest duration t representable in ToDuration that is less or equal to d. The function does not participate in the overload resolution unless ToDuration is an instance of <a class="el" href="classetl_1_1chrono_1_1duration.html" title="Class template etl::chrono::duration represents a time interval. ">etl::chrono::duration</a>.  <a href="#a28c420ed1f11b22a9577e4a8abe4dad3">More...</a><br /></td></tr>
 <tr class="separator:a28c420ed1f11b22a9577e4a8abe4dad3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -327,7 +327,7 @@ Variables</h2></td></tr>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Rep , typename Period , typename  = etl::enable_if_t&lt;numeric_limits&lt;Rep&gt;::is_signed&gt;&gt; </div>
+template&lt;typename Rep , typename Period , TAETL_REQUIRES_(numeric_limits&lt; Rep &gt;::is_signed) &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr auto etl::chrono::abs </td>

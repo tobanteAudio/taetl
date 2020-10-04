@@ -95,11 +95,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ae653ef629d9813e45345becd107ae5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a4ae653ef629d9813e45345becd107ae5">duration</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> &amp;) noexcept=default</td></tr>
 <tr class="memdesc:a4ae653ef629d9813e45345becd107ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new duration from one of several optional data sources. The copy constructor is defaulted (makes a bitwise copy of the tick count).  <a href="#a4ae653ef629d9813e45345becd107ae5">More...</a><br /></td></tr>
 <tr class="separator:a4ae653ef629d9813e45345becd107ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , typename  = typename etl::enable_if_t&lt;            is_convertible_v&lt;Rep2, rep&gt; == true            &amp;&amp; (treat_as_floating_point_v&lt;rep&gt; || !treat_as_floating_point_v&lt;Rep2&gt;)&gt;&gt; </td></tr>
+<tr class="memitem:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , TAETL_REQUIRES_((is_convertible_v&lt; Rep2, rep &gt;)&amp;&amp;( treat_as_floating_point_v&lt; rep &gt;||!treat_as_floating_point_v&lt; Rep2 &gt;)) &gt; </td></tr>
 <tr class="memitem:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a6e5fb0105f6dfb5d2b3abaa6c6274d2e">duration</a> (const Rep2 &amp;r) noexcept</td></tr>
 <tr class="memdesc:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a duration with r ticks.  <a href="#a6e5fb0105f6dfb5d2b3abaa6c6274d2e">More...</a><br /></td></tr>
 <tr class="separator:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , typename Period2 , typename  = typename etl::enable_if_t&lt;(treat_as_floating_point_v&lt;rep&gt; == true)                                          || (ratio_divide&lt;Period2, period&gt;::den == 1                                              &amp;&amp; !treat_as_floating_point_v&lt;Rep2&gt;)&gt;&gt; </td></tr>
+<tr class="memitem:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , typename Period2 , || &gt; </td></tr>
 <tr class="memitem:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#abdc02c83b02da861af6c81f3d94a8a1b">duration</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;other) noexcept</td></tr>
 <tr class="memdesc:abdc02c83b02da861af6c81f3d94a8a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a duration by converting d to an appropriate period and tick count, as if by duration_cast&lt;duration&gt;(d).<a class="el" href="classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72" title="Returns the number of ticks for this duration. ">count()</a>.  <a href="#abdc02c83b02da861af6c81f3d94a8a1b">More...</a><br /></td></tr>
 <tr class="separator:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -251,7 +251,7 @@ template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
 <div class="memtemplate">
 template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
 <div class="memtemplate">
-template&lt;typename Rep2 , typename  = typename etl::enable_if_t&lt;            is_convertible_v&lt;Rep2, rep&gt; == true            &amp;&amp; (treat_as_floating_point_v&lt;rep&gt; || !treat_as_floating_point_v&lt;Rep2&gt;)&gt;&gt; </div>
+template&lt;typename Rep2 , TAETL_REQUIRES_((is_convertible_v&lt; Rep2, rep &gt;)&amp;&amp;( treat_as_floating_point_v&lt; rep &gt;||!treat_as_floating_point_v&lt; Rep2 &gt;)) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -285,7 +285,7 @@ template&lt;typename Rep2 , typename  = typename etl::enable_if_t&lt;           
 <div class="memtemplate">
 template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
 <div class="memtemplate">
-template&lt;typename Rep2 , typename Period2 , typename  = typename etl::enable_if_t&lt;(treat_as_floating_point_v&lt;rep&gt; == true)                                          || (ratio_divide&lt;Period2, period&gt;::den == 1                                              &amp;&amp; !treat_as_floating_point_v&lt;Rep2&gt;)&gt;&gt; </div>
+template&lt;typename Rep2 , typename Period2 , || &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

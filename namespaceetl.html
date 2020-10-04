@@ -1486,50 +1486,50 @@ Functions</h2></td></tr>
 <tr class="memitem:ae5a13233ebf471c62f35f40b21128884"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884">array</a> (T, U...) -&gt; <a class="el" href="structetl_1_1array.html">array</a>&lt; T, 1+sizeof...(U)&gt;</td></tr>
 <tr class="memdesc:ae5a13233ebf471c62f35f40b21128884"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction guide.  <a href="#ae5a13233ebf471c62f35f40b21128884">More...</a><br /></td></tr>
 <tr class="separator:ae5a13233ebf471c62f35f40b21128884"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae516046f5fb54110a91f5e7759f16240"><td class="memTemplParams" colspan="2">template&lt;typename To , typename From &gt; </td></tr>
-<tr class="memitem:ae516046f5fb54110a91f5e7759f16240"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae516046f5fb54110a91f5e7759f16240">bit_cast</a> (const From &amp;src) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;(sizeof(To)==sizeof(From)) &amp;&amp;<a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt; From &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt; To &gt;, To &gt;</td></tr>
-<tr class="memdesc:ae516046f5fb54110a91f5e7759f16240"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a value of type To by reinterpreting the object representation of from. Every bit in the value representation of the returned To object is equal to the corresponding bit in the object representation of from.  <a href="#ae516046f5fb54110a91f5e7759f16240">More...</a><br /></td></tr>
-<tr class="separator:ae516046f5fb54110a91f5e7759f16240"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a966b3039757a35f7b1104a7f6c9b6523"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a966b3039757a35f7b1104a7f6c9b6523">popcount</a> (T input) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
-<tr class="memdesc:a966b3039757a35f7b1104a7f6c9b6523"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a966b3039757a35f7b1104a7f6c9b6523">More...</a><br /></td></tr>
-<tr class="separator:a966b3039757a35f7b1104a7f6c9b6523"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af4fea3bb59d69e9a23786b36024d802a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:af4fea3bb59d69e9a23786b36024d802a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af4fea3bb59d69e9a23786b36024d802a">has_single_bit</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:af4fea3bb59d69e9a23786b36024d802a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if x is an integral power of two.  <a href="#af4fea3bb59d69e9a23786b36024d802a">More...</a><br /></td></tr>
-<tr class="separator:af4fea3bb59d69e9a23786b36024d802a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a89028d9dc63da94a3c786df4c0a09f03"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a89028d9dc63da94a3c786df4c0a09f03"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a89028d9dc63da94a3c786df4c0a09f03">countl_zero</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
-<tr class="memdesc:a89028d9dc63da94a3c786df4c0a09f03"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 0 bits in the value of x, starting from the most significant bit ("left").  <a href="#a89028d9dc63da94a3c786df4c0a09f03">More...</a><br /></td></tr>
-<tr class="separator:a89028d9dc63da94a3c786df4c0a09f03"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a036c43ee12867c8bc74fe95022f175c3"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a036c43ee12867c8bc74fe95022f175c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a036c43ee12867c8bc74fe95022f175c3">countl_one</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
-<tr class="memdesc:a036c43ee12867c8bc74fe95022f175c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 1 ("one") bits in the value of x, starting from the most significant bit ("left").  <a href="#a036c43ee12867c8bc74fe95022f175c3">More...</a><br /></td></tr>
-<tr class="separator:a036c43ee12867c8bc74fe95022f175c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9317469178624538d15a8e264d22887a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9317469178624538d15a8e264d22887a">bit_width</a> (T x) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_unsigned_integer&lt; T &gt;::value, int &gt;</td></tr>
-<tr class="memdesc:a9317469178624538d15a8e264d22887a"><td class="mdescLeft">&#160;</td><td class="mdescRight">If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero.  <a href="#a9317469178624538d15a8e264d22887a">More...</a><br /></td></tr>
-<tr class="separator:a9317469178624538d15a8e264d22887a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:aaa84e096751094f12fc96460addc2483"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aaa84e096751094f12fc96460addc2483">to_integer</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, Integer &gt;</td></tr>
-<tr class="memdesc:aaa84e096751094f12fc96460addc2483"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return Integer(b); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#aaa84e096751094f12fc96460addc2483">More...</a><br /></td></tr>
-<tr class="separator:aaa84e096751094f12fc96460addc2483"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0480e65e737703d71651dbf0ec77f6be"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:a0480e65e737703d71651dbf0ec77f6be"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0480e65e737703d71651dbf0ec77f6be">operator&lt;&lt;</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &gt;</td></tr>
-<tr class="memdesc:a0480e65e737703d71651dbf0ec77f6be"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &lt;&lt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a0480e65e737703d71651dbf0ec77f6be">More...</a><br /></td></tr>
-<tr class="separator:a0480e65e737703d71651dbf0ec77f6be"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac45fcae26cfb190fcc8ea6ab10da01f0">operator&gt;&gt;</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &gt;</td></tr>
-<tr class="memdesc:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &gt;&gt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#ac45fcae26cfb190fcc8ea6ab10da01f0">More...</a><br /></td></tr>
-<tr class="separator:ac45fcae26cfb190fcc8ea6ab10da01f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4d724ccacf75835ddc7e208bf977df9e"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:a4d724ccacf75835ddc7e208bf977df9e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4d724ccacf75835ddc7e208bf977df9e">operator&lt;&lt;=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;&gt;</td></tr>
-<tr class="memdesc:a4d724ccacf75835ddc7e208bf977df9e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return b = b &lt;&lt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a4d724ccacf75835ddc7e208bf977df9e">More...</a><br /></td></tr>
-<tr class="separator:a4d724ccacf75835ddc7e208bf977df9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12556a00fd4d36c275c51643b2c6168a"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:a12556a00fd4d36c275c51643b2c6168a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a12556a00fd4d36c275c51643b2c6168a">operator&gt;&gt;=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;&gt;</td></tr>
-<tr class="memdesc:a12556a00fd4d36c275c51643b2c6168a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return b = b &gt;&gt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a12556a00fd4d36c275c51643b2c6168a">More...</a><br /></td></tr>
-<tr class="separator:a12556a00fd4d36c275c51643b2c6168a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a48b0023763b11f23ad78a01ddae586"><td class="memTemplParams" colspan="2">template&lt;typename To , typename From , TAETL_REQUIRES_((sizeof(To)==sizeof(From)) &amp;&amp;is_trivially_copyable_v&lt; From &gt; &amp;&amp;is_trivially_copyable_v&lt; To &gt;) &gt; </td></tr>
+<tr class="memitem:a3a48b0023763b11f23ad78a01ddae586"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3a48b0023763b11f23ad78a01ddae586">bit_cast</a> (const From &amp;src) noexcept -&gt; To</td></tr>
+<tr class="memdesc:a3a48b0023763b11f23ad78a01ddae586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a value of type To by reinterpreting the object representation of from. Every bit in the value representation of the returned To object is equal to the corresponding bit in the object representation of from.  <a href="#a3a48b0023763b11f23ad78a01ddae586">More...</a><br /></td></tr>
+<tr class="separator:a3a48b0023763b11f23ad78a01ddae586"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a39836025a57eab2221b529b3dfa37bc3">popcount</a> (T input) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a39836025a57eab2221b529b3dfa37bc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a39836025a57eab2221b529b3dfa37bc3">More...</a><br /></td></tr>
+<tr class="separator:a39836025a57eab2221b529b3dfa37bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4405cf9ee855e6c4ab70fffcf7e83873">has_single_bit</a> (T x) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if x is an integral power of two.  <a href="#a4405cf9ee855e6c4ab70fffcf7e83873">More...</a><br /></td></tr>
+<tr class="separator:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30444d68bc251433b06b43019034d702"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a30444d68bc251433b06b43019034d702"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a30444d68bc251433b06b43019034d702">countl_zero</a> (T x) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a30444d68bc251433b06b43019034d702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 0 bits in the value of x, starting from the most significant bit ("left").  <a href="#a30444d68bc251433b06b43019034d702">More...</a><br /></td></tr>
+<tr class="separator:a30444d68bc251433b06b43019034d702"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30473cb272e7b0506aecccf97f72a982"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a30473cb272e7b0506aecccf97f72a982"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a30473cb272e7b0506aecccf97f72a982">countl_one</a> (T x) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a30473cb272e7b0506aecccf97f72a982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 1 ("one") bits in the value of x, starting from the most significant bit ("left").  <a href="#a30473cb272e7b0506aecccf97f72a982">More...</a><br /></td></tr>
+<tr class="separator:a30473cb272e7b0506aecccf97f72a982"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a21008d0b3fc5592c70cb4e453ae6f1e8">bit_width</a> (T x) noexcept -&gt; int</td></tr>
+<tr class="memdesc:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero.  <a href="#a21008d0b3fc5592c70cb4e453ae6f1e8">More...</a><br /></td></tr>
+<tr class="separator:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac3f554d0da3a8b715151f0dd8534c9f2"><td class="memTemplParams" colspan="2">template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </td></tr>
+<tr class="memitem:ac3f554d0da3a8b715151f0dd8534c9f2"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac3f554d0da3a8b715151f0dd8534c9f2">to_integer</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b) noexcept -&gt; Integer</td></tr>
+<tr class="memdesc:ac3f554d0da3a8b715151f0dd8534c9f2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return Integer(b); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#ac3f554d0da3a8b715151f0dd8534c9f2">More...</a><br /></td></tr>
+<tr class="separator:ac3f554d0da3a8b715151f0dd8534c9f2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada19d55ea3b136e9bd813c78fdf44bdb"><td class="memTemplParams" colspan="2">template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </td></tr>
+<tr class="memitem:ada19d55ea3b136e9bd813c78fdf44bdb"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ada19d55ea3b136e9bd813c78fdf44bdb">operator&lt;&lt;</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a></td></tr>
+<tr class="memdesc:ada19d55ea3b136e9bd813c78fdf44bdb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &lt;&lt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#ada19d55ea3b136e9bd813c78fdf44bdb">More...</a><br /></td></tr>
+<tr class="separator:ada19d55ea3b136e9bd813c78fdf44bdb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7290b2a7ab376d1b76f501545d8fb0aa"><td class="memTemplParams" colspan="2">template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </td></tr>
+<tr class="memitem:a7290b2a7ab376d1b76f501545d8fb0aa"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7290b2a7ab376d1b76f501545d8fb0aa">operator&gt;&gt;</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a></td></tr>
+<tr class="memdesc:a7290b2a7ab376d1b76f501545d8fb0aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(b) &gt;&gt; shift); This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#a7290b2a7ab376d1b76f501545d8fb0aa">More...</a><br /></td></tr>
+<tr class="separator:a7290b2a7ab376d1b76f501545d8fb0aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa82fb2265ded5205d77c2f7af7ccb54e"><td class="memTemplParams" colspan="2">template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </td></tr>
+<tr class="memitem:aa82fb2265ded5205d77c2f7af7ccb54e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa82fb2265ded5205d77c2f7af7ccb54e">operator&lt;&lt;=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;</td></tr>
+<tr class="memdesc:aa82fb2265ded5205d77c2f7af7ccb54e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return b = b &lt;&lt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#aa82fb2265ded5205d77c2f7af7ccb54e">More...</a><br /></td></tr>
+<tr class="separator:aa82fb2265ded5205d77c2f7af7ccb54e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:accf3748a4b9bdefe9178b21d00e3bfa9"><td class="memTemplParams" colspan="2">template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </td></tr>
+<tr class="memitem:accf3748a4b9bdefe9178b21d00e3bfa9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#accf3748a4b9bdefe9178b21d00e3bfa9">operator&gt;&gt;=</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;b, Integer shift) noexcept -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> &amp;</td></tr>
+<tr class="memdesc:accf3748a4b9bdefe9178b21d00e3bfa9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return b = b &gt;&gt; shift; This overload only participates in overload resolution if <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v&lt;Integer&gt;</a> is true.  <a href="#accf3748a4b9bdefe9178b21d00e3bfa9">More...</a><br /></td></tr>
+<tr class="separator:accf3748a4b9bdefe9178b21d00e3bfa9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8fe220615749beb7a953b281e623e529"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8fe220615749beb7a953b281e623e529">operator|</a> (<a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> l, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a> r) noexcept -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a></td></tr>
 <tr class="memdesc:a8fe220615749beb7a953b281e623e529"><td class="mdescLeft">&#160;</td><td class="mdescRight">Equivalent to: return <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>(static_cast&lt;unsigned int&gt;(l) | static_cast&lt;unsigned int&gt;(r));.  <a href="#a8fe220615749beb7a953b281e623e529">More...</a><br /></td></tr>
 <tr class="separator:a8fe220615749beb7a953b281e623e529"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1560,10 +1560,10 @@ Functions</h2></td></tr>
 <tr class="memitem:aac63899ba5cdbbcbe25e867baaa11c8a"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aac63899ba5cdbbcbe25e867baaa11c8a">isinf</a> (long double arg) -&gt; bool</td></tr>
 <tr class="memdesc:aac63899ba5cdbbcbe25e867baaa11c8a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg is a positive or negative infinity.  <a href="#aac63899ba5cdbbcbe25e867baaa11c8a">More...</a><br /></td></tr>
 <tr class="separator:aac63899ba5cdbbcbe25e867baaa11c8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a479b0c43cc953cd7843f865e75bdc53b"><td class="memTemplParams" colspan="2">template&lt;typename IntegralType &gt; </td></tr>
-<tr class="memitem:a479b0c43cc953cd7843f865e75bdc53b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a479b0c43cc953cd7843f865e75bdc53b">isinf</a> (IntegralType arg) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; IntegralType &gt;, bool &gt;</td></tr>
-<tr class="memdesc:a479b0c43cc953cd7843f865e75bdc53b"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of overloads or a function template accepting the arg argument of any integral type. Equivalent to cast to double.  <a href="#a479b0c43cc953cd7843f865e75bdc53b">More...</a><br /></td></tr>
-<tr class="separator:a479b0c43cc953cd7843f865e75bdc53b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a35bcbd3ac4ee08a005573e3218c26f67"><td class="memTemplParams" colspan="2">template&lt;typename IntegralType , TAETL_REQUIRES_(etl::is_integral_v&lt; IntegralType &gt;) &gt; </td></tr>
+<tr class="memitem:a35bcbd3ac4ee08a005573e3218c26f67"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a35bcbd3ac4ee08a005573e3218c26f67">isinf</a> (IntegralType arg) -&gt; bool</td></tr>
+<tr class="memdesc:a35bcbd3ac4ee08a005573e3218c26f67"><td class="mdescLeft">&#160;</td><td class="mdescRight">A set of overloads or a function template accepting the arg argument of any integral type. Equivalent to cast to double.  <a href="#a35bcbd3ac4ee08a005573e3218c26f67">More...</a><br /></td></tr>
+<tr class="separator:a35bcbd3ac4ee08a005573e3218c26f67"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a605d9e24e916cbbc8f38c7e377eb792d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a605d9e24e916cbbc8f38c7e377eb792d">isnan</a> (float arg) -&gt; bool</td></tr>
 <tr class="memdesc:a605d9e24e916cbbc8f38c7e377eb792d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg is a not-a-number (NaN) value.  <a href="#a605d9e24e916cbbc8f38c7e377eb792d">More...</a><br /></td></tr>
 <tr class="separator:a605d9e24e916cbbc8f38c7e377eb792d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1573,10 +1573,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a5b1b06749558d3368fe928aba61d3b46"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5b1b06749558d3368fe928aba61d3b46">isnan</a> (long double arg) -&gt; bool</td></tr>
 <tr class="memdesc:a5b1b06749558d3368fe928aba61d3b46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg is a not-a-number (NaN) value.  <a href="#a5b1b06749558d3368fe928aba61d3b46">More...</a><br /></td></tr>
 <tr class="separator:a5b1b06749558d3368fe928aba61d3b46"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa8337c5b28ae7940b265ee8afe4c328e"><td class="memTemplParams" colspan="2">template&lt;typename IntegralType &gt; </td></tr>
-<tr class="memitem:aa8337c5b28ae7940b265ee8afe4c328e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa8337c5b28ae7940b265ee8afe4c328e">isnan</a> (IntegralType arg) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; IntegralType &gt;, bool &gt;</td></tr>
-<tr class="memdesc:aa8337c5b28ae7940b265ee8afe4c328e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg is a not-a-number (NaN) value.  <a href="#aa8337c5b28ae7940b265ee8afe4c328e">More...</a><br /></td></tr>
-<tr class="separator:aa8337c5b28ae7940b265ee8afe4c328e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a51ce41821b2214af3cc69c664299447d"><td class="memTemplParams" colspan="2">template&lt;typename IntegralType , TAETL_REQUIRES_(etl::is_integral_v&lt; IntegralType &gt;) &gt; </td></tr>
+<tr class="memitem:a51ce41821b2214af3cc69c664299447d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a51ce41821b2214af3cc69c664299447d">isnan</a> (IntegralType arg) -&gt; bool</td></tr>
+<tr class="memdesc:a51ce41821b2214af3cc69c664299447d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg is a not-a-number (NaN) value.  <a href="#a51ce41821b2214af3cc69c664299447d">More...</a><br /></td></tr>
+<tr class="separator:a51ce41821b2214af3cc69c664299447d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a80bf904f99630edb18fcb3a07117779f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a80bf904f99630edb18fcb3a07117779f">isfinite</a> (float arg) -&gt; bool</td></tr>
 <tr class="memdesc:a80bf904f99630edb18fcb3a07117779f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Determines if the given floating point number arg has finite value i.e. it is normal, subnormal or zero, but not infinite or NaN.  <a href="#a80bf904f99630edb18fcb3a07117779f">More...</a><br /></td></tr>
 <tr class="separator:a80bf904f99630edb18fcb3a07117779f"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1699,10 +1699,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a1e969dbba1b9a1c3889a417e695fb296"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1e969dbba1b9a1c3889a417e695fb296">front_inserter</a> (Container &amp;c) -&gt; <a class="el" href="classetl_1_1front__insert__iterator.html">etl::front_insert_iterator</a>&lt; Container &gt;</td></tr>
 <tr class="memdesc:a1e969dbba1b9a1c3889a417e695fb296"><td class="mdescLeft">&#160;</td><td class="mdescRight">front_inserter is a convenience function template that constructs a <a class="el" href="classetl_1_1front__insert__iterator.html" title="etl::front_insert_iterator is an LegacyOutputIterator that prepends elements to a container for which...">etl::front_insert_iterator</a> for the container c with the type deduced from the type of the argument.  <a href="#a1e969dbba1b9a1c3889a417e695fb296">More...</a><br /></td></tr>
 <tr class="separator:a1e969dbba1b9a1c3889a417e695fb296"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:adbedfa50bab7817a29802cce148c7def"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbedfa50bab7817a29802cce148c7def">addressof</a> (T &amp;arg) noexcept -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt; T &gt;, T *&gt;</td></tr>
-<tr class="memdesc:adbedfa50bab7817a29802cce148c7def"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;.  <a href="#adbedfa50bab7817a29802cce148c7def">More...</a><br /></td></tr>
-<tr class="separator:adbedfa50bab7817a29802cce148c7def"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a520137553bdb286f9bab87023dc787b3"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(etl::is_object_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a520137553bdb286f9bab87023dc787b3"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a520137553bdb286f9bab87023dc787b3">addressof</a> (T &amp;arg) noexcept -&gt; T *</td></tr>
+<tr class="memdesc:a520137553bdb286f9bab87023dc787b3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtains the actual address of the object or function arg, even in presence of overloaded operator&amp;.  <a href="#a520137553bdb286f9bab87023dc787b3">More...</a><br /></td></tr>
+<tr class="separator:a520137553bdb286f9bab87023dc787b3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13856fe74510e89b04a2310cbc9bde59"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a13856fe74510e89b04a2310cbc9bde59"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a13856fe74510e89b04a2310cbc9bde59">addressof</a> (T const &amp;&amp;)=delete</td></tr>
 <tr class="memdesc:a13856fe74510e89b04a2310cbc9bde59"><td class="mdescLeft">&#160;</td><td class="mdescRight">Rvalue overload is deleted to prevent taking the address of const rvalues.  <a href="#a13856fe74510e89b04a2310cbc9bde59">More...</a><br /></td></tr>
@@ -1755,22 +1755,22 @@ Functions</h2></td></tr>
 <tr class="memitem:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab65cd6f8748c172eab6ee36130dca3c3">gcd</a> (M m, N n) noexcept -&gt; <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt; M, N &gt;</td></tr>
 <tr class="memdesc:ab65cd6f8748c172eab6ee36130dca3c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the greatest common divisor of the integers m and n.  <a href="#ab65cd6f8748c172eab6ee36130dca3c3">More...</a><br /></td></tr>
 <tr class="separator:ab65cd6f8748c172eab6ee36130dca3c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a88d17ac0d457a45babf1c999ed6bea7f"><td class="memTemplParams" colspan="2">template&lt;typename M , typename N &gt; </td></tr>
-<tr class="memitem:a88d17ac0d457a45babf1c999ed6bea7f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a88d17ac0d457a45babf1c999ed6bea7f">lcm</a> (M m, N n) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; M &gt; &amp;&amp;!<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt; M, bool &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; N &gt; &amp;&amp;!<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt; N, bool &gt;, <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt; M, N &gt;&gt;</td></tr>
-<tr class="memdesc:a88d17ac0d457a45babf1c999ed6bea7f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the least common multiple of the integers m and n.  <a href="#a88d17ac0d457a45babf1c999ed6bea7f">More...</a><br /></td></tr>
-<tr class="separator:a88d17ac0d457a45babf1c999ed6bea7f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="memTemplParams" colspan="2">template&lt;typename Integer &gt; </td></tr>
-<tr class="memitem:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#add674d1e1c1fd1d72dd7b39f74a0525a">midpoint</a> (Integer a, Integer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt; Integer &gt; &amp;&amp;!<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt; Integer, bool &gt;, Integer &gt;</td></tr>
-<tr class="memdesc:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="#add674d1e1c1fd1d72dd7b39f74a0525a">More...</a><br /></td></tr>
-<tr class="separator:add674d1e1c1fd1d72dd7b39f74a0525a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memTemplParams" colspan="2">template&lt;typename Float &gt; </td></tr>
-<tr class="memitem:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd6eb417ecc3a7b1c7e71baab1c2c522">midpoint</a> (Float a, Float b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a5cf273d19443134cffcd66310d027ae4">etl::is_floating_point_v</a>&lt; Float &gt;, Float &gt;</td></tr>
-<tr class="memdesc:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="#acd6eb417ecc3a7b1c7e71baab1c2c522">More...</a><br /></td></tr>
-<tr class="separator:acd6eb417ecc3a7b1c7e71baab1c2c522"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplParams" colspan="2">template&lt;typename Pointer &gt; </td></tr>
-<tr class="memitem:ad2f4c423421fddd2a2f941d805c05300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad2f4c423421fddd2a2f941d805c05300">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt; Pointer &gt;, Pointer &gt;</td></tr>
-<tr class="memdesc:ad2f4c423421fddd2a2f941d805c05300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="#ad2f4c423421fddd2a2f941d805c05300">More...</a><br /></td></tr>
-<tr class="separator:ad2f4c423421fddd2a2f941d805c05300"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a48d804b27a76892fe17ae72576900e06"><td class="memTemplParams" colspan="2">template&lt;typename M , typename N , TAETL_REQUIRES_((is_integral_v&lt; M &gt; &amp;&amp;!is_same_v&lt; M, bool &gt; &amp;&amp;is_integral_v&lt; N &gt; &amp;&amp;!is_same_v&lt; N, bool &gt;)) &gt; </td></tr>
+<tr class="memitem:a48d804b27a76892fe17ae72576900e06"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a48d804b27a76892fe17ae72576900e06">lcm</a> (M m, N n) -&gt; <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt; M, N &gt;</td></tr>
+<tr class="memdesc:a48d804b27a76892fe17ae72576900e06"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the least common multiple of the integers m and n.  <a href="#a48d804b27a76892fe17ae72576900e06">More...</a><br /></td></tr>
+<tr class="separator:a48d804b27a76892fe17ae72576900e06"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acd3d5c2322ac0c3294bda1fad13eb24a"><td class="memTemplParams" colspan="2">template&lt;typename Int , TAETL_REQUIRES_((is_integral_v&lt; Int &gt; &amp;&amp;!is_same_v&lt; Int, bool &gt;)) &gt; </td></tr>
+<tr class="memitem:acd3d5c2322ac0c3294bda1fad13eb24a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acd3d5c2322ac0c3294bda1fad13eb24a">midpoint</a> (Int a, Int b) noexcept -&gt; Int</td></tr>
+<tr class="memdesc:acd3d5c2322ac0c3294bda1fad13eb24a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="#acd3d5c2322ac0c3294bda1fad13eb24a">More...</a><br /></td></tr>
+<tr class="separator:acd3d5c2322ac0c3294bda1fad13eb24a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3f6effa454143e3b4d3be92ddf7a59f8"><td class="memTemplParams" colspan="2">template&lt;typename Float , TAETL_REQUIRES_(is_floating_point_v&lt; Float &gt;) &gt; </td></tr>
+<tr class="memitem:a3f6effa454143e3b4d3be92ddf7a59f8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3f6effa454143e3b4d3be92ddf7a59f8">midpoint</a> (Float a, Float b) noexcept -&gt; Float</td></tr>
+<tr class="memdesc:a3f6effa454143e3b4d3be92ddf7a59f8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="#a3f6effa454143e3b4d3be92ddf7a59f8">More...</a><br /></td></tr>
+<tr class="separator:a3f6effa454143e3b4d3be92ddf7a59f8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9bef8bc0d474146974d4c8bf8b676652"><td class="memTemplParams" colspan="2">template&lt;typename Pointer , TAETL_REQUIRES_(is_pointer_v&lt; Pointer &gt;) &gt; </td></tr>
+<tr class="memitem:a9bef8bc0d474146974d4c8bf8b676652"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9bef8bc0d474146974d4c8bf8b676652">midpoint</a> (Pointer a, Pointer b) noexcept -&gt; Pointer</td></tr>
+<tr class="memdesc:a9bef8bc0d474146974d4c8bf8b676652"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns half the sum of a + b. If the sum is odd, the result is rounded towards a.  <a href="#a9bef8bc0d474146974d4c8bf8b676652">More...</a><br /></td></tr>
+<tr class="separator:a9bef8bc0d474146974d4c8bf8b676652"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5d1cc2f7a422e0cadab9361b16f7e875"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
 <tr class="memitem:a5d1cc2f7a422e0cadab9361b16f7e875"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5d1cc2f7a422e0cadab9361b16f7e875">operator==</a> (<a class="el" href="classetl_1_1optional.html">optional</a>&lt; T &gt; const &amp;lhs, <a class="el" href="classetl_1_1optional.html">optional</a>&lt; U &gt; const &amp;rhs) -&gt; bool</td></tr>
 <tr class="memdesc:a5d1cc2f7a422e0cadab9361b16f7e875"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares two optional objects, lhs and rhs.  <a href="#a5d1cc2f7a422e0cadab9361b16f7e875">More...</a><br /></td></tr>
@@ -1988,34 +1988,34 @@ Functions</h2></td></tr>
 <tr class="memitem:a96cf5452578f57be8c16cc9b4688f8af"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a96cf5452578f57be8c16cc9b4688f8af">as_const</a> (const T &amp;&amp;) -&gt; void=delete</td></tr>
 <tr class="memdesc:a96cf5452578f57be8c16cc9b4688f8af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Const rvalue reference overload is deleted to disallow rvalue arguments.  <a href="#a96cf5452578f57be8c16cc9b4688f8af">More...</a><br /></td></tr>
 <tr class="separator:a96cf5452578f57be8c16cc9b4688f8af"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adf43ebd431e0effc1fcd56e1cdb3a58c">cmp_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#adf43ebd431e0effc1fcd56e1cdb3a58c">More...</a><br /></td></tr>
-<tr class="separator:adf43ebd431e0effc1fcd56e1cdb3a58c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a67fad2bcf2015251e85a6881458656c5"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:a67fad2bcf2015251e85a6881458656c5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a67fad2bcf2015251e85a6881458656c5">cmp_not_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:a67fad2bcf2015251e85a6881458656c5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a67fad2bcf2015251e85a6881458656c5">More...</a><br /></td></tr>
-<tr class="separator:a67fad2bcf2015251e85a6881458656c5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8c2faa4ff3aa7b68304c111c33000601"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:a8c2faa4ff3aa7b68304c111c33000601"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8c2faa4ff3aa7b68304c111c33000601">cmp_less</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:a8c2faa4ff3aa7b68304c111c33000601"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a8c2faa4ff3aa7b68304c111c33000601">More...</a><br /></td></tr>
-<tr class="separator:a8c2faa4ff3aa7b68304c111c33000601"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a726b4eedfb2a4ae9c478e0e98588a2e8">cmp_greater</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a726b4eedfb2a4ae9c478e0e98588a2e8">More...</a><br /></td></tr>
-<tr class="separator:a726b4eedfb2a4ae9c478e0e98588a2e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a331ef5587f806c7dc56a94dfaaf8e819">cmp_less_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:a331ef5587f806c7dc56a94dfaaf8e819"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a331ef5587f806c7dc56a94dfaaf8e819">More...</a><br /></td></tr>
-<tr class="separator:a331ef5587f806c7dc56a94dfaaf8e819"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a0eb292194946c9d80e86df97adf5635b"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
-<tr class="memitem:a0eb292194946c9d80e86df97adf5635b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0eb292194946c9d80e86df97adf5635b">cmp_greater_equal</a> (T t, U u) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value &amp;&amp;detail::is_integer_and_not_char&lt; U &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:a0eb292194946c9d80e86df97adf5635b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a0eb292194946c9d80e86df97adf5635b">More...</a><br /></td></tr>
-<tr class="separator:a0eb292194946c9d80e86df97adf5635b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memTemplParams" colspan="2">template&lt;typename R , typename T &gt; </td></tr>
-<tr class="memitem:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aa374f8a8aadeee045b4a6d154baa5d7c">in_range</a> (T t) noexcept -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt; detail::is_integer_and_not_char&lt; T &gt;::value, bool &gt;</td></tr>
-<tr class="memdesc:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the value of t is in the range of values that can be represented in R, that is, if t can be converted to R without data loss.  <a href="#aa374f8a8aadeee045b4a6d154baa5d7c">More...</a><br /></td></tr>
-<tr class="separator:aa374f8a8aadeee045b4a6d154baa5d7c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a49188e29af5075f9efba760144f2499e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </td></tr>
+<tr class="memitem:a49188e29af5075f9efba760144f2499e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a49188e29af5075f9efba760144f2499e">cmp_equal</a> (T t, U u) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a49188e29af5075f9efba760144f2499e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a49188e29af5075f9efba760144f2499e">More...</a><br /></td></tr>
+<tr class="separator:a49188e29af5075f9efba760144f2499e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a397c6fafd2523c5aae026772be7fe744"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </td></tr>
+<tr class="memitem:a397c6fafd2523c5aae026772be7fe744"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a397c6fafd2523c5aae026772be7fe744">cmp_not_equal</a> (T t, U u) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a397c6fafd2523c5aae026772be7fe744"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a397c6fafd2523c5aae026772be7fe744">More...</a><br /></td></tr>
+<tr class="separator:a397c6fafd2523c5aae026772be7fe744"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9765195e448d5bbf62c04c615e2a407"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </td></tr>
+<tr class="memitem:ae9765195e448d5bbf62c04c615e2a407"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae9765195e448d5bbf62c04c615e2a407">cmp_less</a> (T t, U u) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ae9765195e448d5bbf62c04c615e2a407"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#ae9765195e448d5bbf62c04c615e2a407">More...</a><br /></td></tr>
+<tr class="separator:ae9765195e448d5bbf62c04c615e2a407"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a11eef5929cdeabad9ba8d1d4d0b7493e"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </td></tr>
+<tr class="memitem:a11eef5929cdeabad9ba8d1d4d0b7493e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a11eef5929cdeabad9ba8d1d4d0b7493e">cmp_greater</a> (T t, U u) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a11eef5929cdeabad9ba8d1d4d0b7493e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a11eef5929cdeabad9ba8d1d4d0b7493e">More...</a><br /></td></tr>
+<tr class="separator:a11eef5929cdeabad9ba8d1d4d0b7493e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a9ff5717879fb6098007a536407e383ad"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </td></tr>
+<tr class="memitem:a9ff5717879fb6098007a536407e383ad"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9ff5717879fb6098007a536407e383ad">cmp_less_equal</a> (T t, U u) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a9ff5717879fb6098007a536407e383ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#a9ff5717879fb6098007a536407e383ad">More...</a><br /></td></tr>
+<tr class="separator:a9ff5717879fb6098007a536407e383ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad43db37d32ca652077cc14547e7fd6e1"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </td></tr>
+<tr class="memitem:ad43db37d32ca652077cc14547e7fd6e1"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad43db37d32ca652077cc14547e7fd6e1">cmp_greater_equal</a> (T t, U u) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ad43db37d32ca652077cc14547e7fd6e1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion.  <a href="#ad43db37d32ca652077cc14547e7fd6e1">More...</a><br /></td></tr>
+<tr class="separator:ad43db37d32ca652077cc14547e7fd6e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a010684d008e6a4f168e1925af49c38f3"><td class="memTemplParams" colspan="2">template&lt;typename R , typename T , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a010684d008e6a4f168e1925af49c38f3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a010684d008e6a4f168e1925af49c38f3">in_range</a> (T t) noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a010684d008e6a4f168e1925af49c38f3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the value of t is in the range of values that can be represented in R, that is, if t can be converted to R without data loss.  <a href="#a010684d008e6a4f168e1925af49c38f3">More...</a><br /></td></tr>
+<tr class="separator:a010684d008e6a4f168e1925af49c38f3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplParams" colspan="2">template&lt;typename T1 , typename T2 &gt; </td></tr>
 <tr class="memitem:a638ad4db4d90fecc8d08227b1c214148"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a638ad4db4d90fecc8d08227b1c214148">make_pair</a> (T1 &amp;&amp;t, T2 &amp;&amp;u) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; typename <a class="el" href="structetl_1_1decay.html">etl::decay</a>&lt; T1 &gt;::type, typename <a class="el" href="structetl_1_1decay.html">etl::decay</a>&lt; T2 &gt;::type &gt;</td></tr>
 <tr class="memdesc:a638ad4db4d90fecc8d08227b1c214148"><td class="mdescLeft">&#160;</td><td class="mdescRight">Creates a <a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> object, deducing the target type from the types of arguments.  <a href="#a638ad4db4d90fecc8d08227b1c214148">More...</a><br /></td></tr>
@@ -3790,13 +3790,13 @@ template&lt;typename InputIt , typename Type , typename BinaryOperation &gt; </d
 
 </div>
 </div>
-<a id="adbedfa50bab7817a29802cce148c7def"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adbedfa50bab7817a29802cce148c7def">&#9670;&nbsp;</a></span>addressof() <span class="overload">[1/2]</span></h2>
+<a id="a520137553bdb286f9bab87023dc787b3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a520137553bdb286f9bab87023dc787b3">&#9670;&nbsp;</a></span>addressof() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(etl::is_object_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -3806,7 +3806,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T &amp;&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a63efd09c0ee7195824be65423adadedc">etl::is_object_v</a>&lt;T&gt;, T*&gt;
+          <td> -&gt; T*
 </td>
         </tr>
       </table>
@@ -4251,13 +4251,13 @@ template&lt;typename T , etl::size_t N&gt; </div>
 
 </div>
 </div>
-<a id="ae516046f5fb54110a91f5e7759f16240"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae516046f5fb54110a91f5e7759f16240">&#9670;&nbsp;</a></span>bit_cast()</h2>
+<a id="a3a48b0023763b11f23ad78a01ddae586"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a48b0023763b11f23ad78a01ddae586">&#9670;&nbsp;</a></span>bit_cast()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename To , typename From &gt; </div>
+template&lt;typename To , typename From , TAETL_REQUIRES_((sizeof(To)==sizeof(From)) &amp;&amp;is_trivially_copyable_v&lt; From &gt; &amp;&amp;is_trivially_copyable_v&lt; To &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4267,10 +4267,7 @@ template&lt;typename To , typename From &gt; </div>
           <td>(</td>
           <td class="paramtype">const From &amp;&#160;</td>
           <td class="paramname"><em>src</em></td><td>)</td>
-          <td> -&gt; typename <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;
-    (sizeof(To) == sizeof(From))
-        &amp;&amp; <a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt;From&gt; &amp;&amp; <a class="el" href="namespaceetl.html#a5b3b937c99443cbaf5f1817d061261bd">etl::is_trivially_copyable_v</a>&lt;To&gt;,
-    To&gt;
+          <td> -&gt; To
 </td>
         </tr>
       </table>
@@ -4287,13 +4284,13 @@ template&lt;typename To , typename From &gt; </div>
 
 </div>
 </div>
-<a id="a9317469178624538d15a8e264d22887a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9317469178624538d15a8e264d22887a">&#9670;&nbsp;</a></span>bit_width()</h2>
+<a id="a21008d0b3fc5592c70cb4e453ae6f1e8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a21008d0b3fc5592c70cb4e453ae6f1e8">&#9670;&nbsp;</a></span>bit_width()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4303,7 +4300,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
+          <td> -&gt; int
 </td>
         </tr>
       </table>
@@ -4472,13 +4469,13 @@ template&lt;typename Type , typename Compare &gt; </div>
 
 </div>
 </div>
-<a id="adf43ebd431e0effc1fcd56e1cdb3a58c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#adf43ebd431e0effc1fcd56e1cdb3a58c">&#9670;&nbsp;</a></span>cmp_equal()</h2>
+<a id="a49188e29af5075f9efba760144f2499e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a49188e29af5075f9efba760144f2499e">&#9670;&nbsp;</a></span>cmp_equal()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4498,9 +4495,7 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
-                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
-                   bool&gt;
+          <td></td><td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -4516,13 +4511,13 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a726b4eedfb2a4ae9c478e0e98588a2e8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a726b4eedfb2a4ae9c478e0e98588a2e8">&#9670;&nbsp;</a></span>cmp_greater()</h2>
+<a id="a11eef5929cdeabad9ba8d1d4d0b7493e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a11eef5929cdeabad9ba8d1d4d0b7493e">&#9670;&nbsp;</a></span>cmp_greater()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4542,9 +4537,7 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
-                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
-                   bool&gt;
+          <td></td><td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -4560,13 +4553,13 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a0eb292194946c9d80e86df97adf5635b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0eb292194946c9d80e86df97adf5635b">&#9670;&nbsp;</a></span>cmp_greater_equal()</h2>
+<a id="ad43db37d32ca652077cc14547e7fd6e1"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad43db37d32ca652077cc14547e7fd6e1">&#9670;&nbsp;</a></span>cmp_greater_equal()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4586,9 +4579,7 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
-                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
-                   bool&gt;
+          <td></td><td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -4604,13 +4595,13 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a8c2faa4ff3aa7b68304c111c33000601"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8c2faa4ff3aa7b68304c111c33000601">&#9670;&nbsp;</a></span>cmp_less()</h2>
+<a id="ae9765195e448d5bbf62c04c615e2a407"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae9765195e448d5bbf62c04c615e2a407">&#9670;&nbsp;</a></span>cmp_less()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4630,9 +4621,7 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
-                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
-                   bool&gt;
+          <td></td><td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -4648,13 +4637,13 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a331ef5587f806c7dc56a94dfaaf8e819"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a331ef5587f806c7dc56a94dfaaf8e819">&#9670;&nbsp;</a></span>cmp_less_equal()</h2>
+<a id="a9ff5717879fb6098007a536407e383ad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9ff5717879fb6098007a536407e383ad">&#9670;&nbsp;</a></span>cmp_less_equal()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4674,9 +4663,7 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
-                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
-                   bool&gt;
+          <td></td><td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -4692,13 +4679,13 @@ template&lt;typename T , typename U &gt; </div>
 
 </div>
 </div>
-<a id="a67fad2bcf2015251e85a6881458656c5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a67fad2bcf2015251e85a6881458656c5">&#9670;&nbsp;</a></span>cmp_not_equal()</h2>
+<a id="a397c6fafd2523c5aae026772be7fe744"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a397c6fafd2523c5aae026772be7fe744">&#9670;&nbsp;</a></span>cmp_not_equal()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , typename U &gt; </div>
+template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt; &amp;&amp; detail::is_integer_and_not_char_v&lt; U &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4718,9 +4705,7 @@ template&lt;typename T , typename U &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value
-                       &amp;&amp; detail::is_integer_and_not_char&lt;U&gt;::value,
-                   bool&gt;
+          <td></td><td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -4983,13 +4968,13 @@ template&lt;typename InputIter , typename UnaryPredicate &gt; </div>
 
 </div>
 </div>
-<a id="a036c43ee12867c8bc74fe95022f175c3"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a036c43ee12867c8bc74fe95022f175c3">&#9670;&nbsp;</a></span>countl_one()</h2>
+<a id="a30473cb272e7b0506aecccf97f72a982"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30473cb272e7b0506aecccf97f72a982">&#9670;&nbsp;</a></span>countl_one()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -4999,7 +4984,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
+          <td> -&gt; int
 </td>
         </tr>
       </table>
@@ -5016,13 +5001,13 @@ template&lt;typename T &gt; </div>
 
 </div>
 </div>
-<a id="a89028d9dc63da94a3c786df4c0a09f03"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a89028d9dc63da94a3c786df4c0a09f03">&#9670;&nbsp;</a></span>countl_zero()</h2>
+<a id="a30444d68bc251433b06b43019034d702"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30444d68bc251433b06b43019034d702">&#9670;&nbsp;</a></span>countl_zero()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -5032,7 +5017,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
+          <td> -&gt; int
 </td>
         </tr>
       </table>
@@ -6361,13 +6346,13 @@ template&lt;etl::size_t I, typename... Types&gt; </div>
 
 </div>
 </div>
-<a id="af4fea3bb59d69e9a23786b36024d802a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af4fea3bb59d69e9a23786b36024d802a">&#9670;&nbsp;</a></span>has_single_bit()</h2>
+<a id="a4405cf9ee855e6c4ab70fffcf7e83873"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4405cf9ee855e6c4ab70fffcf7e83873">&#9670;&nbsp;</a></span>has_single_bit()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -6377,7 +6362,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>x</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, bool&gt;
+          <td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -6447,13 +6432,13 @@ template&lt;typename... Types&gt; </div>
 </dl>
 </div>
 </div>
-<a id="aa374f8a8aadeee045b4a6d154baa5d7c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa374f8a8aadeee045b4a6d154baa5d7c">&#9670;&nbsp;</a></span>in_range()</h2>
+<a id="a010684d008e6a4f168e1925af49c38f3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a010684d008e6a4f168e1925af49c38f3">&#9670;&nbsp;</a></span>in_range()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename R , typename T &gt; </div>
+template&lt;typename R , typename T , TAETL_REQUIRES_(detail::is_integer_and_not_char_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -6463,7 +6448,7 @@ template&lt;typename R , typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>t</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;detail::is_integer_and_not_char&lt;T&gt;::value, bool&gt;
+          <td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -7065,20 +7050,20 @@ template&lt;typename ForwardIter , typename Compare &gt; </div>
 
 </div>
 </div>
-<a id="a479b0c43cc953cd7843f865e75bdc53b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a479b0c43cc953cd7843f865e75bdc53b">&#9670;&nbsp;</a></span>isinf() <span class="overload">[4/4]</span></h2>
+<a id="a35bcbd3ac4ee08a005573e3218c26f67"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a35bcbd3ac4ee08a005573e3218c26f67">&#9670;&nbsp;</a></span>isinf() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename IntegralType &gt; </div>
+template&lt;typename IntegralType , TAETL_REQUIRES_(etl::is_integral_v&lt; IntegralType &gt;) &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr auto etl::isinf </td>
           <td>(</td>
           <td class="paramtype">IntegralType&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;IntegralType&gt;, bool&gt;
+          <td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -7153,20 +7138,20 @@ template&lt;typename IntegralType &gt; </div>
 
 </div>
 </div>
-<a id="aa8337c5b28ae7940b265ee8afe4c328e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa8337c5b28ae7940b265ee8afe4c328e">&#9670;&nbsp;</a></span>isnan() <span class="overload">[4/4]</span></h2>
+<a id="a51ce41821b2214af3cc69c664299447d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a51ce41821b2214af3cc69c664299447d">&#9670;&nbsp;</a></span>isnan() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename IntegralType &gt; </div>
+template&lt;typename IntegralType , TAETL_REQUIRES_(etl::is_integral_v&lt; IntegralType &gt;) &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr auto etl::isnan </td>
           <td>(</td>
           <td class="paramtype">IntegralType&#160;</td>
           <td class="paramname"><em>arg</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;IntegralType&gt;, bool&gt;
+          <td> -&gt; bool
 </td>
         </tr>
       </table>
@@ -7250,13 +7235,13 @@ template&lt;typename ForwardIt1 , typename ForwardIt2 &gt; </div>
 
 </div>
 </div>
-<a id="a88d17ac0d457a45babf1c999ed6bea7f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a88d17ac0d457a45babf1c999ed6bea7f">&#9670;&nbsp;</a></span>lcm()</h2>
+<a id="a48d804b27a76892fe17ae72576900e06"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a48d804b27a76892fe17ae72576900e06">&#9670;&nbsp;</a></span>lcm()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename M , typename N &gt; </div>
+template&lt;typename M , typename N , TAETL_REQUIRES_((is_integral_v&lt; M &gt; &amp;&amp;!is_same_v&lt; M, bool &gt; &amp;&amp;is_integral_v&lt; N &gt; &amp;&amp;!is_same_v&lt; N, bool &gt;)) &gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">constexpr auto etl::lcm </td>
@@ -7273,10 +7258,7 @@ template&lt;typename M , typename N &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;
-    <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;
-        M&gt; &amp;&amp; !<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt;M, bool&gt; &amp;&amp; <a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;N&gt; &amp;&amp; !<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt;N, bool&gt;,
-    <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt;M, N&gt;&gt;
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#ac80571ce0a1bbafdb4d8e153ceade9e3">etl::common_type_t</a>&lt;M, N&gt;
 </td>
         </tr>
       </table>
@@ -7885,13 +7867,13 @@ template&lt;typename ForwardIterator , typename Compare &gt; </div>
 
 </div>
 </div>
-<a id="add674d1e1c1fd1d72dd7b39f74a0525a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add674d1e1c1fd1d72dd7b39f74a0525a">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[1/3]</span></h2>
+<a id="acd3d5c2322ac0c3294bda1fad13eb24a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acd3d5c2322ac0c3294bda1fad13eb24a">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Integer &gt; </div>
+template&lt;typename Int , TAETL_REQUIRES_((is_integral_v&lt; Int &gt; &amp;&amp;!is_same_v&lt; Int, bool &gt;)) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -7899,20 +7881,19 @@ template&lt;typename Integer &gt; </div>
         <tr>
           <td class="memname">constexpr auto etl::midpoint </td>
           <td>(</td>
-          <td class="paramtype">Integer&#160;</td>
+          <td class="paramtype">Int&#160;</td>
           <td class="paramname"><em>a</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">Integer&#160;</td>
+          <td class="paramtype">Int&#160;</td>
           <td class="paramname"><em>b</em>&#160;</td>
         </tr>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt; &amp;&amp; !<a class="el" href="namespaceetl.html#a3f74da2365a9a6f68d472686fd0f1666">etl::is_same_v</a>&lt;Integer, bool&gt;,
-                        Integer&gt;
+          <td></td><td> -&gt; Int
 </td>
         </tr>
       </table>
@@ -7930,13 +7911,13 @@ template&lt;typename Integer &gt; </div>
 
 </div>
 </div>
-<a id="acd6eb417ecc3a7b1c7e71baab1c2c522"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acd6eb417ecc3a7b1c7e71baab1c2c522">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[2/3]</span></h2>
+<a id="a3f6effa454143e3b4d3be92ddf7a59f8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3f6effa454143e3b4d3be92ddf7a59f8">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Float &gt; </div>
+template&lt;typename Float , TAETL_REQUIRES_(is_floating_point_v&lt; Float &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -7956,7 +7937,7 @@ template&lt;typename Float &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a5cf273d19443134cffcd66310d027ae4">etl::is_floating_point_v</a>&lt;Float&gt;, Float&gt;
+          <td></td><td> -&gt; Float
 </td>
         </tr>
       </table>
@@ -7974,13 +7955,13 @@ template&lt;typename Float &gt; </div>
 
 </div>
 </div>
-<a id="ad2f4c423421fddd2a2f941d805c05300"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2f4c423421fddd2a2f941d805c05300">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[3/3]</span></h2>
+<a id="a9bef8bc0d474146974d4c8bf8b676652"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9bef8bc0d474146974d4c8bf8b676652">&#9670;&nbsp;</a></span>midpoint() <span class="overload">[3/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Pointer &gt; </div>
+template&lt;typename Pointer , TAETL_REQUIRES_(is_pointer_v&lt; Pointer &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -8000,7 +7981,7 @@ template&lt;typename Pointer &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c">is_pointer_v</a>&lt;Pointer&gt;, Pointer&gt;
+          <td></td><td> -&gt; Pointer
 </td>
         </tr>
       </table>
@@ -9522,13 +9503,13 @@ template&lt;typename T , etl::size_t Capacity&gt; </div>
 
 </div>
 </div>
-<a id="a0480e65e737703d71651dbf0ec77f6be"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0480e65e737703d71651dbf0ec77f6be">&#9670;&nbsp;</a></span>operator<<()</h2>
+<a id="ada19d55ea3b136e9bd813c78fdf44bdb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada19d55ea3b136e9bd813c78fdf44bdb">&#9670;&nbsp;</a></span>operator<<()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Integer &gt; </div>
+template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -9548,7 +9529,7 @@ template&lt;typename Integer &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&gt;
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>
 </td>
         </tr>
       </table>
@@ -9563,13 +9544,13 @@ template&lt;typename Integer &gt; </div>
 
 </div>
 </div>
-<a id="a4d724ccacf75835ddc7e208bf977df9e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4d724ccacf75835ddc7e208bf977df9e">&#9670;&nbsp;</a></span>operator<<=()</h2>
+<a id="aa82fb2265ded5205d77c2f7af7ccb54e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa82fb2265ded5205d77c2f7af7ccb54e">&#9670;&nbsp;</a></span>operator<<=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Integer &gt; </div>
+template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -9589,7 +9570,7 @@ template&lt;typename Integer &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&amp;&gt;
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&amp;
 
 </td>
         </tr>
@@ -11154,13 +11135,13 @@ template&lt;typename T , etl::size_t Capacity&gt; </div>
 
 </div>
 </div>
-<a id="ac45fcae26cfb190fcc8ea6ab10da01f0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac45fcae26cfb190fcc8ea6ab10da01f0">&#9670;&nbsp;</a></span>operator>>()</h2>
+<a id="a7290b2a7ab376d1b76f501545d8fb0aa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7290b2a7ab376d1b76f501545d8fb0aa">&#9670;&nbsp;</a></span>operator>>()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Integer &gt; </div>
+template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -11180,7 +11161,7 @@ template&lt;typename Integer &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&gt;
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>
 </td>
         </tr>
       </table>
@@ -11195,13 +11176,13 @@ template&lt;typename Integer &gt; </div>
 
 </div>
 </div>
-<a id="a12556a00fd4d36c275c51643b2c6168a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12556a00fd4d36c275c51643b2c6168a">&#9670;&nbsp;</a></span>operator>>=()</h2>
+<a id="accf3748a4b9bdefe9178b21d00e3bfa9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#accf3748a4b9bdefe9178b21d00e3bfa9">&#9670;&nbsp;</a></span>operator>>=()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Integer &gt; </div>
+template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -11221,7 +11202,7 @@ template&lt;typename Integer &gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&amp;&gt;
+          <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&amp;
 </td>
         </tr>
       </table>
@@ -11572,13 +11553,13 @@ template&lt;typename ForwardIter , typename UnaryPredicate &gt; </div>
 
 </div>
 </div>
-<a id="a966b3039757a35f7b1104a7f6c9b6523"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a966b3039757a35f7b1104a7f6c9b6523">&#9670;&nbsp;</a></span>popcount()</h2>
+<a id="a39836025a57eab2221b529b3dfa37bc3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a39836025a57eab2221b529b3dfa37bc3">&#9670;&nbsp;</a></span>popcount()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -11588,7 +11569,7 @@ template&lt;typename T &gt; </div>
           <td>(</td>
           <td class="paramtype">T&#160;</td>
           <td class="paramname"><em>input</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;detail::is_unsigned_integer&lt;T&gt;::value, int&gt;
+          <td> -&gt; int
 </td>
         </tr>
       </table>
@@ -12624,13 +12605,13 @@ template&lt;typename ForwardIter1 , typename ForwardIter2 &gt; </div>
 
 </div>
 </div>
-<a id="aaa84e096751094f12fc96460addc2483"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aaa84e096751094f12fc96460addc2483">&#9670;&nbsp;</a></span>to_integer()</h2>
+<a id="ac3f554d0da3a8b715151f0dd8534c9f2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac3f554d0da3a8b715151f0dd8534c9f2">&#9670;&nbsp;</a></span>to_integer()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Integer &gt; </div>
+template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -12640,7 +12621,7 @@ template&lt;typename Integer &gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d">etl::byte</a>&#160;</td>
           <td class="paramname"><em>b</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a0ef2a50a29c8803d461abedd7437effd">etl::is_integral_v</a>&lt;Integer&gt;, Integer&gt;
+          <td> -&gt; Integer
 </td>
         </tr>
       </table>

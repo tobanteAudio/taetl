@@ -107,7 +107,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2a7689bc83fcc36a4f516550149f545f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a2a7689bc83fcc36a4f516550149f545f">optional</a> (<a class="el" href="classetl_1_1optional.html">optional</a> &amp;&amp;) noexcept(<a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">etl::is_nothrow_move_constructible_v</a>&lt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &gt;)=default</td></tr>
 <tr class="memdesc:a2a7689bc83fcc36a4f516550149f545f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#a2a7689bc83fcc36a4f516550149f545f">More...</a><br /></td></tr>
 <tr class="separator:a2a7689bc83fcc36a4f516550149f545f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9c548759303286aae73e1a385d85d444"><td class="memTemplParams" colspan="2">template&lt;typename... Args, typename  = typename etl::enable_if_t&lt;is_constructible_v&lt;value_type, Args...&gt;&gt;&gt; </td></tr>
+<tr class="memitem:a9c548759303286aae73e1a385d85d444"><td class="memTemplParams" colspan="2">template&lt;typename... Args, TAETL_REQUIRES_((is_constructible_v&lt; value_type, Args... &gt;)) &gt; </td></tr>
 <tr class="memitem:a9c548759303286aae73e1a385d85d444"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a9c548759303286aae73e1a385d85d444">optional</a> (<a class="el" href="structetl_1_1in__place__t.html">etl::in_place_t</a>, Args &amp;&amp;... arguments)</td></tr>
 <tr class="memdesc:a9c548759303286aae73e1a385d85d444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an optional object that contains a value, initialized as if direct-initializing.  <a href="#a9c548759303286aae73e1a385d85d444">More...</a><br /></td></tr>
 <tr class="separator:a9c548759303286aae73e1a385d85d444"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -297,7 +297,7 @@ template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
 template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
-template&lt;typename... Args, typename  = typename etl::enable_if_t&lt;is_constructible_v&lt;value_type, Args...&gt;&gt;&gt; </div>
+template&lt;typename... Args, TAETL_REQUIRES_((is_constructible_v&lt; value_type, Args... &gt;)) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">

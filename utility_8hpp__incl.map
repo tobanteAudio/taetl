@@ -1,7 +1,8 @@
 <map id="etl/utility.hpp" name="etl/utility.hpp">
-<area shape="rect" id="node2" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="167,80,275,107"/>
-<area shape="rect" id="node10" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="378,155,519,181"/>
-<area shape="rect" id="node13" href="$tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="359,80,538,107"/>
+<area shape="rect" id="node2" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="120,80,228,107"/>
+<area shape="rect" id="node10" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="387,155,529,181"/>
+<area shape="rect" id="node13" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="304,80,455,107"/>
+<area shape="rect" id="node14" href="$tuple__size_8hpp.html" title="etl/detail/tuple_size.hpp" alt="" coords="479,80,658,107"/>
 <area shape="rect" id="node6" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="284,319,403,345"/>
 <area shape="rect" id="node7" href="$version_8hpp.html" title="version.hpp" alt="" coords="183,393,282,420"/>
 <area shape="rect" id="node11" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="457,319,627,345"/>
