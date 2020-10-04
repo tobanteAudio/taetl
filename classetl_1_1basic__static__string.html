@@ -98,6 +98,10 @@ Public Types</h2></td></tr>
 <tr class="separator:ab674c2e642e94560ed25c17ffdad88a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a525a63ad904fb0a9d6f2e2b59237e017"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a525a63ad904fb0a9d6f2e2b59237e017">const_iterator</a> = CharType const  *</td></tr>
 <tr class="separator:a525a63ad904fb0a9d6f2e2b59237e017"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5d1c501fd304c73a8c3bcd944edb8631"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631">reverse_iterator</a> = <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#ab674c2e642e94560ed25c17ffdad88a9">iterator</a> &gt;</td></tr>
+<tr class="separator:a5d1c501fd304c73a8c3bcd944edb8631"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1639c2d15101383f562647a5b1f02868"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a> = <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a525a63ad904fb0a9d6f2e2b59237e017">const_iterator</a> &gt;</td></tr>
+<tr class="separator:a1639c2d15101383f562647a5b1f02868"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
@@ -155,6 +159,24 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a03dcafd91a2117e648a9ad5544996f77"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a03dcafd91a2117e648a9ad5544996f77">cend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a525a63ad904fb0a9d6f2e2b59237e017">const_iterator</a></td></tr>
 <tr class="memdesc:a03dcafd91a2117e648a9ad5544996f77"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an const iterator to the end.  <a href="#a03dcafd91a2117e648a9ad5544996f77">More...</a><br /></td></tr>
 <tr class="separator:a03dcafd91a2117e648a9ad5544996f77"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8beb360a31f20d1295904e9a05a62414"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a8beb360a31f20d1295904e9a05a62414">rbegin</a> () noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631">reverse_iterator</a></td></tr>
+<tr class="memdesc:a8beb360a31f20d1295904e9a05a62414"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string.  <a href="#a8beb360a31f20d1295904e9a05a62414">More...</a><br /></td></tr>
+<tr class="separator:a8beb360a31f20d1295904e9a05a62414"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a54d7b8cac4cd822912e48c55292a7ce9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a54d7b8cac4cd822912e48c55292a7ce9">rbegin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a></td></tr>
+<tr class="memdesc:a54d7b8cac4cd822912e48c55292a7ce9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string.  <a href="#a54d7b8cac4cd822912e48c55292a7ce9">More...</a><br /></td></tr>
+<tr class="separator:a54d7b8cac4cd822912e48c55292a7ce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac4cf4da5bc5e08726f28db0ef6d56324"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ac4cf4da5bc5e08726f28db0ef6d56324">crbegin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a></td></tr>
+<tr class="memdesc:ac4cf4da5bc5e08726f28db0ef6d56324"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string.  <a href="#ac4cf4da5bc5e08726f28db0ef6d56324">More...</a><br /></td></tr>
+<tr class="separator:ac4cf4da5bc5e08726f28db0ef6d56324"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac7325af46ade8852437983c504bdca09"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ac7325af46ade8852437983c504bdca09">rend</a> () noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631">reverse_iterator</a></td></tr>
+<tr class="memdesc:ac7325af46ade8852437983c504bdca09"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string.  <a href="#ac7325af46ade8852437983c504bdca09">More...</a><br /></td></tr>
+<tr class="separator:ac7325af46ade8852437983c504bdca09"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd67038f7256b09a09ba1ff1b9fe4136"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#abd67038f7256b09a09ba1ff1b9fe4136">rend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a></td></tr>
+<tr class="memdesc:abd67038f7256b09a09ba1ff1b9fe4136"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string.  <a href="#abd67038f7256b09a09ba1ff1b9fe4136">More...</a><br /></td></tr>
+<tr class="separator:abd67038f7256b09a09ba1ff1b9fe4136"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a538016de68fdc3f523989355d25b866c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a538016de68fdc3f523989355d25b866c">crend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a></td></tr>
+<tr class="memdesc:a538016de68fdc3f523989355d25b866c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string.  <a href="#a538016de68fdc3f523989355d25b866c">More...</a><br /></td></tr>
+<tr class="separator:a538016de68fdc3f523989355d25b866c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6e6bacf32b231c5b4f83fa4d804da0de"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a6e6bacf32b231c5b4f83fa4d804da0de">front</a> () noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a484c600c350181a7ca4a16f50368a782">reference</a></td></tr>
 <tr class="memdesc:a6e6bacf32b231c5b4f83fa4d804da0de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Accesses the first character.  <a href="#a6e6bacf32b231c5b4f83fa4d804da0de">More...</a><br /></td></tr>
 <tr class="separator:a6e6bacf32b231c5b4f83fa4d804da0de"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -387,6 +409,22 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 </div>
 </div>
+<a id="a1639c2d15101383f562647a5b1f02868"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1639c2d15101383f562647a5b1f02868">&#9670;&nbsp;</a></span>const_reverse_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a> =  <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt;<a class="el" href="classetl_1_1basic__static__string.html#a525a63ad904fb0a9d6f2e2b59237e017">const_iterator</a>&gt;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
 <a id="ab674c2e642e94560ed25c17ffdad88a9"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ab674c2e642e94560ed25c17ffdad88a9">&#9670;&nbsp;</a></span>iterator</h2>
 
@@ -429,6 +467,22 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a484c600c350181a7ca4a16f50368a782">reference</a> =  CharType&amp;</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="a5d1c501fd304c73a8c3bcd944edb8631"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5d1c501fd304c73a8c3bcd944edb8631">&#9670;&nbsp;</a></span>reverse_iterator</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631">reverse_iterator</a> =  <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt;<a class="el" href="classetl_1_1basic__static__string.html#ab674c2e642e94560ed25c17ffdad88a9">iterator</a>&gt;</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -1468,6 +1522,66 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 <p>Copies a substring [pos, pos+count) to character string pointed to by dest. If the requested substring lasts past the end of the string, or if count == npos, the copied substring is [pos, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). The resulting character string is not null-terminated. </p>
 <p>If <code>pos</code> is greater then <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>, nothing will be copied.</p>
 <dl class="section return"><dt>Returns</dt><dd>Number of characters copied. </dd></dl>
+
+</div>
+</div>
+<a id="ac4cf4da5bc5e08726f28db0ef6d56324"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac4cf4da5bc5e08726f28db0ef6d56324">&#9670;&nbsp;</a></span>crbegin()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::crbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string. </p>
+
+</div>
+</div>
+<a id="a538016de68fdc3f523989355d25b866c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a538016de68fdc3f523989355d25b866c">&#9670;&nbsp;</a></span>crend()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::crend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string. </p>
 
 </div>
 </div>
@@ -2523,6 +2637,126 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div><div class="memdoc">
 
 <p>Appends the given character ch to the end of the string. Does nothing if the string is full. </p>
+
+</div>
+</div>
+<a id="a8beb360a31f20d1295904e9a05a62414"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8beb360a31f20d1295904e9a05a62414">&#9670;&nbsp;</a></span>rbegin() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::rbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631">reverse_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string. </p>
+
+</div>
+</div>
+<a id="a54d7b8cac4cd822912e48c55292a7ce9"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a54d7b8cac4cd822912e48c55292a7ce9">&#9670;&nbsp;</a></span>rbegin() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::rbegin </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string. </p>
+
+</div>
+</div>
+<a id="ac7325af46ade8852437983c504bdca09"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac7325af46ade8852437983c504bdca09">&#9670;&nbsp;</a></span>rend() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::rend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631">reverse_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string. </p>
+
+</div>
+</div>
+<a id="abd67038f7256b09a09ba1ff1b9fe4136"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abd67038f7256b09a09ba1ff1b9fe4136">&#9670;&nbsp;</a></span>rend() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::rend </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1basic__static__string.html#a1639c2d15101383f562647a5b1f02868">const_reverse_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a reverse iterator to the first character of the reversed string. It corresponds to the last character of the non-reversed string. </p>
 
 </div>
 </div>

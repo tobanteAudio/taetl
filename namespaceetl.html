@@ -1495,23 +1495,29 @@ Functions</h2></td></tr>
 <tr class="memitem:a3a48b0023763b11f23ad78a01ddae586"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3a48b0023763b11f23ad78a01ddae586">bit_cast</a> (const From &amp;src) noexcept -&gt; To</td></tr>
 <tr class="memdesc:a3a48b0023763b11f23ad78a01ddae586"><td class="mdescLeft">&#160;</td><td class="mdescRight">Obtain a value of type To by reinterpreting the object representation of from. Every bit in the value representation of the returned To object is equal to the corresponding bit in the object representation of from.  <a href="#a3a48b0023763b11f23ad78a01ddae586">More...</a><br /></td></tr>
 <tr class="separator:a3a48b0023763b11f23ad78a01ddae586"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acf864bfa77c9d0a72cd51ad6acb63fc6">rotl</a> (T t, int s) noexcept -&gt; T</td></tr>
+<tr class="separator:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae2e72074cd43b4dfd70a70f56d68c60d">rotr</a> (T t, int s) noexcept -&gt; T</td></tr>
+<tr class="separator:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a39836025a57eab2221b529b3dfa37bc3">popcount</a> (T input) noexcept -&gt; int</td></tr>
 <tr class="memdesc:a39836025a57eab2221b529b3dfa37bc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of 1 bits in the value of x.  <a href="#a39836025a57eab2221b529b3dfa37bc3">More...</a><br /></td></tr>
 <tr class="separator:a39836025a57eab2221b529b3dfa37bc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4405cf9ee855e6c4ab70fffcf7e83873">has_single_bit</a> (T x) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if x is an integral power of two.  <a href="#a4405cf9ee855e6c4ab70fffcf7e83873">More...</a><br /></td></tr>
 <tr class="separator:a4405cf9ee855e6c4ab70fffcf7e83873"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30444d68bc251433b06b43019034d702"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a30444d68bc251433b06b43019034d702"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:a30444d68bc251433b06b43019034d702"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a30444d68bc251433b06b43019034d702">countl_zero</a> (T x) noexcept -&gt; int</td></tr>
 <tr class="memdesc:a30444d68bc251433b06b43019034d702"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 0 bits in the value of x, starting from the most significant bit ("left").  <a href="#a30444d68bc251433b06b43019034d702">More...</a><br /></td></tr>
 <tr class="separator:a30444d68bc251433b06b43019034d702"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a30473cb272e7b0506aecccf97f72a982"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a30473cb272e7b0506aecccf97f72a982"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:a30473cb272e7b0506aecccf97f72a982"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a30473cb272e7b0506aecccf97f72a982">countl_one</a> (T x) noexcept -&gt; int</td></tr>
 <tr class="memdesc:a30473cb272e7b0506aecccf97f72a982"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of consecutive 1 ("one") bits in the value of x, starting from the most significant bit ("left").  <a href="#a30473cb272e7b0506aecccf97f72a982">More...</a><br /></td></tr>
 <tr class="separator:a30473cb272e7b0506aecccf97f72a982"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a21008d0b3fc5592c70cb4e453ae6f1e8">bit_width</a> (T x) noexcept -&gt; int</td></tr>
 <tr class="memdesc:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="mdescLeft">&#160;</td><td class="mdescRight">If x is not zero, calculates the number of bits needed to store the value x, that is, 1+⌊log2(x)⌋. If x is zero, returns zero.  <a href="#a21008d0b3fc5592c70cb4e453ae6f1e8">More...</a><br /></td></tr>
 <tr class="separator:a21008d0b3fc5592c70cb4e453ae6f1e8"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4424,7 +4430,7 @@ template&lt;typename To , typename From , TAETL_REQUIRES_((sizeof(To)==sizeof(Fr
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -5108,7 +5114,7 @@ template&lt;typename InputIter , typename UnaryPredicate &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -5141,7 +5147,7 @@ template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -6532,7 +6538,7 @@ template&lt;etl::size_t I, typename... Types&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -12341,7 +12347,7 @@ template&lt;typename ForwardIter , typename UnaryPredicate &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename T , TAETL_REQUIRES_(detail::is_unsigned_integer_v&lt; T &gt;) &gt; </div>
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -12726,6 +12732,84 @@ template&lt;typename ForwardIter &gt; </div>
 
 <p>Performs a left rotation on a range of elements. </p>
 <p>Specifically, <a class="el" href="namespaceetl.html#a413f3ca2a6ec99863544b907a18e2b77" title="Performs a left rotation on a range of elements. ">etl::rotate</a> swaps the elements in the range [first, last) in such a way that the element n_first becomes the first element of the new range and n_first - 1 becomes the last element. A precondition of this function is that [first, n_first) and [n_first, last) are valid ranges. </p>
+
+</div>
+</div>
+<a id="acf864bfa77c9d0a72cd51ad6acb63fc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acf864bfa77c9d0a72cd51ad6acb63fc6">&#9670;&nbsp;</a></span>rotl()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::rotl </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; T
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+</div>
+</div>
+<a id="ae2e72074cd43b4dfd70a70f56d68c60d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2e72074cd43b4dfd70a70f56d68c60d">&#9670;&nbsp;</a></span>rotr()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::rotr </td>
+          <td>(</td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">int&#160;</td>
+          <td class="paramname"><em>s</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; T
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
 
 </div>
 </div>
@@ -13444,49 +13528,8 @@ template&lt;class T1 , class T2 &gt; </div>
 
 </div>
 </div>
-<a id="ab26740fb04308c8615763f8f81f6bef6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab26740fb04308c8615763f8f81f6bef6">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/5]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename CharType , typename Traits , etl::size_t Capacity&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto etl::swap </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;&#160;</td>
-          <td class="paramname"><em>lhs</em>, </td>
-        </tr>
-        <tr>
-          <td class="paramkey"></td>
-          <td></td>
-          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;&#160;</td>
-          <td class="paramname"><em>rhs</em>&#160;</td>
-        </tr>
-        <tr>
-          <td></td>
-          <td>)</td>
-          <td></td><td> -&gt; void
-</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs). </p>
-
-</div>
-</div>
 <a id="ac1c5f129858d55474d1d7ae92c374456"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac1c5f129858d55474d1d7ae92c374456">&#9670;&nbsp;</a></span>swap() <span class="overload">[5/5]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac1c5f129858d55474d1d7ae92c374456">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -13523,6 +13566,47 @@ template&lt;typename T , etl::size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1static__vector.html" title="Dynamically-resizable fixed-capacity vector. ">etl::static_vector</a>. Swaps the contents of lhs and rhs. </p>
+
+</div>
+</div>
+<a id="ab26740fb04308c8615763f8f81f6bef6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab26740fb04308c8615763f8f81f6bef6">&#9670;&nbsp;</a></span>swap() <span class="overload">[5/5]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType , typename Traits , etl::size_t Capacity&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt; &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="classetl_1_1basic__static__string.html" title="basic_static_string class with fixed size capacity. ">etl::basic_static_string</a>. Swaps the contents of lhs and rhs. Equivalent to lhs.swap(rhs). </p>
 
 </div>
 </div>

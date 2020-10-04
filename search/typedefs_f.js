@@ -15,5 +15,5 @@ var searchData=
   ['remove_5fvolatile_5ft',['remove_volatile_t',['../namespaceetl.html#af4593c7817c464ffa0d88cc07eb35e83',1,'etl']]],
   ['rep',['rep',['../classetl_1_1chrono_1_1duration.html#a1c57e1a77c765c16c58ef9a46d703d15',1,'etl::chrono::duration']]],
   ['result_5ftype',['result_type',['../classetl_1_1function__view_3_01Result_07Arguments_8_8_8_08_4.html#ace98846853310dde6744e3a84b8afb54',1,'etl::function_view&lt; Result(Arguments...)&gt;']]],
-  ['reverse_5fiterator',['reverse_iterator',['../structetl_1_1array.html#a665a946005473c899e5d11dfc9689d15',1,'etl::array']]]
+  ['reverse_5fiterator',['reverse_iterator',['../structetl_1_1array.html#a665a946005473c899e5d11dfc9689d15',1,'etl::array::reverse_iterator()'],['../classetl_1_1basic__static__string.html#a5d1c501fd304c73a8c3bcd944edb8631',1,'etl::basic_static_string::reverse_iterator()'],['../classetl_1_1basic__string__view.html#a0b7b2e55b846428506637e4568deb15d',1,'etl::basic_string_view::reverse_iterator()']]]
 ];
