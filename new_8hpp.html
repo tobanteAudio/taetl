@@ -64,7 +64,11 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
-<a href="#func-members">Functions</a>  </div>
+<a href="#nested-classes">Classes</a> &#124;
+<a href="#namespaces">Namespaces</a> &#124;
+<a href="#typedef-members">Typedefs</a> &#124;
+<a href="#func-members">Functions</a> &#124;
+<a href="#var-members">Variables</a>  </div>
   <div class="headertitle">
 <div class="title">new.hpp File Reference</div>  </div>
 </div><!--header-->
@@ -111,10 +115,38 @@ This graph shows which files directly or indirectly include this file:</div>
 </div>
 <p><a href="new_8hpp_source.html">Go to the source code of this file.</a></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
+Classes</h2></td></tr>
+<tr class="memitem:"><td class="memItemLeft" align="right" valign="top">struct &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1nothrow__t.html">etl::nothrow_t</a></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="structetl_1_1nothrow__t.html" title="etl::nothrow_t is an empty class type used to disambiguate the overloads of throwing and non-throwing...">etl::nothrow_t</a> is an empty class type used to disambiguate the overloads of throwing and non-throwing allocation functions.  <a href="structetl_1_1nothrow__t.html#details">More...</a><br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="namespaces"></a>
+Namespaces</h2></td></tr>
+<tr class="memitem:namespaceetl"><td class="memItemLeft" align="right" valign="top"> &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html">etl</a></td></tr>
+<tr class="memdesc:namespaceetl"><td class="mdescLeft">&#160;</td><td class="mdescRight">Namespace for the etl library. <br /></td></tr>
+<tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="typedef-members"></a>
+Typedefs</h2></td></tr>
+<tr class="memitem:a8937b566b6510cbe3ede298d8b128f2b"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8937b566b6510cbe3ede298d8b128f2b">etl::new_handler</a> = void(*)()</td></tr>
+<tr class="memdesc:a8937b566b6510cbe3ede298d8b128f2b"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#a8937b566b6510cbe3ede298d8b128f2b" title="etl::new_handler is the function pointer type (pointer to function that takes no arguments and return...">etl::new_handler</a> is the function pointer type (pointer to function that takes no arguments and returns void), which is used by the functions etl::set_new_handler and etl::get_new_handler  <a href="namespaceetl.html#a8937b566b6510cbe3ede298d8b128f2b">More...</a><br /></td></tr>
+<tr class="separator:a8937b566b6510cbe3ede298d8b128f2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="func-members"></a>
 Functions</h2></td></tr>
 <tr class="memitem:a8693f3f16b822e943f7efa9aa103f754"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_8hpp.html#a8693f3f16b822e943f7efa9aa103f754">operator new</a> (<a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n, void *ptr) noexcept -&gt; void *</td></tr>
+<tr class="memdesc:a8693f3f16b822e943f7efa9aa103f754"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the standard single-object placement new expression. The standard library implementation performs no action and returns ptr unmodified. The behavior is undefined if this function is called through a placement new expression and ptr is a null pointer.  <a href="#a8693f3f16b822e943f7efa9aa103f754">More...</a><br /></td></tr>
 <tr class="separator:a8693f3f16b822e943f7efa9aa103f754"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa994729279323d9864d823944a24959c"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="new_8hpp.html#aa994729279323d9864d823944a24959c">operator new[]</a> (<a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> count, void *ptr) noexcept -&gt; void *</td></tr>
+<tr class="memdesc:aa994729279323d9864d823944a24959c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Called by the standard array form placement new expression. The standard library implementation performs no action and returns ptr unmodified. The behavior is undefined if this function is called through a placement new expression and ptr is a null pointer.  <a href="#aa994729279323d9864d823944a24959c">More...</a><br /></td></tr>
+<tr class="separator:aa994729279323d9864d823944a24959c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="var-members"></a>
+Variables</h2></td></tr>
+<tr class="memitem:a8a1ead4c5ac981fe88bcd71d1aba1d61"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8a1ead4c5ac981fe88bcd71d1aba1d61">etl::nothrow</a> = <a class="el" href="structetl_1_1nothrow__t.html">etl::nothrow_t</a> {}</td></tr>
+<tr class="memdesc:a8a1ead4c5ac981fe88bcd71d1aba1d61"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#a8a1ead4c5ac981fe88bcd71d1aba1d61" title="etl::nothrow is a constant of type etl::nothrow_t used to disambiguate the overloads of throwing and ...">etl::nothrow</a> is a constant of type <a class="el" href="structetl_1_1nothrow__t.html" title="etl::nothrow_t is an empty class type used to disambiguate the overloads of throwing and non-throwing...">etl::nothrow_t</a> used to disambiguate the overloads of throwing and non-throwing allocation functions.  <a href="namespaceetl.html#a8a1ead4c5ac981fe88bcd71d1aba1d61">More...</a><br /></td></tr>
+<tr class="separator:a8a1ead4c5ac981fe88bcd71d1aba1d61"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Function Documentation</h2>
 <a id="a8693f3f16b822e943f7efa9aa103f754"></a>
@@ -151,6 +183,47 @@ Functions</h2></td></tr>
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Called by the standard single-object placement new expression. The standard library implementation performs no action and returns ptr unmodified. The behavior is undefined if this function is called through a placement new expression and ptr is a null pointer. </p>
+
+</div>
+</div>
+<a id="aa994729279323d9864d823944a24959c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa994729279323d9864d823944a24959c">&#9670;&nbsp;</a></span>operator new[]()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto operator new[] </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a>&#160;</td>
+          <td class="paramname"><em>count</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">void *&#160;</td>
+          <td class="paramname"><em>ptr</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void*
+</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Called by the standard array form placement new expression. The standard library implementation performs no action and returns ptr unmodified. The behavior is undefined if this function is called through a placement new expression and ptr is a null pointer. </p>
 
 </div>
 </div>

@@ -27,5 +27,7 @@ var searchData=
   ['count_5fif',['count_if',['../namespaceetl.html#af949f9bf15cdfd7e8282705ab00ddcc3',1,'etl']]],
   ['countl_5fone',['countl_one',['../namespaceetl.html#a30473cb272e7b0506aecccf97f72a982',1,'etl']]],
   ['countl_5fzero',['countl_zero',['../namespaceetl.html#a30444d68bc251433b06b43019034d702',1,'etl']]],
-  ['create_5ftask',['create_task',['../namespaceetl_1_1rtos.html#a154ecb5e22e1f058d2f22fe8c6de9253',1,'etl::rtos']]]
+  ['crbegin',['crbegin',['../structetl_1_1array.html#ae4877d3078c14d083c83d52650b78c9e',1,'etl::array::crbegin()'],['../namespaceetl.html#abbede88be1537df8dc05fff81934140c',1,'etl::crbegin()']]],
+  ['create_5ftask',['create_task',['../namespaceetl_1_1rtos.html#a154ecb5e22e1f058d2f22fe8c6de9253',1,'etl::rtos']]],
+  ['crend',['crend',['../structetl_1_1array.html#a6dec7a667c68be9a8ae1cd2392bee1de',1,'etl::array::crend()'],['../namespaceetl.html#a493de4e91f4fb5f498d6c66ce7143a8b',1,'etl::crend()']]]
 ];

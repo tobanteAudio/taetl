@@ -288,5 +288,6 @@ var searchData=
   ['iterator_5fconcept',['iterator_concept',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html#a3e4b11ff83596f8f77338181209acbe4',1,'etl::iterator_traits&lt; T * &gt;']]],
   ['iterator_5ftraits',['iterator_traits',['../structetl_1_1iterator__traits.html',1,'etl']]],
   ['iterator_5ftraits_3c_20t_20_2a_20_3e',['iterator_traits&lt; T * &gt;',['../structetl_1_1iterator__traits_3_01T_01_5_01_4.html',1,'etl']]],
+  ['iterator_5ftype',['iterator_type',['../classetl_1_1reverse__iterator.html#a92ed027c8b6799c0eac2feda9a3c7959',1,'etl::reverse_iterator']]],
   ['itoa',['itoa',['../namespaceetl.html#a69075522bb141cd4a7d7df9e6e149a9b',1,'etl']]]
 ];
