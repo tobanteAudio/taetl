@@ -1497,9 +1497,11 @@ Functions</h2></td></tr>
 <tr class="separator:a3a48b0023763b11f23ad78a01ddae586"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#acf864bfa77c9d0a72cd51ad6acb63fc6">rotl</a> (T t, int s) noexcept -&gt; T</td></tr>
+<tr class="memdesc:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the result of bitwise left-rotating the value of x by s positions. This operation is also known as a left circular shift.  <a href="#acf864bfa77c9d0a72cd51ad6acb63fc6">More...</a><br /></td></tr>
 <tr class="separator:acf864bfa77c9d0a72cd51ad6acb63fc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae2e72074cd43b4dfd70a70f56d68c60d">rotr</a> (T t, int s) noexcept -&gt; T</td></tr>
+<tr class="memdesc:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the result of bitwise right-rotating the value of x by s positions. This operation is also known as a right circular shift.  <a href="#ae2e72074cd43b4dfd70a70f56d68c60d">More...</a><br /></td></tr>
 <tr class="separator:ae2e72074cd43b4dfd70a70f56d68c60d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:a39836025a57eab2221b529b3dfa37bc3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a39836025a57eab2221b529b3dfa37bc3">popcount</a> (T input) noexcept -&gt; int</td></tr>
@@ -1844,6 +1846,18 @@ Functions</h2></td></tr>
 <tr class="memitem:a9413959b7ee39d393e7c35ad2cd78294"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9413959b7ee39d393e7c35ad2cd78294">accumulate</a> (InputIt first, InputIt last, Type init, BinaryOperation op) noexcept -&gt; Type</td></tr>
 <tr class="memdesc:a9413959b7ee39d393e7c35ad2cd78294"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the sum of the given value init and the elements in the range [first, last). Uses the BinaryOperation to sum up the elements.  <a href="#a9413959b7ee39d393e7c35ad2cd78294">More...</a><br /></td></tr>
 <tr class="separator:a9413959b7ee39d393e7c35ad2cd78294"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a84c6438ff40771d562eba2df365db32b"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename T , typename BinaryOp &gt; </td></tr>
+<tr class="memitem:a84c6438ff40771d562eba2df365db32b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a84c6438ff40771d562eba2df365db32b">reduce</a> (InputIter first, InputIter last, T init, BinaryOp op) -&gt; T</td></tr>
+<tr class="memdesc:a84c6438ff40771d562eba2df365db32b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to <a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333" title="Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements. ">etl::accumulate</a>.  <a href="#a84c6438ff40771d562eba2df365db32b">More...</a><br /></td></tr>
+<tr class="separator:a84c6438ff40771d562eba2df365db32b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af19beb246e0b495f1af0e0dda7ba07ce"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename T &gt; </td></tr>
+<tr class="memitem:af19beb246e0b495f1af0e0dda7ba07ce"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af19beb246e0b495f1af0e0dda7ba07ce">reduce</a> (InputIter first, InputIter last, T init) -&gt; T</td></tr>
+<tr class="memdesc:af19beb246e0b495f1af0e0dda7ba07ce"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to <a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333" title="Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements. ">etl::accumulate</a>.  <a href="#af19beb246e0b495f1af0e0dda7ba07ce">More...</a><br /></td></tr>
+<tr class="separator:af19beb246e0b495f1af0e0dda7ba07ce"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a714efac01ef228fff45d4f6ab456dfb6"><td class="memTemplParams" colspan="2">template&lt;typename InputIter &gt; </td></tr>
+<tr class="memitem:a714efac01ef228fff45d4f6ab456dfb6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a714efac01ef228fff45d4f6ab456dfb6">reduce</a> (InputIter first, InputIter last) -&gt; typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt; InputIter &gt;::value_type</td></tr>
+<tr class="memdesc:a714efac01ef228fff45d4f6ab456dfb6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Similar to <a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333" title="Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements. ">etl::accumulate</a>.  <a href="#a714efac01ef228fff45d4f6ab456dfb6">More...</a><br /></td></tr>
+<tr class="separator:a714efac01ef228fff45d4f6ab456dfb6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a594a7b7fb202c9a1b6d82115e7a172e3"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
 <tr class="memitem:a594a7b7fb202c9a1b6d82115e7a172e3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a594a7b7fb202c9a1b6d82115e7a172e3">abs</a> (Type input) noexcept -&gt; Type</td></tr>
 <tr class="memdesc:a594a7b7fb202c9a1b6d82115e7a172e3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the absolute value.  <a href="#a594a7b7fb202c9a1b6d82115e7a172e3">More...</a><br /></td></tr>
@@ -12475,6 +12489,126 @@ template&lt;typename T , etl::size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a84c6438ff40771d562eba2df365db32b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a84c6438ff40771d562eba2df365db32b">&#9670;&nbsp;</a></span>reduce() <span class="overload">[1/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename InputIter , typename T , typename BinaryOp &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::reduce </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>init</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">BinaryOp&#160;</td>
+          <td class="paramname"><em>op</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; T
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Similar to <a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333" title="Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements. ">etl::accumulate</a>. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/reduce">https://en.cppreference.com/w/cpp/algorithm/reduce</a> </p>
+
+</div>
+</div>
+<a id="af19beb246e0b495f1af0e0dda7ba07ce"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af19beb246e0b495f1af0e0dda7ba07ce">&#9670;&nbsp;</a></span>reduce() <span class="overload">[2/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename InputIter , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::reduce </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T&#160;</td>
+          <td class="paramname"><em>init</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; T
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Similar to <a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333" title="Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements. ">etl::accumulate</a>. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/reduce">https://en.cppreference.com/w/cpp/algorithm/reduce</a> </p>
+
+</div>
+</div>
+<a id="a714efac01ef228fff45d4f6ab456dfb6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a714efac01ef228fff45d4f6ab456dfb6">&#9670;&nbsp;</a></span>reduce() <span class="overload">[3/3]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename InputIter &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::reduce </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; typename <a class="el" href="structetl_1_1iterator__traits.html">etl::iterator_traits</a>&lt;InputIter&gt;::value_type
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Similar to <a class="el" href="namespaceetl.html#afe443a26a34b79fc921c4583df576333" title="Computes the sum of the given value init and the elements in the range [first, last). Uses operator+ to sum up the elements. ">etl::accumulate</a>. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/reduce">https://en.cppreference.com/w/cpp/algorithm/reduce</a> </p>
+
+</div>
+</div>
 <a id="a7c1a2e03a972777ccc64606b378160bb"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7c1a2e03a972777ccc64606b378160bb">&#9670;&nbsp;</a></span>remove()</h2>
 
@@ -12772,6 +12906,8 @@ template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) 
 </table>
 </div><div class="memdoc">
 
+<p>Computes the result of bitwise left-rotating the value of x by s positions. This operation is also known as a left circular shift. </p>
+
 </div>
 </div>
 <a id="ae2e72074cd43b4dfd70a70f56d68c60d"></a>
@@ -12810,6 +12946,8 @@ template&lt;typename T , TAETL_REQUIRES_(detail::bit_unsigned_int_v&lt; T &gt;) 
   </tr>
 </table>
 </div><div class="memdoc">
+
+<p>Computes the result of bitwise right-rotating the value of x by s positions. This operation is also known as a right circular shift. </p>
 
 </div>
 </div>
