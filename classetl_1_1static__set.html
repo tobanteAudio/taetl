@@ -127,10 +127,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a2c9875544e78d284ef0df8e8ec2d3000"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a2c9875544e78d284ef0df8e8ec2d3000">static_set</a> ()=default</td></tr>
 <tr class="memdesc:a2c9875544e78d284ef0df8e8ec2d3000"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs empty container.  <a href="#a2c9875544e78d284ef0df8e8ec2d3000">More...</a><br /></td></tr>
 <tr class="separator:a2c9875544e78d284ef0df8e8ec2d3000"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae4f756b52713705fa78beee312e7ebec"><td class="memTemplParams" colspan="2">template&lt;class InputIt &gt; </td></tr>
-<tr class="memitem:ae4f756b52713705fa78beee312e7ebec"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#ae4f756b52713705fa78beee312e7ebec">static_set</a> (InputIt first, InputIt last)</td></tr>
-<tr class="memdesc:ae4f756b52713705fa78beee312e7ebec"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the container with the contents of the range [first, last).  <a href="#ae4f756b52713705fa78beee312e7ebec">More...</a><br /></td></tr>
-<tr class="separator:ae4f756b52713705fa78beee312e7ebec"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:affbf8652725a4f9bf106233867a2f78b"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </td></tr>
+<tr class="memitem:affbf8652725a4f9bf106233867a2f78b"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#affbf8652725a4f9bf106233867a2f78b">static_set</a> (InputIter first, InputIter last)</td></tr>
+<tr class="memdesc:affbf8652725a4f9bf106233867a2f78b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the container with the contents of the range [first, last).  <a href="#affbf8652725a4f9bf106233867a2f78b">More...</a><br /></td></tr>
+<tr class="separator:affbf8652725a4f9bf106233867a2f78b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c640b72530cc3675973a85ebc90de60"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a6c640b72530cc3675973a85ebc90de60">cbegin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a></td></tr>
 <tr class="memdesc:a6c640b72530cc3675973a85ebc90de60"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first element of the set.  <a href="#a6c640b72530cc3675973a85ebc90de60">More...</a><br /></td></tr>
 <tr class="separator:a6c640b72530cc3675973a85ebc90de60"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -155,13 +155,26 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a751298981beec7d3639cfe4709b62e97"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a751298981beec7d3639cfe4709b62e97">crend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a8d8a5a29cb228f5d09bd65ffa8e5da6d">const_reverse_iterator</a></td></tr>
 <tr class="memdesc:a751298981beec7d3639cfe4709b62e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the element following the last element of the reversed set. It corresponds to the element preceding the first element of the non-reversed set.  <a href="#a751298981beec7d3639cfe4709b62e97">More...</a><br /></td></tr>
 <tr class="separator:a751298981beec7d3639cfe4709b62e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a323a4e54dd8e4ab7d6261e0289d259af"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a323a4e54dd8e4ab7d6261e0289d259af">clear</a> () noexcept -&gt; void</td></tr>
+<tr class="memdesc:a323a4e54dd8e4ab7d6261e0289d259af"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements from the container. After this call, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">size()</a> returns zero.  <a href="#a323a4e54dd8e4ab7d6261e0289d259af">More...</a><br /></td></tr>
+<tr class="separator:a323a4e54dd8e4ab7d6261e0289d259af"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dbdcb35b54823d5d6782cc25dd6a547"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a7dbdcb35b54823d5d6782cc25dd6a547">insert</a> (<a class="el" href="classetl_1_1static__set.html#a968a829ec00a962e40ffb92fd03af49d">value_type</a> const &amp;value) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a>, bool &gt;</td></tr>
 <tr class="memdesc:a7dbdcb35b54823d5d6782cc25dd6a547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts element into the container, if the container doesn't already contain an element with an equivalent key.  <a href="#a7dbdcb35b54823d5d6782cc25dd6a547">More...</a><br /></td></tr>
 <tr class="separator:a7dbdcb35b54823d5d6782cc25dd6a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a95c9b95113d9bc4f85bfec958453b515"><td class="memTemplParams" colspan="2">template&lt;class... Args&gt; </td></tr>
+<tr class="memitem:a3e9b93ca0cc7acf55989e497d92bf4a8"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </td></tr>
+<tr class="memitem:a3e9b93ca0cc7acf55989e497d92bf4a8"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a3e9b93ca0cc7acf55989e497d92bf4a8">insert</a> (InputIter first, InputIter last) -&gt; void</td></tr>
+<tr class="memdesc:a3e9b93ca0cc7acf55989e497d92bf4a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts elements from range [first, last). If multiple elements in the range have keys that compare equivalent, it is unspecified which element is inserted (pending LWG2844).  <a href="#a3e9b93ca0cc7acf55989e497d92bf4a8">More...</a><br /></td></tr>
+<tr class="separator:a3e9b93ca0cc7acf55989e497d92bf4a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95c9b95113d9bc4f85bfec958453b515"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
 <tr class="memitem:a95c9b95113d9bc4f85bfec958453b515"><td class="memTemplItemLeft" align="right" valign="top">auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a95c9b95113d9bc4f85bfec958453b515">emplace</a> (Args &amp;&amp;... args) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a>, bool &gt;</td></tr>
 <tr class="memdesc:a95c9b95113d9bc4f85bfec958453b515"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts a new element into the container constructed in-place with the given args if there is no element with the key in the container.  <a href="#a95c9b95113d9bc4f85bfec958453b515">More...</a><br /></td></tr>
 <tr class="separator:a95c9b95113d9bc4f85bfec958453b515"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac9b07a51479092a468a8146a493ab233"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#ac9b07a51479092a468a8146a493ab233">swap</a> (<a class="el" href="classetl_1_1static__set.html">static_set</a> &amp;other) noexcept(<a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">etl::is_nothrow_swappable_v</a>&lt; <a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> &gt;) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt; <a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> &amp;, <a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> &amp;&amp;&gt;, void &gt;</td></tr>
+<tr class="memdesc:ac9b07a51479092a468a8146a493ab233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the contents of the container with those of other.  <a href="#ac9b07a51479092a468a8146a493ab233">More...</a><br /></td></tr>
+<tr class="separator:ac9b07a51479092a468a8146a493ab233"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5ef48e6bf9d9b4a8b08224314fe73057"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a5ef48e6bf9d9b4a8b08224314fe73057">count</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) const -&gt; <a class="el" href="classetl_1_1static__set.html#a9a5589db51498f32b2c7bef530873092">size_type</a></td></tr>
+<tr class="memdesc:a5ef48e6bf9d9b4a8b08224314fe73057"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements with key that compares equivalent to the specified argument, which is either 1 or 0 since this container does not allow duplicates.  <a href="#a5ef48e6bf9d9b4a8b08224314fe73057">More...</a><br /></td></tr>
+<tr class="separator:a5ef48e6bf9d9b4a8b08224314fe73057"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e0f5a4d2bbf9d8e3c02bb4f28999863"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a8e0f5a4d2bbf9d8e3c02bb4f28999863">find</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a></td></tr>
 <tr class="memdesc:a8e0f5a4d2bbf9d8e3c02bb4f28999863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an element with key equivalent to key.  <a href="#a8e0f5a4d2bbf9d8e3c02bb4f28999863">More...</a><br /></td></tr>
 <tr class="separator:a8e0f5a4d2bbf9d8e3c02bb4f28999863"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -171,8 +184,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a265586ce4755fc25bb39febca9aa7149"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a265586ce4755fc25bb39febca9aa7149">contains</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) const noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a265586ce4755fc25bb39febca9aa7149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is an element with key equivalent to key in the container.  <a href="#a265586ce4755fc25bb39febca9aa7149">More...</a><br /></td></tr>
 <tr class="separator:a265586ce4755fc25bb39febca9aa7149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee9e26bacddca06feddd58643c5dfee"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a7ee9e26bacddca06feddd58643c5dfee">lower_bound</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a></td></tr>
+<tr class="memdesc:a7ee9e26bacddca06feddd58643c5dfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element that is not less than (i.e. greater or equal to) key.  <a href="#a7ee9e26bacddca06feddd58643c5dfee">More...</a><br /></td></tr>
+<tr class="separator:a7ee9e26bacddca06feddd58643c5dfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a978395b6dec16b02c05eb2cd40ade8e7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a978395b6dec16b02c05eb2cd40ade8e7">lower_bound</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) const -&gt; <a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a></td></tr>
+<tr class="memdesc:a978395b6dec16b02c05eb2cd40ade8e7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element that is not less than (i.e. greater or equal to) key.  <a href="#a978395b6dec16b02c05eb2cd40ade8e7">More...</a><br /></td></tr>
+<tr class="separator:a978395b6dec16b02c05eb2cd40ade8e7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06692f007a748a7713515e40afcce7a2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a06692f007a748a7713515e40afcce7a2">key_comp</a> () const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a04c246219cb070da3e5c473bb581f173">key_compare</a></td></tr>
-<tr class="memdesc:a06692f007a748a7713515e40afcce7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the function object that compares the keys, which is a copy of this container's constructor argument comp. It is the same as value_comp.  <a href="#a06692f007a748a7713515e40afcce7a2">More...</a><br /></td></tr>
+<tr class="memdesc:a06692f007a748a7713515e40afcce7a2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element that is greater than key.  <a href="#a06692f007a748a7713515e40afcce7a2">More...</a><br /></td></tr>
 <tr class="separator:a06692f007a748a7713515e40afcce7a2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac02207a72f7d4bc72b216525383cb311"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#ac02207a72f7d4bc72b216525383cb311">value_comp</a> () const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a31b2c9e5c7ca1a5dba099162a6051410">value_compare</a></td></tr>
 <tr class="memdesc:ac02207a72f7d4bc72b216525383cb311"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the function object that compares the values. It is the same as key_comp.  <a href="#ac02207a72f7d4bc72b216525383cb311">More...</a><br /></td></tr>
@@ -191,7 +210,7 @@ class etl::static_set&lt; Key, Capacity, Compare &gt;</h3>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a> =  typename base_type::const_pointer</td>
@@ -207,7 +226,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a53ccc8bccce6552c9a2fd2ec576a5fa6">const_pointer</a> =  typename base_type::const_pointer</td>
@@ -223,7 +242,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a6925e8776edf0262a5da0d4cb0e9f7b3">const_reference</a> =  <a class="el" href="classetl_1_1static__set.html#a968a829ec00a962e40ffb92fd03af49d">value_type</a> const&amp;</td>
@@ -239,7 +258,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a8d8a5a29cb228f5d09bd65ffa8e5da6d">const_reverse_iterator</a> =  <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt;<a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a>&gt;</td>
@@ -255,7 +274,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#ab4b8d9db4243710ace1c60e6551607c2">difference_type</a> =  <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a></td>
@@ -271,7 +290,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a> =  typename base_type::pointer</td>
@@ -287,7 +306,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a04c246219cb070da3e5c473bb581f173">key_compare</a> =  Compare</td>
@@ -303,7 +322,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> =  typename base_type::key_type</td>
@@ -319,7 +338,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#adbddf8ace4ded227a93082bd3a03e7dc">pointer</a> =  typename base_type::pointer</td>
@@ -335,7 +354,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#ac6d45dbda073e8796d27c3228fd06ae7">reference</a> =  <a class="el" href="classetl_1_1static__set.html#a968a829ec00a962e40ffb92fd03af49d">value_type</a>&amp;</td>
@@ -351,7 +370,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#abb4d32661a140e193428e39a42b3f9ee">reverse_iterator</a> =  <a class="el" href="classetl_1_1reverse__iterator.html">etl::reverse_iterator</a>&lt;<a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a>&gt;</td>
@@ -367,7 +386,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a9a5589db51498f32b2c7bef530873092">size_type</a> =  <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td>
@@ -383,7 +402,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a31b2c9e5c7ca1a5dba099162a6051410">value_compare</a> =  Compare</td>
@@ -399,7 +418,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
       <table class="memname">
         <tr>
           <td class="memname">using <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html#a968a829ec00a962e40ffb92fd03af49d">value_type</a> =  typename base_type::value_type</td>
@@ -416,7 +435,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -439,15 +458,15 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 
 </div>
 </div>
-<a id="ae4f756b52713705fa78beee312e7ebec"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae4f756b52713705fa78beee312e7ebec">&#9670;&nbsp;</a></span>static_set() <span class="overload">[2/2]</span></h2>
+<a id="affbf8652725a4f9bf106233867a2f78b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#affbf8652725a4f9bf106233867a2f78b">&#9670;&nbsp;</a></span>static_set() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <div class="memtemplate">
-template&lt;class InputIt &gt; </div>
+template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -455,13 +474,13 @@ template&lt;class InputIt &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::<a class="el" href="classetl_1_1static__set.html">static_set</a> </td>
           <td>(</td>
-          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramtype">InputIter&#160;</td>
           <td class="paramname"><em>first</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">InputIt&#160;</td>
+          <td class="paramtype">InputIter&#160;</td>
           <td class="paramname"><em>last</em>&#160;</td>
         </tr>
         <tr>
@@ -489,7 +508,7 @@ template&lt;class InputIt &gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -519,7 +538,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -542,13 +561,43 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 
 </div>
 </div>
+<a id="a323a4e54dd8e4ab7d6261e0289d259af"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a323a4e54dd8e4ab7d6261e0289d259af">&#9670;&nbsp;</a></span>clear()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::clear </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; void
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Erases all elements from the container. After this call, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">size()</a> returns zero. </p>
+
+</div>
+</div>
 <a id="a265586ce4755fc25bb39febca9aa7149"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a265586ce4755fc25bb39febca9aa7149">&#9670;&nbsp;</a></span>contains()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -573,13 +622,44 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 
 </div>
 </div>
+<a id="a5ef48e6bf9d9b4a8b08224314fe73057"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5ef48e6bf9d9b4a8b08224314fe73057">&#9670;&nbsp;</a></span>count()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::count </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1static__set.html#a9a5589db51498f32b2c7bef530873092">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of elements with key that compares equivalent to the specified argument, which is either 1 or 0 since this container does not allow duplicates. </p>
+
+</div>
+</div>
 <a id="a75c0ca215eb733d466773fbb8cb0e94b"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a75c0ca215eb733d466773fbb8cb0e94b">&#9670;&nbsp;</a></span>crbegin()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -609,7 +689,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -639,9 +719,9 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <div class="memtemplate">
-template&lt;class... Args&gt; </div>
+template&lt;typename... Args&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -672,7 +752,7 @@ template&lt;class... Args&gt; </div>
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -704,7 +784,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -731,12 +811,12 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 </div>
 </div>
 <a id="a7dbdcb35b54823d5d6782cc25dd6a547"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7dbdcb35b54823d5d6782cc25dd6a547">&#9670;&nbsp;</a></span>insert()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7dbdcb35b54823d5d6782cc25dd6a547">&#9670;&nbsp;</a></span>insert() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -762,13 +842,56 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 </dl>
 </div>
 </div>
+<a id="a3e9b93ca0cc7acf55989e497d92bf4a8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3e9b93ca0cc7acf55989e497d92bf4a8">&#9670;&nbsp;</a></span>insert() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::insert </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Inserts elements from range [first, last). If multiple elements in the range have keys that compare equivalent, it is unspecified which element is inserted (pending LWG2844). </p>
+
+</div>
+</div>
 <a id="a06692f007a748a7713515e40afcce7a2"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a06692f007a748a7713515e40afcce7a2">&#9670;&nbsp;</a></span>key_comp()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -787,8 +910,71 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 </table>
 </div><div class="memdoc">
 
-<p>Returns the function object that compares the keys, which is a copy of this container's constructor argument comp. It is the same as value_comp. </p>
+<p>Returns an iterator pointing to the first element that is greater than key. </p>
+<p>Returns an iterator pointing to the first element that is greater than key. Returns the function object that compares the keys, which is a copy of this container's constructor argument comp. It is the same as value_comp.</p>
 <dl class="section return"><dt>Returns</dt><dd>The key comparison function object. </dd></dl>
+
+</div>
+</div>
+<a id="a7ee9e26bacddca06feddd58643c5dfee"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee9e26bacddca06feddd58643c5dfee">&#9670;&nbsp;</a></span>lower_bound() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::lower_bound </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator pointing to the first element that is not less than (i.e. greater or equal to) key. </p>
+
+</div>
+</div>
+<a id="a978395b6dec16b02c05eb2cd40ade8e7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a978395b6dec16b02c05eb2cd40ade8e7">&#9670;&nbsp;</a></span>lower_bound() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::lower_bound </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;&#160;</td>
+          <td class="paramname"><em>key</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns an iterator pointing to the first element that is not less than (i.e. greater or equal to) key. </p>
 
 </div>
 </div>
@@ -798,7 +984,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -828,7 +1014,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -858,7 +1044,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -888,7 +1074,7 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -912,13 +1098,44 @@ template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&l
 
 </div>
 </div>
+<a id="ac9b07a51479092a468a8146a493ab233"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac9b07a51479092a468a8146a493ab233">&#9670;&nbsp;</a></span>swap()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::swap </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html">static_set</a>&lt; Key, Capacity, Compare &gt; &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt;<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a>&amp;, <a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a>&amp;&amp;&gt;, void&gt;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Exchanges the contents of the container with those of other. </p>
+
+</div>
+</div>
 <a id="ac02207a72f7d4bc72b216525383cb311"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ac02207a72f7d4bc72b216525383cb311">&#9670;&nbsp;</a></span>value_comp()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
