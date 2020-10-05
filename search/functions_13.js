@@ -1,14 +1,7 @@
 var searchData=
 [
-  ['val',['val',['../namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e',1,'etl::hardware::stm32']]],
-  ['value',['value',['../classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0',1,'etl::optional::value() -&gt; value_type *'],['../classetl_1_1optional.html#ac60d547a2fcb48b012d025b81c77856a',1,'etl::optional::value() const -&gt; const value_type *']]],
-  ['value_5for',['value_or',['../classetl_1_1optional.html#a29abd9d9cc9fa456f071ddc02e469726',1,'etl::optional::value_or(U &amp;&amp;default_value) const &amp;-&gt; value_type'],['../classetl_1_1optional.html#a5689363b0c727faa0e941590385f0577',1,'etl::optional::value_or(U &amp;&amp;default_value) &amp;&amp;-&gt; value_type']]],
-  ['valueless_5fby_5fexception',['valueless_by_exception',['../classetl_1_1variant.html#a6343bf22c7351f4634c3b7a5ba0a1a97',1,'etl::variant']]],
-  ['variant',['variant',['../classetl_1_1variant.html#a8157ef11f791e3a7dba4ddd4cf31e4e1',1,'etl::variant']]],
-  ['vportyield',['vPortYield',['../stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42',1,'stubs.hpp']]],
-  ['vqueuedelete',['vQueueDelete',['../stubs_8hpp.html#a153422cc5143e3f5715349d0092146bb',1,'stubs.hpp']]],
-  ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#aab45dfd5e56c051cd4cef90b16848b30',1,'stubs.hpp']]],
-  ['vtaskdelayuntil',['vTaskDelayUntil',['../stubs_8hpp.html#a332eabc61d372c584442a16b2a437886',1,'stubs.hpp']]],
-  ['vtaskdelete',['vTaskDelete',['../stubs_8hpp.html#a6715f3fae8c8b0148ca051a454a20a85',1,'stubs.hpp']]],
-  ['vtaskstartscheduler',['vTaskStartScheduler',['../stubs_8hpp.html#a5b975bf1a308ba1101e35c8d2562669d',1,'stubs.hpp']]]
+  ['underlying',['underlying',['../structetl_1_1crtp.html#a1c11707be13b7ca4e34879a5bc585334',1,'etl::crtp::underlying() const noexcept -&gt; Type const &amp;'],['../structetl_1_1crtp.html#a1f3149c11ed52d319a616ac3a3425a60',1,'etl::crtp::underlying() noexcept -&gt; Type &amp;']]],
+  ['unique',['unique',['../namespaceetl.html#a9b71bc0359b4e8144996d1a1ea271d46',1,'etl::unique(ForwardIter first, ForwardIter last, BinaryPredicate pred) -&gt; ForwardIter'],['../namespaceetl.html#a825f3aafcdce4f906287730fe3a44709',1,'etl::unique(ForwardIter first, ForwardIter last) -&gt; ForwardIter']]],
+  ['unique_5fcopy',['unique_copy',['../namespaceetl.html#ad7c85c3f38fdc2e8f49bdb6c5e5dea43',1,'etl::unique_copy(InputIter first, InputIter last, OutputIter destination, BinaryPredicate pred) -&gt; OutputIter'],['../namespaceetl.html#a75adac4ca1890a2c3dee203f76fee1bf',1,'etl::unique_copy(InputIter first, InputIter last, OutputIter destination) -&gt; OutputIter']]],
+  ['uxqueuemessageswaiting',['uxQueueMessagesWaiting',['../stubs_8hpp.html#a8aa1b7f582cd73da676926c05fd0d8ab',1,'stubs.hpp']]]
 ];
