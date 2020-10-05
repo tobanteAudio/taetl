@@ -5,7 +5,6 @@ var searchData=
   ['in_5fplace_5ft',['in_place_t',['../structetl_1_1in__place__t.html',1,'etl']]],
   ['in_5fplace_5ftype_5ft',['in_place_type_t',['../structetl_1_1in__place__type__t.html',1,'etl']]],
   ['input_5fiterator_5ftag',['input_iterator_tag',['../structetl_1_1input__iterator__tag.html',1,'etl']]],
-  ['insert_5freturn_5ftype',['insert_return_type',['../structetl_1_1static__set_1_1insert__return__type.html',1,'etl::static_set']]],
   ['integral_5fconstant',['integral_constant',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20_21etl_3a_3aratio_5fequal_5fv_3c_20r1_2c_20r2_20_3e_20_3e',['integral_constant&lt; bool, !etl::ratio_equal_v&lt; R1, R2 &gt; &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
   ['integral_5fconstant_3c_20bool_2c_20is_5fassignable_5fv_3c_20etl_3a_3aadd_5flvalue_5freference_3c_20t_20_3e_3a_3atype_2c_20etl_3a_3aadd_5flvalue_5freference_3c_20const_20t_20_3e_3a_3atype_20_3e_20_26_26detail_3a_3ais_5fnothrow_5fassignable_5fhelper_3c_20etl_3a_3aadd_5flvalue_5freference_3c_20t_20_3e_3a_3atype_2c_20etl_3a_3aadd_5flvalue_5freference_3c_20const_20t_20_3e_3a_3atype_20_3e_3a_3avalue_20_3e',['integral_constant&lt; bool, is_assignable_v&lt; etl::add_lvalue_reference&lt; T &gt;::type, etl::add_lvalue_reference&lt; const T &gt;::type &gt; &amp;&amp;detail::is_nothrow_assignable_helper&lt; etl::add_lvalue_reference&lt; T &gt;::type, etl::add_lvalue_reference&lt; const T &gt;::type &gt;::value &gt;',['../structetl_1_1integral__constant.html',1,'etl']]],
