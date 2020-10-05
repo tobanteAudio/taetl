@@ -155,9 +155,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a751298981beec7d3639cfe4709b62e97"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a751298981beec7d3639cfe4709b62e97">crend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a8d8a5a29cb228f5d09bd65ffa8e5da6d">const_reverse_iterator</a></td></tr>
 <tr class="memdesc:a751298981beec7d3639cfe4709b62e97"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the element following the last element of the reversed set. It corresponds to the element preceding the first element of the non-reversed set.  <a href="#a751298981beec7d3639cfe4709b62e97">More...</a><br /></td></tr>
 <tr class="separator:a751298981beec7d3639cfe4709b62e97"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1eb565b2a0b1b3b2168d0e461c01d15e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a1eb565b2a0b1b3b2168d0e461c01d15e">empty</a> () const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:a1eb565b2a0b1b3b2168d0e461c01d15e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the container has no elements, i.e. whether <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> == <a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">end()</a>.  <a href="#a1eb565b2a0b1b3b2168d0e461c01d15e">More...</a><br /></td></tr>
-<tr class="separator:a1eb565b2a0b1b3b2168d0e461c01d15e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7dbdcb35b54823d5d6782cc25dd6a547"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a7dbdcb35b54823d5d6782cc25dd6a547">insert</a> (<a class="el" href="classetl_1_1static__set.html#a968a829ec00a962e40ffb92fd03af49d">value_type</a> const &amp;value) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a>, bool &gt;</td></tr>
 <tr class="memdesc:a7dbdcb35b54823d5d6782cc25dd6a547"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts element into the container, if the container doesn't already contain an element with an equivalent key.  <a href="#a7dbdcb35b54823d5d6782cc25dd6a547">More...</a><br /></td></tr>
 <tr class="separator:a7dbdcb35b54823d5d6782cc25dd6a547"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -666,36 +663,6 @@ template&lt;class... Args&gt; </div>
 </div><div class="memdoc">
 
 <p>Inserts a new element into the container constructed in-place with the given args if there is no element with the key in the container. </p>
-
-</div>
-</div>
-<a id="a1eb565b2a0b1b3b2168d0e461c01d15e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1eb565b2a0b1b3b2168d0e461c01d15e">&#9670;&nbsp;</a></span>empty()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Compare  = etl::less&lt;Key&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::empty </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td> const -&gt; bool
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Checks if the container has no elements, i.e. whether <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> == <a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">end()</a>. </p>
 
 </div>
 </div>
