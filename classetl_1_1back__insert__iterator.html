@@ -66,7 +66,6 @@ $(function() {
   <div class="summary">
 <a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
-<a href="#pro-attribs">Protected Attributes</a> &#124;
 <a href="classetl_1_1back__insert__iterator-members.html">List of all members</a>  </div>
   <div class="headertitle">
 <div class="title">etl::back_insert_iterator&lt; Container &gt; Class Template Reference</div>  </div>
@@ -116,11 +115,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ade89ee13e52a21e5f4f3e7064cdaddae"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html#ade89ee13e52a21e5f4f3e7064cdaddae">operator++</a> (int) -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a></td></tr>
 <tr class="memdesc:ade89ee13e52a21e5f4f3e7064cdaddae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Does nothing. These operator overloads are provided to satisfy the requirements of LegacyOutputIterator. They make it possible for the expressions *iter++=value and *++iter=value to be used to output (insert) a value into the underlying container.  <a href="#ade89ee13e52a21e5f4f3e7064cdaddae">More...</a><br /></td></tr>
 <tr class="separator:ade89ee13e52a21e5f4f3e7064cdaddae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-</table><table class="memberdecls">
-<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
-Protected Attributes</h2></td></tr>
-<tr class="memitem:a6005bbaeabd58e028422245e6e9d6ffa"><td class="memItemLeft" align="right" valign="top">Container *&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html#a6005bbaeabd58e028422245e6e9d6ffa">container_</a> = nullptr</td></tr>
-<tr class="separator:a6005bbaeabd58e028422245e6e9d6ffa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;typename Container&gt;<br />
@@ -432,31 +426,6 @@ template&lt;typename Container &gt; </div>
 </div><div class="memdoc">
 
 <p>Inserts the given value value to the container. </p>
-
-</div>
-</div>
-<h2 class="groupheader">Member Data Documentation</h2>
-<a id="a6005bbaeabd58e028422245e6e9d6ffa"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6005bbaeabd58e028422245e6e9d6ffa">&#9670;&nbsp;</a></span>container_</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename Container &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">Container* <a class="el" href="classetl_1_1back__insert__iterator.html">etl::back_insert_iterator</a>&lt; Container &gt;::container_ = nullptr</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">protected</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
 
 </div>
 </div>
