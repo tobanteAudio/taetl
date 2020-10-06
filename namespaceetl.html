@@ -1408,7 +1408,7 @@ Functions</h2></td></tr>
 <tr class="separator:ae20e1d1b920a713420af38a83dd99486"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae44f343846943962603cab0d192e2c4b"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename UnaryPredicate &gt; </td></tr>
 <tr class="memitem:ae44f343846943962603cab0d192e2c4b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae44f343846943962603cab0d192e2c4b">partition_point</a> (ForwardIter first, ForwardIter last, UnaryPredicate p) -&gt; ForwardIter</td></tr>
-<tr class="memdesc:ae44f343846943962603cab0d192e2c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Examines the partitioned (as if by std::partition) range [ <code>first</code> , <code>last</code> ) and locates the end of the first partition, that is, the first element that does not satisfy p or last if all elements satisfy <code>p</code>.  <a href="#ae44f343846943962603cab0d192e2c4b">More...</a><br /></td></tr>
+<tr class="memdesc:ae44f343846943962603cab0d192e2c4b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Examines the partitioned (as if by <a class="el" href="namespaceetl.html#ae4630df1b225348af807f0f6a34b43d3" title="Reorders the elements in the range [first, last) in such a way that all elements for which the predic...">etl::partition</a>) range [ <code>first</code> , <code>last</code> ) and locates the end of the first partition, that is, the first element that does not satisfy p or last if all elements satisfy <code>p</code>.  <a href="#ae44f343846943962603cab0d192e2c4b">More...</a><br /></td></tr>
 <tr class="separator:ae44f343846943962603cab0d192e2c4b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a08e8e725e2d66da347e7e1f8c0aae083"><td class="memTemplParams" colspan="2">template&lt;typename BidirIter , typename UnaryPredicate &gt; </td></tr>
 <tr class="memitem:a08e8e725e2d66da347e7e1f8c0aae083"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a08e8e725e2d66da347e7e1f8c0aae083">stable_partition</a> (BidirIter f, BidirIter l, UnaryPredicate p) -&gt; BidirIter</td></tr>
@@ -1488,7 +1488,7 @@ Functions</h2></td></tr>
 <tr class="separator:aaab088a74d056814b99f64cba7c31cef"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5a93174fd55dba4449e55dd3accbd299"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename Compare &gt; </td></tr>
 <tr class="memitem:a5a93174fd55dba4449e55dd3accbd299"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5a93174fd55dba4449e55dd3accbd299">is_sorted</a> (ForwardIter first, ForwardIter last, Compare comp) -&gt; bool</td></tr>
-<tr class="memdesc:a5a93174fd55dba4449e55dd3accbd299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the elements in range [first, last) are sorted in non-descending order. Elements are compared using the given binary comparison function comp.  <a href="#a5a93174fd55dba4449e55dd3accbd299">More...</a><br /></td></tr>
+<tr class="memdesc:a5a93174fd55dba4449e55dd3accbd299"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the elements in range [ <code>first</code> , <code>last</code> ) are sorted in non-descending order. Elements are compared using the given binary comparison function comp.  <a href="#a5a93174fd55dba4449e55dd3accbd299">More...</a><br /></td></tr>
 <tr class="separator:a5a93174fd55dba4449e55dd3accbd299"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a89997aba186b70f2d457898409efb285"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename T , typename Compare &gt; </td></tr>
 <tr class="memitem:a89997aba186b70f2d457898409efb285"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a89997aba186b70f2d457898409efb285">lower_bound</a> (ForwardIter first, ForwardIter last, T const &amp;value, Compare comp) noexcept -&gt; ForwardIter</td></tr>
@@ -1498,6 +1498,30 @@ Functions</h2></td></tr>
 <tr class="memitem:a11d4571402e3c6c23bbbf5b22987c9b5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a11d4571402e3c6c23bbbf5b22987c9b5">lower_bound</a> (ForwardIter first, ForwardIter last, T const &amp;value) noexcept -&gt; ForwardIter</td></tr>
 <tr class="memdesc:a11d4571402e3c6c23bbbf5b22987c9b5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element in the range [first, last) that is not less than (i.e. greater or equal to) value, or last if no such element is found.  <a href="#a11d4571402e3c6c23bbbf5b22987c9b5">More...</a><br /></td></tr>
 <tr class="separator:a11d4571402e3c6c23bbbf5b22987c9b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a903280b11e2556ae82b7ce83664c2493"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename T , typename Compare &gt; </td></tr>
+<tr class="memitem:a903280b11e2556ae82b7ce83664c2493"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a903280b11e2556ae82b7ce83664c2493">upper_bound</a> (ForwardIter first, ForwardIter last, T const &amp;value, Compare comp) -&gt; ForwardIter</td></tr>
+<tr class="memdesc:a903280b11e2556ae82b7ce83664c2493"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element in the range [ <code>first</code> , <code>last</code> ) that is greater than <code>value</code>, or last if no such element is found.  <a href="#a903280b11e2556ae82b7ce83664c2493">More...</a><br /></td></tr>
+<tr class="separator:a903280b11e2556ae82b7ce83664c2493"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a493b1a0e8c11135ffb3bedb15ec44026"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename T &gt; </td></tr>
+<tr class="memitem:a493b1a0e8c11135ffb3bedb15ec44026"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a493b1a0e8c11135ffb3bedb15ec44026">upper_bound</a> (ForwardIter first, ForwardIter last, T const &amp;value) -&gt; ForwardIter</td></tr>
+<tr class="memdesc:a493b1a0e8c11135ffb3bedb15ec44026"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element in the range [ <code>first</code> , <code>last</code> ) that is greater than <code>value</code>, or last if no such element is found.  <a href="#a493b1a0e8c11135ffb3bedb15ec44026">More...</a><br /></td></tr>
+<tr class="separator:a493b1a0e8c11135ffb3bedb15ec44026"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad9e45f8eb56e59e6cd591cab63654758"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt , typename T , typename Compare &gt; </td></tr>
+<tr class="memitem:ad9e45f8eb56e59e6cd591cab63654758"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad9e45f8eb56e59e6cd591cab63654758">equal_range</a> (ForwardIt first, ForwardIt last, T const &amp;value, Compare comp) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; ForwardIt, ForwardIt &gt;</td></tr>
+<tr class="memdesc:ad9e45f8eb56e59e6cd591cab63654758"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a range containing all elements equivalent to value in the range [first, last).  <a href="#ad9e45f8eb56e59e6cd591cab63654758">More...</a><br /></td></tr>
+<tr class="separator:ad9e45f8eb56e59e6cd591cab63654758"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aab395a58a237abfb479d2ae0163afb29"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt , typename T &gt; </td></tr>
+<tr class="memitem:aab395a58a237abfb479d2ae0163afb29"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aab395a58a237abfb479d2ae0163afb29">equal_range</a> (ForwardIt first, ForwardIt last, T const &amp;value) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; ForwardIt, ForwardIt &gt;</td></tr>
+<tr class="memdesc:aab395a58a237abfb479d2ae0163afb29"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a range containing all elements equivalent to value in the range [first, last).  <a href="#aab395a58a237abfb479d2ae0163afb29">More...</a><br /></td></tr>
+<tr class="separator:aab395a58a237abfb479d2ae0163afb29"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adbb582735f4f25812f76c14383c62b35"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename T , typename Compare &gt; </td></tr>
+<tr class="memitem:adbb582735f4f25812f76c14383c62b35"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#adbb582735f4f25812f76c14383c62b35">binary_search</a> (ForwardIter first, ForwardIter last, T const &amp;value, Compare comp) -&gt; bool</td></tr>
+<tr class="memdesc:adbb582735f4f25812f76c14383c62b35"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an element equivalent to value appears within the range [ <code>first</code> , <code>last</code> ).  <a href="#adbb582735f4f25812f76c14383c62b35">More...</a><br /></td></tr>
+<tr class="separator:adbb582735f4f25812f76c14383c62b35"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8b019f36dc291f87d2904fe1d5d7b261"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , class T &gt; </td></tr>
+<tr class="memitem:a8b019f36dc291f87d2904fe1d5d7b261"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8b019f36dc291f87d2904fe1d5d7b261">binary_search</a> (ForwardIter first, ForwardIter last, T const &amp;value) -&gt; bool</td></tr>
+<tr class="memdesc:a8b019f36dc291f87d2904fe1d5d7b261"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if an element equivalent to value appears within the range [ <code>first</code> , <code>last</code> ).  <a href="#a8b019f36dc291f87d2904fe1d5d7b261">More...</a><br /></td></tr>
+<tr class="separator:a8b019f36dc291f87d2904fe1d5d7b261"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1982436ea3e6e16a1d3aac993ffb0b6c"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 &gt; </td></tr>
 <tr class="memitem:a1982436ea3e6e16a1d3aac993ffb0b6c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1982436ea3e6e16a1d3aac993ffb0b6c">includes</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2) -&gt; bool</td></tr>
 <tr class="memdesc:a1982436ea3e6e16a1d3aac993ffb0b6c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if the sorted range [first2, last2) is a subsequence of the sorted range [first1, last1). Both ranges must be sorted with operator&lt;.  <a href="#a1982436ea3e6e16a1d3aac993ffb0b6c">More...</a><br /></td></tr>
@@ -2060,10 +2084,10 @@ Functions</h2></td></tr>
 <tr class="memitem:a0558b9862045860d84ed914cac6a5128"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0558b9862045860d84ed914cac6a5128">operator&gt;=</a> (<a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Comp &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Comp &gt; const &amp;rhs) -&gt; bool</td></tr>
 <tr class="memdesc:a0558b9862045860d84ed914cac6a5128"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two sets.  <a href="#a0558b9862045860d84ed914cac6a5128">More...</a><br /></td></tr>
 <tr class="separator:a0558b9862045860d84ed914cac6a5128"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6bd9afb5d824aded0bf4cbabb8d8c41a"><td class="memTemplParams" colspan="2">template&lt;typename Key , etl::size_t Capacity, typename Comp &gt; </td></tr>
-<tr class="memitem:a6bd9afb5d824aded0bf4cbabb8d8c41a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a6bd9afb5d824aded0bf4cbabb8d8c41a">swap</a> (<a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Comp &gt; &amp;lhs, <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Comp &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
-<tr class="memdesc:a6bd9afb5d824aded0bf4cbabb8d8c41a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for etl::set. Swaps the contents of lhs and rhs. Calls lhs.swap(rhs).  <a href="#a6bd9afb5d824aded0bf4cbabb8d8c41a">More...</a><br /></td></tr>
-<tr class="separator:a6bd9afb5d824aded0bf4cbabb8d8c41a"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79bd340ccaae37244b08ee67fd571861"><td class="memTemplParams" colspan="2">template&lt;typename Key , etl::size_t Capacity, typename Compare &gt; </td></tr>
+<tr class="memitem:a79bd340ccaae37244b08ee67fd571861"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a79bd340ccaae37244b08ee67fd571861">swap</a> (<a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt; &amp;lhs, <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt; &amp;rhs) noexcept(noexcept(lhs.swap(rhs))) -&gt; void</td></tr>
+<tr class="memdesc:a79bd340ccaae37244b08ee67fd571861"><td class="mdescLeft">&#160;</td><td class="mdescRight">Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for etl::set. Swaps the contents of lhs and rhs. Calls lhs.swap(rhs).  <a href="#a79bd340ccaae37244b08ee67fd571861">More...</a><br /></td></tr>
+<tr class="separator:a79bd340ccaae37244b08ee67fd571861"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0da3a02a79034271cbc560bc94dbe2cd"><td class="memTemplParams" colspan="2">template&lt;typename Type , etl::size_t Extent&gt; </td></tr>
 <tr class="memitem:a0da3a02a79034271cbc560bc94dbe2cd"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0da3a02a79034271cbc560bc94dbe2cd">span</a> (Type(&amp;)[Extent]) -&gt; <a class="el" href="classetl_1_1span.html">span</a>&lt; Type, Extent &gt;</td></tr>
 <tr class="memdesc:a0da3a02a79034271cbc560bc94dbe2cd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Deduction Guides. From raw array.  <a href="#a0da3a02a79034271cbc560bc94dbe2cd">More...</a><br /></td></tr>
@@ -2312,6 +2336,14 @@ Functions</h2></td></tr>
 <tr class="memitem:aebf47ed021fd1e8bfbc389525967e551"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#aebf47ed021fd1e8bfbc389525967e551">operator&gt;=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;lhs, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;rhs) noexcept -&gt; bool</td></tr>
 <tr class="memdesc:aebf47ed021fd1e8bfbc389525967e551"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the contents of two vectors.  <a href="#aebf47ed021fd1e8bfbc389525967e551">More...</a><br /></td></tr>
 <tr class="separator:aebf47ed021fd1e8bfbc389525967e551"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab6028d08459dc299edcae40876481fca"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity, typename Predicate &gt; </td></tr>
+<tr class="memitem:ab6028d08459dc299edcae40876481fca"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab6028d08459dc299edcae40876481fca">erase_if</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;c, Predicate pred) -&gt; typename <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt;::size_type</td></tr>
+<tr class="memdesc:ab6028d08459dc299edcae40876481fca"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements that satisfy the predicate pred from the container.  <a href="#ab6028d08459dc299edcae40876481fca">More...</a><br /></td></tr>
+<tr class="separator:ab6028d08459dc299edcae40876481fca"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7eea328e45af7e2f0cba2ecf9bfae03e"><td class="memTemplParams" colspan="2">template&lt;typename T , etl::size_t Capacity, typename U &gt; </td></tr>
+<tr class="memitem:a7eea328e45af7e2f0cba2ecf9bfae03e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7eea328e45af7e2f0cba2ecf9bfae03e">erase</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;c, U const &amp;value) -&gt; typename <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt;::size_type</td></tr>
+<tr class="memdesc:a7eea328e45af7e2f0cba2ecf9bfae03e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Erases all elements that compare equal to value from the container.  <a href="#a7eea328e45af7e2f0cba2ecf9bfae03e">More...</a><br /></td></tr>
+<tr class="separator:a7eea328e45af7e2f0cba2ecf9bfae03e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b">is_language_standard</a> (<a class="el" href="namespaceetl.html#a3d70da9977ec456339973b30e372fcbd">language_standard</a> ls) -&gt; bool</td></tr>
 <tr class="memdesc:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true, if the given standard and the currently configurated in the compiler match.  <a href="#ad763c7f65a817a0ba3f58cf0d5672d1b">More...</a><br /></td></tr>
 <tr class="separator:ad763c7f65a817a0ba3f58cf0d5672d1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -4222,7 +4254,8 @@ template&lt;typename InputIter , typename UnaryPredicate &gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if unary predicate p returns true for all elements in the range [first, last). </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#a1">array.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a4d54e00f1a365a0fb3d26386088c99c8"></a>
@@ -4421,7 +4454,8 @@ template&lt;typename C &gt; </div>
 
 <p>Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns exactly <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">c.begin()</a>, which is typically an iterator to the beginning of the sequence represented by c. If C is a standard Container, this returns C::iterator when c is not const-qualified, and C::const_iterator otherwise. </p>
 <p>Custom overloads of begin may be provided for classes that do not expose a suitable <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> member function, yet can be iterated. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#a2">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#a3">set.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a62a601a1d87c13d9bcf1d4b0e2cf6c1c"></a>
@@ -4477,6 +4511,94 @@ template&lt;typename T , etl::size_t N&gt; </div>
 
 <p>Returns an iterator to the beginning of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#ab0330eb79a39a00af31e79ece021f90f" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">C::begin()</a> having a reasonable implementation. Returns a pointer to the beginning of the array. </p>
 <p>Custom overloads of begin may be provided for classes that do not expose a suitable <a class="el" href="namespaceetl.html#a3031e070c39546444bdd5fda57ead3d2" title="Returns an iterator to the beginning of the given container c or array array. These templates rely on...">begin()</a> member function, yet can be iterated. </p>
+
+</div>
+</div>
+<a id="adbb582735f4f25812f76c14383c62b35"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adbb582735f4f25812f76c14383c62b35">&#9670;&nbsp;</a></span>binary_search() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename T , typename Compare &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::binary_search </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>comp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if an element equivalent to value appears within the range [ <code>first</code> , <code>last</code> ). </p>
+<p>For <a class="el" href="namespaceetl.html#adbb582735f4f25812f76c14383c62b35" title="Checks if an element equivalent to value appears within the range [ first , last ). ">etl::binary_search</a> to succeed, the range [ <code>first</code> , <code>last</code> ) must be at least partially ordered with respect to value</p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/binary_search">https://en.cppreference.com/w/cpp/algorithm/binary_search</a> </p>
+
+</div>
+</div>
+<a id="a8b019f36dc291f87d2904fe1d5d7b261"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8b019f36dc291f87d2904fe1d5d7b261">&#9670;&nbsp;</a></span>binary_search() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , class T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::binary_search </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; bool
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Checks if an element equivalent to value appears within the range [ <code>first</code> , <code>last</code> ). </p>
+<p>For <a class="el" href="namespaceetl.html#adbb582735f4f25812f76c14383c62b35" title="Checks if an element equivalent to value appears within the range [ first , last ). ">etl::binary_search</a> to succeed, the range [ <code>first</code> , <code>last</code> ) must be at least partially ordered with respect to value</p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/binary_search">https://en.cppreference.com/w/cpp/algorithm/binary_search</a> </p>
 
 </div>
 </div>
@@ -4988,7 +5110,8 @@ template&lt;typename InputIter , typename OutputIter &gt; </div>
 <p>Copies the elements in the range, defined by [first, last), to another range beginning at destination. </p>
 <p>Copies all elements in the range [first, last) starting from first and proceeding to last - 1. The behavior is undefined if destination is within the range [first, last). In this case, <a class="el" href="namespaceetl.html#a53fd2bc273dba3758e8649ead0701ea2" title="Copies the elements from the range, defined by [first, last), to another range ending at d_last...">etl::copy_backward</a> may be used instead.</p>
 <dl class="section return"><dt>Returns</dt><dd>Output iterator to the element in the destination range, one past the last element copied. </dd></dl>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#a5">array.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a53fd2bc273dba3758e8649ead0701ea2"></a>
@@ -5337,7 +5460,7 @@ template&lt;typename C &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns a pointer to the block of memory containing the elements of the container. Returns <a class="el" href="namespaceetl.html#ad94411a453e2a44d4e6b6bf3160b4cf0" title="Returns a pointer to the block of memory containing the elements of the container. Returns &amp;array[0]. ">c.data()</a>. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="map_8cpp-example.html#a2">map.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="map_8cpp-example.html#a2">map.cpp</a>, and <a class="el" href="set_8cpp-example.html#a6">set.cpp</a>.</dd>
 </dl>
 </div>
 </div>
@@ -5637,7 +5760,8 @@ template&lt;typename C &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns an iterator to the end (i.e. the element after the last element) of the given container c or array array. These templates rely on <a class="el" href="namespaceetl.html#a6f5d203d41447f951c386a27ef969327" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">C::end()</a> having a reasonable implementation. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#a3">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#a4">set.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="acd63b79cae3d16f47089c029f77e7152"></a>
@@ -5877,6 +6001,160 @@ template&lt;typename InputIter1 , typename InputIter2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns true if the range [first1, last1) is equal to the range [first2, last2), and false otherwise. </p>
+
+</div>
+</div>
+<a id="ad9e45f8eb56e59e6cd591cab63654758"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad9e45f8eb56e59e6cd591cab63654758">&#9670;&nbsp;</a></span>equal_range() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIt , typename T , typename Compare &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::equal_range </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>comp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt;ForwardIt, ForwardIt&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a range containing all elements equivalent to value in the range [first, last). </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/equal_range">https://en.cppreference.com/w/cpp/algorithm/equal_range</a> </p>
+
+</div>
+</div>
+<a id="aab395a58a237abfb479d2ae0163afb29"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aab395a58a237abfb479d2ae0163afb29">&#9670;&nbsp;</a></span>equal_range() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIt , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::equal_range </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt;ForwardIt, ForwardIt&gt;
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns a range containing all elements equivalent to value in the range [first, last). </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/equal_range">https://en.cppreference.com/w/cpp/algorithm/equal_range</a> </p>
+
+</div>
+</div>
+<a id="a7eea328e45af7e2f0cba2ecf9bfae03e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7eea328e45af7e2f0cba2ecf9bfae03e">&#9670;&nbsp;</a></span>erase()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , etl::size_t Capacity, typename U &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::erase </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">U const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; typename <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt;T, Capacity&gt;::size_type
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Erases all elements that compare equal to value from the container. </p>
+<p><a href="https://en.cppreference.com/w/cpp/container/vector/erase2">https://en.cppreference.com/w/cpp/container/vector/erase2</a> </p><dl class="section return"><dt>Returns</dt><dd>The number of erased elements. </dd></dl>
+
+</div>
+</div>
+<a id="ab6028d08459dc299edcae40876481fca"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab6028d08459dc299edcae40876481fca">&#9670;&nbsp;</a></span>erase_if()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T , etl::size_t Capacity, typename Predicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::erase_if </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;&#160;</td>
+          <td class="paramname"><em>c</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Predicate&#160;</td>
+          <td class="paramname"><em>pred</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; typename <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt;T, Capacity&gt;::size_type
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Erases all elements that satisfy the predicate pred from the container. </p>
+<p><a href="https://en.cppreference.com/w/cpp/container/vector/erase2">https://en.cppreference.com/w/cpp/container/vector/erase2</a> </p><dl class="section return"><dt>Returns</dt><dd>The number of erased elements. </dd></dl>
 
 </div>
 </div>
@@ -6271,7 +6549,7 @@ template&lt;typename InputIter , typename UnaryFunction &gt; </div>
 </div><div class="memdoc">
 
 <p>Applies the given function object f to the result of dereferencing every iterator in the range [ <code>first</code> , <code>last</code> ) in order. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="algorithm_8cpp-example.html#a2">algorithm.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="algorithm_8cpp-example.html#a2">algorithm.cpp</a>, and <a class="el" href="set_8cpp-example.html#a2">set.cpp</a>.</dd>
 </dl>
 </div>
 </div>
@@ -7157,7 +7435,7 @@ template&lt;typename ForwardIter , typename Compare &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Checks if the elements in range [first, last) are sorted in non-descending order. Elements are compared using the given binary comparison function comp. </p>
+<p>Checks if the elements in range [ <code>first</code> , <code>last</code> ) are sorted in non-descending order. Elements are compared using the given binary comparison function comp. </p>
 
 </div>
 </div>
@@ -12904,7 +13182,7 @@ template&lt;typename ForwardIter , typename UnaryPredicate &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Examines the partitioned (as if by std::partition) range [ <code>first</code> , <code>last</code> ) and locates the end of the first partition, that is, the first element that does not satisfy p or last if all elements satisfy <code>p</code>. </p>
+<p>Examines the partitioned (as if by <a class="el" href="namespaceetl.html#ae4630df1b225348af807f0f6a34b43d3" title="Reorders the elements in the range [first, last) in such a way that all elements for which the predic...">etl::partition</a>) range [ <code>first</code> , <code>last</code> ) and locates the end of the first partition, that is, the first element that does not satisfy p or last if all elements satisfy <code>p</code>. </p>
 
 </div>
 </div>
@@ -14446,13 +14724,13 @@ template&lt;class T1 , class T2 &gt; </div>
 
 </div>
 </div>
-<a id="a6bd9afb5d824aded0bf4cbabb8d8c41a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6bd9afb5d824aded0bf4cbabb8d8c41a">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/6]</span></h2>
+<a id="a79bd340ccaae37244b08ee67fd571861"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79bd340ccaae37244b08ee67fd571861">&#9670;&nbsp;</a></span>swap() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;typename Key , etl::size_t Capacity, typename Comp &gt; </div>
+template&lt;typename Key , etl::size_t Capacity, typename Compare &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -14460,13 +14738,13 @@ template&lt;typename Key , etl::size_t Capacity, typename Comp &gt; </div>
         <tr>
           <td class="memname">constexpr auto etl::swap </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Comp &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt; &amp;&#160;</td>
           <td class="paramname"><em>lhs</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Comp &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt; &amp;&#160;</td>
           <td class="paramname"><em>rhs</em>&#160;</td>
         </tr>
         <tr>
@@ -14957,6 +15235,92 @@ template&lt;typename InputIter , typename OutputIter &gt; </div>
 
 <p>Copies the elements from the range [first, last), to another range beginning at d_first in such a way that there are no consecutive equal elements. Only the first element of each group of equal elements is copied. </p>
 <p>Elements are compared using operator==. The behavior is undefined if it is not an equivalence relation. </p>
+
+</div>
+</div>
+<a id="a903280b11e2556ae82b7ce83664c2493"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a903280b11e2556ae82b7ce83664c2493">&#9670;&nbsp;</a></span>upper_bound() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename T , typename Compare &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::upper_bound </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">Compare&#160;</td>
+          <td class="paramname"><em>comp</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator pointing to the first element in the range [ <code>first</code> , <code>last</code> ) that is greater than <code>value</code>, or last if no such element is found. </p>
+<p>The range [ <code>first</code> , <code>last</code> ) must be partitioned with respect to the expression !(value &lt; element) or !comp(value, element), i.e., all elements for which the expression is true must precede all elements for which the expression is false. A fully-sorted range meets this criterion. </p>
+
+</div>
+</div>
+<a id="a493b1a0e8c11135ffb3bedb15ec44026"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a493b1a0e8c11135ffb3bedb15ec44026">&#9670;&nbsp;</a></span>upper_bound() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIter , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::upper_bound </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; ForwardIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Returns an iterator pointing to the first element in the range [ <code>first</code> , <code>last</code> ) that is greater than <code>value</code>, or last if no such element is found. </p>
+<p>The range [ <code>first</code> , <code>last</code> ) must be partitioned with respect to the expression !(value &lt; element) or !comp(value, element), i.e., all elements for which the expression is true must precede all elements for which the expression is false. A fully-sorted range meets this criterion. </p>
 
 </div>
 </div>

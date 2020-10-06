@@ -198,7 +198,7 @@ struct etl::array&lt; Type, Size &gt;</h3>
 
 <p><a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays. </p>
 <p>This container is an aggregate type with the same semantics as a struct holding a C-style array Type[N] as its only non-static data member. Unlike a C-style array, it doesn't decay to Type* automatically. As an aggregate type, it can be initialized with aggregate-initialization given at most N initializers that are convertible to Type: <a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884" title="Deduction guide. ">etl::array&lt;int, 3&gt;</a> a = {1,2,3};. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#_a0">array.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#_a0">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#_a7">set.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aaea609f5e21b1e5d323c9ff1756b49f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaea609f5e21b1e5d323c9ff1756b49f6">&#9670;&nbsp;</a></span>const_iterator</h2>
@@ -405,8 +405,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
 </div><div class="memdoc">
 
 <p>Accesses the specified item with bounds checking. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#a1">array.cpp</a>.</dd>
-</dl>
+
 </div>
 </div>
 <a id="a90189e85d2fa50447a796304e2c6a8df"></a>
