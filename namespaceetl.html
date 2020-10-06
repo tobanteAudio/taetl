@@ -1283,6 +1283,22 @@ Functions</h2></td></tr>
 <tr class="memitem:a503e23901912a73957ee7739fe5a2b72"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a503e23901912a73957ee7739fe5a2b72">remove</a> (ForwardIter first, ForwardIter last, T const &amp;value) -&gt; ForwardIter</td></tr>
 <tr class="memdesc:a503e23901912a73957ee7739fe5a2b72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all elements satisfying specific criteria from the range [first, last) and returns a past-the-end iterator for the new end of the range.  <a href="#a503e23901912a73957ee7739fe5a2b72">More...</a><br /></td></tr>
 <tr class="separator:a503e23901912a73957ee7739fe5a2b72"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc6d6ee3525b61f4cf4adb57febcf54f"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename OutputIter , typename UnaryPredicate &gt; </td></tr>
+<tr class="memitem:abc6d6ee3525b61f4cf4adb57febcf54f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abc6d6ee3525b61f4cf4adb57febcf54f">remove_copy_if</a> (InputIter first, InputIter last, OutputIter destination, UnaryPredicate p) -&gt; OutputIter</td></tr>
+<tr class="memdesc:abc6d6ee3525b61f4cf4adb57febcf54f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies elements from the range [ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, omitting the elements which satisfy specific criteria. Source and destination ranges cannot overlap. Ignores all elements for which predicate <code>p</code> returns true.  <a href="#abc6d6ee3525b61f4cf4adb57febcf54f">More...</a><br /></td></tr>
+<tr class="separator:abc6d6ee3525b61f4cf4adb57febcf54f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4339ec2a525bcc25e197da3ba0fc2428"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename OutputIter , typename T &gt; </td></tr>
+<tr class="memitem:a4339ec2a525bcc25e197da3ba0fc2428"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4339ec2a525bcc25e197da3ba0fc2428">remove_copy</a> (InputIter first, InputIter last, OutputIter destination, T const &amp;value) -&gt; OutputIter</td></tr>
+<tr class="memdesc:a4339ec2a525bcc25e197da3ba0fc2428"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies elements from the range [ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, omitting the elements which satisfy specific criteria. Source and destination ranges cannot overlap. Ignores all elements that are equal to <code>value</code>.  <a href="#a4339ec2a525bcc25e197da3ba0fc2428">More...</a><br /></td></tr>
+<tr class="separator:a4339ec2a525bcc25e197da3ba0fc2428"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afd524dd4e2bef44f16351525ccb4c68b"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt , typename UnaryPredicate , typename T &gt; </td></tr>
+<tr class="memitem:afd524dd4e2bef44f16351525ccb4c68b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#afd524dd4e2bef44f16351525ccb4c68b">replace_if</a> (ForwardIt first, ForwardIt last, UnaryPredicate p, T const &amp;new_value) -&gt; void</td></tr>
+<tr class="memdesc:afd524dd4e2bef44f16351525ccb4c68b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces all elements satisfying specific criteria with <code>new_value</code> in the range [ <code>first</code> , <code>last</code> ). Replaces all elements for which predicate <code>p</code> returns true.  <a href="#afd524dd4e2bef44f16351525ccb4c68b">More...</a><br /></td></tr>
+<tr class="separator:afd524dd4e2bef44f16351525ccb4c68b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a30584dde0e75b7b64eab8813f209015b"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIt , typename T &gt; </td></tr>
+<tr class="memitem:a30584dde0e75b7b64eab8813f209015b"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a30584dde0e75b7b64eab8813f209015b">replace</a> (ForwardIt first, ForwardIt last, T const &amp;old_value, T const &amp;new_value) -&gt; void</td></tr>
+<tr class="memdesc:a30584dde0e75b7b64eab8813f209015b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces all elements satisfying specific criteria with <code>new_value</code> in the range [ <code>first</code> , <code>last</code> ). Replaces all elements that are equal to <code>old_value</code>.  <a href="#a30584dde0e75b7b64eab8813f209015b">More...</a><br /></td></tr>
+<tr class="separator:a30584dde0e75b7b64eab8813f209015b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7fdd0cf88f36f44f8fe8ec8327cfac74"><td class="memTemplParams" colspan="2">template&lt;typename Type &gt; </td></tr>
 <tr class="memitem:a7fdd0cf88f36f44f8fe8ec8327cfac74"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a7fdd0cf88f36f44f8fe8ec8327cfac74">max</a> (Type const &amp;a, Type const &amp;b) noexcept -&gt; Type const &amp;</td></tr>
 <tr class="memdesc:a7fdd0cf88f36f44f8fe8ec8327cfac74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the greater of a and b.  <a href="#a7fdd0cf88f36f44f8fe8ec8327cfac74">More...</a><br /></td></tr>
@@ -13038,6 +13054,98 @@ template&lt;typename ForwardIter , typename T &gt; </div>
 
 </div>
 </div>
+<a id="a4339ec2a525bcc25e197da3ba0fc2428"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4339ec2a525bcc25e197da3ba0fc2428">&#9670;&nbsp;</a></span>remove_copy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename InputIter , typename OutputIter , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::remove_copy </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OutputIter&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; OutputIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies elements from the range [ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, omitting the elements which satisfy specific criteria. Source and destination ranges cannot overlap. Ignores all elements that are equal to <code>value</code>. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the element past the last element copied. </dd></dl>
+
+</div>
+</div>
+<a id="abc6d6ee3525b61f4cf4adb57febcf54f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc6d6ee3525b61f4cf4adb57febcf54f">&#9670;&nbsp;</a></span>remove_copy_if()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename InputIter , typename OutputIter , typename UnaryPredicate &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::remove_copy_if </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">OutputIter&#160;</td>
+          <td class="paramname"><em>destination</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; OutputIter
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies elements from the range [ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, omitting the elements which satisfy specific criteria. Source and destination ranges cannot overlap. Ignores all elements for which predicate <code>p</code> returns true. </p>
+<dl class="section return"><dt>Returns</dt><dd>Iterator to the element past the last element copied. </dd></dl>
+
+</div>
+</div>
 <a id="a8e77a31d2842fc3ce0d0830363d39429"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a8e77a31d2842fc3ce0d0830363d39429">&#9670;&nbsp;</a></span>remove_if()</h2>
 
@@ -13143,6 +13251,96 @@ template&lt;typename T , etl::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns an iterator to the reverse-end of the given array. </p>
+
+</div>
+</div>
+<a id="a30584dde0e75b7b64eab8813f209015b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a30584dde0e75b7b64eab8813f209015b">&#9670;&nbsp;</a></span>replace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIt , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::replace </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>old_value</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>new_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces all elements satisfying specific criteria with <code>new_value</code> in the range [ <code>first</code> , <code>last</code> ). Replaces all elements that are equal to <code>old_value</code>. </p>
+
+</div>
+</div>
+<a id="afd524dd4e2bef44f16351525ccb4c68b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afd524dd4e2bef44f16351525ccb4c68b">&#9670;&nbsp;</a></span>replace_if()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ForwardIt , typename UnaryPredicate , typename T &gt; </div>
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::replace_if </td>
+          <td>(</td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">ForwardIt&#160;</td>
+          <td class="paramname"><em>last</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">UnaryPredicate&#160;</td>
+          <td class="paramname"><em>p</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>new_value</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; void
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Replaces all elements satisfying specific criteria with <code>new_value</code> in the range [ <code>first</code> , <code>last</code> ). Replaces all elements for which predicate <code>p</code> returns true. </p>
 
 </div>
 </div>
