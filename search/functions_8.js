@@ -16,6 +16,7 @@ var searchData=
   ['is_5fconstant_5fevaluated',['is_constant_evaluated',['../namespaceetl.html#a4ec5c14f53ef79e0b6debfffb6ce947f',1,'etl']]],
   ['is_5fgreater_5flanguage_5fstandard',['is_greater_language_standard',['../namespaceetl.html#abe8a84a5c6ba35f67fbc2ca6092eedde',1,'etl']]],
   ['is_5flanguage_5fstandard',['is_language_standard',['../namespaceetl.html#ad763c7f65a817a0ba3f58cf0d5672d1b',1,'etl']]],
+  ['is_5fpartitioned',['is_partitioned',['../namespaceetl.html#ae20e1d1b920a713420af38a83dd99486',1,'etl']]],
   ['is_5fsorted',['is_sorted',['../namespaceetl.html#aaab088a74d056814b99f64cba7c31cef',1,'etl::is_sorted(ForwardIter first, ForwardIter last) -&gt; bool'],['../namespaceetl.html#a5a93174fd55dba4449e55dd3accbd299',1,'etl::is_sorted(ForwardIter first, ForwardIter last, Compare comp) -&gt; bool']]],
   ['is_5fsorted_5funtil',['is_sorted_until',['../namespaceetl.html#a3d06375f6c6ee1b6ffe30e433b5ca742',1,'etl::is_sorted_until(ForwardIter first, ForwardIter last) -&gt; ForwardIter'],['../namespaceetl.html#af8cd072db84b3726ff5ff9734f09c81e',1,'etl::is_sorted_until(ForwardIter first, ForwardIter last, Compare comp) -&gt; ForwardIter']]],
   ['isalnum',['isalnum',['../namespaceetl.html#a0ebfa4dc6da592b5c2d73f10ba7490dc',1,'etl']]],

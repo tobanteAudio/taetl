@@ -200,6 +200,7 @@ var searchData=
   ['is_5fnull_5fpointer_5fv',['is_null_pointer_v',['../namespaceetl.html#a016c8419365e8e3697a56040d335bca4',1,'etl']]],
   ['is_5fobject',['is_object',['../structetl_1_1is__object.html',1,'etl']]],
   ['is_5fobject_5fv',['is_object_v',['../namespaceetl.html#a63efd09c0ee7195824be65423adadedc',1,'etl']]],
+  ['is_5fpartitioned',['is_partitioned',['../namespaceetl.html#ae20e1d1b920a713420af38a83dd99486',1,'etl']]],
   ['is_5fpointer',['is_pointer',['../structetl_1_1is__pointer.html',1,'etl']]],
   ['is_5fpointer_5fv',['is_pointer_v',['../namespaceetl.html#ac00eca7d51c4d2c1021402ee9a70f03c',1,'etl']]],
   ['is_5fpolymorphic',['is_polymorphic',['../structetl_1_1is__polymorphic.html',1,'etl']]],
