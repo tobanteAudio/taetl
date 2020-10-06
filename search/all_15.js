@@ -11,7 +11,7 @@ var searchData=
   ['variant',['variant',['../classetl_1_1variant.html',1,'etl::variant&lt; Types &gt;'],['../classetl_1_1variant.html#a8157ef11f791e3a7dba4ddd4cf31e4e1',1,'etl::variant::variant()']]],
   ['variant_2ehpp',['variant.hpp',['../variant_8hpp.html',1,'']]],
   ['variant_5falternative',['variant_alternative',['../structetl_1_1variant__alternative.html',1,'etl']]],
-  ['variant_5falternative_3c_20i_2c_20const_20t_20_3e',['variant_alternative&lt; I, const T &gt;',['../structetl_1_1variant__alternative_3_01I_00_01const_01T_01_4.html',1,'etl']]],
+  ['variant_5falternative_3c_20i_2c_20t_20const_20_3e',['variant_alternative&lt; I, T const &gt;',['../structetl_1_1variant__alternative_3_01I_00_01T_01const_01_4.html',1,'etl']]],
   ['variant_5falternative_3c_20i_2c_20variant_3c_20types_2e_2e_2e_20_3e_20_3e',['variant_alternative&lt; I, variant&lt; Types... &gt; &gt;',['../structetl_1_1variant__alternative_3_01I_00_01variant_3_01Types_8_8_8_01_4_01_4.html',1,'etl']]],
   ['variant_5falternative_5ft',['variant_alternative_t',['../namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed',1,'etl']]],
   ['variant_5fnpos',['variant_npos',['../namespaceetl.html#a28d369052fc23b452882a9fd514abb87',1,'etl']]],
@@ -21,7 +21,7 @@ var searchData=
   ['void_5ft',['void_t',['../namespaceetl.html#a8f76cc2621d7373b79e2fc034f160ee0',1,'etl']]],
   ['vportyield',['vPortYield',['../stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42',1,'stubs.hpp']]],
   ['vqueuedelete',['vQueueDelete',['../stubs_8hpp.html#a153422cc5143e3f5715349d0092146bb',1,'stubs.hpp']]],
-  ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#aab45dfd5e56c051cd4cef90b16848b30',1,'stubs.hpp']]],
+  ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#a9580b9293e4b191c9a2d11a12e399d17',1,'stubs.hpp']]],
   ['vtaskdelayuntil',['vTaskDelayUntil',['../stubs_8hpp.html#a332eabc61d372c584442a16b2a437886',1,'stubs.hpp']]],
   ['vtaskdelete',['vTaskDelete',['../stubs_8hpp.html#a6715f3fae8c8b0148ca051a454a20a85',1,'stubs.hpp']]],
   ['vtaskstartscheduler',['vTaskStartScheduler',['../stubs_8hpp.html#a5b975bf1a308ba1101e35c8d2562669d',1,'stubs.hpp']]]

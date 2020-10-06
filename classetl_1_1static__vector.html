@@ -134,21 +134,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ab11f5fe147a76ab4037c98e6b110a70f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab11f5fe147a76ab4037c98e6b110a70f">push_back</a> (U &amp;&amp;value) noexcept(false) -&gt; void</td></tr>
 <tr class="memdesc:ab11f5fe147a76ab4037c98e6b110a70f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends <code>value</code> at the end of the vector.  <a href="#ab11f5fe147a76ab4037c98e6b110a70f">More...</a><br /></td></tr>
 <tr class="separator:ab11f5fe147a76ab4037c98e6b110a70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aab0e6f60eeeadbd320dbedb5c15727b6"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt &gt;) &gt; </td></tr>
-<tr class="memitem:aab0e6f60eeeadbd320dbedb5c15727b6"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aab0e6f60eeeadbd320dbedb5c15727b6">move_insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, InputIt first, InputIt last) noexcept(noexcept(emplace_back(<a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc">etl::move</a>(*first))))</td></tr>
-<tr class="separator:aab0e6f60eeeadbd320dbedb5c15727b6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba9bbf993c47fa6ba1c1a3b1eb017e10"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt &gt;) &gt; </td></tr>
+<tr class="memitem:aba9bbf993c47fa6ba1c1a3b1eb017e10"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, InputIt first, InputIt last) noexcept(noexcept(emplace_back(<a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc">etl::move</a>(*first)))) -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a></td></tr>
+<tr class="separator:aba9bbf993c47fa6ba1c1a3b1eb017e10"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1cfbc43291a8b81f6d3dbecd783d05a5"><td class="memTemplParams" colspan="2">template&lt;typename... Args, TAETL_REQUIRES_(is_constructible_v&lt; T, Args... &gt;) &gt; </td></tr>
-<tr class="memitem:a1cfbc43291a8b81f6d3dbecd783d05a5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a1cfbc43291a8b81f6d3dbecd783d05a5">emplace</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, Args &amp;&amp;... args) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aab0e6f60eeeadbd320dbedb5c15727b6">move_insert</a>(position, <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> *&gt;(), <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> *&gt;()))) -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a></td></tr>
+<tr class="memitem:a1cfbc43291a8b81f6d3dbecd783d05a5"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a1cfbc43291a8b81f6d3dbecd783d05a5">emplace</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, Args &amp;&amp;... args) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a>(position, <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> *&gt;(), <a class="el" href="namespaceetl.html#a4147daa38c6c4c1e59540fa0fa27a292">etl::declval</a>&lt; <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> *&gt;()))) -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a></td></tr>
 <tr class="separator:a1cfbc43291a8b81f6d3dbecd783d05a5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad2845c4fed2c1a5247ddb9fb619cabf8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> &amp;&amp;x) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aab0e6f60eeeadbd320dbedb5c15727b6">move_insert</a>(position, &amp;x, &amp;x+1))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a>&lt; T &gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> &gt;</td></tr>
+<tr class="memitem:ad2845c4fed2c1a5247ddb9fb619cabf8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> &amp;&amp;x) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a>(position, &amp;x, &amp;x+1))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a>&lt; T &gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> &gt;</td></tr>
 <tr class="separator:ad2845c4fed2c1a5247ddb9fb619cabf8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a62edd7d729447737c3dfe2f240cc1662"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a62edd7d729447737c3dfe2f240cc1662">insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n, const T &amp;x) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#ab11f5fe147a76ab4037c98e6b110a70f">push_back</a>(x))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> &gt;</td></tr>
 <tr class="separator:a62edd7d729447737c3dfe2f240cc1662"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a124e8c4b66d68e282734ef8e638f74b5"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a124e8c4b66d68e282734ef8e638f74b5">insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a> x) noexcept(noexcept(insert(position, <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>(1), x))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> &gt;</td></tr>
 <tr class="separator:a124e8c4b66d68e282734ef8e638f74b5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a24e697f3ef5f0f3123382fa79ab146d4"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt &gt; &amp;&amp;is_constructible_v&lt; value_type, detail::iterator_reference_t&lt; InputIt &gt;&gt;) &gt; </td></tr>
-<tr class="memitem:a24e697f3ef5f0f3123382fa79ab146d4"><td class="memTemplItemLeft" align="right" valign="top">constexpr <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a24e697f3ef5f0f3123382fa79ab146d4">insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, InputIt first, InputIt last) noexcept(noexcept(emplace_back(*first)))</td></tr>
-<tr class="separator:a24e697f3ef5f0f3123382fa79ab146d4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a334defba5d7c9e9aa6fdcdc16df63224"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt &gt; &amp;&amp;is_constructible_v&lt; value_type, detail::iterator_reference_t&lt; InputIt &gt;&gt;) &gt; </td></tr>
+<tr class="memitem:a334defba5d7c9e9aa6fdcdc16df63224"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a334defba5d7c9e9aa6fdcdc16df63224">insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, InputIt first, InputIt last) noexcept(noexcept(emplace_back(*first))) -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a></td></tr>
+<tr class="separator:a334defba5d7c9e9aa6fdcdc16df63224"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aff326077d7163ef38b5f3ed7877dcfa1"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a> () noexcept</td></tr>
 <tr class="memdesc:aff326077d7163ef38b5f3ed7877dcfa1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Clears the vector.  <a href="#aff326077d7163ef38b5f3ed7877dcfa1">More...</a><br /></td></tr>
 <tr class="separator:aff326077d7163ef38b5f3ed7877dcfa1"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -158,13 +158,13 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a63325e80fd0e28f39e1b0f61f91c289f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a63325e80fd0e28f39e1b0f61f91c289f">static_vector</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> const &amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end())))</td></tr>
 <tr class="memdesc:a63325e80fd0e28f39e1b0f61f91c289f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy constructor.  <a href="#a63325e80fd0e28f39e1b0f61f91c289f">More...</a><br /></td></tr>
 <tr class="separator:a63325e80fd0e28f39e1b0f61f91c289f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab8aa29a56af3138df3057f9c394d4263"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab8aa29a56af3138df3057f9c394d4263">static_vector</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aab0e6f60eeeadbd320dbedb5c15727b6">move_insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end())))</td></tr>
+<tr class="memitem:ab8aa29a56af3138df3057f9c394d4263"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab8aa29a56af3138df3057f9c394d4263">static_vector</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end())))</td></tr>
 <tr class="memdesc:ab8aa29a56af3138df3057f9c394d4263"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move constructor.  <a href="#ab8aa29a56af3138df3057f9c394d4263">More...</a><br /></td></tr>
 <tr class="separator:ab8aa29a56af3138df3057f9c394d4263"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa7d3919efaf3447fd23555c971b50233"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aa7d3919efaf3447fd23555c971b50233">operator=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> const &amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a>()) &amp;&amp;noexcept(<a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end()))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a> &gt;, <a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&gt;</td></tr>
 <tr class="memdesc:aa7d3919efaf3447fd23555c971b50233"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy assignment.  <a href="#aa7d3919efaf3447fd23555c971b50233">More...</a><br /></td></tr>
 <tr class="separator:aa7d3919efaf3447fd23555c971b50233"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a5df81d02c863208af157da8385a98582"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a5df81d02c863208af157da8385a98582">operator=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a>()) and noexcept(<a class="el" href="classetl_1_1static__vector.html#aab0e6f60eeeadbd320dbedb5c15727b6">move_insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end()))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a> &gt;, <a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&gt;</td></tr>
+<tr class="memitem:a5df81d02c863208af157da8385a98582"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a5df81d02c863208af157da8385a98582">operator=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a>()) and noexcept(<a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end()))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a> &gt;, <a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&gt;</td></tr>
 <tr class="memdesc:a5df81d02c863208af157da8385a98582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <a href="#a5df81d02c863208af157da8385a98582">More...</a><br /></td></tr>
 <tr class="separator:a5df81d02c863208af157da8385a98582"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab6c627ed23fabc58cd482e6f895f5129"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab6c627ed23fabc58cd482e6f895f5129">static_vector</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n) noexcept(noexcept(emplace_n(n)))</td></tr>
@@ -192,8 +192,8 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a06b6f2a68942d0ef4fde6e036a640b5e"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </td></tr>
 <tr class="memitem:a06b6f2a68942d0ef4fde6e036a640b5e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a06b6f2a68942d0ef4fde6e036a640b5e">assign</a> (InputIter first, InputIter last) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a>()) and noexcept(<a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), first, last))) -&gt; void</td></tr>
 <tr class="separator:a06b6f2a68942d0ef4fde6e036a640b5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:af5c382945e40924b4f810bcf648ec2e1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#af5c382945e40924b4f810bcf648ec2e1">assign</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n, const T &amp;u) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;, void &gt;</td></tr>
-<tr class="separator:af5c382945e40924b4f810bcf648ec2e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad4e047052b12e3081448e0c8a3193858"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ad4e047052b12e3081448e0c8a3193858">assign</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n, T const &amp;u) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;, void &gt;</td></tr>
+<tr class="separator:ad4e047052b12e3081448e0c8a3193858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4e91fc177bdb050127566d0f20d929"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aba4e91fc177bdb050127566d0f20d929">operator[]</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> pos) noexcept -&gt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a></td></tr>
 <tr class="memdesc:aba4e91fc177bdb050127566d0f20d929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unchecked access to element at index <code>pos</code> (UB if index not in range)  <a href="#aba4e91fc177bdb050127566d0f20d929">More...</a><br /></td></tr>
 <tr class="separator:aba4e91fc177bdb050127566d0f20d929"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -614,8 +614,8 @@ template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; Input
 
 </div>
 </div>
-<a id="af5c382945e40924b4f810bcf648ec2e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#af5c382945e40924b4f810bcf648ec2e1">&#9670;&nbsp;</a></span>assign() <span class="overload">[2/2]</span></h2>
+<a id="ad4e047052b12e3081448e0c8a3193858"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad4e047052b12e3081448e0c8a3193858">&#9670;&nbsp;</a></span>assign() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -634,7 +634,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">const T &amp;&#160;</td>
+          <td class="paramtype">T const &amp;&#160;</td>
           <td class="paramname"><em>u</em>&#160;</td>
         </tr>
         <tr>
@@ -1274,8 +1274,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
 
 </div>
 </div>
-<a id="a24e697f3ef5f0f3123382fa79ab146d4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a24e697f3ef5f0f3123382fa79ab146d4">&#9670;&nbsp;</a></span>insert() <span class="overload">[4/4]</span></h2>
+<a id="a334defba5d7c9e9aa6fdcdc16df63224"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a334defba5d7c9e9aa6fdcdc16df63224">&#9670;&nbsp;</a></span>insert() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1288,7 +1288,7 @@ template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::insert </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::insert </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>&#160;</td>
           <td class="paramname"><em>position</em>, </td>
@@ -1308,7 +1308,8 @@ template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>
+    </td>
         </tr>
       </table>
   </td>
@@ -1349,8 +1350,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
 
 </div>
 </div>
-<a id="aab0e6f60eeeadbd320dbedb5c15727b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aab0e6f60eeeadbd320dbedb5c15727b6">&#9670;&nbsp;</a></span>move_insert()</h2>
+<a id="aba9bbf993c47fa6ba1c1a3b1eb017e10"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba9bbf993c47fa6ba1c1a3b1eb017e10">&#9670;&nbsp;</a></span>move_insert()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1363,7 +1364,7 @@ template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::move_insert </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::move_insert </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>&#160;</td>
           <td class="paramname"><em>position</em>, </td>
@@ -1383,7 +1384,8 @@ template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td></td>
+          <td></td><td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>
+    </td>
         </tr>
       </table>
   </td>
@@ -1641,7 +1643,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> </td>
+          <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>
+    </td>
         </tr>
       </table>
   </td>

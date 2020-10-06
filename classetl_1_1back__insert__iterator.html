@@ -101,9 +101,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4a25cdcf1b2466f0e748683b86d7999c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html#a4a25cdcf1b2466f0e748683b86d7999c">back_insert_iterator</a> (Container &amp;container)</td></tr>
 <tr class="memdesc:a4a25cdcf1b2466f0e748683b86d7999c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes the underlying pointer to the container to etl::addressof(c).  <a href="#a4a25cdcf1b2466f0e748683b86d7999c">More...</a><br /></td></tr>
 <tr class="separator:a4a25cdcf1b2466f0e748683b86d7999c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7a66f71d8f23c803b47dfa9a404d4167"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html#a7a66f71d8f23c803b47dfa9a404d4167">operator=</a> (const typename Container::value_type &amp;value) -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a> &amp;</td></tr>
-<tr class="memdesc:a7a66f71d8f23c803b47dfa9a404d4167"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the given value value to the container.  <a href="#a7a66f71d8f23c803b47dfa9a404d4167">More...</a><br /></td></tr>
-<tr class="separator:a7a66f71d8f23c803b47dfa9a404d4167"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aeba172d7a39ff6906ab16fec4988a7f5"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html#aeba172d7a39ff6906ab16fec4988a7f5">operator=</a> (typename Container::value_type const &amp;value) -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a> &amp;</td></tr>
+<tr class="memdesc:aeba172d7a39ff6906ab16fec4988a7f5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the given value value to the container.  <a href="#aeba172d7a39ff6906ab16fec4988a7f5">More...</a><br /></td></tr>
+<tr class="separator:aeba172d7a39ff6906ab16fec4988a7f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acc7938e379d53aaa2f99e03d6a3cbae6"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1back__insert__iterator.html#acc7938e379d53aaa2f99e03d6a3cbae6">operator=</a> (typename Container::value_type &amp;&amp;value) -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a> &amp;</td></tr>
 <tr class="memdesc:acc7938e379d53aaa2f99e03d6a3cbae6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts the given value value to the container.  <a href="#acc7938e379d53aaa2f99e03d6a3cbae6">More...</a><br /></td></tr>
 <tr class="separator:acc7938e379d53aaa2f99e03d6a3cbae6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -373,8 +373,8 @@ template&lt;typename Container &gt; </div>
 
 </div>
 </div>
-<a id="a7a66f71d8f23c803b47dfa9a404d4167"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7a66f71d8f23c803b47dfa9a404d4167">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="aeba172d7a39ff6906ab16fec4988a7f5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aeba172d7a39ff6906ab16fec4988a7f5">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -387,7 +387,7 @@ template&lt;typename Container &gt; </div>
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1back__insert__iterator.html">etl::back_insert_iterator</a>&lt; Container &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const typename Container::value_type &amp;&#160;</td>
+          <td class="paramtype">typename Container::value_type const &amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1back__insert__iterator.html">back_insert_iterator</a>&amp;
     </td>

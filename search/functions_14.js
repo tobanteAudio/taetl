@@ -8,7 +8,7 @@ var searchData=
   ['variant',['variant',['../classetl_1_1variant.html#a8157ef11f791e3a7dba4ddd4cf31e4e1',1,'etl::variant']]],
   ['vportyield',['vPortYield',['../stubs_8hpp.html#a7c16eb2af816c607da9badb56e9b8d42',1,'stubs.hpp']]],
   ['vqueuedelete',['vQueueDelete',['../stubs_8hpp.html#a153422cc5143e3f5715349d0092146bb',1,'stubs.hpp']]],
-  ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#aab45dfd5e56c051cd4cef90b16848b30',1,'stubs.hpp']]],
+  ['vtaskdelay',['vTaskDelay',['../stubs_8hpp.html#a9580b9293e4b191c9a2d11a12e399d17',1,'stubs.hpp']]],
   ['vtaskdelayuntil',['vTaskDelayUntil',['../stubs_8hpp.html#a332eabc61d372c584442a16b2a437886',1,'stubs.hpp']]],
   ['vtaskdelete',['vTaskDelete',['../stubs_8hpp.html#a6715f3fae8c8b0148ca051a454a20a85',1,'stubs.hpp']]],
   ['vtaskstartscheduler',['vTaskStartScheduler',['../stubs_8hpp.html#a5b975bf1a308ba1101e35c8d2562669d',1,'stubs.hpp']]]

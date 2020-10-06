@@ -20,7 +20,7 @@ var searchData=
   ['ln2f',['ln2f',['../namespaceetl_1_1numbers.html#a8f4d0a5cdb9e591382176cb7c3c63131',1,'etl::numbers']]],
   ['ln2l',['ln2l',['../namespaceetl_1_1numbers.html#abb2199c499ca639678a6148154a97b4d',1,'etl::numbers']]],
   ['lock',['lock',['../structetl_1_1hardware_1_1stm32_1_1gpio__memory__layout.html#acefd9292ceaa610f67fd70125de0856e',1,'etl::hardware::stm32::gpio_memory_layout']]],
-  ['lock_5fguard',['lock_guard',['../classetl_1_1lock__guard.html',1,'etl::lock_guard&lt; MutexT &gt;'],['../classetl_1_1lock__guard.html#a66a2f00d4449497e05f0579544288863',1,'etl::lock_guard::lock_guard(mutex_type &amp;m)'],['../classetl_1_1lock__guard.html#aef8ff52bef4af3a3a620b0dccc2bbb2f',1,'etl::lock_guard::lock_guard(mutex_type &amp;m, adopt_lock_t)'],['../classetl_1_1lock__guard.html#ac4779d21eaba390aa28edb9bc15f9470',1,'etl::lock_guard::lock_guard(const lock_guard &amp;)=delete']]],
+  ['lock_5fguard',['lock_guard',['../classetl_1_1lock__guard.html',1,'etl::lock_guard&lt; MutexT &gt;'],['../classetl_1_1lock__guard.html#a66a2f00d4449497e05f0579544288863',1,'etl::lock_guard::lock_guard(mutex_type &amp;m)'],['../classetl_1_1lock__guard.html#aef8ff52bef4af3a3a620b0dccc2bbb2f',1,'etl::lock_guard::lock_guard(mutex_type &amp;m, adopt_lock_t)'],['../classetl_1_1lock__guard.html#ac5ba73d23728f83293f467532ae622ed',1,'etl::lock_guard::lock_guard(lock_guard const &amp;)=delete']]],
   ['log10e',['log10e',['../namespaceetl_1_1numbers.html#a5ec8c8f73621f83dc793d8c8163fbac0',1,'etl::numbers']]],
   ['log10e_5fv',['log10e_v',['../namespaceetl_1_1numbers.html#af2e97977b41496dc42b1b2ab3c6c07c6',1,'etl::numbers']]],
   ['log10ef',['log10ef',['../namespaceetl_1_1numbers.html#a7762d126b80f573a5eea4ac5b6024d56',1,'etl::numbers']]],

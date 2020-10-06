@@ -82,10 +82,10 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a9bd04ef65a775f9316989c60b898ecb0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a33fa39f774b9f78ccfdc43be3b7bee5e"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#a33fa39f774b9f78ccfdc43be3b7bee5e">~scoped_lock</a> ()</td></tr>
 <tr class="separator:a33fa39f774b9f78ccfdc43be3b7bee5e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a69df8b40d7991ae79228bfb460058d17"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#a69df8b40d7991ae79228bfb460058d17">scoped_lock</a> (const <a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> &amp;)=delete</td></tr>
-<tr class="separator:a69df8b40d7991ae79228bfb460058d17"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8faee5f3da4d5c9185e899dc0d289574"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#a8faee5f3da4d5c9185e899dc0d289574">operator=</a> (const <a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> &amp;)=delete</td></tr>
-<tr class="separator:a8faee5f3da4d5c9185e899dc0d289574"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa5af0fcd12123bc8e5ce116c3778d8bc"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#aa5af0fcd12123bc8e5ce116c3778d8bc">scoped_lock</a> (<a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> const &amp;)=delete</td></tr>
+<tr class="separator:aa5af0fcd12123bc8e5ce116c3778d8bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3d30d121dfacb15ce0eabb07ba4bb646"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#a3d30d121dfacb15ce0eabb07ba4bb646">operator=</a> (<a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> const &amp;)=delete</td></tr>
+<tr class="separator:a3d30d121dfacb15ce0eabb07ba4bb646"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a645dbe06a37f4244e5b2d41d6c464929"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#a645dbe06a37f4244e5b2d41d6c464929">scoped_lock</a> (<a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> &amp;&amp;) noexcept=default</td></tr>
 <tr class="separator:a645dbe06a37f4244e5b2d41d6c464929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aca3a7095188f7be985dae78a431d4cb2"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1scoped__lock.html#aca3a7095188f7be985dae78a431d4cb2">operator=</a> (<a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> &amp;&amp;) noexcept -&gt; <a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> &amp;=default</td></tr>
@@ -153,8 +153,8 @@ template&lt;typename MutexT &gt; </div>
 
 </div>
 </div>
-<a id="a69df8b40d7991ae79228bfb460058d17"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a69df8b40d7991ae79228bfb460058d17">&#9670;&nbsp;</a></span>scoped_lock() <span class="overload">[2/3]</span></h2>
+<a id="aa5af0fcd12123bc8e5ce116c3778d8bc"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa5af0fcd12123bc8e5ce116c3778d8bc">&#9670;&nbsp;</a></span>scoped_lock() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -167,7 +167,7 @@ template&lt;typename MutexT &gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classetl_1_1scoped__lock.html">etl::scoped_lock</a>&lt; MutexT &gt;::<a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a>&lt; MutexT &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a>&lt; MutexT &gt; const &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -210,8 +210,8 @@ template&lt;typename MutexT &gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="a8faee5f3da4d5c9185e899dc0d289574"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8faee5f3da4d5c9185e899dc0d289574">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
+<a id="a3d30d121dfacb15ce0eabb07ba4bb646"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3d30d121dfacb15ce0eabb07ba4bb646">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -224,7 +224,7 @@ template&lt;typename MutexT &gt; </div>
         <tr>
           <td class="memname">auto <a class="el" href="classetl_1_1scoped__lock.html">etl::scoped_lock</a>&lt; MutexT &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a>&lt; MutexT &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1scoped__lock.html">scoped_lock</a>&lt; MutexT &gt; const &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>

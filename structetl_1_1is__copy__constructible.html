@@ -70,7 +70,7 @@ $(function() {
 </div><!--header-->
 <div class="contents">
 
-<p>If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_constructible&lt;T, const T&amp;&gt;::value.  
+<p>If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_constructible&lt;T, T const&amp;&gt;::value.  
  <a href="structetl_1_1is__copy__constructible.html#details">More...</a></p>
 
 <p><code>#include &lt;<a class="el" href="type__traits_8hpp_source.html">type_traits.hpp</a>&gt;</code></p>
@@ -94,7 +94,7 @@ Collaboration diagram for etl::is_copy_constructible&lt; T &gt;:</div>
 <div class="textblock"><h3>template&lt;typename T&gt;<br />
 struct etl::is_copy_constructible&lt; T &gt;</h3>
 
-<p>If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_constructible&lt;T, const T&amp;&gt;::value. </p>
+<p>If T is not a referenceable type (i.e., possibly cv-qualified void or a function type with a cv-qualifier-seq or a ref-qualifier), provides a member constant value equal to false. Otherwise, provides a member constant value equal to etl::is_constructible&lt;T, T const&amp;&gt;::value. </p>
 <p>T shall be a complete type, (possibly cv-qualified) void, or an array of unknown bound. Otherwise, the behavior is undefined. If an instantiation of a template above depends, directly or indirectly, on an incomplete type, and that instantiation could yield a different result if that type were hypothetically completed, the behavior is undefined.</p>
 <p>The behavior of a program that adds specializations for any of the templates described on this page is undefined. </p>
 </div><hr/>The documentation for this struct was generated from the following file:<ul>

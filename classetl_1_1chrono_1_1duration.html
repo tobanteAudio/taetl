@@ -92,20 +92,20 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5c8e2a8648cf827e1c2c98963ede148f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a5c8e2a8648cf827e1c2c98963ede148f">duration</a> () noexcept=default</td></tr>
 <tr class="memdesc:a5c8e2a8648cf827e1c2c98963ede148f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new duration from one of several optional data sources. The default constructor is defaulted.  <a href="#a5c8e2a8648cf827e1c2c98963ede148f">More...</a><br /></td></tr>
 <tr class="separator:a5c8e2a8648cf827e1c2c98963ede148f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4ae653ef629d9813e45345becd107ae5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a4ae653ef629d9813e45345becd107ae5">duration</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> &amp;) noexcept=default</td></tr>
-<tr class="memdesc:a4ae653ef629d9813e45345becd107ae5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new duration from one of several optional data sources. The copy constructor is defaulted (makes a bitwise copy of the tick count).  <a href="#a4ae653ef629d9813e45345becd107ae5">More...</a><br /></td></tr>
-<tr class="separator:a4ae653ef629d9813e45345becd107ae5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , TAETL_REQUIRES_((is_convertible_v&lt; Rep2, rep &gt;)&amp;&amp;( treat_as_floating_point_v&lt; rep &gt;||!treat_as_floating_point_v&lt; Rep2 &gt;)) &gt; </td></tr>
-<tr class="memitem:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a6e5fb0105f6dfb5d2b3abaa6c6274d2e">duration</a> (const Rep2 &amp;r) noexcept</td></tr>
-<tr class="memdesc:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a duration with r ticks.  <a href="#a6e5fb0105f6dfb5d2b3abaa6c6274d2e">More...</a><br /></td></tr>
-<tr class="separator:a6e5fb0105f6dfb5d2b3abaa6c6274d2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , typename Period2 , || &gt; </td></tr>
-<tr class="memitem:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#abdc02c83b02da861af6c81f3d94a8a1b">duration</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;other) noexcept</td></tr>
-<tr class="memdesc:abdc02c83b02da861af6c81f3d94a8a1b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a duration by converting d to an appropriate period and tick count, as if by duration_cast&lt;duration&gt;(d).<a class="el" href="classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72" title="Returns the number of ticks for this duration. ">count()</a>.  <a href="#abdc02c83b02da861af6c81f3d94a8a1b">More...</a><br /></td></tr>
-<tr class="separator:abdc02c83b02da861af6c81f3d94a8a1b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aded9e28e91e13df8ef03960b53d74aab"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#aded9e28e91e13df8ef03960b53d74aab">operator=</a> (const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> &amp;other) -&gt; <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> &amp;=default</td></tr>
-<tr class="memdesc:aded9e28e91e13df8ef03960b53d74aab"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the contents of one duration to another.  <a href="#aded9e28e91e13df8ef03960b53d74aab">More...</a><br /></td></tr>
-<tr class="separator:aded9e28e91e13df8ef03960b53d74aab"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a8e2b393550b1096714bfac15ff3618db"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a8e2b393550b1096714bfac15ff3618db">duration</a> (<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> const &amp;) noexcept=default</td></tr>
+<tr class="memdesc:a8e2b393550b1096714bfac15ff3618db"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a new duration from one of several optional data sources. The copy constructor is defaulted (makes a bitwise copy of the tick count).  <a href="#a8e2b393550b1096714bfac15ff3618db">More...</a><br /></td></tr>
+<tr class="separator:a8e2b393550b1096714bfac15ff3618db"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa1233ce7089db299729b7c303c4ac5bf"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , TAETL_REQUIRES_((is_convertible_v&lt; Rep2, rep &gt;)&amp;&amp;( treat_as_floating_point_v&lt; rep &gt;||!treat_as_floating_point_v&lt; Rep2 &gt;)) &gt; </td></tr>
+<tr class="memitem:aa1233ce7089db299729b7c303c4ac5bf"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#aa1233ce7089db299729b7c303c4ac5bf">duration</a> (Rep2 const &amp;r) noexcept</td></tr>
+<tr class="memdesc:aa1233ce7089db299729b7c303c4ac5bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a duration with r ticks.  <a href="#aa1233ce7089db299729b7c303c4ac5bf">More...</a><br /></td></tr>
+<tr class="separator:aa1233ce7089db299729b7c303c4ac5bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab70b08dacfacd7e7b5bf25fe6dbc890b"><td class="memTemplParams" colspan="2">template&lt;typename Rep2 , typename Period2 , || &gt; </td></tr>
+<tr class="memitem:ab70b08dacfacd7e7b5bf25fe6dbc890b"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#ab70b08dacfacd7e7b5bf25fe6dbc890b">duration</a> (<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; const &amp;other) noexcept</td></tr>
+<tr class="memdesc:ab70b08dacfacd7e7b5bf25fe6dbc890b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a duration by converting d to an appropriate period and tick count, as if by duration_cast&lt;duration&gt;(d).<a class="el" href="classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72" title="Returns the number of ticks for this duration. ">count()</a>.  <a href="#ab70b08dacfacd7e7b5bf25fe6dbc890b">More...</a><br /></td></tr>
+<tr class="separator:ab70b08dacfacd7e7b5bf25fe6dbc890b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3bb269e4442ce23a1cae6652995797bb"><td class="memItemLeft" align="right" valign="top">auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a3bb269e4442ce23a1cae6652995797bb">operator=</a> (<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> const &amp;other) -&gt; <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> &amp;=default</td></tr>
+<tr class="memdesc:a3bb269e4442ce23a1cae6652995797bb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns the contents of one duration to another.  <a href="#a3bb269e4442ce23a1cae6652995797bb">More...</a><br /></td></tr>
+<tr class="separator:a3bb269e4442ce23a1cae6652995797bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a860b5b05bd68506e448941e274951d72"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1chrono_1_1duration.html#a860b5b05bd68506e448941e274951d72">count</a> () const -&gt; <a class="el" href="classetl_1_1chrono_1_1duration.html#a1c57e1a77c765c16c58ef9a46d703d15">rep</a></td></tr>
 <tr class="memdesc:a860b5b05bd68506e448941e274951d72"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of ticks for this duration.  <a href="#a860b5b05bd68506e448941e274951d72">More...</a><br /></td></tr>
 <tr class="separator:a860b5b05bd68506e448941e274951d72"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -213,8 +213,8 @@ template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
 
 </div>
 </div>
-<a id="a4ae653ef629d9813e45345becd107ae5"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a4ae653ef629d9813e45345becd107ae5">&#9670;&nbsp;</a></span>duration() <span class="overload">[2/4]</span></h2>
+<a id="a8e2b393550b1096714bfac15ff3618db"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e2b393550b1096714bfac15ff3618db">&#9670;&nbsp;</a></span>duration() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -227,7 +227,7 @@ template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
         <tr>
           <td class="memname"><a class="el" href="classetl_1_1chrono_1_1duration.html">etl::chrono::duration</a>&lt; Rep, Period &gt;::<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; const &amp;&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
         </tr>
@@ -243,8 +243,8 @@ template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
 
 </div>
 </div>
-<a id="a6e5fb0105f6dfb5d2b3abaa6c6274d2e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e5fb0105f6dfb5d2b3abaa6c6274d2e">&#9670;&nbsp;</a></span>duration() <span class="overload">[3/4]</span></h2>
+<a id="aa1233ce7089db299729b7c303c4ac5bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa1233ce7089db299729b7c303c4ac5bf">&#9670;&nbsp;</a></span>duration() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -259,7 +259,7 @@ template&lt;typename Rep2 , TAETL_REQUIRES_((is_convertible_v&lt; Rep2, rep &gt;
         <tr>
           <td class="memname">constexpr <a class="el" href="classetl_1_1chrono_1_1duration.html">etl::chrono::duration</a>&lt; Rep, Period &gt;::<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> </td>
           <td>(</td>
-          <td class="paramtype">const Rep2 &amp;&#160;</td>
+          <td class="paramtype">Rep2 const &amp;&#160;</td>
           <td class="paramname"><em>r</em></td><td>)</td>
           <td></td>
         </tr>
@@ -277,8 +277,8 @@ template&lt;typename Rep2 , TAETL_REQUIRES_((is_convertible_v&lt; Rep2, rep &gt;
 
 </div>
 </div>
-<a id="abdc02c83b02da861af6c81f3d94a8a1b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#abdc02c83b02da861af6c81f3d94a8a1b">&#9670;&nbsp;</a></span>duration() <span class="overload">[4/4]</span></h2>
+<a id="ab70b08dacfacd7e7b5bf25fe6dbc890b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab70b08dacfacd7e7b5bf25fe6dbc890b">&#9670;&nbsp;</a></span>duration() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -293,7 +293,7 @@ template&lt;typename Rep2 , typename Period2 , || &gt; </div>
         <tr>
           <td class="memname">constexpr <a class="el" href="classetl_1_1chrono_1_1duration.html">etl::chrono::duration</a>&lt; Rep, Period &gt;::<a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep2, Period2 &gt; const &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td></td>
         </tr>
@@ -584,8 +584,8 @@ template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
 
 </div>
 </div>
-<a id="aded9e28e91e13df8ef03960b53d74aab"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aded9e28e91e13df8ef03960b53d74aab">&#9670;&nbsp;</a></span>operator=()</h2>
+<a id="a3bb269e4442ce23a1cae6652995797bb"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3bb269e4442ce23a1cae6652995797bb">&#9670;&nbsp;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -598,7 +598,7 @@ template&lt;typename Rep, typename Period = etl::ratio&lt;1&gt;&gt; </div>
         <tr>
           <td class="memname">auto <a class="el" href="classetl_1_1chrono_1_1duration.html">etl::chrono::duration</a>&lt; Rep, Period &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a>&lt; Rep, Period &gt; const &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> -&gt;  <a class="el" href="classetl_1_1chrono_1_1duration.html">duration</a> &amp;=default</td>
         </tr>

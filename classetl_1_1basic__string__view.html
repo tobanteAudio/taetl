@@ -125,9 +125,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:aa289acd020eeb2630d62c6eda15caa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3be7c860941f6d2083039e72175165f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a3be7c860941f6d2083039e72175165f6">~basic_string_view</a> () noexcept=default</td></tr>
 <tr class="separator:a3be7c860941f6d2083039e72175165f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a924871fc9429d312d3274cec6a306db9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a924871fc9429d312d3274cec6a306db9">operator=</a> (const <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;view) noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td></tr>
-<tr class="memdesc:a924871fc9429d312d3274cec6a306db9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the view with that of view.  <a href="#a924871fc9429d312d3274cec6a306db9">More...</a><br /></td></tr>
-<tr class="separator:a924871fc9429d312d3274cec6a306db9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6d91d5f4fc61a2b66e58bbea0107f31d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a6d91d5f4fc61a2b66e58bbea0107f31d">operator=</a> (<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> const &amp;view) noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td></tr>
+<tr class="memdesc:a6d91d5f4fc61a2b66e58bbea0107f31d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Replaces the view with that of view.  <a href="#a6d91d5f4fc61a2b66e58bbea0107f31d">More...</a><br /></td></tr>
+<tr class="separator:a6d91d5f4fc61a2b66e58bbea0107f31d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a727971fbd511ce4b60a0ada7c94cddf2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a727971fbd511ce4b60a0ada7c94cddf2">begin</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#ab8101a43c4f43bf83823ef2aff521c69">const_iterator</a></td></tr>
 <tr class="memdesc:a727971fbd511ce4b60a0ada7c94cddf2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator to the first character of the view.  <a href="#a727971fbd511ce4b60a0ada7c94cddf2">More...</a><br /></td></tr>
 <tr class="separator:a727971fbd511ce4b60a0ada7c94cddf2"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -284,12 +284,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a401c9c544188c527494ef76909547db3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a401c9c544188c527494ef76909547db3">find_last_not_of</a> (CharType c, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
 <tr class="memdesc:a401c9c544188c527494ef76909547db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(etl::addressof(c), 1), pos).  <a href="#a401c9c544188c527494ef76909547db3">More...</a><br /></td></tr>
 <tr class="separator:a401c9c544188c527494ef76909547db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac0f77c7c41b331351a2945f41d93d0a9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ac0f77c7c41b331351a2945f41d93d0a9">find_last_not_of</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
-<tr class="memdesc:ac0f77c7c41b331351a2945f41d93d0a9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s, count), pos).  <a href="#ac0f77c7c41b331351a2945f41d93d0a9">More...</a><br /></td></tr>
-<tr class="separator:ac0f77c7c41b331351a2945f41d93d0a9"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9a88778a4830f776be4faba591ee0ff9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a9a88778a4830f776be4faba591ee0ff9">find_last_not_of</a> (const CharType *s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
-<tr class="memdesc:a9a88778a4830f776be4faba591ee0ff9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s), pos)  <a href="#a9a88778a4830f776be4faba591ee0ff9">More...</a><br /></td></tr>
-<tr class="separator:a9a88778a4830f776be4faba591ee0ff9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1d061d3ef3fede28c73af8ca6d55df3c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a1d061d3ef3fede28c73af8ca6d55df3c">find_last_not_of</a> (<a class="el" href="classetl_1_1basic__string__view.html#a72f4f2d1c481d41f47b6ac6c3f12ca97">const_pointer</a> s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:a1d061d3ef3fede28c73af8ca6d55df3c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s, count), pos).  <a href="#a1d061d3ef3fede28c73af8ca6d55df3c">More...</a><br /></td></tr>
+<tr class="separator:a1d061d3ef3fede28c73af8ca6d55df3c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae8eafaac4581693076a45ac2dcbaaf2e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ae8eafaac4581693076a45ac2dcbaaf2e">find_last_not_of</a> (<a class="el" href="classetl_1_1basic__string__view.html#a72f4f2d1c481d41f47b6ac6c3f12ca97">const_pointer</a> s, <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos=<a class="el" href="classetl_1_1basic__string__view.html#a973435d2216ba5bc63663c5c4eee7405">npos</a>) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a></td></tr>
+<tr class="memdesc:ae8eafaac4581693076a45ac2dcbaaf2e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds the last character not equal to any of the characters in the given character sequence. Equivalent to find_last_not_of(basic_string_view(s), pos)  <a href="#ae8eafaac4581693076a45ac2dcbaaf2e">More...</a><br /></td></tr>
+<tr class="separator:ae8eafaac4581693076a45ac2dcbaaf2e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-static-attribs"></a>
 Static Public Attributes</h2></td></tr>
@@ -1840,8 +1840,8 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
 
 </div>
 </div>
-<a id="ac0f77c7c41b331351a2945f41d93d0a9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac0f77c7c41b331351a2945f41d93d0a9">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[3/4]</span></h2>
+<a id="a1d061d3ef3fede28c73af8ca6d55df3c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a1d061d3ef3fede28c73af8ca6d55df3c">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[3/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1854,7 +1854,7 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::find_last_not_of </td>
           <td>(</td>
-          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a72f4f2d1c481d41f47b6ac6c3f12ca97">const_pointer</a>&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -1888,8 +1888,8 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
 
 </div>
 </div>
-<a id="a9a88778a4830f776be4faba591ee0ff9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9a88778a4830f776be4faba591ee0ff9">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[4/4]</span></h2>
+<a id="ae8eafaac4581693076a45ac2dcbaaf2e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae8eafaac4581693076a45ac2dcbaaf2e">&#9670;&nbsp;</a></span>find_last_not_of() <span class="overload">[4/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1902,7 +1902,7 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::find_last_not_of </td>
           <td>(</td>
-          <td class="paramtype">const CharType *&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a72f4f2d1c481d41f47b6ac6c3f12ca97">const_pointer</a>&#160;</td>
           <td class="paramname"><em>s</em>, </td>
         </tr>
         <tr>
@@ -2192,8 +2192,8 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
 
 </div>
 </div>
-<a id="a924871fc9429d312d3274cec6a306db9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a924871fc9429d312d3274cec6a306db9">&#9670;&nbsp;</a></span>operator=()</h2>
+<a id="a6d91d5f4fc61a2b66e58bbea0107f31d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6d91d5f4fc61a2b66e58bbea0107f31d">&#9670;&nbsp;</a></span>operator=()</h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2206,7 +2206,7 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::operator= </td>
           <td>(</td>
-          <td class="paramtype">const <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharType, Traits &gt; &amp;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharType, Traits &gt; const &amp;&#160;</td>
           <td class="paramname"><em>view</em></td><td>)</td>
           <td> -&gt;  <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td>
         </tr>
