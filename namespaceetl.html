@@ -1727,6 +1727,27 @@ Functions</h2></td></tr>
 <tr class="memitem:ab8d70a28a83d255fa5c55affb235f297"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab8d70a28a83d255fa5c55affb235f297">atol</a> (char const *str) -&gt; long</td></tr>
 <tr class="memdesc:ab8d70a28a83d255fa5c55affb235f297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Parses the C-string str interpreting its content as an integral number, which is returned as a value of type long int.  <a href="#ab8d70a28a83d255fa5c55affb235f297">More...</a><br /></td></tr>
 <tr class="separator:ab8d70a28a83d255fa5c55affb235f297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac72afd377245fa4f73d8c4c49b5e42fd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ac72afd377245fa4f73d8c4c49b5e42fd">strcpy</a> (char *dest, char const *src) -&gt; char *</td></tr>
+<tr class="memdesc:ac72afd377245fa4f73d8c4c49b5e42fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies the character string pointed to by <code>src</code>, including the null terminator, to the character array whose first element is pointed to by <code>dest</code>.  <a href="#ac72afd377245fa4f73d8c4c49b5e42fd">More...</a><br /></td></tr>
+<tr class="separator:ac72afd377245fa4f73d8c4c49b5e42fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a591fc182edd0e8beef7af369c2dd772f"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a591fc182edd0e8beef7af369c2dd772f">strncpy</a> (char *dest, char const *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) -&gt; char *</td></tr>
+<tr class="memdesc:a591fc182edd0e8beef7af369c2dd772f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copies at most <code>count</code> characters of the byte string pointed to by <code>src</code> (including the terminating null character) to character array pointed to by <code>dest</code>.  <a href="#a591fc182edd0e8beef7af369c2dd772f">More...</a><br /></td></tr>
+<tr class="separator:a591fc182edd0e8beef7af369c2dd772f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f52f9a0c2a72681b011673eb4d16997"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1f52f9a0c2a72681b011673eb4d16997">strlen</a> (char const *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
+<tr class="memdesc:a1f52f9a0c2a72681b011673eb4d16997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#a1f52f9a0c2a72681b011673eb4d16997">More...</a><br /></td></tr>
+<tr class="separator:a1f52f9a0c2a72681b011673eb4d16997"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abbb9a3999d07c6ea33b804dc470d6db3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#abbb9a3999d07c6ea33b804dc470d6db3">strcat</a> (char *dest, char const *src) -&gt; char *</td></tr>
+<tr class="memdesc:abbb9a3999d07c6ea33b804dc470d6db3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a copy of the character string pointed to by <code>src</code> to the end of the character string pointed to by <code>dest</code>. The character src[0] replaces the null terminator at the end of dest. The resulting byte string is null-terminated.  <a href="#abbb9a3999d07c6ea33b804dc470d6db3">More...</a><br /></td></tr>
+<tr class="separator:abbb9a3999d07c6ea33b804dc470d6db3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3a52c188c85f66642fdcd0b2a5c0f343"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a3a52c188c85f66642fdcd0b2a5c0f343">strncat</a> (char *dest, char const *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) -&gt; char *</td></tr>
+<tr class="memdesc:a3a52c188c85f66642fdcd0b2a5c0f343"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a byte string pointed to by <code>src</code> to a byte string pointed to by <code>dest</code>. At most <code>count</code> characters are copied. The resulting byte string is null-terminated.  <a href="#a3a52c188c85f66642fdcd0b2a5c0f343">More...</a><br /></td></tr>
+<tr class="separator:a3a52c188c85f66642fdcd0b2a5c0f343"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2b99355fef2ddb6740fbda691efe5591"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2b99355fef2ddb6740fbda691efe5591">strcmp</a> (char const *lhs, char const *rhs) -&gt; int</td></tr>
+<tr class="memdesc:a2b99355fef2ddb6740fbda691efe5591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the C string lhs to the C string rhs.  <a href="#a2b99355fef2ddb6740fbda691efe5591">More...</a><br /></td></tr>
+<tr class="separator:a2b99355fef2ddb6740fbda691efe5591"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a86ea9bb99dc7df1c93691e27036d4e4c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a86ea9bb99dc7df1c93691e27036d4e4c">strncmp</a> (char const *lhs, char const *rhs, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) -&gt; int</td></tr>
+<tr class="memdesc:a86ea9bb99dc7df1c93691e27036d4e4c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares at most <code>count</code> characters of two possibly null-terminated arrays. The comparison is done lexicographically. Characters following the null character are not compared.  <a href="#a86ea9bb99dc7df1c93691e27036d4e4c">More...</a><br /></td></tr>
+<tr class="separator:a86ea9bb99dc7df1c93691e27036d4e4c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a7fa1c3f3f946c9269a7aa241e3efcf"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1a7fa1c3f3f946c9269a7aa241e3efcf">memcpy</a> (void *dest, void const *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
 <tr class="memdesc:a1a7fa1c3f3f946c9269a7aa241e3efcf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may not overlap. If source and destination might overlap, <a class="el" href="namespaceetl.html#a5fc59b99a0f8d7bc798c0228fd37bbae" title="Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may...">memmove()</a> must be used instead.  <a href="#a1a7fa1c3f3f946c9269a7aa241e3efcf">More...</a><br /></td></tr>
 <tr class="separator:a1a7fa1c3f3f946c9269a7aa241e3efcf"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1736,12 +1757,6 @@ Functions</h2></td></tr>
 <tr class="memitem:a5fc59b99a0f8d7bc798c0228fd37bbae"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5fc59b99a0f8d7bc798c0228fd37bbae">memmove</a> (void *dest, void const *src, <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> n) -&gt; void *</td></tr>
 <tr class="memdesc:a5fc59b99a0f8d7bc798c0228fd37bbae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Copy the first n bytes pointed to by src to the buffer pointed to by dest. Source and destination may overlap.  <a href="#a5fc59b99a0f8d7bc798c0228fd37bbae">More...</a><br /></td></tr>
 <tr class="separator:a5fc59b99a0f8d7bc798c0228fd37bbae"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a1f52f9a0c2a72681b011673eb4d16997"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a1f52f9a0c2a72681b011673eb4d16997">strlen</a> (char const *str) -&gt; <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
-<tr class="memdesc:a1f52f9a0c2a72681b011673eb4d16997"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the length of the C string str.  <a href="#a1f52f9a0c2a72681b011673eb4d16997">More...</a><br /></td></tr>
-<tr class="separator:a1f52f9a0c2a72681b011673eb4d16997"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a2b99355fef2ddb6740fbda691efe5591"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a2b99355fef2ddb6740fbda691efe5591">strcmp</a> (char const *lhs, char const *rhs) -&gt; int</td></tr>
-<tr class="memdesc:a2b99355fef2ddb6740fbda691efe5591"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares the C string lhs to the C string rhs.  <a href="#a2b99355fef2ddb6740fbda691efe5591">More...</a><br /></td></tr>
-<tr class="separator:a2b99355fef2ddb6740fbda691efe5591"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a0a1c3baeebc248b3f787a308af595c6a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a0a1c3baeebc248b3f787a308af595c6a">swap</a> (T &amp;a, T &amp;b) noexcept -&gt; void</td></tr>
 <tr class="memdesc:a0a1c3baeebc248b3f787a308af595c6a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the given values. Swaps the values a and b. This overload does not participate in overload resolution unless <a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v&lt;T&gt;</a> &amp;&amp; <a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">etl::is_move_assignable_v&lt;T&gt;</a> is true.  <a href="#a0a1c3baeebc248b3f787a308af595c6a">More...</a><br /></td></tr>
@@ -14547,6 +14562,38 @@ template&lt;typename BidirIter , typename UnaryPredicate &gt; </div>
 
 </div>
 </div>
+<a id="abbb9a3999d07c6ea33b804dc470d6db3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abbb9a3999d07c6ea33b804dc470d6db3">&#9670;&nbsp;</a></span>strcat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::strcat </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>src</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; char*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a copy of the character string pointed to by <code>src</code> to the end of the character string pointed to by <code>dest</code>. The character src[0] replaces the null terminator at the end of dest. The resulting byte string is null-terminated. </p>
+<p>The behavior is undefined if the destination array is not large enough for the contents of both src and dest and the terminating null character. The behavior is undefined if the strings overlap. </p>
+
+</div>
+</div>
 <a id="a2b99355fef2ddb6740fbda691efe5591"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a2b99355fef2ddb6740fbda691efe5591">&#9670;&nbsp;</a></span>strcmp()</h2>
 
@@ -14579,6 +14626,39 @@ template&lt;typename BidirIter , typename UnaryPredicate &gt; </div>
 
 </div>
 </div>
+<a id="ac72afd377245fa4f73d8c4c49b5e42fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac72afd377245fa4f73d8c4c49b5e42fd">&#9670;&nbsp;</a></span>strcpy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::strcpy </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>src</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; char*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies the character string pointed to by <code>src</code>, including the null terminator, to the character array whose first element is pointed to by <code>dest</code>. </p>
+<p>The behavior is undefined if the dest array is not large enough. The behavior is undefined if the strings overlap.</p>
+<dl class="section return"><dt>Returns</dt><dd>dest </dd></dl>
+
+</div>
+</div>
 <a id="a1f52f9a0c2a72681b011673eb4d16997"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a1f52f9a0c2a72681b011673eb4d16997">&#9670;&nbsp;</a></span>strlen()</h2>
 
@@ -14597,6 +14677,121 @@ template&lt;typename BidirIter , typename UnaryPredicate &gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the length of the C string str. </p>
+
+</div>
+</div>
+<a id="a3a52c188c85f66642fdcd0b2a5c0f343"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a3a52c188c85f66642fdcd0b2a5c0f343">&#9670;&nbsp;</a></span>strncat()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::strncat </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; char*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Appends a byte string pointed to by <code>src</code> to a byte string pointed to by <code>dest</code>. At most <code>count</code> characters are copied. The resulting byte string is null-terminated. </p>
+<p>The destination byte string must have enough space for the contents of both dest and src plus the terminating null character, except that the size of src is limited to count. The behavior is undefined if the strings overlap. </p>
+
+</div>
+</div>
+<a id="a86ea9bb99dc7df1c93691e27036d4e4c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a86ea9bb99dc7df1c93691e27036d4e4c">&#9670;&nbsp;</a></span>strncmp()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::strncmp </td>
+          <td>(</td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>lhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>rhs</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; int
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Compares at most <code>count</code> characters of two possibly null-terminated arrays. The comparison is done lexicographically. Characters following the null character are not compared. </p>
+<p>The behavior is undefined when access occurs past the end of either array <code>lhs</code> or <code>rhs</code>. The behavior is undefined when either lhs or rhs is the null pointer. </p>
+
+</div>
+</div>
+<a id="a591fc182edd0e8beef7af369c2dd772f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a591fc182edd0e8beef7af369c2dd772f">&#9670;&nbsp;</a></span>strncpy()</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto etl::strncpy </td>
+          <td>(</td>
+          <td class="paramtype">char *&#160;</td>
+          <td class="paramname"><em>dest</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">char const *&#160;</td>
+          <td class="paramname"><em>src</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a> const&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; char*
+</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>Copies at most <code>count</code> characters of the byte string pointed to by <code>src</code> (including the terminating null character) to character array pointed to by <code>dest</code>. </p>
+<p>If count is reached before the entire string src was copied, the resulting character array is not null-terminated. If, after copying the terminating null character from src, count is not reached, additional null characters are written to dest until the total of count characters have been written. If the strings overlap, the behavior is undefined.</p>
+<dl class="section return"><dt>Returns</dt><dd>dest </dd></dl>
 
 </div>
 </div>

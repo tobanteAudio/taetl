@@ -151,6 +151,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:aaa7242b05ff1a9962c11df38bdafe401"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aaa7242b05ff1a9962c11df38bdafe401">swap</a> (<a class="el" href="classetl_1_1optional.html">optional</a> &amp;other) noexcept(<a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">etl::is_nothrow_move_constructible_v</a>&lt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">etl::is_nothrow_swappable_v</a>&lt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &gt;) -&gt; void</td></tr>
 <tr class="memdesc:aaa7242b05ff1a9962c11df38bdafe401"><td class="mdescLeft">&#160;</td><td class="mdescRight">Swaps the contents with those of other.  <a href="#aaa7242b05ff1a9962c11df38bdafe401">More...</a><br /></td></tr>
 <tr class="separator:aaa7242b05ff1a9962c11df38bdafe401"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a98b392c0ded498089e904c7d7ce22afa"><td class="memTemplParams" colspan="2">template&lt;typename... Args&gt; </td></tr>
+<tr class="memitem:a98b392c0ded498089e904c7d7ce22afa"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a98b392c0ded498089e904c7d7ce22afa">emplace</a> (Args &amp;&amp;... args) -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a> &amp;</td></tr>
+<tr class="memdesc:a98b392c0ded498089e904c7d7ce22afa"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the contained value in-place. If *this already contains a value before the call, the contained value is destroyed by calling its destructor.  <a href="#a98b392c0ded498089e904c7d7ce22afa">More...</a><br /></td></tr>
+<tr class="separator:a98b392c0ded498089e904c7d7ce22afa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="ab96e5c12c75912e0c10bb94022588f0f"></a>
@@ -364,6 +368,39 @@ template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt; 
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
+<a id="a98b392c0ded498089e904c7d7ce22afa"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a98b392c0ded498089e904c7d7ce22afa">&#9670;&nbsp;</a></span>emplace()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename ValueType&gt; </div>
+<div class="memtemplate">
+template&lt;typename... Args&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::emplace </td>
+          <td>(</td>
+          <td class="paramtype">Args &amp;&amp;...&#160;</td>
+          <td class="paramname"><em>args</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs the contained value in-place. If *this already contains a value before the call, the contained value is destroyed by calling its destructor. </p>
+
+</div>
+</div>
 <a id="ae8de8e6e7cd9d30784652a6254efe069"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#ae8de8e6e7cd9d30784652a6254efe069">&#9670;&nbsp;</a></span>operator bool()</h2>
 

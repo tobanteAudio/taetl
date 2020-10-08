@@ -192,5 +192,8 @@ var menudata={children:[
 {text:"x",url:"globals.html#index_x"}]},
 {text:"Functions",url:"globals_func.html"},
 {text:"Typedefs",url:"globals_type.html"},
-{text:"Macros",url:"globals_defs.html"}]}]},
+{text:"Macros",url:"globals_defs.html",children:[
+{text:"e",url:"globals_defs.html#index_e"},
+{text:"p",url:"globals_defs.html#index_p"},
+{text:"t",url:"globals_defs.html#index_t"}]}]}]},
 {text:"Examples",url:"examples.html"}]}
