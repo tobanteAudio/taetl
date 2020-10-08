@@ -247,7 +247,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a2dff37c40bbd7592c9055f8d6c279a2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">etl::basic_string_view</a>.  <a href="#a2dff37c40bbd7592c9055f8d6c279a2b">More...</a><br /></td></tr>
 <tr class="separator:a2dff37c40bbd7592c9055f8d6c279a2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a91910e5f3351144d77c32c1f41a6a8ae"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a91910e5f3351144d77c32c1f41a6a8ae">clear</a> () noexcept -&gt; void</td></tr>
-<tr class="memdesc:a91910e5f3351144d77c32c1f41a6a8ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all characters from the string.  <a href="#a91910e5f3351144d77c32c1f41a6a8ae">More...</a><br /></td></tr>
+<tr class="memdesc:a91910e5f3351144d77c32c1f41a6a8ae"><td class="mdescLeft">&#160;</td><td class="mdescRight">Removes all characters from the string. Sets size to 0 and overrides the buffer with zeros.  <a href="#a91910e5f3351144d77c32c1f41a6a8ae">More...</a><br /></td></tr>
 <tr class="separator:a91910e5f3351144d77c32c1f41a6a8ae"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2fe6b43e657d60e3d5b5fed52d695b19"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a2fe6b43e657d60e3d5b5fed52d695b19">push_back</a> (<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> ch) noexcept -&gt; void</td></tr>
 <tr class="memdesc:a2fe6b43e657d60e3d5b5fed52d695b19"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the given character ch to the end of the string. Does nothing if the string is full.  <a href="#a2fe6b43e657d60e3d5b5fed52d695b19">More...</a><br /></td></tr>
@@ -326,21 +326,21 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a49361073b70fbec7bb82025bba37653c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a49361073b70fbec7bb82025bba37653c">compare</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos1, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count1, <a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> count2) const -&gt; int</td></tr>
 <tr class="memdesc:a49361073b70fbec7bb82025bba37653c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Compares a [pos1, pos1+count1) substring of this string to the characters in the range [s, s + count2). If count1 &gt; <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a> - pos1 the substring is [pos1, <a class="el" href="classetl_1_1basic__static__string.html#a6774742d4b781f6bc54fedc38dd814ef" title="Returns the number of characters. ">size()</a>). (Note: the characters in the range [s, s + count2) may include null characters.)  <a href="#a49361073b70fbec7bb82025bba37653c">More...</a><br /></td></tr>
 <tr class="separator:a49361073b70fbec7bb82025bba37653c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a173e46355912614f8df4167077986db0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a173e46355912614f8df4167077986db0">starts_with</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; sv) const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:a173e46355912614f8df4167077986db0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#a173e46355912614f8df4167077986db0">More...</a><br /></td></tr>
-<tr class="separator:a173e46355912614f8df4167077986db0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a650a3d78e2c6130d11492a0407577cd2"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a650a3d78e2c6130d11492a0407577cd2">starts_with</a> (CharType c) const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:a650a3d78e2c6130d11492a0407577cd2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#a650a3d78e2c6130d11492a0407577cd2">More...</a><br /></td></tr>
-<tr class="separator:a650a3d78e2c6130d11492a0407577cd2"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aba69f19894c968af08c34494a98a0d73"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#aba69f19894c968af08c34494a98a0d73">starts_with</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>, <a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> &gt; sv) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:aba69f19894c968af08c34494a98a0d73"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#aba69f19894c968af08c34494a98a0d73">More...</a><br /></td></tr>
+<tr class="separator:aba69f19894c968af08c34494a98a0d73"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6ce139b9718a80f0dbef06798b119af0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a6ce139b9718a80f0dbef06798b119af0">starts_with</a> (<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> c) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a6ce139b9718a80f0dbef06798b119af0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#a6ce139b9718a80f0dbef06798b119af0">More...</a><br /></td></tr>
+<tr class="separator:a6ce139b9718a80f0dbef06798b119af0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a161ed84cb53bccacffd6775e740e5113"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a161ed84cb53bccacffd6775e740e5113">starts_with</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> str) const -&gt; bool</td></tr>
 <tr class="memdesc:a161ed84cb53bccacffd6775e740e5113"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string begins with the given prefix.  <a href="#a161ed84cb53bccacffd6775e740e5113">More...</a><br /></td></tr>
 <tr class="separator:a161ed84cb53bccacffd6775e740e5113"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a93b43cf76058705c911a6233932749ad"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a93b43cf76058705c911a6233932749ad">ends_with</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt; sv) const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:a93b43cf76058705c911a6233932749ad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#a93b43cf76058705c911a6233932749ad">More...</a><br /></td></tr>
-<tr class="separator:a93b43cf76058705c911a6233932749ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ace00fef720c059ccf29411d9695d578b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ace00fef720c059ccf29411d9695d578b">ends_with</a> (CharType c) const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:ace00fef720c059ccf29411d9695d578b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#ace00fef720c059ccf29411d9695d578b">More...</a><br /></td></tr>
-<tr class="separator:ace00fef720c059ccf29411d9695d578b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0dd64cfa8f69f1f3143b2949f412744c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a0dd64cfa8f69f1f3143b2949f412744c">ends_with</a> (<a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>, <a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> &gt; sv) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a0dd64cfa8f69f1f3143b2949f412744c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#a0dd64cfa8f69f1f3143b2949f412744c">More...</a><br /></td></tr>
+<tr class="separator:a0dd64cfa8f69f1f3143b2949f412744c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac01fee7c3d9638ea680d3d7780b012bf"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ac01fee7c3d9638ea680d3d7780b012bf">ends_with</a> (<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> c) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ac01fee7c3d9638ea680d3d7780b012bf"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#ac01fee7c3d9638ea680d3d7780b012bf">More...</a><br /></td></tr>
+<tr class="separator:ac01fee7c3d9638ea680d3d7780b012bf"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2b8fc944c09f3f85919561dca876542c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a2b8fc944c09f3f85919561dca876542c">ends_with</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> str) const -&gt; bool</td></tr>
 <tr class="memdesc:a2b8fc944c09f3f85919561dca876542c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if the string ends with the given prefix.  <a href="#a2b8fc944c09f3f85919561dca876542c">More...</a><br /></td></tr>
 <tr class="separator:a2b8fc944c09f3f85919561dca876542c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -1677,7 +1677,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </table>
 </div><div class="memdoc">
 
-<p>Removes all characters from the string. </p>
+<p>Removes all characters from the string. Sets size to 0 and overrides the buffer with zeros. </p>
 
 </div>
 </div>
@@ -2244,8 +2244,8 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 </div>
 </div>
-<a id="a93b43cf76058705c911a6233932749ad"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a93b43cf76058705c911a6233932749ad">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[1/3]</span></h2>
+<a id="a0dd64cfa8f69f1f3143b2949f412744c"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0dd64cfa8f69f1f3143b2949f412744c">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2258,7 +2258,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::ends_with </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>, <a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> &gt;&#160;</td>
           <td class="paramname"><em>sv</em></td><td>)</td>
           <td> const -&gt; bool
     </td>
@@ -2275,8 +2275,8 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 </div>
 </div>
-<a id="ace00fef720c059ccf29411d9695d578b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ace00fef720c059ccf29411d9695d578b">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[2/3]</span></h2>
+<a id="ac01fee7c3d9638ea680d3d7780b012bf"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac01fee7c3d9638ea680d3d7780b012bf">&#9670;&nbsp;</a></span>ends_with() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -2289,7 +2289,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::ends_with </td>
           <td>(</td>
-          <td class="paramtype">CharType&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td> const -&gt; bool
     </td>
@@ -3767,8 +3767,8 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 </div>
 </div>
-<a id="a173e46355912614f8df4167077986db0"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a173e46355912614f8df4167077986db0">&#9670;&nbsp;</a></span>starts_with() <span class="overload">[1/3]</span></h2>
+<a id="aba69f19894c968af08c34494a98a0d73"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aba69f19894c968af08c34494a98a0d73">&#9670;&nbsp;</a></span>starts_with() <span class="overload">[1/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3781,7 +3781,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::starts_with </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; <a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>, <a class="el" href="classetl_1_1basic__static__string.html#aa07030942a44245c6833416bec8af353">traits_type</a> &gt;&#160;</td>
           <td class="paramname"><em>sv</em></td><td>)</td>
           <td> const -&gt; bool
     </td>
@@ -3798,8 +3798,8 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 
 </div>
 </div>
-<a id="a650a3d78e2c6130d11492a0407577cd2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a650a3d78e2c6130d11492a0407577cd2">&#9670;&nbsp;</a></span>starts_with() <span class="overload">[2/3]</span></h2>
+<a id="a6ce139b9718a80f0dbef06798b119af0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ce139b9718a80f0dbef06798b119af0">&#9670;&nbsp;</a></span>starts_with() <span class="overload">[2/3]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -3812,7 +3812,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
         <tr>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::starts_with </td>
           <td>(</td>
-          <td class="paramtype">CharType&#160;</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>&#160;</td>
           <td class="paramname"><em>c</em></td><td>)</td>
           <td> const -&gt; bool
     </td>
