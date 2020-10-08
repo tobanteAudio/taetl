@@ -121,6 +121,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a86a21fd2e62ed3b8d52630d2608020fd"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a86a21fd2e62ed3b8d52630d2608020fd">basic_static_string</a> (InputIter first, InputIter last) noexcept</td></tr>
 <tr class="memdesc:a86a21fd2e62ed3b8d52630d2608020fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the string with the contents of the range [ <code>first</code>, <code>last</code>). Fails silently if input length is greater then capacity.  <a href="#a86a21fd2e62ed3b8d52630d2608020fd">More...</a><br /></td></tr>
 <tr class="separator:a86a21fd2e62ed3b8d52630d2608020fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:adb3b862ecd855dbc8da6c021cf3895ed"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#adb3b862ecd855dbc8da6c021cf3895ed">basic_static_string</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;other, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>)</td></tr>
+<tr class="memdesc:adb3b862ecd855dbc8da6c021cf3895ed"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the string with a substring [pos, pos+count) of other.  <a href="#adb3b862ecd855dbc8da6c021cf3895ed">More...</a><br /></td></tr>
+<tr class="separator:adb3b862ecd855dbc8da6c021cf3895ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4dda40d20ffb382890d9b1b31bfcbe05"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a4dda40d20ffb382890d9b1b31bfcbe05">basic_static_string</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;other, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos)</td></tr>
+<tr class="memdesc:a4dda40d20ffb382890d9b1b31bfcbe05"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs the string with a substring [pos, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">other.size()</a>).  <a href="#a4dda40d20ffb382890d9b1b31bfcbe05">More...</a><br /></td></tr>
+<tr class="separator:a4dda40d20ffb382890d9b1b31bfcbe05"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad1aa1dfadaf4c209258ba00d9430e226"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </td></tr>
 <tr class="memitem:ad1aa1dfadaf4c209258ba00d9430e226"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ad1aa1dfadaf4c209258ba00d9430e226">basic_static_string</a> (T const &amp;t)</td></tr>
 <tr class="memdesc:ad1aa1dfadaf4c209258ba00d9430e226"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicitly converts <code>t</code> to a string view sv, then initializes the string with the contents of sv.  <a href="#ad1aa1dfadaf4c209258ba00d9430e226">More...</a><br /></td></tr>
@@ -253,11 +259,42 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a18b53a230847b7f25252d4f133cbc465"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends count copies of character s.  <a href="#a18b53a230847b7f25252d4f133cbc465">More...</a><br /></td></tr>
 <tr class="separator:a18b53a230847b7f25252d4f133cbc465"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a536baa9be6a15d6509ce0061b95924ea"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a536baa9be6a15d6509ce0061b95924ea">append</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
-<tr class="memdesc:a536baa9be6a15d6509ce0061b95924ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the null-terminated character string pointed to by s. The length of the string is determined by the first null character using.  <a href="#a536baa9be6a15d6509ce0061b95924ea">More...</a><br /></td></tr>
+<tr class="memdesc:a536baa9be6a15d6509ce0061b95924ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the null-terminated character string pointed to by <code>s</code>. The length of the string is determined by the first null character using.  <a href="#a536baa9be6a15d6509ce0061b95924ea">More...</a><br /></td></tr>
 <tr class="separator:a536baa9be6a15d6509ce0061b95924ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a72466e6eda89dc2a24c4df8f27c66a46"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a72466e6eda89dc2a24c4df8f27c66a46">append</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
-<tr class="memdesc:a72466e6eda89dc2a24c4df8f27c66a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends characters in the range [s, s + count). This range can contain null characters.  <a href="#a72466e6eda89dc2a24c4df8f27c66a46">More...</a><br /></td></tr>
+<tr class="memdesc:a72466e6eda89dc2a24c4df8f27c66a46"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends characters in the range [ <code>s</code>, <code>s</code> + <code>count</code> ). This range can contain null characters.  <a href="#a72466e6eda89dc2a24c4df8f27c66a46">More...</a><br /></td></tr>
 <tr class="separator:a72466e6eda89dc2a24c4df8f27c66a46"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a347a033707ae85bc009a418eff253cc6"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </td></tr>
+<tr class="memitem:a347a033707ae85bc009a418eff253cc6"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a347a033707ae85bc009a418eff253cc6">append</a> (InputIter first, InputIter last) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:a347a033707ae85bc009a418eff253cc6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends characters in the range [ <code>first</code> , <code>last</code> ).  <a href="#a347a033707ae85bc009a418eff253cc6">More...</a><br /></td></tr>
+<tr class="separator:a347a033707ae85bc009a418eff253cc6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a835b91f3a116212aaab9225b309769fd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a835b91f3a116212aaab9225b309769fd">append</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:a835b91f3a116212aaab9225b309769fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends string <code>str</code>.  <a href="#a835b91f3a116212aaab9225b309769fd">More...</a><br /></td></tr>
+<tr class="separator:a835b91f3a116212aaab9225b309769fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a43688f0a0ab4d4797c2f058eba5cd847"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a43688f0a0ab4d4797c2f058eba5cd847">append</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>=<a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a>) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:a43688f0a0ab4d4797c2f058eba5cd847"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends a substring [ <code>pos</code>, <code>pos</code> + <code>count</code> ) of <code>str</code>.  <a href="#a43688f0a0ab4d4797c2f058eba5cd847">More...</a><br /></td></tr>
+<tr class="separator:a43688f0a0ab4d4797c2f058eba5cd847"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae0d688d6547d9d9393388a431f554640"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:ae0d688d6547d9d9393388a431f554640"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ae0d688d6547d9d9393388a431f554640">append</a> (T const &amp;t) -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:ae0d688d6547d9d9393388a431f554640"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicitly converts <code>t</code> to a string_view sv, then appends all characters from sv.  <a href="#ae0d688d6547d9d9393388a431f554640">More...</a><br /></td></tr>
+<tr class="separator:ae0d688d6547d9d9393388a431f554640"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada97684c36423d41efe772cf8c134e5d"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:ada97684c36423d41efe772cf8c134e5d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ada97684c36423d41efe772cf8c134e5d">append</a> (T const &amp;t, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> pos, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>=<a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a>) -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:ada97684c36423d41efe772cf8c134e5d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicitly converts <code>t</code> to a string_view sv then appends the characters from the subview [ <code>pos</code>, <code>pos</code> + <code>count</code> ) of sv.  <a href="#ada97684c36423d41efe772cf8c134e5d">More...</a><br /></td></tr>
+<tr class="separator:ada97684c36423d41efe772cf8c134e5d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ab4976e95e0adc96724180b6a1bec330d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ab4976e95e0adc96724180b6a1bec330d">operator+=</a> (<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> const &amp;str) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:ab4976e95e0adc96724180b6a1bec330d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends string <code>str</code>.  <a href="#ab4976e95e0adc96724180b6a1bec330d">More...</a><br /></td></tr>
+<tr class="separator:ab4976e95e0adc96724180b6a1bec330d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa34a83bb3209be447f10c615e17d4ca0"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#aa34a83bb3209be447f10c615e17d4ca0">operator+=</a> (<a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a> ch) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:aa34a83bb3209be447f10c615e17d4ca0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends character ch.  <a href="#aa34a83bb3209be447f10c615e17d4ca0">More...</a><br /></td></tr>
+<tr class="separator:aa34a83bb3209be447f10c615e17d4ca0"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae921e5fda43fef2005452fbf53475418"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#ae921e5fda43fef2005452fbf53475418">operator+=</a> (<a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a> s) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:ae921e5fda43fef2005452fbf53475418"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends the null-terminated character string pointed to by s.  <a href="#ae921e5fda43fef2005452fbf53475418">More...</a><br /></td></tr>
+<tr class="separator:ae921e5fda43fef2005452fbf53475418"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abc791b82ebe44236e80f884100fafaad"><td class="memTemplParams" colspan="2">template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </td></tr>
+<tr class="memitem:abc791b82ebe44236e80f884100fafaad"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#abc791b82ebe44236e80f884100fafaad">operator+=</a> (T const &amp;t) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
+<tr class="memdesc:abc791b82ebe44236e80f884100fafaad"><td class="mdescLeft">&#160;</td><td class="mdescRight">Implicitly converts <code>t</code> to a string view sv, then appends characters in the string view sv.  <a href="#abc791b82ebe44236e80f884100fafaad">More...</a><br /></td></tr>
+<tr class="separator:abc791b82ebe44236e80f884100fafaad"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a13d0c3cbf030b1521dd1984c7d422728"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__static__string.html#a13d0c3cbf030b1521dd1984c7d422728">insert</a> (<a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> index, <a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a> <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, CharType ch) noexcept -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> &amp;</td></tr>
 <tr class="memdesc:a13d0c3cbf030b1521dd1984c7d422728"><td class="mdescLeft">&#160;</td><td class="mdescRight">Inserts count copies of character ch at the position index.  <a href="#a13d0c3cbf030b1521dd1984c7d422728">More...</a><br /></td></tr>
 <tr class="separator:a13d0c3cbf030b1521dd1984c7d422728"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -557,7 +594,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a1338e6c13dcf86c682b1a04cd8356f82"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1338e6c13dcf86c682b1a04cd8356f82">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[1/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1338e6c13dcf86c682b1a04cd8356f82">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[1/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -586,7 +623,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 </div>
 <a id="ad2d0a102ee9d5b0fffab9a9135fa94c2"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad2d0a102ee9d5b0fffab9a9135fa94c2">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[2/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad2d0a102ee9d5b0fffab9a9135fa94c2">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[2/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -627,7 +664,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 </div>
 <a id="ad261d5973f014dfedf27539090649cc4"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad261d5973f014dfedf27539090649cc4">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[3/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad261d5973f014dfedf27539090649cc4">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[3/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -658,7 +695,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 </div>
 <a id="a0f2ebe193cf465c37c52aa1eb00750bc"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0f2ebe193cf465c37c52aa1eb00750bc">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[4/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f2ebe193cf465c37c52aa1eb00750bc">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[4/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -699,7 +736,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 </div>
 <a id="a86a21fd2e62ed3b8d52630d2608020fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a86a21fd2e62ed3b8d52630d2608020fd">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[5/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a86a21fd2e62ed3b8d52630d2608020fd">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[5/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -740,8 +777,94 @@ template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; Input
 
 </div>
 </div>
+<a id="adb3b862ecd855dbc8da6c021cf3895ed"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#adb3b862ecd855dbc8da6c021cf3895ed">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[6/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>other</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs the string with a substring [pos, pos+count) of other. </p>
+
+</div>
+</div>
+<a id="a4dda40d20ffb382890d9b1b31bfcbe05"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4dda40d20ffb382890d9b1b31bfcbe05">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[7/11]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::<a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>other</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs the string with a substring [pos, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">other.size()</a>). </p>
+
+</div>
+</div>
 <a id="ad1aa1dfadaf4c209258ba00d9430e226"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad1aa1dfadaf4c209258ba00d9430e226">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[6/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ad1aa1dfadaf4c209258ba00d9430e226">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[8/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -773,7 +896,7 @@ template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T 
 </div>
 </div>
 <a id="a6ed179c7b620a4553737683b0bedd4c8"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6ed179c7b620a4553737683b0bedd4c8">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[7/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a6ed179c7b620a4553737683b0bedd4c8">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[9/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -821,7 +944,7 @@ template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T 
 </div>
 </div>
 <a id="a22528021a2a795970977ed6ca3e13bbe"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22528021a2a795970977ed6ca3e13bbe">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[8/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a22528021a2a795970977ed6ca3e13bbe">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[10/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -851,7 +974,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 </div>
 <a id="a305d567b07f28e9e8352c85d8b1fe054"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a305d567b07f28e9e8352c85d8b1fe054">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[9/9]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a305d567b07f28e9e8352c85d8b1fe054">&#9670;&nbsp;</a></span>basic_static_string() <span class="overload">[11/11]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -911,7 +1034,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a18b53a230847b7f25252d4f133cbc465"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a18b53a230847b7f25252d4f133cbc465">&#9670;&nbsp;</a></span>append() <span class="overload">[1/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a18b53a230847b7f25252d4f133cbc465">&#9670;&nbsp;</a></span>append() <span class="overload">[1/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -953,7 +1076,7 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div>
 </div>
 <a id="a536baa9be6a15d6509ce0061b95924ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a536baa9be6a15d6509ce0061b95924ea">&#9670;&nbsp;</a></span>append() <span class="overload">[2/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a536baa9be6a15d6509ce0061b95924ea">&#9670;&nbsp;</a></span>append() <span class="overload">[2/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -979,12 +1102,12 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </table>
 </div><div class="memdoc">
 
-<p>Appends the null-terminated character string pointed to by s. The length of the string is determined by the first null character using. </p>
+<p>Appends the null-terminated character string pointed to by <code>s</code>. The length of the string is determined by the first null character using. </p>
 
 </div>
 </div>
 <a id="a72466e6eda89dc2a24c4df8f27c66a46"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a72466e6eda89dc2a24c4df8f27c66a46">&#9670;&nbsp;</a></span>append() <span class="overload">[3/3]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a72466e6eda89dc2a24c4df8f27c66a46">&#9670;&nbsp;</a></span>append() <span class="overload">[3/8]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -1020,7 +1143,210 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </table>
 </div><div class="memdoc">
 
-<p>Appends characters in the range [s, s + count). This range can contain null characters. </p>
+<p>Appends characters in the range [ <code>s</code>, <code>s</code> + <code>count</code> ). This range can contain null characters. </p>
+
+</div>
+</div>
+<a id="a347a033707ae85bc009a418eff253cc6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a347a033707ae85bc009a418eff253cc6">&#9670;&nbsp;</a></span>append() <span class="overload">[4/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::append </td>
+          <td>(</td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>first</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">InputIter&#160;</td>
+          <td class="paramname"><em>last</em>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Appends characters in the range [ <code>first</code> , <code>last</code> ). </p>
+
+</div>
+</div>
+<a id="a835b91f3a116212aaab9225b309769fd"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a835b91f3a116212aaab9225b309769fd">&#9670;&nbsp;</a></span>append() <span class="overload">[5/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::append </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Appends string <code>str</code>. </p>
+
+</div>
+</div>
+<a id="a43688f0a0ab4d4797c2f058eba5cd847"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a43688f0a0ab4d4797c2f058eba5cd847">&#9670;&nbsp;</a></span>append() <span class="overload">[6/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::append </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Appends a substring [ <code>pos</code>, <code>pos</code> + <code>count</code> ) of <code>str</code>. </p>
+
+</div>
+</div>
+<a id="ae0d688d6547d9d9393388a431f554640"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae0d688d6547d9d9393388a431f554640">&#9670;&nbsp;</a></span>append() <span class="overload">[7/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::append </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implicitly converts <code>t</code> to a string_view sv, then appends all characters from sv. </p>
+
+</div>
+</div>
+<a id="ada97684c36423d41efe772cf8c134e5d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ada97684c36423d41efe772cf8c134e5d">&#9670;&nbsp;</a></span>append() <span class="overload">[8/8]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::append </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>t</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>pos</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#abbe3774d146a5db8593a3b9e93038d5f">size_type</a>&#160;</td>
+          <td class="paramname"><em>count</em> = <code><a class="el" href="classetl_1_1basic__static__string.html#afb37413dfb6292e9bd02b0b7c32eaeff">npos</a></code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implicitly converts <code>t</code> to a string_view sv then appends the characters from the subview [ <code>pos</code>, <code>pos</code> + <code>count</code> ) of sv. </p>
 
 </div>
 </div>
@@ -2669,6 +2995,132 @@ template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char
 </div><div class="memdoc">
 
 <p>Returns a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">etl::basic_string_view</a>. </p>
+
+</div>
+</div>
+<a id="ab4976e95e0adc96724180b6a1bec330d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ab4976e95e0adc96724180b6a1bec330d">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[1/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&lt; CharType, Capacity, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Appends string <code>str</code>. </p>
+
+</div>
+</div>
+<a id="aa34a83bb3209be447f10c615e17d4ca0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aa34a83bb3209be447f10c615e17d4ca0">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[2/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a0ed76c779544fafaf8152f35ff9ada61">value_type</a>&#160;</td>
+          <td class="paramname"><em>ch</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Appends character ch. </p>
+
+</div>
+</div>
+<a id="ae921e5fda43fef2005452fbf53475418"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae921e5fda43fef2005452fbf53475418">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__static__string.html#a31b2e966275f56696224cd95033b7a88">const_pointer</a>&#160;</td>
+          <td class="paramname"><em>s</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Appends the null-terminated character string pointed to by s. </p>
+
+</div>
+</div>
+<a id="abc791b82ebe44236e80f884100fafaad"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#abc791b82ebe44236e80f884100fafaad">&#9670;&nbsp;</a></span>operator+=() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename CharType, etl::size_t Capacity, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename T , TAETL_REQUIRES_(string_view_and_not_char_pointer&lt; T &gt;) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__static__string.html">etl::basic_static_string</a>&lt; CharType, Capacity, Traits &gt;::operator+= </td>
+          <td>(</td>
+          <td class="paramtype">T const &amp;&#160;</td>
+          <td class="paramname"><em>t</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1basic__static__string.html">basic_static_string</a>&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Implicitly converts <code>t</code> to a string view sv, then appends characters in the string view sv. </p>
 
 </div>
 </div>
