@@ -184,15 +184,31 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c49fa4411effa2f4192e4dc6e2a8439"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a9c49fa4411effa2f4192e4dc6e2a8439">count</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a9a5589db51498f32b2c7bef530873092">size_type</a></td></tr>
 <tr class="memdesc:a9c49fa4411effa2f4192e4dc6e2a8439"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements with key that compares equivalent to the specified argument, which is either 1 or 0 since this container does not allow duplicates.  <a href="#a9c49fa4411effa2f4192e4dc6e2a8439">More...</a><br /></td></tr>
 <tr class="separator:a9c49fa4411effa2f4192e4dc6e2a8439"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5b5d02d453c6db0d287ee65941a845f0"><td class="memTemplParams" colspan="2">template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </td></tr>
+<tr class="memitem:a5b5d02d453c6db0d287ee65941a845f0"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a5b5d02d453c6db0d287ee65941a845f0">count</a> (K const &amp;x) const -&gt; <a class="el" href="classetl_1_1static__set.html#a9a5589db51498f32b2c7bef530873092">size_type</a></td></tr>
+<tr class="memdesc:a5b5d02d453c6db0d287ee65941a845f0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements with key that compares equivalent to the value <code>x</code>.  <a href="#a5b5d02d453c6db0d287ee65941a845f0">More...</a><br /></td></tr>
+<tr class="separator:a5b5d02d453c6db0d287ee65941a845f0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8e0f5a4d2bbf9d8e3c02bb4f28999863"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a8e0f5a4d2bbf9d8e3c02bb4f28999863">find</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a></td></tr>
 <tr class="memdesc:a8e0f5a4d2bbf9d8e3c02bb4f28999863"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an element with key equivalent to key.  <a href="#a8e0f5a4d2bbf9d8e3c02bb4f28999863">More...</a><br /></td></tr>
 <tr class="separator:a8e0f5a4d2bbf9d8e3c02bb4f28999863"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afe34badb2fbda17da8512f03efcab59e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#afe34badb2fbda17da8512f03efcab59e">find</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) const noexcept -&gt; <a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a></td></tr>
 <tr class="memdesc:afe34badb2fbda17da8512f03efcab59e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an element with key equivalent to key.  <a href="#afe34badb2fbda17da8512f03efcab59e">More...</a><br /></td></tr>
 <tr class="separator:afe34badb2fbda17da8512f03efcab59e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a134342287b220f8af15eadc7252704d7"><td class="memTemplParams" colspan="2">template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </td></tr>
+<tr class="memitem:a134342287b220f8af15eadc7252704d7"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a134342287b220f8af15eadc7252704d7">find</a> (K const &amp;x) -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a></td></tr>
+<tr class="memdesc:a134342287b220f8af15eadc7252704d7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an element with key that compares equivalent to the value <code>x</code>.  <a href="#a134342287b220f8af15eadc7252704d7">More...</a><br /></td></tr>
+<tr class="separator:a134342287b220f8af15eadc7252704d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aad34492fab02757b9b44c42733f45a6e"><td class="memTemplParams" colspan="2">template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </td></tr>
+<tr class="memitem:aad34492fab02757b9b44c42733f45a6e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#aad34492fab02757b9b44c42733f45a6e">find</a> (K const &amp;x) const -&gt; <a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a></td></tr>
+<tr class="memdesc:aad34492fab02757b9b44c42733f45a6e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Finds an element with key that compares equivalent to the value <code>x</code>.  <a href="#aad34492fab02757b9b44c42733f45a6e">More...</a><br /></td></tr>
+<tr class="separator:aad34492fab02757b9b44c42733f45a6e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a265586ce4755fc25bb39febca9aa7149"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a265586ce4755fc25bb39febca9aa7149">contains</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) const noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a265586ce4755fc25bb39febca9aa7149"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is an element with key equivalent to key in the container.  <a href="#a265586ce4755fc25bb39febca9aa7149">More...</a><br /></td></tr>
 <tr class="separator:a265586ce4755fc25bb39febca9aa7149"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ca7178e7042be4ca8f1704b5000452f"><td class="memTemplParams" colspan="2">template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </td></tr>
+<tr class="memitem:a4ca7178e7042be4ca8f1704b5000452f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a4ca7178e7042be4ca8f1704b5000452f">contains</a> (K const &amp;x) const -&gt; bool</td></tr>
+<tr class="memdesc:a4ca7178e7042be4ca8f1704b5000452f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if there is an element with key that compares equivalent to the value <code>x</code>.  <a href="#a4ca7178e7042be4ca8f1704b5000452f">More...</a><br /></td></tr>
+<tr class="separator:a4ca7178e7042be4ca8f1704b5000452f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a7ee9e26bacddca06feddd58643c5dfee"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__set.html#a7ee9e26bacddca06feddd58643c5dfee">lower_bound</a> (<a class="el" href="classetl_1_1static__set.html#a87f4e4e7e357f108926c5c1b672680e1">key_type</a> const &amp;key) -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a></td></tr>
 <tr class="memdesc:a7ee9e26bacddca06feddd58643c5dfee"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns an iterator pointing to the first element that is not less than (i.e. greater or equal to) key.  <a href="#a7ee9e26bacddca06feddd58643c5dfee">More...</a><br /></td></tr>
 <tr class="separator:a7ee9e26bacddca06feddd58643c5dfee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -613,7 +629,7 @@ template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;
 </div>
 </div>
 <a id="a265586ce4755fc25bb39febca9aa7149"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a265586ce4755fc25bb39febca9aa7149">&#9670;&nbsp;</a></span>contains()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a265586ce4755fc25bb39febca9aa7149">&#9670;&nbsp;</a></span>contains() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -643,8 +659,41 @@ template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;
 
 </div>
 </div>
+<a id="a4ca7178e7042be4ca8f1704b5000452f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ca7178e7042be4ca8f1704b5000452f">&#9670;&nbsp;</a></span>contains() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::contains </td>
+          <td>(</td>
+          <td class="paramtype">K const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Checks if there is an element with key that compares equivalent to the value <code>x</code>. </p>
+
+</div>
+</div>
 <a id="a9c49fa4411effa2f4192e4dc6e2a8439"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a9c49fa4411effa2f4192e4dc6e2a8439">&#9670;&nbsp;</a></span>count()</h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a9c49fa4411effa2f4192e4dc6e2a8439">&#9670;&nbsp;</a></span>count() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -671,6 +720,39 @@ template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;
 </div><div class="memdoc">
 
 <p>Returns the number of elements with key that compares equivalent to the specified argument, which is either 1 or 0 since this container does not allow duplicates. </p>
+
+</div>
+</div>
+<a id="a5b5d02d453c6db0d287ee65941a845f0"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5b5d02d453c6db0d287ee65941a845f0">&#9670;&nbsp;</a></span>count() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::count </td>
+          <td>(</td>
+          <td class="paramtype">K const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1static__set.html#a9a5589db51498f32b2c7bef530873092">size_type</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns the number of elements with key that compares equivalent to the value <code>x</code>. </p>
 
 </div>
 </div>
@@ -939,7 +1021,7 @@ template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;
 </div>
 </div>
 <a id="a8e0f5a4d2bbf9d8e3c02bb4f28999863"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e0f5a4d2bbf9d8e3c02bb4f28999863">&#9670;&nbsp;</a></span>find() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a8e0f5a4d2bbf9d8e3c02bb4f28999863">&#9670;&nbsp;</a></span>find() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -971,7 +1053,7 @@ template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;
 </div>
 </div>
 <a id="afe34badb2fbda17da8512f03efcab59e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#afe34badb2fbda17da8512f03efcab59e">&#9670;&nbsp;</a></span>find() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#afe34badb2fbda17da8512f03efcab59e">&#9670;&nbsp;</a></span>find() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -999,6 +1081,72 @@ template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;
 
 <p>Finds an element with key equivalent to key. </p>
 <dl class="section return"><dt>Returns</dt><dd>Iterator to an element with key equivalent to key. If no such element is found, past-the-end (see <a class="el" href="namespaceetl.html#abf9eb859a31968a9179b29b638cd054b" title="Returns an iterator to the end (i.e. the element after the last element) of the given container c or ...">end()</a>) iterator is returned. </dd></dl>
+
+</div>
+</div>
+<a id="a134342287b220f8af15eadc7252704d7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a134342287b220f8af15eadc7252704d7">&#9670;&nbsp;</a></span>find() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype">K const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1static__set.html#ad7f7a6207a7a6e8ae892846039873f71">iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds an element with key that compares equivalent to the value <code>x</code>. </p>
+
+</div>
+</div>
+<a id="aad34492fab02757b9b44c42733f45a6e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aad34492fab02757b9b44c42733f45a6e">&#9670;&nbsp;</a></span>find() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename Key, etl::size_t Capacity, typename Compare = etl::less&lt;Key&gt;&gt; </div>
+<div class="memtemplate">
+template&lt;typename K , TAETL_REQUIRES_(detail::is_transparent&lt; key_compare, K &gt;::value) &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__set.html">etl::static_set</a>&lt; Key, Capacity, Compare &gt;::find </td>
+          <td>(</td>
+          <td class="paramtype">K const &amp;&#160;</td>
+          <td class="paramname"><em>x</em></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1static__set.html#a00442e52a6af87dd2e878c97cb53e577">const_iterator</a>
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Finds an element with key that compares equivalent to the value <code>x</code>. </p>
 
 </div>
 </div>

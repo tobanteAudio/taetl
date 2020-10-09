@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structetl_1_1bit__or_3_01void_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -76,6 +77,12 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="functional_8hpp_source.html">functional.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a9dcadd1339fbad0a6704469193519bd8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1bit__or_3_01void_01_4.html#a9dcadd1339fbad0a6704469193519bd8">is_transparent</a> = void</td></tr>
+<tr class="memdesc:a9dcadd1339fbad0a6704469193519bd8"><td class="mdescLeft">&#160;</td><td class="mdescRight">The member type is_transparent indicates to the caller that this function object is a transparent function object: it accepts arguments of arbitrary types and uses perfect forwarding, which avoids unnecessary copying and conversion when the function object is used in heterogeneous context, or with rvalue arguments.  <a href="#a9dcadd1339fbad0a6704469193519bd8">More...</a><br /></td></tr>
+<tr class="separator:a9dcadd1339fbad0a6704469193519bd8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:acc0a8ddc87b356b5f01ccc965f7b6267"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
@@ -88,7 +95,24 @@ struct etl::bit_or&lt; void &gt;</h3>
 
 <p>Function object for performing bitwise OR. Effectively calls operator| on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1bit__or.html" title="Function object for performing bitwise OR. Effectively calls operator| on type T. ...">etl::bit_or</a> when T is not specified, which leaves the parameter types and return type to be deduced. </p>
 <p>https://en.cppreference.com/w/cpp/utility/functional/bit_or_void </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a9dcadd1339fbad0a6704469193519bd8"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a9dcadd1339fbad0a6704469193519bd8">&#9670;&nbsp;</a></span>is_transparent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structetl_1_1bit__or.html">etl::bit_or</a>&lt; void &gt;::<a class="el" href="structetl_1_1bit__or_3_01void_01_4.html#a9dcadd1339fbad0a6704469193519bd8">is_transparent</a> =  void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The member type is_transparent indicates to the caller that this function object is a transparent function object: it accepts arguments of arbitrary types and uses perfect forwarding, which avoids unnecessary copying and conversion when the function object is used in heterogeneous context, or with rvalue arguments. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="acc0a8ddc87b356b5f01ccc965f7b6267"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#acc0a8ddc87b356b5f01ccc965f7b6267">&#9670;&nbsp;</a></span>operator()()</h2>
 

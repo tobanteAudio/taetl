@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structetl_1_1logical__and_3_01void_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -76,6 +77,12 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="functional_8hpp_source.html">functional.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a093665b537f88d9c042f9167091caf8e"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1logical__and_3_01void_01_4.html#a093665b537f88d9c042f9167091caf8e">is_transparent</a> = void</td></tr>
+<tr class="memdesc:a093665b537f88d9c042f9167091caf8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">The member type is_transparent indicates to the caller that this function object is a transparent function object: it accepts arguments of arbitrary types and uses perfect forwarding, which avoids unnecessary copying and conversion when the function object is used in heterogeneous context, or with rvalue arguments.  <a href="#a093665b537f88d9c042f9167091caf8e">More...</a><br /></td></tr>
+<tr class="separator:a093665b537f88d9c042f9167091caf8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a601fbca01a1154e2f3e2cda3f892d4b3"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
@@ -88,7 +95,24 @@ struct etl::logical_and&lt; void &gt;</h3>
 
 <p>Function object for performing logical AND (logical conjunction). Effectively calls operator&amp;&amp; on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1logical__and.html" title="Function object for performing logical AND (logical conjunction). Effectively calls operator&amp;&amp; on typ...">etl::logical_and</a> when T is not specified, which leaves the parameter types and return type to be deduced. </p>
 <p>https://en.cppreference.com/w/cpp/utility/functional/logical_and_void </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a093665b537f88d9c042f9167091caf8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a093665b537f88d9c042f9167091caf8e">&#9670;&nbsp;</a></span>is_transparent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structetl_1_1logical__and.html">etl::logical_and</a>&lt; void &gt;::<a class="el" href="structetl_1_1logical__and_3_01void_01_4.html#a093665b537f88d9c042f9167091caf8e">is_transparent</a> =  void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The member type is_transparent indicates to the caller that this function object is a transparent function object: it accepts arguments of arbitrary types and uses perfect forwarding, which avoids unnecessary copying and conversion when the function object is used in heterogeneous context, or with rvalue arguments. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a601fbca01a1154e2f3e2cda3f892d4b3"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a601fbca01a1154e2f3e2cda3f892d4b3">&#9670;&nbsp;</a></span>operator()()</h2>
 

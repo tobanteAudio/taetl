@@ -64,6 +64,7 @@ $(function() {
 </div><!-- top -->
 <div class="header">
   <div class="summary">
+<a href="#pub-types">Public Types</a> &#124;
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="structetl_1_1greater__equal_3_01void_01_4-members.html">List of all members</a>  </div>
   <div class="headertitle">
@@ -76,6 +77,12 @@ $(function() {
 
 <p><code>#include &lt;<a class="el" href="functional_8hpp_source.html">functional.hpp</a>&gt;</code></p>
 <table class="memberdecls">
+<tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-types"></a>
+Public Types</h2></td></tr>
+<tr class="memitem:a7ec65b95c216f892244ff023f5b05de4"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1greater__equal_3_01void_01_4.html#a7ec65b95c216f892244ff023f5b05de4">is_transparent</a> = void</td></tr>
+<tr class="memdesc:a7ec65b95c216f892244ff023f5b05de4"><td class="mdescLeft">&#160;</td><td class="mdescRight">The member type is_transparent indicates to the caller that this function object is a transparent function object: it accepts arguments of arbitrary types and uses perfect forwarding, which avoids unnecessary copying and conversion when the function object is used in heterogeneous context, or with rvalue arguments.  <a href="#a7ec65b95c216f892244ff023f5b05de4">More...</a><br /></td></tr>
+<tr class="separator:a7ec65b95c216f892244ff023f5b05de4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+</table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a981ea34a353e231a532b019b9c724818"><td class="memTemplParams" colspan="2">template&lt;typename T , typename U &gt; </td></tr>
@@ -88,7 +95,24 @@ struct etl::greater_equal&lt; void &gt;</h3>
 
 <p>Function object for performing comparisons. Unless specialised, invokes operator&gt; on type T. The standard library provides a specialization of <a class="el" href="structetl_1_1greater__equal.html" title="Function object for performing comparisons. Unless specialised, invokes operator&gt;= on type T...">etl::greater_equal</a> when T is not specified, which leaves the parameter types and return type to be deduced. </p>
 <p>https://en.cppreference.com/w/cpp/utility/functional/greater_equal_void </p>
-</div><h2 class="groupheader">Member Function Documentation</h2>
+</div><h2 class="groupheader">Member Typedef Documentation</h2>
+<a id="a7ec65b95c216f892244ff023f5b05de4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ec65b95c216f892244ff023f5b05de4">&#9670;&nbsp;</a></span>is_transparent</h2>
+
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">using <a class="el" href="structetl_1_1greater__equal.html">etl::greater_equal</a>&lt; void &gt;::<a class="el" href="structetl_1_1greater__equal_3_01void_01_4.html#a7ec65b95c216f892244ff023f5b05de4">is_transparent</a> =  void</td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+
+<p>The member type is_transparent indicates to the caller that this function object is a transparent function object: it accepts arguments of arbitrary types and uses perfect forwarding, which avoids unnecessary copying and conversion when the function object is used in heterogeneous context, or with rvalue arguments. </p>
+
+</div>
+</div>
+<h2 class="groupheader">Member Function Documentation</h2>
 <a id="a981ea34a353e231a532b019b9c724818"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a981ea34a353e231a532b019b9c724818">&#9670;&nbsp;</a></span>operator()()</h2>
 
