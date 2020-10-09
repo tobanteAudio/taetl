@@ -119,10 +119,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad5acf3f09659da157899ca91d5f1e147"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ad5acf3f09659da157899ca91d5f1e147">basic_string_view</a> (CharType const *str)</td></tr>
 <tr class="memdesc:ad5acf3f09659da157899ca91d5f1e147"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a view of the null-terminated character string pointed to by s, not including the terminating null character. The length of the view is determined as if by Traits::length(s). The behavior is undefined if [s, s+Traits::length(s)) is not a valid range. After construction, <a class="el" href="classetl_1_1basic__string__view.html#a00df22cc45974625beb170b0a39705a0" title="Returns a pointer to the underlying character array. The pointer is such that the range [data(); data...">data()</a> is equal to s, and <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a> is equal to Traits::length(s).  <a href="#ad5acf3f09659da157899ca91d5f1e147">More...</a><br /></td></tr>
 <tr class="separator:ad5acf3f09659da157899ca91d5f1e147"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplParams" colspan="2">template&lt;typename FirstIter , typename SecondIter , TAETL_REQUIRES_(!etl::is_convertible_v&lt; SecondIter, size_type &gt;) &gt; </td></tr>
-<tr class="memitem:aa289acd020eeb2630d62c6eda15caa3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aa289acd020eeb2630d62c6eda15caa3d">basic_string_view</a> (FirstIter first, SecondIter last)</td></tr>
-<tr class="memdesc:aa289acd020eeb2630d62c6eda15caa3d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range.  <a href="#aa289acd020eeb2630d62c6eda15caa3d">More...</a><br /></td></tr>
-<tr class="separator:aa289acd020eeb2630d62c6eda15caa3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad0f6deaa9b385dc40e4765b6a9a80a4a"><td class="memTemplParams" colspan="2">template&lt;typename Iter , TAETL_REQUIRES_(detail::RandomAccessIterator&lt; Iter &gt;) &gt; </td></tr>
+<tr class="memitem:ad0f6deaa9b385dc40e4765b6a9a80a4a"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#ad0f6deaa9b385dc40e4765b6a9a80a4a">basic_string_view</a> (Iter first, Iter last)</td></tr>
+<tr class="memdesc:ad0f6deaa9b385dc40e4765b6a9a80a4a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range.  <a href="#ad0f6deaa9b385dc40e4765b6a9a80a4a">More...</a><br /></td></tr>
+<tr class="separator:ad0f6deaa9b385dc40e4765b6a9a80a4a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3be7c860941f6d2083039e72175165f6"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a3be7c860941f6d2083039e72175165f6">~basic_string_view</a> () noexcept=default</td></tr>
 <tr class="separator:a3be7c860941f6d2083039e72175165f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6d91d5f4fc61a2b66e58bbea0107f31d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a6d91d5f4fc61a2b66e58bbea0107f31d">operator=</a> (<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> const &amp;view) noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> &amp;=default</td></tr>
@@ -152,9 +152,6 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a30f5859e25ccd43fb6b0abb25e275a74"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#a30f5859e25ccd43fb6b0abb25e275a74">crend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a2905bd473d13e030d0d1eb8846920a87">const_reverse_iterator</a></td></tr>
 <tr class="memdesc:a30f5859e25ccd43fb6b0abb25e275a74"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a reverse iterator to the character following the last character of the reversed view.  <a href="#a30f5859e25ccd43fb6b0abb25e275a74">More...</a><br /></td></tr>
 <tr class="separator:a30f5859e25ccd43fb6b0abb25e275a74"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aea5e1037fef33220efc37be33579daf9"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#aea5e1037fef33220efc37be33579daf9">at</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a></td></tr>
-<tr class="memdesc:aea5e1037fef33220efc37be33579daf9"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>.  <a href="#aea5e1037fef33220efc37be33579daf9">More...</a><br /></td></tr>
-<tr class="separator:aea5e1037fef33220efc37be33579daf9"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af3bf07e552947ed6ad28ab37c77331df"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1basic__string__view.html#af3bf07e552947ed6ad28ab37c77331df">operator[]</a> (<a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a> pos) const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a></td></tr>
 <tr class="memdesc:af3bf07e552947ed6ad28ab37c77331df"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>.  <a href="#af3bf07e552947ed6ad28ab37c77331df">More...</a><br /></td></tr>
 <tr class="separator:af3bf07e552947ed6ad28ab37c77331df"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -625,15 +622,15 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
 
 </div>
 </div>
-<a id="aa289acd020eeb2630d62c6eda15caa3d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa289acd020eeb2630d62c6eda15caa3d">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[5/5]</span></h2>
+<a id="ad0f6deaa9b385dc40e4765b6a9a80a4a"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad0f6deaa9b385dc40e4765b6a9a80a4a">&#9670;&nbsp;</a></span>basic_string_view() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
 <div class="memtemplate">
-template&lt;typename FirstIter , typename SecondIter , TAETL_REQUIRES_(!etl::is_convertible_v&lt; SecondIter, size_type &gt;) &gt; </div>
+template&lt;typename Iter , TAETL_REQUIRES_(detail::RandomAccessIterator&lt; Iter &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -641,13 +638,13 @@ template&lt;typename FirstIter , typename SecondIter , TAETL_REQUIRES_(!etl::is_
         <tr>
           <td class="memname">constexpr <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a> </td>
           <td>(</td>
-          <td class="paramtype">FirstIter&#160;</td>
+          <td class="paramtype">Iter&#160;</td>
           <td class="paramname"><em>first</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
           <td></td>
-          <td class="paramtype">SecondIter&#160;</td>
+          <td class="paramtype">Iter&#160;</td>
           <td class="paramname"><em>last</em>&#160;</td>
         </tr>
         <tr>
@@ -664,7 +661,7 @@ template&lt;typename FirstIter , typename SecondIter , TAETL_REQUIRES_(!etl::is_
 </div><div class="memdoc">
 
 <p>Constructs a <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">basic_string_view</a> over the range [first, last). The behavior is undefined if [first, last) is not a valid range. </p>
-<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Improve SFINAE protection. See standard. </dd></dl>
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000019">Todo:</a></b></dt><dd>Improve SFINAE protection. See C++20 standard. </dd></dl>
 
 </div>
 </div>
@@ -696,37 +693,6 @@ template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="aea5e1037fef33220efc37be33579daf9"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aea5e1037fef33220efc37be33579daf9">&#9670;&nbsp;</a></span>at()</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename CharType, typename Traits = etl::char_traits&lt;CharType&gt;&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1basic__string__view.html">etl::basic_string_view</a>&lt; CharType, Traits &gt;::at </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html#a7ccd1b0ccb14d7b55d97561c5b34361d">size_type</a>&#160;</td>
-          <td class="paramname"><em>pos</em></td><td>)</td>
-          <td> const -&gt; <a class="el" href="classetl_1_1basic__string__view.html#a4c12ffc7b9c5ff8c46c7bdf55ee09b8d">const_reference</a>
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Returns a const reference to the character at specified location pos. No bounds checking is performed: the behavior is undefined if pos &gt;= <a class="el" href="classetl_1_1basic__string__view.html#a6424e2c2157de30fbdadd4079868f38a" title="Returns the number of CharT elements in the view, i.e. etl::distance(begin(), end()). ">size()</a>. </p>
-
-</div>
-</div>
 <a id="a7e2410d1795d7f6f3ddaaf02589e4a01"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a7e2410d1795d7f6f3ddaaf02589e4a01">&#9670;&nbsp;</a></span>back()</h2>
 
