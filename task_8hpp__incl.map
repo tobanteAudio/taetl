@@ -1,5 +1,6 @@
 <map id="etl/experimental/rtos/task.hpp" name="etl/experimental/rtos/task.hpp">
-<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="5,95,144,121"/>
-<area shape="rect" id="node4" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="168,95,291,121"/>
-<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="25,169,124,196"/>
+<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="86,95,225,121"/>
+<area shape="rect" id="node5" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="249,95,371,121"/>
+<area shape="rect" id="node3" href="$intrinsics_8hpp.html" title="detail/intrinsics.hpp" alt="" coords="5,169,156,196"/>
+<area shape="rect" id="node4" href="$version_8hpp.html" title="version.hpp" alt="" coords="181,169,279,196"/>
 </map>

@@ -1,15 +1,15 @@
 <map id="etl/functional.hpp" name="etl/functional.hpp">
 <area shape="rect" id="node2" href="$byte_8hpp.html" title="etl/byte.hpp" alt="" coords="1063,304,1163,331"/>
-<area shape="rect" id="node3" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="1107,543,1226,569"/>
+<area shape="rect" id="node3" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="1054,543,1173,569"/>
 <area shape="rect" id="node9" href="$iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="1029,80,1147,107"/>
 <area shape="rect" id="node16" href="$utility_8hpp.html" title="etl/utility.hpp" alt="" coords="353,155,460,181"/>
 <area shape="rect" id="node19" href="$new_8hpp.html" title="etl/new.hpp" alt="" coords="1311,155,1409,181"/>
 <area shape="rect" id="node20" href="$algo__search_8hpp.html" title="etl/detail/algo_search.hpp" alt="" coords="1485,80,1675,107"/>
-<area shape="rect" id="node5" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="468,379,588,405"/>
-<area shape="rect" id="node8" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="931,379,1082,405"/>
-<area shape="rect" id="node4" href="$version_8hpp.html" title="version.hpp" alt="" coords="1117,617,1216,644"/>
-<area shape="rect" id="node6" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="500,543,671,569"/>
-<area shape="rect" id="node7" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="565,453,720,495"/>
+<area shape="rect" id="node6" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="468,379,588,405"/>
+<area shape="rect" id="node8" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="913,379,1063,405"/>
+<area shape="rect" id="node4" href="$intrinsics_8hpp.html" title="detail/intrinsics.hpp" alt="" coords="569,617,719,644"/>
+<area shape="rect" id="node5" href="$version_8hpp.html" title="version.hpp" alt="" coords="1064,617,1163,644"/>
+<area shape="rect" id="node7" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="567,453,721,495"/>
 <area shape="rect" id="node10" href="$memory_8hpp.html" title="etl/memory.hpp" alt="" coords="975,155,1099,181"/>
 <area shape="rect" id="node15" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="1113,229,1236,256"/>
 <area shape="rect" id="node11" href="$limits_8hpp.html" title="etl/limits.hpp" alt="" coords="713,229,821,256"/>

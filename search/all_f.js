@@ -57,7 +57,7 @@ var searchData=
   ['protocol_5ferror',['protocol_error',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a9665c745d0a9132d8da6ed55e89a0564',1,'etl']]],
   ['protocol_5fnot_5fsupported',['protocol_not_supported',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170aa2635acef8b9a3e1c40923829722d472',1,'etl']]],
   ['ptr',['ptr',['../structetl_1_1to__chars__result.html#a19421967f126e3ab8ba85b9fc7d27a9f',1,'etl::to_chars_result::ptr()'],['../structetl_1_1from__chars__result.html#ac1772358fc563f10a92f04991334525a',1,'etl::from_chars_result::ptr()']]],
-  ['ptrdiff_5ft',['ptrdiff_t',['../namespaceetl.html#aaeffdc633d8abcfd9c4a3a39a5db0363',1,'etl']]],
+  ['ptrdiff_5ft',['ptrdiff_t',['../namespaceetl.html#a67616e3a4730b014fa7dc36265622a77',1,'etl']]],
   ['pull_5fup_5fresistor',['pull_up_resistor',['../namespaceetl_1_1hardware_1_1mcp23017.html#a4a8df291ada578578c6626d55a7fcd1e',1,'etl::hardware::mcp23017']]],
   ['push',['push',['../structetl_1_1dsp_1_1feedback__drain.html#a8b7deddda4c49a4436bd963c5113ff4c',1,'etl::dsp::feedback_drain::push()'],['../classetl_1_1stack.html#ae47eb18b4769cad76422ad837f49f74a',1,'etl::stack::push(const value_type &amp;x) -&gt; void'],['../classetl_1_1stack.html#a001f0e60183359ccea28791a4d88de87',1,'etl::stack::push(value_type &amp;&amp;x) -&gt; void']]],
   ['push_5fback',['push_back',['../classetl_1_1basic__static__string.html#a05e2ccfd77cea2c7f01eed4d7c64d1f9',1,'etl::basic_static_string::push_back()'],['../classetl_1_1static__vector.html#ab11f5fe147a76ab4037c98e6b110a70f',1,'etl::static_vector::push_back()']]]
