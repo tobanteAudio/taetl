@@ -1,13 +1,14 @@
 <map id="etl/memory.hpp" name="etl/memory.hpp">
-<area shape="rect" id="node2" href="$iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="420,80,539,107"/>
+<area shape="rect" id="node2" href="$iterator_8hpp.html" title="etl/iterator.hpp" alt="" coords="405,80,524,107"/>
 <area shape="rect" id="node16" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="173,319,319,345"/>
 <area shape="rect" id="node19" href="$optional_8hpp.html" title="etl/optional.hpp" alt="" coords="1001,319,1125,345"/>
-<area shape="rect" id="node3" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="531,155,667,181"/>
+<area shape="rect" id="node3" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="537,155,673,181"/>
 <area shape="rect" id="node4" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="713,237,848,263"/>
 <area shape="rect" id="node5" href="$array_8hpp.html" title="etl/array.hpp" alt="" coords="875,319,977,345"/>
 <area shape="rect" id="node9" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="203,483,382,524"/>
 <area shape="rect" id="node14" href="$set_8hpp.html" title="etl/set.hpp" alt="" coords="427,401,518,427"/>
-<area shape="rect" id="node23" href="$container__utils_8hpp.html" title="etl/detail/container\l_utils.hpp" alt="" coords="296,229,441,271"/>
+<area shape="rect" id="node23" href="$container__utils_8hpp.html" title="etl/detail/container\l_utils.hpp" alt="" coords="307,229,452,271"/>
+<area shape="rect" id="node24" href="$stack_8hpp.html" title="etl/stack.hpp" alt="" coords="295,155,402,181"/>
 <area shape="rect" id="node8" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="543,401,653,427"/>
 <area shape="rect" id="node18" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="648,319,748,345"/>
 <area shape="rect" id="node20" href="$numeric_8hpp.html" title="etl/numeric.hpp" alt="" coords="96,237,220,263"/>

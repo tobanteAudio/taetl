@@ -4,7 +4,7 @@ var searchData=
   ['taskfunction_5ft',['TaskFunction_t',['../stubs_8hpp.html#abf7949d886bad89599ec5fc29306604e',1,'stubs.hpp']]],
   ['taskhandle_5ft',['TaskHandle_t',['../stubs_8hpp.html#a0bd11fd4faa2de671efa056b93bb18b2',1,'stubs.hpp']]],
   ['tera',['tera',['../namespaceetl.html#a9d864adecb109d82a13a134020536ce7',1,'etl']]],
-  ['ticktype_5ft',['TickType_t',['../stubs_8hpp.html#af5484fc4c9c5ce77314d8589b5a3bab6',1,'stubs.hpp']]],
+  ['ticktype_5ft',['TickType_t',['../stubs_8hpp.html#a7a499be6ab5cca64bfdc5c0c7c1805ca',1,'stubs.hpp']]],
   ['traits_5ftype',['traits_type',['../classetl_1_1basic__static__string.html#aa77b617176c5c51905e52a5a86634447',1,'etl::basic_static_string::traits_type()'],['../classetl_1_1basic__string__view.html#a4312ceeb13a10fdf1e6dd5953b5100fc',1,'etl::basic_string_view::traits_type()']]],
   ['true_5ftype',['true_type',['../namespaceetl.html#aa107a29afbb5288d6dceb9fae86b07b8',1,'etl']]],
   ['twice',['twice',['../namespaceetl_1_1rtos.html#a8e73576fccc1e93697522172f6ea2b19',1,'etl::rtos']]],

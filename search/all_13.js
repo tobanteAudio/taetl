@@ -1,6 +1,8 @@
 var searchData=
 [
   ['taetl_20_2d_20embedded_20template_20library',['TAETL - Embedded Template Library',['../index.html',1,'']]],
+  ['taetl_5fbuiltin_5finfinity',['TAETL_BUILTIN_INFINITY',['../intrinsics_8hpp.html#a91125fb39159a2080d80efdbd41c700e',1,'intrinsics.hpp']]],
+  ['taetl_5fbuiltin_5fnan',['TAETL_BUILTIN_NAN',['../intrinsics_8hpp.html#a9cf15d1f6fca50aef136c79ecc09e679',1,'intrinsics.hpp']]],
   ['taetl_5fconcept_5fpp_5fcat',['TAETL_CONCEPT_PP_CAT',['../sfinae_8hpp.html#ac2429cd87161bbb8ba40ac0b748e8224',1,'sfinae.hpp']]],
   ['taetl_5fconcept_5fpp_5fcat_5f',['TAETL_CONCEPT_PP_CAT_',['../sfinae_8hpp.html#a4c9de08c180b6e563b518ea0dbceb58f',1,'sfinae.hpp']]],
   ['taetl_5fhas_5fvirtual_5fdestructor',['TAETL_HAS_VIRTUAL_DESTRUCTOR',['../intrinsics_8hpp.html#a37f45a093948fc4cb810b4c02d7636af',1,'intrinsics.hpp']]],
@@ -32,7 +34,7 @@ var searchData=
   ['tera',['tera',['../namespaceetl.html#a9d864adecb109d82a13a134020536ce7',1,'etl']]],
   ['test',['test',['../classetl_1_1bitset.html#a56a095832470709f2aa229078caca5fd',1,'etl::bitset']]],
   ['text_5ffile_5fbusy',['text_file_busy',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ad2f80f12d22bb099fcf1062db660b567',1,'etl']]],
-  ['ticktype_5ft',['TickType_t',['../stubs_8hpp.html#af5484fc4c9c5ce77314d8589b5a3bab6',1,'stubs.hpp']]],
+  ['ticktype_5ft',['TickType_t',['../stubs_8hpp.html#a7a499be6ab5cca64bfdc5c0c7c1805ca',1,'stubs.hpp']]],
   ['timed_5fout',['timed_out',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a56c27b1ab1a5a5a0eae853cabb4dc0c1',1,'etl']]],
   ['times',['times',['../structetl_1_1rtos_1_1times.html',1,'etl::rtos']]],
   ['tinyness_5fbefore',['tinyness_before',['../classetl_1_1numeric__limits.html#a44cc3fd663031ca11ec4e32e9293c10c',1,'etl::numeric_limits::tinyness_before()'],['../classetl_1_1numeric__limits_3_01bool_01_4.html#aff87f035b824045abe3f89b9484530d8',1,'etl::numeric_limits&lt; bool &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01char_01_4.html#a106dc02e10480864dae9e7067c8522d3',1,'etl::numeric_limits&lt; char &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01signed_01char_01_4.html#a475953609c35b9f573bbe11afc986916',1,'etl::numeric_limits&lt; signed char &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01unsigned_01char_01_4.html#ad0b6acbfb86836c66573916cb47cb481',1,'etl::numeric_limits&lt; unsigned char &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01short_01_4.html#ac7003a61246334c161c07a0871b64075',1,'etl::numeric_limits&lt; short &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01unsigned_01short_01_4.html#ae7f04d0324d4bc190325a8507eee4c49',1,'etl::numeric_limits&lt; unsigned short &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01int_01_4.html#a57b5431617c76fa8fc3a7b3040100e61',1,'etl::numeric_limits&lt; int &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01unsigned_01int_01_4.html#a04eafc883b2e06578e9685c16cb22aec',1,'etl::numeric_limits&lt; unsigned int &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01long_01_4.html#a2ef432ac48c4660a0b2bdc15d5e35d94',1,'etl::numeric_limits&lt; long &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01unsigned_01long_01_4.html#a22462f66760e0c7fa752af922526ae71',1,'etl::numeric_limits&lt; unsigned long &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01float_01_4.html#afdcb2b28eadd6a0a51da4f127aebd413',1,'etl::numeric_limits&lt; float &gt;::tinyness_before()'],['../classetl_1_1numeric__limits_3_01double_01_4.html#a568a26b1f4cc56081540728fe8cf3738',1,'etl::numeric_limits&lt; double &gt;::tinyness_before()']]],
@@ -47,6 +49,7 @@ var searchData=
   ['too_5fmany_5ffiles_5fopen_5fin_5fsystem',['too_many_files_open_in_system',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a3130d1d4e000cdc1e7c47013e313c10e',1,'etl']]],
   ['too_5fmany_5flinks',['too_many_links',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170abfe22fc9b27a8ff13186aba60b6bc5c8',1,'etl']]],
   ['too_5fmany_5fsymbolic_5flink_5flevels',['too_many_symbolic_link_levels',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a33c78baca1480479c88aa4d50cb68206',1,'etl']]],
+  ['top',['top',['../classetl_1_1stack.html#a91252dabd80f39762b5f4fc39e8d83b9',1,'etl::stack::top() -&gt; reference'],['../classetl_1_1stack.html#a8dc0af3afb7dff71e9e6cfa8947eb88c',1,'etl::stack::top() const -&gt; const_reference']]],
   ['toupper',['toupper',['../namespaceetl.html#a2b46f5faca236c0de0b9f378c22498c1',1,'etl']]],
   ['traits_5ftype',['traits_type',['../classetl_1_1basic__static__string.html#aa77b617176c5c51905e52a5a86634447',1,'etl::basic_static_string::traits_type()'],['../classetl_1_1basic__string__view.html#a4312ceeb13a10fdf1e6dd5953b5100fc',1,'etl::basic_string_view::traits_type()']]],
   ['transform',['transform',['../namespaceetl.html#a32dd2ffddadb248b341e42879a9e9951',1,'etl::transform(InputIter first, InputIter last, OutputIter destination, UnaryOperation op) -&gt; OutputIter'],['../namespaceetl.html#a85f81702ed6fdeecec082a39e50e4e2a',1,'etl::transform(InputIter1 first1, InputIter1 last1, InputIter2 first2, OutputIter dest, BinaryOperation op) -&gt; OutputIter']]],

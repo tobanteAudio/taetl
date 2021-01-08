@@ -82,9 +82,9 @@ $(function() {
 Public Types</h2></td></tr>
 <tr class="memitem:a8bc76893d5fbdc7105a60b7f624f36c7"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html#a8bc76893d5fbdc7105a60b7f624f36c7">value_type</a> = Type</td></tr>
 <tr class="separator:a8bc76893d5fbdc7105a60b7f624f36c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a14b141217f2df0e46e7fb96b260739f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> = <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td></tr>
+<tr class="memitem:a14b141217f2df0e46e7fb96b260739f5"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> = <a class="el" href="namespaceetl.html#a2ccbaafa97e1234d9eefb340c238c34c">etl::size_t</a></td></tr>
 <tr class="separator:a14b141217f2df0e46e7fb96b260739f5"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a8e0b40cd7b56ef1f52e9c117c793e2d8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html#a8e0b40cd7b56ef1f52e9c117c793e2d8">difference_type</a> = <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a></td></tr>
+<tr class="memitem:a8e0b40cd7b56ef1f52e9c117c793e2d8"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html#a8e0b40cd7b56ef1f52e9c117c793e2d8">difference_type</a> = <a class="el" href="namespaceetl.html#aaeffdc633d8abcfd9c4a3a39a5db0363">etl::ptrdiff_t</a></td></tr>
 <tr class="separator:a8e0b40cd7b56ef1f52e9c117c793e2d8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab62d115a69d08ecd728042091ca90f9d"><td class="memItemLeft" align="right" valign="top">using&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1array.html#ab62d115a69d08ecd728042091ca90f9d">pointer</a> = Type *</td></tr>
 <tr class="separator:ab62d115a69d08ecd728042091ca90f9d"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -198,7 +198,7 @@ struct etl::array&lt; Type, Size &gt;</h3>
 
 <p><a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays. </p>
 <p>This container is an aggregate type with the same semantics as a struct holding a C-style array Type[N] as its only non-static data member. Unlike a C-style array, it doesn't decay to Type* automatically. As an aggregate type, it can be initialized with aggregate-initialization given at most N initializers that are convertible to Type: <a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884" title="Deduction guide. ">etl::array&lt;int, 3&gt;</a> a = {1,2,3};. </p>
-<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#_a0">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#_a7">set.cpp</a>.</dd>
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#_a0">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#_a8">set.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aaea609f5e21b1e5d323c9ff1756b49f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaea609f5e21b1e5d323c9ff1756b49f6">&#9670;&nbsp;</a></span>const_iterator</h2>
@@ -273,7 +273,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
 template&lt;typename Type, etl::size_t Size&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::<a class="el" href="structetl_1_1array.html#a8e0b40cd7b56ef1f52e9c117c793e2d8">difference_type</a> =  <a class="el" href="namespaceetl.html#a56e0abf50b318376b511f461e8baca33">etl::ptrdiff_t</a></td>
+          <td class="memname">using <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::<a class="el" href="structetl_1_1array.html#a8e0b40cd7b56ef1f52e9c117c793e2d8">difference_type</a> =  <a class="el" href="namespaceetl.html#aaeffdc633d8abcfd9c4a3a39a5db0363">etl::ptrdiff_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -353,7 +353,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
 template&lt;typename Type, etl::size_t Size&gt; </div>
       <table class="memname">
         <tr>
-          <td class="memname">using <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::<a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> =  <a class="el" href="namespaceetl.html#ac853a6316b146d25fdfbb5865821cedd">etl::size_t</a></td>
+          <td class="memname">using <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::<a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> =  <a class="el" href="namespaceetl.html#a2ccbaafa97e1234d9eefb340c238c34c">etl::size_t</a></td>
         </tr>
       </table>
 </div><div class="memdoc">

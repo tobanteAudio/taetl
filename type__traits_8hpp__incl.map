@@ -1,6 +1,6 @@
 <map id="etl/type_traits.hpp" name="etl/type_traits.hpp">
-<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="96,169,235,196"/>
-<area shape="rect" id="node6" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="271,169,441,196"/>
-<area shape="rect" id="node7" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="177,80,332,121"/>
-<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="5,244,104,271"/>
+<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="5,169,144,196"/>
+<area shape="rect" id="node4" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="193,169,364,196"/>
+<area shape="rect" id="node5" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="100,80,255,121"/>
+<area shape="rect" id="node3" href="$version_8hpp.html" title="version.hpp" alt="" coords="25,244,124,271"/>
 </map>
