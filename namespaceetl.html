@@ -3024,7 +3024,8 @@ template&lt;bool B, typename T  = void&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a8">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="ad61de91810005a6ceb93748b6a36f4cf"></a>
@@ -3038,7 +3039,8 @@ template&lt;bool B, typename T  = void&gt; </div>
         </tr>
       </table>
 </div><div class="memdoc">
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a9">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a070223437c24b2a7e4ea682682d075ee"></a>
@@ -4386,7 +4388,8 @@ template&lt;typename T &gt; </div>
 </div><div class="memdoc">
 
 <p>Forms lvalue reference to const type of t. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a5">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a467b2ed1f8f9d51ceb6786d6f6cd2c1d"></a>
@@ -4888,7 +4891,8 @@ template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not
 
 <p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
 <p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a6">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a11eef5929cdeabad9ba8d1d4d0b7493e"></a>
@@ -5098,7 +5102,8 @@ template&lt;typename T , typename U , TAETL_REQUIRES_(detail::is_integer_and_not
 
 <p>Compare the values of two integers t and u. Unlike builtin comparison operators, negative signed integers always compare less than (and not equal to) unsigned integers: the comparison is safe against lossy integer conversion. </p>
 <p>It is a compile-time error if either T or U is not a signed or unsigned integer type (including standard integer type and extended integer type). https://en.cppreference.com/w/cpp/utility/intcmp </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a7">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a6a6c95d500822d453650e96620caee5d"></a>
@@ -6300,7 +6305,8 @@ template&lt;typename T , typename U  = T&gt; </div>
 
 <p>Replaces the value of obj with new_value and returns the old value of obj. </p>
 <dl class="section return"><dt>Returns</dt><dd>The old value of obj. </dd></dl>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a3">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a0512bc5f4147d65b4de29c284371f385"></a>
@@ -8763,7 +8769,8 @@ template&lt;typename T1 , typename T2 &gt; </div>
 <p>Creates a <a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> object, deducing the target type from the types of arguments. </p>
 <p>The deduced types V1 and V2 are <a class="el" href="structetl_1_1decay.html#aafdc23eff04d441f74c9e72ca18e5a09">etl::decay&lt;T1&gt;::type</a> and <a class="el" href="structetl_1_1decay.html#aafdc23eff04d441f74c9e72ca18e5a09">etl::decay&lt;T2&gt;::type</a> (the usual type transformations applied to arguments of functions passed by value).</p>
 <p>https://en.cppreference.com/w/cpp/utility/pair/make_pair </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a12">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a56fd86ba568b1c1665502fcb72ed4327"></a>
@@ -9785,7 +9792,8 @@ template&lt;typename InputIter , typename OutputIter &gt; </div>
 </div><div class="memdoc">
 
 <p>Moves the elements in the range [[ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, starting from first and proceeding to <code>last</code> - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="optional_8cpp-example.html#a3">optional.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a75c1bbc9c04ed65c5902b5a4d4f32035"></a>
@@ -14993,7 +15001,8 @@ template&lt;typename T , etl::size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Specializes the <a class="el" href="namespaceetl.html#a0f31d2c1983d613a5b1be68a431cfd13" title="Specializes the etl::swap algorithm for etl::array. Swaps the contents of lhs and rhs...">etl::swap</a> algorithm for <a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a>. Swaps the contents of lhs and rhs. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a0">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="aaa50aa68713ac9f56128ad9c0406b737"></a>
@@ -16115,7 +16124,8 @@ template&lt;typename T &gt; </div>
   </tr>
 </table>
 </div><div class="memdoc">
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#a4">utility.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a1ab616d6855ca5fc60968a153587b2b4"></a>
@@ -17459,7 +17469,8 @@ template&lt;typename B &gt; </div>
 </div><div class="memdoc">
 
 <p><a class="el" href="namespaceetl.html#a93d7a7601aedf2ce125a34a9d83b80a7" title="etl::nullopt is a constant of type etl::nullopt_t that is used to indicate optional type with uniniti...">etl::nullopt</a> is a constant of type <a class="el" href="structetl_1_1nullopt__t.html" title="etl::nullopt_t is an empty class type used to indicate optional type with uninitialized state...">etl::nullopt_t</a> that is used to indicate optional type with uninitialized state. </p>
-
+<dl><dt><b>Examples: </b></dt><dd><a class="el" href="optional_8cpp-example.html#a2">optional.cpp</a>.</dd>
+</dl>
 </div>
 </div>
 <a id="a69282b501974163cc5557d48739f21c4"></a>
