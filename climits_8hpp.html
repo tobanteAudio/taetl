@@ -137,9 +137,9 @@ Macros</h2></td></tr>
 <tr class="separator:a21658776274b3d146c674318b635a334"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae8a44c5a7436466221e0f3859d02420f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="climits_8hpp.html#ae8a44c5a7436466221e0f3859d02420f">LONG_MIN</a>&#160;&#160;&#160;(-__LONG_MAX__ - 1L)</td></tr>
 <tr class="separator:ae8a44c5a7436466221e0f3859d02420f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a4066e640ee269d5d8f83ff6643b7af5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="climits_8hpp.html#a4066e640ee269d5d8f83ff6643b7af5f">UCHAR_MAX</a>&#160;&#160;&#160;(__SCHAR_MAX__ * 2 + 1)</td></tr>
+<tr class="memitem:a4066e640ee269d5d8f83ff6643b7af5f"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="climits_8hpp.html#a4066e640ee269d5d8f83ff6643b7af5f">UCHAR_MAX</a>&#160;&#160;&#160;(static_cast&lt;unsigned char&gt;(__SCHAR_MAX__) * 2 + 1)</td></tr>
 <tr class="separator:a4066e640ee269d5d8f83ff6643b7af5f"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a689b119da994dece91d44b5aeac643ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="climits_8hpp.html#a689b119da994dece91d44b5aeac643ed">USHRT_MAX</a>&#160;&#160;&#160;(__SHRT_MAX__ * 2 + 1)</td></tr>
+<tr class="memitem:a689b119da994dece91d44b5aeac643ed"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="climits_8hpp.html#a689b119da994dece91d44b5aeac643ed">USHRT_MAX</a>&#160;&#160;&#160;(static_cast&lt;unsigned short&gt;(__SHRT_MAX__) * 2 + 1)</td></tr>
 <tr class="separator:a689b119da994dece91d44b5aeac643ed"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac998ea02fbd821fc123d60445ce76f38"><td class="memItemLeft" align="right" valign="top">#define&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="climits_8hpp.html#ac998ea02fbd821fc123d60445ce76f38">UINT_MAX</a>&#160;&#160;&#160;(__INT_MAX__ * 2U + 1U)</td></tr>
 <tr class="separator:ac998ea02fbd821fc123d60445ce76f38"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -322,7 +322,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define UCHAR_MAX&#160;&#160;&#160;(__SCHAR_MAX__ * 2 + 1)</td>
+          <td class="memname">#define UCHAR_MAX&#160;&#160;&#160;(static_cast&lt;unsigned char&gt;(__SCHAR_MAX__) * 2 + 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
@@ -364,7 +364,7 @@ Macros</h2></td></tr>
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">#define USHRT_MAX&#160;&#160;&#160;(__SHRT_MAX__ * 2 + 1)</td>
+          <td class="memname">#define USHRT_MAX&#160;&#160;&#160;(static_cast&lt;unsigned short&gt;(__SHRT_MAX__) * 2 + 1)</td>
         </tr>
       </table>
 </div><div class="memdoc">
