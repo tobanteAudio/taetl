@@ -103,6 +103,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:afae06714b446351f3238980a2189d049"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#afae06714b446351f3238980a2189d049">reset</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> pos) noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
 <tr class="memdesc:afae06714b446351f3238980a2189d049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the bit at position pos to false.  <a href="#afae06714b446351f3238980a2189d049">More...</a><br /></td></tr>
 <tr class="separator:afae06714b446351f3238980a2189d049"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a663e12a3f07f8c619dce62b7ff9900e5"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a663e12a3f07f8c619dce62b7ff9900e5">flip</a> () noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:a663e12a3f07f8c619dce62b7ff9900e5"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flips all bits (like operator~, but in-place).  <a href="#a663e12a3f07f8c619dce62b7ff9900e5">More...</a><br /></td></tr>
+<tr class="separator:a663e12a3f07f8c619dce62b7ff9900e5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae886569b0fc8326b6923d3c658a4b5de"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ae886569b0fc8326b6923d3c658a4b5de">flip</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> pos) noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:ae886569b0fc8326b6923d3c658a4b5de"><td class="mdescLeft">&#160;</td><td class="mdescRight">Flips the bit at the position pos.  <a href="#ae886569b0fc8326b6923d3c658a4b5de">More...</a><br /></td></tr>
+<tr class="separator:ae886569b0fc8326b6923d3c658a4b5de"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52a25190dd997b8f709dac02b033f4c3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a52a25190dd997b8f709dac02b033f4c3">operator[]</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) -&gt; <a class="el" href="classetl_1_1bitset_1_1reference.html">reference</a></td></tr>
 <tr class="memdesc:a52a25190dd997b8f709dac02b033f4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a52a25190dd997b8f709dac02b033f4c3">More...</a><br /></td></tr>
 <tr class="separator:a52a25190dd997b8f709dac02b033f4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -282,6 +288,67 @@ template&lt;size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the number of bits that are set to true. </p>
+
+</div>
+</div>
+<a id="a663e12a3f07f8c619dce62b7ff9900e5"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a663e12a3f07f8c619dce62b7ff9900e5">&#9670;&nbsp;</a></span>flip() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::flip </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flips all bits (like operator~, but in-place). </p>
+
+</div>
+</div>
+<a id="ae886569b0fc8326b6923d3c658a4b5de"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae886569b0fc8326b6923d3c658a4b5de">&#9670;&nbsp;</a></span>flip() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::flip </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Flips the bit at the position pos. </p>
 
 </div>
 </div>
