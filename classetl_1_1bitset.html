@@ -133,6 +133,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad261796fbc2dcab107948f6582d384e4"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ad261796fbc2dcab107948f6582d384e4">size</a> () const noexcept -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a></td></tr>
 <tr class="memdesc:ad261796fbc2dcab107948f6582d384e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits that the bitset holds.  <a href="#ad261796fbc2dcab107948f6582d384e4">More...</a><br /></td></tr>
 <tr class="separator:ad261796fbc2dcab107948f6582d384e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6bf10569485696e26e6198b09764ed04"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a6bf10569485696e26e6198b09764ed04">operator==</a> (<a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;rhs) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a6bf10569485696e26e6198b09764ed04"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if all of the bits in *this and rhs are equal.  <a href="#a6bf10569485696e26e6198b09764ed04">More...</a><br /></td></tr>
+<tr class="separator:a6bf10569485696e26e6198b09764ed04"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a36466cb8994866b63fa424f6383b9cb4"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a36466cb8994866b63fa424f6383b9cb4">operator!=</a> (<a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;rhs) const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a36466cb8994866b63fa424f6383b9cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if all of the bits in *this and rhs are not equal.  <a href="#a36466cb8994866b63fa424f6383b9cb4">More...</a><br /></td></tr>
+<tr class="separator:a36466cb8994866b63fa424f6383b9cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;size_t N&gt;<br />
@@ -378,6 +384,68 @@ template&lt;size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if none bits are set to true. </p>
+
+</div>
+</div>
+<a id="a36466cb8994866b63fa424f6383b9cb4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a36466cb8994866b63fa424f6383b9cb4">&#9670;&nbsp;</a></span>operator!=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator!= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if all of the bits in *this and rhs are not equal. </p>
+
+</div>
+</div>
+<a id="a6bf10569485696e26e6198b09764ed04"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a6bf10569485696e26e6198b09764ed04">&#9670;&nbsp;</a></span>operator==()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator== </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>rhs</em></td><td>)</td>
+          <td> const -&gt; bool
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns true if all of the bits in *this and rhs are equal. </p>
 
 </div>
 </div>
