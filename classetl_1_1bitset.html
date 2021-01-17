@@ -97,6 +97,12 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a4ede14f6624f31d2adfc672aa3138212"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a4ede14f6624f31d2adfc672aa3138212">set</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">etl::size_t</a> pos, bool value=true) -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
 <tr class="memdesc:a4ede14f6624f31d2adfc672aa3138212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to true or to specified value. Sets the bit at position pos to the value value.  <a href="#a4ede14f6624f31d2adfc672aa3138212">More...</a><br /></td></tr>
 <tr class="separator:a4ede14f6624f31d2adfc672aa3138212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a138d5e6b1f7271354b32bf67e860e297"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a138d5e6b1f7271354b32bf67e860e297">reset</a> () noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:a138d5e6b1f7271354b32bf67e860e297"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to false.  <a href="#a138d5e6b1f7271354b32bf67e860e297">More...</a><br /></td></tr>
+<tr class="separator:a138d5e6b1f7271354b32bf67e860e297"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:afae06714b446351f3238980a2189d049"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#afae06714b446351f3238980a2189d049">reset</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> pos) noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:afae06714b446351f3238980a2189d049"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the bit at position pos to false.  <a href="#afae06714b446351f3238980a2189d049">More...</a><br /></td></tr>
+<tr class="separator:afae06714b446351f3238980a2189d049"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a52a25190dd997b8f709dac02b033f4c3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a52a25190dd997b8f709dac02b033f4c3">operator[]</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) -&gt; <a class="el" href="classetl_1_1bitset_1_1reference.html">reference</a></td></tr>
 <tr class="memdesc:a52a25190dd997b8f709dac02b033f4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a52a25190dd997b8f709dac02b033f4c3">More...</a><br /></td></tr>
 <tr class="separator:a52a25190dd997b8f709dac02b033f4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -127,7 +133,7 @@ Public Member Functions</h2></td></tr>
 class etl::bitset&lt; N &gt;</h3>
 
 <p>The class template bitset represents a fixed-size sequence of N bits. Bitsets can be manipulated by standard logic operators. </p>
-<div class="fragment"><div class="line"><span class="comment">/*</span></div><div class="line"><span class="comment">Copyright (c) 2019-2020, Tobias Hienzsch</span></div><div class="line"><span class="comment">All rights reserved.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">Redistribution and use in source and binary forms, with or without</span></div><div class="line"><span class="comment">modification, are permitted provided that the following conditions are met:</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment"> * Redistributions of source code must retain the above copyright notice,</span></div><div class="line"><span class="comment">   this list of conditions and the following disclaimer.</span></div><div class="line"><span class="comment"> * Redistributions in binary form must reproduce the above copyright</span></div><div class="line"><span class="comment">   notice, this list of conditions and the following disclaimer in the</span></div><div class="line"><span class="comment">   documentation and/or other materials provided with the distribution.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS&#39;&#39; AND ANY</span></div><div class="line"><span class="comment">EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED</span></div><div class="line"><span class="comment">WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE</span></div><div class="line"><span class="comment">DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY</span></div><div class="line"><span class="comment">DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES</span></div><div class="line"><span class="comment">(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR</span></div><div class="line"><span class="comment">SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER</span></div><div class="line"><span class="comment">CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT</span></div><div class="line"><span class="comment">LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY</span></div><div class="line"><span class="comment">OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH</span></div><div class="line"><span class="comment">DAMAGE.</span></div><div class="line"><span class="comment">*/</span></div><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="bitset_8hpp.html">etl/bitset.hpp</a>&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="cassert_8hpp.html">etl/cassert.hpp</a>&quot;</span></div><div class="line"></div><div class="line"><span class="keyword">auto</span> main() -&gt; <span class="keywordtype">int</span></div><div class="line">{</div><div class="line">    <span class="keyword">auto</span> bits = <a class="code" href="classetl_1_1bitset.html">etl::bitset&lt;8&gt;</a>();</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.none() == <span class="keyword">true</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.any() == <span class="keyword">false</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.all() == <span class="keyword">false</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(0) == <span class="keyword">false</span>);</div><div class="line"></div><div class="line">    bits.set(0);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(0) == <span class="keyword">true</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.count() == 1);</div><div class="line"></div><div class="line">    <a class="code" href="classetl_1_1bitset_1_1reference.html">etl::bitset&lt;8&gt;::reference</a> ref = bits[0];</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(ref == <span class="keyword">true</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(~ref == <span class="keyword">false</span>);</div><div class="line"></div><div class="line">    <span class="comment">// ref = false;</span></div><div class="line">    <span class="comment">// assert(ref == false);</span></div><div class="line">    <span class="comment">// assert(~ref == true);</span></div><div class="line"></div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --> <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Converted to and from strings and integers. Add operators &amp; more docs. </dd></dl>
+<div class="fragment"><div class="line"><span class="comment">/*</span></div><div class="line"><span class="comment">Copyright (c) 2019-2020, Tobias Hienzsch</span></div><div class="line"><span class="comment">All rights reserved.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">Redistribution and use in source and binary forms, with or without</span></div><div class="line"><span class="comment">modification, are permitted provided that the following conditions are met:</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment"> * Redistributions of source code must retain the above copyright notice,</span></div><div class="line"><span class="comment">   this list of conditions and the following disclaimer.</span></div><div class="line"><span class="comment"> * Redistributions in binary form must reproduce the above copyright</span></div><div class="line"><span class="comment">   notice, this list of conditions and the following disclaimer in the</span></div><div class="line"><span class="comment">   documentation and/or other materials provided with the distribution.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS&#39;&#39; AND ANY</span></div><div class="line"><span class="comment">EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED</span></div><div class="line"><span class="comment">WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE</span></div><div class="line"><span class="comment">DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY</span></div><div class="line"><span class="comment">DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES</span></div><div class="line"><span class="comment">(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR</span></div><div class="line"><span class="comment">SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER</span></div><div class="line"><span class="comment">CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT</span></div><div class="line"><span class="comment">LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY</span></div><div class="line"><span class="comment">OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH</span></div><div class="line"><span class="comment">DAMAGE.</span></div><div class="line"><span class="comment">*/</span></div><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="bitset_8hpp.html">etl/bitset.hpp</a>&quot;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#undef NDEBUG</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="cassert_8hpp.html">etl/cassert.hpp</a>&quot;</span></div><div class="line"></div><div class="line"><span class="keyword">auto</span> main() -&gt; <span class="keywordtype">int</span></div><div class="line">{</div><div class="line">    <span class="keyword">auto</span> bits = <a class="code" href="classetl_1_1bitset.html">etl::bitset&lt;8&gt;</a>();</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.none() == <span class="keyword">true</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.any() == <span class="keyword">false</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.all() == <span class="keyword">false</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(0) == <span class="keyword">false</span>);</div><div class="line"></div><div class="line">    bits.set(0);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(0) == <span class="keyword">true</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.count() == 1);</div><div class="line"></div><div class="line">    bits.set(1);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(1) == <span class="keyword">true</span>);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.count() == 2);</div><div class="line"></div><div class="line">    bits.reset(1);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(1) == <span class="keyword">false</span>);</div><div class="line"></div><div class="line">    bits.reset();</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(bits.test(0) == <span class="keyword">false</span>);</div><div class="line"></div><div class="line">    <span class="comment">// etl::bitset&lt;8&gt;::reference ref = bits[0];</span></div><div class="line">    <span class="comment">// assert(ref == true);</span></div><div class="line">    <span class="comment">// assert(~ref == false);</span></div><div class="line"></div><div class="line">    <span class="comment">// ref = false;</span></div><div class="line">    <span class="comment">// assert(ref == false);</span></div><div class="line">    <span class="comment">// assert(~ref == true);</span></div><div class="line"></div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --> <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Converted to and from strings and integers. Add operators &amp; more docs. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="bitset_8cpp-example.html#_a0">bitset.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac195be8146f47730bcde3e740a79968f"></a>
@@ -367,6 +373,67 @@ template&lt;size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Returns the value of the bit at the position pos. Perfoms no bounds checking. </p>
+
+</div>
+</div>
+<a id="a138d5e6b1f7271354b32bf67e860e297"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a138d5e6b1f7271354b32bf67e860e297">&#9670;&nbsp;</a></span>reset() <span class="overload">[1/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::reset </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets all bits to false. </p>
+
+</div>
+</div>
+<a id="afae06714b446351f3238980a2189d049"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#afae06714b446351f3238980a2189d049">&#9670;&nbsp;</a></span>reset() <span class="overload">[2/2]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::reset </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a>&#160;</td>
+          <td class="paramname"><em>pos</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the bit at position pos to false. </p>
 
 </div>
 </div>
