@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=9"/>
 <meta name="generator" content="Doxygen 1.8.13"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>taetl: etl::bitset&lt; NumberOfBits &gt; Class Template Reference</title>
+<title>taetl: etl::bitset&lt; N &gt; Class Template Reference</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -68,7 +68,7 @@ $(function() {
 <a href="#pub-methods">Public Member Functions</a> &#124;
 <a href="classetl_1_1bitset-members.html">List of all members</a>  </div>
   <div class="headertitle">
-<div class="title">etl::bitset&lt; NumberOfBits &gt; Class Template Reference</div>  </div>
+<div class="title">etl::bitset&lt; N &gt; Class Template Reference</div>  </div>
 </div><!--header-->
 <div class="contents">
 
@@ -85,63 +85,63 @@ Classes</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:aca15e7866be23897a6ebbb7e99641351"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#aca15e7866be23897a6ebbb7e99641351">bitset</a> () noexcept=default</td></tr>
-<tr class="memdesc:aca15e7866be23897a6ebbb7e99641351"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a bitset with all bits set to zero.  <a href="#aca15e7866be23897a6ebbb7e99641351">More...</a><br /></td></tr>
-<tr class="separator:aca15e7866be23897a6ebbb7e99641351"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ae23b74d54635c1a1643e103826a0488b"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ae23b74d54635c1a1643e103826a0488b">bitset</a> (unsigned long long) noexcept</td></tr>
-<tr class="memdesc:ae23b74d54635c1a1643e103826a0488b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bitset, initializing the first (rightmost, least significant) M bit positions to the corresponding bit values of val, where M is the smaller of the number of bits in an unsigned long long and the number of bits N in the bitset being constructed. If M is less than N the bitset is longer than 64 bits, the remaining bit positions are initialized to zeroes.  <a href="#ae23b74d54635c1a1643e103826a0488b">More...</a><br /></td></tr>
-<tr class="separator:ae23b74d54635c1a1643e103826a0488b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a26cdbd16d478b2979a83693516a534ea"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a26cdbd16d478b2979a83693516a534ea">set</a> () noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; NumberOfBits &gt; &amp;</td></tr>
-<tr class="memdesc:a26cdbd16d478b2979a83693516a534ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to true or to specified value. Sets all bits to true.  <a href="#a26cdbd16d478b2979a83693516a534ea">More...</a><br /></td></tr>
-<tr class="separator:a26cdbd16d478b2979a83693516a534ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a22eb5102e70be33c1a771908ade5d654"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a22eb5102e70be33c1a771908ade5d654">set</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">etl::size_t</a> pos, bool value=true) -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; NumberOfBits &gt; &amp;</td></tr>
-<tr class="memdesc:a22eb5102e70be33c1a771908ade5d654"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to true or to specified value. Sets the bit at position pos to the value value.  <a href="#a22eb5102e70be33c1a771908ade5d654">More...</a><br /></td></tr>
-<tr class="separator:a22eb5102e70be33c1a771908ade5d654"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a6e13d2c31699c9dd49549f2ef6a62abb"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a6e13d2c31699c9dd49549f2ef6a62abb">operator[]</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) -&gt; <a class="el" href="classetl_1_1bitset_1_1reference.html">reference</a></td></tr>
-<tr class="memdesc:a6e13d2c31699c9dd49549f2ef6a62abb"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a6e13d2c31699c9dd49549f2ef6a62abb">More...</a><br /></td></tr>
-<tr class="separator:a6e13d2c31699c9dd49549f2ef6a62abb"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acc5325fed40585f65aa8332bbdaa970d"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#acc5325fed40585f65aa8332bbdaa970d">operator[]</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) const -&gt; bool</td></tr>
-<tr class="memdesc:acc5325fed40585f65aa8332bbdaa970d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#acc5325fed40585f65aa8332bbdaa970d">More...</a><br /></td></tr>
-<tr class="separator:acc5325fed40585f65aa8332bbdaa970d"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a56a095832470709f2aa229078caca5fd"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a56a095832470709f2aa229078caca5fd">test</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) const -&gt; bool</td></tr>
-<tr class="memdesc:a56a095832470709f2aa229078caca5fd"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a56a095832470709f2aa229078caca5fd">More...</a><br /></td></tr>
-<tr class="separator:a56a095832470709f2aa229078caca5fd"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ad835a37ccd240dbcb916c21e18e09112"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ad835a37ccd240dbcb916c21e18e09112">all</a> () const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:ad835a37ccd240dbcb916c21e18e09112"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if all bits are set to true.  <a href="#ad835a37ccd240dbcb916c21e18e09112">More...</a><br /></td></tr>
-<tr class="separator:ad835a37ccd240dbcb916c21e18e09112"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a19e3c72664083455f3abdae667317781"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a19e3c72664083455f3abdae667317781">any</a> () const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:a19e3c72664083455f3abdae667317781"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if any bits are set to true.  <a href="#a19e3c72664083455f3abdae667317781">More...</a><br /></td></tr>
-<tr class="separator:a19e3c72664083455f3abdae667317781"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a390d5726ae9502260a57b7f96cef5719"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a390d5726ae9502260a57b7f96cef5719">none</a> () const noexcept -&gt; bool</td></tr>
-<tr class="memdesc:a390d5726ae9502260a57b7f96cef5719"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if none bits are set to true.  <a href="#a390d5726ae9502260a57b7f96cef5719">More...</a><br /></td></tr>
-<tr class="separator:a390d5726ae9502260a57b7f96cef5719"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:add89a0e48d44bb65c4a8d58e86c8bdf1"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#add89a0e48d44bb65c4a8d58e86c8bdf1">count</a> () const noexcept -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a></td></tr>
-<tr class="memdesc:add89a0e48d44bb65c4a8d58e86c8bdf1"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits that are set to true.  <a href="#add89a0e48d44bb65c4a8d58e86c8bdf1">More...</a><br /></td></tr>
-<tr class="separator:add89a0e48d44bb65c4a8d58e86c8bdf1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a65654fe142a157163d483648bf0ac250"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a65654fe142a157163d483648bf0ac250">size</a> () const noexcept -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a></td></tr>
-<tr class="memdesc:a65654fe142a157163d483648bf0ac250"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits that the bitset holds.  <a href="#a65654fe142a157163d483648bf0ac250">More...</a><br /></td></tr>
-<tr class="separator:a65654fe142a157163d483648bf0ac250"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ac195be8146f47730bcde3e740a79968f"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ac195be8146f47730bcde3e740a79968f">bitset</a> () noexcept=default</td></tr>
+<tr class="memdesc:ac195be8146f47730bcde3e740a79968f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Constructs a bitset with all bits set to zero.  <a href="#ac195be8146f47730bcde3e740a79968f">More...</a><br /></td></tr>
+<tr class="separator:ac195be8146f47730bcde3e740a79968f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aedf8168b708b59d67a28f6c46fdb4da4"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#aedf8168b708b59d67a28f6c46fdb4da4">bitset</a> (unsigned long long) noexcept</td></tr>
+<tr class="memdesc:aedf8168b708b59d67a28f6c46fdb4da4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bitset, initializing the first (rightmost, least significant) M bit positions to the corresponding bit values of val, where M is the smaller of the number of bits in an unsigned long long and the number of bits N in the bitset being constructed. If M is less than N the bitset is longer than 64 bits, the remaining bit positions are initialized to zeroes.  <a href="#aedf8168b708b59d67a28f6c46fdb4da4">More...</a><br /></td></tr>
+<tr class="separator:aedf8168b708b59d67a28f6c46fdb4da4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aaa79cf88b9c321f94a2d0650cd3ba3a6"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#aaa79cf88b9c321f94a2d0650cd3ba3a6">set</a> () noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:aaa79cf88b9c321f94a2d0650cd3ba3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to true or to specified value. Sets all bits to true.  <a href="#aaa79cf88b9c321f94a2d0650cd3ba3a6">More...</a><br /></td></tr>
+<tr class="separator:aaa79cf88b9c321f94a2d0650cd3ba3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4ede14f6624f31d2adfc672aa3138212"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a4ede14f6624f31d2adfc672aa3138212">set</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">etl::size_t</a> pos, bool value=true) -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:a4ede14f6624f31d2adfc672aa3138212"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to true or to specified value. Sets the bit at position pos to the value value.  <a href="#a4ede14f6624f31d2adfc672aa3138212">More...</a><br /></td></tr>
+<tr class="separator:a4ede14f6624f31d2adfc672aa3138212"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a52a25190dd997b8f709dac02b033f4c3"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a52a25190dd997b8f709dac02b033f4c3">operator[]</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) -&gt; <a class="el" href="classetl_1_1bitset_1_1reference.html">reference</a></td></tr>
+<tr class="memdesc:a52a25190dd997b8f709dac02b033f4c3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a52a25190dd997b8f709dac02b033f4c3">More...</a><br /></td></tr>
+<tr class="separator:a52a25190dd997b8f709dac02b033f4c3"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93ee45104ec0e23584bed3e842dbe9c7"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a93ee45104ec0e23584bed3e842dbe9c7">operator[]</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) const -&gt; bool</td></tr>
+<tr class="memdesc:a93ee45104ec0e23584bed3e842dbe9c7"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a93ee45104ec0e23584bed3e842dbe9c7">More...</a><br /></td></tr>
+<tr class="separator:a93ee45104ec0e23584bed3e842dbe9c7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5715df3ac129f941f3d8bcaa6a0fa7ea"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a5715df3ac129f941f3d8bcaa6a0fa7ea">test</a> (<a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const pos) const -&gt; bool</td></tr>
+<tr class="memdesc:a5715df3ac129f941f3d8bcaa6a0fa7ea"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the value of the bit at the position pos. Perfoms no bounds checking.  <a href="#a5715df3ac129f941f3d8bcaa6a0fa7ea">More...</a><br /></td></tr>
+<tr class="separator:a5715df3ac129f941f3d8bcaa6a0fa7ea"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a10960fabeb09ce44e627c1dbb1b75d8e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a10960fabeb09ce44e627c1dbb1b75d8e">all</a> () const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a10960fabeb09ce44e627c1dbb1b75d8e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if all bits are set to true.  <a href="#a10960fabeb09ce44e627c1dbb1b75d8e">More...</a><br /></td></tr>
+<tr class="separator:a10960fabeb09ce44e627c1dbb1b75d8e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae2d74159ac3550fdc6cd7899d24ae22b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ae2d74159ac3550fdc6cd7899d24ae22b">any</a> () const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:ae2d74159ac3550fdc6cd7899d24ae22b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if any bits are set to true.  <a href="#ae2d74159ac3550fdc6cd7899d24ae22b">More...</a><br /></td></tr>
+<tr class="separator:ae2d74159ac3550fdc6cd7899d24ae22b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a87f4cda88362ed0ee8b5268f8eeaa404"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a87f4cda88362ed0ee8b5268f8eeaa404">none</a> () const noexcept -&gt; bool</td></tr>
+<tr class="memdesc:a87f4cda88362ed0ee8b5268f8eeaa404"><td class="mdescLeft">&#160;</td><td class="mdescRight">Checks if none bits are set to true.  <a href="#a87f4cda88362ed0ee8b5268f8eeaa404">More...</a><br /></td></tr>
+<tr class="separator:a87f4cda88362ed0ee8b5268f8eeaa404"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad552a8e73ee868ea0b9c4cb63ecae159"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ad552a8e73ee868ea0b9c4cb63ecae159">count</a> () const noexcept -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a></td></tr>
+<tr class="memdesc:ad552a8e73ee868ea0b9c4cb63ecae159"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits that are set to true.  <a href="#ad552a8e73ee868ea0b9c4cb63ecae159">More...</a><br /></td></tr>
+<tr class="separator:ad552a8e73ee868ea0b9c4cb63ecae159"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ad261796fbc2dcab107948f6582d384e4"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#ad261796fbc2dcab107948f6582d384e4">size</a> () const noexcept -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a></td></tr>
+<tr class="memdesc:ad261796fbc2dcab107948f6582d384e4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of bits that the bitset holds.  <a href="#ad261796fbc2dcab107948f6582d384e4">More...</a><br /></td></tr>
+<tr class="separator:ad261796fbc2dcab107948f6582d384e4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
-<div class="textblock"><h3>template&lt;size_t NumberOfBits&gt;<br />
-class etl::bitset&lt; NumberOfBits &gt;</h3>
+<div class="textblock"><h3>template&lt;size_t N&gt;<br />
+class etl::bitset&lt; N &gt;</h3>
 
 <p>The class template bitset represents a fixed-size sequence of N bits. Bitsets can be manipulated by standard logic operators. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000001">Todo:</a></b></dt><dd>Converted to and from strings and integers. Add operators &amp; more docs. </dd></dl>
 </div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="aca15e7866be23897a6ebbb7e99641351"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aca15e7866be23897a6ebbb7e99641351">&#9670;&nbsp;</a></span>bitset() <span class="overload">[1/2]</span></h2>
+<a id="ac195be8146f47730bcde3e740a79968f"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ac195be8146f47730bcde3e740a79968f">&#9670;&nbsp;</a></span>bitset() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::<a class="el" href="classetl_1_1bitset.html">bitset</a> </td>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::<a class="el" href="classetl_1_1bitset.html">bitset</a> </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td></td>
@@ -158,19 +158,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="ae23b74d54635c1a1643e103826a0488b"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ae23b74d54635c1a1643e103826a0488b">&#9670;&nbsp;</a></span>bitset() <span class="overload">[2/2]</span></h2>
+<a id="aedf8168b708b59d67a28f6c46fdb4da4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aedf8168b708b59d67a28f6c46fdb4da4">&#9670;&nbsp;</a></span>bitset() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::<a class="el" href="classetl_1_1bitset.html">bitset</a> </td>
+          <td class="memname">constexpr <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::<a class="el" href="classetl_1_1bitset.html">bitset</a> </td>
           <td>(</td>
           <td class="paramtype">unsigned long&#160;</td>
           <td class="paramname"><em>long</em></td><td>)</td>
@@ -189,19 +189,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
-<a id="ad835a37ccd240dbcb916c21e18e09112"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ad835a37ccd240dbcb916c21e18e09112">&#9670;&nbsp;</a></span>all()</h2>
+<a id="a10960fabeb09ce44e627c1dbb1b75d8e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a10960fabeb09ce44e627c1dbb1b75d8e">&#9670;&nbsp;</a></span>all()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::all </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::all </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; bool
@@ -219,19 +219,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a19e3c72664083455f3abdae667317781"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a19e3c72664083455f3abdae667317781">&#9670;&nbsp;</a></span>any()</h2>
+<a id="ae2d74159ac3550fdc6cd7899d24ae22b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ae2d74159ac3550fdc6cd7899d24ae22b">&#9670;&nbsp;</a></span>any()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::any </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::any </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; bool </td>
@@ -248,19 +248,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="add89a0e48d44bb65c4a8d58e86c8bdf1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#add89a0e48d44bb65c4a8d58e86c8bdf1">&#9670;&nbsp;</a></span>count()</h2>
+<a id="ad552a8e73ee868ea0b9c4cb63ecae159"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad552a8e73ee868ea0b9c4cb63ecae159">&#9670;&nbsp;</a></span>count()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::count </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::count </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a>
@@ -278,19 +278,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a390d5726ae9502260a57b7f96cef5719"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a390d5726ae9502260a57b7f96cef5719">&#9670;&nbsp;</a></span>none()</h2>
+<a id="a87f4cda88362ed0ee8b5268f8eeaa404"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a87f4cda88362ed0ee8b5268f8eeaa404">&#9670;&nbsp;</a></span>none()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::none </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::none </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; bool </td>
@@ -307,19 +307,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a6e13d2c31699c9dd49549f2ef6a62abb"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a6e13d2c31699c9dd49549f2ef6a62abb">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
+<a id="a52a25190dd997b8f709dac02b033f4c3"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a52a25190dd997b8f709dac02b033f4c3">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::operator[] </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
@@ -338,19 +338,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="acc5325fed40585f65aa8332bbdaa970d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#acc5325fed40585f65aa8332bbdaa970d">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
+<a id="a93ee45104ec0e23584bed3e842dbe9c7"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a93ee45104ec0e23584bed3e842dbe9c7">&#9670;&nbsp;</a></span>operator[]() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::operator[] </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator[] </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
@@ -369,22 +369,22 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a26cdbd16d478b2979a83693516a534ea"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a26cdbd16d478b2979a83693516a534ea">&#9670;&nbsp;</a></span>set() <span class="overload">[1/2]</span></h2>
+<a id="aaa79cf88b9c321f94a2d0650cd3ba3a6"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#aaa79cf88b9c321f94a2d0650cd3ba3a6">&#9670;&nbsp;</a></span>set() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::set </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::set </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;NumberOfBits&gt;&amp;
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
     </td>
         </tr>
       </table>
@@ -399,19 +399,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a22eb5102e70be33c1a771908ade5d654"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a22eb5102e70be33c1a771908ade5d654">&#9670;&nbsp;</a></span>set() <span class="overload">[2/2]</span></h2>
+<a id="a4ede14f6624f31d2adfc672aa3138212"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4ede14f6624f31d2adfc672aa3138212">&#9670;&nbsp;</a></span>set() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::set </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::set </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">etl::size_t</a>&#160;</td>
           <td class="paramname"><em>pos</em>, </td>
@@ -425,7 +425,7 @@ template&lt;size_t NumberOfBits&gt; </div>
         <tr>
           <td></td>
           <td>)</td>
-          <td></td><td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;NumberOfBits&gt;&amp;
+          <td></td><td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
     </td>
         </tr>
       </table>
@@ -440,19 +440,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a65654fe142a157163d483648bf0ac250"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a65654fe142a157163d483648bf0ac250">&#9670;&nbsp;</a></span>size()</h2>
+<a id="ad261796fbc2dcab107948f6582d384e4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#ad261796fbc2dcab107948f6582d384e4">&#9670;&nbsp;</a></span>size()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::size </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> </td>
@@ -469,19 +469,19 @@ template&lt;size_t NumberOfBits&gt; </div>
 
 </div>
 </div>
-<a id="a56a095832470709f2aa229078caca5fd"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a56a095832470709f2aa229078caca5fd">&#9670;&nbsp;</a></span>test()</h2>
+<a id="a5715df3ac129f941f3d8bcaa6a0fa7ea"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a5715df3ac129f941f3d8bcaa6a0fa7ea">&#9670;&nbsp;</a></span>test()</h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
-template&lt;size_t NumberOfBits&gt; </div>
+template&lt;size_t N&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; NumberOfBits &gt;::test </td>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::test </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="namespaceetl.html#a23bbae02e57f1887f5dfead62efba7b9">size_t</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
