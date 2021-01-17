@@ -18,6 +18,7 @@ var searchData=
   ['first',['first',['../structetl_1_1tuple.html#a18d12eec642ca4c47ba3950398add69e',1,'etl::tuple::first()'],['../structetl_1_1tuple_3_01First_01_4.html#a0030bb4f12d5481f0dade4d02b7cfea1',1,'etl::tuple&lt; First &gt;::first()'],['../structetl_1_1pair.html#a768cd2286c58dc9f4a4aa6f1fde7caf7',1,'etl::pair::first()']]],
   ['first_5ftype',['first_type',['../structetl_1_1pair.html#a28ef81180e9d7238017a3562e55c6586',1,'etl::pair']]],
   ['fixed',['fixed',['../namespaceetl.html#af524d0acb625979997f7a2dd1c0ea944acec315e3d0975e5cc2811d5d8725f149',1,'etl']]],
+  ['flip',['flip',['../classetl_1_1bitset_1_1reference.html#ae00768c241d776b1fbbae6dc0e01d632',1,'etl::bitset::reference']]],
   ['float_5fdenorm_5fstyle',['float_denorm_style',['../namespaceetl.html#ad4892bd9af0bd3ad759fb95ab241247c',1,'etl']]],
   ['float_5fround_5fstyle',['float_round_style',['../namespaceetl.html#a0cdec522db16c755ade7c7222bf8af92',1,'etl']]],
   ['float_5ft',['float_t',['../namespaceetl.html#a04532556e568bb7cc276440befc7f441',1,'etl']]],

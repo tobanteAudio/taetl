@@ -13,5 +13,5 @@ var searchData=
   ['alignment_5fof',['alignment_of',['../structetl_1_1alignment__of.html',1,'etl']]],
   ['array',['array',['../structetl_1_1array.html',1,'etl']]],
   ['array_3c_20t_2c_20static_5fcast_3c_20size_5ft_20_3e_28z_29_2b1_20_3e',['array&lt; T, static_cast&lt; size_t &gt;(Z)+1 &gt;',['../structetl_1_1array.html',1,'etl']]],
-  ['array_3c_20unsigned_20char_2c_20allocated_5f_20_3e',['array&lt; unsigned char, allocated_ &gt;',['../structetl_1_1array.html',1,'etl']]]
+  ['array_3c_20uint8_5ft_2c_20allocated_5f_20_3e',['array&lt; uint8_t, allocated_ &gt;',['../structetl_1_1array.html',1,'etl']]]
 ];

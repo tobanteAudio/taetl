@@ -29,6 +29,7 @@ var searchData=
   ['no_5fsuch_5fdevice_5for_5faddress',['no_such_device_or_address',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a5c83a012eac17bbf458df5804801e373',1,'etl']]],
   ['no_5fsuch_5ffile_5for_5fdirectory',['no_such_file_or_directory',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a2e70fc89b08f26fa3fc77694c91e8f7a',1,'etl']]],
   ['no_5fsuch_5fprocess',['no_such_process',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170ad91a9b8a734f2bef4b778f89806cbab7',1,'etl']]],
+  ['none',['none',['../classetl_1_1bitset.html#a390d5726ae9502260a57b7f96cef5719',1,'etl::bitset']]],
   ['none_5fof',['none_of',['../namespaceetl.html#a75c75a52b3924626ffd935049fd0d510',1,'etl']]],
   ['not_5fa_5fdirectory',['not_a_directory',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a21e867ca95e1dfecff4701863547dcec',1,'etl']]],
   ['not_5fa_5fsocket',['not_a_socket',['../namespaceetl.html#abf855e66ccd0c031e0994ed578f1c170a22ac64bb14c46bcbc338a21950b6e722',1,'etl']]],

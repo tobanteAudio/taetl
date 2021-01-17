@@ -66,7 +66,8 @@ $(function() {
 : <a class="el" href="classetl_1_1basic__static__string.html#ac5fc705aba1cd68aef824e4aeff0dd76">etl::basic_static_string&lt; CharT, Capacity, Traits &gt;</a>
 </li>
 <li>operator bool()
-: <a class="el" href="classetl_1_1optional.html#ae8de8e6e7cd9d30784652a6254efe069">etl::optional&lt; ValueType &gt;</a>
+: <a class="el" href="classetl_1_1bitset_1_1reference.html#abd9d55b5a0122c13606dcda2d2ef1166">etl::bitset&lt; NumberOfBits &gt;::reference</a>
+, <a class="el" href="classetl_1_1optional.html#ae8de8e6e7cd9d30784652a6254efe069">etl::optional&lt; ValueType &gt;</a>
 </li>
 <li>operator Type *()
 : <a class="el" href="classetl_1_1small__ptr.html#a4e998c6ce0a1b49037e29f03b6c114fa">etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;</a>
@@ -169,7 +170,7 @@ $(function() {
 : <a class="el" href="classetl_1_1back__insert__iterator.html#adb6b1fcd903293f377f111ceb7a5bbef">etl::back_insert_iterator&lt; Container &gt;</a>
 , <a class="el" href="classetl_1_1chrono_1_1duration.html#a1fb2342931563ecb0946586e1c997ad9">etl::chrono::duration&lt; Rep, Period &gt;</a>
 , <a class="el" href="classetl_1_1front__insert__iterator.html#ab52abd5470c8828f57ec6254c431cce7">etl::front_insert_iterator&lt; Container &gt;</a>
-, <a class="el" href="classetl_1_1reverse__iterator.html#a5de707a96b32843a8190ceb2daa3cdbf">etl::reverse_iterator&lt; Iter &gt;</a>
+, <a class="el" href="classetl_1_1reverse__iterator.html#a3c6df9ce41aa800d94282795be9e9cd9">etl::reverse_iterator&lt; Iter &gt;</a>
 , <a class="el" href="classetl_1_1small__ptr.html#ae92fd2d22a1442ce20c2f80271452bc9">etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;</a>
 </li>
 <li>operator+=()
@@ -186,14 +187,14 @@ $(function() {
 </li>
 <li>operator--()
 : <a class="el" href="classetl_1_1chrono_1_1duration.html#ad655de68c6089fb13aa399647ad273fe">etl::chrono::duration&lt; Rep, Period &gt;</a>
-, <a class="el" href="classetl_1_1reverse__iterator.html#abc37f0ecf6ece1a07a1066fa47f0d587">etl::reverse_iterator&lt; Iter &gt;</a>
+, <a class="el" href="classetl_1_1reverse__iterator.html#a16abeebf4b53cde8bf2cdbea975315e9">etl::reverse_iterator&lt; Iter &gt;</a>
 , <a class="el" href="classetl_1_1small__ptr.html#a001f5e2495a47f8508abc49e60961a43">etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;</a>
 </li>
 <li>operator-=()
 : <a class="el" href="classetl_1_1reverse__iterator.html#ad06ff950217a326628b3724ce38c718f">etl::reverse_iterator&lt; Iter &gt;</a>
 </li>
 <li>operator-&gt;()
-: <a class="el" href="classetl_1_1optional.html#ad49dd65ae38f0e57d3b91e8d9d3792a6">etl::optional&lt; ValueType &gt;</a>
+: <a class="el" href="classetl_1_1optional.html#afe9e99a47bde25a38265834a10350ca7">etl::optional&lt; ValueType &gt;</a>
 , <a class="el" href="classetl_1_1reverse__iterator.html#aec47242c044b433d6c502cc86e4fad75">etl::reverse_iterator&lt; Iter &gt;</a>
 , <a class="el" href="classetl_1_1small__ptr.html#abe6fee4f261a34254946d7217c5928ca">etl::small_ptr&lt; Type, BaseAddress, StorageType &gt;</a>
 </li>
@@ -202,36 +203,40 @@ $(function() {
 </li>
 <li>operator=()
 : <a class="el" href="classetl_1_1back__insert__iterator.html#aeba172d7a39ff6906ab16fec4988a7f5">etl::back_insert_iterator&lt; Container &gt;</a>
-, <a class="el" href="classetl_1_1basic__static__string.html#ab282e11a950c2c0f3f233b5e1c7f418b">etl::basic_static_string&lt; CharT, Capacity, Traits &gt;</a>
+, <a class="el" href="classetl_1_1basic__static__string.html#ad60fd43990d59799ce62deb0c72cd812">etl::basic_static_string&lt; CharT, Capacity, Traits &gt;</a>
 , <a class="el" href="classetl_1_1basic__string__view.html#a6d91d5f4fc61a2b66e58bbea0107f31d">etl::basic_string_view&lt; CharType, Traits &gt;</a>
+, <a class="el" href="classetl_1_1bitset_1_1reference.html#a182a2af4ffe8c3917eb21f887bef0203">etl::bitset&lt; NumberOfBits &gt;::reference</a>
 , <a class="el" href="classetl_1_1chrono_1_1duration.html#a3bb269e4442ce23a1cae6652995797bb">etl::chrono::duration&lt; Rep, Period &gt;</a>
 , <a class="el" href="classetl_1_1front__insert__iterator.html#a72679895523c394a46f787fbf2f13c70">etl::front_insert_iterator&lt; Container &gt;</a>
 , <a class="el" href="classetl_1_1function__view_3_01Result_07Arguments_8_8_8_08_4.html#a99cb91ffee9875f5424747e7dfcd86ae">etl::function_view&lt; Result(Arguments...)&gt;</a>
-, <a class="el" href="classetl_1_1hardware_1_1mcp23017_1_1device.html#a5cf26e71343063e0790e210177e67e9a">etl::hardware::mcp23017::device&lt; Driver &gt;</a>
-, <a class="el" href="structetl_1_1hardware_1_1stm32_1_1port.html#aa728fc591904ee0dd8de533c637dec01">etl::hardware::stm32::port</a>
+, <a class="el" href="classetl_1_1hardware_1_1mcp23017_1_1device.html#a1442c20a00f1d4652a6656c388505291">etl::hardware::mcp23017::device&lt; Driver &gt;</a>
+, <a class="el" href="structetl_1_1hardware_1_1stm32_1_1port.html#ab0dbf6ee8812d50e6ab1d1c004891663">etl::hardware::stm32::port</a>
 , <a class="el" href="classetl_1_1lock__guard.html#aea5aea2c82c971a41a7ccd0e02b8a0bc">etl::lock_guard&lt; MutexT &gt;</a>
 , <a class="el" href="classetl_1_1map.html#ac9d98245ae06c4d0cfe14caa1cab0a1f">etl::map&lt; KeyT, ValueT, Size, Compare &gt;</a>
-, <a class="el" href="classetl_1_1optional.html#a662d962cf0bbf81f5c6c64c75572976f">etl::optional&lt; ValueType &gt;</a>
-, <a class="el" href="structetl_1_1pair.html#a12ba8d689ce290a4b2dfbba16692d157">etl::pair&lt; T1, T2 &gt;</a>
+, <a class="el" href="classetl_1_1optional.html#af5022a2652b5cdf43a419a1e284d8962">etl::optional&lt; ValueType &gt;</a>
+, <a class="el" href="structetl_1_1pair.html#aa5cfb3c9ba7aac0e0c48a69366fb25e1">etl::pair&lt; T1, T2 &gt;</a>
 , <a class="el" href="classetl_1_1reverse__iterator.html#afda3a4449d1c8840709d7bd950e3d43d">etl::reverse_iterator&lt; Iter &gt;</a>
 , <a class="el" href="classetl_1_1rtos_1_1queue.html#af0a27f5a983baef444925bbaa0fb9d2a">etl::rtos::queue&lt; ValueType, Size &gt;</a>
 , <a class="el" href="classetl_1_1scope__guard.html#a568b8bbf723bf214ed323765c87901a7">etl::scope_guard&lt; FuncT, PolicyT &gt;</a>
-, <a class="el" href="classetl_1_1scoped__lock.html#a3d30d121dfacb15ce0eabb07ba4bb646">etl::scoped_lock&lt; MutexT &gt;</a>
+, <a class="el" href="classetl_1_1scoped__lock.html#aca3a7095188f7be985dae78a431d4cb2">etl::scoped_lock&lt; MutexT &gt;</a>
 , <a class="el" href="classetl_1_1static__vector.html#aa7d3919efaf3447fd23555c971b50233">etl::static_vector&lt; T, Capacity &gt;</a>
 , <a class="el" href="classetl_1_1variant.html#af8984e99b37c368416464447cefc9821">etl::variant&lt; Types &gt;</a>
 </li>
 <li>operator[]()
-: <a class="el" href="structetl_1_1array.html#a6ac316953f9fe490ffd5fc9e9b92edb3">etl::array&lt; Type, Size &gt;</a>
-, <a class="el" href="classetl_1_1basic__static__string.html#a0a85447e0616473499dc445e9b70d3d0">etl::basic_static_string&lt; CharT, Capacity, Traits &gt;</a>
+: <a class="el" href="structetl_1_1array.html#a6bc42b55602ea9c9a3ddc08619788819">etl::array&lt; Type, Size &gt;</a>
+, <a class="el" href="classetl_1_1basic__static__string.html#a6a409caa83f1f7070d630e7ce0663669">etl::basic_static_string&lt; CharT, Capacity, Traits &gt;</a>
 , <a class="el" href="classetl_1_1basic__string__view.html#af3bf07e552947ed6ad28ab37c77331df">etl::basic_string_view&lt; CharType, Traits &gt;</a>
 , <a class="el" href="classetl_1_1bitset.html#acc5325fed40585f65aa8332bbdaa970d">etl::bitset&lt; NumberOfBits &gt;</a>
 , <a class="el" href="classetl_1_1map__view.html#aafbab91fa9faf6daf40cc8ee82257525">etl::map_view&lt; KeyType, ValueType, Compare &gt;</a>
 , <a class="el" href="classetl_1_1reverse__iterator.html#a3d2c9bed791282118a36b6dcb184be35">etl::reverse_iterator&lt; Iter &gt;</a>
 , <a class="el" href="classetl_1_1span.html#a37e77fa3991589aaa7a0f0529cb44145">etl::span&lt; ElementType, Extent &gt;</a>
-, <a class="el" href="classetl_1_1static__vector.html#a0f19592799029a060bf7c6fd6c0dc7a8">etl::static_vector&lt; T, Capacity &gt;</a>
+, <a class="el" href="classetl_1_1static__vector.html#aba4e91fc177bdb050127566d0f20d929">etl::static_vector&lt; T, Capacity &gt;</a>
+</li>
+<li>operator~()
+: <a class="el" href="classetl_1_1bitset_1_1reference.html#a1181cebbda6860d932013fcea8469439">etl::bitset&lt; NumberOfBits &gt;::reference</a>
 </li>
 <li>optional()
-: <a class="el" href="classetl_1_1optional.html#a7dc83aeeca436e2c46fb19771f0c369a">etl::optional&lt; ValueType &gt;</a>
+: <a class="el" href="classetl_1_1optional.html#a9c548759303286aae73e1a385d85d444">etl::optional&lt; ValueType &gt;</a>
 </li>
 <li>out()
 : <a class="el" href="classetl_1_1experimental_1_1format_1_1basic__format__context.html#ac0268d3dc5b9cfca78f80b864af9a6f4">etl::experimental::format::basic_format_context&lt; OutputIt, CharT &gt;</a>

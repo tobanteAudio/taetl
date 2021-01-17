@@ -11,6 +11,7 @@ var searchData=
   ['ratio_5fless',['ratio_less',['../structetl_1_1ratio__less.html',1,'etl']]],
   ['ratio_5fless_5fequal',['ratio_less_equal',['../structetl_1_1ratio__less__equal.html',1,'etl']]],
   ['ratio_5fnot_5fequal',['ratio_not_equal',['../structetl_1_1ratio__not__equal.html',1,'etl']]],
+  ['reference',['reference',['../classetl_1_1bitset_1_1reference.html',1,'etl::bitset']]],
   ['remove_5fall_5fextents',['remove_all_extents',['../structetl_1_1remove__all__extents.html',1,'etl']]],
   ['remove_5fall_5fextents_3c_20t_5b_5d_3e',['remove_all_extents&lt; T[]&gt;',['../structetl_1_1remove__all__extents_3_01T[]_4.html',1,'etl']]],
   ['remove_5fall_5fextents_3c_20t_5bn_5d_3e',['remove_all_extents&lt; T[N]&gt;',['../structetl_1_1remove__all__extents_3_01T[N]_4.html',1,'etl']]],
