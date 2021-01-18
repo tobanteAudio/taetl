@@ -69,7 +69,10 @@ $(function() {
 <dt><a class="anchor" id="_todo000019"></a>Member <a class="el" href="classetl_1_1basic__string__view.html#ad0f6deaa9b385dc40e4765b6a9a80a4a">etl::basic_string_view&lt; CharType, Traits &gt;::basic_string_view</a>  (Iter first, Iter last)</dt>
 <dd>Improve SFINAE protection. See C++20 standard.  </dd>
 <dt><a class="anchor" id="_todo000001"></a>Class <a class="el" href="classetl_1_1bitset.html">etl::bitset&lt; N &gt;</a>  </dt>
-<dd>Converted to and from strings and integers. Add operators &amp; more docs.  </dd>
+<dd><p class="startdd">Converted to and from strings and integers. Add operators &amp; more docs. </p>
+<p>Add tests for sizes that are not a power of two. Broken at the moment. </p>
+<p class="enddd">What if position index is out of bounds? Return nullptr?  </p>
+</dd>
 <dt><a class="anchor" id="_todo000005"></a>Class <a class="el" href="classetl_1_1front__insert__iterator.html">etl::front_insert_iterator&lt; Container &gt;</a>  </dt>
 <dd>Add tests when a container with push_front has been implemented.  </dd>
 <dt><a class="anchor" id="_todo000025"></a>Member <a class="el" href="namespaceetl.html#a8169996f70a6db66068896e1f2d6d774">etl::get_if</a>  (etl::variant&lt; Types... &gt; *pv) noexcept -&gt; <a class="el" href="namespaceetl.html#afd20d67cb221212f49a97e02a7c1ca25">etl::add_pointer_t</a>&lt; <a class="el" href="namespaceetl.html#aef7110ca07ee5b481d99d9ae57a977ed">etl::variant_alternative_t</a>&lt; I, etl::variant&lt; Types... &gt;&gt;&gt;</dt>
