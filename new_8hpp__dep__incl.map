@@ -1,15 +1,15 @@
 <map id="etl/new.hpp" name="etl/new.hpp">
-<area shape="rect" id="node2" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="767,80,903,107"/>
-<area shape="rect" id="node22" href="$variant_8hpp.html" title="etl/variant.hpp" alt="" coords="927,80,1045,107"/>
-<area shape="rect" id="node3" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="545,155,680,181"/>
+<area shape="rect" id="node2" href="$functional_8hpp.html" title="etl/functional.hpp" alt="" coords="750,80,886,107"/>
+<area shape="rect" id="node22" href="$variant_8hpp.html" title="etl/variant.hpp" alt="" coords="910,80,1027,107"/>
+<area shape="rect" id="node3" href="$algorithm_8hpp.html" title="etl/algorithm.hpp" alt="" coords="519,155,653,181"/>
 <area shape="rect" id="node7" href="$vector_8hpp.html" title="etl/vector.hpp" alt="" coords="5,311,116,338"/>
 <area shape="rect" id="node13" href="$set_8hpp.html" title="etl/set.hpp" alt="" coords="1341,311,1431,338"/>
-<area shape="rect" id="node17" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="785,229,885,256"/>
-<area shape="rect" id="node19" href="$numeric_8hpp.html" title="etl/numeric.hpp" alt="" coords="1140,155,1264,181"/>
-<area shape="rect" id="node4" href="$array_8hpp.html" title="etl/array.hpp" alt="" coords="607,229,709,256"/>
+<area shape="rect" id="node17" href="$map_8hpp.html" title="etl/map.hpp" alt="" coords="768,229,868,256"/>
+<area shape="rect" id="node19" href="$numeric_8hpp.html" title="etl/numeric.hpp" alt="" coords="1127,155,1251,181"/>
+<area shape="rect" id="node4" href="$array_8hpp.html" title="etl/array.hpp" alt="" coords="589,229,692,256"/>
 <area shape="rect" id="node5" href="$bitset_8hpp.html" title="etl/bitset.hpp" alt="" coords="324,311,432,338"/>
-<area shape="rect" id="node15" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="377,229,523,256"/>
-<area shape="rect" id="node18" href="$optional_8hpp.html" title="etl/optional.hpp" alt="" coords="229,229,353,256"/>
+<area shape="rect" id="node15" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="305,229,451,256"/>
+<area shape="rect" id="node18" href="$optional_8hpp.html" title="etl/optional.hpp" alt="" coords="157,229,281,256"/>
 <area shape="rect" id="node6" href="$dsp_8hpp.html" title="etl/experimental/dsp\l/dsp.hpp" alt="" coords="583,304,741,345"/>
 <area shape="rect" id="node9" href="$interrupt_8hpp.html" title="etl/experimental/hardware\l/stm32/interrupt.hpp" alt="" coords="765,304,959,345"/>
 <area shape="rect" id="node10" href="$buffer__const_8hpp.html" title="etl/experimental/net\l/buffer_const.hpp" alt="" coords="1162,304,1317,345"/>
@@ -18,6 +18,6 @@
 <area shape="rect" id="node8" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="105,393,283,435"/>
 <area shape="rect" id="node11" href="$buffer_8hpp.html" title="etl/experimental/net\l/buffer.hpp" alt="" coords="1073,393,1227,435"/>
 <area shape="rect" id="node16" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="140,311,248,338"/>
-<area shape="rect" id="node20" href="$ratio_8hpp.html" title="etl/ratio.hpp" alt="" coords="1417,229,1518,256"/>
+<area shape="rect" id="node20" href="$ratio_8hpp.html" title="etl/ratio.hpp" alt="" coords="1422,229,1523,256"/>
 <area shape="rect" id="node21" href="$chrono_8hpp.html" title="etl/chrono.hpp" alt="" coords="1455,311,1570,338"/>
 </map>

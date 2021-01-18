@@ -1,6 +1,7 @@
 <map id="etl/ios.hpp" name="etl/ios.hpp">
-<area shape="rect" id="node2" href="$string__char__traits_8hpp.html" title="etl/detail/string_char\l_traits.hpp" alt="" coords="17,80,173,121"/>
-<area shape="rect" id="node3" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="79,169,224,196"/>
-<area shape="rect" id="node4" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="5,244,113,271"/>
-<area shape="rect" id="node5" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="15,319,194,360"/>
+<area shape="rect" id="node2" href="$string__char__traits_8hpp.html" title="etl/detail/string_char\l_traits.hpp" alt="" coords="119,80,275,121"/>
+<area shape="rect" id="node3" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="69,169,215,196"/>
+<area shape="rect" id="node5" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="189,244,297,271"/>
+<area shape="rect" id="node4" href="$bitset_8hpp.html" title="etl/bitset.hpp" alt="" coords="5,244,113,271"/>
+<area shape="rect" id="node6" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="107,319,286,360"/>
 </map>

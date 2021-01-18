@@ -1,8 +1,9 @@
 <map id="etl/cstring.hpp" name="etl/cstring.hpp">
-<area shape="rect" id="node2" href="$bit_8hpp.html" title="etl/bit.hpp" alt="" coords="5,87,93,114"/>
-<area shape="rect" id="node3" href="$cstdlib_8hpp.html" title="etl/cstdlib.hpp" alt="" coords="117,87,232,114"/>
-<area shape="rect" id="node4" href="$string__char__traits_8hpp.html" title="etl/detail/string_char\l_traits.hpp" alt="" coords="257,80,413,121"/>
-<area shape="rect" id="node7" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="280,319,459,360"/>
-<area shape="rect" id="node5" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="267,169,413,196"/>
-<area shape="rect" id="node6" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="223,244,331,271"/>
+<area shape="rect" id="node2" href="$bit_8hpp.html" title="etl/bit.hpp" alt="" coords="29,87,117,114"/>
+<area shape="rect" id="node3" href="$string__char__traits_8hpp.html" title="etl/detail/string_char\l_traits.hpp" alt="" coords="141,80,297,121"/>
+<area shape="rect" id="node7" href="$format_8hpp.html" title="etl/experimental/format\l/format.hpp" alt="" coords="154,319,333,360"/>
+<area shape="rect" id="node8" href="$cstdlib_8hpp.html" title="etl/cstdlib.hpp" alt="" coords="373,87,487,114"/>
+<area shape="rect" id="node4" href="$string__view_8hpp.html" title="etl/string_view.hpp" alt="" coords="69,169,215,196"/>
+<area shape="rect" id="node6" href="$string_8hpp.html" title="etl/string.hpp" alt="" coords="189,244,297,271"/>
+<area shape="rect" id="node5" href="$bitset_8hpp.html" title="etl/bitset.hpp" alt="" coords="5,244,113,271"/>
 </map>

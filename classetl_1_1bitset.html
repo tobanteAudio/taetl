@@ -80,7 +80,7 @@ $(function() {
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="nested-classes"></a>
 Classes</h2></td></tr>
 <tr class="memitem:"><td class="memItemLeft" align="right" valign="top">class &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset_1_1reference.html">reference</a></td></tr>
-<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The primary use of std::bitset::reference is to provide an l-value that can be returned from operator[].  <a href="classetl_1_1bitset_1_1reference.html#details">More...</a><br /></td></tr>
+<tr class="memdesc:"><td class="mdescLeft">&#160;</td><td class="mdescRight">The primary use of <a class="el" href="classetl_1_1bitset_1_1reference.html" title="The primary use of etl::bitset::reference is to provide an l-value that can be returned from operator...">etl::bitset::reference</a> is to provide an l-value that can be returned from operator[].  <a href="classetl_1_1bitset_1_1reference.html#details">More...</a><br /></td></tr>
 <tr class="separator:"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
@@ -91,6 +91,14 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a164aaa71bf04c8fd0b66757592f9905e"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a164aaa71bf04c8fd0b66757592f9905e">bitset</a> (unsigned long long val) noexcept</td></tr>
 <tr class="memdesc:a164aaa71bf04c8fd0b66757592f9905e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bitset, initializing the first (rightmost, least significant) M bit positions to the corresponding bit values of val, where M is the smaller of the number of bits in an unsigned long long and the number of bits N in the bitset being constructed. If M is less than N (the bitset is longer than 64 bits, for typical implementations of unsigned long long), the remaining bit positions are initialized to zeroes.  <a href="#a164aaa71bf04c8fd0b66757592f9905e">More...</a><br /></td></tr>
 <tr class="separator:a164aaa71bf04c8fd0b66757592f9905e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0f9dc81e407f39bbe31b574dbdeab477"><td class="memTemplParams" colspan="2">template&lt;typename CharT , typename Traits &gt; </td></tr>
+<tr class="memitem:a0f9dc81e407f39bbe31b574dbdeab477"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a0f9dc81e407f39bbe31b574dbdeab477">bitset</a> (<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt; const &amp;str, typename <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt;::size_type pos=0, typename <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt;::size_type n=<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt;::npos, CharT zero=CharT('0'), CharT one=CharT('1'))</td></tr>
+<tr class="memdesc:a0f9dc81e407f39bbe31b574dbdeab477"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bitset using the characters in the <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">etl::basic_string_view</a> str.  <a href="#a0f9dc81e407f39bbe31b574dbdeab477">More...</a><br /></td></tr>
+<tr class="separator:a0f9dc81e407f39bbe31b574dbdeab477"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a619a3ae01c597ca118a60bc66476dbb2"><td class="memTemplParams" colspan="2">template&lt;typename CharT &gt; </td></tr>
+<tr class="memitem:a619a3ae01c597ca118a60bc66476dbb2"><td class="memTemplItemLeft" align="right" valign="top">&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a619a3ae01c597ca118a60bc66476dbb2">bitset</a> (CharT const *str, typename <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT &gt;::size_type n=<a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT &gt;::npos, CharT zero=CharT('0'), CharT one=CharT('1'))</td></tr>
+<tr class="memdesc:a619a3ae01c597ca118a60bc66476dbb2"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs a bitset using the characters in the char const* str.  <a href="#a619a3ae01c597ca118a60bc66476dbb2">More...</a><br /></td></tr>
+<tr class="separator:a619a3ae01c597ca118a60bc66476dbb2"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aaa79cf88b9c321f94a2d0650cd3ba3a6"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#aaa79cf88b9c321f94a2d0650cd3ba3a6">set</a> () noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
 <tr class="memdesc:aaa79cf88b9c321f94a2d0650cd3ba3a6"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets all bits to true.  <a href="#aaa79cf88b9c321f94a2d0650cd3ba3a6">More...</a><br /></td></tr>
 <tr class="separator:aaa79cf88b9c321f94a2d0650cd3ba3a6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -139,6 +147,18 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a36466cb8994866b63fa424f6383b9cb4"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a36466cb8994866b63fa424f6383b9cb4">operator!=</a> (<a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;rhs) const noexcept -&gt; bool</td></tr>
 <tr class="memdesc:a36466cb8994866b63fa424f6383b9cb4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns true if all of the bits in *this and rhs are not equal.  <a href="#a36466cb8994866b63fa424f6383b9cb4">More...</a><br /></td></tr>
 <tr class="separator:a36466cb8994866b63fa424f6383b9cb4"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a4425b57d85d7049236a236b600077d6b"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a4425b57d85d7049236a236b600077d6b">operator &amp;=</a> (<a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;other) noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:a4425b57d85d7049236a236b600077d6b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the bits to the result of binary AND on corresponding pairs of bits of *this and other.  <a href="#a4425b57d85d7049236a236b600077d6b">More...</a><br /></td></tr>
+<tr class="separator:a4425b57d85d7049236a236b600077d6b"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a72508b1e1d07f61d06fd453a19e2406e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a72508b1e1d07f61d06fd453a19e2406e">operator|=</a> (<a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;other) noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:a72508b1e1d07f61d06fd453a19e2406e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the bits to the result of binary OR on corresponding pairs of bits of *this and other.  <a href="#a72508b1e1d07f61d06fd453a19e2406e">More...</a><br /></td></tr>
+<tr class="separator:a72508b1e1d07f61d06fd453a19e2406e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acdc4d85f3e4f1edaf2965b79aac5536e"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#acdc4d85f3e4f1edaf2965b79aac5536e">operator^=</a> (<a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;other) noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; &amp;</td></tr>
+<tr class="memdesc:acdc4d85f3e4f1edaf2965b79aac5536e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Sets the bits to the result of binary XOR on corresponding pairs of bits of *this and other.  <a href="#acdc4d85f3e4f1edaf2965b79aac5536e">More...</a><br /></td></tr>
+<tr class="separator:acdc4d85f3e4f1edaf2965b79aac5536e"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a7ee04fc312b1caa8b00bef887f91c807"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1bitset.html#a7ee04fc312b1caa8b00bef887f91c807">operator~</a> () const noexcept -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt;</td></tr>
+<tr class="memdesc:a7ee04fc312b1caa8b00bef887f91c807"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns a temporary copy of *this with all bits flipped (binary NOT).  <a href="#a7ee04fc312b1caa8b00bef887f91c807">More...</a><br /></td></tr>
+<tr class="separator:a7ee04fc312b1caa8b00bef887f91c807"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
 <div class="textblock"><h3>template&lt;size_t N&gt;<br />
@@ -152,7 +172,7 @@ class etl::bitset&lt; N &gt;</h3>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="bitset_8cpp-example.html#_a0">bitset.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="ac195be8146f47730bcde3e740a79968f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac195be8146f47730bcde3e740a79968f">&#9670;&nbsp;</a></span>bitset() <span class="overload">[1/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac195be8146f47730bcde3e740a79968f">&#9670;&nbsp;</a></span>bitset() <span class="overload">[1/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -181,7 +201,7 @@ template&lt;size_t N&gt; </div>
 </div>
 </div>
 <a id="a164aaa71bf04c8fd0b66757592f9905e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a164aaa71bf04c8fd0b66757592f9905e">&#9670;&nbsp;</a></span>bitset() <span class="overload">[2/2]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a164aaa71bf04c8fd0b66757592f9905e">&#9670;&nbsp;</a></span>bitset() <span class="overload">[2/4]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -207,6 +227,140 @@ template&lt;size_t N&gt; </div>
 </div><div class="memdoc">
 
 <p>Constructs a bitset, initializing the first (rightmost, least significant) M bit positions to the corresponding bit values of val, where M is the smaller of the number of bits in an unsigned long long and the number of bits N in the bitset being constructed. If M is less than N (the bitset is longer than 64 bits, for typical implementations of unsigned long long), the remaining bit positions are initialized to zeroes. </p>
+
+</div>
+</div>
+<a id="a0f9dc81e407f39bbe31b574dbdeab477"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a0f9dc81e407f39bbe31b574dbdeab477">&#9670;&nbsp;</a></span>bitset() <span class="overload">[3/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;typename CharT , typename Traits &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::<a class="el" href="classetl_1_1bitset.html">bitset</a> </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt;::size_type&#160;</td>
+          <td class="paramname"><em>pos</em> = <code>0</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT, Traits &gt;::size_type&#160;</td>
+          <td class="paramname"><em>n</em> = <code><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt;CharT,&#160;Traits&gt;::npos</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CharT&#160;</td>
+          <td class="paramname"><em>zero</em> = <code>CharT('0')</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CharT&#160;</td>
+          <td class="paramname"><em>one</em> = <code>CharT('1')</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a bitset using the characters in the <a class="el" href="classetl_1_1basic__string__view.html" title="The class template basic_string_view describes an object that can refer to a constant contiguous sequ...">etl::basic_string_view</a> str. </p>
+<p>An optional starting position pos and length n can be provided, as well as characters denoting alternate values for set (one) and unset (zero) bits. Traits::eq() is used to compare the character values. The effective length of the initializing string is min(n, <a class="el" href="namespaceetl.html#af3008e042f920b06e2a67b1aa31a1803" title="Returns the size of the given container c or array array. Returns c.size(), converted to the return t...">str.size()</a> - pos).</p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string used to initialize the bitset </td></tr>
+    <tr><td class="paramname">pos</td><td>a starting offset into str </td></tr>
+    <tr><td class="paramname">n</td><td>number of characters to use from str </td></tr>
+    <tr><td class="paramname">zero</td><td>alternate character for set bits in str </td></tr>
+    <tr><td class="paramname">one</td><td>alternate character for unset bits in str </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
+<a id="a619a3ae01c597ca118a60bc66476dbb2"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a619a3ae01c597ca118a60bc66476dbb2">&#9670;&nbsp;</a></span>bitset() <span class="overload">[4/4]</span></h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<div class="memtemplate">
+template&lt;typename CharT &gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::<a class="el" href="classetl_1_1bitset.html">bitset</a> </td>
+          <td>(</td>
+          <td class="paramtype">CharT const *&#160;</td>
+          <td class="paramname"><em>str</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">typename <a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt; CharT &gt;::size_type&#160;</td>
+          <td class="paramname"><em>n</em> = <code><a class="el" href="classetl_1_1basic__string__view.html">basic_string_view</a>&lt;CharT&gt;::npos</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CharT&#160;</td>
+          <td class="paramname"><em>zero</em> = <code>CharT('0')</code>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">CharT&#160;</td>
+          <td class="paramname"><em>one</em> = <code>CharT('1')</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Constructs a bitset using the characters in the char const* str. </p>
+<dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">str</td><td>string used to initialize the bitset </td></tr>
+    <tr><td class="paramname">n</td><td>number of characters to use from str </td></tr>
+    <tr><td class="paramname">zero</td><td>alternate character for set bits in str </td></tr>
+    <tr><td class="paramname">one</td><td>alternate character for unset bits in str </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -397,6 +551,37 @@ template&lt;size_t N&gt; </div>
 
 </div>
 </div>
+<a id="a4425b57d85d7049236a236b600077d6b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a4425b57d85d7049236a236b600077d6b">&#9670;&nbsp;</a></span>operator &=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator&amp;= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the bits to the result of binary AND on corresponding pairs of bits of *this and other. </p>
+
+</div>
+</div>
 <a id="a36466cb8994866b63fa424f6383b9cb4"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#a36466cb8994866b63fa424f6383b9cb4">&#9670;&nbsp;</a></span>operator!=()</h2>
 
@@ -530,6 +715,98 @@ template&lt;size_t N&gt; </div>
   </table>
   </dd>
 </dl>
+
+</div>
+</div>
+<a id="acdc4d85f3e4f1edaf2965b79aac5536e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#acdc4d85f3e4f1edaf2965b79aac5536e">&#9670;&nbsp;</a></span>operator^=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator^= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the bits to the result of binary XOR on corresponding pairs of bits of *this and other. </p>
+
+</div>
+</div>
+<a id="a72508b1e1d07f61d06fd453a19e2406e"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a72508b1e1d07f61d06fd453a19e2406e">&#9670;&nbsp;</a></span>operator|=()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator|= </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classetl_1_1bitset.html">bitset</a>&lt; N &gt; const &amp;&#160;</td>
+          <td class="paramname"><em>other</em></td><td>)</td>
+          <td> -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;&amp;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Sets the bits to the result of binary OR on corresponding pairs of bits of *this and other. </p>
+
+</div>
+</div>
+<a id="a7ee04fc312b1caa8b00bef887f91c807"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a7ee04fc312b1caa8b00bef887f91c807">&#9670;&nbsp;</a></span>operator~()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;size_t N&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname">constexpr auto <a class="el" href="classetl_1_1bitset.html">etl::bitset</a>&lt; N &gt;::operator~ </td>
+          <td>(</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const -&gt; <a class="el" href="classetl_1_1bitset.html">bitset</a>&lt;N&gt;
+    </td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Returns a temporary copy of *this with all bits flipped (binary NOT). </p>
 
 </div>
 </div>
