@@ -11,5 +11,5 @@ var searchData=
   ['binary_5fsearch',['binary_search',['../namespaceetl.html#adbb582735f4f25812f76c14383c62b35',1,'etl::binary_search(ForwardIter first, ForwardIter last, T const &amp;value, Compare comp) -&gt; bool'],['../namespaceetl.html#a8b019f36dc291f87d2904fe1d5d7b261',1,'etl::binary_search(ForwardIter first, ForwardIter last, T const &amp;value) -&gt; bool']]],
   ['bit_5fcast',['bit_cast',['../namespaceetl.html#a1a160c02d9209623716ad5c6d152462a',1,'etl']]],
   ['bit_5fwidth',['bit_width',['../namespaceetl.html#a21008d0b3fc5592c70cb4e453ae6f1e8',1,'etl']]],
-  ['bitset',['bitset',['../classetl_1_1bitset.html#ac195be8146f47730bcde3e740a79968f',1,'etl::bitset']]]
+  ['bitset',['bitset',['../classetl_1_1bitset.html#ac195be8146f47730bcde3e740a79968f',1,'etl::bitset::bitset() noexcept=default'],['../classetl_1_1bitset.html#a164aaa71bf04c8fd0b66757592f9905e',1,'etl::bitset::bitset(unsigned long long val) noexcept']]]
 ];
