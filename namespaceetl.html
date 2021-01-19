@@ -1173,63 +1173,63 @@ Functions</h2></td></tr>
 <tr class="separator:aa18b878794474881fce640e7a163abf3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab304c4b8ab09994291b47d138bfe303c"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter1 , typename ForwardIter2 &gt; </td></tr>
 <tr class="memitem:ab304c4b8ab09994291b47d138bfe303c"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab304c4b8ab09994291b47d138bfe303c">swap_ranges</a> (ForwardIter1 first1, ForwardIter1 last1, ForwardIter2 first2) -&gt; ForwardIter2</td></tr>
-<tr class="memdesc:ab304c4b8ab09994291b47d138bfe303c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges elements between range [ <code>first1</code> , <code>last1</code> ) and another range starting at <code>first2</code>.  <a href="#ab304c4b8ab09994291b47d138bfe303c">More...</a><br /></td></tr>
+<tr class="memdesc:ab304c4b8ab09994291b47d138bfe303c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges elements between range [first1 ,last1) and another range starting at first2.  <a href="#ab304c4b8ab09994291b47d138bfe303c">More...</a><br /></td></tr>
 <tr class="separator:ab304c4b8ab09994291b47d138bfe303c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad0a5b274f170d18a9e175fddf538a4bc"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename OutputIter &gt; </td></tr>
 <tr class="memitem:ad0a5b274f170d18a9e175fddf538a4bc"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc">move</a> (InputIter first, InputIter last, OutputIter destination) -&gt; OutputIter</td></tr>
-<tr class="memdesc:ad0a5b274f170d18a9e175fddf538a4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements in the range [[ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, starting from first and proceeding to <code>last</code> - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move.  <a href="#ad0a5b274f170d18a9e175fddf538a4bc">More...</a><br /></td></tr>
+<tr class="memdesc:ad0a5b274f170d18a9e175fddf538a4bc"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move.  <a href="#ad0a5b274f170d18a9e175fddf538a4bc">More...</a><br /></td></tr>
 <tr class="separator:ad0a5b274f170d18a9e175fddf538a4bc"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a75c1bbc9c04ed65c5902b5a4d4f32035"><td class="memTemplParams" colspan="2">template&lt;typename BidirIter1 , typename BidirIter2 &gt; </td></tr>
 <tr class="memitem:a75c1bbc9c04ed65c5902b5a4d4f32035"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a75c1bbc9c04ed65c5902b5a4d4f32035">move_backward</a> (BidirIter1 first, BidirIter1 last, BidirIter2 destination) -&gt; BidirIter2</td></tr>
-<tr class="memdesc:a75c1bbc9c04ed65c5902b5a4d4f32035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements from the range [ <code>first</code> , <code>last</code> ), to another range ending at <code>destination</code>. The elements are moved in reverse order (the last element is moved first), but their relative order is preserved.  <a href="#a75c1bbc9c04ed65c5902b5a4d4f32035">More...</a><br /></td></tr>
+<tr class="memdesc:a75c1bbc9c04ed65c5902b5a4d4f32035"><td class="mdescLeft">&#160;</td><td class="mdescRight">Moves the elements from the range [first, last), to another range ending at destination. The elements are moved in reverse order (the last element is moved first), but their relative order is preserved.  <a href="#a75c1bbc9c04ed65c5902b5a4d4f32035">More...</a><br /></td></tr>
 <tr class="separator:a75c1bbc9c04ed65c5902b5a4d4f32035"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad47b84f5bf40f76cc783ff22a0c3888e"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename UnaryFunction &gt; </td></tr>
 <tr class="memitem:ad47b84f5bf40f76cc783ff22a0c3888e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ad47b84f5bf40f76cc783ff22a0c3888e">for_each</a> (InputIter first, InputIter last, UnaryFunction f) noexcept -&gt; UnaryFunction</td></tr>
-<tr class="memdesc:ad47b84f5bf40f76cc783ff22a0c3888e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function object f to the result of dereferencing every iterator in the range [ <code>first</code> , <code>last</code> ) in order.  <a href="#ad47b84f5bf40f76cc783ff22a0c3888e">More...</a><br /></td></tr>
+<tr class="memdesc:ad47b84f5bf40f76cc783ff22a0c3888e"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function object f to the result of dereferencing every iterator in the range [first, last) in order.  <a href="#ad47b84f5bf40f76cc783ff22a0c3888e">More...</a><br /></td></tr>
 <tr class="separator:ad47b84f5bf40f76cc783ff22a0c3888e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9c3c610f3a94e96a8a1c8cac49e70388"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename Size , typename UnaryFunction &gt; </td></tr>
 <tr class="memitem:a9c3c610f3a94e96a8a1c8cac49e70388"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9c3c610f3a94e96a8a1c8cac49e70388">for_each_n</a> (InputIter first, Size n, UnaryFunction f) noexcept -&gt; InputIter</td></tr>
-<tr class="memdesc:a9c3c610f3a94e96a8a1c8cac49e70388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function object <code>f</code> to the result of dereferencing every iterator in the range [ <code>first</code> , <code>first</code> + <code>n</code>] in order.  <a href="#a9c3c610f3a94e96a8a1c8cac49e70388">More...</a><br /></td></tr>
+<tr class="memdesc:a9c3c610f3a94e96a8a1c8cac49e70388"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function object f to the result of dereferencing every iterator in the range [first, first + n] in order.  <a href="#a9c3c610f3a94e96a8a1c8cac49e70388">More...</a><br /></td></tr>
 <tr class="separator:a9c3c610f3a94e96a8a1c8cac49e70388"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a32dd2ffddadb248b341e42879a9e9951"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename OutputIter , typename UnaryOperation &gt; </td></tr>
-<tr class="memitem:a32dd2ffddadb248b341e42879a9e9951"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a32dd2ffddadb248b341e42879a9e9951">transform</a> (InputIter first, InputIter last, OutputIter destination, UnaryOperation op) -&gt; OutputIter</td></tr>
-<tr class="memdesc:a32dd2ffddadb248b341e42879a9e9951"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function to a range and stores the result in another range, beginning at <code>destination</code>. The unary operation unary_op is applied to the range defined by [ <code>first</code> , <code>last</code> ).  <a href="#a32dd2ffddadb248b341e42879a9e9951">More...</a><br /></td></tr>
-<tr class="separator:a32dd2ffddadb248b341e42879a9e9951"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a704b8d21ad6879a3a28be5c0bd435fa4"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename OutputIter , typename UnaryOperation &gt; </td></tr>
+<tr class="memitem:a704b8d21ad6879a3a28be5c0bd435fa4"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a704b8d21ad6879a3a28be5c0bd435fa4">transform</a> (InputIter first, InputIter last, OutputIter dest, UnaryOperation op) -&gt; OutputIter</td></tr>
+<tr class="memdesc:a704b8d21ad6879a3a28be5c0bd435fa4"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function to a range and stores the result in another range, beginning at dest. The unary operation op is applied to the range defined by [first, last).  <a href="#a704b8d21ad6879a3a28be5c0bd435fa4">More...</a><br /></td></tr>
+<tr class="separator:a704b8d21ad6879a3a28be5c0bd435fa4"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a85f81702ed6fdeecec082a39e50e4e2a"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 , typename OutputIter , typename BinaryOperation &gt; </td></tr>
 <tr class="memitem:a85f81702ed6fdeecec082a39e50e4e2a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a85f81702ed6fdeecec082a39e50e4e2a">transform</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, OutputIter dest, BinaryOperation op) -&gt; OutputIter</td></tr>
-<tr class="memdesc:a85f81702ed6fdeecec082a39e50e4e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function to a range and stores the result in another range, beginning at destination. The binary operation <code>op</code> is applied to pairs of elements from two ranges: one defined by [ <code>first1</code> , <code>last1</code> ) and the other beginning at <code>first2</code>.  <a href="#a85f81702ed6fdeecec082a39e50e4e2a">More...</a><br /></td></tr>
+<tr class="memdesc:a85f81702ed6fdeecec082a39e50e4e2a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Applies the given function to a range and stores the result in another range, beginning at destination. The binary operation op is applied to pairs of elements from two ranges: one defined by [first1, last1) and the other beginning at first2.  <a href="#a85f81702ed6fdeecec082a39e50e4e2a">More...</a><br /></td></tr>
 <tr class="separator:a85f81702ed6fdeecec082a39e50e4e2a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9dafeb773e43238a39165aeffe200e9a"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename Generator &gt; </td></tr>
 <tr class="memitem:a9dafeb773e43238a39165aeffe200e9a"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9dafeb773e43238a39165aeffe200e9a">generate</a> (ForwardIter first, ForwardIter last, Generator g) -&gt; void</td></tr>
-<tr class="memdesc:a9dafeb773e43238a39165aeffe200e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns each element in range [ <code>first</code> , <code>last</code> ) a value generated by the given function object <code>g</code>.  <a href="#a9dafeb773e43238a39165aeffe200e9a">More...</a><br /></td></tr>
+<tr class="memdesc:a9dafeb773e43238a39165aeffe200e9a"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns each element in range [first, last) a value generated by the given function object g.  <a href="#a9dafeb773e43238a39165aeffe200e9a">More...</a><br /></td></tr>
 <tr class="separator:a9dafeb773e43238a39165aeffe200e9a"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae9ef45defed1d076c23d018658203f69"><td class="memTemplParams" colspan="2">template&lt;typename OutputIter , typename SizeT , typename Generator &gt; </td></tr>
 <tr class="memitem:ae9ef45defed1d076c23d018658203f69"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ae9ef45defed1d076c23d018658203f69">generate_n</a> (OutputIter first, SizeT <a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a>, Generator g) -&gt; OutputIter</td></tr>
-<tr class="memdesc:ae9ef45defed1d076c23d018658203f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns values, generated by given function object <code>g</code>, to the first count elements in the range beginning at <code>first</code>, if <code>count</code> &gt; 0. Does nothing otherwise.  <a href="#ae9ef45defed1d076c23d018658203f69">More...</a><br /></td></tr>
+<tr class="memdesc:ae9ef45defed1d076c23d018658203f69"><td class="mdescLeft">&#160;</td><td class="mdescRight">Assigns values, generated by given function object g, to the first count elements in the range beginning at first, if count &gt; 0. Does nothing otherwise.  <a href="#ae9ef45defed1d076c23d018658203f69">More...</a><br /></td></tr>
 <tr class="separator:ae9ef45defed1d076c23d018658203f69"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a12959aac739b3aca2ded392a4255ec12"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename T &gt; </td></tr>
 <tr class="memitem:a12959aac739b3aca2ded392a4255ec12"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a12959aac739b3aca2ded392a4255ec12">count</a> (InputIter first, InputIter last, T const &amp;value) -&gt; typename <a class="el" href="structetl_1_1iterator__traits.html">iterator_traits</a>&lt; InputIter &gt;::difference_type</td></tr>
-<tr class="memdesc:a12959aac739b3aca2ded392a4255ec12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements in the range [ <code>first</code> , <code>last</code> ) satisfying specific criteria. Counts the elements that are equal to value.  <a href="#a12959aac739b3aca2ded392a4255ec12">More...</a><br /></td></tr>
+<tr class="memdesc:a12959aac739b3aca2ded392a4255ec12"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements in the range [first, last) satisfying specific criteria. Counts the elements that are equal to value.  <a href="#a12959aac739b3aca2ded392a4255ec12">More...</a><br /></td></tr>
 <tr class="separator:a12959aac739b3aca2ded392a4255ec12"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af949f9bf15cdfd7e8282705ab00ddcc3"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , typename UnaryPredicate &gt; </td></tr>
 <tr class="memitem:af949f9bf15cdfd7e8282705ab00ddcc3"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#af949f9bf15cdfd7e8282705ab00ddcc3">count_if</a> (InputIter first, InputIter last, UnaryPredicate p) -&gt; typename <a class="el" href="structetl_1_1iterator__traits.html">iterator_traits</a>&lt; InputIter &gt;::difference_type</td></tr>
-<tr class="memdesc:af949f9bf15cdfd7e8282705ab00ddcc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements in the range [ <code>first</code> , <code>last</code> ) satisfying specific criteria. Counts elements for which predicate <code>p</code> returns true.  <a href="#af949f9bf15cdfd7e8282705ab00ddcc3">More...</a><br /></td></tr>
+<tr class="memdesc:af949f9bf15cdfd7e8282705ab00ddcc3"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the number of elements in the range [first, last) satisfying specific criteria. Counts elements for which predicate p returns true.  <a href="#af949f9bf15cdfd7e8282705ab00ddcc3">More...</a><br /></td></tr>
 <tr class="separator:af949f9bf15cdfd7e8282705ab00ddcc3"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab340ce2b640eb395b08fe8b266881603"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 , typename BinaryPredicate &gt; </td></tr>
 <tr class="memitem:ab340ce2b640eb395b08fe8b266881603"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ab340ce2b640eb395b08fe8b266881603">mismatch</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, BinaryPredicate pred) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; InputIter1, InputIter2 &gt;</td></tr>
-<tr class="memdesc:ab340ce2b640eb395b08fe8b266881603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1).  <a href="#ab340ce2b640eb395b08fe8b266881603">More...</a><br /></td></tr>
+<tr class="memdesc:ab340ce2b640eb395b08fe8b266881603"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). Elements are compared using the given binary predicate pred.  <a href="#ab340ce2b640eb395b08fe8b266881603">More...</a><br /></td></tr>
 <tr class="separator:ab340ce2b640eb395b08fe8b266881603"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a5670e9bd29e9fb8b573558fe9a6bff17"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 &gt; </td></tr>
 <tr class="memitem:a5670e9bd29e9fb8b573558fe9a6bff17"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a5670e9bd29e9fb8b573558fe9a6bff17">mismatch</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; InputIter1, InputIter2 &gt;</td></tr>
-<tr class="memdesc:a5670e9bd29e9fb8b573558fe9a6bff17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1).  <a href="#a5670e9bd29e9fb8b573558fe9a6bff17">More...</a><br /></td></tr>
+<tr class="memdesc:a5670e9bd29e9fb8b573558fe9a6bff17"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). Elements are compared using operator==.  <a href="#a5670e9bd29e9fb8b573558fe9a6bff17">More...</a><br /></td></tr>
 <tr class="separator:a5670e9bd29e9fb8b573558fe9a6bff17"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ace4d823211420bf94fe43c94bf902a57"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 , typename BinaryPredicate &gt; </td></tr>
 <tr class="memitem:ace4d823211420bf94fe43c94bf902a57"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#ace4d823211420bf94fe43c94bf902a57">mismatch</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2, BinaryPredicate pred) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; InputIter1, InputIter2 &gt;</td></tr>
-<tr class="memdesc:ace4d823211420bf94fe43c94bf902a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1).  <a href="#ace4d823211420bf94fe43c94bf902a57">More...</a><br /></td></tr>
+<tr class="memdesc:ace4d823211420bf94fe43c94bf902a57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2, last2). Elements are compared using the given binary predicate pred.  <a href="#ace4d823211420bf94fe43c94bf902a57">More...</a><br /></td></tr>
 <tr class="separator:ace4d823211420bf94fe43c94bf902a57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a934b1b48023aa9532f3f329fe18f1079"><td class="memTemplParams" colspan="2">template&lt;typename InputIter1 , typename InputIter2 &gt; </td></tr>
 <tr class="memitem:a934b1b48023aa9532f3f329fe18f1079"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a934b1b48023aa9532f3f329fe18f1079">mismatch</a> (InputIter1 first1, InputIter1 last1, InputIter2 first2, InputIter2 last2) -&gt; <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; InputIter1, InputIter2 &gt;</td></tr>
-<tr class="memdesc:a934b1b48023aa9532f3f329fe18f1079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1).  <a href="#a934b1b48023aa9532f3f329fe18f1079">More...</a><br /></td></tr>
+<tr class="memdesc:a934b1b48023aa9532f3f329fe18f1079"><td class="mdescLeft">&#160;</td><td class="mdescRight">Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). Elements are compared using operator==.  <a href="#a934b1b48023aa9532f3f329fe18f1079">More...</a><br /></td></tr>
 <tr class="separator:a934b1b48023aa9532f3f329fe18f1079"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9ba98486c230b754b2cabc1805b53c16"><td class="memTemplParams" colspan="2">template&lt;typename ForwardIter , typename BinaryPredicate &gt; </td></tr>
 <tr class="memitem:a9ba98486c230b754b2cabc1805b53c16"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a9ba98486c230b754b2cabc1805b53c16">adjacent_find</a> (ForwardIter first, ForwardIter last, BinaryPredicate pred) -&gt; ForwardIter</td></tr>
@@ -1964,7 +1964,7 @@ Functions</h2></td></tr>
 <tr class="separator:ae0039bdc9a6970a2089121ae3ee285b1"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a717726a2fed08cececaa93b504419300"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , typename OutputIt , typename BinaryOperation &gt; </td></tr>
 <tr class="memitem:a717726a2fed08cececaa93b504419300"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a717726a2fed08cececaa93b504419300">partial_sum</a> (InputIt first, InputIt last, OutputIt destination, BinaryOperation op) -&gt; OutputIt</td></tr>
-<tr class="memdesc:a717726a2fed08cececaa93b504419300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the partial sums of the elements in the subranges of the range [first, last) and writes them to the range beginning at destination. This version uses the given binary function op, both applying <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [[ first , last ), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> to their operands on the left hand side.  <a href="#a717726a2fed08cececaa93b504419300">More...</a><br /></td></tr>
+<tr class="memdesc:a717726a2fed08cececaa93b504419300"><td class="mdescLeft">&#160;</td><td class="mdescRight">Computes the partial sums of the elements in the subranges of the range [first, last) and writes them to the range beginning at destination. This version uses the given binary function op, both applying <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> to their operands on the left hand side.  <a href="#a717726a2fed08cececaa93b504419300">More...</a><br /></td></tr>
 <tr class="separator:a717726a2fed08cececaa93b504419300"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a8d274a25ea5a88eb47898c8832795e3e"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , typename OutputIt &gt; </td></tr>
 <tr class="memitem:a8d274a25ea5a88eb47898c8832795e3e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a8d274a25ea5a88eb47898c8832795e3e">partial_sum</a> (InputIt first, InputIt last, OutputIt destination) -&gt; OutputIt</td></tr>
@@ -2225,7 +2225,7 @@ Functions</h2></td></tr>
 <tr class="separator:a4ec5c14f53ef79e0b6debfffb6ce947f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a4165fb01e5de4a84bfd7367b5133cb3d">move</a> (T &amp;&amp;t) noexcept -&gt; typename <a class="el" href="structetl_1_1remove__reference.html">etl::remove_reference</a>&lt; T &gt;::type &amp;&amp;</td></tr>
-<tr class="memdesc:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [[ first , last ), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object. In particular, <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [[ first , last ), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> produces an xvalue expression that identifies its argument t. It is exactly equivalent to a static_cast to an rvalue reference type.  <a href="#a4165fb01e5de4a84bfd7367b5133cb3d">More...</a><br /></td></tr>
+<tr class="memdesc:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="mdescLeft">&#160;</td><td class="mdescRight"><a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object. In particular, <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> produces an xvalue expression that identifies its argument t. It is exactly equivalent to a static_cast to an rvalue reference type.  <a href="#a4165fb01e5de4a84bfd7367b5133cb3d">More...</a><br /></td></tr>
 <tr class="separator:a4165fb01e5de4a84bfd7367b5133cb3d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a40b9621f8af141d0572885428d2880d9"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
 <tr class="memitem:a40b9621f8af141d0572885428d2880d9"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="namespaceetl.html#a40b9621f8af141d0572885428d2880d9">forward</a> (<a class="el" href="namespaceetl.html#a26ceb8de4fe37ef6a14f78dd10d95bb6">etl::remove_reference_t</a>&lt; T &gt; &amp;param) noexcept -&gt; T &amp;&amp;</td></tr>
@@ -5311,7 +5311,15 @@ template&lt;typename InputIter , typename T &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the number of elements in the range [ <code>first</code> , <code>last</code> ) satisfying specific criteria. Counts the elements that are equal to value. </p>
+<p>Returns the number of elements in the range [first, last) satisfying specific criteria. Counts the elements that are equal to value. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/count">https://en.cppreference.com/w/cpp/algorithm/count</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range of elements to examine. </td></tr>
+    <tr><td class="paramname">last</td><td>The range of elements to examine. </td></tr>
+    <tr><td class="paramname">value</td><td>The value to search for. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -5350,7 +5358,15 @@ template&lt;typename InputIter , typename UnaryPredicate &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the number of elements in the range [ <code>first</code> , <code>last</code> ) satisfying specific criteria. Counts elements for which predicate <code>p</code> returns true. </p>
+<p>Returns the number of elements in the range [first, last) satisfying specific criteria. Counts elements for which predicate p returns true. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/count">https://en.cppreference.com/w/cpp/algorithm/count</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range of elements to examine. </td></tr>
+    <tr><td class="paramname">last</td><td>The range of elements to examine. </td></tr>
+    <tr><td class="paramname">p</td><td>Unary predicate which returns ​true for the required elements. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -6665,7 +6681,15 @@ template&lt;typename InputIter , typename UnaryFunction &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Applies the given function object f to the result of dereferencing every iterator in the range [ <code>first</code> , <code>last</code> ) in order. </p>
+<p>Applies the given function object f to the result of dereferencing every iterator in the range [first, last) in order. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/for_each">https://en.cppreference.com/w/cpp/algorithm/for_each</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range to apply the function to. </td></tr>
+    <tr><td class="paramname">last</td><td>The range to apply the function to. </td></tr>
+    <tr><td class="paramname">f</td><td>Function object, to be applied to the result of dereferencing every iterator in the range. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="algorithm_8cpp-example.html#a2">algorithm.cpp</a>, and <a class="el" href="set_8cpp-example.html#a2">set.cpp</a>.</dd>
 </dl>
 </div>
@@ -6713,7 +6737,15 @@ template&lt;typename InputIter , typename Size , typename UnaryFunction &gt; </d
 </table>
 </div><div class="memdoc">
 
-<p>Applies the given function object <code>f</code> to the result of dereferencing every iterator in the range [ <code>first</code> , <code>first</code> + <code>n</code>] in order. </p>
+<p>Applies the given function object f to the result of dereferencing every iterator in the range [first, first + n] in order. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/for_each_n">https://en.cppreference.com/w/cpp/algorithm/for_each_n</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The beginning of the range to apply the function to. </td></tr>
+    <tr><td class="paramname">n</td><td>The number of elements to apply the function to. </td></tr>
+    <tr><td class="paramname">f</td><td>Function object, to be applied to the result of dereferencing every iterator in the range. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="algorithm_8cpp-example.html#a5">algorithm.cpp</a>.</dd>
 </dl>
 </div>
@@ -6884,8 +6916,15 @@ template&lt;typename ForwardIter , typename Generator &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Assigns each element in range [ <code>first</code> , <code>last</code> ) a value generated by the given function object <code>g</code>. </p>
-<p>https://en.cppreference.com/w/cpp/algorithm/generate </p>
+<p>Assigns each element in range [first, last) a value generated by the given function object g. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/generate">https://en.cppreference.com/w/cpp/algorithm/generate</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range of elements to generate. </td></tr>
+    <tr><td class="paramname">last</td><td>The range of elements to generate. </td></tr>
+    <tr><td class="paramname">g</td><td>Generator function object that will be called. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -6924,8 +6963,15 @@ template&lt;typename OutputIter , typename SizeT , typename Generator &gt; </div
       </table>
 </div><div class="memdoc">
 
-<p>Assigns values, generated by given function object <code>g</code>, to the first count elements in the range beginning at <code>first</code>, if <code>count</code> &gt; 0. Does nothing otherwise. </p>
-<p>https://en.cppreference.com/w/cpp/algorithm/generate_n </p>
+<p>Assigns values, generated by given function object g, to the first count elements in the range beginning at first, if count &gt; 0. Does nothing otherwise. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/generate_n">https://en.cppreference.com/w/cpp/algorithm/generate_n</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range of elements to generate. </td></tr>
+    <tr><td class="paramname">count</td><td>Number of the elements to generate. </td></tr>
+    <tr><td class="paramname">g</td><td>Generator function object that will be called. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -8538,7 +8584,7 @@ template&lt;typename InputIter1 , typename InputIter2 , typename Compare &gt; </
 </div><div class="memdoc">
 
 <p>Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using the given binary comparison function comp. </p>
-<p>https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare">https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare</a> </p>
 
 </div>
 </div>
@@ -8584,7 +8630,7 @@ template&lt;typename InputIter1 , typename InputIter2 &gt; </div>
 </div><div class="memdoc">
 
 <p>Checks if the first range [first1, last1) is lexicographically less than the second range [first2, last2). Elements are compared using operator&lt;. </p>
-<p>https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare">https://en.cppreference.com/w/cpp/algorithm/lexicographical_compare</a> </p>
 
 </div>
 </div>
@@ -9569,8 +9615,16 @@ template&lt;typename InputIter1 , typename InputIter2 , typename BinaryPredicate
       </table>
 </div><div class="memdoc">
 
-<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). </p>
-<p>Elements are compared using the given binary predicate p. </p>
+<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). Elements are compared using the given binary predicate pred. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/mismatch">https://en.cppreference.com/w/cpp/algorithm/mismatch</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">last1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">first2</td><td>The second range of the elements. </td></tr>
+    <tr><td class="paramname">pred</td><td>Binary predicate which returns ​true if the elements should be treated as equal. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -9609,8 +9663,15 @@ template&lt;typename InputIter1 , typename InputIter2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). </p>
-<p>Elements are compared using operator==. </p>
+<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). Elements are compared using operator==. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/mismatch">https://en.cppreference.com/w/cpp/algorithm/mismatch</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">last1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">first2</td><td>The second range of the elements. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -9661,8 +9722,17 @@ template&lt;typename InputIter1 , typename InputIter2 , typename BinaryPredicate
       </table>
 </div><div class="memdoc">
 
-<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). </p>
-<p>Elements are compared using the given binary predicate p. </p>
+<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2, last2). Elements are compared using the given binary predicate pred. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/mismatch">https://en.cppreference.com/w/cpp/algorithm/mismatch</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">last1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">first2</td><td>The second range of the elements. </td></tr>
+    <tr><td class="paramname">last2</td><td>The second range of the elements. </td></tr>
+    <tr><td class="paramname">pred</td><td>Binary predicate which returns ​true if the elements should be treated as equal. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -9707,8 +9777,16 @@ template&lt;typename InputIter1 , typename InputIter2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). If last2 is not provided (overloads (1-4)), it denotes first2 + (last1 - first1). </p>
-<p>Elements are compared using operator==. </p>
+<p>Returns the first mismatching pair of elements from two ranges: one defined by [first1, last1) and another defined by [first2,last2). Elements are compared using operator==. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/mismatch">https://en.cppreference.com/w/cpp/algorithm/mismatch</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">last1</td><td>The first range of the elements. </td></tr>
+    <tr><td class="paramname">first2</td><td>The second range of the elements. </td></tr>
+    <tr><td class="paramname">last2</td><td>The second range of the elements. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -9739,7 +9817,7 @@ template&lt;typename T &gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p><a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [[ first , last ), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object. In particular, <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [[ first , last ), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> produces an xvalue expression that identifies its argument t. It is exactly equivalent to a static_cast to an rvalue reference type. </p>
+<p><a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> is used to indicate that an object t may be "moved from", i.e. allowing the efficient transfer of resources from t to another object. In particular, <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> produces an xvalue expression that identifies its argument t. It is exactly equivalent to a static_cast to an rvalue reference type. </p>
 <dl class="tparams"><dt>Template Parameters</dt><dd>
   <table class="tparams">
     <tr><td class="paramname">T</td><td></td></tr>
@@ -9791,7 +9869,16 @@ template&lt;typename InputIter , typename OutputIter &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Moves the elements in the range [[ <code>first</code> , <code>last</code> ), to another range beginning at <code>destination</code>, starting from first and proceeding to <code>last</code> - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. </p>
+<p>Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/move">https://en.cppreference.com/w/cpp/algorithm/move</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range of elements to move. </td></tr>
+    <tr><td class="paramname">last</td><td>The range of elements to move. </td></tr>
+    <tr><td class="paramname">destination</td><td>The beginning of the destination range. </td></tr>
+  </table>
+  </dd>
+</dl>
+<dl class="section return"><dt>Returns</dt><dd>Output iterator to the element past the last element moved. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="optional_8cpp-example.html#a3">optional.cpp</a>.</dd>
 </dl>
 </div>
@@ -9831,8 +9918,15 @@ template&lt;typename BidirIter1 , typename BidirIter2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Moves the elements from the range [ <code>first</code> , <code>last</code> ), to another range ending at <code>destination</code>. The elements are moved in reverse order (the last element is moved first), but their relative order is preserved. </p>
-<p><a href="https://en.cppreference.com/w/cpp/algorithm/move_backward">https://en.cppreference.com/w/cpp/algorithm/move_backward</a></p>
+<p>Moves the elements from the range [first, last), to another range ending at destination. The elements are moved in reverse order (the last element is moved first), but their relative order is preserved. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/move_backward">https://en.cppreference.com/w/cpp/algorithm/move_backward</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The range of elements to move. </td></tr>
+    <tr><td class="paramname">last</td><td>The range of elements to move. </td></tr>
+    <tr><td class="paramname">destination</td><td>End of the destination range. </td></tr>
+  </table>
+  </dd>
+</dl>
 <dl class="section return"><dt>Returns</dt><dd>Iterator in the destination range, pointing at the last element moved. </dd></dl>
 
 </div>
@@ -13126,7 +13220,7 @@ template&lt;typename InputIt , typename OutputIt , typename BinaryOperation &gt;
       </table>
 </div><div class="memdoc">
 
-<p>Computes the partial sums of the elements in the subranges of the range [first, last) and writes them to the range beginning at destination. This version uses the given binary function op, both applying <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [[ first , last ), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> to their operands on the left hand side. </p>
+<p>Computes the partial sums of the elements in the subranges of the range [first, last) and writes them to the range beginning at destination. This version uses the given binary function op, both applying <a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc" title="Moves the elements in the range [first, last), to another range beginning at destination, starting from first and proceeding to last - 1. After this operation the elements in the moved-from range will still contain valid values of the appropriate type, but not necessarily the same values as before the move. ">etl::move</a> to their operands on the left hand side. </p>
 <p>BinaryFunction must not invalidate any iterators, including the end iterators, or modify any elements of the range involved.</p>
 <dl class="section return"><dt>Returns</dt><dd>Iterator to the element past the last element written.</dd></dl>
 <p>https://en.cppreference.com/w/cpp/algorithm/partial_sum </p>
@@ -14478,7 +14572,7 @@ template&lt;typename RandomIter , typename Compare &gt; </div>
 
 <p>Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved. </p>
 <p>A sequence is sorted with respect to a comparator comp if for any iterator it pointing to the sequence and any non-negative integer n such that it + n is a valid iterator pointing to an element of the sequence, comp(*(it + n), *it) (or *(it + n) &lt; *it) evaluates to false. Bubble sort implementation.</p>
-<p>https://en.cppreference.com/w/cpp/algorithm/sort </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/sort">https://en.cppreference.com/w/cpp/algorithm/sort</a> </p>
 
 </div>
 </div>
@@ -14513,7 +14607,7 @@ template&lt;typename RandomIter &gt; </div>
 
 <p>Sorts the elements in the range [first, last) in non-descending order. The order of equal elements is not guaranteed to be preserved. Elements are compared using operator&lt;. </p>
 <p>A sequence is sorted with respect to a comparator comp if for any iterator it pointing to the sequence and any non-negative integer n such that it + n is a valid iterator pointing to an element of the sequence, comp(*(it + n), *it) (or *(it + n) &lt; *it) evaluates to false. Bubble sort implementation.</p>
-<p>https://en.cppreference.com/w/cpp/algorithm/sort </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/sort">https://en.cppreference.com/w/cpp/algorithm/sort</a> </p>
 
 </div>
 </div>
@@ -15204,8 +15298,15 @@ template&lt;typename ForwardIter1 , typename ForwardIter2 &gt; </div>
       </table>
 </div><div class="memdoc">
 
-<p>Exchanges elements between range [ <code>first1</code> , <code>last1</code> ) and another range starting at <code>first2</code>. </p>
-<p><a href="https://en.cppreference.com/w/cpp/algorithm/iter_swap">https://en.cppreference.com/w/cpp/algorithm/iter_swap</a> </p>
+<p>Exchanges elements between range [first1 ,last1) and another range starting at first2. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/swap_ranges">https://en.cppreference.com/w/cpp/algorithm/swap_ranges</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first1</td><td>the first range of elements to swap </td></tr>
+    <tr><td class="paramname">last1</td><td>the first range of elements to swap </td></tr>
+    <tr><td class="paramname">first2</td><td>beginning of the second range of elements to swap </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -15304,8 +15405,8 @@ template&lt;typename Integer , TAETL_REQUIRES_(etl::is_integral_v&lt; Integer &g
 
 </div>
 </div>
-<a id="a32dd2ffddadb248b341e42879a9e9951"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a32dd2ffddadb248b341e42879a9e9951">&#9670;&nbsp;</a></span>transform() <span class="overload">[1/2]</span></h2>
+<a id="a704b8d21ad6879a3a28be5c0bd435fa4"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a704b8d21ad6879a3a28be5c0bd435fa4">&#9670;&nbsp;</a></span>transform() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -15328,7 +15429,7 @@ template&lt;typename InputIter , typename OutputIter , typename UnaryOperation &
           <td class="paramkey"></td>
           <td></td>
           <td class="paramtype">OutputIter&#160;</td>
-          <td class="paramname"><em>destination</em>, </td>
+          <td class="paramname"><em>dest</em>, </td>
         </tr>
         <tr>
           <td class="paramkey"></td>
@@ -15345,8 +15446,16 @@ template&lt;typename InputIter , typename OutputIter , typename UnaryOperation &
       </table>
 </div><div class="memdoc">
 
-<p>Applies the given function to a range and stores the result in another range, beginning at <code>destination</code>. The unary operation unary_op is applied to the range defined by [ <code>first</code> , <code>last</code> ). </p>
-<p>https://en.cppreference.com/w/cpp/algorithm/transform </p>
+<p>Applies the given function to a range and stores the result in another range, beginning at dest. The unary operation op is applied to the range defined by [first, last). </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/transform">https://en.cppreference.com/w/cpp/algorithm/transform</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first</td><td>The first range of elements to transform. </td></tr>
+    <tr><td class="paramname">last</td><td>The first range of elements to transform. </td></tr>
+    <tr><td class="paramname">dest</td><td>The beginning of the destination range, may be equal to first. </td></tr>
+    <tr><td class="paramname">op</td><td>Unary operation function object that will be applied. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
@@ -15397,8 +15506,17 @@ template&lt;typename InputIter1 , typename InputIter2 , typename OutputIter , ty
       </table>
 </div><div class="memdoc">
 
-<p>Applies the given function to a range and stores the result in another range, beginning at destination. The binary operation <code>op</code> is applied to pairs of elements from two ranges: one defined by [ <code>first1</code> , <code>last1</code> ) and the other beginning at <code>first2</code>. </p>
-<p>https://en.cppreference.com/w/cpp/algorithm/transform </p>
+<p>Applies the given function to a range and stores the result in another range, beginning at destination. The binary operation op is applied to pairs of elements from two ranges: one defined by [first1, last1) and the other beginning at first2. </p>
+<p><a href="https://en.cppreference.com/w/cpp/algorithm/transform">https://en.cppreference.com/w/cpp/algorithm/transform</a> </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">first1</td><td>The first range of elements to transform. </td></tr>
+    <tr><td class="paramname">last1</td><td>The first range of elements to transform. </td></tr>
+    <tr><td class="paramname">first2</td><td>The beginning of the second range of elements to transform. </td></tr>
+    <tr><td class="paramname">dest</td><td>The beginning of the destination range, may be equal to first. </td></tr>
+    <tr><td class="paramname">op</td><td>Unary operation function object that will be applied. </td></tr>
+  </table>
+  </dd>
+</dl>
 
 </div>
 </div>
