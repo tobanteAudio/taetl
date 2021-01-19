@@ -37,8 +37,7 @@ var searchData=
   ['buffer_5fconst_2ehpp',['buffer_const.hpp',['../buffer__const_8hpp.html',1,'']]],
   ['buffer_5fmutable_2ehpp',['buffer_mutable.hpp',['../buffer__mutable_8hpp.html',1,'']]],
   ['building_2emd',['building.md',['../building_8md.html',1,'']]],
-  ['byte',['byte',['../namespaceetl.html#a3fe360a11ae9b0c5886f80ce2ff28a9d',1,'etl']]],
-  ['byte_2ehpp',['byte.hpp',['../byte_8hpp.html',1,'']]],
+  ['byte',['byte',['../namespaceetl.html#a72ef6ff0708af7ff8ec8e2fb02b1d688',1,'etl']]],
   ['byte_5forder_2ehpp',['byte_order.hpp',['../byte__order_8hpp.html',1,'']]],
   ['building',['Building',['../md_docs_building.html',1,'']]]
 ];

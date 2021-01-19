@@ -1,11 +1,10 @@
 <map id="etl/cstdlib.hpp" name="etl/cstdlib.hpp">
-<area shape="rect" id="node2" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="151,155,248,181"/>
-<area shape="rect" id="node3" href="$cstring_8hpp.html" title="cstring.hpp" alt="" coords="264,80,359,107"/>
-<area shape="rect" id="node5" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="271,393,389,420"/>
-<area shape="rect" id="node4" href="$byte_8hpp.html" title="byte.hpp" alt="" coords="272,155,351,181"/>
-<area shape="rect" id="node8" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="181,229,301,256"/>
-<area shape="rect" id="node10" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="5,229,156,256"/>
-<area shape="rect" id="node6" href="$intrinsics_8hpp.html" title="detail/intrinsics.hpp" alt="" coords="97,468,248,495"/>
-<area shape="rect" id="node7" href="$version_8hpp.html" title="version.hpp" alt="" coords="281,468,379,495"/>
-<area shape="rect" id="node9" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="95,304,250,345"/>
+<area shape="rect" id="node2" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="227,155,324,181"/>
+<area shape="rect" id="node3" href="$cstddef_8hpp.html" title="cstddef.hpp" alt="" coords="360,155,457,181"/>
+<area shape="rect" id="node9" href="$cstring_8hpp.html" title="cstring.hpp" alt="" coords="289,80,384,107"/>
+<area shape="rect" id="node4" href="$cstddef__internal_8hpp.html" title="etl/detail/cstddef\l_internal.hpp" alt="" coords="5,304,137,345"/>
+<area shape="rect" id="node5" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="211,393,382,420"/>
+<area shape="rect" id="node6" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="392,311,543,338"/>
+<area shape="rect" id="node7" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="283,229,425,256"/>
+<area shape="rect" id="node8" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="162,304,317,345"/>
 </map>

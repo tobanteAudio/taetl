@@ -1,6 +1,9 @@
 <map id="etl/experimental/rtos/task.hpp" name="etl/experimental/rtos/task.hpp">
-<area shape="rect" id="node2" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="86,95,225,121"/>
-<area shape="rect" id="node5" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="249,95,371,121"/>
-<area shape="rect" id="node3" href="$intrinsics_8hpp.html" title="detail/intrinsics.hpp" alt="" coords="5,169,156,196"/>
-<area shape="rect" id="node4" href="$version_8hpp.html" title="version.hpp" alt="" coords="181,169,279,196"/>
+<area shape="rect" id="node2" href="$cstddef_8hpp.html" title="etl/cstddef.hpp" alt="" coords="351,95,469,121"/>
+<area shape="rect" id="node8" href="$warning_8hpp.html" title="etl/warning.hpp" alt="" coords="494,95,617,121"/>
+<area shape="rect" id="node3" href="$cstddef__internal_8hpp.html" title="etl/detail/cstddef\l_internal.hpp" alt="" coords="5,244,137,285"/>
+<area shape="rect" id="node4" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="211,333,382,360"/>
+<area shape="rect" id="node5" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="392,251,543,278"/>
+<area shape="rect" id="node6" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="283,169,425,196"/>
+<area shape="rect" id="node7" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="162,244,317,285"/>
 </map>

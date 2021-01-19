@@ -1,12 +1,11 @@
 <map id="etl/detail/string_char_traits.hpp" name="etl/detail/string_char_traits.hpp">
-<area shape="rect" id="node2" href="$cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="271,95,385,121"/>
-<area shape="rect" id="node4" href="$definitions_8hpp.html" title="definitions.hpp" alt="" coords="271,408,390,435"/>
-<area shape="rect" id="node7" href="$type__traits_8hpp.html" title="type_traits.hpp" alt="" coords="5,244,125,271"/>
-<area shape="rect" id="node11" href="$ios_8hpp.html" title="etl/ios.hpp" alt="" coords="477,95,568,121"/>
-<area shape="rect" id="node3" href="$byte_8hpp.html" title="byte.hpp" alt="" coords="273,169,351,196"/>
-<area shape="rect" id="node10" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="151,169,249,196"/>
-<area shape="rect" id="node9" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="150,244,301,271"/>
-<area shape="rect" id="node5" href="$intrinsics_8hpp.html" title="detail/intrinsics.hpp" alt="" coords="98,483,249,509"/>
-<area shape="rect" id="node6" href="$version_8hpp.html" title="version.hpp" alt="" coords="281,483,380,509"/>
-<area shape="rect" id="node8" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="96,319,251,360"/>
+<area shape="rect" id="node2" href="$cstddef_8hpp.html" title="etl/cstddef.hpp" alt="" coords="407,169,526,196"/>
+<area shape="rect" id="node6" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="204,244,345,271"/>
+<area shape="rect" id="node8" href="$cstring_8hpp.html" title="etl/cstring.hpp" alt="" coords="300,95,415,121"/>
+<area shape="rect" id="node10" href="$ios_8hpp.html" title="etl/ios.hpp" alt="" coords="489,95,580,121"/>
+<area shape="rect" id="node3" href="$cstddef__internal_8hpp.html" title="etl/detail/cstddef\l_internal.hpp" alt="" coords="235,319,367,360"/>
+<area shape="rect" id="node4" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="164,408,335,435"/>
+<area shape="rect" id="node5" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="391,326,542,353"/>
+<area shape="rect" id="node7" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="5,319,160,360"/>
+<area shape="rect" id="node9" href="$cassert_8hpp.html" title="cassert.hpp" alt="" coords="286,169,383,196"/>
 </map>

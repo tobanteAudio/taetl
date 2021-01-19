@@ -1,7 +1,7 @@
 <map id="etl/detail/algo_swap.hpp" name="etl/detail/algo_swap.hpp">
-<area shape="rect" id="node2" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="54,80,195,107"/>
-<area shape="rect" id="node3" href="$definitions_8hpp.html" title="etl/definitions.hpp" alt="" coords="150,244,289,271"/>
-<area shape="rect" id="node4" href="$intrinsics_8hpp.html" title="detail/intrinsics.hpp" alt="" coords="5,319,156,345"/>
-<area shape="rect" id="node6" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="47,155,202,196"/>
-<area shape="rect" id="node5" href="$version_8hpp.html" title="version.hpp" alt="" coords="181,319,279,345"/>
+<area shape="rect" id="node2" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="161,80,302,107"/>
+<area shape="rect" id="node3" href="$cstddef__internal_8hpp.html" title="etl/detail/cstddef\l_internal.hpp" alt="" coords="5,155,137,196"/>
+<area shape="rect" id="node4" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="90,244,261,271"/>
+<area shape="rect" id="node5" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="213,162,364,189"/>
+<area shape="rect" id="node6" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="389,155,543,196"/>
 </map>
