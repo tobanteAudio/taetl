@@ -87,9 +87,9 @@ Public Types</h2></td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a8e7e4ddd87b877b57c7302ad83e4549d"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a8e7e4ddd87b877b57c7302ad83e4549d">pair</a> ()</td></tr>
-<tr class="memdesc:a8e7e4ddd87b877b57c7302ad83e4549d"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Value-initializes both elements of the pair, first and second.  <a href="#a8e7e4ddd87b877b57c7302ad83e4549d">More...</a><br /></td></tr>
-<tr class="separator:a8e7e4ddd87b877b57c7302ad83e4549d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a79643318459b8e5c49b870c93dda6161"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a79643318459b8e5c49b870c93dda6161">TAETL_REQUIRES</a> (<a class="el" href="namespaceetl.html#a0093a625b8acbeac1878b9a9668a2563">is_default_constructible_v</a>&lt; T1 &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a0093a625b8acbeac1878b9a9668a2563">is_default_constructible_v</a>&lt; T2 &gt;) const expr <a class="el" href="structetl_1_1pair.html">pair</a>()</td></tr>
+<tr class="memdesc:a79643318459b8e5c49b870c93dda6161"><td class="mdescLeft">&#160;</td><td class="mdescRight">Default constructor. Value-initializes both elements of the pair, first and second.  <a href="#a79643318459b8e5c49b870c93dda6161">More...</a><br /></td></tr>
+<tr class="separator:a79643318459b8e5c49b870c93dda6161"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a394cfba9d9e22e5d6fcd001483ebdb9c"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a394cfba9d9e22e5d6fcd001483ebdb9c">pair</a> (T1 const &amp;t1, T2 const &amp;t2)</td></tr>
 <tr class="memdesc:a394cfba9d9e22e5d6fcd001483ebdb9c"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes first with x and second with y.  <a href="#a394cfba9d9e22e5d6fcd001483ebdb9c">More...</a><br /></td></tr>
 <tr class="separator:a394cfba9d9e22e5d6fcd001483ebdb9c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -119,18 +119,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a7500f388ad19b56b97ece87d1338298e"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_assignable_v&lt; first_type &amp;, U1 const  &amp; &gt; &amp;&amp; is_assignable_v&lt; second_type &amp;, U2 const  &amp; &gt;) &gt; </td></tr>
 <tr class="memitem:a7500f388ad19b56b97ece87d1338298e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a7500f388ad19b56b97ece87d1338298e">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; const &amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
 <tr class="separator:a7500f388ad19b56b97ece87d1338298e"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a12ba8d689ce290a4b2dfbba16692d157"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a12ba8d689ce290a4b2dfbba16692d157">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a> &amp;&amp;p) noexcept -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
-<tr class="separator:a12ba8d689ce290a4b2dfbba16692d157"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa5cfb3c9ba7aac0e0c48a69366fb25e1"><td class="memTemplParams" colspan="2">template&lt;typename U1 , typename U2 , TAETL_REQUIRES_( is_assignable_v&lt; first_type &amp;, U1 &gt; &amp;&amp;is_assignable_v&lt; second_type &amp;, U2 &gt;) &gt; </td></tr>
-<tr class="memitem:aa5cfb3c9ba7aac0e0c48a69366fb25e1"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#aa5cfb3c9ba7aac0e0c48a69366fb25e1">operator=</a> (<a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; &amp;&amp;p) -&gt; <a class="el" href="structetl_1_1pair.html">pair</a> &amp;</td></tr>
-<tr class="separator:aa5cfb3c9ba7aac0e0c48a69366fb25e1"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a16cc1edf0ceb752390077b2cafe08457"><td class="memItemLeft" align="right" valign="top">constexpr void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a16cc1edf0ceb752390077b2cafe08457">swap</a> (<a class="el" href="structetl_1_1pair.html">pair</a> &amp;other) noexcept((<a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">is_nothrow_swappable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a28ef81180e9d7238017a3562e55c6586">first_type</a> &gt; and <a class="el" href="namespaceetl.html#a4fe0a7655d7b161139e48f8eb34838ac">is_nothrow_swappable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c">second_type</a> &gt;))</td></tr>
-<tr class="separator:a16cc1edf0ceb752390077b2cafe08457"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:af9caabee2bb8234e993b8759556ad25d"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#af9caabee2bb8234e993b8759556ad25d">TAETL_REQUIRES</a> (<a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">is_move_assignable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a28ef81180e9d7238017a3562e55c6586">first_type</a> &gt; &amp;&amp;<a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">is_move_assignable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c">second_type</a> &gt;) const expr auto operator</td></tr>
+<tr class="separator:af9caabee2bb8234e993b8759556ad25d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-attribs"></a>
 Public Attributes</h2></td></tr>
-<tr class="memitem:a768cd2286c58dc9f4a4aa6f1fde7caf7"><td class="memItemLeft" align="right" valign="top">T1&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#a768cd2286c58dc9f4a4aa6f1fde7caf7">first</a></td></tr>
-<tr class="separator:a768cd2286c58dc9f4a4aa6f1fde7caf7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:af651c7d1235d0edb50a26be719e61f14"><td class="memItemLeft" align="right" valign="top">T2&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="structetl_1_1pair.html#af651c7d1235d0edb50a26be719e61f14">second</a></td></tr>
 <tr class="separator:af651c7d1235d0edb50a26be719e61f14"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
@@ -139,7 +132,7 @@ Public Attributes</h2></td></tr>
 struct etl::pair&lt; T1, T2 &gt;</h3>
 
 <p><a class="el" href="structetl_1_1pair.html" title="etl::pair is a class template that provides a way to store two heterogeneous objects as a single unit...">etl::pair</a> is a class template that provides a way to store two heterogeneous objects as a single unit. A pair is a specific case of a <a class="el" href="structetl_1_1tuple.html">etl::tuple</a> with two elements. If neither T1 nor T2 is a possibly cv-qualified class type with non-trivial destructor, or array thereof, the destructor of pair is trivial. </p>
-<p>https://en.cppreference.com/w/cpp/utility/pair</p>
+<p><a href="https://en.cppreference.com/w/cpp/utility/pair">https://en.cppreference.com/w/cpp/utility/pair</a></p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000021">Todo:</a></b></dt><dd>Add conditional explicit when C++20 is available. </dd></dl>
 <dl><dt><b>Examples: </b></dt><dd><a class="el" href="utility_8cpp-example.html#_a11">utility.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Member Typedef Documentation</h2>
@@ -176,37 +169,8 @@ template&lt;typename T1, typename T2&gt; </div>
 </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
-<a id="a8e7e4ddd87b877b57c7302ad83e4549d"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a8e7e4ddd87b877b57c7302ad83e4549d">&#9670;&nbsp;</a></span>pair() <span class="overload">[1/7]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T1, typename T2&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::<a class="el" href="structetl_1_1pair.html">pair</a> </td>
-          <td>(</td>
-          <td class="paramname"></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Default constructor. Value-initializes both elements of the pair, first and second. </p>
-
-</div>
-</div>
 <a id="a394cfba9d9e22e5d6fcd001483ebdb9c"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a394cfba9d9e22e5d6fcd001483ebdb9c">&#9670;&nbsp;</a></span>pair() <span class="overload">[2/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a394cfba9d9e22e5d6fcd001483ebdb9c">&#9670;&nbsp;</a></span>pair() <span class="overload">[1/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -246,7 +210,7 @@ template&lt;typename T1, typename T2&gt; </div>
 </div>
 </div>
 <a id="aecc15790e41742baf1ce5bc994f635b6"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aecc15790e41742baf1ce5bc994f635b6">&#9670;&nbsp;</a></span>pair() <span class="overload">[3/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aecc15790e41742baf1ce5bc994f635b6">&#9670;&nbsp;</a></span>pair() <span class="overload">[2/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -288,7 +252,7 @@ template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; U
 </div>
 </div>
 <a id="a0e9f73b25bc5539dff19965439f6ee15"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a0e9f73b25bc5539dff19965439f6ee15">&#9670;&nbsp;</a></span>pair() <span class="overload">[4/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a0e9f73b25bc5539dff19965439f6ee15">&#9670;&nbsp;</a></span>pair() <span class="overload">[3/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -320,7 +284,7 @@ template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; f
 </div>
 </div>
 <a id="aa676d36b6120361d30825d84c70c16ae"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa676d36b6120361d30825d84c70c16ae">&#9670;&nbsp;</a></span>pair() <span class="overload">[5/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aa676d36b6120361d30825d84c70c16ae">&#9670;&nbsp;</a></span>pair() <span class="overload">[4/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -352,7 +316,7 @@ template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_constructible_v&lt; f
 </div>
 </div>
 <a id="a412f27ee91061e65397498f2acd7053f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a412f27ee91061e65397498f2acd7053f">&#9670;&nbsp;</a></span>pair() <span class="overload">[6/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a412f27ee91061e65397498f2acd7053f">&#9670;&nbsp;</a></span>pair() <span class="overload">[5/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -382,7 +346,7 @@ template&lt;typename T1, typename T2&gt; </div>
 </div>
 </div>
 <a id="aef097a505da5321ad5bd666070b32207"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aef097a505da5321ad5bd666070b32207">&#9670;&nbsp;</a></span>pair() <span class="overload">[7/7]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#aef097a505da5321ad5bd666070b32207">&#9670;&nbsp;</a></span>pair() <span class="overload">[6/6]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -442,7 +406,7 @@ template&lt;typename T1, typename T2&gt; </div>
 </div>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a id="a1839b0f3f9a4b85b5ca592af28aade31"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a1839b0f3f9a4b85b5ca592af28aade31">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a1839b0f3f9a4b85b5ca592af28aade31">&#9670;&nbsp;</a></span>operator=() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -458,7 +422,7 @@ template&lt;typename T1, typename T2&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
           <td> -&gt; <a class="el" href="structetl_1_1pair.html">pair</a>&amp;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -471,7 +435,7 @@ template&lt;typename T1, typename T2&gt; </div>
 </div>
 </div>
 <a id="a7500f388ad19b56b97ece87d1338298e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a7500f388ad19b56b97ece87d1338298e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/4]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a7500f388ad19b56b97ece87d1338298e">&#9670;&nbsp;</a></span>operator=() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -489,7 +453,7 @@ template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_assignable_v&lt; firs
           <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; const &amp;&#160;</td>
           <td class="paramname"><em>p</em></td><td>)</td>
           <td> -&gt; <a class="el" href="structetl_1_1pair.html">pair</a>&amp;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -501,8 +465,8 @@ template&lt;typename U1 , typename U2 , TAETL_REQUIRES_(is_assignable_v&lt; firs
 
 </div>
 </div>
-<a id="a12ba8d689ce290a4b2dfbba16692d157"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a12ba8d689ce290a4b2dfbba16692d157">&#9670;&nbsp;</a></span>operator=() <span class="overload">[3/4]</span></h2>
+<a id="a79643318459b8e5c49b870c93dda6161"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a79643318459b8e5c49b870c93dda6161">&#9670;&nbsp;</a></span>TAETL_REQUIRES() <span class="overload">[1/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -513,43 +477,11 @@ template&lt;typename T1, typename T2&gt; </div>
   <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr auto <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::operator= </td>
+          <td class="memname"><a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::TAETL_REQUIRES </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="structetl_1_1pair.html">pair</a>&amp;
-    </td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-</div>
-</div>
-<a id="aa5cfb3c9ba7aac0e0c48a69366fb25e1"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#aa5cfb3c9ba7aac0e0c48a69366fb25e1">&#9670;&nbsp;</a></span>operator=() <span class="overload">[4/4]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T1, typename T2&gt; </div>
-<div class="memtemplate">
-template&lt;typename U1 , typename U2 , TAETL_REQUIRES_( is_assignable_v&lt; first_type &amp;, U1 &gt; &amp;&amp;is_assignable_v&lt; second_type &amp;, U2 &gt;) &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr auto <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::operator= </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; U1, U2 &gt; &amp;&amp;&#160;</td>
-          <td class="paramname"><em>p</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="structetl_1_1pair.html">pair</a>&amp;
-    </td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a0093a625b8acbeac1878b9a9668a2563">is_default_constructible_v</a>&lt; T1 &gt; &amp;&amp;<a class="el" href="namespaceetl.html#a0093a625b8acbeac1878b9a9668a2563">is_default_constructible_v</a>&lt; T2 &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
   </td>
@@ -559,53 +491,31 @@ template&lt;typename U1 , typename U2 , TAETL_REQUIRES_( is_assignable_v&lt; fir
 </table>
 </div><div class="memdoc">
 
+<p>Default constructor. Value-initializes both elements of the pair, first and second. </p>
+
 </div>
 </div>
-<a id="a16cc1edf0ceb752390077b2cafe08457"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a16cc1edf0ceb752390077b2cafe08457">&#9670;&nbsp;</a></span>swap()</h2>
+<a id="af9caabee2bb8234e993b8759556ad25d"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#af9caabee2bb8234e993b8759556ad25d">&#9670;&nbsp;</a></span>TAETL_REQUIRES() <span class="overload">[2/2]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
 <div class="memtemplate">
 template&lt;typename T1, typename T2&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
       <table class="memname">
         <tr>
-          <td class="memname">constexpr void <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::swap </td>
+          <td class="memname"><a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::TAETL_REQUIRES </td>
           <td>(</td>
-          <td class="paramtype"><a class="el" href="structetl_1_1pair.html">pair</a>&lt; T1, T2 &gt; &amp;&#160;</td>
-          <td class="paramname"><em>other</em></td><td>)</td>
-          <td></td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">is_move_assignable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a28ef81180e9d7238017a3562e55c6586">first_type</a> &gt; &amp;&amp;<a class="el" href="namespaceetl.html#ad208b3b6c99d59cdc5d698310e59143e">is_move_assignable_v</a>&lt; <a class="el" href="structetl_1_1pair.html#a91886807e7a0ea54df643795464d8c9c">second_type</a> &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
         </tr>
       </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
 </div><div class="memdoc">
 
 </div>
 </div>
 <h2 class="groupheader">Member Data Documentation</h2>
-<a id="a768cd2286c58dc9f4a4aa6f1fde7caf7"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a768cd2286c58dc9f4a4aa6f1fde7caf7">&#9670;&nbsp;</a></span>first</h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T1, typename T2&gt; </div>
-      <table class="memname">
-        <tr>
-          <td class="memname">T1 <a class="el" href="structetl_1_1pair.html">etl::pair</a>&lt; T1, T2 &gt;::first</td>
-        </tr>
-      </table>
-</div><div class="memdoc">
-
-</div>
-</div>
 <a id="af651c7d1235d0edb50a26be719e61f14"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#af651c7d1235d0edb50a26be719e61f14">&#9670;&nbsp;</a></span>second</h2>
 

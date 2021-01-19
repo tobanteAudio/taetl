@@ -111,7 +111,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a9c548759303286aae73e1a385d85d444"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#a9c548759303286aae73e1a385d85d444">optional</a> (<a class="el" href="structetl_1_1in__place__t.html">etl::in_place_t</a>, Args &amp;&amp;... arguments)</td></tr>
 <tr class="memdesc:a9c548759303286aae73e1a385d85d444"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an optional object that contains a value, initialized as if direct-initializing.  <a href="#a9c548759303286aae73e1a385d85d444">More...</a><br /></td></tr>
 <tr class="separator:a9c548759303286aae73e1a385d85d444"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplParams" colspan="2">template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;                  conjunction_v&lt;is_constructible&lt;ValueType, U&amp;&amp;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </td></tr>
+<tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplParams" colspan="2">template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;conjunction_v&lt;              is_constructible&lt;ValueType, U&amp;&amp;&gt;,              negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,              negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </td></tr>
 <tr class="memitem:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1optional.html#aa69fd7c832cf51cb9ebc859226a0a2c0">optional</a> (U &amp;&amp;<a class="el" href="classetl_1_1optional.html#af2a3da191af3ac8b4e5b5c945446d2f0">value</a>)</td></tr>
 <tr class="memdesc:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="mdescLeft">&#160;</td><td class="mdescRight">Constructs an optional object that contains a value, initialized as if direct-initializing.  <a href="#aa69fd7c832cf51cb9ebc859226a0a2c0">More...</a><br /></td></tr>
 <tr class="separator:aa69fd7c832cf51cb9ebc859226a0a2c0"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -348,7 +348,7 @@ template&lt;typename... Args, TAETL_REQUIRES_((is_constructible_v&lt; value_type
 <div class="memtemplate">
 template&lt;typename ValueType&gt; </div>
 <div class="memtemplate">
-template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;                  conjunction_v&lt;is_constructible&lt;ValueType, U&amp;&amp;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,                                negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </div>
+template&lt;typename U  = value_type, typename  = typename etl::enable_if_t&lt;conjunction_v&lt;              is_constructible&lt;ValueType, U&amp;&amp;&gt;,              negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, optional&lt;ValueType&gt;&gt;&gt;,              negation&lt;is_same&lt;remove_cvref_t&lt;U&gt;, etl::in_place_t&gt;&gt;&gt;&gt;&gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -392,7 +392,7 @@ template&lt;typename... Args&gt; </div>
           <td class="paramtype">Args &amp;&amp;...&#160;</td>
           <td class="paramname"><em>args</em></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>&amp;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -451,7 +451,7 @@ template&lt;typename ValueType&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>*
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -480,7 +480,8 @@ template&lt;typename ValueType&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt; ValueType &gt;::operator-&gt; </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>* </td>
+          <td> -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>*
+  </td>
         </tr>
       </table>
   </td>
@@ -511,7 +512,7 @@ template&lt;typename ValueType&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1nullopt__t.html">etl::nullopt_t</a>&#160;</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1optional.html">optional</a>&amp;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -542,7 +543,7 @@ template&lt;typename ValueType&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1optional.html">optional</a>&lt; ValueType &gt; const &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1optional.html">optional</a>&amp;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -575,13 +576,14 @@ template&lt;typename U  = ValueType&gt; </div>
           <td class="paramtype">U &amp;&amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;
-        <a class="el" href="namespaceetl.html#af0d9f32a20bf813fd8ce025d0aebbff5">etl::conjunction_v</a>&lt;
-            <a class="el" href="structetl_1_1negation.html">etl::negation</a>&lt;<a class="el" href="structetl_1_1is__same.html">etl::is_same</a>&lt;<a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt;U&gt;, <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt;ValueType&gt;&gt;&gt;,
-            <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a>&lt;ValueType, U&gt;, <a class="el" href="structetl_1_1is__assignable.html">etl::is_assignable</a>&lt;ValueType&amp;, U&gt;&gt;,
-        
-        
-        <a class="el" href="classetl_1_1optional.html">optional</a>&amp;&gt;
-    </td>
+    <a class="el" href="namespaceetl.html#af0d9f32a20bf813fd8ce025d0aebbff5">etl::conjunction_v</a>&lt;
+      <a class="el" href="structetl_1_1negation.html">etl::negation</a>&lt;
+        <a class="el" href="structetl_1_1is__same.html">etl::is_same</a>&lt;<a class="el" href="namespaceetl.html#ad85fb8c9d4542d450aa421f420184ca1">etl::remove_cvref_t</a>&lt;U&gt;, <a class="el" href="classetl_1_1optional.html">etl::optional</a>&lt;ValueType&gt;&gt;&gt;,
+      <a class="el" href="namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c">etl::is_constructible</a>&lt;ValueType, U&gt;, <a class="el" href="structetl_1_1is__assignable.html">etl::is_assignable</a>&lt;ValueType&amp;, U&gt;&gt;,
+    
+    
+    <a class="el" href="classetl_1_1optional.html">optional</a>&amp;&gt;
+  </td>
         </tr>
       </table>
   </td>
@@ -613,7 +615,7 @@ template&lt;typename ValueType&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1optional.html">optional</a>&lt; ValueType &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> -&gt; void
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -643,7 +645,7 @@ template&lt;typename ValueType&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>*
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -673,7 +675,7 @@ template&lt;typename ValueType&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; const <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>*
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -706,7 +708,7 @@ template&lt;typename U &gt; </div>
           <td class="paramtype">U &amp;&amp;&#160;</td>
           <td class="paramname"><em>default_value</em></td><td>)</td>
           <td> const &amp; -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -739,7 +741,7 @@ template&lt;typename U &gt; </div>
           <td class="paramtype">U &amp;&amp;&#160;</td>
           <td class="paramname"><em>default_value</em></td><td>)</td>
           <td> &amp;&amp; -&gt; <a class="el" href="classetl_1_1optional.html#ab96e5c12c75912e0c10bb94022588f0f">value_type</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>

@@ -198,7 +198,7 @@ struct etl::array&lt; Type, Size &gt;</h3>
 
 <p><a class="el" href="structetl_1_1array.html" title="etl::array is a container that encapsulates fixed size arrays. ">etl::array</a> is a container that encapsulates fixed size arrays. </p>
 <p>This container is an aggregate type with the same semantics as a struct holding a C-style array Type[N] as its only non-static data member. Unlike a C-style array, it doesn't decay to Type* automatically. As an aggregate type, it can be initialized with aggregate-initialization given at most N initializers that are convertible to Type: <a class="el" href="namespaceetl.html#ae5a13233ebf471c62f35f40b21128884" title="Deduction guide. ">etl::array&lt;int, 3&gt;</a> a = {1,2,3};.</p>
-<div class="fragment"><div class="line"><span class="comment">/*</span></div><div class="line"><span class="comment">Copyright (c) 2019-2020, Tobias Hienzsch</span></div><div class="line"><span class="comment">All rights reserved.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">Redistribution and use in source and binary forms, with or without</span></div><div class="line"><span class="comment">modification, are permitted provided that the following conditions are met:</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment"> * Redistributions of source code must retain the above copyright notice,</span></div><div class="line"><span class="comment">   this list of conditions and the following disclaimer.</span></div><div class="line"><span class="comment"> * Redistributions in binary form must reproduce the above copyright</span></div><div class="line"><span class="comment">   notice, this list of conditions and the following disclaimer in the</span></div><div class="line"><span class="comment">   documentation and/or other materials provided with the distribution.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS&#39;&#39; AND ANY</span></div><div class="line"><span class="comment">EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED</span></div><div class="line"><span class="comment">WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE</span></div><div class="line"><span class="comment">DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY</span></div><div class="line"><span class="comment">DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES</span></div><div class="line"><span class="comment">(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR</span></div><div class="line"><span class="comment">SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER</span></div><div class="line"><span class="comment">CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT</span></div><div class="line"><span class="comment">LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY</span></div><div class="line"><span class="comment">OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH</span></div><div class="line"><span class="comment">DAMAGE.</span></div><div class="line"><span class="comment">*/</span></div><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="algorithm_8hpp.html">etl/algorithm.hpp</a>&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="array_8hpp.html">etl/array.hpp</a>&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="cassert_8hpp.html">etl/cassert.hpp</a>&quot;</span></div><div class="line"></div><div class="line"><span class="keyword">auto</span> main() -&gt; <span class="keywordtype">int</span></div><div class="line">{</div><div class="line">    <span class="keyword">auto</span> src = <a class="code" href="structetl_1_1array.html">etl::array</a> {1, 2, 3, 4};  <span class="comment">// size &amp; type are deduced</span></div><div class="line">    <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; item : src) { printf(<span class="stringliteral">&quot;%d\n&quot;</span>, item); }</div><div class="line"></div><div class="line">    src.fill(42);</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="namespaceetl.html#a88b77a574e3e855966765f90b89bd753">etl::all_of</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(src), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(src), [](<span class="keyword">auto</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a>) { <span class="keywordflow">return</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a> == 42; }));</div><div class="line"></div><div class="line">    decltype(src) dest = {};</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="namespaceetl.html#a88b77a574e3e855966765f90b89bd753">etl::all_of</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(dest), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(dest), [](<span class="keyword">auto</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a>) { <span class="keywordflow">return</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a> == 0; }));</div><div class="line"></div><div class="line">    <a class="code" href="namespaceetl.html#a6a6c95d500822d453650e96620caee5d">etl::copy</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(src), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(src), <a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(dest));</div><div class="line">    <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="namespaceetl.html#a88b77a574e3e855966765f90b89bd753">etl::all_of</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(dest), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(dest), [](<span class="keyword">auto</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a>) { <span class="keywordflow">return</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a> == 42; }));</div><div class="line"></div><div class="line">    <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --> <dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#_a0">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#_a8">set.cpp</a>.</dd>
+<div class="fragment"><div class="line"><span class="comment">/*</span></div><div class="line"><span class="comment">Copyright (c) 2019-2020, Tobias Hienzsch</span></div><div class="line"><span class="comment">All rights reserved.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">Redistribution and use in source and binary forms, with or without</span></div><div class="line"><span class="comment">modification, are permitted provided that the following conditions are met:</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment"> * Redistributions of source code must retain the above copyright notice,</span></div><div class="line"><span class="comment">   this list of conditions and the following disclaimer.</span></div><div class="line"><span class="comment"> * Redistributions in binary form must reproduce the above copyright</span></div><div class="line"><span class="comment">   notice, this list of conditions and the following disclaimer in the</span></div><div class="line"><span class="comment">   documentation and/or other materials provided with the distribution.</span></div><div class="line"><span class="comment"></span></div><div class="line"><span class="comment">THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS&#39;&#39; AND ANY</span></div><div class="line"><span class="comment">EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE IMPLIED</span></div><div class="line"><span class="comment">WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE</span></div><div class="line"><span class="comment">DISCLAIMED. IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE FOR ANY</span></div><div class="line"><span class="comment">DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES</span></div><div class="line"><span class="comment">(INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR</span></div><div class="line"><span class="comment">SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER</span></div><div class="line"><span class="comment">CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT</span></div><div class="line"><span class="comment">LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY</span></div><div class="line"><span class="comment">OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH</span></div><div class="line"><span class="comment">DAMAGE.</span></div><div class="line"><span class="comment">*/</span></div><div class="line"><span class="preprocessor">#include &lt;stdio.h&gt;</span></div><div class="line"><span class="preprocessor">#include &lt;stdlib.h&gt;</span></div><div class="line"></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="algorithm_8hpp.html">etl/algorithm.hpp</a>&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="array_8hpp.html">etl/array.hpp</a>&quot;</span></div><div class="line"><span class="preprocessor">#include &quot;<a class="code" href="cassert_8hpp.html">etl/cassert.hpp</a>&quot;</span></div><div class="line"></div><div class="line"><span class="keyword">auto</span> main() -&gt; <span class="keywordtype">int</span></div><div class="line">{</div><div class="line">  <span class="keyword">auto</span> src = <a class="code" href="structetl_1_1array.html">etl::array</a> {1, 2, 3, 4};  <span class="comment">// size &amp; type are deduced</span></div><div class="line">  <span class="keywordflow">for</span> (<span class="keyword">auto</span>&amp; item : src) { printf(<span class="stringliteral">&quot;%d\n&quot;</span>, item); }</div><div class="line"></div><div class="line">  src.fill(42);</div><div class="line">  <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(<a class="code" href="namespaceetl.html#a88b77a574e3e855966765f90b89bd753">etl::all_of</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(src), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(src), [](<span class="keyword">auto</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a>) { <span class="keywordflow">return</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a> == 42; }));</div><div class="line"></div><div class="line">  decltype(src) dest = {};</div><div class="line">  <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(</div><div class="line">    <a class="code" href="namespaceetl.html#a88b77a574e3e855966765f90b89bd753">etl::all_of</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(dest), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(dest), [](<span class="keyword">auto</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a>) { <span class="keywordflow">return</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a> == 0; }));</div><div class="line"></div><div class="line">  <a class="code" href="namespaceetl.html#a6a6c95d500822d453650e96620caee5d">etl::copy</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(src), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(src), <a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(dest));</div><div class="line">  <a class="code" href="cassert_8hpp.html#af576bf8ffa22a44e53018c67095ffbf0">assert</a>(</div><div class="line">    <a class="code" href="namespaceetl.html#a88b77a574e3e855966765f90b89bd753">etl::all_of</a>(<a class="code" href="structetl_1_1array.html#abcd9cd341955f0d786cad1628c240b3e">begin</a>(dest), <a class="code" href="structetl_1_1array.html#af4c930d86af593fa6e738c306e938d8f">end</a>(dest), [](<span class="keyword">auto</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a>) { <span class="keywordflow">return</span> <a class="code" href="namespaceetl_1_1hardware_1_1stm32.html#ace4beda7c5c027a4b833c9d51589b27e">val</a> == 42; }));</div><div class="line"></div><div class="line">  <span class="keywordflow">return</span> EXIT_SUCCESS;</div><div class="line">}</div></div><!-- fragment --> <dl><dt><b>Examples: </b></dt><dd><a class="el" href="array_8cpp-example.html#_a0">array.cpp</a>, and <a class="el" href="set_8cpp-example.html#_a8">set.cpp</a>.</dd>
 </dl></div><h2 class="groupheader">Member Typedef Documentation</h2>
 <a id="aaea609f5e21b1e5d323c9ff1756b49f6"></a>
 <h2 class="memtitle"><span class="permalink"><a href="#aaea609f5e21b1e5d323c9ff1756b49f6">&#9670;&nbsp;</a></span>const_iterator</h2>
@@ -394,7 +394,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td> -&gt; <a class="el" href="structetl_1_1array.html#a00032e42be228b44773af3bf6059b97d">reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -425,7 +425,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a6318f0c468b354a6b82181a63934a435">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -454,7 +454,8 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::back </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="structetl_1_1array.html#a00032e42be228b44773af3bf6059b97d">reference</a> </td>
+          <td> -&gt; <a class="el" href="structetl_1_1array.html#a00032e42be228b44773af3bf6059b97d">reference</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -484,7 +485,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a6318f0c468b354a6b82181a63934a435">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -513,7 +514,8 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::begin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="structetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33">iterator</a> </td>
+          <td> -&gt; <a class="el" href="structetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33">iterator</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -543,7 +545,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#aaea609f5e21b1e5d323c9ff1756b49f6">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -573,7 +575,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#aaea609f5e21b1e5d323c9ff1756b49f6">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -603,7 +605,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#aaea609f5e21b1e5d323c9ff1756b49f6">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -633,7 +635,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a3bbf0f09574b002d051f277051e327a3">const_reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -663,7 +665,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a3bbf0f09574b002d051f277051e327a3">const_reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -722,7 +724,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#ab720cbdc88a41d8237c2e01596fdbd02">const_pointer</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -752,7 +754,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; bool
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -781,7 +783,8 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="structetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33">iterator</a> </td>
+          <td> -&gt; <a class="el" href="structetl_1_1array.html#ae8b7a3cd793b2baa7dfc365d2df75a33">iterator</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -811,7 +814,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#aaea609f5e21b1e5d323c9ff1756b49f6">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -842,7 +845,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1array.html#a6318f0c468b354a6b82181a63934a435">const_reference</a>&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> -&gt; void
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -871,7 +874,8 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::front </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="structetl_1_1array.html#a00032e42be228b44773af3bf6059b97d">reference</a> </td>
+          <td> -&gt; <a class="el" href="structetl_1_1array.html#a00032e42be228b44773af3bf6059b97d">reference</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -901,7 +905,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a6318f0c468b354a6b82181a63934a435">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -930,7 +934,8 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::max_size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; <a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> </td>
+          <td> const -&gt; <a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -962,7 +967,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td> -&gt; <a class="el" href="structetl_1_1array.html#a00032e42be228b44773af3bf6059b97d">reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -993,7 +998,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> const&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a6318f0c468b354a6b82181a63934a435">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1023,7 +1028,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="structetl_1_1array.html#a665a946005473c899e5d11dfc9689d15">reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1053,7 +1058,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a3bbf0f09574b002d051f277051e327a3">const_reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1083,7 +1088,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="structetl_1_1array.html#a665a946005473c899e5d11dfc9689d15">reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1113,7 +1118,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="structetl_1_1array.html#a3bbf0f09574b002d051f277051e327a3">const_reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1142,7 +1147,8 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="structetl_1_1array.html">etl::array</a>&lt; Type, Size &gt;::size </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; <a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a> </td>
+          <td> const -&gt; <a class="el" href="structetl_1_1array.html#a14b141217f2df0e46e7fb96b260739f5">size_type</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -1173,7 +1179,7 @@ template&lt;typename Type, etl::size_t Size&gt; </div>
           <td class="paramtype"><a class="el" href="structetl_1_1array.html">array</a>&lt; Type, Size &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> -&gt; void
-    </td>
+  </td>
         </tr>
       </table>
   </td>

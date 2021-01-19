@@ -142,9 +142,9 @@ Public Member Functions</h2></td></tr>
 <tr class="separator:a0927afec4d09137294bb2fcb6c0d8105"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ab278948a0796cd3c32040a4c58a2768c"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab278948a0796cd3c32040a4c58a2768c">cend</a> () const noexcept -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a></td></tr>
 <tr class="separator:ab278948a0796cd3c32040a4c58a2768c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab11f5fe147a76ab4037c98e6b110a70f"><td class="memTemplParams" colspan="2">template&lt;typename U , TAETL_REQUIRES_(is_constructible_v&lt; T, U &gt; &amp;&amp;is_assignable_v&lt; reference, U &amp;&amp; &gt;) &gt; </td></tr>
+<tr class="memitem:ab11f5fe147a76ab4037c98e6b110a70f"><td class="memTemplParams" colspan="2">template&lt;typename U , TAETL_REQUIRES_(is_constructible_v&lt; T, U &gt; &amp;&amp; is_assignable_v&lt; reference, U &amp;&amp; &gt;) &gt; </td></tr>
 <tr class="memitem:ab11f5fe147a76ab4037c98e6b110a70f"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab11f5fe147a76ab4037c98e6b110a70f">push_back</a> (U &amp;&amp;value) noexcept(false) -&gt; void</td></tr>
-<tr class="memdesc:ab11f5fe147a76ab4037c98e6b110a70f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends <code>value</code> at the end of the vector.  <a href="#ab11f5fe147a76ab4037c98e6b110a70f">More...</a><br /></td></tr>
+<tr class="memdesc:ab11f5fe147a76ab4037c98e6b110a70f"><td class="mdescLeft">&#160;</td><td class="mdescRight">Appends value at the end of the vector.  <a href="#ab11f5fe147a76ab4037c98e6b110a70f">More...</a><br /></td></tr>
 <tr class="separator:ab11f5fe147a76ab4037c98e6b110a70f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba9bbf993c47fa6ba1c1a3b1eb017e10"><td class="memTemplParams" colspan="2">template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt &gt;) &gt; </td></tr>
 <tr class="memitem:aba9bbf993c47fa6ba1c1a3b1eb017e10"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a> (<a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> position, InputIt first, InputIt last) noexcept(noexcept(emplace_back(<a class="el" href="namespaceetl.html#ad0a5b274f170d18a9e175fddf538a4bc">etl::move</a>(*first)))) -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a></td></tr>
@@ -179,11 +179,11 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:a5df81d02c863208af157da8385a98582"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a5df81d02c863208af157da8385a98582">operator=</a> (<a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&amp;other) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a>()) and noexcept(<a class="el" href="classetl_1_1static__vector.html#aba9bbf993c47fa6ba1c1a3b1eb017e10">move_insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), other.begin(), other.end()))) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a> &gt;, <a class="el" href="classetl_1_1static__vector.html">static_vector</a> &amp;&gt;</td></tr>
 <tr class="memdesc:a5df81d02c863208af157da8385a98582"><td class="mdescLeft">&#160;</td><td class="mdescRight">Move assignment.  <a href="#a5df81d02c863208af157da8385a98582">More...</a><br /></td></tr>
 <tr class="separator:a5df81d02c863208af157da8385a98582"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab6c627ed23fabc58cd482e6f895f5129"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ab6c627ed23fabc58cd482e6f895f5129">static_vector</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n) noexcept(noexcept(emplace_n(n)))</td></tr>
-<tr class="memdesc:ab6c627ed23fabc58cd482e6f895f5129"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes vector with <code>n</code> default-constructed elements.  <a href="#ab6c627ed23fabc58cd482e6f895f5129">More...</a><br /></td></tr>
-<tr class="separator:ab6c627ed23fabc58cd482e6f895f5129"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a303f30eae58f5ee58fdad24f28da4b2b"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a303f30eae58f5ee58fdad24f28da4b2b">TAETL_REQUIRES</a> (<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;||<a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a>&lt; T &gt;) explicit const expr <a class="el" href="classetl_1_1static__vector.html">static_vector</a>(<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n) noexcept(noexcept(emplace_n(n)))</td></tr>
+<tr class="memdesc:a303f30eae58f5ee58fdad24f28da4b2b"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes vector with n default-constructed elements.  <a href="#a303f30eae58f5ee58fdad24f28da4b2b">More...</a><br /></td></tr>
+<tr class="separator:a303f30eae58f5ee58fdad24f28da4b2b"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ac2e8d0aead5a1f82a28ce4ee9f22bb48"><td class="memItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ac2e8d0aead5a1f82a28ce4ee9f22bb48">static_vector</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n, T const &amp;value) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), n, value)))</td></tr>
-<tr class="memdesc:ac2e8d0aead5a1f82a28ce4ee9f22bb48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes vector with <code>n</code> with <code>value</code>.  <a href="#ac2e8d0aead5a1f82a28ce4ee9f22bb48">More...</a><br /></td></tr>
+<tr class="memdesc:ac2e8d0aead5a1f82a28ce4ee9f22bb48"><td class="mdescLeft">&#160;</td><td class="mdescRight">Initializes vector with n with value.  <a href="#ac2e8d0aead5a1f82a28ce4ee9f22bb48">More...</a><br /></td></tr>
 <tr class="separator:ac2e8d0aead5a1f82a28ce4ee9f22bb48"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ada9663af737560a17994ba0379ab1d5a"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </td></tr>
 <tr class="memitem:ada9663af737560a17994ba0379ab1d5a"><td class="memTemplItemLeft" align="right" valign="top">constexpr&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ada9663af737560a17994ba0379ab1d5a">static_vector</a> (InputIter first, InputIter last)</td></tr>
@@ -199,7 +199,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:a1dc39b45108e970e2969b09fbce74a28"><td class="mdescLeft">&#160;</td><td class="mdescRight">Maximum number of elements that can be allocated in the vector.  <a href="#a1dc39b45108e970e2969b09fbce74a28">More...</a><br /></td></tr>
 <tr class="separator:a1dc39b45108e970e2969b09fbce74a28"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a777ccb39a57935d605eeb3df6ccedb57"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a777ccb39a57935d605eeb3df6ccedb57">resize</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> sz) noexcept((<a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a>&lt; T &gt; &amp;&amp;<a class="el" href="namespaceetl.html#ac00f5b3ced7a1f4ebd3e7b1119a4c12a">etl::is_nothrow_move_constructible_v</a>&lt; T &gt;)||(<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt; &amp;&amp;<a class="el" href="namespaceetl.html#ab05ca75073ae3731fef7c09200d9f693">etl::is_nothrow_copy_constructible_v</a>&lt; T &gt;)) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; detail::is_movable_v&lt; <a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a> &gt;, void &gt;</td></tr>
-<tr class="memdesc:a777ccb39a57935d605eeb3df6ccedb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the container to contain <code>sz</code> elements. If elements need to be appended, these are move-constructed from <code>T{}</code> (or copy-constructed if <code>T</code> is not <code><a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a></code>).  <a href="#a777ccb39a57935d605eeb3df6ccedb57">More...</a><br /></td></tr>
+<tr class="memdesc:a777ccb39a57935d605eeb3df6ccedb57"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the container to contain sz elements. If elements need to be appended, these are move-constructed from <code>T{}</code> (or copy-constructed if <code>T</code> is not <code><a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a></code>).  <a href="#a777ccb39a57935d605eeb3df6ccedb57">More...</a><br /></td></tr>
 <tr class="separator:a777ccb39a57935d605eeb3df6ccedb57"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a06b6f2a68942d0ef4fde6e036a640b5e"><td class="memTemplParams" colspan="2">template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; InputIter &gt;) &gt; </td></tr>
 <tr class="memitem:a06b6f2a68942d0ef4fde6e036a640b5e"><td class="memTemplItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a06b6f2a68942d0ef4fde6e036a640b5e">assign</a> (InputIter first, InputIter last) noexcept(noexcept(<a class="el" href="classetl_1_1static__vector.html#aff326077d7163ef38b5f3ed7877dcfa1">clear</a>()) and noexcept(<a class="el" href="classetl_1_1static__vector.html#ad2845c4fed2c1a5247ddb9fb619cabf8">insert</a>(<a class="el" href="classetl_1_1static__vector.html#a9a3d33d04701a490e1c56d6b69f9ea4c">begin</a>(), first, last))) -&gt; void</td></tr>
@@ -207,10 +207,10 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:ad4e047052b12e3081448e0c8a3193858"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#ad4e047052b12e3081448e0c8a3193858">assign</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> n, T const &amp;u) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;, void &gt;</td></tr>
 <tr class="separator:ad4e047052b12e3081448e0c8a3193858"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aba4e91fc177bdb050127566d0f20d929"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#aba4e91fc177bdb050127566d0f20d929">operator[]</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> pos) noexcept -&gt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a></td></tr>
-<tr class="memdesc:aba4e91fc177bdb050127566d0f20d929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unchecked access to element at index <code>pos</code> (UB if index not in range)  <a href="#aba4e91fc177bdb050127566d0f20d929">More...</a><br /></td></tr>
+<tr class="memdesc:aba4e91fc177bdb050127566d0f20d929"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unchecked access to element at index pos (UB if index not in range)  <a href="#aba4e91fc177bdb050127566d0f20d929">More...</a><br /></td></tr>
 <tr class="separator:aba4e91fc177bdb050127566d0f20d929"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0f19592799029a060bf7c6fd6c0dc7a8"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a0f19592799029a060bf7c6fd6c0dc7a8">operator[]</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> pos) const noexcept -&gt; <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a></td></tr>
-<tr class="memdesc:a0f19592799029a060bf7c6fd6c0dc7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unchecked access to element at index <code>pos</code> (UB if index not in range)  <a href="#a0f19592799029a060bf7c6fd6c0dc7a8">More...</a><br /></td></tr>
+<tr class="memdesc:a0f19592799029a060bf7c6fd6c0dc7a8"><td class="mdescLeft">&#160;</td><td class="mdescRight">Unchecked access to element at index pos (UB if index not in range)  <a href="#a0f19592799029a060bf7c6fd6c0dc7a8">More...</a><br /></td></tr>
 <tr class="separator:a0f19592799029a060bf7c6fd6c0dc7a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a3929fc2e231e309415500d31c4dd3def"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a3929fc2e231e309415500d31c4dd3def">front</a> () noexcept -&gt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a></td></tr>
 <tr class="separator:a3929fc2e231e309415500d31c4dd3def"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -228,7 +228,7 @@ Public Member Functions</h2></td></tr>
 <tr class="memdesc:ab10e744b6eff26d5511aae233d683c49"><td class="mdescLeft">&#160;</td><td class="mdescRight">Exchanges the contents of the container with those of other.  <a href="#ab10e744b6eff26d5511aae233d683c49">More...</a><br /></td></tr>
 <tr class="separator:ab10e744b6eff26d5511aae233d683c49"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a01cf11984ad97e005109259d0e3f2736"><td class="memItemLeft" align="right" valign="top">constexpr auto&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classetl_1_1static__vector.html#a01cf11984ad97e005109259d0e3f2736">resize</a> (<a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> sz, T const &amp;value) noexcept(<a class="el" href="namespaceetl.html#ab05ca75073ae3731fef7c09200d9f693">etl::is_nothrow_copy_constructible_v</a>&lt; T &gt;) -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt; <a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;, void &gt;</td></tr>
-<tr class="memdesc:a01cf11984ad97e005109259d0e3f2736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the container to contain <code>sz</code> elements. If elements need to be appended, these are copy-constructed from <code>value</code>.  <a href="#a01cf11984ad97e005109259d0e3f2736">More...</a><br /></td></tr>
+<tr class="memdesc:a01cf11984ad97e005109259d0e3f2736"><td class="mdescLeft">&#160;</td><td class="mdescRight">Resizes the container to contain sz elements. If elements need to be appended, these are copy-constructed from value.  <a href="#a01cf11984ad97e005109259d0e3f2736">More...</a><br /></td></tr>
 <tr class="separator:a01cf11984ad97e005109259d0e3f2736"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <a name="details" id="details"></a><h2 class="groupheader">Detailed Description</h2>
@@ -416,7 +416,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div>
 <h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
 <a id="a03b442e867505b26b3e481ed0c93672e"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a03b442e867505b26b3e481ed0c93672e">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[1/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a03b442e867505b26b3e481ed0c93672e">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[1/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -445,7 +445,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div>
 </div>
 <a id="a63325e80fd0e28f39e1b0f61f91c289f"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#a63325e80fd0e28f39e1b0f61f91c289f">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[2/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#a63325e80fd0e28f39e1b0f61f91c289f">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[2/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -475,7 +475,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div>
 </div>
 <a id="ab8aa29a56af3138df3057f9c394d4263"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab8aa29a56af3138df3057f9c394d4263">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[3/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ab8aa29a56af3138df3057f9c394d4263">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[3/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -504,38 +504,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
 
 </div>
 </div>
-<a id="ab6c627ed23fabc58cd482e6f895f5129"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ab6c627ed23fabc58cd482e6f895f5129">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[4/6]</span></h2>
-
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T, size_t Capacity&gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">constexpr <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::<a class="el" href="classetl_1_1static__vector.html">static_vector</a> </td>
-          <td>(</td>
-          <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>&#160;</td>
-          <td class="paramname"><em>n</em></td><td>)</td>
-          <td></td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">explicit</span><span class="mlabel">noexcept</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-
-<p>Initializes vector with <code>n</code> default-constructed elements. </p>
-
-</div>
-</div>
 <a id="ac2e8d0aead5a1f82a28ce4ee9f22bb48"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ac2e8d0aead5a1f82a28ce4ee9f22bb48">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[5/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ac2e8d0aead5a1f82a28ce4ee9f22bb48">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[4/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -570,12 +540,12 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Initializes vector with <code>n</code> with <code>value</code>. </p>
+<p>Initializes vector with n with value. </p>
 
 </div>
 </div>
 <a id="ada9663af737560a17994ba0379ab1d5a"></a>
-<h2 class="memtitle"><span class="permalink"><a href="#ada9663af737560a17994ba0379ab1d5a">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[6/6]</span></h2>
+<h2 class="memtitle"><span class="permalink"><a href="#ada9663af737560a17994ba0379ab1d5a">&#9670;&nbsp;</a></span>static_vector() <span class="overload">[5/5]</span></h2>
 
 <div class="memitem">
 <div class="memproto">
@@ -646,7 +616,7 @@ template&lt;typename InputIter , TAETL_REQUIRES_(detail::InputIterator&lt; Input
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; void
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -685,7 +655,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt;T&gt;, void&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -713,7 +683,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -741,7 +711,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -796,7 +766,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -823,7 +793,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::capacity </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a> </td>
+          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -852,7 +823,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::cbegin </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> </td>
+          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -880,7 +852,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -907,7 +879,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::cend </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> </td>
+          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -934,7 +907,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::cend </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a> </td>
+          <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -1004,7 +978,7 @@ template&lt;typename... Args, TAETL_REQUIRES_(is_constructible_v&lt; T, Args... 
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1031,7 +1005,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="memname">constexpr auto <a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::end </td>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
-          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a> </td>
+          <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>
+  </td>
         </tr>
       </table>
   </td>
@@ -1059,7 +1034,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1088,7 +1063,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#a7cf8c7614ee72c7bd661e011a0d20c4c">const_iterator</a>&#160;</td>
           <td class="paramname"><em>position</em></td><td>)</td>
           <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;detail::is_movable_v&lt;<a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a>&gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1127,7 +1102,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;detail::is_movable_v&lt;<a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a>&gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1155,7 +1130,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1183,7 +1158,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1222,7 +1197,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a>&lt;T&gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1267,7 +1242,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt;T&gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1306,7 +1281,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt;T&gt;, <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1353,7 +1328,7 @@ template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1429,7 +1404,7 @@ template&lt;typename InputIt , TAETL_REQUIRES_(detail::InputIterator&lt; InputIt
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="classetl_1_1static__vector.html#acd18e5cf99c0a55c5f92937ad9ce5b8d">iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1458,8 +1433,8 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; const &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt;<a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a>&gt;,
-                            <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&amp;&gt;
-    </td>
+                        <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&amp;&gt;
+  </td>
         </tr>
       </table>
   </td>
@@ -1489,8 +1464,9 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;&amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
-          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt;<a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>&gt;, <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&amp;&gt;
-    </td>
+          <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt;<a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>, <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>&gt;,
+                        <a class="el" href="classetl_1_1static__vector.html">static_vector</a>&amp;&gt;
+  </td>
         </tr>
       </table>
   </td>
@@ -1521,7 +1497,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#ac4d647a6d8aa024586494acf79f45536">reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1531,7 +1507,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Unchecked access to element at index <code>pos</code> (UB if index not in range) </p>
+<p>Unchecked access to element at index pos (UB if index not in range) </p>
 
 </div>
 </div>
@@ -1552,7 +1528,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>&#160;</td>
           <td class="paramname"><em>pos</em></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#a9b25f0befb6b0e764d718f10bbe619cd">const_reference</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1562,7 +1538,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Unchecked access to element at index <code>pos</code> (UB if index not in range) </p>
+<p>Unchecked access to element at index pos (UB if index not in range) </p>
 
 </div>
 </div>
@@ -1574,7 +1550,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 <div class="memtemplate">
 template&lt;typename T, size_t Capacity&gt; </div>
 <div class="memtemplate">
-template&lt;typename U , TAETL_REQUIRES_(is_constructible_v&lt; T, U &gt; &amp;&amp;is_assignable_v&lt; reference, U &amp;&amp; &gt;) &gt; </div>
+template&lt;typename U , TAETL_REQUIRES_(is_constructible_v&lt; T, U &gt; &amp;&amp; is_assignable_v&lt; reference, U &amp;&amp; &gt;) &gt; </div>
 <table class="mlabels">
   <tr>
   <td class="mlabels-left">
@@ -1585,7 +1561,7 @@ template&lt;typename U , TAETL_REQUIRES_(is_constructible_v&lt; T, U &gt; &amp;&
           <td class="paramtype">U &amp;&amp;&#160;</td>
           <td class="paramname"><em>value</em></td><td>)</td>
           <td> -&gt; void
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1595,7 +1571,7 @@ template&lt;typename U , TAETL_REQUIRES_(is_constructible_v&lt; T, U &gt; &amp;&
 </table>
 </div><div class="memdoc">
 
-<p>Appends <code>value</code> at the end of the vector. </p>
+<p>Appends value at the end of the vector. </p>
 <dl class="todo"><dt><b><a class="el" href="todo.html#_todo000029">Todo:</a></b></dt><dd>Add noexcept(noexcept(emplace_back(etl::forward&lt;U&gt;(value)))) breaks AVR build GCC8.2 currently. </dd></dl>
 
 </div>
@@ -1616,7 +1592,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#a19541f8333d30992b1c375cad7052547">reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1644,7 +1620,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#aeb8b667de477afadae4a03786c7f90ec">const_reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1672,7 +1648,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> -&gt; <a class="el" href="classetl_1_1static__vector.html#a19541f8333d30992b1c375cad7052547">reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1700,7 +1676,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#aeb8b667de477afadae4a03786c7f90ec">const_reverse_iterator</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1729,7 +1705,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>&#160;</td>
           <td class="paramname"><em>sz</em></td><td>)</td>
           <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;detail::is_movable_v&lt;<a class="el" href="classetl_1_1static__vector.html#add2b76e9faf0a39c1c4916446a1c0b66">value_type</a>&gt;, void&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1739,7 +1715,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Resizes the container to contain <code>sz</code> elements. If elements need to be appended, these are move-constructed from <code>T{}</code> (or copy-constructed if <code>T</code> is not <code><a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a></code>). </p>
+<p>Resizes the container to contain sz elements. If elements need to be appended, these are move-constructed from <code>T{}</code> (or copy-constructed if <code>T</code> is not <code><a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a></code>). </p>
 
 </div>
 </div>
@@ -1770,7 +1746,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td></td>
           <td>)</td>
           <td></td><td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt;T&gt;, void&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1780,7 +1756,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </table>
 </div><div class="memdoc">
 
-<p>Resizes the container to contain <code>sz</code> elements. If elements need to be appended, these are copy-constructed from <code>value</code>. </p>
+<p>Resizes the container to contain sz elements. If elements need to be appended, these are copy-constructed from value. </p>
 
 </div>
 </div>
@@ -1800,7 +1776,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td>(</td>
           <td class="paramname"></td><td>)</td>
           <td> const -&gt; <a class="el" href="classetl_1_1static__vector.html#ad64c9a5c3740b5e9fcf712072bd683b6">size_type</a>
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1831,7 +1807,7 @@ template&lt;typename T, size_t Capacity&gt; </div>
           <td class="paramtype"><a class="el" href="classetl_1_1static__vector.html">static_vector</a>&lt; T, Capacity &gt; &amp;&#160;</td>
           <td class="paramname"><em>other</em></td><td>)</td>
           <td> -&gt; <a class="el" href="namespaceetl.html#a2a2df4ab89284c8c5866afea3100f290">etl::enable_if_t</a>&lt;<a class="el" href="namespaceetl.html#ae630f4cbcf30c3c7912d50547711e86d">etl::is_assignable_v</a>&lt;T&amp;, T&amp;&amp;&gt;, void&gt;
-    </td>
+  </td>
         </tr>
       </table>
   </td>
@@ -1842,6 +1818,36 @@ template&lt;typename T, size_t Capacity&gt; </div>
 </div><div class="memdoc">
 
 <p>Exchanges the contents of the container with those of other. </p>
+
+</div>
+</div>
+<a id="a303f30eae58f5ee58fdad24f28da4b2b"></a>
+<h2 class="memtitle"><span class="permalink"><a href="#a303f30eae58f5ee58fdad24f28da4b2b">&#9670;&nbsp;</a></span>TAETL_REQUIRES()</h2>
+
+<div class="memitem">
+<div class="memproto">
+<div class="memtemplate">
+template&lt;typename T, size_t Capacity&gt; </div>
+<table class="mlabels">
+  <tr>
+  <td class="mlabels-left">
+      <table class="memname">
+        <tr>
+          <td class="memname"><a class="el" href="classetl_1_1static__vector.html">etl::static_vector</a>&lt; T, Capacity &gt;::TAETL_REQUIRES </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="namespaceetl.html#a045ef39158833b2ba6592fa8a1d0ebc1">etl::is_copy_constructible_v</a>&lt; T &gt;||<a class="el" href="namespaceetl.html#a82b776d5da5e25514489bfd330d7940d">etl::is_move_constructible_v</a>&lt; T &gt;&#160;</td>
+          <td class="paramname"></td><td>)</td>
+          <td> const</td>
+        </tr>
+      </table>
+  </td>
+  <td class="mlabels-right">
+<span class="mlabels"><span class="mlabel">inline</span><span class="mlabel">noexcept</span></span>  </td>
+  </tr>
+</table>
+</div><div class="memdoc">
+
+<p>Initializes vector with n default-constructed elements. </p>
 
 </div>
 </div>
