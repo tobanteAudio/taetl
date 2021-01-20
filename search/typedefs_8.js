@@ -4,7 +4,7 @@ var searchData=
   ['int32_5ft',['int32_t',['../namespaceetl.html#a65deeea5c92e0b2983c2b4b2d25ae41b',1,'etl']]],
   ['int64_5ft',['int64_t',['../namespaceetl.html#ad61de91810005a6ceb93748b6a36f4cf',1,'etl']]],
   ['int8_5ft',['int8_t',['../namespaceetl.html#a070223437c24b2a7e4ea682682d075ee',1,'etl']]],
-  ['int_5ftype',['int_type',['../structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9',1,'etl::char_traits&lt; char &gt;']]],
+  ['int_5ftype',['int_type',['../structetl_1_1char__traits_3_01char_01_4.html#a96632c8decf0199053db5e32953ffbc9',1,'etl::char_traits&lt; char &gt;::int_type()'],['../classetl_1_1ptr__with__int.html#a35112bb583e0a7fb208de9d2b79cd555',1,'etl::ptr_with_int::int_type()']]],
   ['intmax_5ft',['intmax_t',['../namespaceetl.html#a277910f7d02b0cc6bd6762d2452317ed',1,'etl']]],
   ['intptr_5ft',['intptr_t',['../namespaceetl.html#ae8d17c473344714004c0dfdcc740c7f0',1,'etl']]],
   ['is_5fconstructible',['is_constructible',['../namespaceetl.html#a55bc1fa71ef93a7cd65389359e61683c',1,'etl']]],
