@@ -1,12 +1,12 @@
 <map id="etl/limits.hpp" name="etl/limits.hpp">
-<area shape="rect" id="node2" href="$cfloat_8hpp.html" title="cfloat.hpp" alt="" coords="189,80,276,107"/>
-<area shape="rect" id="node3" href="$climits_8hpp.html" title="climits.hpp" alt="" coords="300,80,395,107"/>
-<area shape="rect" id="node4" href="$cmath_8hpp.html" title="cmath.hpp" alt="" coords="419,80,510,107"/>
-<area shape="rect" id="node10" href="$cstdint_8hpp.html" title="cstdint.hpp" alt="" coords="535,80,629,107"/>
+<area shape="rect" id="node2" href="$cfloat_8hpp.html" title="etl/cfloat.hpp" alt="" coords="123,80,230,107"/>
+<area shape="rect" id="node3" href="$climits_8hpp.html" title="etl/climits.hpp" alt="" coords="254,80,369,107"/>
+<area shape="rect" id="node4" href="$cmath_8hpp.html" title="etl/cmath.hpp" alt="" coords="393,80,505,107"/>
+<area shape="rect" id="node10" href="$cstdint_8hpp.html" title="etl/cstdint.hpp" alt="" coords="529,80,643,107"/>
 <area shape="rect" id="node5" href="$type__traits_8hpp.html" title="etl/type_traits.hpp" alt="" coords="219,155,361,181"/>
 <area shape="rect" id="node8" href="$sfinae_8hpp.html" title="etl/detail/sfinae.hpp" alt="" coords="392,237,543,263"/>
 <area shape="rect" id="node6" href="$cstddef__internal_8hpp.html" title="etl/detail/cstddef\l_internal.hpp" alt="" coords="5,229,137,271"/>
 <area shape="rect" id="node7" href="$intrinsics_8hpp.html" title="etl/detail/intrinsics.hpp" alt="" coords="147,319,318,345"/>
 <area shape="rect" id="node9" href="$type__traits__decl_8hpp.html" title="etl/detail/type_traits\l_decl.hpp" alt="" coords="213,229,367,271"/>
-<area shape="rect" id="node11" href="$version_8hpp.html" title="version.hpp" alt="" coords="618,155,717,181"/>
+<area shape="rect" id="node11" href="$version_8hpp.html" title="etl/version.hpp" alt="" coords="619,155,737,181"/>
 </map>
