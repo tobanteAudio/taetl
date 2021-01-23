@@ -1,3 +1,3 @@
 <map id="Graphical Class Hierarchy" name="Graphical Class Hierarchy">
-<area shape="rect" id="node1" href="$classetl_1_1reverse__iterator.html" title="etl::reverse_iterator is an iterator adaptor that reverses the direction of a given iterator..." alt="" coords="5,5,156,47"/>
+<area shape="rect" id="node1" href="$structetl_1_1remove__volatile.html" title="Provides the member typedef type which is the same as T, except that its topmost cv&#45;qualifiers are re..." alt="" coords="5,5,159,47"/>
 </map>

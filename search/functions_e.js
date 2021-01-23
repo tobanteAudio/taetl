@@ -8,6 +8,7 @@ var searchData=
   ['piecewise_5fconstruct_5ft',['piecewise_construct_t',['../structetl_1_1piecewise__construct__t.html#ac6e288abe7b8428f5a6de7fb25f83492',1,'etl::piecewise_construct_t']]],
   ['pipe',['pipe',['../structetl_1_1dsp_1_1pipe.html#a1946e8495b4be7160b9dfe21748ad0da',1,'etl::dsp::pipe']]],
   ['place_5fat',['place_at',['../structetl_1_1hardware_1_1stm32_1_1port.html#a7e4f7557d7501c8561c92f1697a7ecb5',1,'etl::hardware::stm32::port']]],
+  ['pointer_5fto',['pointer_to',['../structetl_1_1pointer__traits.html#af55b2d255e438bd3c8752c84da4302a7',1,'etl::pointer_traits::pointer_to()'],['../structetl_1_1pointer__traits_3_01T_01_5_01_4.html#a348f0b1d7b2681968743861bfbeaa481',1,'etl::pointer_traits&lt; T * &gt;::pointer_to()']]],
   ['pop',['pop',['../classetl_1_1stack.html#a8bedb212808568590b16a6fabe3f9a3c',1,'etl::stack']]],
   ['pop_5fback',['pop_back',['../classetl_1_1basic__static__string.html#af6096cc50af6b788a416f4fc1ce3707b',1,'etl::basic_static_string']]],
   ['popcount',['popcount',['../namespaceetl.html#a39836025a57eab2221b529b3dfa37bc3',1,'etl']]],
